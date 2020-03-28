@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -29,53 +29,62 @@ Bekijk de nieuwe functies, verbeteringen, kritieke problemen die zijn opgelost e
 
 Met de Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Merkportal biedt gebruikers de mogelijkheid om in door het bedrijf goedgekeurde indelingen te zoeken, te bekijken, voor te vertonen, te downloaden en te exporteren, altijd en overal.
 
-## What&#39;s New in 6.4.6 {#what-s-new-in-646}
+## Nieuwe functies in 6.4.6 {#what-s-new-in-646}
 
 ### Nieuwe functies {#new-feature}
 
-This release includes the following new features:
+Deze release bevat de volgende nieuwe functies:
 
 * Captcha voor gastaanmelding bij Brand Portal. Zie, de toegang [van de gast van het Portaal van het](../using/guest-access.md) Merk voor meer informatie.
 
 ### Verbeteringen {#enhancements-646}
 
-This release of Brand Portal includes the following enhancements:
+Deze release van Brand Portal bevat de volgende verbeteringen:
 
-* AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
+* AEM Assets is nu geconfigureerd met Brand Portal via Adobe I/O, dat een IMS token aanschaft voor toestemming van uw Pantaarn voor merken.
 
    >[!NOTE]
    >
-   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
+   >Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configureren via Adobe I/O.
 
 
-For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
+   >[!TIP]
+   >
+   >***Alleen bestaande klanten***
+   >
+   >Het wordt geadviseerd om bestaande oudere configuratie van de Gateway te blijven gebruiken OAuth. Als er problemen optreden met de oudere OAuth Gateway-configuratie, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via Adobe I/O.
+
+
+Zie AEM-elementen [configureren met Brand Portal voor meer informatie](configure-aem-assets-with-brand-portal.md)
 
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
-This release includes fixes to the following critical issues:
+Deze release bevat oplossingen voor de volgende kritieke problemen:
 
-* Metadata schema drop-down values are not visible in asset properties.
+* Vervolgkeuzemenu&#39;s van het metagegevensschema zijn niet zichtbaar in de eigenschappen van elementen.
 
-* Metadata subschema do not display tabs based on mimetype in asset properties.
+* In het subschema Metagegevens worden geen tabbladen weergegeven die zijn gebaseerd op mimetype in eigenschappen van elementen.
 
-* Unpublish metadata schema populates an error message although the schema is removed at backend.
+* Als u het schema voor metagegevens niet publiceert, wordt een foutbericht weergegeven, maar wordt het schema op de achtergrond verwijderd.
 
-* Preview image do not display for a published asset.
+* Voorvertoningsafbeelding wordt niet weergegeven voor een gepubliceerd element.
 
-* User is unable to publish or unpublish assets containing single quote in the name.
+* De gebruiker kan geen activa publiceren of unpublish die één enkel citaat in de naam bevatten.
 
-* Terms and conditions do not display while downloading multiple assets.
+* De voorwaarden worden niet weergegeven tijdens het downloaden van meerdere elementen.
 
 * Kleine beveiligingskwetsbaarheden verholpen.
 
-### Known Issues {#known-issues}
+### Bekende problemen {#known-issues}
 
-This release includes the following known issues:
+Deze release bevat de volgende bekende problemen:
 
-* Exlude System Renditions option is not working properly while downloading an asset.
+* Gebruikers van het Brand Portal kunnen geen middelen uit de bijdragemap publiceren naar AEM Assets tijdens de upgrade naar de Adobe I/O-versie.
 
-## Languages {#languages}
+* De optie Uitsluiten van systeemuitvoeringen werkt niet correct tijdens het downloaden van een element.
+
+## Talen {#languages}
 
 De gebruikersinterface van het Merk Portal is beschikbaar in de volgende talen:
 
@@ -86,10 +95,10 @@ De gebruikersinterface van het Merk Portal is beschikbaar in de volgende talen:
 * Italiaans
 * Braziliaans Portugees
 * Japans
-* Simplified Chinese
+* Vereenvoudigd Chinees
 * Koreaans
 
-## Certified Platforms {#certified-platforms}
+## Gecertificeerde platforms {#certified-platforms}
 
 Als u wilt weten welke platforms zijn gecertificeerd voor uitvoering met deze versie van Brand Portal, raadpleegt u de kolom **Ondersteuning voor voor voor touch geoptimaliseerde interface** in de tabel in het gedeelte **Ondersteunde browsers voor ontwerpen van gebruikersinterface** van [Technische vereisten](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
@@ -102,6 +111,6 @@ Als u wilt weten welke platforms zijn gecertificeerd voor uitvoering met deze ve
 
 Deze sites zijn alleen beschikbaar voor klanten. Neem contact op met uw accountmanager van Adobe als u een klant bent en toegang nodig hebt.
 
-* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) Toegang tot [producten](https://login.marketing.adobe.com)
 
 * [Adobe Klantenservice](https://helpx.adobe.com/contact.html)
