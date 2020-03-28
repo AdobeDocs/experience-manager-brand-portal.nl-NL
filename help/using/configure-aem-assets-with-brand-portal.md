@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -24,9 +24,8 @@ Adobe Experience Manager-middelen (AEM) worden geconfigureerd met Brand Portal v
 >
 >Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configureren via Adobe I/O.
 >
->Als u een bestaande gebruiker van het Portaal van het Merk met configuratie op erfenisOAuth Gateway bent, wordt het geadviseerd om de bestaande configuraties te schrappen en nieuwe configuratie op de I/O van Adobe tot stand te brengen.
->
->Nochtans, zal de bestaande configuratie blijven werken als u niet de configuraties wijzigt.
+>Als u een bestaande klant bent, wordt het geadviseerd om bestaande oudere configuratie van de Gateway te blijven gebruiken OAuth. Als er problemen optreden met de oudere OAuth Gateway-configuratie, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via Adobe I/O.
+
 
 De stappen om AEM Middelen met het Portaal van het Merk te vormen zijn verschillend afhankelijk van uw versie AEM, en of u voor het eerst vormt, of de bestaande configuraties bevordert:
 
