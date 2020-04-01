@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -41,6 +41,18 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 ![Brand Portal Asset Sourting](assets/asset-sourcing.png)
 
+
+>[!NOTE]
+>
+>Als u een gebruiker van AEM 6.5.4 bent, zal de eigenschap van de Verkoop van Activa blijven werken aan de &quot;erfenis integratie OAuth&quot;.
+>
+>Gebruikers van Brand Portal kunnen echter geen middelen uit de bijdragemap naar AEM Assets publiceren bij de upgrade naar Adobe I/O op AEM 6.5.4.
+>
+>Dit probleem wordt opgelost in het volgende servicepack AEM 6.5.5.
+>
+>Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de auteurinstantie te installeren.
+
+
 ## Vereisten {#prerequisites}
 
 * AEM 6.5.0.2 of hoger.
@@ -60,4 +72,4 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 * [Elementvereisten downloaden](brand-portal-download-asset-requirements.md)
 * [Nieuwe elementen uploaden naar de bijdragemap](brand-portal-upload-assets-to-contribution-folder.md)
-* [Map met bijdragen publiceren naar AEM-elementen](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Map met bijdragen publiceren naar AEM-middelen](brand-portal-publish-contribution-folder-to-aem-assets.md)
