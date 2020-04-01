@@ -9,16 +9,30 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
 
-# Veelgestelde vragen {#frequently-asked-questions}
+# Frequently Asked Questions {#frequently-asked-questions}
 
 De Veelgestelde vragen over het Brand Portal zijn gericht op de vragen en problemen die eindgebruikers kunnen tegenkomen tijdens het werken met de nieuwste versie van AEM Assets Brand Portal 6.4.5 of eerdere versies.
 
 
+## Veelgestelde vragen over Merknaam 6.4.6 {#faqs-bp646}
+
+**Ques. Het bestaande oudere eindpunt OAuth (`https://legacy-oauth.cloud.adobe.io/login`) werkt niet. Wat zou de mogelijke reden kunnen zijn?**
+
+**Ans.** Verouderde OAuth-configuratie is vervangen. U moet AEM Assets auteursinstanties aan het recentste de dienstpak bevorderen en het vormen gebruikend Adobe IO. Zie AEM-middelen [configureren met Brand Portal](configure-aem-assets-with-brand-portal.md) voor meer informatie. Nochtans, voor Verouderde configuratie OAuth om te werken tot u bevordert, werk het Eigen eindpunt OAuth aan `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+**Ques. Ik kan de middelen van de bijdragemap niet publiceren van Brand Portal naar AEM Assets na een upgrade naar Adobe I/O. Mijn auteur-exemplaar bevindt zich op AEM 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
+
+**Ans.** Ja, er is een bekend probleem bij het publiceren van de middelen van de bijdragemap naar AEM Assets op AEM 6.5.4 met Adobe I/O. Dit probleem wordt opgelost in het volgende servicepack AEM 6.5.5.
+
+Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de AEM-auteurinstantie te installeren.
+
+
+## Veelgestelde vragen over Merknaam 6.4.5 {#faqs-bp645}
 
 **Ques. Wat is de grote verandering in de release van Brand Portal 6.4.5?**
 
@@ -108,7 +122,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Waar zie ik de status van import en publicatie van banen?**
 
-**Ans.** In AEM, kunt u de status van het invoeren in **async** baanpagina zien. In Brand Portal ziet u de status van een publicatietaak in **[!UICONTROL Tools > Asset Contribution status]**.
+**Ans.** In AEM, kunt u de status van het invoeren in **async** baanpagina zien. In Brand Portal ziet u de status van een publicatietaak in **[!UICONTROL Gereedschappen > Status]** Asset Contribution.
 
 
 
