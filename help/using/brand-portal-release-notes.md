@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Deze release van Brand Portal bevat de volgende verbeteringen:
    >Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configureren via Adobe I/O.
 
 
-   >[!TIP]
-   >
-   >***Alleen bestaande klanten***
-   >
-   >Het wordt geadviseerd om bestaande oudere configuratie van de Gateway te blijven gebruiken OAuth. Als er problemen optreden met de oudere OAuth Gateway-configuratie, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via Adobe I/O.
+>[!TIP]
+>
+>***Alleen voor bestaande klanten***
+>
+>Het wordt geadviseerd om bestaande oudere configuratie van de Gateway te blijven gebruiken OAuth. Als u problemen ondervindt met de oudere OAuth Gateway-configuratie, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via Adobe I/O.
 
 
 Zie AEM-elementen [configureren met Brand Portal voor meer informatie](configure-aem-assets-with-brand-portal.md)
-
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 Deze release bevat de volgende bekende problemen:
 
-* Gebruikers van het Brand Portal kunnen geen middelen uit de bijdragemap publiceren naar AEM Assets tijdens de upgrade naar de Adobe I/O-versie.
+* Gebruikers van Brand Portal kunnen geen middelen uit de bijdragemap publiceren naar AEM Assets bij de upgrade naar Adobe I/O op AEM 6.5.4.
 
-* De optie Uitsluiten van systeemuitvoeringen werkt niet correct tijdens het downloaden van een element.
+   Dit probleem wordt opgelost in het volgende servicepack 6.5.5.
+
+   Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de auteurinstantie te installeren.
+
+* De optie Systeemuitvoeringen uitsluiten werkt niet correct tijdens het downloaden van een element.
+
 
 ## Talen {#languages}
 
