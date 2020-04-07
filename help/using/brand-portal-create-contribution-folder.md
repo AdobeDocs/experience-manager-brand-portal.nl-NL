@@ -5,11 +5,12 @@ description: 'Lees meer over het maken van een bijdragemap in AEM Assets. '
 seo-description: Lees meer over het maken van een bijdragemap in AEM Assets.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -21,14 +22,14 @@ Als u een map **Contribution** wilt maken, maakt u een nieuwe map van het type *
 
 **Een nieuwe map voor bijdragen maken:**
 1. Aanmelden bij de instantie van uw AEM-auteurStandaard-URL: http:// localhost:4502/aem/start.html
-1. Navigeer naar **[!UICONTROL Assets > Files]** Deze map bevat een lijst met alle bestaande mappen in de AEM Assets-opslagplaats.
-1. Klik **[!UICONTROL Create]** om een nieuwe map te maken. Het pop-upvenster Map maken wordt geopend.
-1. Voer **[!UICONTROL Title]** de map in, typ **[!UICONTROL Name]** de map en markeer het selectievakje **[!UICONTROL Asset Contribution]**.
+1. Navigeer naar **[!UICONTROL Middelen > Bestanden]**. Hierin worden alle bestaande mappen in de AEM Assets-opslagplaats vermeld.
+1. Klik op **[!UICONTROL Maken]** om een nieuwe map te maken. Het pop-upvenster Map maken wordt geopend.
+1. Voer **[!UICONTROL Titel]** en **[!UICONTROL Naam]** van de map in en markeer het selectievakje **[!UICONTROL Asset Contribution]**.
 U wordt aangeraden kleine alfabeten zonder spatie te gebruiken om de map een naam te geven.
-1. Klik op **[!UICONTROL Create]**.
+1. Klik op **[!UICONTROL Maken]**.
    ![](assets/create-contribution-folder.png)
 1. U kunt de nieuwe bijdragemap zien in de AEM Assets-opslagplaats.
-1. Klik om de map met bijdragen te openen. Er worden twee submappen **[!UICONTROL SHARED]** weergegeven en deze **[!UICONTROL NEW]** worden automatisch gemaakt in de map met bijdragen.\
+1. Klik om de map met bijdragen te openen. Er worden automatisch twee submappen **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** gemaakt in de map met bijdragen.\
    ![](assets/contribution-folder.png)
 
 U kunt nu de eigenschappen van de map Contribution configureren. Zie [Eigenschappen](brand-portal-configure-contribution-folder-properties.md)voor Contribute-mappen configureren.
