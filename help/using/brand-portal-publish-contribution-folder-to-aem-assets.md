@@ -5,16 +5,17 @@ description: Krijg inzicht in het publiceren van de bijdragemap naar AEM Assets 
 seo-description: Krijg inzicht in het publiceren van de bijdragemap naar AEM Assets in Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
 
-# Map met bijdragen publiceren naar AEM-elementen {#publish-contribution-folder-to-aem}
+# Map met bijdragen publiceren naar AEM-middelen {#publish-contribution-folder-to-aem}
 
 Gebruikers van het Brand Portal kunnen de map met bijdragen publiceren naar AEM Assets zonder toegang tot de instantie van AEM-auteurs te hoeven hebben.
 
@@ -24,7 +25,7 @@ Controleer of u de [elementvereisten](brand-portal-download-asset-requirements.m
 
 1. Meld u aan bij uw Brand Portal-instantie.
 1. Selecteer de bijdragemap in het dashboard voor het Brand Portal.
-1. Klik op **[!UICONTROL Publish to AEM]** ![](assets/export.png).
+1. Klik op **[!UICONTROL Publiceren naar AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Een e-mail-/pulsmelding wordt verzonden naar het Brand Portal en AEM, beheerder en gebruiker in verschillende stadia van de publicatieworkflow:
