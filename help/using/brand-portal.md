@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -33,13 +33,13 @@ Adobe Experience Manager-middelen (AEM) worden geconfigureerd met Brand Portal v
 
 >[!NOTE]
 >
->Het configureren van AEM-middelen met Brand Portal via Adobe I/O wordt ondersteund op AEM 6.3 en hoger.
+>AEM Assets configureren met Brand Portal via Adobe I/O wordt ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger.
 
 ### Vereisten om AEM-middelen te configureren met Brand Portal {#prerequisites}
 
 U hebt het volgende nodig om AEM-middelen te configureren met Brand Portal:
 
-* Een up-to-run AEM Assets auteurinstantie met het nieuwste Service Pack.
+* Een AEM Assets-instantie die wordt uitgevoerd.
 * URL van medewerker van Brand Portal.
 * Een gebruiker met de bevoegdheden van de systeembeheerder op de IMS-organisatie van de Poorthuurder van het Merk.
 
@@ -67,9 +67,9 @@ De volgende lijst maakt een lijst van de taken die de gebruikers in deze rollen 
 
 ### Gastgebruiker {#guest-user}
 
-Om het even welke gebruiker die beperkte toegang tot activa op het Portaal van het Merk heeft zonder authentificatie te ondergaan is een gastgebruiker. De gastzitting staat gebruikers toegang tot openbare omslagen en inzamelingen toe. Als gastgebruiker, kunt u door activa details doorbladeren en volledige activamening van leden van openbare omslagen en inzamelingen hebben. U kunt openbare middelen zoeken, downloaden en aan [!UICONTROL Lightbox] inzameling toevoegen.
+Om het even welke gebruiker die beperkte toegang tot activa op het Portaal van het Merk heeft zonder authentificatie te ondergaan is een gastgebruiker. De gastzitting staat gebruikers toegang tot openbare omslagen en inzamelingen toe. Als gastgebruiker, kunt u door activa details doorbladeren en volledige activamening van leden van openbare omslagen en inzamelingen hebben. U kunt openbare middelen zoeken, downloaden en toevoegen aan [!UICONTROL lichtbakverzameling] .
 
-De gastsessie beperkt u echter het maken van verzamelingen en opgeslagen zoekopdrachten en deelt deze verder. Gebruikers in een gastsessie hebben geen toegang tot de instellingen voor mappen en verzamelingen en kunnen hun middelen niet als koppeling delen. Hier is een lijst van taken die een gastgebruiker kan uitvoeren:
+De gastsessie beperkt u echter het maken van verzamelingen en opgeslagen zoekopdrachten en deelt deze verder. Gebruikers in een gastsessie hebben geen toegang tot de instellingen voor mappen en verzamelingen en kunnen geen elementen delen als koppeling. Hier is een lijst van taken die een gastgebruiker kan uitvoeren:
 
 [Bladeren en openbare middelen openen](browse-assets-brand-portal.md)
 
@@ -77,7 +77,7 @@ De gastsessie beperkt u echter het maken van verzamelingen en opgeslagen zoekopd
 
 [Overheidsmiddelen downloaden](brand-portal-download-users.md)
 
-[Elementen toevoegen aan [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Elementen toevoegen aan [!UICONTROL lichtbak]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Viewer {#viewer}
 
@@ -103,7 +103,7 @@ Naast de taken die een Viewer kan uitvoeren, kan een Editor de volgende extra ta
 
 ### Beheerder {#administrator}
 
-Een beheerder omvat een gebruiker duidelijk als systeembeheerder of Poortbeheerder van het Merk Poortproduct binnen [!UICONTROL Admin Console]. Een beheerder kan systeembeheerders en gebruikers toevoegen en verwijderen, voorinstellingen definiëren, e-mail verzenden naar gebruikers en portaalgebruik en opslagrapporten weergeven.
+Een beheerder bevat een gebruiker die is gemarkeerd als systeembeheerder of beheerder van het Brand Portal-product in de [!UICONTROL beheerconsole]. Een beheerder kan systeembeheerders en gebruikers toevoegen en verwijderen, voorinstellingen definiëren, e-mail verzenden naar gebruikers en portaalgebruik en opslagrapporten weergeven.
 
 Een beheerder kan alle taken uitvoeren die een Redacteur de volgende extra taken kan uitvoeren:
 
@@ -130,7 +130,7 @@ Naast de bovenstaande taken kan een auteur in AEM Assets de volgende taken uitvo
 ## Alternatieve alias voor Brand Portal-URL {#tenant-alias-for-portal-url}
 
 Merkportal 6.4.3 en hoger kunnen organisaties één alternatieve (alias) URL hebben voor de bestaande URL van hun Poorthuurder. De alias-URL kan worden gemaakt door een alternatief voorvoegsel in de URL te plaatsen.\
-Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL. Een organisatie met een bestaand domein **[!UICONTROL geomettrix.brand-portal.adobe.com]** kan bijvoorbeeld op verzoek worden **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** gemaakt.
+Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL. Zo kan een organisatie met bestaande domeingeomettrix. **[!UICONTROL brand-portal.adobe.com]** op verzoek **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** maken.
 
 Nochtans, kan de instantie van de Auteur AEM slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselende) URL worden [gevormd](../using/configure-aem-assets-with-brand-portal.md) .
 
@@ -142,40 +142,40 @@ Nochtans, kan de instantie van de Auteur AEM slechts met huurder identiteitskaar
 
 ## Toegang aanvragen tot Brand Portal {#request-access-to-brand-portal}
 
-Gebruikers kunnen toegang tot het Brand Portal aanvragen via het aanmeldingsscherm. Deze aanvragen worden verzonden naar beheerders van het Brand Portal, die via Adobe toegang verlenen aan gebruikers [!UICONTROL Admin Console]. Nadat toegang is verleend, ontvangen gebruikers een e-mailbericht.
+Gebruikers kunnen toegang tot het Brand Portal aanvragen via het aanmeldingsscherm. Deze aanvragen worden verzonden naar beheerders van het Brand Portal, die via de Adobe [!UICONTROL Admin Console]toegang verlenen aan gebruikers. Nadat toegang is verleend, ontvangen gebruikers een e-mailbericht.
 
 Ga als volgt te werk om toegang aan te vragen:
 
-1. Selecteer op de aanmeldingspagina Merk Portal de optie **[!UICONTROL Click here]** voor **[!UICONTROL Need Access?]**. Nochtans, om de gastzitting in te gaan, selecteer het **[!UICONTROL Click here]** overeenkomstige aan **[!UICONTROL Guest Access?]**.
+1. Van de de login pagina van het Portaal van het Merk, uitgezochte **[!UICONTROL Klik hier]** die aan Toegang beantwoordt **[!UICONTROL nodig?]**. Nochtans, om de gastzitting in te gaan, selecteer **[!UICONTROL Klik hier]** die aan de Toegang van de **[!UICONTROL Gast beantwoordt?]**.
 
    ![Meldingsscherm voor portal Merk](assets/bp-login-requestaccess.png)
 
-   De [!UICONTROL Request Access] pagina wordt geopend.
+   De pagina [!UICONTROL Verzoek om toegang] wordt geopend.
 
-1. Om toegang tot het Portaal van het Merk van een organisatie te verzoeken, moet u geldig [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], of [!UICONTROL Federated ID]. hebben
+1. Als u toegang wilt aanvragen tot het Brand Portal van een organisatie, hebt u een geldige [!UICONTROL Adobe-id], [!UICONTROL Enterprise-id]of [!UICONTROL federated-id]nodig.
 
-   Meld u in de [!UICONTROL Request Access] pagina aan met uw id (scenario 1) of maak een [!UICONTROL Adobe ID] (scenario 2):<br />
-   ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
+   Meld u aan met uw id (scenario 1) of maak een [!UICONTROL Adobe-id] (scenario 2) op de pagina Toegang  aanvragen:<br />
+   ![[!UICONTROL Toegang aanvragen]](assets/bplogin_request_access_2.png)
 
    **Scenario 1**
-   1. Als u een [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], of [!UICONTROL Federated ID], klik hebt **[!UICONTROL Sign In]**.
-De [!UICONTROL Sign in] pagina wordt geopend.
-   1. Geef uw [!UICONTROL Adobe ID] gegevens op en klik op **[!UICONTROL Sign in]**.<br />
+   1. Als u een [!UICONTROL Adobe-id], [!UICONTROL Enterprise-id]of [!UICONTROL federatieve id]hebt, klikt u op **[!UICONTROL Aanmelden]**.
+De pagina [!UICONTROL Aanmelden] wordt geopend.
+   1. Geef uw [!UICONTROL Adobe-id] gegevens op en klik op **[!UICONTROL Aanmelden]**.<br />
    ![Adobe-aanmelding](assets/bplogin_request_access_3.png)
 
-   U wordt omgeleid naar de [!UICONTROL Request Access] pagina.<br />
+   U wordt omgeleid naar de pagina [!UICONTROL Verzoek om toegang] .<br />
    **Scenario 2**
-   1. Als u geen [!UICONTROL Adobe ID], om één te creëren hebt, klik **[!UICONTROL Get an Adobe ID]** van de [!UICONTROL Request Access] pagina.
-De [!UICONTROL Sign in] pagina wordt geopend.
-   1. Klik op **[!UICONTROL Get an Adobe ID]**.
-De [!UICONTROL Sign up] pagina wordt geopend.
+   1. Als u geen [!UICONTROL Adobe-id]hebt, klikt u op **[!UICONTROL Een Adobe-id]** ophalen op de pagina [!UICONTROL Toegang] aanvragen om een Adobe-id te maken.
+De pagina [!UICONTROL Aanmelden] wordt geopend.
+   1. Klik op Een Adobe-id **[!UICONTROL ophalen]**.
+De pagina [!UICONTROL Aanmelden] wordt geopend.
    1. Voer uw voornaam en achternaam, e-mailadres en wachtwoord in.
-   1. Selecteer **[!UICONTROL Sign up]**.<br />
+   1. Selecteer **[!UICONTROL Aanmelden]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
-   U wordt omgeleid naar de [!UICONTROL Request Access] pagina.
+   U wordt omgeleid naar de pagina [!UICONTROL Verzoek om toegang] .
 
-1. Op de volgende pagina worden uw naam en e-mailadres weergegeven waarmee u toegang kunt aanvragen. Laat een opmerking staan voor de beheerder en klik op **[!UICONTROL Submit]**.<br />
+1. Op de volgende pagina worden uw naam en e-mailadres weergegeven waarmee u toegang kunt aanvragen. Laat een opmerking staan voor de beheerder en klik op **[!UICONTROL Verzenden]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -185,23 +185,23 @@ Merk Portal-productbeheerders ontvangen toegangsverzoeken in hun Merkortaal-syst
 
 ![Toegang aangevraagd bericht](assets/bplogin_request_access_7.png)
 
-Om toegang te verlenen, moeten de productbeheerders de relevante melding in het Poortmeldingsgebied van het Merk klikken en dan klikken **[!UICONTROL Grant Access]**.
-Productbeheerders kunnen ook de koppeling in de e-mail met het toegangsverzoek volgen om Adobe te bezoeken [!UICONTROL Admin Console] en de gebruiker toe te voegen aan de relevante productconfiguratie.
+Om toegang te verlenen, moeten de productbeheerders de relevante melding in het Poortmeldingsgebied van het Merk klikken en dan Toegang ****verlenen klikken.
+Productbeheerders kunnen ook de koppeling in de e-mail met het toegangsverzoek volgen om naar Adobe [!UICONTROL Admin Console] te gaan en de gebruiker aan de relevante productconfiguratie toe te voegen.
 
-U wordt omgeleid naar de startpagina van [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Met Adobe kunt u gebruikers maken en deze toewijzen [!UICONTROL Admin Console] aan productprofielen (voorheen productconfiguraties genoemd) die als groepen worden weergegeven in Brand Portal. Voor meer informatie over het toevoegen van gebruikers binnen [!UICONTROL Admin Console], zie [Voeg een gebruiker](brand-portal-adding-users.md#add-a-user) (volg Stappen 4-7 in de procedure toe om een gebruiker toe te voegen) toe.
+U wordt omgeleid naar de startpagina van de [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Met Adobe [!UICONTROL Admin Console] kunt u gebruikers maken en deze toewijzen aan productprofielen (voorheen bekend als productconfiguraties) die als groepen in Brand Portal worden weergegeven. Voor meer informatie over het toevoegen van gebruikers in [!UICONTROL Console]Admin, zie een gebruiker [](brand-portal-adding-users.md#add-a-user) toevoegen (stap 4-7 in de procedure volgen om een gebruiker toe te voegen).
 
 ## Merkporttalen {#brand-portal-language}
 
-U kunt de Brand Portal-taal wijzigen van Adobe [!UICONTROL Experience Cloud Settings].
+U kunt de Brand Portal-taal wijzigen vanuit Adobe [!UICONTROL Experience Cloud Settings].
 
 ![Toegang aangevraagd bericht](assets/BPLang.png)
 
 De taal wijzigen:
 
-1. Selecteer [!UICONTROL User] > in het [!UICONTROL Edit Profile] bovenste menu.<br />
+1. Selecteer [!UICONTROL Gebruiker] > Profiel  bewerken in het bovenste menu.<br />
    ![Profiel bewerken](assets/EditBPProfile.png)
 
-1. Selecteer op [!UICONTROL Experience Cloud Settings] de pagina een taal in het [!UICONTROL Language] keuzemenu.
+1. Selecteer op de pagina Instellingen [!UICONTROL van] Experience Cloud een taal in het keuzemenu [!UICONTROL Taal] .
 
 ## Meldingen over onderhoud aan Brand Portal {#brand-portal-maintenance-notification}
 
@@ -214,7 +214,7 @@ U kunt dit bericht negeren en doorgaan met het gebruik van Brand Portal. Deze me
 ## Vrijgave en systeeminformatie {#release-and-system-information}
 
 * [Nieuwe functies](whats-new.md)
-* [Releaseopmerkingen](brand-portal-release-notes.md)
+* [Release-opmerkingen](brand-portal-release-notes.md)
 * [Ondersteunde bestandsindelingen](brand-portal-supported-formats.md)
 
 ## Gerelateerde bronnen {#related-resources}
