@@ -5,11 +5,12 @@ description: Meer informatie over de functie voor het aanschaffen van bedrijfsmi
 seo-description: Meer informatie over de functie voor het aanschaffen van bedrijfsmiddelen die beschikbaar is in de Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 product: experience-manager
-sub-product: assets
+sub-product: elementen
 feature: brand-portal
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -18,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -72,4 +73,4 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 * [Elementvereisten downloaden](brand-portal-download-asset-requirements.md)
 * [Nieuwe elementen uploaden naar de bijdragemap](brand-portal-upload-assets-to-contribution-folder.md)
-* [Map met bijdragen publiceren naar AEM-middelen](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Map met bijdragen publiceren naar AEM-elementen](brand-portal-publish-contribution-folder-to-aem-assets.md)
