@@ -5,11 +5,12 @@ description: Krijg inzicht in het configureren van de functie voor het aanschaff
 seo-description: Krijg inzicht in het configureren van de functie voor het aanschaffen van bedrijfsmiddelen in AEM Assets.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -33,10 +34,10 @@ AEM-beheerders kunnen Asset Sourcing inschakelen vanuit de configuratie van de A
 
 **Asset Sourcing inschakelen:**
 1. Meld u aan bij de instantie van uw AEM-auteur en open Configuration ManagerDefault URL: http:// localhost:4502/system/console/configMgr
-1. Zoeken met het trefwoord **Asset Sourcing** om te zoeken **[!UICONTROL Asset Sourcing Feature Flag Config]**
-1. Klik **[!UICONTROL Asset Sourcing Feature Flag Config]** om het configuratievenster te openen
-1. Selectievakje inschakelen **[!UICONTROL feature.flag.active.status]**
-1. Klik op **[!UICONTROL Save]**.
+1. Zoeken met het trefwoord **Asset Sourcing** om **[!UICONTROL Asset Sourcing Feature Flag Config te vinden]**
+1. Klik op Vlag Config **[!UICONTROL voor]** element-bronfunctie om het configuratievenster te openen
+1. Selectievakje **[!UICONTROL feature.flag.active.status inschakelen]**
+1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
 
@@ -52,11 +53,11 @@ Beheerders kunnen nieuwe gebruikers toevoegen in AEM Admin Console. Raadpleeg Ge
 
 **Ga als volgt te werk om de gebruikerslijst van Brand Portal te uploaden:**
 1. Aanmelden bij de instantie van uw AEM-auteurStandaard-URL: http:// localhost:4502/aem/start.html
-1. Navigeer vanuit het **deelvenster Gereedschappen** ![](assets/tools.png) naar **[!UICONTROL Assets > Brand Portal Users]**
+1. Navigeer vanuit het **deelvenster Gereedschappen** naar ![](assets/tools.png) **[!UICONTROL Middelen > Poortgebruikers Merk]**
    ![](assets/upload-user-list1.png)
 1. Het venster Contribuanten uploaden naar Brand Portal wordt geopend.
-Blader vanaf uw lokale computer en upload het **configuratiebestand** (.csv) met de actieve gebruikerslijst voor het Brand Portal.
-1. Klik op **[!UICONTROL Save]**.
+Blader vanaf uw lokale computer en upload het **configuratiebestand** (.csv) met de actieve gebruikerslijst van het Brand Portal.
+1. Click **[!UICONTROL Save]**.
    ![](assets/upload-user-list2.png)
 
 
