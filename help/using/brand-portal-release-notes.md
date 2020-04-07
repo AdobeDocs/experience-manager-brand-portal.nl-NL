@@ -1,20 +1,21 @@
 ---
-title: Releaseopmerkingen
-seo-title: Releaseopmerkingen
+title: Release-opmerkingen
+seo-title: Release-opmerkingen
 description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.
 seo-description: Bekijk de verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
 
-# Releaseopmerkingen {#release-notes}
+# Release-opmerkingen {#release-notes}
 
 Bekijk de nieuwe functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.
 
@@ -37,11 +38,14 @@ Deze release bevat de volgende nieuwe functies:
 
 * Captcha voor gastaanmelding bij Brand Portal. Zie, de toegang [van de gast van het Portaal van het](../using/guest-access.md) Merk voor meer informatie.
 
+* Brand Portal wordt nu ondersteund door de cloudservice van AEM Assets. U kunt AEM Assets vormen kon met het Portaal van het Merk dienst doen om activa met de gebruikers van het Portaal van het Merk te delen en te verspreiden.
+Zie AEM Assets Cloud Service [configureren met Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html)voor meer informatie.
+
 ### Verbeteringen {#enhancements-646}
 
 Deze release van Brand Portal bevat de volgende verbeteringen:
 
-* AEM Assets is nu geconfigureerd met Brand Portal via Adobe I/O, dat een IMS token aanschaft voor toestemming van uw Pantaarn voor merken.
+* In AEM 6.3 en hoger wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. AEM Assets is nu geconfigureerd met Brand Portal via Adobe I/O, dat een IMS token aanschaft voor toestemming van uw Pantaarn voor merken.
 
    >[!NOTE]
    >
@@ -109,7 +113,7 @@ Als u wilt weten welke platforms zijn gecertificeerd voor uitvoering met deze ve
 ## Koppelingen {#links}
 
 * [Productpagina van Adobe Experience Manager op adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Merknaam van bedrijfsmiddelen — Documentatie](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Merknaam van bedrijfsmiddelen — Documentatie](https://helpx.adobe.com/nl/experience-manager/brand-portal/user-guide.html)
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 
