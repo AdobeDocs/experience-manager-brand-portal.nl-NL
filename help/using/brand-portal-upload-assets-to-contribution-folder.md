@@ -5,11 +5,12 @@ description: Krijg inzicht in het uploaden van nieuwe activa naar de bijdrageoms
 seo-description: Krijg inzicht in het uploaden van nieuwe activa naar de bijdrageomslag in Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -30,12 +31,12 @@ Gebruikers van het Brand Portal kunnen vervolgens nieuwe middelen maken voor een
 
 1. Meld u aan bij uw Brand Portal-instantie.
 Het dashboard voor Brand Portal weerspiegelt alle bestaande mappen die zijn toegestaan aan de gebruiker van het Brand Portal en de nieuw gedeelde bijdragemap.
-1. Klik om de map met bijdragen te openen. Er worden twee submappen **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met bijdragen weergegeven.
-1. Klik op **[!UICONTROL NEW]** map.
+1. Klik om de map met bijdragen te openen. Er worden twee submappen **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** weergegeven in de map met bijdragen.
+1. Klik op **[!UICONTROL NIEUWE]** map.
    ![](assets/upload-new-assets1.png)
-1. Klik **[!UICONTROL Create > Files]** ![](assets/upload.png) om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
+1. Klik op **[!UICONTROL Maken > Bestanden]** ![](assets/upload.png) om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
    ![](assets/upload-new-assets2.png)
-1. Blader naar en upload nieuwe elementen (bestanden/mappen) in de **[!UICONTROL NEW]** map.
+1. Blader naar en upload nieuwe elementen (bestanden/mappen) in de map **[!UICONTROL NEW]** .
    ![](assets/upload-new-assets3.png)
 
 Wanneer het uploaden is voltooid, kan de gebruiker van het Brand Portal de map met bijdragen weer publiceren naar AEM Assets. Zie de map met bijdragen [publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
