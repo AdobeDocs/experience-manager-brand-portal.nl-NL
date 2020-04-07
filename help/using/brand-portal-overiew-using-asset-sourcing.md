@@ -5,11 +5,12 @@ description: Bekijk hoe u de functie Asset Sourcing kunt gebruiken, elementen ku
 seo-description: Bekijk hoe u de functie Asset Sourcing kunt gebruiken, elementen kunt uploaden naar de map met bijdragen en de map met bijdragen kunt publiceren naar AEM Assets in Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,4 +23,4 @@ De gebruiker van het Portaal van het merk die toestemming heeft om tot de bijdra
 
 * [Elementvereisten downloaden](brand-portal-download-asset-requirements.md)
 * [Nieuwe elementen uploaden naar de map voor bijdragen](brand-portal-upload-assets-to-contribution-folder.md)
-* [Map met bijdragen publiceren naar AEM-middelen](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Map met bijdragen publiceren naar AEM-elementen](brand-portal-publish-contribution-folder-to-aem-assets.md)
