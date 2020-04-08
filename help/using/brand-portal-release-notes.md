@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -39,7 +39,7 @@ Deze release bevat de volgende nieuwe functies:
 * Captcha voor gastaanmelding bij Brand Portal. Zie, de toegang [van de gast van het Portaal van het](../using/guest-access.md) Merk voor meer informatie.
 
 * Brand Portal wordt nu ondersteund door de cloudservice van AEM Assets. U kunt AEM Assets vormen kon met het Portaal van het Merk dienst doen om activa met de gebruikers van het Portaal van het Merk te delen en te verspreiden.
-Zie AEM Assets Cloud Service [configureren met Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html)voor meer informatie.
+Zie AEM Assets Cloud Service [configureren met Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)voor meer informatie.
 
 ### Verbeteringen {#enhancements-646}
 
