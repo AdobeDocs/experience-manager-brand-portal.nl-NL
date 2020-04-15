@@ -9,22 +9,22 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Problemen met parallelle publicatie naar Brand Portal oplossen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is geconfigureerd met AEM Assets zodat goedgekeurde merkmiddelen naadloos worden opgenomen (of gepubliceerd) in de auteur-instantie van AEM Assets. Zodra [gevormd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de Auteur AEM een replicatieagent om de geselecteerde activa(en) aan de Poortwolkendienst van het Merk te herhalen voor goedgekeurd gebruik door Poortgebruikers van het Merk. De veelvoudige replicatieagenten worden gebruikt AEM 6.2 SP1-GVB5], AEM GFP 6.3.0.2, en verder om hoge snelheid parallelle publicatie toe te staan.
+Brand Portal is geconfigureerd met AEM Assets zodat goedgekeurde merkmiddelen naadloos worden opgenomen (of gepubliceerd) in de auteur-instantie van AEM Assets. Zodra [gevormd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de Auteur AEM een replicatieagent om de geselecteerde activa(en) aan de Poortwolkendienst van het Merk te herhalen voor goedgekeurd gebruik door Poortgebruikers van het Merk. De veelvoudige replicatieagenten worden gebruikt AEM 6.2 SP1-GFP5, AEM GFP 6.3.0.2, en verder om hoge snelheid parallelle publicatie toe te staan.
 
 >[!NOTE]
 >
 >Adobe raadt aan een upgrade naar AEM 6.4.1.0 uit te voeren om ervoor te zorgen dat AEM Assets Brand Portal correct is geconfigureerd met AEM Assets. Een beperking in AEM 6.4 geeft een fout terwijl het vormen van Middelen AEM met het Portaal van het Merk en de replicatie ontbreekt.
 
-Bij het configureren van de cloudservice voor merkportal onder **[!UICONTROL /etc/cloudservice]**, worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Dit leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen van AEM naar Brand Portal publiceert, worden deze in de wachtrij geplaatst en verdeeld onder deze replicatieagents via Round Robin.
+Bij het configureren van de cloudservice voor merkportal onder **[!UICONTROL /etc/cloudservice]** worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Dit leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen van AEM naar Brand Portal publiceert, worden deze in de wachtrij geplaatst en verdeeld onder deze replicatieagents via Round Robin.
 
-Publiceren kan echter soms mislukken als gevolg van grote verkooptaken, een verhoogd netwerk en een instantie van AEM-auteur of vertraagde prestaties van de instantie AEM-auteur. **[!UICONTROL Disk I/O]** Daarom wordt aangeraden de verbinding met de replicatieagent(en) te testen voordat met publiceren wordt begonnen.
+Publiceren kan echter tijdelijk mislukken als gevolg van grote verkooptaken, verhoogde I/O **[!UICONTROL van netwerk en]** schijf op de AEM-auteur-instantie of vertraagde prestaties van de AEM-auteur-instantie. Daarom wordt aangeraden de verbinding met de replicatieagent(en) te testen voordat met publiceren wordt begonnen.
 
 ![](assets/test-connection.png)
 
@@ -107,6 +107,6 @@ permission
 
 Als een replicatieagent (die aan merkportaal enkel fijn) publiceert ophoudt verwerkend publicatietaken, controleer replicatielogboeken. AEM heeft ingebouwde auto-retry ingebouwde, zodat als een bepaald middel publiceren ontbreekt, wordt het opnieuw geprobeerd automatisch. Als er een probleem is dat soms voorkomt, zoals een netwerkfout, kan dit probleem tijdens het opnieuw proberen optreden.
 
-Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u moeten controleren **[!UICONTROL test connection]** en proberen om de fouten op te lossen die worden gemeld.
+Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u **[!UICONTROL testverbinding]** moeten controleren en proberen om de fouten op te lossen die worden gemeld.
 
 Gebaseerd op de fouten, wordt u geadviseerd om een steunkaartje te registreren, zodat het de technische team van het Portaal van het Merk u kan helpen kwesties oplossen.
