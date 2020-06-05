@@ -1,6 +1,6 @@
 ---
-title: AEM-middelen configureren met Brand Portal
-seo-title: AEM-middelen configureren met Brand Portal
+title: AEM Assets configureren met Brand Portal
+seo-title: AEM Assets configureren met Brand Portal
 description: Krijg inzicht in het configureren van AEM Assets met Brand Portal.
 seo-description: Krijg inzicht in het configureren van AEM Assets met Brand Portal.
 uuid: null
@@ -10,14 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: dc10879caf91b81deda08682548143c60500fd1b
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 9%
 
 ---
 
 
-# AEM-middelen configureren met Brand Portal {#configure-integration}
+# AEM Assets configureren met Brand Portal {#configure-integration}
 
-Adobe Experience Manager-middelen (AEM) worden geconfigureerd met Brand Portal via Adobe I/O, dat een IMS-token aanschaft voor toestemming van uw Brand Portal-huurder. Brand Portal wordt nu ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger.
+Adobe Experience Manager-middelen (AEM) worden geconfigureerd met Brand Portal via Adobe Developer Console, die een IMS-token aanschaft voor goedkeuring van uw Brand Portal-huurder. Brand Portal wordt nu ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger.
 
 Als u AEM-middelen configureert, kunt u deze gebruiken met het Brand Portal, zodat u elementen kunt publiceren en distribueren met de gebruikers van het Brand Portal. Terwijl het Vormen van het Portaal van het Merk op AEM 6.3 (en hierboven) activa het uitgeven, activadistributie en activa bijdrageeigenschappen voor de gebruikers van het Portaal van het Merk toelaat.
 
@@ -27,14 +30,16 @@ Als u AEM-middelen configureert, kunt u deze gebruiken met het Brand Portal, zod
 >
 >Eerder, werd het Portaal van het Merk gevormd in Klassieke UI via Verouderde Gateway OAuth, die de het symbolenuitwisseling van JWT gebruikt om een token van de Toegang te verkrijgen IMS voor vergunning.
 >
->Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configureren via Adobe I/O.
+>Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configuratie via Adobe Developer Console.
 
 
 >[!TIP]
 >
 >***Alleen voor bestaande klanten***
 >
->Het wordt geadviseerd om bestaande oudere configuratie van de Gateway te blijven gebruiken OAuth. Als er problemen optreden met de oudere OAuth Gateway-configuratie, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via Adobe I/O.
+>De verouderde configuratie van de Gateway OAuth zal blijven werkend voor bestaande klanten.
+>
+>Als u problemen ondervindt met de oudere configuratie van OAuth Gateway, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via de Adobe Developer Console.
 
 
 De stappen om AEM Middelen met het Portaal van het Merk te vormen zijn verschillend afhankelijk van uw versie AEM, en of u voor het eerst vormt, of de bestaande configuraties bevordert:
