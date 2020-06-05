@@ -10,7 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: dc10879caf91b81deda08682548143c60500fd1b
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '4468'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Met de Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedg
 
 ## Wat veranderde in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6 is het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger. In activa 6.3 van AEM en hierboven, werd het Portaal van het Merk vroeger gevormd in Klassieke UI via de Gateway van de Oudheid OAuth, die de het symbolenuitwisseling van JWT gebruikt om een token van de Toegang te verkrijgen IMS voor vergunning. AEM Assets is nu geconfigureerd met Brand Portal via Adobe I/O, dat een IMS token aanschaft voor toestemming van uw Pantaarn voor merken.
+In Brand Portal 6.4.6 is het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger. In activa 6.3 van AEM en hierboven, werd het Portaal van het Merk vroeger gevormd in Klassieke UI via de Gateway van de Oudheid OAuth, die de het symbolenuitwisseling van JWT gebruikt om een token van de Toegang te verkrijgen IMS voor vergunning. AEM Assets wordt nu geconfigureerd met Brand Portal via Adobe Developer Console, die een IMS token aanschaft voor goedkeuring van uw Pantaarn voor merken.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -103,7 +106,7 @@ De gebruikers van het Portaal van het merk met aangewezen toestemmingen kunnen d
 ![](assets/upload-asset4.png)
 
 
-### Map met bijdragen publiceren naar AEM-middelen {#publish-assets-to-aem}
+### Map met bijdragen publiceren naar AEM-elementen {#publish-assets-to-aem}
 
 Wanneer het uploaden is voltooid naar de map **NEW** , kunnen gebruikers van Brand Portal de map met bijdragen weer publiceren naar AEM. Het kan enkele minuten duren om de gepubliceerde inhoud/elementen in AEM Assets te importeren en weer te geven. Zie [bijdragemap publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
@@ -164,7 +167,7 @@ Beheerders kunnen nu configureren hoe de mappen bij het aanmelden worden weergeg
 * **uitgeschakeld**, worden alleen de gedeelde mappen weergegeven op de bestemmingspagina.
 
 ![](assets/enable-folder-hierarchy.png)
-Het**gebruiksgeval**
+**Het gebruiksgeval**
 
 Met de functie Maphiërarchie [](../using/brand-portal-general-configuration.md) inschakelen (indien ingeschakeld) kunt u de mappen onderscheiden met dezelfde namen die worden gedeeld vanuit verschillende hiërarchieën. Bij het aanmelden zien niet-beheerders nu de virtuele bovenliggende mappen (en vooroudermappen) van de gedeelde mappen.
 ![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
@@ -335,9 +338,9 @@ De bovenstaande configuraties zijn beschikbaar onder Toegang en Algemene instell
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Interface van Adobe.io-hosts voor het configureren van Auth-integratie
+### Adobe I/O-interface voor het configureren van Auth-integratie
 
-Brand Portal 6.4.2 en hoger gebruiken de interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) om JWT-toepassing te maken, die het configureren van Auth-integratie mogelijk maakt om AEM Assets-integratie met Brand Portal mogelijk te maken. Eerder werd de interface voor het configureren van OAuth-integratie gehost in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Meer informatie over het integreren van de Middelen van AEM met het Portaal van het Merk voor het publiceren van activa en inzamelingen aan het Portaal van het Merk verwijs naar de integratie van AEM Middelen met het Portaal [van het Merk](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html)vormen.
+Brand Portal 6.4.2 en hoger gebruiken de interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) om JWT-toepassing te maken, die het configureren van Auth-integratie mogelijk maakt om AEM Assets-integratie met Brand Portal mogelijk te maken. Eerder werd de interface voor het configureren van OAuth-integratie gehost in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Meer informatie over het integreren van de Middelen van AEM met het Portaal van het Merk voor het publiceren van activa en inzamelingen aan het Portaal van het Merk verwijs naar de integratie van AEM Middelen met het Portaal [van het Merk](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)vormen.
 
 ## Verbeteringen zoeken
 
@@ -356,7 +359,7 @@ Brand Portal 6.4.1 is een platform upgraderelease die verschillende nieuwe funct
 
 * Nieuwe sneltoetsen geïntroduceerd, bijvoorbeeld _(p)_ voor navigatie naar eigenschappenpagina, _(e)_ voor Bewerken en _(ctrl+c)_ voor kopieerbewerkingen.
 * Verbeterde schuifervaring, luie laadervaring in kaart- en lijstweergave voor het bladeren door een groot aantal elementen.
-* Uitgebreide kaartweergave met ondersteuning voor kaarten van verschillende grootte op basis van de instelling voor weergave.
+* Uitgebreide kaartweergave met ondersteuning voor kaarten van verschillende grootte op basis van weergave-instelling.
 
 ![](assets/cardviewsettings-1.png)
 
