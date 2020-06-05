@@ -1,8 +1,8 @@
 ---
 title: Release-opmerkingen
 seo-title: Release-opmerkingen
-description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.
-seo-description: Bekijk de verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.
+description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+seo-description: Bekijk de verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,25 +10,54 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
+source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 3%
 
 ---
 
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.
+Bekijk de nieuwe functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de release van Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 
 ## Geen informatie {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 6.4.6 |
-| Date | maart 2020 |
+| Versie | 6.4.6.2 |
+| Date | juni 2020 |
 
 ## Overzicht {#overview}
 
 Met de Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Merkportal biedt gebruikers de mogelijkheid om in door het bedrijf goedgekeurde indelingen te zoeken, te bekijken, voor te vertonen, te downloaden en te exporteren, altijd en overal.
+
+## Nieuwe functies in 6.4.6.2 {#what-s-new-in-6462}
+
+### Kritieke problemen opgelost {#critical-issues-fixed-6462}
+
+Deze release bevat oplossingen voor de volgende kritieke problemen:
+
+* Als u een gepubliceerd metagegevensschema verwijdert uit Brand Portal, treedt er een fout op.
+
+* Als de beheerder Experience Manager Assets 6.5.4 configureert met Brand Portal via Adobe Developer Console, kan de gebruiker van het Brand Portal de middelen van de map met bijdragen niet publiceren van Brand Portal naar Experience Manager.
+
+* Dubbele replicatie van de bovenliggende mappen die conflicten veroorzaken.
+
+* De gebruiker kan het rapport van het Aandeel van de Verbinding niet produceren.
+
+* De gebruiker kan de geheimen van MAC voor een Poorteindpunt van het Merk kopiëren gebruikend copyPage bevel.
+
+* cqTags die opnieuw indexeren op VA5-kloon.
+
+
+### Bekende problemen {#known-issues-6462}
+
+Deze release bevat de volgende bekende problemen:
+
+* Als de naam van een map in de hiërarchie wordt gewijzigd in AEM Assets en de geneste map met een element wordt gepubliceerd naar Brand Portal, wordt de titel van de map niet bijgewerkt in Brand Portal totdat de hoofdmap opnieuw wordt gepubliceerd.
+
 
 ## Nieuwe functies in 6.4.6 {#what-s-new-in-646}
 
@@ -36,7 +65,7 @@ Met de Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedg
 
 Deze release bevat de volgende nieuwe functies:
 
-* Captcha voor gastaanmelding bij Brand Portal. Zie, de toegang [van de gast van het Portaal van het](../using/guest-access.md) Merk voor meer informatie.
+* Captcha voor gastaanmelding bij Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.
 
 * Brand Portal wordt nu ondersteund door de cloudservice van AEM Assets. U kunt AEM Assets vormen kon met het Portaal van het Merk dienst doen om activa met de gebruikers van het Portaal van het Merk te delen en te verspreiden.
 Zie AEM Assets Cloud Service [configureren met Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)voor meer informatie.
@@ -45,18 +74,21 @@ Zie AEM Assets Cloud Service [configureren met Brand Portal](https://docs.adobe.
 
 Deze release van Brand Portal bevat de volgende verbeteringen:
 
-* In AEM 6.3 en hoger wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. AEM Assets is nu geconfigureerd met Brand Portal via Adobe I/O, dat een IMS token aanschaft voor toestemming van uw Pantaarn voor merken.
+* In AEM 6.3 en hoger wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. AEM Assets is nu geconfigureerd met Brand Portal via Adobe Developer Console, die een IMS token aanschaft voor goedkeuring van uw Pantaarn voor merken.
 
-   >[!NOTE]
-   >
-   >Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configureren via Adobe I/O.
+>[!NOTE]
+>
+>Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configuratie via Adobe Developer Console.
+
 
 
 >[!TIP]
 >
 >***Alleen voor bestaande klanten***
 >
->Het wordt geadviseerd om bestaande oudere configuratie van de Gateway te blijven gebruiken OAuth. Als u problemen ondervindt met de oudere OAuth Gateway-configuratie, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via Adobe I/O.
+>De verouderde configuratie van de Gateway OAuth zal blijven werkend voor bestaande klanten.
+>
+>Als u problemen ondervindt met de oudere configuratie van OAuth Gateway, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via de Adobe Developer Console.
 
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
@@ -83,7 +115,7 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 Deze release bevat de volgende bekende problemen:
 
-* Gebruikers van Brand Portal kunnen geen middelen uit de bijdragemap publiceren naar AEM Assets bij de upgrade naar Adobe I/O op AEM 6.5.4.
+* Gebruikers van het Brand Portal kunnen geen middelen uit de bijdragemap publiceren naar AEM Assets bij een upgrade naar Adobe Developer Console op AEM 6.5.4.
 
    Dit probleem wordt opgelost in het volgende servicepack 6.5.5.
 
