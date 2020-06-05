@@ -19,7 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
@@ -40,16 +43,15 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 >
 >Neem contact op met de ondersteuning van Adobe om uw AEM-exemplaar bij te werken naar de meest recente ondersteunde AEM-versie.
 
+
 ![Brand Portal Asset Sourting](assets/asset-sourcing.png)
 
 
 >[!NOTE]
 >
->Als u een gebruiker van AEM 6.5.4 bent, zal de eigenschap van de Verkoop van Activa blijven werken aan de &quot;erfenis integratie OAuth&quot;.
+>Er is een bekend probleem in AEM 6.5.4. Gebruikers van het Brand Portal kunnen de middelen van de map met bijdragen niet publiceren naar AEM Assets tijdens de upgrade naar Adobe Developer Console.
 >
->Gebruikers van Brand Portal kunnen echter geen middelen uit de bijdragemap naar AEM Assets publiceren bij de upgrade naar Adobe I/O op AEM 6.5.4.
->
->Dit probleem wordt opgelost in het volgende servicepack AEM 6.5.5.
+>Het probleem is opgelost in AEM 6.5.5. U kunt uw AEM Assets-instantie upgraden naar het nieuwste servicepack AEM 6.5.5 en uw configuraties [upgraden](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in Adobe Developer Console.
 >
 >Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de auteurinstantie te installeren.
 
@@ -57,7 +59,7 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 ## Vereisten {#prerequisites}
 
 * AEM 6.5.0.2 of hoger.
-* Zorg ervoor dat uw AEM Assets-instantie is geconfigureerd met Brand Portal. Zie AEM-middelen [configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Zorg ervoor dat uw AEM Assets-instantie is geconfigureerd met Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Zie ook {#reference-articles}
 
@@ -73,4 +75,4 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 * [Elementvereisten downloaden](brand-portal-download-asset-requirements.md)
 * [Nieuwe elementen uploaden naar de bijdragemap](brand-portal-upload-assets-to-contribution-folder.md)
-* [Map met bijdragen publiceren naar AEM-elementen](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Map met bijdragen publiceren naar AEM-middelen](brand-portal-publish-contribution-folder-to-aem-assets.md)
