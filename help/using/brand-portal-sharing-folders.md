@@ -9,7 +9,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+workflow-type: tm+mt
+source-wordcount: '1099'
+ht-degree: 0%
 
 ---
 
@@ -46,6 +49,7 @@ Als de **[!UICONTROL Public Folder Publish]** optie is uitgeschakeld, moeten beh
 >
 >De optie om in te schakelen **[!UICONTROL Public Folder Publish]** is beschikbaar in AEM 6.3.2.1 en later.
 
+
 ## Toegang tot gedeelde mappen {#access-to-shared-folders}
 
 In de volgende matrix worden de toegangsrechten en rechten voor het delen/ontdelen van elementen voor verschillende gebruikersrollen besproken:
@@ -57,7 +61,10 @@ In de volgende matrix worden de toegangsrechten en rechten voor het delen/ontdel
 | Viewer | Nee* | Ja, alleen indien gedeeld met hen of met de groep waartoe zij behoren | Nee |
 | Gastgebruiker | Nee* | Ja, alleen indien gedeeld met hen of met de groep waartoe zij behoren | Nee |
 
-**Standaard is de **[!UICONTROL Public Folder Publish]**optie uitgeschakeld tijdens het configureren van replicatie van Brand Portal met AEM-auteur. Als de optie is ingeschakeld, zijn de mappen die naar het Brand Portal worden gepubliceerd standaard toegankelijk voor alle gebruikers (ook gebruikers die geen beheerder zijn).*
+>[!NOTE]
+>
+>Standaard is de **[!UICONTROL Public Folder Publish]** optie uitgeschakeld tijdens het configureren van replicatie van Brand Portal met AEM-auteur. Als de optie is ingeschakeld, zijn de mappen die naar het Brand Portal worden gepubliceerd standaard toegankelijk voor alle gebruikers (ook gebruikers die geen beheerder zijn).
+
 
 ### Toegang van gebruikers die geen beheerder zijn tot gedeelde mappen {#non-admin-user-access-to-shared-folders}
 
