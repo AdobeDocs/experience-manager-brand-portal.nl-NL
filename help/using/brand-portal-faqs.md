@@ -10,30 +10,35 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1246'
+ht-degree: 0%
 
 ---
 
 
 # Frequently Asked Questions {#frequently-asked-questions}
 
-De Veelgestelde vragen over het Brand Portal zijn gericht op de vragen en problemen die eindgebruikers kunnen tegenkomen tijdens het werken met de nieuwste versie van AEM Assets Brand Portal 6.4.5 of eerdere versies.
+De Veelgestelde vragen over het Brand Portal zijn gericht op de vragen en problemen die eindgebruikers kunnen tegenkomen tijdens het werken met de nieuwste versie van AEM Assets Brand Portal 6.4.6 of eerdere versies.
 
 
-## Veelgestelde vragen over Merknaam 6.4.6 {#faqs-bp646}
+## Veelgestelde vragen over Merknaam 6.4.6  {#faqs-bp646}
 
 **Ques. Het bestaande oudere eindpunt OAuth (`https://legacy-oauth.cloud.adobe.io/login`) werkt niet. Wat zou de mogelijke reden kunnen zijn?**
 
-**Ans.** Verouderde OAuth-configuratie is vervangen. U moet AEM Assets auteursinstanties aan het recentste de dienstpak bevorderen en het vormen gebruikend Adobe IO. Zie AEM-middelen [configureren met Brand Portal](configure-aem-assets-with-brand-portal.md) voor meer informatie. Nochtans, voor Verouderde configuratie OAuth om te werken tot u bevordert, werk het Eigen eindpunt OAuth aan `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** Verouderde OAuth-configuratie is vervangen. U moet AEM Assets auteurinstanties aan het recentste de dienstpak bevorderen en het vormen via de Console van de Ontwikkelaar van Adobe. Zie AEM-middelen [configureren met Brand Portal](configure-aem-assets-with-brand-portal.md) voor meer informatie. Nochtans, voor Verouderde configuratie OAuth om te werken tot u bevordert, werk het Eigen eindpunt OAuth aan `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Ques. Ik kan de middelen van de bijdragemap niet publiceren van Brand Portal naar AEM Assets na een upgrade naar Adobe I/O. Mijn auteur-exemplaar bevindt zich op AEM 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
+**Ques. Ik kan de middelen van de bijdragemap niet publiceren van Brand Portal naar AEM Assets na een upgrade naar Adobe Developer Console. Mijn auteur-exemplaar bevindt zich op AEM 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
 
-**Ans.** Ja, er is een bekend probleem bij het publiceren van de middelen van de bijdragemap naar AEM Assets op AEM 6.5.4 met Adobe I/O. Dit probleem wordt opgelost in het volgende servicepakket.
+**Ans.** Ja, er is een bekend probleem bij het publiceren van de middelen van de bijdragemap naar AEM Assets op AEM 6.5.4 via Adobe Developer Console.
+
+Dit probleem is opgelost in AEM 6.5.5. U kunt uw AEM Assets-instantie upgraden naar het nieuwste servicepack AEM 6.5.5 en uw configuraties [upgraden](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in Adobe Developer Console.
 
 Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de AEM-auteurinstantie te installeren.
 
 
-## Veelgestelde vragen over Merknaam 6.4.5 {#faqs-bp645}
+## Veelgestelde vragen over Merknaam 6.4.5  {#faqs-bp645}
 
 **Ques. Wat is de grote verandering in de release van Brand Portal 6.4.5?**
 
@@ -76,7 +81,7 @@ Deze map wordt gedeeld met de actieve gebruikers van het Brand Portal voor een b
 
 **Ques. Wat bevat een map met bijdragen?**
 
-**Ans.** De map **Contribution** bevat twee submappen **NEW** en **SHARED**. In eerste instantie is de map NEW leeg en bevat de map SHARED de referentie-inhoud (herbruikbare elementen) voor de gebruikers van de Brand Portal.
+**Ans.** **De map Contribution** bevat twee submappen **NEW** en **SHARED**. In eerste instantie is de map NEW leeg en bevat de map SHARED de referentie-inhoud (herbruikbare elementen) voor de gebruikers van de Brand Portal.
 De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en uploaden inhoud naar de map **NEW** .
 
 
@@ -95,7 +100,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Kan ik elementen uploaden naar elke toegestane map?**
 
-**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door de beheerder van AEM of van het Merk wordt gedeeld.
+**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door AEM of de beheerder van het Merk Poortportaal wordt gedeeld.
 
 
 
@@ -106,6 +111,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 >[!NOTE]
 >
 >Als u geen bestaande gebruiker van het Portaal van het Merk bent, verzoek de beheerder AEM om uw gebruiker in AEM te creëren admin console en uw profiel toe te voegen aan het dossier van de gebruikersconfiguratie in de gebruikerslijst van de Portaalgebruikers van het Merk. Zie, [Brand Portal-gebruiker](brand-portal-configure-asset-sourcing.md)toevoegen.
+
 
 
 
@@ -123,7 +129,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Waar zie ik de status van import en publicatie van banen?**
 
-**Ans.** In AEM, kunt u de status van het invoeren in **async** baanpagina zien. In Brand Portal ziet u de status van een publicatietaak in **[!UICONTROL Gereedschappen > Status]** Asset Contribution.
+**Ans.** In AEM, kunt u de status van het invoeren in **async** baanpagina zien. In Brand Portal ziet u de status van een publicatietaak in **[!UICONTROL Tools > Asset Contribution status]**.
 
 
 
@@ -174,6 +180,6 @@ Dit geldt voor alle mappen die vanuit AEM Assets naar Brand Portal worden gepubl
 
 Deze sites zijn alleen beschikbaar voor klanten. Neem contact op met uw accountmanager van Adobe als u een klant bent en toegang nodig hebt.
 
-* [](https://daycare.day.com) Toegang tot [producten](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Producttoegang](https://login.marketing.adobe.com)
 
 * [Adobe Klantenservice](https://helpx.adobe.com/contact.html)
