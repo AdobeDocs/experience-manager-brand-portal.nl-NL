@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 0%
 
 ---
 
@@ -19,18 +22,18 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 Gebruikers van het Brand Portal kunnen de map met bijdragen publiceren naar AEM Assets zonder toegang tot de instantie van AEM-auteurs te hoeven hebben.
 
-Controleer of u de [elementvereisten](brand-portal-download-asset-requirements.md) hebt doorlopen en upload de nieuw gemaakte elementen naar de map **NEW** in de map Contribution. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contributie.
+Zorg ervoor dat u de vereisten voor [middelen hebt doorlopen](brand-portal-download-asset-requirements.md) en dat u de nieuw gemaakte middelen uploadt naar de map **NEW** in de map met bijdragen. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contributie.
 
 **Map met bijdragen publiceren:**
 
-1. Meld u aan bij uw Brand Portal-instantie.
+1. Meld u aan bij uw Brand Portal-exemplaar.
 1. Selecteer de bijdragemap in het dashboard voor het Brand Portal.
-1. Klik op **[!UICONTROL Publiceren naar AEM]** ![](assets/export.png).
+1. Klik op **[!UICONTROL Publish to AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Een e-mail-/pulsmelding wordt verzonden naar het Brand Portal en AEM, beheerder en gebruiker in verschillende stadia van de publicatieworkflow:
-1. **In wachtrij** - Bij het publiceren van workflowtriggers in Brand Portal wordt de map met bijdragen gepubliceerd van Brand Portal naar AEM.
-1. **Bezig** - Wanneer AEM Assets de bijdragemap begint te importeren.
-1. **Voltooid** - Wanneer de publicatieactie is voltooid, wordt de bijdragemap geïmporteerd naar AEM Assets.
+In verschillende fasen van de publicatieworkflow wordt een e-mail-/pulsmelding verzonden naar de gebruiker van het Brand Portal en de AEM-beheerder:
+1. **In wachtrij** - Wanneer de publicatieworkflow in Brand Portal wordt gestart, wordt een bijdrafmap gepubliceerd van Brand Portal naar AEM Assets.
+
+1. **Voltooid** - Wanneer de publicatieworkflow is voltooid, wordt de bijdragemap geïmporteerd naar AEM Assets.
 
 
