@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 0%
 
 ---
 
@@ -21,10 +24,10 @@ Zodra de [bijdragemap is geconfigureerd](brand-portal-configure-contribution-fol
 
 **Map met bijdragen publiceren:**
 
-1. Meld u aan bij de AEM-auteur-instantie.
+1. Meld u aan bij de AEM-auteur.
 Standaard-URL: http:// localhost:4502/aem/start.html
-1. Navigeer naar **[!UICONTROL Middelen > Bestanden]** en zoek de map met Help waarin u wilt publiceren naar Brand Portal.
-1. Selecteer de map met bijdragen en klik op **[!UICONTROL Snel publiceren > Publiceren naar Brand Portal]**.
+1. Navigeer naar **[!UICONTROL Assets > Files]** en zoek de map met bijdragen waarin u wilt publiceren naar Brand Portal.
+1. Selecteer de map met bijdragen en klik op **[!UICONTROL Quick Publish > Publish to Brand Portal]**.
    ![](assets/publish-contribution-folder-to-bp.png)
 U ontvangt een succesbericht zodra de map met bijdragen naar Brand Portal is gepubliceerd.
 
