@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ AEM-beheerders kunnen **Asset Sourcing** configureren vanuit de AEM-auteur. De b
 
 >[!NOTE]
 >
->Voordat u met de configuratie begint, moet u ervoor zorgen dat de AEM Assets-instantie is geconfigureerd met Brand Portal. Zie AEM-middelen [configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Voordat u met de configuratie begint, moet u ervoor zorgen dat de AEM Assets-instantie is geconfigureerd met Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 In de volgende video ziet u hoe u Asset Sourcing kunt configureren op uw AEM-auteurinstantie:
@@ -33,11 +36,11 @@ In de volgende video ziet u hoe u Asset Sourcing kunt configureren op uw AEM-aut
 AEM-beheerders kunnen Asset Sourcing inschakelen vanuit de configuratie van de AEM-webconsole (ook bekend als Configuration Manager).
 
 **Asset Sourcing inschakelen:**
-1. Meld u aan bij de instantie van uw AEM-auteur en open Configuration ManagerDefault URL: http:// localhost:4502/system/console/configMgr
-1. Zoeken met het trefwoord **Asset Sourcing** om **[!UICONTROL Asset Sourcing Feature Flag Config te vinden]**
-1. Klik op Vlag Config **[!UICONTROL voor]** element-bronfunctie om het configuratievenster te openen
-1. Selectievakje **[!UICONTROL feature.flag.active.status inschakelen]**
-1. Click **[!UICONTROL Save]**.
+1. Meld u aan bij de AEM-auteur-instantie en open Configuration ManagerDefault URL: http:// localhost:4502/system/console/configMgr
+1. Zoeken met het trefwoord **Asset Sourcing** om te zoeken **[!UICONTROL Asset Sourcing Feature Flag Config]**
+1. Klik **[!UICONTROL Asset Sourcing Feature Flag Config]** om het configuratievenster te openen
+1. Selectievakje inschakelen **[!UICONTROL feature.flag.active.status]**
+1. Klik op **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
 
@@ -52,12 +55,12 @@ AEM-beheerders kunnen het CSV-bestand (Brand Portal User Configuration) uploaden
 Beheerders kunnen nieuwe gebruikers toevoegen in AEM Admin Console. Raadpleeg Gebruikers [](brand-portal-adding-users.md) beheren voor meer informatie. Nadat u gebruikers in Admin Console hebt toegevoegd, kunnen deze gebruikers worden toegevoegd aan het configuratiebestand van het Brand Portal en vervolgens machtigingen krijgen toegewezen om toegang te krijgen tot de map met bijdragen.
 
 **Ga als volgt te werk om de gebruikerslijst van Brand Portal te uploaden:**
-1. Aanmelden bij de instantie van uw AEM-auteurStandaard-URL: http:// localhost:4502/aem/start.html
-1. Navigeer vanuit het **deelvenster Gereedschappen** naar ![](assets/tools.png) **[!UICONTROL Middelen > Poortgebruikers Merk]**
+1. Meld u aan bij de instantie van uw AEM-auteurStandaard-URL: http:// localhost:4502/aem/start.html
+1. Ga vanuit het deelvenster **** ![](assets/tools.png)Tools naar **[!UICONTROL Assets > Brand Portal Users]**
    ![](assets/upload-user-list1.png)
 1. Het venster Contribuanten uploaden naar Brand Portal wordt geopend.
 Blader vanaf uw lokale computer en upload het **configuratiebestand** (.csv) met de actieve gebruikerslijst van het Brand Portal.
-1. Click **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
    ![](assets/upload-user-list2.png)
 
 
