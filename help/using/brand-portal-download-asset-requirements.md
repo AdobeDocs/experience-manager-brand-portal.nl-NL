@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 0%
 
 ---
 
@@ -28,16 +31,16 @@ Het dashboard voor Brand Portal weerspiegelt alle bestaande mappen die zijn toeg
 
 **Elementvereisten downloaden:**
 
-1. Meld u aan bij uw Brand Portal-instantie.
+1. Meld u aan bij uw Brand Portal-exemplaar.
 1. Selecteer de bijdragemap in het dashboard voor het Brand Portal.
-1. Klik op **[!UICONTROL Eigenschappen]** ![](assets/properties.png). Het venster Eigenschappen wordt geopend en hierin worden de gegevens van de map Asset Contribution weergegeven.
+1. Klik op **[!UICONTROL Properties]** ![](assets/properties.png). Het venster Eigenschappen wordt geopend en hierin worden de gegevens van de map Asset Contribution weergegeven.
    ![](assets/download-asset-requirement1.png)
-1. Klik op Beknopt **** downloadbestand ![](assets/download.png) om het document met elementvereisten te downloaden naar uw lokale computer.
+1. Klik **[!UICONTROL Download Brief]** ![](assets/download.png) om het document met elementvereisten te downloaden naar uw lokale computer.
    ![](assets/download-asset-requirement2.png)
 1. Ga terug naar het dashboard van de Portaalpagina van het Merk.
-1. Klik om de map met bijdragen te openen. Er worden twee submappen **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** weergegeven in de map met bijdragen. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
-1. U kunt de map **[!UICONTROL SHARED]** met alle basislijnelementen downloaden op uw lokale computer.
-U kunt ook de map **[!UICONTROL SHARED]** openen en op het pictogram **Downloaden** klikken ![](assets/download.png) om afzonderlijke bestanden/mappen te downloaden.
+1. Klik om de map met bijdragen te openen. Er worden twee submappen **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met bijdragen weergegeven. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
+1. U kunt de **[!UICONTROL SHARED]** map met alle basislijnelementen downloaden naar uw lokale computer.
+U kunt ook de **[!UICONTROL SHARED]** map openen en op het pictogram **Downloaden** klikken ![](assets/download.png) om afzonderlijke bestanden/mappen te downloaden.
    ![](assets/download-asset-requirement3.png)
 
 Doorloop het korte document (document met elementvereisten) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contributie.
