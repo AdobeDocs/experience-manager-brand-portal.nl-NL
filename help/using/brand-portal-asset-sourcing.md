@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 >
 >Asset Sourcing in Brand Portal wordt ondersteund op AEM 6.5.2.0 en hoger.
 >
->De functie wordt niet ondersteund in eerdere versies - AEM 6.3 en AEM 6.4.
+>De functie wordt niet ondersteund op de cloudservice van AEM Assets en eerdere versies - AEM 6.3 en AEM 6.4.
 >
 >Neem contact op met de ondersteuning van Adobe om uw AEM-exemplaar bij te werken naar de meest recente ondersteunde AEM-versie.
 
@@ -75,4 +75,4 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 * [Elementvereisten downloaden](brand-portal-download-asset-requirements.md)
 * [Nieuwe elementen uploaden naar de bijdragemap](brand-portal-upload-assets-to-contribution-folder.md)
-* [Map met bijdragen publiceren naar AEM-middelen](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Map met bijdragen publiceren naar AEM-elementen](brand-portal-publish-contribution-folder-to-aem-assets.md)
