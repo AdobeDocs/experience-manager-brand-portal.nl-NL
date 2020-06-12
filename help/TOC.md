@@ -1,11 +1,14 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: experience manager brand portal
+sub-product: merkportal voor ervaren manager
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 18%
 
 ---
 
@@ -15,16 +18,16 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
 + [Handboek merkportal](using/home.md)
 + Inleiding {#introduction}
    + [Overzicht](using/brand-portal.md)
-   + [Nieuw in AEM Assets Brand Portal](using/whats-new.md)
-   + [Releaseopmerkingen](using/brand-portal-release-notes.md)
+   + [Nieuwe functies in AEM Assets Brand Portal](using/whats-new.md)
+   + [Release-opmerkingen](using/brand-portal-release-notes.md)
    + [Veelgestelde vragen](using/brand-portal-faqs.md)
    + [Ondersteunde bestandsindelingen](using/brand-portal-supported-formats.md)
    + [Gasttoegang tot Brand Portal](using/guest-access.md)
-   + [Brand Portal begrijpen met AEM-middelen](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Brand Portal begrijpen met AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
    + [Bladeren door middelen op Brand Portal](using/browse-assets-brand-portal.md)
-+ Publiceren van AEM Assets naar Brand Portal {#publish}
-   + [AEM-middelen configureren met Brand Portal](using/configure-aem-assets-with-brand-portal.md)
-   + [Middelen publiceren naar Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
++  publiceren van AEM Assets naar Brand Portal{#publish}
+   + [AEM Assets configureren met Brand Portal](using/configure-aem-assets-with-brand-portal.md)
+   + [Assets publiceren naar Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Mappen publiceren naar Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Verzamelingen publiceren naar Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Problemen met parallelle publicatie naar Brand Portal oplossen](using/troubleshoot-parallel-publishing.md)
@@ -43,7 +46,7 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
       + [Overzicht](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Elementvereisten downloaden](using/brand-portal-download-asset-requirements.md)
       + [Elementen uploaden naar de bijdragemap](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Map met bijdragen publiceren naar AEM-middelen](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Map met bijdragen publiceren naar AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Elementen delen met gebruikers {#share}
    + [Een verzameling delen](using/brand-portal-share-collection.md)
    + [Mappen delen](using/brand-portal-sharing-folders.md)
