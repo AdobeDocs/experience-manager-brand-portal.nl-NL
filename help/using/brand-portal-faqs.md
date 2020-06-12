@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,6 @@ Dit probleem is opgelost in AEM 6.5.5. U kunt uw AEM Assets-exemplaar upgraden n
 
 Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de AEM-auteurinstantie te installeren.
 
-
 **Ques. Ik zie de inhoud van de bijdragemap die via Brand Portal is gepubliceerd, niet in AEM Assets. Wat zou de mogelijke reden kunnen zijn?**
 
 **Ans.** Contacteer uw beheerder van AEM Assets om de configuraties te verifiëren en ervoor te zorgen dat uw huurder van het Portaal van het Merk met slechts één de auteurinstantie van AEM Assets wordt gevormd.
@@ -58,7 +57,7 @@ Voer de volgende stappen uit om de replicatieagent te vormen:
 1. Klik in Agent-instellingen op het **[!UICONTROL Extended]** tabblad.
 1. Schakel het **[!UICONTROL Close Connection]** selectievakje in.
 1. Herhaal stap 4 door 7 om alle vier replicatieagenten te vormen.
-1. Start de server opnieuw.
+1. Start de server opnieuw en controleer de verbinding.
 
 
 ## Veelgestelde vragen over Merknaam 6.4.5  {#faqs-bp645}
@@ -123,7 +122,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Kan ik elementen uploaden naar elke toegestane map?**
 
-**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door de beheerder van AEM of van het Merk wordt gedeeld.
+**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door AEM of de beheerder van het Merk Poortportaal wordt gedeeld.
 
 
 
