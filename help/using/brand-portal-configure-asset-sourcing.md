@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,11 +25,6 @@ AEM-beheerders kunnen **Asset Sourcing** configureren vanuit de AEM-auteur. De b
 >[!NOTE]
 >
 >Alvorens u met de configuratie begint, zorg ervoor dat uw instantie van AEM Assets met het Portaal van het Merk wordt gevormd. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
->
->Een Brand Portal-huurder mag slechts met één AEM Assets-auteur worden geconfigureerd.
->
->Vorm geen Poorthuurder van het Merk met veelvoudige de auteur van AEM Assets instanties.
-
 
 
 In de volgende video ziet u hoe u Asset Sourcing kunt configureren op uw AEM-auteurinstantie:
