@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -51,6 +51,7 @@ AEM-beheerders kunnen het CSV-bestand (Brand Portal-gebruikersconfiguratiebestan
 >[!NOTE]
 >
 >De indeling van het CSV-bestand is gelijk aan de indeling die door de Admin Console wordt ondersteund bij het importeren van bulkgebruikers. E-mail, voornaam en achternaam zijn verplicht.
+
 
 Beheerders kunnen nieuwe gebruikers toevoegen in AEM Admin Console. Raadpleeg Gebruikers [](brand-portal-adding-users.md) beheren voor meer informatie. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van het Portaal van het Merk worden toegevoegd en dan toestemming toegewezen om tot de bijdrageomslag toegang te hebben.
 
