@@ -1,8 +1,8 @@
 ---
 title: Asset Souring configureren
 seo-title: Asset Souring configureren
-description: Krijg inzicht in het configureren van de functie voor het aanschaffen van bedrijfsmiddelen in AEM Assets.
-seo-description: Krijg inzicht in het configureren van de functie voor het aanschaffen van bedrijfsmiddelen in AEM Assets.
+description: Krijg inzicht in het vormen van activa het bronbepalend eigenschap in AEM Assets.
+seo-description: Krijg inzicht in het vormen van activa het bronbepalend eigenschap in AEM Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,16 @@ ht-degree: 1%
 
 # Asset Souring configureren {#configure-asset-sourcing}
 
-AEM-beheerders kunnen **Asset Sourcing** configureren vanuit de AEM-auteur. De beheerder laat de configuratie van de de eigenschapmarkering van de Levering van Activa van de Configuratie **van de Console van** AEM toe en uploadt de actieve lijst van gebruikers van het Portaal van het Merk in **Middelen** AEM.
+AEM-beheerders kunnen **Asset Sourcing** configureren vanuit de AEM-auteur. De beheerder laat de configuratie van de de eigenschapmarkering van de Levering van Activa van de Configuratie **van de Console van** AEM toe Web en uploadt de actieve lijst van gebruikers van het Portaal van het Merk in **AEM Assets**.
 
 >[!NOTE]
 >
->Voordat u met de configuratie begint, moet u ervoor zorgen dat de AEM Assets-instantie is geconfigureerd met Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Alvorens u met de configuratie begint, zorg ervoor dat uw instantie van AEM Assets met het Portaal van het Merk wordt gevormd. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>
+>Een Brand Portal-huurder mag slechts met één AEM Assets-auteur worden geconfigureerd.
+>
+>Vorm geen Poorthuurder van het Merk met veelvoudige de auteur van AEM Assets instanties.
+
 
 
 In de volgende video ziet u hoe u Asset Sourcing kunt configureren op uw AEM-auteurinstantie:
@@ -46,13 +51,13 @@ AEM-beheerders kunnen Asset Sourcing inschakelen vanuit de configuratie van de A
 
 ## Lijst met gebruikers van Brand Portal uploaden {#upload-bp-user-list}
 
-AEM-beheerders kunnen het CSV-bestand (Brand Portal User Configuration) uploaden dat een actieve gebruikerslijst voor het Brand Portal bevat in AEM Assets. Een bijdragemap kan alleen worden gedeeld met de actieve gebruikers van het Brand Portal die zijn gedefinieerd in de gebruikerslijst. Beheerders kunnen ook nieuwe gebruikers toevoegen aan het configuratiebestand en de gewijzigde gebruikerslijst uploaden.
+AEM-beheerders kunnen het CSV-bestand (Brand Portal-gebruikersconfiguratiebestand) uploaden dat een actieve gebruikerslijst voor het Merkortaal bevat in AEM Assets. Een bijdragemap kan alleen worden gedeeld met de actieve gebruikers van het Brand Portal die zijn gedefinieerd in de gebruikerslijst. Beheerders kunnen ook nieuwe gebruikers toevoegen aan het configuratiebestand en de gewijzigde gebruikerslijst uploaden.
 
 >[!NOTE]
 >
->De indeling van het CSV-bestand is gelijk aan de indeling die wordt ondersteund door de beheerconsole voor het importeren van grote hoeveelheden gebruikers. E-mail, voornaam en achternaam zijn verplicht.
+>De indeling van het CSV-bestand is gelijk aan de indeling die door de Admin Console wordt ondersteund bij het importeren van bulkgebruikers. E-mail, voornaam en achternaam zijn verplicht.
 
-Beheerders kunnen nieuwe gebruikers toevoegen in AEM Admin Console. Raadpleeg Gebruikers [](brand-portal-adding-users.md) beheren voor meer informatie. Nadat u gebruikers in Admin Console hebt toegevoegd, kunnen deze gebruikers worden toegevoegd aan het configuratiebestand van het Brand Portal en vervolgens machtigingen krijgen toegewezen om toegang te krijgen tot de map met bijdragen.
+Beheerders kunnen nieuwe gebruikers toevoegen in AEM Admin Console. Raadpleeg Gebruikers [](brand-portal-adding-users.md) beheren voor meer informatie. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van het Portaal van het Merk worden toegevoegd en dan toestemming toegewezen om tot de bijdrageomslag toegang te hebben.
 
 **Ga als volgt te werk om de gebruikerslijst van Brand Portal te uploaden:**
 1. Meld u aan bij de instantie van uw AEM-auteurStandaard-URL: http:// localhost:4502/aem/start.html
