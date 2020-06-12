@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -37,24 +37,28 @@ Dit probleem is opgelost in AEM 6.5.5. U kunt uw AEM Assets-exemplaar upgraden n
 
 Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de AEM-auteurinstantie te installeren.
 
-**Ques. Ik wil de functie Asset Sourcing inschakelen op mijn AEM Assets-cloudinstantie. Hoe kan ik het vormen?**
 
-**Ans.** Nee, de functie Asset Sourcing wordt momenteel niet ondersteund in de cloudservice van AEM Assets.
+**Ques. Ik zie de inhoud van de bijdragemap die via Brand Portal is gepubliceerd, niet in AEM Assets. Wat zou de mogelijke reden kunnen zijn?**
 
-Blijf verbonden en bekijk de versienota&#39;s voor berichten over de eigenschapbeschikbaarheid in de aanstaande versies.
+**Ans.** Contacteer uw beheerder van AEM Assets om de configuraties te verifiëren en ervoor te zorgen dat uw huurder van het Portaal van het Merk met slechts één de auteurinstantie van AEM Assets wordt gevormd.
 
-**Ques. Ik kan geen activa van AEM Assets naar het Portaal van het Merk publiceren en het logboek van de replicatieagent werpt uitzondering`java.net.SocketException: Connection timed out`. Is er een snelle oplossing?**
+Deze kwestie komt mogelijk voor wanneer u een huurder van het Portaal van het Merk op veelvoudige de auteur van AEM Assets instanties hebt gevormd. Bijvoorbeeld, vormt de beheerder de zelfde huurder van het Portaal van het Merk op de de auteur van AEM Assets instantie van het opvoeren en productiemilieu. In dit geval, de activa die trekkers publiceren in het Portaal van het Merk maar de de auteur van AEM Assets instantie kon de activa geen coz invoeren de replicatieagent ontvangt niet het het vragen token.
 
-**Ans.** Als er aantal verzoeken in de replicatierij hangend zijn, is er een mogelijkheid dat de replicatieagent niet het verzoek verwerkt om activa te publiceren en een uitzondering te genereren: `java.net.SocketException: Connection timed out`.
 
-Voer de volgende stappen uit om het probleem op te lossen:
+**Ques. Ik kan geen middelen van AEM Assets publiceren naar Brand Portal. Het replicatielogboek verklaart dat de verbinding uit timed. Is er een snelle oplossing?**
 
-1. Open de replicatieagent en klik **[!UICONTROL Edit]** om de montages van de replicatieagent te wijzigen.
-1. Klik in Agent-instellingen op het tabblad **[!UICONTROL Extended]**.
-1. Schakel het selectievakje in **[!UICONTROL Close Connection]**.
-1. Start de replicatiebundel (server) opnieuw.
+**Ans.** Meestal mislukt het publiceren met een time-out-fout als er meerdere aanvragen in behandeling zijn in de replicatiewachtrij. Om de kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
 
-Laat de montages op alle vier replicatieagenten toe om kwesties met om het even welk van de replicatieagent te vermijden.
+Voer de volgende stappen uit om de replicatieagent te vormen:
+1. Meld u aan bij de auteur-instantie van uw AEM Assets.
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. Klik op de pagina Replicatie **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten voor uw Poorthuurder van het Merk zien.
+1. Klik de replicatieagent URL om de agentendetails te openen.
+1. Klik **[!UICONTROL Edit]** om de montages van de replicatieagent te wijzigen.
+1. Klik in Agent-instellingen op het **[!UICONTROL Extended]** tabblad.
+1. Schakel het **[!UICONTROL Close Connection]** selectievakje in.
+1. Herhaal stap 4 door 7 om alle vier replicatieagenten te vormen.
+1. Start de server opnieuw.
 
 
 ## Veelgestelde vragen over Merknaam 6.4.5  {#faqs-bp645}
