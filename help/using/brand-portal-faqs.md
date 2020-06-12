@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,9 @@ De veelgestelde vragen over het Brand Portal zijn gericht op de vragen en proble
 
 ## Veelgestelde vragen over Merknaam 6.4.6  {#faqs-bp646}
 
-
-
 **Ques. Het bestaande oudere eindpunt OAuth (`https://legacy-oauth.cloud.adobe.io/login`) werkt niet. Wat zou de mogelijke reden kunnen zijn?**
 
 **Ans.** Verouderde OAuth-configuratie is vervangen. U moet de auteur-instanties van AEM Assets upgraden naar het nieuwste servicepack en deze configureren via Adobe Developer Console. Zie AEM Assets [configureren met Brand Portal](configure-aem-assets-with-brand-portal.md) voor meer informatie. Nochtans, voor Verouderde configuratie OAuth om te werken tot u bevordert, werk het Eigen eindpunt OAuth aan `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
-
 
 **Ques. Ik kan de middelen van de bijdragemap niet publiceren van Brand Portal naar AEM Assets na een upgrade naar Adobe Developer Console. Mijn auteur-exemplaar bevindt zich op AEM 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
 
@@ -40,13 +37,11 @@ Dit probleem is opgelost in AEM 6.5.5. U kunt uw AEM Assets-exemplaar upgraden n
 
 Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de AEM-auteurinstantie te installeren.
 
-
 **Ques. Ik wil de functie Asset Sourcing inschakelen op mijn AEM Assets-cloudinstantie. Hoe kan ik het vormen?**
 
 **Ans.** Nee, de functie Asset Sourcing wordt momenteel niet ondersteund in de cloudservice van AEM Assets.
 
 Blijf verbonden en bekijk de versienota&#39;s voor berichten over de eigenschapbeschikbaarheid in de aanstaande versies.
-
 
 **Ques. Ik kan geen activa van AEM Assets naar het Portaal van het Merk publiceren en het logboek van de replicatieagent werpt uitzondering`java.net.SocketException: Connection timed out`. Is er een snelle oplossing?**
 
@@ -61,12 +56,6 @@ Voer de volgende stappen uit om het probleem op te lossen:
 
 Laat de montages op alle vier replicatieagenten toe om kwesties met om het even welk van de replicatieagent te vermijden.
 
-
-**Ques. Ik zie de inhoud van de bijdragemap die via Brand Portal is gepubliceerd, niet in AEM Assets. Wat zou de mogelijke reden kunnen zijn?**
-
-**Ans.** Contacteer uw beheerder van AEM Assets om de configuraties te verifiëren en ervoor te zorgen dat uw huurder van het Portaal van het Merk met slechts één de auteurinstantie van AEM Assets wordt gevormd.
-
-Deze kwestie komt mogelijk voor wanneer u een huurder van het Portaal van het Merk op veelvoudige de auteur van AEM Assets instanties hebt gevormd. Bijvoorbeeld, vormt de beheerder de zelfde huurder van het Portaal van het Merk op de de auteur van AEM Assets instantie van het opvoeren en productiemilieu. In dit geval, de activa die trekkers publiceren in het Portaal van het Merk maar de de auteur van AEM Assets instantie kon de activa geen coz invoeren de replicatieagent ontvangt niet het het vragen token.
 
 ## Veelgestelde vragen over Merknaam 6.4.5  {#faqs-bp645}
 
