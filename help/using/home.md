@@ -4,10 +4,10 @@ seo-title: Gebruikershandleiding AEM Brand Portal
 description: Gebruikershandleiding voor AEM Brand Portal
 seo-description: Beschrijft hoe te om het Portaal van het Merk te gebruiken
 translation-type: tm+mt
-source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 7%
+source-wordcount: '343'
+ht-degree: 4%
 
 ---
 
@@ -50,4 +50,4 @@ In deze gebruikershandleiding vindt u inzichten in het aanbod van Brand Portal e
 
 ### Nuttige bronnen
 
-* [Brand Portal begrijpen met AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
+* [Brand Portal begrijpen met AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
