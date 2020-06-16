@@ -1,8 +1,8 @@
 ---
 title: AEM Assets configureren met Brand Portal
 seo-title: AEM Assets configureren met Brand Portal
-description: Krijg inzicht in het configureren van AEM Assets met Brand Portal.
-seo-description: Krijg inzicht in het configureren van AEM Assets met Brand Portal.
+description: Krijg inzicht in het vormen van AEM Assets met het Portaal van het Merk.
+seo-description: Krijg inzicht in het vormen van AEM Assets met het Portaal van het Merk.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 9%
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 # AEM Assets configureren met Brand Portal {#configure-integration}
 
-Adobe Experience Manager-middelen (AEM) worden geconfigureerd met Brand Portal via Adobe Developer Console, die een IMS-token aanschaft voor goedkeuring van uw Brand Portal-huurder. Brand Portal wordt nu ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger.
+Adobe Experience Manager-elementen (AEM) worden geconfigureerd met het Brand Portal via de Adobe Developer Console, die een IMS-token aanschaft voor goedkeuring door uw Pandhouder. Brand Portal wordt nu ondersteund op AEM Assets-cloudservice, AEM Assets 6.3 en hoger.
 
-Als u AEM-middelen configureert, kunt u deze gebruiken met het Brand Portal, zodat u elementen kunt publiceren en distribueren met de gebruikers van het Brand Portal. Terwijl het Vormen van het Portaal van het Merk op AEM 6.3 (en hierboven) activa het uitgeven, activadistributie en activa bijdrageeigenschappen voor de gebruikers van het Portaal van het Merk toelaat.
+Het vormen AEM Assets kon met het Portaal van het Merk dienst doen staat u toe om activa met de gebruikers van het Portaal van het Merk te publiceren en te verspreiden. Terwijl het Vormen van het Portaal van het Merk op AEM 6.3 (en hierboven) activa het uitgeven, activadistributie en activa bijdrageeigenschappen voor de gebruikers van het Portaal van het Merk toelaat.
 
 >[!NOTE]
 >
->***Voor AEM-activa 6.3 en hoger***
+>***Voor de AEM Assets 6.3 en hoger***
 >
 >Eerder, werd het Portaal van het Merk gevormd in Klassieke UI via Verouderde Gateway OAuth, die de het symbolenuitwisseling van JWT gebruikt om een token van de Toegang te verkrijgen IMS voor vergunning.
 >
@@ -42,7 +42,7 @@ Als u AEM-middelen configureert, kunt u deze gebruiken met het Brand Portal, zod
 >Als u problemen ondervindt met de oudere configuratie van OAuth Gateway, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via de Adobe Developer Console.
 
 
-De stappen om AEM Middelen met het Portaal van het Merk te vormen zijn verschillend afhankelijk van uw versie AEM, en of u voor het eerst vormt, of de bestaande configuraties bevordert:
+De stappen om AEM Assets met het Portaal van het Merk te vormen zijn verschillend afhankelijk van uw versie AEM, en of u voor het eerst vormt, of de bestaande configuraties bevordert:
 
 | **AEM-versie** | **Nieuwe configuratie** | **Upgradeconfiguratie** |
 |---|---|---|
@@ -53,14 +53,3 @@ De stappen om AEM Middelen met het Portaal van het Merk te vormen zijn verschill
 | **AEM 6.2** | Contact opnemen met ondersteuning | Contact opnemen met ondersteuning |
 
 
-<!--
-   Comment Type: draft
-
-   <li> </li>
-   -->
-
-<!--
-   Comment Type: draft
-
-   <li>Step text</li>
-   -->
