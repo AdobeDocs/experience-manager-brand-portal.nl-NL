@@ -10,7 +10,7 @@ tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manage
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.nl-NL
 index: y
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 8%
@@ -30,4 +30,4 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 | aan de slag-url | Aan de slag met Help-pagina koppelen |
 | zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
 | mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
-| git-repo | Hiermee geeft u de locatie op van het hoofdrepo voor intern gebruik |
+| git-repo | Hiermee wordt de locatie van het primaire repo voor intern gebruik opgegeven |
