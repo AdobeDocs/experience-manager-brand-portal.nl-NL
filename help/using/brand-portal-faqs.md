@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -194,6 +194,7 @@ Dit geldt voor elke map die van AEM Assets naar Brand Portal wordt gepubliceerd 
 >[!NOTE]
 >
 >De releaseplanning is tijdelijk en kan worden gewijzigd. Neem contact op met uw accountmanager of klantenondersteuning van Adobe voor het bijgewerkte releaseprogramma.
+
 
 
 
