@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,5 @@ U kunt nu de eigenschappen van de map Contribution configureren. Zie [Eigenschap
 >
 >Zorg ervoor dat u de juiste naam opgeeft voor de map Contribution omdat u de mapnaam niet kunt wijzigen nadat u de map hebt gemaakt.
 >
->Het nesten van de map Contribution wordt niet ondersteund. Maak geen map voor bijdragen in een andere map voor bijdragen.
+>Het nesten van de map Contribution wordt niet ondersteund. U kunt meerdere Contribute-mappen maken in een map, maar u maakt geen Contribute-map in een andere Contribute-map.
 
