@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 0%
 
 ---
 
@@ -23,17 +26,18 @@ Lees verder om te weten hoe de activa op het Portaal van het Merk worden beveili
 
 ## Vervaldatum van element {#asset-expiration}
 
-Vervaldatum van bedrijfsmiddelen is een effectieve manier om het gebruik van goedgekeurde bedrijfsmiddelen op Brand Portal in een organisatie te controleren. Alle activa die van activa AEM aan het Portaal van het Merk worden gepubliceerd kunnen een vervaldatum hebben, die het gebruik van deze activa door verschillende gebruikersrollen beperkt.
+Vervaldatum van bedrijfsmiddelen is een effectieve manier om het gebruik van goedgekeurde bedrijfsmiddelen op Brand Portal in een organisatie te controleren. Alle elementen die van AEM Assets naar Brand Portal worden gepubliceerd, kunnen een vervaldatum hebben, waardoor het gebruik van deze elementen door verschillende gebruikersrollen wordt beperkt.
 
 ### Gebruiksmachtigingen met betrekking tot verlopen elementen {#usage-permissions-expired-assets}
 
 In Brand Portal kunnen beheerders verlopen elementen weergeven, downloaden en toevoegen aan verzamelingen. Editors en Viewers kunnen echter alleen verlopen elementen weergeven en toevoegen aan verzamelingen.
 
-Beheerders kunnen verlopen middelen van AEM Assets naar Brand Portal publiceren. Verlopen middelen kunnen echter niet via inkt worden gedeeld vanuit Brand Portal. Als u verlopen middelen selecteert uit een map met verlopen en niet-verlopen elementen, is de **[!UICONTROL Share Link]** actie niet beschikbaar. Maar als u een map selecteert die verlopen en niet-verlopen elementen bevat, zijn de [!UICONTROL Share] **[!UICONTROL Share Link]** acties en de acties beschikbaar.
+Beheerders kunnen verlopen AEM Assets publiceren naar Brand Portal. Verlopen middelen kunnen echter niet via inkt worden gedeeld vanuit Brand Portal. Als u verlopen middelen selecteert uit een map met verlopen en niet-verlopen elementen, is de **[!UICONTROL Share Link]** actie niet beschikbaar. Maar als u een map selecteert die verlopen en niet-verlopen elementen bevat, zijn de [!UICONTROL Share] **[!UICONTROL Share Link]** acties en de acties beschikbaar.
 
 >[!NOTE]
 >
 >Een map kan nog steeds als een koppeling worden gedeeld, zelfs als deze verlopen elementen bevat. In dit geval vermeldt de koppeling geen verlopen elementen en worden alleen de niet-verlopen elementen gedeeld.
+
 
 In de volgende tabel worden de gebruiksmachtigingen van verlopen elementen weergegeven:
 
@@ -48,6 +52,7 @@ In de volgende tabel worden de gebruiksmachtigingen van verlopen elementen weerg
 >
 >Als Viewers en Editors een map met verlopen en niet-verlopen elementen downloaden, worden alleen de niet-verlopen elementen gedownload. Als een map alleen verlopen elementen bevat, wordt een lege map gedownload.
 
+
 ### Vervalstatus van activa {#expiration-status-of-assets}
 
 U kunt de vervalstatus van elementen in hun **[!UICONTROL Card View]** lijst weergeven. Een rode markering op de kaart geeft aan dat het element is verlopen.
@@ -57,6 +62,7 @@ U kunt de vervalstatus van elementen in hun **[!UICONTROL Card View]** lijst wee
 >[!NOTE]
 >
 >In de lijst- en kolomweergaven wordt de vervalstatus van elementen niet weergegeven.
+
 
 ## Vervaldatum van middelenkoppeling {#asset-link-expiration}
 
@@ -72,7 +78,7 @@ Zie Elementen [delen als een koppeling](../using/brand-portal-link-share.md)voor
 
 Voor gelicentieerde activa moet een licentieovereenkomst worden geaccepteerd voordat deze van Brand Portal kunnen worden gedownload. Deze overeenkomst voor gelicentieerde activa komt wanneer u het middel van Brand Portal of via een gedeelde verbinding direct downloadt. Alle gebruikers kunnen de door een licentie beveiligde middelen bekijken, ongeacht of deze zijn verlopen of niet. Het downloaden en gebruiken van verlopen gelicentieerde middelen is echter beperkt. Raadpleeg de [gebruiksmachtigingen van verlopen elementen](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)voor informatie over het gedrag van verlopen, in licentie gegeven elementen en toegestane activiteiten op basis van gebruikersrollen.
 
-Bij voor licentie beveiligde elementen is een [licentieovereenkomst gekoppeld](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , die wordt uitgevoerd door de eigenschap [](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadata van het element in te stellen in AEM Assets.
+Bij voor licentie beveiligde elementen is een [licentieovereenkomst gekoppeld](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , die wordt uitgevoerd door de eigenschap [](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadata van het element in AEM Assets in te stellen.
 
 Als u met licentie beveiligde middelen wilt downloaden, wordt u omgeleid naar de **[!UICONTROL Copyright Management]** pagina.
 
