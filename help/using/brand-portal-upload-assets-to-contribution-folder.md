@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -30,6 +30,7 @@ Gebruikers van het Brand Portal kunnen vervolgens nieuwe middelen maken voor een
 >Maximale uploadlimiet voor elke Brand Portal-account/huurder is **10** GB.
 
 
+
 **Nieuwe elementen uploaden:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
@@ -42,4 +43,4 @@ Het dashboard voor Brand Portal weerspiegelt alle bestaande mappen die zijn toeg
 1. Blader naar en upload nieuwe elementen (bestanden/mappen) in de **[!UICONTROL NEW]** map.
    ![](assets/upload-new-assets3.png)
 
-Wanneer het uploaden is voltooid, kan de gebruiker van het Brand Portal de map met bijdragen weer publiceren naar AEM Assets. Zie de map met bijdragen [publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Wanneer het uploaden is voltooid, kan de gebruiker van het Brand Portal de map met bijdragen weer publiceren naar AEM Assets. Zie Bijdragemap [publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
