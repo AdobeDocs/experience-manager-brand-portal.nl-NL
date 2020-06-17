@@ -1,8 +1,8 @@
 ---
 title: Eigenschappen voor de Contribute-map configureren
 seo-title: Eigenschappen voor de Contribute-map configureren
-description: 'Krijg inzicht in hoe te om de eigenschappen van een bijdrageomslag in Elementen te vormen AEM. '
-seo-description: 'Krijg inzicht in hoe te om de eigenschappen van een bijdrageomslag in Elementen te vormen AEM. '
+description: 'Krijg inzicht in hoe te om de eigenschappen van een bijdrageomslag in AEM Assets te vormen. '
+seo-description: 'Krijg inzicht in hoe te om de eigenschappen van een bijdrageomslag in AEM Assets te vormen. '
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -46,4 +46,5 @@ Deze gebruikers/groepen van het Merk Portal hebben toestemming om tot de bijdrag
 
 >[!NOTE]
 >
->De zoekresultaten zijn gebaseerd op de gebruikerslijst van het Brand Portal die is geconfigureerd in AEM Assets. Zorg ervoor dat u de bijgewerkte gebruikerslijst voor Brand Portal hebt. Zie Gebruikerslijst [Brand Portal](brand-portal-configure-asset-sourcing.md)uploaden.
+>De onderzoeksresultaten zijn gebaseerd op de Poortgebruikerslijst van het Merk die in AEM Assets wordt gevormd. Zorg ervoor dat u de bijgewerkte gebruikerslijst voor Brand Portal hebt. Zie Gebruikerslijst [Brand Portal](brand-portal-configure-asset-sourcing.md)uploaden.
+
