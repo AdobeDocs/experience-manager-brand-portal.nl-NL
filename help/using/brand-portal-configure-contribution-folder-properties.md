@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
+source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,7 @@ De beheerder kan gebruikers/groepen van het Portaal van het Merk toegang tot de 
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Voer een hoog niveau **[!UICONTROL Description]** in voor de map met bijdragen.
 1. Klik **[!UICONTROL Upload Brief]** om vanaf uw lokale computer te bladeren en een document ![](assets/upload.png) met **** elementvereisten te uploaden.
-1. Zoek in **[!UICONTROL Add User or Group]** en **[!UICONTROL Add]** Brand Portal-gebruikers met wie u de map met bijdragen wilt delen. Een Contribute-map kan niet worden toegewezen aan groepen.
-Deze gebruikers van het Merk Portal hebben toestemming om tot de bijdrageomslag toegang te hebben en inhoud van hun interface van het Portaal van het Merk te uploaden zonder toegang tot de auteur van AEM te vereisen.
+1. Voeg in het **[!UICONTROL Add User or Group]** veld Poortgebruikers toe met wie u de bijdraamap wilt delen. Toegevoegde gebruikers kunnen via de interface Brand Portal toegang krijgen tot de map met bijdragen en inhoud uploaden. U kunt momenteel geen groepen toevoegen aan een bijdragemap.
 
 1. Klik op **[!UICONTROL Save]**.
    ![](assets/contribution-folder-property2.png)
