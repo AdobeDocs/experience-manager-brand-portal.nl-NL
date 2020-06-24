@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
 workflow-type: tm+mt
-source-wordcount: '4468'
+source-wordcount: '4462'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ De standaardminiatuur van de virtuele mappen is de miniatuurafbeelding van de ee
 
 ### Zoeken in specifieke maphiërarchie of pad
 
-**Voorspelfunctie voor padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
+**Voorspelfunctie van padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
 
 * Admin-gebruikers kunnen met Padbrowser naar een willekeurige map op het Brand Portal navigeren.
 * Gebruikers die geen beheerder zijn, kunnen de padbrowser gebruiken om alleen naar de mappen (en terug te navigeren naar de bovenliggende mappen) te navigeren die met hen worden gedeeld.
@@ -342,7 +342,7 @@ De bovenstaande configuraties zijn beschikbaar onder Toegang en Algemene instell
 
 ### Adobe I/O-interface voor het configureren van Auth-integratie
 
-Brand Portal 6.4.2 en hoger gebruiken de interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) om JWT-toepassing te maken, die het configureren van Auth-integratie mogelijk maakt om AEM Assets-integratie met Brand Portal mogelijk te maken. Eerder werd de interface voor het configureren van OAuth-integratie gehost in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Meer informatie over het integreren van AEM Assets met het Portaal van het Merk voor het publiceren van activa en inzamelingen aan het Portaal van het Merk verwijs [vormt de integratie van AEM Assets met het Portaal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)van het Merk.
+Brand Portal 6.4.2 en hoger gebruiken de interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) om JWT-toepassing te maken, die het configureren van Auth-integratie mogelijk maakt om AEM Assets-integratie met Brand Portal mogelijk te maken. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/`. Meer informatie over het integreren van AEM Assets met het Portaal van het Merk voor het publiceren van activa en inzamelingen aan het Portaal van het Merk verwijs [vormt de integratie van AEM Assets met het Portaal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)van het Merk.
 
 ## Verbeteringen zoeken
 
