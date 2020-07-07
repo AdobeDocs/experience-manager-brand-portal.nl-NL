@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 0%
@@ -58,12 +58,12 @@ Aangezien videocoderingscodes niet in de opslagplaats van het Portaal van het Me
 
 Als u met dynamische video&#39;s wilt werken op Brand Portal, moet u:
 
-* **Start de AEM Author op in de modus** DM (Dynamic Media) (waarmee Brand Portal is geconfigureerd) of in de modus [Hybride](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic Media of de modus [](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)Dynamic Media [!DNL Scene 7].
+* **Start de AEM Author op in de modus** DM (Dynamic Media) (waarmee Brand Portal is geconfigureerd) of in de modus [Hybride](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic Media of de modus [](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)Dynamic Media (!DNL Scene 7]).
 * **Dynamic Media-wolkenservices configureren op AEM Author** Gebaseerd op de Dynamic Media-modus waarop AEM Author wordt uitgevoerd, stelt u een van de [Dynamic Media-wolkenservices](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) of [[!DNL Scene 7]-wolkenservices](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in op AEM Author van **Tools** | **Cloud Service** | **Dynamic Media**.
 * **Vorm Dynamic Media op het Portaal** van het Merk die op de de wolkenconfiguraties van Dynamic Media op AEM Author wordt gebaseerd, vorm [Dynamic Media montages](#configure-dm-hybrid-settings) of [[!DNL Scène 7] montages](#configure-dm-scene7-settings) van de administratieve hulpmiddelen van het Portaal van het Merk.
 Zorg ervoor dat de [afzonderlijke huurders](#separate-tenants) van het Portaal van het Merk voor AEM Author instanties worden gebruikt die met Dynamic Media worden gevormd Hybride en de wijzen van Dynamic Media **[!UICONTROL Scene7]** , als u functionaliteiten van Dynamic Media Hybrid en Dynamic Media gebruikt **[!UICONTROL S7]**.
 * **Publiceer omslagen met videocoderingen die op het Portaal** van het Merk worden toegepast [videocoderingen](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) toepassen en publiceer de omslag die rijke media activa van instantie AEM Author aan het Portaal van het Merk bevat.
-* **Staat IPs van de uitgang van de Eenheid in SPS toe als de veilige voorproef toegelaten** Als het gebruiken van Dynamic Media-**[!DNL Scene 7]** (met [veilige voorproef die voor een bedrijf wordt toegelaten](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) ), dan wordt het geadviseerd dat de **[!DNL Scene 7]** bedrijfbeheerder openbare uitgang IPs [voor respectieve gebieden](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**[!UICONTROL Scene 7]** toestaat gebruikend SPS (het Uitgeven Systeem) flits UI.
+* **IPs van de Afstand van de Lijst van gewenste personen in SPS als veilige voorproef toegelaten** Als het gebruiken van Dynamic Media-**[!DNL Scene 7]** (met [veilige voorproef die voor een bedrijf wordt toegelaten](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) ), dan wordt het geadviseerd dat de **[!DNL Scene 7]** bedrijfbeheerder IPs van de openbare uitgang voor respectieve gebieden [](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**[!UICONTROL Scene 7]** toe_voegt op lijst van gewenste personen gebruikend SPS (het Uitgeven Systeem) flits UI.
 De IP&#39;s van de egress zijn als volgt:
 
 | **Regio** | **IP van de uitgang** |
@@ -88,7 +88,7 @@ Als u zowel Dynamic Media als Dynamic Media Hybride eigenschappen gebruikt, word
 
 Zorg ervoor dat de configuratiedetails-zoals **[!UICONTROL Title]**, **[!UICONTROL Registration ID]**, **[!UICONTROL Video Service URL]** (in **[!UICONTROL Dynamic Media Hybrid]**) en **[!UICONTROL Title]**, geloofsbrieven (**[!UICONTROL Email]** en Wachtwoord), **[!UICONTROL Region]**, **[!UICONTROL Company]** (in Dynamic Media **[!DNL Scene 7]**) - het zelfde in het Portaal van het Merk en **[!UICONTROL AEM cloud configuration]** zijn.
 
-### Openbare egress-IP&#39;s voor Dynamic Media, scène 7-modus toestaan
+### Lijst van gewenste personen openbare uitgang IPs voor de wijze van Scène 7 van Dynamic Media
 
 Als Dynamic Media **[!UICONTROL Scene 7]**-met [veilige voorproef toegelaten](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)-wordt gebruikt om videoactiva aan het Portaal van het Merk te dienen, dan **[!UICONTROL Scene 7]** vestigt een specifieke beeldserver voor het opvoeren van milieu&#39;s of interne toepassingen. Om het even welk verzoek aan deze server controleert het oorsprongIP adres. Als het inkomende verzoek niet binnen de goedgekeurde lijst van IP adressen is, is een mislukkingsreactie teruggekeerd.
 De beheerder van het **[!UICONTROL Scene-7]** Bedrijf, daarom, vormt een goedgekeurde lijst van IP adressen voor het **[!UICONTROL Secure Testing]** milieu van hun bedrijf, door **[!UICONTROL SPS]** (Scene-7 het Publiceren Systeem) flits UI. Zorg ervoor dat de IP van de uitgang voor uw respectieve gebied (van het volgende) aan die goedgekeurde lijst wordt toegevoegd.
@@ -104,21 +104,24 @@ De IP&#39;s van de uitgang zijn als volgt:
 ## Instellingen voor Dynamic Media (hybride) configureren {#configure-dm-hybrid-settings}
 
 Als de instantie van AEM Author op dynamische media hybride wijze loopt, dan gebruik **[!UICONTROL Video]** tegel van het administratieve hulpmiddelenpaneel om de montages van de Dynamic Media gateway te vormen.
+
 >[!NOTE]
 >
 >De [videocoderingsprofielen](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) worden niet gepubliceerd naar Brand Portal, maar opgehaald van de **[!UICONTROL Scene 7]** server. Daarom voor videocoderingscodes die met succes in het Portaal van het Merk moeten worden gespeeld, zorg ervoor dat de configuratiedetails het zelfde als [[!UICONTROL Scene7 wolkenconfiguratie]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in uw instantie van AEM Author zijn.
+
 Configuraties van Dynamic Media instellen op Brand Portal-huurders:
 
 1. Selecteer het AEM-logo voor toegang tot beheergereedschappen op de werkbalk bovenaan in het Brand Portal.
+1. Selecteer de **[!UICONTROL Video]** tegel in het deelvenster met beheergereedschappen.
 
-2. Selecteer de **[!UICONTROL Video]** tegel in het deelvenster met beheergereedschappen.<br />
    ![Hybride configuratie van Dynamic Media op Brand Portal](assets/DMHybrid-Video.png)
-   **[!UICONTROL Edit Dynamic Media Configuration]** pagina wordt geopend.<br />
+
+   **[!UICONTROL Edit Dynamic Media Configuration]** pagina wordt geopend.
+
    ![Hybride configuratie van Dynamic Media op het Merkortaal](assets/edit-dynamic-media-config.png)
 
-3. Specificeer **[!UICONTROL Registration ID]** en **[!UICONTROL Video Service URL]** (DM-Gateway URL). Zorg ervoor dat deze gegevens overeenkomen met de gegevens in **[!UICONTROL Tools > Cloud Services]** uw AEM Author-exemplaar.
-
-4. Selecteer **Opslaan** om de configuratie op te slaan.
+1. Specificeer **[!UICONTROL Registration ID]** en **[!UICONTROL Video Service URL]** (DM-Gateway URL). Zorg ervoor dat deze gegevens overeenkomen met de gegevens in **[!UICONTROL Tools > Cloud Services]** uw AEM Author-exemplaar.
+1. Selecteer **Opslaan** om de configuratie op te slaan.
 
 ## Dynamic Media Scene7-instellingen configureren {#configure-dm-scene7-settings}
 
