@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,6 @@ Het Portaal van het merk wordt gevormd met AEM Assets om goedgekeurde merkactiva
 >[!NOTE]
 >
 >Adobe raadt u aan een upgrade naar AEM 6.4.1.0 uit te voeren om ervoor te zorgen dat AEM Assets Brand Portal correct is geconfigureerd met AEM Assets. Een beperking in AEM 6.4 geeft een fout terwijl het vormen van AEM Assets met het Portaal van het Merk en de replicatie ontbreekt.
-
 
 Bij het configureren van de cloudservice voor merkportal onder **[!UICONTROL /etc/cloudservice]**, worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Dit leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen van AEM naar Brand Portal publiceert, worden deze in de wachtrij geplaatst en verdeeld onder deze replicatieagents via Round Robin.
 
