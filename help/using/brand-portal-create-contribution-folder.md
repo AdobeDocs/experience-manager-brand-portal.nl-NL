@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -42,4 +42,3 @@ U kunt nu de eigenschappen van de map Contribution configureren. Zie [Eigenschap
 >Een gebruiker die geen beheerder is, kan alleen een bronnenbijdragemap maken en delen. Wanneer de bijdragemap is gemaakt, kan een niet-beheerder deze niet wijzigen of verwijderen.
 >
 >Het nesten van de map voor middelenbijdragen wordt niet ondersteund. U kunt mappen voor meerdere bijdragen maken in een map, maar u mag geen bijdragemap maken in een andere bijdragemap.
-
