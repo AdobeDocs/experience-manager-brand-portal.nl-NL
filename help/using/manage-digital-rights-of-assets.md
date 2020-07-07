@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -38,7 +38,6 @@ Beheerders kunnen verlopen AEM Assets publiceren naar Brand Portal. Verlopen mid
 >
 >Een map kan nog steeds als een koppeling worden gedeeld, zelfs als deze verlopen elementen bevat. In dit geval vermeldt de koppeling geen verlopen elementen en worden alleen de niet-verlopen elementen gedeeld.
 
-
 In de volgende tabel worden de gebruiksmachtigingen van verlopen elementen weergegeven:
 
 |  | **[!UICONTROL Link share]** | **[!UICONTROL Download]** | **[!UICONTROL Properties]** | **[!UICONTROL Add to collection]** | **[!UICONTROL Delete]** |
@@ -52,7 +51,6 @@ In de volgende tabel worden de gebruiksmachtigingen van verlopen elementen weerg
 >
 >Als Viewers en Editors een map met verlopen en niet-verlopen elementen downloaden, worden alleen de niet-verlopen elementen gedownload. Als een map alleen verlopen elementen bevat, wordt een lege map gedownload.
 
-
 ### Vervalstatus van activa {#expiration-status-of-assets}
 
 U kunt de vervalstatus van elementen in hun **[!UICONTROL Card View]** lijst weergeven. Een rode markering op de kaart geeft aan dat het element is verlopen.
@@ -62,7 +60,6 @@ U kunt de vervalstatus van elementen in hun **[!UICONTROL Card View]** lijst wee
 >[!NOTE]
 >
 >In de lijst- en kolomweergaven wordt de vervalstatus van elementen niet weergegeven.
-
 
 ## Vervaldatum van middelenkoppeling {#asset-link-expiration}
 
