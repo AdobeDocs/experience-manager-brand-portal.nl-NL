@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 0%
@@ -68,8 +68,6 @@ De stappen om AEM Assets met het Portaal van het Merk te vormen zijn verschillen
 >
 >Het wordt aanbevolen uw AEM-instantie bij te werken naar het nieuwste servicepakket.
 
-
-
 Zie Opmerkingen bij de release van de nieuwste [Brand Portal](brand-portal-release-notes.md).
 
 Zie Veelgestelde vragen over [Brand Portal](brand-portal-faqs.md).
@@ -95,8 +93,6 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 >Asset Sourcing in Brand Portal wordt ondersteund op AEM 6.5.2.0 en hoger.
 >
 >De functie wordt niet ondersteund in eerdere versies - AEM 6.3 en AEM 6.4.
-
-
 
 ### Elementen uploaden naar de bijdragemap {#upload-assets-in-bp}
 
@@ -154,7 +150,6 @@ Op dezelfde manier specificeren:
 >
 >Als u het selectievakje **Gedeeltelijk zoeken** inschakelt, is Hoofdlettergebruik **** negeren standaard ingeschakeld.
 
-
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Wat veranderde in 6.4.3 {#what-changed-in}
@@ -184,7 +179,7 @@ De standaardminiatuur van de virtuele mappen is de miniatuurafbeelding van de ee
 
 ### Zoeken in specifieke maphiërarchie of pad
 
-**Voorspelfunctie van padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
+**Voorspelfunctie voor padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
 
 * Admin-gebruikers kunnen met Padbrowser naar een willekeurige map op het Brand Portal navigeren.
 * Gebruikers die geen beheerder zijn, kunnen de padbrowser gebruiken om alleen naar de mappen (en terug te navigeren naar de bovenliggende mappen) te navigeren die met hen worden gedeeld.
