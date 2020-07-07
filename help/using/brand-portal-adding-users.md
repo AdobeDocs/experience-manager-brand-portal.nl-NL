@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '2060'
 ht-degree: 0%
@@ -39,7 +39,6 @@ Deze productprofielen worden om de acht uur gesynchroniseerd met de gebruikersin
 >
 >Als u groepen wilt maken in Brand Portal, gebruikt u [!UICONTROL Admin Console]dit programma in plaats van **[!UICONTROL Products > Product Profiles]****[!UICONTROL User page > User Groups]**. Productprofielen in Adobe [!UICONTROL Admin Console] worden gebruikt om groepen te maken in Brand Portal.
 
-
 ## Een gebruiker toevoegen {#add-a-user}
 
 Als u een productbeheerder bent, gebruikt u Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) om gebruikers te maken en deze toe te wijzen aan productprofielen (*voorheen bekend als productconfiguraties*), die als groepen in Brand Portal worden weergegeven. U kunt groepen gebruiken om bulkbewerkingen uit te voeren, zoals rolbeheer en het delen van elementen.
@@ -48,11 +47,9 @@ Als u een productbeheerder bent, gebruikt u Adobe [[!UICONTROL Admin Console]](h
 >
 >Nieuwe gebruikers die geen toegang hebben tot Brand Portal, kunnen toegang aanvragen via het aanmeldingsscherm van het Brand Portal. Raadpleeg [Verzoek om toegang tot Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)voor meer informatie. Nadat u in het systeemvak kennisgevingen van verzoeken om toegang hebt ontvangen, klikt u op de betreffende melding en vervolgens op **[!UICONTROL Grant Access]**. U kunt ook de koppeling volgen in de ontvangen e-mail met het toegangsverzoek. Als u vervolgens een gebruiker wilt toevoegen via [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), volgt u stap 4-7 in de onderstaande procedure.
 
-
 >[!NOTE]
 >
 >U kunt zich rechtstreeks of vanuit Brand Portal aanmelden bij [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) . Als u zich direct aanmeldt, volgt u de stappen 4 tot en met 7 in de onderstaande procedure om een gebruiker toe te voegen.
-
 
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
 
@@ -95,7 +92,6 @@ Productprofielen (voorheen productconfiguraties genoemd) in [!UICONTROL Admin Co
 >
 >U kunt zich direct aanmelden bij [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) of via Brand Portal. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-7 in de onderstaande procedure om een productprofiel toe te voegen.
 
-
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
 
    ![AEM-logo](assets/aemlogo.png)
@@ -128,7 +124,6 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 >[!NOTE]
 >
 >U kunt zich direct aanmelden bij [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) of via Brand Portal. Als u zich direct bij de Admin Console aanmeldt, volgt u stap 4-7 in de onderstaande procedure om gebruikers aan een productprofiel toe te voegen.
-
 
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
 
@@ -179,7 +174,6 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
 >[!NOTE]
 >
 >U kunt zich direct aanmelden bij [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) of via Brand Portal. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-8 in de onderstaande procedure om een gebruiker aan een productprofiel toe te voegen.
-
 
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
 
@@ -271,7 +265,6 @@ Een beheerder kan specifieke voorrechten met een [groep](../using/brand-portal-a
 >[!NOTE]
 >
 >Voor de elementen die als de koppeling worden gedeeld, is de machtiging om toegang te krijgen tot originele uitvoeringen van afbeeldingsbestanden van toepassing op basis van de machtigingen van de gebruiker die de elementen deelt.
-
 
 Voer de volgende stappen uit om de rol en het recht op toegang tot originele uitvoeringen voor specifieke groepsleden te wijzigen:
 
