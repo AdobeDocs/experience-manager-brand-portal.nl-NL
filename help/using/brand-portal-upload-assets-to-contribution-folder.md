@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -28,8 +28,6 @@ Gebruikers van het Brand Portal kunnen vervolgens nieuwe middelen maken voor een
 >Gebruikers van Brand Portal kunnen inhoud/middelen alleen uploaden naar de map **NEW** . Ze hebben geen toestemming om een geüpload element te verwijderen.
 >
 >Maximale uploadlimiet voor elke Brand Portal-account/huurder is **10** GB.
-
-
 
 **Nieuwe elementen uploaden:**
 
