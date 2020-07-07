@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -122,7 +122,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Kan ik elementen uploaden naar elke toegestane map?**
 
-**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door de beheerder van AEM of van het Merk wordt gedeeld.
+**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door AEM of de beheerder van het Merk Poortportaal wordt gedeeld.
 
 
 
@@ -133,9 +133,6 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 >[!NOTE]
 >
 >Als u geen bestaande gebruiker van het Portaal van het Merk bent, verzoek de beheerder AEM om uw gebruiker in AEM te creëren admin console en uw profiel toe te voegen aan het dossier van de gebruikersconfiguratie in de gebruikerslijst van de Portaalgebruikers van het Merk. Zie, [Brand Portal-gebruiker](brand-portal-configure-asset-sourcing.md)toevoegen.
-
-
-
 
 **Ques. Wat is de indeling van het CSV-bestand voor het importeren van gebruikers?**
 
