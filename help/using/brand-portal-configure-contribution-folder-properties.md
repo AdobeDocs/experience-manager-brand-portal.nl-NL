@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ Het vereiste van activa verwijst naar de details die door beheerders worden vers
 De beheerder kan gebruikers/groepen van het Portaal van het Merk toegang tot de bijdrageomslag dan verlenen alvorens de pas gecreëerde omslag van de Bijdrage aan het Portaal van het Merk te publiceren.
 
 **Eigenschappen voor bijdragemappen configureren:**
+
 1. Meld u aan bij de instantie van uw AEM-auteurStandaard-URL: http:// localhost:4502/aem/start.html
 1. Navigeer naar de map met de bijdrage **[!UICONTROL Assets > Files]** en zoek deze.
 1. Selecteer de map met bijdragen en klik op **[!UICONTROL Properties]** ![](assets/properties.png). Het venster Eigenschappen van map wordt geopend.
@@ -40,11 +41,10 @@ De beheerder kan gebruikers/groepen van het Portaal van het Merk toegang tot de 
 1. Voer een hoog niveau **[!UICONTROL Description]** in voor de map met bijdragen.
 1. Klik **[!UICONTROL Upload Brief]** om vanaf uw lokale computer te bladeren en een document ![](assets/upload.png) met **** elementvereisten te uploaden.
 1. Voeg in het **[!UICONTROL Add User or Group]** veld Poortgebruikers toe met wie u de bijdraamap wilt delen. Toegevoegde gebruikers kunnen via de interface Brand Portal toegang krijgen tot de map met bijdragen en inhoud uploaden. U kunt momenteel geen groepen toevoegen aan een bijdragemap.
-
 1. Klik op **[!UICONTROL Save]**.
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >De onderzoeksresultaten zijn gebaseerd op de Poortgebruikerslijst van het Merk die in AEM Assets wordt gevormd. Zorg ervoor dat u de bijgewerkte gebruikerslijst voor Brand Portal hebt. Zie Gebruikerslijst [Brand Portal](brand-portal-configure-asset-sourcing.md)uploaden.
-
