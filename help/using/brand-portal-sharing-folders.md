@@ -1,15 +1,15 @@
 ---
 title: Mappen delen
 seo-title: Mappen delen
-description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen via een vooraf geconfigureerde AEM-auteur naar Brand Portal moeten worden gepubliceerd. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers van andere bedrijven dan beheerders van het Brand Portal, tenzij geconfigureerd tijdens het configureren van replicatie met AEM-instantie, en moeten met hen worden gedeeld.
-seo-description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen via een vooraf geconfigureerde AEM-auteur naar Brand Portal moeten worden gepubliceerd. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers van andere bedrijven dan beheerders van het Brand Portal, tenzij geconfigureerd tijdens het configureren van replicatie met AEM-instantie, en moeten met hen worden gedeeld.
+description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen via een vooraf geconfigureerde AEM Author-instantie naar Brand Portal moeten worden gepubliceerd. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers van andere bedrijven dan beheerders van het Brand Portal, tenzij geconfigureerd tijdens het configureren van replicatie met AEM-instantie, en moeten met hen worden gedeeld.
+seo-description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen via een vooraf geconfigureerde AEM Author-instantie naar Brand Portal moeten worden gepubliceerd. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers van andere bedrijven dan beheerders van het Brand Portal, tenzij geconfigureerd tijdens het configureren van replicatie met AEM-instantie, en moeten met hen worden gedeeld.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Mappen delen op Brand Portal {#share-folders}
 
-Middelen moeten via een vooraf geconfigureerde AEM Author-instantie naar Brand Portal worden gepubliceerd, omdat het Brand Portal geen ondersteuning biedt voor het opnemen van bedrijfsmiddelen.
+Middelen moeten via een vooraf geconfigureerde AEM Author-instantie naar Brand Portal worden gepubliceerd, omdat het Brand Portal geen ondersteuning biedt voor het opnemen van-elementen.
 
 ## Workflow voor het delen van mappen in Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 Hieronder worden de workflow voor het delen van mappen en gebruikerstoegang beschreven:
 
-* Door gebrek, zijn alle omslagen die van activa AEM aan het Portaal van het Merk worden gepubliceerd zichtbaar slechts aan de Beheerder van het Portaal van het Merk, tenzij duidelijk als openbaar terwijl het vormen van replicatie.
+* Door gebrek, zijn alle die omslagen van AEM Assets aan het Portaal van het Merk worden gepubliceerd zichtbaar slechts aan de Beheerder van het Portaal van het Merk, tenzij duidelijk als openbaar terwijl het vormen van replicatie.
 * De beheerder gebruikt de **[!UICONTROL Folder Properties]** console om een omslag met selectieve gebruikers of groepen te delen. Alleen die gebruikers of groepen met wie de map wordt gedeeld, kunnen de map zien nadat ze zich hebben aangemeld bij Brand Portal. De map is niet zichtbaar voor andere gebruikers.
 * De beheerder kan er ook voor kiezen om een map openbaar te maken via het **[!UICONTROL Public Folder]** selectievakje in de **[!UICONTROL Folder Properties]** console. Alle gebruikers zien een openbare map.
 
@@ -39,7 +39,7 @@ Op dezelfde manier hebben gebruikersgroepen (of gebruikers) met toegangsmachtigi
 
 ### Openbare map publiceren {#public-folder-publish}
 
-Tenzij de **[!UICONTROL Public Folder Publish]** optie is geselecteerd tijdens het configureren van de replicatie van het Brand Portal, hebben gebruikers die geen beheerder zijn (zoals Editors en Viewers) geen toegang tot elementen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd.
+Tenzij de **[!UICONTROL Public Folder Publish]** optie tijdens het configureren van de replicatie van het Brand Portal is geselecteerd, hebben gebruikers zonder beheerdersrechten (zoals Editors en Viewers) geen toegang tot de middelen die vanuit AEM Assets naar het Brand Portal zijn gepubliceerd.
 
 ![](assets/assetbpreplication.png)
 
@@ -49,12 +49,11 @@ Als de **[!UICONTROL Public Folder Publish]** optie is uitgeschakeld, moeten beh
 >
 >De optie om in te schakelen **[!UICONTROL Public Folder Publish]** is beschikbaar in AEM 6.3.2.1 en later.
 
-
 ## Toegang tot gedeelde mappen {#access-to-shared-folders}
 
 In de volgende matrix worden de toegangsrechten en rechten voor het delen/ontdelen van elementen voor verschillende gebruikersrollen besproken:
 
-|  | Toegang tot alle mappen die vanuit AEM Assets zijn gepubliceerd naar Brand Portal | Toegang tot gedeelde mappen | Maprechten delen/delen opheffen |
+|  | Toegang tot alle mappen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd | Toegang tot gedeelde mappen | Maprechten delen/delen opheffen |
 |---------------|-----------|-----------|------------|
 | Beheerder | Ja | Ja | Ja |
 | Editor | Nee* | Ja, alleen indien gedeeld met hen of met de groep waartoe zij behoren | Ja, alleen voor de mappen die met hen worden gedeeld of met de groep waartoe zij behoren |
@@ -63,8 +62,7 @@ In de volgende matrix worden de toegangsrechten en rechten voor het delen/ontdel
 
 >[!NOTE]
 >
->Standaard is de **[!UICONTROL Public Folder Publish]** optie uitgeschakeld tijdens het configureren van replicatie van Brand Portal met AEM-auteur. Als de optie is ingeschakeld, zijn de mappen die naar het Brand Portal worden gepubliceerd standaard toegankelijk voor alle gebruikers (ook gebruikers die geen beheerder zijn).
-
+>Standaard is de **[!UICONTROL Public Folder Publish]** optie uitgeschakeld tijdens het configureren van replicatie van Brand Portal met AEM Author. Als de optie is ingeschakeld, zijn de mappen die naar het Brand Portal worden gepubliceerd standaard toegankelijk voor alle gebruikers (ook gebruikers die geen beheerder zijn).
 
 ### Toegang van gebruikers die geen beheerder zijn tot gedeelde mappen {#non-admin-user-access-to-shared-folders}
 
