@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 9%
@@ -32,7 +32,6 @@ Het vormen AEM Assets kon met het Portaal van het Merk dienst doen staat u toe o
 >
 >Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configuratie via Adobe Developer Console.
 
-
 >[!TIP]
 >
 >***Alleen voor bestaande klanten***
@@ -40,7 +39,6 @@ Het vormen AEM Assets kon met het Portaal van het Merk dienst doen staat u toe o
 >De verouderde configuratie van de Gateway OAuth zal blijven werkend voor bestaande klanten.
 >
 >Als u problemen ondervindt met de oudere configuratie van OAuth Gateway, verwijdert u de bestaande configuratie en maakt u een nieuwe configuratie via de Adobe Developer Console.
-
 
 De stappen om AEM Assets met het Portaal van het Merk te vormen zijn verschillend afhankelijk van uw versie AEM, en of u voor het eerst vormt, of de bestaande configuraties bevordert:
 
