@@ -1,6 +1,6 @@
 ---
-title: Overzicht van de AEM Assets Brand Portal
-seo-title: Overzicht van de AEM Assets Brand Portal
+title: Overzicht van het Brand Portal voor AEM Assets
+seo-title: Overzicht van het Brand Portal voor AEM Assets
 description: Met AEM Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten.
 seo-description: Met AEM Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 4%
@@ -17,37 +17,36 @@ ht-degree: 4%
 ---
 
 
-# Overzicht van de AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
+# Overzicht van het Brand Portal voor AEM Assets {#overview-of-aem-assets-brand-portal}
 
 Als markator, moet u soms met kanaalpartners en interne bedrijfsgebruikers samenwerken om, relevante digitale inhoud snel tot stand te brengen te beheren en te leveren aan klanten. De tijdige levering van relevante inhoud over de volledige klantenreis is kritiek aan het drijven van grotere vraag, omzetting, overeenkomst, en klantenloyaliteit.
 
 Het is echter een uitdaging om oplossingen te ontwikkelen die efficiënte en veilige delen van goedgekeurde merklogo&#39;s, richtlijnen, campagnemiddelen of productschoten met uitgebreide interne teams, partners en wederverkopers ondersteunen.
 
-**Het Brand Portal** van Adobe Experience Manager (AEM) is gericht op de behoefte van de markt om effectief samen te werken met de wereldwijd gedistribueerde gebruikers van het Brand Portal door mogelijkheden voor middelendistributie en middelenbijdragen te bieden.
+**Adobe Experience Manager (AEM) Assets Brand Portal** richt zich op de noodzaak van een effectieve samenwerking van de markt met de wereldwijd gedistribueerde gebruikers van het Brand Portal door mogelijkheden voor middelendistributie en middelenbijdragen te bieden.
 
-Met Asset Distribution kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Terwijl gebruikers van het Brand Portal met behulp van Asset Contribution elementen kunnen uploaden naar het Brand Portal en kunnen publiceren naar AEM Assets, zonder dat ze toegang hoeven te hebben tot de omgeving van de auteur. De bijdragefunctie wordt genoemd als **Middelen**. Samen verbetert het de algemene ervaring van het Brand Portal op het gebied van de distributie van activa en de bijdrage van de gebruikers van het Brand Portal (externe agentschappen/teams), versnelt het de tijd-aan-markt voor activa, en vermindert het risico van niet-naleving en onbevoegde toegang.
+Met Asset Distribution kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Terwijl de inbreng van Activa de gebruikers van het Portaal van het Merk de mogelijkheid biedt om activa aan het Portaal van het Merk te uploaden en aan AEM Assets te publiceren, zonder toegang tot het auteursmilieu te vereisen. De bijdragefunctie wordt genoemd als **Middelen**. Samen verbetert het de algemene ervaring van het Brand Portal op het gebied van de distributie van activa en de bijdrage van de gebruikers van het Brand Portal (externe agentschappen/teams), versnelt het de tijd-aan-markt voor activa, en vermindert het risico van niet-naleving en onbevoegde toegang.
 Zie [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 Met de browsergebaseerde portalomgeving kunt u elementen gemakkelijk uploaden, doorbladeren, zoeken, voorvertonen en exporteren in een goedgekeurde indeling.
 
 ## AEM Assets configureren met Brand Portal {#configure-brand-portal}
 
-Adobe Experience Manager-middelen (AEM) worden geconfigureerd met Brand Portal via Adobe Developer Console, die een IMS-token aanschaft voor goedkeuring van uw Brand Portal-huurder.
+Adobe Experience Manager-elementen (AEM) worden geconfigureerd met het Brand Portal via de Adobe Developer Console, die een IMS-token aanschaft voor goedkeuring door uw Pandhouder.
 
 >[!NOTE]
 >
->AEM Assets configureren met Brand Portal via Adobe Developer Console wordt ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger.
-
+>Het configureren van AEM Assets met Brand Portal via Adobe Developer Console wordt ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger.
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
 U hebt het volgende nodig om AEM Assets te configureren met Brand Portal:
 
-* Een AEM Assets-instantie die wordt uitgevoerd.
+* Een up-to-running AEM Assets-instantie.
 * URL van Brand Portal-tenant.
 * Een gebruiker met systeembeheerdersbevoegdheden op de IMS-organisatie van de Brand Portal-tenant.
 
-Zie AEM-elementen [configureren met Brand Poral](../using/configure-aem-assets-with-brand-portal.md)voor meer informatie.
+Voor meer informatie, zie het [vormen AEM Assets met het Poraal](../using/configure-aem-assets-with-brand-portal.md)van het Merk.
 
 ## Personen van gebruikers in Brand Portal {#Personas}
 
@@ -136,14 +135,13 @@ Naast de bovenstaande taken kan een auteur in AEM Assets de volgende taken uitvo
 Merkportal 6.4.3 en hoger kunnen organisaties één alternatieve (alias) URL hebben voor de bestaande URL van hun Poorthuurder. De alias-URL kan worden gemaakt door een alternatief voorvoegsel in de URL te plaatsen.\
 Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL. Een organisatie met een bestaand domein **[!UICONTROL geomettrix.brand-portal.adobe.com]** kan bijvoorbeeld op verzoek worden **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** gemaakt.
 
-Nochtans, kan de instantie van de Auteur AEM slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselende) URL worden [gevormd](../using/configure-aem-assets-with-brand-portal.md) .
+Nochtans, kan de instantie van AEM Author slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselende) URL worden [gevormd](../using/configure-aem-assets-with-brand-portal.md) .
 
 >[!NOTE]
 >
 >Om een alias voor huurdersnaam in bestaande portaal URL te krijgen, moeten de organisaties de steun van Adobe met een nieuw verzoek van de huurdersalias contacteren. Dit verzoek wordt verwerkt door eerst te controleren of de alias beschikbaar is en vervolgens de alias te maken.
 >
 >Als u de oude alias wilt vervangen of de oude alias wilt verwijderen, moet hetzelfde proces worden gevolgd.
-
 
 ## Toegang aanvragen tot Brand Portal {#request-access-to-brand-portal}
 
