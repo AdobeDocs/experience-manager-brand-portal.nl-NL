@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Controleer of u de [elementvereisten](brand-portal-download-asset-requirements.m
    ![](assets/publish-contribution-folder-to-aem.png)
 
 In verschillende stadia van de publicatieworkflow wordt een e-mail-/pulsmelding verzonden naar de gebruiker van het Brand Portal en de AEM-beheerder:
-1. **In wachtrij** - wanneer de publicatieworkflow wordt geactiveerd in Brand Portal, wordt een bijdrafmap gepubliceerd van Brand Portal naar AEM Assets.
+1. **In wachtrij** - Er wordt een melding verzonden naar de gebruiker van het Brand Portal wanneer een publicatieworkflow wordt geactiveerd in het Brand Portal.
 
-1. **Voltooid** - Wanneer de publicatieworkflow is voltooid, wordt de bijdragemap geïmporteerd naar AEM Assets.
+1. **Voltooid** - Er wordt een melding verzonden naar de gebruiker van het Brand Portal en de AEM-beheerder wanneer de publicatieworkflow is voltooid, d.w.z. de map met de bijdrage is gepubliceerd naar AEM Assets.
 
 
