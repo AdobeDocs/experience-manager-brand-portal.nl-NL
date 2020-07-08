@@ -1,8 +1,8 @@
 ---
 title: 'Map met bijdragen publiceren naar Brand Portal '
 seo-title: Map met bijdragen publiceren naar Brand Portal
-description: Krijg inzicht in het publiceren van een bijdragemap van AEM Assets aan Brand Portal in Brand Portal 6.4.5.
-seo-description: Krijg inzicht in het publiceren van een bijdragemap van AEM Assets aan Brand Portal in Brand Portal 6.4.5.
+description: Krijg inzicht in het publiceren van een bijdrageomslag van AEM Assets aan het Portaal van het Merk in Portaal 6.4.5.
+seo-description: Krijg inzicht in het publiceren van een bijdrageomslag van AEM Assets aan het Portaal van het Merk in Portaal 6.4.5.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Standaard-URL: http:// localhost:4502/aem/start.html
    ![](assets/publish-contribution-folder-to-bp.png)
 U ontvangt een succesbericht zodra de map met bijdragen naar Brand Portal is gepubliceerd.
 
-Er wordt een e-mail-/pulsmelding verzonden naar de gebruikers/groepen van het Brand Portal die zijn toegewezen aan de map met bijdragen. De gebruikers van het Merk Portal hebben toegang tot de bijdragemap en kunnen beginnen met hun bijdrage. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
+Er wordt een e-mail-/pulsmelding verzonden naar de gebruikers van het Brand Portal die zijn toegewezen aan de map met bijdragen. De gebruikers van het Merk Portal hebben toegang tot de bijdragemap en kunnen beginnen met hun bijdrage. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
