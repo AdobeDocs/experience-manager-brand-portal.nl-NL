@@ -4,9 +4,9 @@ seo-title: Gebruikershandleiding AEM Brand Portal
 description: Gebruikershandleiding voor AEM Brand Portal
 seo-description: Beschrijft hoe te om het Portaal van het Merk te gebruiken
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '349'
 ht-degree: 7%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Inleiding
 
-Merk Portal helpt organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe agentschappen, partners, interne teams en wederverkopers voor downloaden.
+**Adobe Experience Manager (AEM) Assets Brand Portal** helpt organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers om te downloaden.
 
 Het ontbreken van een veilige oplossing voor het delen van bedrijfsmiddelen kan leiden tot:
 
