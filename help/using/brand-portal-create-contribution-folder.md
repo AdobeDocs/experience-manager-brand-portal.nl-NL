@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
+source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Een bijdragemap maken:
 1. Voer **[!UICONTROL Title]** de map in en schakel **[!UICONTROL Name]** deze in en schakel het **[!UICONTROL Asset Contribution]** selectievakje in.
 Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naam te geven.
 
-1. Klik op **[!UICONTROL Create]**. U kunt de nieuwe bijdragemap zien in de opslagplaats van AEM Assets.
+1. Klik op **[!UICONTROL Create]**. De bijdragemap wordt weergegeven in de gegevensopslagruimte van AEM Assets.
 
    >[!NOTE]
    >
