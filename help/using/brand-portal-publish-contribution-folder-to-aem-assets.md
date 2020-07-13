@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
+source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,16 @@ Controleer of u de [elementvereisten](brand-portal-download-asset-requirements.m
 **Map met bijdragen publiceren:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
-1. Selecteer de bijdragemap in het dashboard voor het Brand Portal.
-1. Klik op **[!UICONTROL Publish to AEM]** ![](assets/export.png).
+1. Selecteer de bijdragemap in het dashboard.
+1. Klik op **[!UICONTROL Publish to AEM]**
+
+   ![](assets/export.png).
+
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Er wordt een e-mail-/pulsmelding verzonden naar de gebruiker en beheerders van het Brand Portal in verschillende stadia van de publicatieworkflow:
 1. **In wachtrij** - er wordt een melding verzonden naar de gebruikers- en merkportalbeheerders van het Brand Portal wanneer een publicatieworkflow wordt geactiveerd in het Brand Portal.
 
-1. **Voltooid** - Er wordt een melding verzonden naar de gebruikers en beheerders van het Brand Portal wanneer de publicatieworkflow is voltooid, d.w.z. de bijdragemap is gepubliceerd naar AEM Assets.
+1. **Voltooid** - Er wordt een melding verzonden naar de gebruikers en beheerders van het Brand Portal wanneer de map met bijdragen met succes is gepubliceerd naar AEM Assets.
 
 
