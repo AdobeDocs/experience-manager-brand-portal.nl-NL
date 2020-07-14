@@ -11,7 +11,7 @@ discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1435'
 ht-degree: 4%
 
 ---
@@ -164,6 +164,7 @@ Ga als volgt te werk om toegang aan te vragen:
    1. Als u een [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], of [!UICONTROL Federated ID], klik hebt **[!UICONTROL Sign In]**.
 The [!UICONTROL Sign in] page opens.
    1. Geef uw [!UICONTROL Adobe ID] gegevens op en klik op **[!UICONTROL Sign in]**.<br />
+
    ![Adobe-aanmelding](assets/bplogin_request_access_3.png)
 
    U wordt omgeleid naar de [!UICONTROL Request Access] pagina.<br />
@@ -174,6 +175,7 @@ The [!UICONTROL Sign in] page opens.
 The [!UICONTROL Sign up] page opens.
    1. Voer uw voornaam en achternaam, e-mailadres en wachtwoord in.
    1. Selecteer **[!UICONTROL Sign up]**.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    U wordt omgeleid naar de [!UICONTROL Request Access] pagina.
@@ -191,7 +193,7 @@ Merk Portal-productbeheerders ontvangen toegangsverzoeken in hun Merkortaal-syst
 Om toegang te verlenen, moeten de productbeheerders de relevante melding in het Poortmeldingsgebied van het Merk klikken en dan klikken **[!UICONTROL Grant Access]**.
 Productbeheerders kunnen ook de koppeling in de e-mail met het toegangsverzoek volgen om Adobe te bezoeken [!UICONTROL Admin Console] en de gebruiker toe te voegen aan de relevante productconfiguratie.
 
-U wordt omgeleid naar de startpagina van [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Met Adobe kunt u gebruikers maken en deze toewijzen [!UICONTROL Admin Console] aan productprofielen (voorheen productconfiguraties genoemd) die als groepen worden weergegeven in Brand Portal. Voor meer informatie over het toevoegen van gebruikers binnen [!UICONTROL Admin Console], zie [Voeg een gebruiker](brand-portal-adding-users.md#add-a-user) (volg Stappen 4-7 in de procedure toe om een gebruiker toe te voegen) toe.
+U wordt omgeleid naar de [Adobe- [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) startpagina. Met Adobe kunt u gebruikers maken en deze toewijzen [!UICONTROL Admin Console] aan productprofielen (voorheen productconfiguraties genoemd) die als groepen worden weergegeven in Brand Portal. Voor meer informatie over het toevoegen van gebruikers binnen [!UICONTROL Admin Console], zie [Voeg een gebruiker](brand-portal-adding-users.md#add-a-user) (volg Stappen 4-7 in de procedure toe om een gebruiker toe te voegen) toe.
 
 ## Merkporttalen {#brand-portal-language}
 
@@ -202,6 +204,7 @@ U kunt de Brand Portal-taal wijzigen van Adobe [!UICONTROL Experience Cloud Sett
 De taal wijzigen:
 
 1. Selecteer [!UICONTROL User] > in het [!UICONTROL Edit Profile] bovenste menu.<br />
+
    ![Profiel bewerken](assets/EditBPProfile.png)
 
 1. Selecteer op [!UICONTROL Experience Cloud Settings] de pagina een taal in het [!UICONTROL Language] keuzemenu.
@@ -217,7 +220,7 @@ U kunt dit bericht negeren en doorgaan met het gebruik van Brand Portal. Deze me
 ## Vrijgave en systeeminformatie {#release-and-system-information}
 
 * [Wat is er nieuw](whats-new.md)
-* [Release-opmerkingen](brand-portal-release-notes.md)
+* [Releaseopmerkingen](brand-portal-release-notes.md)
 * [Ondersteunde bestandsindelingen](brand-portal-supported-formats.md)
 
 ## Gerelateerde bronnen {#related-resources}
