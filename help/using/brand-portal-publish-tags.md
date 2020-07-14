@@ -10,6 +10,9 @@ content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Leer hoe u tags kunt publiceren van AEM Assets naar Brand Portal.
 
-Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Als u wilt weten hoe u labels aan elementen in AEM Assets kunt toewijzen, raadpleegt u [gebruikstags om elementen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)te ordenen.
+Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Als u wilt weten hoe u tags aan elementen in AEM Assets wilt toewijzen, raadpleegt u [gebruikstags om elementen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)te ordenen.
 
 Tags (gekoppeld aan elementen en verzamelingen in AEM) worden automatisch naar Brand Portal gepubliceerd wanneer de elementen (en verzamelingen) met bijbehorende tags naar Brand Portal worden gepubliceerd. De gepubliceerde tags zijn handig om zoekopdrachten in staat te stellen de bijbehorende elementen te vinden.
 
@@ -32,7 +35,7 @@ U kunt de bestaande tags gebruiken om aan een element te koppelen of nieuwe tags
 
 Voer de volgende stappen uit om labels te maken op AEM, de labels te publiceren op Brand Portal en de tags te koppelen aan de juiste elementen (of verzamelingen):
 
-1. **Tags maken** Aanmelden bij de AEM-auteur-instantie met beheerdersrechten en toegang tot de **[!UICONTROL AEM Tags]** console via globale navigatie:
+1. **Tags** aanmelden bij AEM Author-instantie met beheerdersrechten en toegang tot **[!UICONTROL AEM Tags]** console via globale navigatie:
 
    1. Selecteer **[!UICONTROL Tools]**
 
@@ -44,10 +47,12 @@ Voer de volgende stappen uit om labels te maken op AEM, de labels te publiceren 
 1. Opgeven:
 
    * **[!UICONTROL Title]**
+
       *(vereist)* Een weergavetoetitel voor de tag.
    * **[!UICONTROL Name]**
       *(vereist)* Een naam voor de tag. Als er geen waarde wordt opgegeven, wordt een geldige knooppuntnaam gemaakt op basis van de titel. Zie [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
    * **Beschrijving**
+
       *(optioneel)* Een beschrijving van de tag.
    * **Tagpad** JCR-pad van de tag.
 
