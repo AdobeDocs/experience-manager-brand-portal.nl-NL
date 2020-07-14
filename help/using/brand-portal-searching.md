@@ -11,6 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 4%
 
 ---
 
@@ -75,6 +78,7 @@ Gebruik bijvoorbeeld de volgende standaardfilters:
    * **[!UICONTROL Orientation]** om te zoeken naar elementen op basis van de richting (horizontaal, verticaal, vierkant) van de elementen.
    * **[!UICONTROL Style]** om te zoeken naar elementen op basis van de stijl (gekleurd, monochroom) van de elementen.
    * **[!UICONTROL Video Format]** naar video-elementen zoeken op basis van hun indeling (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+
    U kunt [aangepaste zoekfacetten](../using/brand-portal-search-facets.md) in het deelvenster Filters gebruiken door het onderliggende zoekformulier te bewerken.
 
    * **[!UICONTROL Property Predicate]** als u deze functie gebruikt in het zoekformulier, kunt u zoeken naar elementen die overeenkomen met een eigenschap metadata waaraan de voorspelling wordt toegewezen.\
@@ -90,7 +94,8 @@ Bijvoorbeeld bij het zoeken naar:
          * **klimmen*** retourneert alle elementen met woorden die beginnen met de tekens &quot;klimmen&quot; in hun titelzin.
          * ***klib** retourneert alle elementen met woorden die eindigen met tekens &quot;klimmen&quot; in hun titelzin.
          * ***klib*** retourneert alle elementen met woorden bestaande uit de tekens &quot;klimmen&quot; in hun titelzin.
-      **Niet-hoofdlettergevoelige tekst** Schakel het **[!UICONTROL Ignore Case]** selectievakje Formulier zoeken in om niet-hoofdlettergevoelige zoekopdrachten in te schakelen tussen voorspelling van eigenschappen. Standaard is bij het zoeken naar eigenschappen hoofdlettergevoelig.
+
+Als u niet-hoofdlettergevoelig zoeken in voorspelling van eigenschappen wilt toestaan, schakelt u het       **Niet-hoofdlettergevoelige tekst** Schakel het **[!UICONTROL Ignore Case]** selectievakje Formulier zoeken in om niet-hoofdlettergevoelige zoekopdrachten in te schakelen tussen voorspelling van eigenschappen. Standaard is bij het zoeken naar eigenschappen hoofdlettergevoelig.
    >[!NOTE]
    >
    >Als u **[!UICONTROL Partial Search]** selectievakje selecteert, **[!UICONTROL Ignore Case]** is dit standaard ingeschakeld.
