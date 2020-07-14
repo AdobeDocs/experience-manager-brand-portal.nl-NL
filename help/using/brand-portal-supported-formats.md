@@ -1,8 +1,8 @@
 ---
 title: Ondersteunde bestandsindelingen
 seo-title: Ondersteunde bestandsindelingen
-description: 'Elk Brand Portal voor AEM-elementen ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
-seo-description: 'Elk Brand Portal voor AEM-elementen ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
+description: 'Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
+seo-description: 'Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,13 +10,16 @@ topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 5%
 
 ---
 
 
 # Ondersteunde bestandsindelingen {#supported-file-formats}
 
-Elk Brand Portal voor AEM-elementen ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
+Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
 
 | Bestandsindeling | Middelen gepubliceerd op Brand Portal | Uitvoeringen gepubliceerd naar Brand Portal | Metagegevens gepubliceerd naar Brand Portal | Miniaturen gepubliceerd naar Brand Portal | Pagina&#39;s met informatie over middelen gepubliceerd naar Brand Portal | Koppelingen | Miniaturen voor delen koppelen | Voorvertoningen van delen koppelen |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
