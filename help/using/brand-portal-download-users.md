@@ -32,9 +32,11 @@ Voer de volgende stappen uit om elementen of mappen met elementen voor Brand Por
 1. Voer een van de volgende handelingen uit vanuit de interface Brand Portal:
 
    * Selecteer de mappen of middelen die u wilt downloaden. Klik op het **[!UICONTROL Download]** pictogram op de werkbalk boven in het scherm.
+
    ![](assets/downloadassets-1.png)
 
    * Als u één map of element wilt downloaden, plaatst u de aanwijzer boven de map of het element. Klik op het **[!UICONTROL Download]** pictogram van de snelactieminiaturen die beschikbaar zijn.
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
@@ -67,6 +69,7 @@ Voer de volgende stappen uit om elementen of mappen met elementen voor Brand Por
    * Als u het downloaden van elementbestanden vanaf Brand Portal wilt versnellen, selecteert u de optie en **[!UICONTROL Enable download acceleration]** volgt u de wizard [](../using/accelerated-download.md#main-pars-header-405749062). Raadpleeg de [handleiding voor het versnellen van downloads vanaf Brand Portal](../using/accelerated-download.md)voor meer informatie over het sneller downloaden van bedrijfsmiddelen.
 
    * Als u een [aangepaste voorinstelling voor afbeeldingen wilt toepassen op het element en de uitvoeringen](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)ervan, selecteert u **[!UICONTROL Dynamic Rendition(s)]**. Geef aangepaste eigenschappen voor voorinstellingen voor afbeeldingen op (grootte, indeling, kleurruimte, resolutie en afbeeldingswijziging) om de aangepaste voorinstelling voor afbeeldingen toe te passen tijdens het downloaden van het element en de uitvoeringen. Als u alleen de dynamische uitvoeringen wilt downloaden, schakelt u **[!UICONTROL Asset(s)]** het selectievakje uit.
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
@@ -76,6 +79,7 @@ Voer de volgende stappen uit om elementen of mappen met elementen voor Brand Por
    * Selecteer **[!UICONTROL Create separate folder for each asset]** als u de maphiërarchie van het Brand Portal wilt behouden tijdens het downloaden van elementen. Standaard wordt de maphiërarchie Brand Portal genegeerd en worden alle elementen in één map op uw lokale systeem gedownload.
 
    * Als u een e-mailbericht wilt verzenden naar gebruikers met een koppeling voor het downloaden van de middelen, selecteert u **[!UICONTROL Email]**.
+
    ![](assets/download-link.png)
 
    >[!NOTE]
