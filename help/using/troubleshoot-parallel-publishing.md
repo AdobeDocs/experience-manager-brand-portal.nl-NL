@@ -66,7 +66,8 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en vandaar publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een nieuwe configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie werkt behoorlijk, schrap omhoog het volgende van auteur AEM opstelling:
 
 1. Ga naar `localhost:4502/crx/de/` (als u de auteurinstantie op localhost wilt uitvoeren:4502:\
-   i. schrapping `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
+   i. schrapping `/etc/replication/agents.author/mp_replication`ii. delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
 1. Ga naar localhost:4502/useradmin:\
    i. zoeken naar gebruiker `mac-<tenantid>replication`ii. deze gebruiker verwijderen
