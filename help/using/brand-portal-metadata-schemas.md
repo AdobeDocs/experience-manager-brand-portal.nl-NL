@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1641'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 Een meta-gegevensschema beschrijft de lay-out van de pagina van Eigenschappen en de meta-gegevenseigenschappen die voor activa worden getoond die het bepaalde schema gebruiken. Het schema dat u op een element toepast, bepaalt de metagegevensvelden die op de eigenschappenpagina worden weergegeven.
 
-De **[!UICONTROL Properties]** pagina voor elk element bevat standaardeigenschappen voor metagegevens, afhankelijk van het MIME-type van het element. Beheerders kunnen de Editor metagegevensschema&#39;s gebruiken om bestaande schema&#39;s te wijzigen of aangepaste metagegevensschema&#39;s toe te voegen. AEM Assets Brand Portal biedt standaardformulieren voor elementen van verschillende MIME-typen. U kunt echter ook aangepaste formulieren voor dergelijke elementen toevoegen.
+De **[!UICONTROL Properties]** pagina voor elk element bevat standaardeigenschappen voor metagegevens, afhankelijk van het MIME-type van het element. Beheerders kunnen de Editor metagegevensschema&#39;s gebruiken om bestaande schema&#39;s te wijzigen of aangepaste metagegevensschema&#39;s toe te voegen. AEM Assets Brand Portal biedt standaardformulieren voor elementen van diverse MIME-typen. U kunt echter ook aangepaste formulieren voor dergelijke elementen toevoegen.
 
 ## Een metagegevensschema toevoegen {#add-a-metadata-schema-form}
 
@@ -32,7 +35,7 @@ Ga als volgt te werk om een nieuw schema voor metagegevens te maken:
 
    ![](assets/navigation-panel.png)
 
-1. Klik op de **[!UICONTROL Metadata Schema Forms]** pagina **[!UICONTROL Create]**.
+1. Ga naar de pagina **[!UICONTROL Metadata Schema Forms]** en klik op **[!UICONTROL Create]**.
 
    ![](assets/create-metadata-schema-form.png)
 
@@ -88,7 +91,7 @@ Het **[!UICONTROL Build Form]** tabblad bevat items die u in het schema kunt geb
 | **[!UICONTROL Hidden Field]** | Voeg een verborgen veld toe. Deze wordt als een POST-parameter verzonden wanneer het element wordt opgeslagen. |
 | **[!UICONTROL Asset Referenced By]** | Voeg deze component toe om een lijst weer te geven met elementen waarnaar door het element wordt verwezen. |
 | **[!UICONTROL Asset Referencing]** | Toevoegen om een lijst weer te geven met elementen die naar het element verwijzen. |
-| **[!UICONTROL Asset Rating]** | Gemiddelde rating van een actief dat aan AEM Assets is toegevoegd voordat het aan Brand Portal wordt gepubliceerd. |
+| **[!UICONTROL Asset Rating]** | Gemiddelde rating van een actief dat door AEM Assets is toegevoegd voordat het aan Brand Portal wordt gepubliceerd. |
 | **[!UICONTROL Contextual Metadata]** | Toevoegen om de weergave van andere tabbladen met metagegevens op de pagina Eigenschappen van elementen te bepalen. |
 
 >[!NOTE]
@@ -120,7 +123,7 @@ Hier volgen de geldige waarden voor deze eigenschap:
 
 >[!NOTE]
 >
->Alle metagegevensvelden zijn alleen-lezen in de vorm van de metagegevenseditor van een element. Aangezien metagegevens van het element moeten worden bewerkt in AEM Assets voordat een element naar Brand Portal kan worden gepubliceerd.
+>Alle metagegevensvelden zijn alleen-lezen in de vorm van de metagegevenseditor van een element. Aangezien metagegevens van het element moeten worden bewerkt in AEM Assets voordat een element naar Brand Portal wordt gepubliceerd.
 
 #### Een tabblad toevoegen aan of verwijderen uit het schemaformulier {#add-or-delete-a-tab-in-the-schema-form}
 
