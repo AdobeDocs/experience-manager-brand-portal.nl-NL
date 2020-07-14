@@ -12,7 +12,7 @@ discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Poortgebruikers van merken kunnen:
 Om video&#39;s voor te vertonen, af te spelen en te downloaden, stelt het Brand Portal de volgende twee configuraties beschikbaar voor beheerders:
 
 * [Dynamic Media Hybride configuratie](#configure-dm-hybrid-settings)als de instantie van AEM Author op dynamische media Hybride wijze loopt.
-* [Dynamic Media [!DNL Scene 7] configuratie](#configure-dm-scene7-settings)Als de instantie van AEM Author op dynamische media-**[!DNL Scene 7]** wijze loopt.
+* [Dynamic [!DNL Scene 7] Mediaconfiguration](#configure-dm-scene7-settings)Als de AEM Author-instantie wordt uitgevoerd in de dynamische media-**[!DNL Scene 7]** modus.
 Plaats één van beide configuraties die op de configuraties worden gebaseerd u in uw instantie van AEM Author plaatst waarmee de Poorthuurder van het Merk wordt herhaald.
 
 >[!NOTE]
@@ -58,9 +58,9 @@ Aangezien videocoderingscodes niet in de opslagplaats van het Portaal van het Me
 
 Als u met dynamische video&#39;s wilt werken op Brand Portal, moet u:
 
-* **Start de AEM Author op in de modus** DM (Dynamic Media) (waarmee Brand Portal is geconfigureerd) of in de modus [Hybride](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic Media of de modus [](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)Dynamic Media (!DNL Scene 7]).
-* **Dynamic Media-wolkenservices configureren op AEM Author** Gebaseerd op de Dynamic Media-modus waarop AEM Author wordt uitgevoerd, stelt u een van de [Dynamic Media-wolkenservices](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) of [[!DNL Scene 7]-wolkenservices](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in op AEM Author van **Tools** | **Cloud Service** | **Dynamic Media**.
-* **Vorm Dynamic Media op het Portaal** van het Merk die op de de wolkenconfiguraties van Dynamic Media op AEM Author wordt gebaseerd, vorm [Dynamic Media montages](#configure-dm-hybrid-settings) of [[!DNL Scène 7] montages](#configure-dm-scene7-settings) van de administratieve hulpmiddelen van het Portaal van het Merk.
+* **Start AEM Author op in de modus** DM (Dynamic Media) om de AEM Author-instantie (waarmee Brand Portal is geconfigureerd) op te starten in de Hybride modus [van](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic Media of in de [Dynamic [!DNL Scene 7] Mediamode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+* **Dynamic Media-wolkenservices configureren op AEM Author** Gebaseerd op de Dynamic Media-modus waarop AEM Author wordt uitgevoerd, stelt u een van de [Dynamic Media-wolkenservices](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) of [[!DNL Scene 7] wolkenservices](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in op AEM Author van **Tools** | **Cloud Service** | **Dynamic Media**.
+* **Vorm Dynamic Media op het Portaal** van het Merk die op de de wolkenconfiguraties van Dynamic Media op AEM Author wordt gebaseerd, vorm [Dynamic Media montages](#configure-dm-hybrid-settings) of [[!DNL Scene 7] montages](#configure-dm-scene7-settings) van de administratieve hulpmiddelen van het Portaal van het Merk.
 Zorg ervoor dat de [afzonderlijke huurders](#separate-tenants) van het Portaal van het Merk voor AEM Author instanties worden gebruikt die met Dynamic Media worden gevormd Hybride en de wijzen van Dynamic Media **[!UICONTROL Scene7]** , als u functionaliteiten van Dynamic Media Hybrid en Dynamic Media gebruikt **[!UICONTROL S7]**.
 * **Publiceer omslagen met videocoderingen die op het Portaal** van het Merk worden toegepast [videocoderingen](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) toepassen en publiceer de omslag die rijke media activa van instantie AEM Author aan het Portaal van het Merk bevat.
 * **IPs van de Afstand van de Lijst van gewenste personen in SPS als veilige voorproef toegelaten** Als het gebruiken van Dynamic Media-**[!DNL Scene 7]** (met [veilige voorproef die voor een bedrijf wordt toegelaten](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) ), dan wordt het geadviseerd dat de **[!DNL Scene 7]** bedrijfbeheerder IPs van de openbare uitgang voor respectieve gebieden [](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**[!UICONTROL Scene 7]** toe_voegt op lijst van gewenste personen gebruikend SPS (het Uitgeven Systeem) flits UI.
@@ -107,7 +107,7 @@ Als de instantie van AEM Author op dynamische media hybride wijze loopt, dan geb
 
 >[!NOTE]
 >
->De [videocoderingsprofielen](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) worden niet gepubliceerd naar Brand Portal, maar opgehaald van de **[!UICONTROL Scene 7]** server. Daarom voor videocoderingscodes die met succes in het Portaal van het Merk moeten worden gespeeld, zorg ervoor dat de configuratiedetails het zelfde als [[!UICONTROL Scene7 wolkenconfiguratie]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in uw instantie van AEM Author zijn.
+>De [videocoderingsprofielen](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) worden niet gepubliceerd naar Brand Portal, maar opgehaald van de **[!UICONTROL Scene 7]** server. Zorg er daarom voor dat videocoderingscodes in Brand Portal kunnen worden afgespeeld, dat de configuratiedetails hetzelfde zijn als de code [[!UICONTROL Scene7 cloud configuration]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in uw AEM Author-instantie.
 
 Configuraties van Dynamic Media instellen op Brand Portal-huurders:
 
