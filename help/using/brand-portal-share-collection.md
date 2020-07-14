@@ -1,8 +1,8 @@
 ---
 title: Een verzameling delen
 seo-title: Een verzameling delen
-description: Beheerders van AEM Assets Brand Portal kunnen een verzameling of een slimme verzameling delen en delen met geautoriseerde gebruikers. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
-seo-description: Beheerders van AEM Assets Brand Portal kunnen een verzameling of een slimme verzameling delen en delen met geautoriseerde gebruikers. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
+description: AEM Assets Poortbeheerders kunnen een inzameling of een slimme inzameling met erkende gebruikers delen en unshare. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
+seo-description: AEM Assets Poortbeheerders kunnen een inzameling of een slimme inzameling met erkende gebruikers delen en unshare. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: bdhar
 content-type: reference
@@ -11,13 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
 
 # Verzamelingen delen op Brand Portal {#share-collections-bp}
 
-Beheerders van AEM Assets Brand Portal kunnen een verzameling of een slimme verzameling delen en delen met geautoriseerde gebruikers. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen. editors kunnen een openbare verzameling echter niet wijzigen in een niet-openbare verzameling.
+AEM Assets Poortbeheerders kunnen een inzameling of een slimme inzameling met erkende gebruikers delen en unshare. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen. editors kunnen een openbare verzameling echter niet wijzigen in een niet-openbare verzameling.
 
 >[!NOTE]
 >
@@ -38,9 +41,11 @@ Voer de volgende stappen uit om een verzameling te delen:
 1. Voer vanuit de **[!UICONTROL Collections]** console een van de volgende handelingen uit:
 
    * Houd de aanwijzer boven de verzameling die u wilt delen. Klik op het **[!UICONTROL Settings]** pictogram in de snelactieminiaturen die beschikbaar zijn voor de verzameling.
+
    ![](assets/settings_thumbnail.png)
 
    * Selecteer de verzameling die u wilt delen. Klik op de werkbalk boven in het scherm **[!UICONTROL Settings]**.
+
    ![](assets/collection-sharing.png)
 
 1. Selecteer in het [!UICONTROL Collection Settings] dialoogvenster de gebruikers of groepen met wie u de verzameling wilt delen en selecteer de rol die een gebruiker of groep moet spelen in overeenstemming met zijn algemene rol. Wijs bijvoorbeeld de rol Editor toe aan een algemene editor, de rol Viewer aan een algemene viewer.
