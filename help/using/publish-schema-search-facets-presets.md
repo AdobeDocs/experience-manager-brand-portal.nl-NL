@@ -10,30 +10,33 @@ content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1076'
+ht-degree: 0%
 
 ---
 
 
-# Voorinstellingen, schema en facetten publiceren naar Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
+# Publish presets, schema, and facets to Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
-Het artikel wordt van de AEM-auteur naar het Brand Portal opgedeeld in het publiceren van voorinstellingen voor afbeeldingen, metagegevensschema&#39;s en aangepaste zoekfacetten. Met de publicatiefunctie kunnen organisaties de voorinstellingen voor afbeeldingen, metagegevensschema&#39;s en zoekfacetten die in de AEM Author-instantie zijn gemaakt/gewijzigd, hergebruiken, waardoor dubbele inspanningen afnemen.
+Het artikel loopt over van AEM Author-instantie naar Brand Portal en publiceert voorinstellingen voor afbeeldingen, metagegevensschema&#39;s en aangepaste zoekfacetten. Met de publicatiefunctie kunnen organisaties de voorinstellingen voor afbeeldingen, metagegevensschema&#39;s en zoekfacetten die in een AEM Author-instantie zijn gemaakt/gewijzigd, opnieuw gebruiken, waardoor dubbele inspanningen afnemen.
 
 >[!NOTE]
 >
->De mogelijkheid om voorinstellingen voor afbeeldingen, metagegevensschema&#39;s en zoekfacetten van AEM Author-instantie naar Brand Portal te publiceren is beschikbaar vanaf AEM 6.2 SP1-GVB7 en AEM 6.3 SP1-GVB 1 (6.3.1.1).
+>De capaciteit om beeldvoorinstellingen, meta-gegevensschema, en onderzoeksfacetten van AEM Author instantie aan het Portaal van het Merk te publiceren is beschikbaar AEM 6.2 SP1-GVB7 en AEM 6.3 SP 1-GFP 1 (6.3.1.1) vanaf.
 
 ## Voorinstellingen voor afbeeldingen publiceren naar Brand Portal {#publish-image-presets-to-brand-portal}
 
-Voorinstellingen voor afbeeldingen zijn een set opdrachten voor het vergroten of verkleinen en opmaken van de afbeelding die op het moment van de aflevering op de afbeelding worden toegepast. Afbeeldingsvoorinstellingen kunnen worden gemaakt en gewijzigd op Brand Portal. Als de AEM-auteur-instantie in de dynamische mediamodus wordt uitgevoerd, kunnen gebruikers ook voorinstellingen maken bij de AEM-auteur en deze publiceren naar de AEM Assets Brand Portal, en voorkomen dat dezelfde voorinstellingen opnieuw worden gemaakt op Brand Portal.\
+Voorinstellingen voor afbeeldingen zijn een set opdrachten voor het vergroten of verkleinen en opmaken van de afbeelding die op het moment van de aflevering op de afbeelding worden toegepast. Afbeeldingsvoorinstellingen kunnen worden gemaakt en gewijzigd op Brand Portal. Als de AEM Author-instantie in de dynamische mediamodus wordt uitgevoerd, kunnen gebruikers ook voorinstellingen op de AEM Author maken en deze publiceren naar het Brand Portal van de AEM Assets. Zo voorkomt u dat dezelfde voorinstellingen op het Brand Portal opnieuw worden gemaakt.\
 Nadat de voorinstelling is gemaakt, wordt deze weergegeven als dynamische uitvoering op het dialoogvenster voor het weergeven en downloaden van gegevens over elementen.
 
 >[!NOTE]
 >
->Als de AEM-auteurinstantie niet wordt uitgevoerd in **[!UICONTROL Dynamic Media Mode]** (klant heeft geen Dynamic Media aangeschaft), wordt de **[!UICONTROL Pyramid TIFF]** uitvoering van de elementen niet gemaakt op het moment van het uploaden. Afbeeldingsvoorinstellingen of dynamische uitvoeringen werken op **[!UICONTROL Pyramid TIFF]** een element. Als dit niet **[!UICONTROL Pyramid TIFF]** het geval is voor de AEM-auteur, is het dus niet ook beschikbaar op Brand Portal. Hierdoor zijn er geen dynamische uitvoeringen aanwezig in de renditions rail of asset details page and download dialog.
+>Als de AEM Author-instantie niet wordt uitgevoerd **[!UICONTROL Dynamic Media Mode]** (klant heeft geen Dynamic Media aangeschaft), wordt de **[!UICONTROL Pyramid TIFF]** uitvoering van de elementen niet gemaakt op het moment van uploaden. Voorinstellingen voor afbeeldingen of dynamische uitvoeringen werken op **[!UICONTROL Pyramid TIFF]** een element. Als dit niet **[!UICONTROL Pyramid TIFF]** het geval is voor een AEM Author-instantie, is het dus niet meer beschikbaar op Brand Portal. Hierdoor zijn er geen dynamische uitvoeringen aanwezig in de renditions rail of asset details page and download dialog.
 
 Voorinstellingen voor afbeeldingen publiceren naar Brand Portal:
 
-1. Tik/klik op het AEM-logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Image Presets]**.
+1. Tik/klik in AEM Author-instantie op het AEM-logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Image Presets]**.
 1. Selecteer de voorinstelling voor de afbeelding of meerdere voorinstellingen voor de afbeelding in de lijst met voorinstellingen voor de afbeelding en klik/tik **[!UICONTROL Publish to Brand Portal]**.
 
 ![](assets/publishpreset.png)
@@ -44,18 +47,18 @@ Voorinstellingen voor afbeeldingen publiceren naar Brand Portal:
 
 Publicatie van een voorinstelling voor afbeeldingen via Brand Portal ongedaan maken:
 
-1. Tik/klik op het AEM-logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het **[!UICONTROL Tools]** pictogram en navigeer naar **[!UICONTROL Assets > Image Presets]**.
+1. Tik/klik in AEM Author-instantie op het AEM-logo om de algemene navigatieconsole te openen en tik/klik op het **[!UICONTROL Tools]** pictogram en navigeer naar **[!UICONTROL Assets > Image Presets]**.
 1. Selecteer een voorinstelling voor de afbeelding en selecteer de opties **[!UICONTROL Remove from Brand Portal]** die bovenaan beschikbaar zijn.
 
-## Metagegevensschema publiceren naar Brand Portal {#publish-metadata-schema-to-brand-portal}
+## Metagegevensschema publiceren naar Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
 Het schema van meta-gegevens beschrijft de lay-out en de eigenschappen die op de eigenschappen pagina van activa/inzamelingen worden getoond.
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-Als gebruikers het standaardschema op de instantie van de Auteur van AEM hebben uitgegeven en bereid zijn om het zelfde schema zoals standaardschema op het Portaal van het Merk te gebruiken, kunnen zij de vormen van het meta-gegevensschema aan het Portaal van het Merk eenvoudig publiceren. In een dergelijk scenario wordt het standaardschema op het Brand Portal overschreven door de standaardschema&#39;s die zijn gepubliceerd vanuit de AEM Author-instantie.
+Als de gebruikers het standaardschema op instantie van AEM Author hebben uitgegeven en bereid zijn om het zelfde schema zoals standaardschema op het Portaal van het Merk te gebruiken, kunnen zij de vormen van het meta-gegevensschema aan het Portaal van het Merk eenvoudig publiceren. In een dergelijk scenario, wordt het standaardschema bij het Portaal van het Merk overschreven door de standaardschema&#39;s die van de instantie van AEM Author worden gepubliceerd.
 
-Als gebruikers een aangepast schema hebben gemaakt op een instantie van AEM-auteur, kunnen ze het aangepaste schema publiceren naar Brand Portal in plaats van hetzelfde aangepaste schema daar opnieuw te maken. De gebruikers kunnen dit douaneschema op om het even welke omslag/inzameling in het Portaal van het Merk dan toepassen.
+Als gebruikers een aangepast schema op een AEM Author-instantie hebben gemaakt, kunnen ze het aangepaste schema publiceren naar Brand Portal in plaats van hetzelfde aangepaste schema daar opnieuw te maken. De gebruikers kunnen dit douaneschema op om het even welke omslag/inzameling in het Portaal van het Merk dan toepassen.
 
 >[!NOTE]
 >
@@ -65,11 +68,11 @@ Als gebruikers een aangepast schema hebben gemaakt op een instantie van AEM-aute
 
 >[!NOTE]
 >
->Als een map een schema heeft dat is toegepast op een instantie van AEM-auteur, moet hetzelfde schema ook bestaan op het Merkportal om de consistentie te behouden in de pagina met eigenschappen van elementen op de AEM-auteur en het Merkortaal.
+>Als op een map een schema is toegepast op een AEM Author-instantie, moet op het Brand Portal hetzelfde schema staan om de consistentie van de pagina met eigenschappen van de elementen op de pagina AEM Author en Brand Portal te behouden.
 
-Een metagegevensschema van een instantie van AEM-auteur publiceren naar Brand Portal:
+Een metagegevensschema publiceren van een AEM Author-instantie naar een Brand Portal:
 
-1. Tik/klik op het AEM-logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
+1. Tik/klik in AEM Author-instantie op het AEM-logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
 1. Selecteer een metagegevensschema en selecteer de opties **[!UICONTROL Publish to Brand Portal]** die bovenaan beschikbaar zijn.
 
 >[!NOTE]
@@ -78,7 +81,7 @@ Een metagegevensschema van een instantie van AEM-auteur publiceren naar Brand Po
 
 Publicatie van een metagegevensschema via Brand Portal ongedaan maken:
 
-1. Tik/klik op het AEM-logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
+1. Tik/klik in AEM Author-instantie op het AEM-logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
 1. Selecteer een metagegevensschema en selecteer de opties **[!UICONTROL Remove from Brand Portal]** die bovenaan beschikbaar zijn.
 
 ## Zoekfacetten publiceren naar Brand Portal {#publish-search-facets-to-brand-portal}
@@ -88,13 +91,13 @@ Met zoekformulieren kunt u [gemakkelijk op Brand Portal zoeken](../using/brand-p
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-Als u een aangepast zoekformulier wilt gebruiken **[!UICONTROL Assets Admin Search Rail]** van een instantie van AEM-auteur, kunt u het aangepaste zoekformulier publiceren van AEM-auteur naar Brand Portal in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.
+Als u een aangepast zoekformulier wilt gebruiken **[!UICONTROL Assets Admin Search Rail]** van AEM Author-instantie, kunt u het aangepaste zoekformulier publiceren van AEM Author-exemplaar naar Brand Portal in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.
 
 >[!NOTE]
 >
 >Vergrendeld zoekformulier **[!UICONTROL Assets Admin Search Rail]** op AEM Assets kan alleen worden gepubliceerd naar Brand Portal als het wordt bewerkt. Als dit zoekformulier eenmaal is bewerkt en gepubliceerd naar Brand Portal, wordt het zoekformulier op Brand Portal genegeerd.
 
-De bewerkte zoekfacet publiceren van de instantie AEM-auteur naar Brand Portal:
+De bewerkte zoekfacet publiceren van een AEM Author-exemplaar naar een Brand Portal:
 
 1. Tik of klik op het AEM-logo en ga naar **[!UICONTROL Tools > General > Search Forms]**.
 1. Selecteer het bewerkte zoekformulier en selecteer **[!UICONTROL Publish to Brand Portal]**.
@@ -105,7 +108,7 @@ De bewerkte zoekfacet publiceren van de instantie AEM-auteur naar Brand Portal:
 
 U kunt als volgt zoekformulieren niet publiceren vanaf Brand Portal:
 
-1. Tik/klik op het AEM-logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL General > Search Forms]**.
+1. Tik/klik in AEM Author-instantie op het AEM-logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL General > Search Forms]**.
 1. Selecteer het zoekformulier en selecteer de opties **[!UICONTROL Remove from Brand Portal]** die bovenaan beschikbaar zijn.
 
 >[!NOTE]
@@ -114,8 +117,8 @@ U kunt als volgt zoekformulieren niet publiceren vanaf Brand Portal:
 
 ### Beperkingen {#limitations}
 
-1. Weinig zoekvoorspellen zijn niet van toepassing op zoekfilters op de Brand Portal. Wanneer deze zoekvoorspelling wordt gepubliceerd als onderdeel van het zoekformulier van AEM Author-instantie naar Brand Portal, worden deze uitgefilterd. Gebruikers zien daarom minder voorspellingen in de gepubliceerde vorm op het Brand Portal. Zie [zoekvoorspelling die van toepassing is op filters op Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+1. Weinig zoekvoorspellen zijn niet van toepassing op zoekfilters op de Brand Portal. Wanneer deze zoekvoorspellen worden gepubliceerd als onderdeel van het zoekformulier van AEM Author-exemplaar naar Brand Portal, worden ze uitgefilterd. Gebruikers zien daarom minder voorspellingen in de gepubliceerde vorm op het Brand Portal. Zie [zoekvoorspelling die van toepassing is op filters op Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-1. Als een gebruiker bijvoorbeeld een aangepast pad gebruikt om opties te lezen bij de instantie van AEM-auteur, werkt deze niet bij de Brand Portal. [!UICONTROL Options Predicate] Deze extra paden en opties worden niet met het zoekformulier naar Brand Portal gepubliceerd. In dit geval kunnen gebruikers de **[!UICONTROL Manual]** optie in **[!UICONTROL Add Options]** de toepassing selecteren om deze opties handmatig bij Brand Portal toe **[!UICONTROL Options Predicate]** te voegen.
+1. Bijvoorbeeld, als een gebruiker om het even welk douanepad gebruikt om opties bij instantie van AEM Author te lezen, zal het niet bij de Poort van het Merk werken. [!UICONTROL Options Predicate] Deze extra paden en opties worden niet met het zoekformulier naar Brand Portal gepubliceerd. In dit geval kunnen gebruikers de **[!UICONTROL Manual]** optie in **[!UICONTROL Add Options]** de toepassing selecteren om deze opties handmatig bij Brand Portal toe **[!UICONTROL Options Predicate]** te voegen.
 
 ![](assets/options-predicate-manual.png)
