@@ -122,7 +122,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Kan ik elementen uploaden naar elke toegestane map?**
 
-**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door AEM of de beheerder van het Merk Poortportaal wordt gedeeld.
+**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door de beheerder van AEM of van het Merk wordt gedeeld.
 
 
 
