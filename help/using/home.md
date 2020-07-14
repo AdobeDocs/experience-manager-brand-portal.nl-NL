@@ -41,7 +41,7 @@ In deze gebruikershandleiding vindt u inzichten in het aanbod van Brand Portal e
 | Handboek | Beschrijving |
 |--- |---|
 | [Wat is er nieuw](whats-new.md) | Wat veranderde en recentste dienstenaanbod in het Portaal van het Merk door vorige versies. |
-| [Release-opmerkingen](brand-portal-release-notes.md) | Verbeteringen, kritieke problemen zijn opgelost en bekende problemen in de huidige release. |
+| [Releaseopmerkingen](brand-portal-release-notes.md) | Verbeteringen, kritieke problemen zijn opgelost en bekende problemen in de huidige release. |
 | [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Merkportal repliceren met AEM Assets om elementen te publiceren. |
 | [Problemen met parallelle publicatie oplossen](troubleshoot-parallel-publishing.md) | Los replicatie tussen het Portaal van het Merk en AEM Assets problemen op. |
 | [Ondersteunde bestandsindelingen](brand-portal-supported-formats.md) | Ondersteunde bestandsindelingen in Brand Portal voor voorvertoning en download. |
