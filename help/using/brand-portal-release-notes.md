@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Release-opmerkingen {#release-notes}
+# Releaseopmerkingen {#release-notes}
 
 Krijg inzicht in de nieuwe eigenschappen, de verhogingen, de kritieke kwesties die, en de bekende kwesties in de Adobe Experience Manager Middelen van het Merk Portal 6.4.6.2 versie worden opgelost.
 
