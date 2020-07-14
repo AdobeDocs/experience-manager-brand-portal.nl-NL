@@ -12,7 +12,7 @@ discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Gasttoegang tot Brand Portal {#guest-access-to-brand-portal}
 
-Het portaal van het Merk AEM staat gasttoegang tot het portaal toe. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan hun lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt, die 2 uren van het begin van de zitting is tenzij de gastgebruiker aan [[!UICONTROL Sessie van het Eind]](#exit-guest-session)verkiest.
+Het portaal van het Merk AEM staat gasttoegang tot het portaal toe. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan hun lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt, die 2 uren vanaf het begin van de zitting is tenzij de gastgebruiker verkiest om te [[!UICONTROL End Session]](#exit-guest-session)downloaden.
 
 Dankzij de functie voor toegang van gasten kunnen organisaties [snel goedgekeurde middelen](../using/brand-portal-sharing-folders.md#how-to-share-folders) delen met het beoogde publiek op schaal zonder dat ze zich aan boord hoeven te bevinden. Brand Portal 6.4.2 en hoger is uitgerust voor meerdere gelijktijdige gastgebruikers, hetgeen 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers aan boord te beheren en te installeren die beperkte functies op het Brand Portal moeten gebruiken.\
 Organisaties kunnen gasttoegang inschakelen (of uitschakelen) op de Brand Portal-account van de organisatie met **[!UICONTROL Allow Guest Access]** optie van de **[!UICONTROL Access]** instellingen in het deelvenster met beheergereedschappen.
