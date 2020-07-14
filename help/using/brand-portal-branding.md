@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
@@ -43,6 +46,7 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 
    * Als u een afbeelding vanaf uw computer wilt uploaden, klikt u op **[!UICONTROL Upload]**. Navigeer naar de gewenste afbeelding en upload deze.
    * Als u een bestaande Brand Portal-afbeelding wilt gebruiken, klikt u op **[!UICONTROL Select from existing]**. Kies een afbeelding met de elementkiezer.
+
    ![](assets/asset-picker.png)
 
 1. Geef een koptekst en beschrijving op voor de achtergrondafbeelding. Als u de wijzigingen wilt opslaan, klikt u **[!UICONTROL Save]** op de werkbalk boven in het venster.
@@ -56,9 +60,11 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 1. Voer de volgende handelingen op de **[!UICONTROL Configure Branding > Wallpaper]** pagina uit om de standaardachtergrond te activeren of te deactiveren:
 
    * Als u de standaardachtergrondafbeelding wilt weergeven op de aanmeldingspagina van het Brand Portal, klikt u op de werkbalk boven in het scherm. **[!UICONTROL Deactivate Wallpaper]** Een bericht bevestigt dat de aangepaste afbeelding is gedeactiveerd.
+
    ![](assets/chlimage_1-1.png)
 
    * Als u de aangepaste afbeelding wilt herstellen op de aanmeldingspagina van het Brand Portal, klikt u op **[!UICONTROL Activate Wallpaper]** de werkbalk. Een bericht bevestigt dat de afbeelding is hersteld.
+
    ![](assets/chlimage_1-2.png)
 
    * Click **[!UICONTROL Save]** to save the changes.
@@ -106,9 +112,11 @@ Als u de wijzigingen wilt opslaan, klikt u **[!UICONTROL Save]** op de werkbalk 
 1. Voer de volgende handelingen op de **[!UICONTROL Configure Branding > Header Image]** pagina uit om de koptekstafbeelding te activeren of te deactiveren:
 
    * Als u wilt voorkomen dat een koptekstafbeelding op de pagina&#39;s van het Brand Portal wordt weergegeven, klikt u op de werkbalk boven in het scherm. **[!UICONTROL Deactivate Header]** Een bericht bevestigt dat de afbeelding is gedeactiveerd.
+
    ![](assets/chlimage_1-4.png)
 
    * Als u de koptekstafbeelding weer wilt weergeven op de pagina&#39;s van het Brand Portal, klikt u op de werkbalk boven in het scherm. **[!UICONTROL Activate Header]** Een bericht bevestigt dat de afbeelding is geactiveerd.
+
    ![](assets/chlimage_1-5.png)
 
    * Click **[!UICONTROL Save]** to save the changes.
