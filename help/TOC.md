@@ -19,7 +19,7 @@ ht-degree: 18%
 + Inleiding {#introduction}
    + [Overzicht](using/brand-portal.md)
    + [Nieuwe functies in AEM Assets Brand Portal](using/whats-new.md)
-   + [Release-opmerkingen](using/brand-portal-release-notes.md)
+   + [Releaseopmerkingen](using/brand-portal-release-notes.md)
    + [Veelgestelde vragen](using/brand-portal-faqs.md)
    + [Ondersteunde bestandsindelingen](using/brand-portal-supported-formats.md)
    + [Gasttoegang tot Brand Portal](using/guest-access.md)
