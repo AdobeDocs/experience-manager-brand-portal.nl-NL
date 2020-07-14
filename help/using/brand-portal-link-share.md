@@ -1,8 +1,8 @@
 ---
 title: Elementen delen als koppeling
 seo-title: Elementen delen als koppeling
-description: Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
-seo-description: Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+description: AEM Assets Poortbeheerders kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+seo-description: AEM Assets Poortbeheerders kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -11,13 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+workflow-type: tm+mt
+source-wordcount: '1077'
+ht-degree: 1%
 
 ---
 
 
 # Elementen delen als koppeling {#share-assets-as-a-link}
 
-Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+AEM Assets Poortbeheerders kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
 
 Het delen van elementen via een koppeling is een handige manier om deze beschikbaar te maken voor externe partijen, aangezien de ontvangers zich niet hoeven aan te melden bij Brand Portal voor toegang tot de middelen.
 
@@ -194,7 +197,7 @@ Ga als volgt te werk als u eerder gedeelde elementen als een koppeling wilt ophe
 
    ![](assets/siderail.png)
 
-1. Klik op de zijlijn **[!UICONTROL Shared Links]**.
+1. From the siderail, click **[!UICONTROL Shared Links]**.
 
    ![](assets/navigationrail.png)
 
