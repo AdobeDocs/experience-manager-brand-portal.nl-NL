@@ -1,8 +1,8 @@
 ---
 title: Werken met rapporten
 seo-title: Werken met rapporten
-description: Beheerders van AEM Assets Brand Portal kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
-seo-description: Beheerders van AEM Assets Brand Portal kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
+description: AEM Assets Poortbeheerders kunnen rapporten over het gebruik van het Brand Portal weergeven en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via het Brand Portal gedeelde elementen.
+seo-description: AEM Assets Poortbeheerders kunnen rapporten over het gebruik van het Brand Portal weergeven en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via het Brand Portal gedeelde elementen.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,6 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 0%
 
 ---
 
@@ -86,7 +89,7 @@ Beheerders kunnen de volgende standaardrapporten genereren en beheren, zodra dez
 * Aanmeldingsgegevens gebruiker
 * Downloaden
 * Verlopen
-* Publiceren
+* Publicatie
 * Delen van koppeling
 
 De kolommen in het rapport Downloaden, Verlopen en Publiceren kunnen worden aangepast voor weergave. Voer de volgende stappen uit om een rapport te genereren:
