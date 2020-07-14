@@ -10,6 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +41,7 @@ Merk op dat alleen beheerders voorinstellingen voor afbeeldingen kunnen maken in
 >[!NOTE]
 >
 >Dynamische uitvoeringen van een afbeelding worden gemaakt met de Piramide TIFF. Als de Piramid TIFF niet beschikbaar is voor een element, kunnen dynamische uitvoeringen voor dat element niet worden opgehaald in het Brand-portaal.
-Als AEM (Auteur)-instantie wordt uitgevoerd in de **Dynamic Media Hybrid-modus**, worden Pyramid TIFF-uitvoeringen van afbeeldingselementen gemaakt en opgeslagen in de AEM-opslagruimte. Terwijl, als de instantie AEM (Auteur) op **Dynamische Scène 7 van Media wijze**loopt, dan de Verlopen van de Piramide TIFF van beeldactiva op de server van Scene 7 bestaan.
+Als een AEM-instantie (Auteur) wordt uitgevoerd in de Hybride modus **voor** Dynamic Media, worden Pyramid TIFF-uitvoeringen van afbeeldingselementen gemaakt en opgeslagen in de AEM-opslagplaats. Als een instantie AEM (Auteur) wordt uitgevoerd in de modus **Scène 7 van**Dynamic Media, bestaat er Pyramid TIFF-uitvoering van afbeeldingselementen op de server Scene 7.
 Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en dynamische uitvoeringen weergegeven.
 
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
@@ -62,7 +65,7 @@ Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinste
 1. Klik op **[!UICONTROL Save]**. De voorinstelling voor de afbeelding wordt gemaakt en weergegeven op de pagina met voorinstellingen voor de afbeelding.
 1. Als u een voorinstelling voor afbeeldingen wilt verwijderen, selecteert u deze op de pagina met voorinstellingen voor afbeeldingen en klikt u **[!UICONTROL Delete]** op deze voorinstelling. Klik op de bevestigingspagina **[!UICONTROL Delete]** om de verwijdering te bevestigen. De voorinstelling voor de afbeelding wordt verwijderd van de pagina met voorinstellingen voor de afbeelding.
 
-## Afbeeldingsvoorinstellingen toepassen bij voorvertoningen van afbeeldingen {#apply-image-presets-when-previewing-images}
+## Afbeeldingsvoorinstellingen toepassen bij voorvertoningen van afbeeldingen  {#apply-image-presets-when-previewing-images}
 
 Als u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kiest u een van de bestaande voorinstellingen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
@@ -82,9 +85,11 @@ Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt van Brand Porta
 1. Voer een van de volgende handelingen uit vanuit de interface Brand Portal:
 
    * Houd de aanwijzer boven de afbeelding die u wilt downloaden. Klik op het **[!UICONTROL Download]** pictogram van de snelactieminiaturen die beschikbaar zijn.
+
    ![](assets/downloadsingleasset.png)
 
    * Selecteer de afbeelding die u wilt downloaden. Klik op het **[!UICONTROL Download]** pictogram op de werkbalk boven in het scherm.
+
    ![](assets/downloadassets.png)
 
 1. Selecteer in het **[!UICONTROL Download]** dialoogvenster de vereiste opties, afhankelijk van het feit of u het element met of zonder de uitvoeringen wilt downloaden.
