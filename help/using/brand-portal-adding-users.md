@@ -11,7 +11,7 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Deze productprofielen worden om de acht uur gesynchroniseerd met de gebruikersin
 
 ## Een gebruiker toevoegen {#add-a-user}
 
-Als u een productbeheerder bent, gebruikt u Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) om gebruikers te maken en deze toe te wijzen aan productprofielen (*voorheen bekend als productconfiguraties*), die als groepen in Brand Portal worden weergegeven. U kunt groepen gebruiken om bulkbewerkingen uit te voeren, zoals rolbeheer en het delen van elementen.
+Als u een productbeheerder bent, gebruikt u Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) om gebruikers tot stand te brengen en hen toe te wijzen aan productprofielen (*vroeger genoemd als productconfiguraties*), die als groepen in het Portaal van het Merk tonen. U kunt groepen gebruiken om bulkbewerkingen uit te voeren, zoals rolbeheer en het delen van elementen.
 
 >[!NOTE]
 >
->Nieuwe gebruikers die geen toegang hebben tot Brand Portal, kunnen toegang aanvragen via het aanmeldingsscherm van het Brand Portal. Raadpleeg [Verzoek om toegang tot Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)voor meer informatie. Nadat u in het systeemvak kennisgevingen van verzoeken om toegang hebt ontvangen, klikt u op de betreffende melding en vervolgens op **[!UICONTROL Grant Access]**. U kunt ook de koppeling volgen in de ontvangen e-mail met het toegangsverzoek. Als u vervolgens een gebruiker wilt toevoegen via [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), volgt u stap 4-7 in de onderstaande procedure.
+>Nieuwe gebruikers die geen toegang hebben tot Brand Portal, kunnen toegang aanvragen via het aanmeldingsscherm van het Brand Portal. Raadpleeg [Verzoek om toegang tot Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)voor meer informatie. Nadat u in het systeemvak kennisgevingen van verzoeken om toegang hebt ontvangen, klikt u op de betreffende melding en vervolgens op **[!UICONTROL Grant Access]**. U kunt ook de koppeling volgen in de ontvangen e-mail met het toegangsverzoek. Als u vervolgens een gebruiker via [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)Adobe wilt toevoegen, volgt u stap 4-7 in de onderstaande procedure.
 
 >[!NOTE]
 >
@@ -66,9 +66,11 @@ Als u een productbeheerder bent, gebruikt u Adobe [[!UICONTROL Admin Console]](h
 1. Voer in Admin Console een van de volgende handelingen uit om een nieuwe gebruiker te maken:
 
    * Klik op de werkbalk boven in het scherm **[!UICONTROL Overview]**. Klik op de [!UICONTROL Overview] pagina op de productkaart **[!UICONTROL Assign Users]** van het Brand Portal.
+
    ![Overzicht van Admin Console](assets/admin_console_overviewadduser.png)
 
    * Klik op de werkbalk boven in het scherm **[!UICONTROL Users]**. Op de [!UICONTROL Users] pagina wordt standaard [!UICONTROL Users] in de linkerspoorstaaf geselecteerd. Klik op **[!UICONTROL Add User]**.
+
    ![Admin Console Gebruikers toevoegen](assets/admin_console_adduseruserpage.png)
 
 1. Typ in het dialoogvenster Gebruikers toevoegen de e-mailadres van de gebruiker die u wilt toevoegen of selecteer de gebruiker in de lijst met suggesties die worden weergegeven terwijl u typt.
@@ -90,7 +92,7 @@ Productprofielen (voorheen productconfiguraties genoemd) in [!UICONTROL Admin Co
 
 >[!NOTE]
 >
->U kunt zich direct aanmelden bij [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) of via Brand Portal. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-7 in de onderstaande procedure om een productprofiel toe te voegen.
+>U kunt zich [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-7 in de onderstaande procedure om een productprofiel toe te voegen.
 
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
 
@@ -123,7 +125,7 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 
 >[!NOTE]
 >
->U kunt zich direct aanmelden bij [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) of via Brand Portal. Als u zich direct bij de Admin Console aanmeldt, volgt u stap 4-7 in de onderstaande procedure om gebruikers aan een productprofiel toe te voegen.
+>U kunt zich [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich direct bij de Admin Console aanmeldt, volgt u stap 4-7 in de onderstaande procedure om gebruikers aan een productprofiel toe te voegen.
 
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
 
@@ -145,9 +147,11 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 1. Ga als volgt te werk om afzonderlijke gebruikers aan het productprofiel toe te voegen:
 
    * Klik op **[!UICONTROL Add User]**.
+
    ![Groeperen om productprofiel in kaart te brengen in Brand Portal](assets/admin_console_productprofilesalesgroup.png)
 
    * Typ op de [!UICONTROL Add User to Sales group] pagina de e-mailadres van de gebruiker die u wilt toevoegen of selecteer de gebruiker in de lijst met suggesties die worden weergegeven terwijl u typt.
+
    ![Gebruiker toevoegen aan een groep](assets/admin_console_addusertosalesgroup.png)
 
    * Klik op **[!UICONTROL Save]**.
@@ -157,9 +161,11 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 1. Ga als volgt te werk om gebruikers in grote hoeveelheden toe te voegen aan het productprofiel:
 
    * Choose **[!UICONTROL ellipsis (...) > Add users by CSV]**.
+
    ![Gebruikers bulksgewijs toevoegen](assets/admin_console_addbulkusers.png)
 
    * Download een CSV-sjabloon in de **[!UICONTROL Add Users by CSV]** pagina of sleep een CSV-bestand.
+
    ![Gebruikers toevoegen met csv](assets/admin_console_addbulkuserscsv.png)
 
    * Klik op **[!UICONTROL Upload]**.
@@ -173,7 +179,7 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
 
 >[!NOTE]
 >
->U kunt zich direct aanmelden bij [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) of via Brand Portal. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-8 in de onderstaande procedure om een gebruiker aan een productprofiel toe te voegen.
+>U kunt zich [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-8 in de onderstaande procedure om een gebruiker aan een productprofiel toe te voegen.
 
 1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
 
