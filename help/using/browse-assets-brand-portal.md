@@ -1,6 +1,6 @@
 ---
-title: Browse assets on Brand Portal
-seo-title: Browse assets on Brand Portal
+title: Door elementen bladeren op Brand Portal
+seo-title: Door elementen bladeren op Brand Portal
 description: Blader door elementen, de hiërarchieën van doorlopende elementen en zoekelementen met behulp van verschillende weergaveopties en UI-elementen op Brand Portal.
 seo-description: Blader door elementen, de hiërarchieën van doorlopende elementen en zoekelementen met behulp van verschillende weergaveopties en UI-elementen op Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
@@ -10,15 +10,18 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 1%
 
 ---
 
 
-# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
+# Door elementen bladeren op Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
+AEM Assets Brand Portal biedt verschillende mogelijkheden en gebruikersinterface-elementen die het bladeren door bronnen, het doorlopen van middelenhiërarchieën en het zoeken naar elementen vereenvoudigen terwijl u verschillende weergaveopties gebruikt.
 
-AEM logo in the AEM toolbar at the top facilitates admin users to access administrative tools panel.
+Met het AEM-logo op de AEM-werkbalk boven in het scherm hebben beheerders toegang tot het deelvenster met beheergereedschappen.
 
 ![](assets/aemlogo.png)
 
@@ -30,21 +33,21 @@ De kiezer voor het spoor linksboven in Brand Portal zet de keuzelijst neer om op
 
 ![](assets/siderail-1.png)
 
-You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in Brand Portal.
+U kunt elementen weergeven, doorbladeren en selecteren met een van de beschikbare weergaven (Kaart, Kolom en Lijst) in de weergavekiezer in de rechterbovenhoek in Brand Portal.
 
 ![](assets/viewselector.png)
 
-## Viewing and Selecting Resources {#viewing-and-selecting-resources}
+## Bronnen weergeven en selecteren {#viewing-and-selecting-resources}
 
-Viewing, navigating, and selecting each are conceptually the same across all views, but have small variations in handling, depending on the view you are using.
+Het bekijken, navigeren, en het selecteren van elk zijn conceptueel het zelfde over alle meningen, maar hebben kleine variaties in behandeling, afhankelijk van de mening u gebruikt.
 
-You can view, navigate through, and select (for further action) your resources with any of the available views:
+U kunt de bronnen weergeven, doorbladeren en selecteren (voor verdere actie) met een van de beschikbare weergaven:
 
 * Kolomweergave
-* Card View
-* List View
+* Kaartweergave
+* Lijstweergave
 
-### Card View
+### Kaartweergave
 
 ![](assets/card-view.png)
 
@@ -54,11 +57,11 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Type
 * Titel
 * Naam
-* Date and time when asset was published to Brand Portal from AEM
+* Datum en tijdstip waarop de middelen van AEM naar Brand Portal zijn gepubliceerd
 * Grootte
 * Dimensies
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+U kunt de hiërarchie omlaag navigeren door op de kaart te tikken of erop te klikken (zorg dat u de snelle handelingen voorkomt) of door de [broodkruimels in de koptekst](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)weer te gebruiken.
 
 ![](assets/cardquickactions.png)
 
@@ -67,18 +70,18 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 Kaarten van mappen geven in de Kaartweergave hiërarchiegegevens weer aan gebruikers die geen beheerder zijn (Editor, Viewer en gastgebruiker). Deze functionaliteit laat de gebruikers de plaats van de omslagen kennen, die zij, met betrekking tot de ouderhiërarchie toegang hebben.
 Informatie over de maphiërarchie is vooral handig om onderscheid te maken tussen de mappen waarvan de namen overeenkomen met andere mappen die vanuit een andere maphiërarchie worden gedeeld. Als de gebruikers die geen beheerder zijn niet op de hoogte zijn van de mapstructuur van de elementen die met hen worden gedeeld, lijken elementen/mappen met vergelijkbare namen verwarrend.
 
-* De paden die op de betreffende kaarten worden weergegeven, worden afgekapt om in de kaartgrootten te passen. However, users can see the full path as a tool-tip on hovering over the truncated path.
+* De paden die op de betreffende kaarten worden weergegeven, worden afgekapt om in de kaartgrootten te passen. Gebruikers kunnen het volledige pad echter zien als knopinfo bij het aanwijzen over het afgebroken pad.
 
 ![](assets/folder-hierarchy1.png)
 
 **Overzicht, optie om de eigenschappen van elementen weer te geven**
 
-Overview option is available to non-admin users (Editors, Viewers, Guest users) to view Asset Properties of selected assets/folders. De optie Overzicht is zichtbaar:
+De optie Overzicht is beschikbaar voor gebruikers die geen beheerder zijn (Editors, Viewers, Gastgebruikers) en geeft de eigenschappen van middelen van geselecteerde elementen/mappen weer. De optie Overzicht is zichtbaar:
 
 * in de werkbalk bovenaan bij het selecteren van een middel/map.
-* in the drop-down on selecting the rail Selector.
+* in de vervolgkeuzelijst betreffende de selectie van de spoorstaafkiezer.
 
-On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
+Als gebruikers de **[!UICONTROL Overview]** optie selecteren terwijl een element/map is geselecteerd, kunnen ze de titel, het pad en het tijdstip van het maken van het element zien. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
 
 ![](assets/overview-option.png)
 
@@ -90,11 +93,11 @@ On selecting the **[!UICONTROL Overview]** option while an asset/folder is selec
 
 ![](assets/cardviewsettings.png)
 
-### List View
+### Lijstweergave
 
 ![](assets/list-view.png)
 
-The list view displays information for each resource at the current level. List view provides the following details:
+De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstweergave bevat de volgende details:
 
 * Miniatuurafbeelding van elementen
 * Naam
@@ -104,18 +107,18 @@ The list view displays information for each resource at the current level. List 
 * Dimensie
 * Grootte
 * Classificatie
-* Folder path showing asset hierarchy<sup>*</sup>
+* Mappad met middelenhiërarchie<sup>*</sup>
 * Datum van publicatie van het middel op de Brand Portal
 
-Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [broodkruimels in de koptekst](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  -->
 
-### View settings in list view
+### Instellingen weergeven in de lijstweergave
 
-In de lijstweergave wordt **[!UICONTROL Name]** standaard de eerste kolom weergegeven. De extra informatie, zoals activa **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, wordt ook getoond. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+In de lijstweergave wordt **[!UICONTROL Name]** standaard de eerste kolom weergegeven. De extra informatie, zoals activa **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, wordt ook getoond. U kunt echter wel de kolommen selecteren die u wilt weergeven **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -123,23 +126,23 @@ In de lijstweergave wordt **[!UICONTROL Name]** standaard de eerste kolom weerge
 
 ![](assets/column-view.png)
 
-Met de kolomweergave kunt u door een inhoudsstructuur navigeren door een reeks trapsgewijze kolommen. This view helps you visualize and traverse the asset hierarchy.
+Met de kolomweergave kunt u door een inhoudsstructuur navigeren door een reeks trapsgewijze kolommen. In deze weergave kunt u de hiërarchie van elementen visualiseren en doorlopen.
 
-Selecting a resource in the first (leftmost) column displays child resources in the second column to the right. Selecting a resource in the second column displays child resources in the third column to the right, and so on.
+Als u een bron selecteert in de eerste (meest linkse) kolom, worden onderliggende bronnen weergegeven in de tweede kolom rechts. Als u een bron in de tweede kolom selecteert, worden onderliggende bronnen in de derde kolom rechts weergegeven, enzovoort.
 
 U kunt omhoog en omlaag navigeren in de boom door op de middelnaam of de chevron rechts van de middelnaam te tikken of te klikken.
 
-* The resource name and chevron are highlighted when tapped or clicked.
-* Tapping or clicking the thumbnail selects the resource.
-* When selected, a check mark is overlaid on the thumbnail and the resource name is highlighted.
+* De naam en het chevron van de bron worden benadrukt wanneer getikt of geklikt.
+* Als u op de miniatuur tikt of erop klikt, wordt de bron geselecteerd.
+* Als deze optie is geselecteerd, wordt een vinkje boven de miniatuur geplaatst en wordt de naam van de bron gemarkeerd.
 * De details van de geselecteerde bron worden getoond in de definitieve kolom.
 
-When an asset is selected in column view, visual representation of the asset is displayed in the final column along with the following details:
+Wanneer een element is geselecteerd in de kolomweergave, wordt de visuele weergave van het element weergegeven in de laatste kolom, samen met de volgende details:
 
 * Titel
 * Naam
 * Dimensies
-* Date and time when asset was published to Brand Portal from AEM
+* Datum en tijdstip waarop de middelen van AEM naar Brand Portal zijn gepubliceerd
 * Grootte
 * Type
 * Meer informatie, optie om op de detailpagina van het element te gaan
@@ -228,9 +231,9 @@ Comment Type: draft
 <p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
 -->
 
-## Content Tree {#content-tree}
+## Inhoudsstructuur {#content-tree}
 
-In addition to these views, use the tree view to drill down the asset hierarchy while you view and select desired assets or folders.
+Naast deze weergaven gebruikt u de structuurweergave om de hiërarchie van elementen omlaag te doorlopen terwijl u de gewenste elementen of mappen weergeeft en selecteert.
 
 Als u de structuurweergave wilt openen, tikt u op de railkiezer linksboven en selecteert u deze in het **[!UICONTROL Content tree]** menu.
 
@@ -240,21 +243,21 @@ Navigeer vanuit de inhoudshiërarchie naar het gewenste element.
 
 ![](assets/content-tree.png)
 
-## Asset Details {#asset-details}
+## Details van element {#asset-details}
 
-Asset detail page lets you view an asset, download, share asset&#39;s link, move it to a collection, or view its properties page. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
+Met de pagina met elementdetails kunt u elementen weergeven, downloaden, de elementkoppeling delen, naar een verzameling verplaatsen of de eigenschappenpagina bekijken. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
 
 ![](assets/asset-detail.png)
 
-To view the asset&#39;s metadata, or view its various renditions, use the rail selector on asset detail page.
+Als u de metagegevens van het element wilt weergeven of de verschillende uitvoeringen wilt bekijken, gebruikt u de railkiezer op de pagina met de elementdetails.
 
 ![](assets/asset-overview.png)
 
-You can view all the available renditions of the asset on asset details page, and select a rendition to preview it.
+U kunt alle beschikbare uitvoeringen van het element weergeven op de pagina met elementdetails en een vertoning selecteren om deze voor te vertonen.
 
 ![](assets/renditions.png)
 
-To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
+Als u de pagina met eigenschappen van elementen wilt openen, gebruikt u de **[!UICONTROL Properties (p)]** optie in de bovenste balk.
 
 ![](assets/asset-properties.png)
 
