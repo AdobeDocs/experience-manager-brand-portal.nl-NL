@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -20,17 +20,18 @@ ht-degree: 1%
 
 # Elementen delen als koppeling {#share-assets-as-a-link}
 
-AEM Assets Poortbeheerders kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+AEM Assets Poortbeheerders en Editors kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
 
-Het delen van elementen via een koppeling is een handige manier om deze beschikbaar te maken voor externe partijen, aangezien de ontvangers zich niet hoeven aan te melden bij Brand Portal voor toegang tot de middelen.
+Het delen van elementen via een koppeling is een handige manier om deze beschikbaar te maken voor externe partijen, aangezien de ontvangers zich niet hoeven aan te melden bij Brand Portal voor toegang tot de middelen. De ontvangers (gebruikers van de viewer) kunnen tot de openbare activa toegang hebben en downloaden die met hen worden gedeeld, en kunnen deze activa toevoegen om hun eigen inzameling tot stand te brengen.
 
-De verbinding die toegang deelt is beperkt tot editors en beheerders. Voor meer informatie, zie het [Leiden gebruikers, groepen, en gebruikersrollen](../using/brand-portal-adding-users.md#manage-user-roles).
+Voor meer informatie, zie het [Leiden gebruikers, groepen, en gebruikersrollen](../using/brand-portal-adding-users.md#manage-user-roles).
 
 >[!NOTE]
 >
 >Maximaal 5 GB ZIP-download is toegestaan met de functie voor delen van koppelingen op Brand Portal.
 
-Voer de volgende stappen uit om elementen te delen als een koppeling:
+
+Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
 
 1. Klik op het bedekkingspictogram aan de linkerkant en kies **[!UICONTROL Navigation]**.
 
