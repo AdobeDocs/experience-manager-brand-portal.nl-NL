@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1516'
 ht-degree: 4%
 
 ---
@@ -62,11 +62,18 @@ De volgende lijst maakt een lijst van de taken die de gebruikers in deze rollen 
 |  | **Bladeren** | **Zoeken** | **Downloaden** | **Mappen delen** | **Een verzameling delen** | **Elementen delen als koppeling** | **Toegang tot beheerhulpprogramma&#39;s** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Gastgebruiker** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Viewer** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Viewer** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Beheerder** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Gastgebruikers kunnen alleen in openbare mappen en verzamelingen bladeren, er toegang toe hebben en er naar zoeken.
+
+* Gebruikers van de viewer kunnen de openbare elementen die met hen worden gedeeld, weergeven en downloaden en deze elementen toevoegen om hun eigen verzamelingen te maken.
+
+>[!NOTE]
+>
+>Er is een bekend probleem dat de koppeling voor delen voor verzamelingen momenteel zichtbaar is voor gebruikers van de viewer. De gebruikers van de viewer hebben niet het recht om gebruikers toe te voegen om een gedeelde koppeling te maken. Dit probleem wordt opgelost in de volgende release. De optie voor het delen van de koppeling voor de verzamelingen is niet beschikbaar voor de gebruikers van de viewer.
+
 
 ### Gastgebruiker {#guest-user}
 
