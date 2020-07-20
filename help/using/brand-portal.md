@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 4%
@@ -68,7 +68,7 @@ De volgende lijst maakt een lijst van de taken die de gebruikers in deze rollen 
 
 * Gastgebruikers kunnen alleen in openbare mappen en verzamelingen bladeren, er toegang toe hebben en er naar zoeken.
 
-* Gebruikers van de viewer kunnen de openbare elementen die met hen worden gedeeld, weergeven en downloaden en deze elementen toevoegen om hun eigen verzamelingen te maken.
+* Gebruikers van de viewer kunnen de openbare elementen die met hen worden gedeeld, openen en downloaden en deze elementen toevoegen om hun eigen verzamelingen te maken.
 
 >[!NOTE]
 >
