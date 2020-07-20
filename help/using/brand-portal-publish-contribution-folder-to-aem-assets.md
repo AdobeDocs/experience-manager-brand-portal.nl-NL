@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,11 @@ Controleer of u de [elementvereisten](brand-portal-download-asset-requirements.m
 **Map met bijdragen publiceren:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
-1. Selecteer de bijdragemap in het dashboard.
-1. Klik op **[!UICONTROL Publish to AEM]**
 
-   ![](assets/export.png).
+1. Selecteer de bijdragemap in het dashboard voor het Brand Portal.
+1. Klik op **[!UICONTROL Publish to AEM]**.
+
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
