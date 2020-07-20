@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '801'
 ht-degree: 3%
 
 ---
@@ -55,6 +55,8 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 ### Bekende problemen {#known-issues-6462}
 
 Deze release bevat de volgende bekende problemen:
+
+* De koppeling Delen voor verzamelingen is momenteel zichtbaar voor de gebruikers van de viewer.
 
 * Als de naam van een map in de hiërarchie wordt gewijzigd van AEM Assets en de geneste map met een element wordt gepubliceerd naar Brand Portal, wordt de titel van de map niet bijgewerkt in Brand Portal totdat de hoofdmap opnieuw wordt gepubliceerd.
 
