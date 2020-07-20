@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1619'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,12 @@ De veelgestelde vragen over het Brand Portal zijn gericht op de vragen en proble
 **Ques. Het bestaande oudere eindpunt OAuth (`https://legacy-oauth.cloud.adobe.io/login`) werkt niet. Wat zou de mogelijke reden kunnen zijn?**
 
 **Ans.** Verouderde OAuth-configuratie is vervangen. U moet de auteur-instanties van AEM Assets upgraden naar het nieuwste servicepack en deze configureren via Adobe Developer Console. Zie AEM Assets [configureren met Brand Portal](configure-aem-assets-with-brand-portal.md) voor meer informatie. Nochtans, voor Verouderde configuratie OAuth om te werken tot u bevordert, werk het Eigen eindpunt OAuth aan `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Ques. Ik heb een inzameling gecreeerd gebruikend de activa verbinding die door de beheerder wordt gedeeld. Maar ik kan geen link naar mijn collectie maken. Heb ik speciale toestemmingen nodig om dit te doen?**
+
+**Ans.** De functionaliteit is door ontwerp, de gebruikers van de kijker kunnen geen verbinding voor inzamelingen delen aangezien zij beperkte voorrechten hebben om gebruikers toe te voegen om een aandeelverbinding tot stand te brengen. Het is bekend dat de koppeling voor delen van verzamelingen momenteel zichtbaar is voor gebruikers van de viewer. Dit probleem wordt opgelost in de volgende release. De optie voor het delen van de koppeling voor de verzamelingen is niet beschikbaar voor de gebruikers van de viewer.
+
 
 **Ques. Ik kan de middelen van de bijdragemap niet publiceren van Brand Portal naar AEM Assets na een upgrade naar Adobe Developer Console. Mijn auteur-exemplaar bevindt zich op AEM 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
 
