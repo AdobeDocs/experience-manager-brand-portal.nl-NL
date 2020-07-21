@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1435'
 ht-degree: 4%
 
 ---
@@ -62,18 +62,21 @@ De volgende lijst maakt een lijst van de taken die de gebruikers in deze rollen 
 |  | **Bladeren** | **Zoeken** | **Downloaden** | **Mappen delen** | **Een verzameling delen** | **Elementen delen als koppeling** | **Toegang tot beheerhulpprogramma&#39;s** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Gastgebruiker** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Viewer** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Viewer** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Beheerder** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Gastgebruikers kunnen alleen in openbare mappen en verzamelingen bladeren, er toegang toe hebben en er naar zoeken.
 
-* Gebruikers van de viewer kunnen de openbare elementen die met hen worden gedeeld, openen en downloaden en deze elementen toevoegen om hun eigen verzamelingen te maken.
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->Er is een bekend probleem dat de koppeling voor delen voor verzamelingen momenteel zichtbaar is voor gebruikers van de viewer. De gebruikers van de viewer hebben niet het recht om gebruikers toe te voegen om een gedeelde koppeling te maken. Dit probleem wordt opgelost in de volgende release. De optie voor het delen van de koppeling voor de verzamelingen is niet beschikbaar voor de gebruikers van de viewer.
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Gastgebruiker {#guest-user}
 
