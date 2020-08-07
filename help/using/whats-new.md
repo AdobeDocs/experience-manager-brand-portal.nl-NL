@@ -1,8 +1,8 @@
 ---
-title: Nieuwe functies in AEM Assets Brand Portal
-seo-title: Nieuwe functies in AEM Assets Brand Portal
-description: Bekijk de nieuwe functies en verbeteringen voor 6.4.6.
-seo-description: Bekijk de nieuwe functies en verbeteringen voor 6.4.6.
+title: Nieuw in AEM Assets Brand Portal
+seo-title: Nieuw in AEM Assets Brand Portal
+description: Bekijk de nieuwe functies en verbeteringen voor 6.4.7.
+seo-description: Bekijk de nieuwe functies en verbeteringen voor 6.4.7.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,21 +10,50 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
 workflow-type: tm+mt
-source-wordcount: '4462'
+source-wordcount: '4746'
 ht-degree: 0%
 
 ---
 
 
-# Nieuwe functies in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Nieuw in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
-Met behulp van de Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene ervaring op het gebied van Brand Portal. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene ervaring van het Brand Portal. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+
+## Wat veranderde in 6.4.7 {#what-changed-in-647}
+
+De release van Brand Portal 6.4.7 richt zich op het verbeteren van de viewerervaring voor documenten, de configuratie voor het downloaden van middelen van het Brand Portal en de belangrijkste verzoeken van klanten. Zie Opmerkingen bij de release van de nieuwste [Brand Portal](brand-portal-release-notes.md).
+
+### Documentviewer {#doc-viewer}
+
+De *documentviewer* verbetert de PDF-viewerervaring. De toepassing biedt een vergelijkbare ervaring als de Adobe Document Cloud voor het weergeven van PDF-bestanden in Brand Portal.
+
+Eerder waren uitvoeringen alleen beschikbaar voor de eerste pagina van het PDF-bestand en waren de opties in de standaard-PDF-viewer ook beperkt.
+
+Met de implementatie van de *documentviewer* kunnen de gebruikers van de Brand Portal de PDF-metagegevens weergeven en nieuwe opties gebruiken voor het afspelen van de PDF-bestanden, zoals paginaweergave, indexweergave, inline zoeken, inzoomen, uitzoomen, vorige pagina, volgende pagina, schakelen naar pagina, passend maken voor venster, passend maken voor scherm, de werkbalk verbergen of de verbergen ervan opheffen.
+
+Waar de gebruikers van de Brand Portal nu beschikken over een verbeterde ervaring voor PDF-viewers, blijft de ervaring met andere indelingen ongewijzigd.
+
+![](assets/doc-viewer.png)
+
+### Downloadinstellingen {#download-configurations}
+
+Downloadinstellingen zijn een nieuwe configuratie waarmee de beheerders van het Brand Portal de download van bedrijfsmiddelen vanaf het Brand Portal kunnen configureren.
+
+De bestaande workflow voor het downloaden van elementen van het Brand Portal wordt onvermijdelijk gevolgd door de weergave van een pop-upvenster met meerdere downloadopties waaruit u kunt kiezen.
+
+In Brand Portal 6.4.7 kan het downloaden van de elementen worden geconfigureerd via de gebruikersinterface van het Brand Portal. Snelle download, aangepaste uitvoeringen en systeemuitvoeringen zijn de drie beschikbare configuraties. De beheerder van het Poortportaal van het Merk kan om het even welke combinatie selecteren om activadownload te vormen. De beheerder kan deze configuraties ook in- of uitschakelen.
+
+De snelle downloadconfiguratie slaat de weergave van het pop-upvenster tijdens het downloaden van middelen over. In het geval van aangepaste uitvoeringen, systeemuitvoeringen of meerdere configuraties, wordt het pop-upvenster weergegeven en worden het oorspronkelijke element samen met de elementuitvoeringen gedownload.
+
+![](assets/download-configuration.png)
+
 
 ## Wat veranderde in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets-cloudservice, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hierboven, werd het Portaal van het Merk vroeger gevormd in Klassieke UI via de Gateway van de Oudheid OAuth, die de het symbolenuitwisseling van JWT gebruikt om een teken van de Toegang IMS voor vergunning te verkrijgen. AEM Assets worden nu geconfigureerd met het Brand Portal via de Adobe Developer Console, die een IMS-token aanschaft voor goedkeuring door uw Pandhouder.
+In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hoger werd het Brand Portal eerder geconfigureerd in de klassieke gebruikersinterface via Legacy OAuth Gateway, die de JWT-tokenuitwisseling gebruikt om een IMS Access-token voor verificatie te verkrijgen. AEM Assets is nu geconfigureerd met het Brand Portal via de Adobe Developer Console, die een IMS-token aanschaft voor toestemming van uw Poortmedewerker.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -40,7 +69,7 @@ In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Por
 
    -->
 
-De stappen om AEM Assets met het Portaal van het Merk te vormen zijn verschillend afhankelijk van uw versie AEM, en of u voor het eerst vormt, of de bestaande configuraties bevordert:
+De stappen voor het configureren van AEM Assets met Brand Portal verschillen afhankelijk van uw AEM versie en of u voor het eerst configureert of de bestaande configuraties bijwerkt:
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -56,17 +85,17 @@ De stappen om AEM Assets met het Portaal van het Merk te vormen zijn verschillen
 * AEM 6.4.8.0 and above
 * AEM 6.3.3.8 and above -->
 
-| **AEM-versie** | **Nieuwe configuratie** | **Upgradeconfiguratie** |
+| **AEM** | **Nieuwe configuratie** | **Upgradeconfiguratie** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Configuratie maken](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 en hoger)** | [Configuratie maken](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgradeconfiguratie](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 en hoger)** | [Configuratie maken](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgradeconfiguratie](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 en hoger)** | [Configuratie maken](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgradeconfiguratie](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Contact opnemen met ondersteuning | Contact opnemen met ondersteuning |
+| **AEM 6,2** | Contact opnemen met ondersteuning | Contact opnemen met ondersteuning |
 
 >[!NOTE]
 >
->Het wordt aanbevolen uw AEM-instantie bij te werken naar het nieuwste servicepakket.
+>Het wordt aanbevolen uw AEM-exemplaar bij te werken naar het nieuwste servicepakket.
 
 Zie Opmerkingen bij de release van de nieuwste [Brand Portal](brand-portal-release-notes.md).
 
@@ -75,16 +104,16 @@ Zie Veelgestelde vragen over [Brand Portal](brand-portal-faqs.md).
 ## Wat veranderde in 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 is een functieversie die zich richt op het bieden van gebruikers van Brand Portal (externe agentschappen/teams) de mogelijkheid om inhoud te uploaden naar Brand Portal en te publiceren naar AEM Assets, zonder dat toegang nodig is tot de auteursomgeving. Deze functie wordt **[Asset Sourcing genoemd in Brand Portal](brand-portal-asset-sourcing.md)**, en zal klantenervaringen verbeteren door een mechanisme in twee richtingen voor gebruikers te verstrekken om activa zowel bij te dragen als te delen met andere wereldwijd verspreide gebruikers van het Portaal van het Merk.
+Brand Portal 6.4.5 is een functieversie die zich richt op het bieden van gebruikers van het Brand Portal (externe agentschappen/teams) de mogelijkheid om inhoud te uploaden naar het Brand Portal en deze te publiceren naar AEM Assets, zonder dat toegang nodig is tot de auteursomgeving. Deze functie wordt **[Asset Sourcing genoemd in Brand Portal](brand-portal-asset-sourcing.md)**, en zal klantenervaringen verbeteren door een mechanisme in twee richtingen voor gebruikers te verstrekken om activa zowel bij te dragen als te delen met andere wereldwijd verspreide gebruikers van het Portaal van het Merk.
 
 ### Asset Sourting in Brand Portal {#asset-sourcing-in-bp}
 
-Met Asset Sourcing kunnen AEM-gebruikers (beheerders/gebruikers die geen beheerder zijn) nieuwe mappen maken met een extra eigenschap voor **Asset Contribution** , zodat de nieuwe map die is gemaakt, kan worden verzonden door gebruikers van Brand Portal. Hierdoor wordt automatisch een workflow geactiveerd die twee extra submappen, NEW en SHARED, maakt in de nieuwe map **Contribution** .
+Met Asset Sourcing kunnen AEM gebruikers (beheerders/gebruikers die geen beheerder zijn) nieuwe mappen maken met een extra eigenschap voor **Asset Contribution** . Hierdoor wordt de nieuwe map opengesteld voor het verzenden van bedrijfsmiddelen door gebruikers van Brand Portal. Hierdoor wordt automatisch een workflow geactiveerd die twee extra submappen, NEW en SHARED, maakt in de nieuwe map **Contribution** .
 
-De AEM-gebruiker definieert vervolgens de vereiste door een korte [beschrijving te](brand-portal-configure-contribution-folder-properties.md) uploaden van de typen elementen die aan de bijdragemap moeten worden toegevoegd en basislijnelementen [te](brand-portal-upload-baseline-assets.md)uploaden naar de map **SHARED** om ervoor te zorgen dat BP-gebruikers over de benodigde informatie beschikken. De beheerder kan actieve gebruikers van het Brand Portal dan toegang tot de bijdrageomslag verlenen alvorens de pas gecreëerde omslag van de **Bijdrage** aan het Portaal van het Merk te publiceren.
+De AEM gebruiker bepaalt dan het vereiste door een kort [overzicht van de soorten activa te](brand-portal-configure-contribution-folder-properties.md) uploaden die aan de bijdrageomslag moeten worden toegevoegd, evenals basislijnactiva [te](brand-portal-upload-baseline-assets.md)uploaden, aan de **GEDEELDE** omslag om BP gebruikers te verzekeren hebben de verwijzingsinformatie zij nodig hebben. De beheerder kan actieve gebruikers van het Brand Portal dan toegang tot de bijdrageomslag verlenen alvorens de pas gecreëerde omslag van de **Bijdrage** aan het Portaal van het Merk te publiceren.
 
 
-Als de gebruiker klaar is met het toevoegen van inhoud in de map **NEW** , kan hij of zij de map met bijdragen weer publiceren naar de AEM-auteuromgeving. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud binnen AEM Assets wordt weerspiegeld.
+Zodra de gebruiker klaar is met het toevoegen van inhoud in de map **NEW** , kunnen hij of zij de map met bijdragen weer publiceren naar de omgeving van de AEM auteur. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in AEM Assets wordt weerspiegeld.
 
 Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het Brand Portal kunnen middelen weergeven, zoeken en downloaden vanuit de bijdragemap en vanuit de andere toegestane mappen. En beheerders kunnen de bijdragemap verder delen, eigenschappen wijzigen en elementen toevoegen aan verzamelingen.
 
@@ -92,7 +121,7 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 >
 >Asset Sourcing in Brand Portal wordt ondersteund op AEM 6.5.2.0 en hoger.
 >
->De functie wordt niet ondersteund in eerdere versies - AEM 6.3 en AEM 6.4.
+>De functie wordt niet ondersteund in de eerdere versies - AEM 6.3 en AEM 6.4.
 
 ### Elementen uploaden naar de bijdragemap {#upload-assets-in-bp}
 
@@ -103,9 +132,9 @@ De gebruikers van het Portaal van het merk met aangewezen toestemmingen kunnen d
 ![](assets/upload-asset4.png)
 
 
-### Map met bijdragen publiceren naar AEM Assets {#publish-assets-to-aem}
+### Bijdragemap publiceren naar AEM Assets {#publish-assets-to-aem}
 
-Wanneer het uploaden is voltooid naar de map **NEW** , kunnen gebruikers van Brand Portal de map met bijdragen weer publiceren naar AEM. Het kan enkele minuten duren om de gepubliceerde inhoud/middelen in AEM Assets te importeren en weer te geven. Zie Bijdragemap [publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+Wanneer het uploaden is voltooid naar de map **NEW** , kunnen gebruikers van Brand Portal de map met bijdragen weer publiceren naar AEM. Het kan enkele minuten duren om de gepubliceerde inhoud/middelen in AEM Assets te importeren en weer te geven. Zie [Contribute-map publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
 
 ![](assets/upload-asset5.png)
@@ -154,7 +183,7 @@ Op dezelfde manier specificeren:
 
 ## Wat veranderde in 6.4.3 {#what-changed-in}
 
-Merk Portal 6.4.3 versie concentreert zich op — die organisaties van een afwisselende alias naast hun huurder identiteitskaart in de toegangsURL van het Portaal van het Merk, nieuwe de configuratie van de omslaghiërarchie, videosteunverhogingen, geplande het publiceren van de instantie van AEM Author aan het Portaal van het Merk, operationele verhogingen verstrekken — en aan klantenverzoeken behandelt.
+Merk Portal 6.4.3 release richt zich op — organisaties een alternatieve alias ter beschikking stellen naast hun huurder-id in de toegangs-URL van het Brand Portal, nieuwe configuratie van de mappenhiërarchie, verbeteringen op het gebied van videoondersteuning, gepland publiceren van de AEM-auteur naar het Brand Portal, operationele verbeteringen en gaat in op verzoeken van klanten.
 
 ### Navigatie in maphiërarchie voor niet-beheerders
 
@@ -197,19 +226,19 @@ Het zoeken onder deze mappen resulteert alleen uit de elementen die met de gebru
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Video-uitvoeringen voor Dynamic Media ondersteunen
+### Ondersteuning voor dynamische media-video-uitvoeringen
 
-Gebruikers van wie de AEM Author-instantie zich in de hybride modus Dynamic Media bevindt, kunnen naast de originele videobestanden ook een voorvertoning van de dynamische mediauitvoeringen weergeven en deze downloaden.
+Gebruikers van wie de AEM-auteur-instantie zich in de hybride modus Dynamische media bevindt, kunnen naast de originele videobestanden ook een voorvertoning van de dynamische media-uitvoeringen weergeven en deze downloaden.
 
-Om voorproef en download van dynamische media vertoningen op specifieke huurdersrekeningen toe te staan, moeten de beheerders **Dynamic Media Configuratie** (videodienst URL (DM-Gateway URL) en registratie identiteitskaart specificeren om de dynamische video) in **Video** configuratie van admin hulpmiddelenpaneel te halen.
+Om voorproef en download van dynamische media vertoningen op specifieke huurdersrekeningen toe te staan, moeten de beheerders **Dynamische Configuratie** van Media (videodienst URL (DM-Gateway URL) en registratie identiteitskaart specificeren om de dynamische video) in de configuratie van de **Video** van het admin hulpmiddelenpaneel te halen.
 
-**U kunt een voorvertoning weergeven van video&#39;s over het gebruik van case**-Dynamic Media:
+**U kunt een voorvertoning weergeven van video&#39;s over het gebruiksscenario** Dynamic Media:
 
 * Pagina met elementgegevens
 * Weergave van de kaart van het element
 * Voorvertoningspagina voor delen koppelen
 
-Dynamic Media Video-coderingen kunnen worden gedownload van:
+Dynamische videocodes voor media kunnen worden gedownload van:
 
 * Brand Portal
 * Gedeelde koppeling
@@ -220,7 +249,7 @@ Dynamic Media Video-coderingen kunnen worden gedownload van:
 
 ### Gepland publiceren naar Brand Portal
 
-De middelen (en omslagen) publiceren werkschema van [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) de instantie van de Auteur aan het Portaal van het Merk kan voor een recentere datum en een tijd worden gepland.
+De middelen (en de omslagen) publiceren werkschema van [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) de instantie van de Auteur aan het Portaal van het Merk kan voor een recentere datum en een tijd worden gepland.
 
 Op dezelfde manier kunnen gepubliceerde elementen op een latere datum (tijd) uit de portal worden verwijderd door de workflow Publiceren via Brand Portal te plannen.
 
@@ -231,14 +260,14 @@ Op dezelfde manier kunnen gepubliceerde elementen op een latere datum (tijd) uit
 
 ### Configureerbare alias van huurder in URL
 
-Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel in de URL te hebben. Organisaties moeten contact opnemen met de ondersteuning van Adobe om een alias voor huurdersnaam op te halen in hun bestaande portal-URL.
+Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel in de URL te hebben. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
 
 Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Zo kan een organisatie met bestaande domeingeomettrix. **brand-portal.adobe.com** op verzoek **geomettrixinc.brand-portal.adobe.com** maken.
 
-Nochtans, kan de instantie van AEM Author slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselende) URL worden [gevormd](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) .
+Nochtans, kan de instantie van de Auteur AEM slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselende) URL worden [gevormd](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) .
 
-**De gebruikscase**-organisaties kunnen aan hun merkbehoeften voldoen door de portal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
+**De gebruikscase** Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -257,7 +286,7 @@ De introductie van Brand Portal 6.4.2 biedt een aantal mogelijkheden om te voldo
 
 ![](assets/bp-login-screen-1.png)
 
-Het portaal van het Merk AEM staat gasttoegang tot het portaal toe. Een gastgebruiker vereist geen geloofsbrieven om het portaal in te gaan en kan tot alle openbare omslagen en inzamelingen toegang hebben en downloaden. Gastgebruikers kunnen elementen toevoegen aan hun lichtbak (privéverzameling) en deze downloaden. Ze kunnen ook zoeken naar slimme tags en voorspelden van zoekopdrachten weergeven die door beheerders zijn ingesteld. De gastzitting staat gebruikers niet toe om inzamelingen tot stand te brengen en bewaarde onderzoeken of hen verder te delen, tot omslag en inzamelingsmontages toegang te hebben, en activa als verbindingen te delen.
+AEM Brand-portaal biedt gasten toegang tot het portaal. Een gastgebruiker vereist geen geloofsbrieven om het portaal in te gaan en kan tot alle openbare omslagen en inzamelingen toegang hebben en downloaden. Gastgebruikers kunnen elementen toevoegen aan hun lichtbak (privéverzameling) en deze downloaden. Ze kunnen ook zoeken naar slimme tags en voorspelden van zoekopdrachten weergeven die door beheerders zijn ingesteld. De gastzitting staat gebruikers niet toe om inzamelingen tot stand te brengen en bewaarde onderzoeken of hen verder te delen, tot omslag en inzamelingsmontages toegang te hebben, en activa als verbindingen te delen.
 
 In een organisatie zijn meerdere gelijktijdige gastsessies toegestaan, wat beperkt is tot 10% van de totale gebruikersquota per organisatie.
 
@@ -335,9 +364,9 @@ De bovenstaande configuraties zijn beschikbaar onder Toegang en Algemene instell
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe I/O-interface voor het configureren van Auth-integratie
+### Adobe I/O UI om de Integraties van de Auth te vormen
 
-Brand Portal 6.4.2 en hoger gebruiken de interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) om JWT-toepassing te maken, die het configureren van Auth-integratie mogelijk maakt om AEM Assets-integratie met Brand Portal mogelijk te maken. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/`. Meer informatie over het integreren van AEM Assets met het Portaal van het Merk voor het publiceren van activa en inzamelingen aan het Portaal van het Merk verwijs [vormt de integratie van AEM Assets met het Portaal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)van het Merk.
+Brand Portal 6.4.2 en hoger gebruikt de Adobe.io- [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) -interface om JWT-toepassing te maken. Hierdoor kunnen Auth-integraties worden geconfigureerd om AEM Assets-integratie met Brand Portal mogelijk te maken. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/`. Meer informatie over het integreren van AEM Assets met Brand Portal voor het publiceren van middelen en verzamelingen naar Brand Portal vindt u in AEM Assets-integratie [configureren met Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Verbeteringen zoeken
 
@@ -372,9 +401,9 @@ Brand Portal 6.4.1 is een platform upgraderelease die verschillende nieuwe funct
 
 ![](assets/navbtn.png)
 
-* Nieuwe mogelijkheid om audiobestanden die vanuit AEM zijn geüpload, voor te vertonen op de detailpagina van middelen.
-* New Related Assets capabilities provided in Asset properties. Activa die verwant zijn aan andere bron/afgeleide activa op AEM en op het Brand Portal zijn gepubliceerd, hebben nu hun relatie intact in Brand Portal, met koppelingen naar de verwante activa op de eigenschappenpagina.
-* Er is een nieuwe configuratie geïntroduceerd om te voorkomen dat gebruikers zonder beheerdersrechten openbare verzamelingen maken. Organisaties kunnen met het ondersteuningsteam van Adobe samenwerken om deze mogelijkheid voor specifieke accounts te configureren.
+* Nieuwe mogelijkheid om audiobestanden, geüpload vanaf AEM, voor te vertonen op de detailpagina van het element.
+* New Related Assets capabilities provided in Asset properties. Activa die verwant zijn aan andere bron/afgeleide middelen op AEM en op Brand Portal worden gepubliceerd, hebben hun relatie nu intact in Brand Portal, met koppelingen naar de gerelateerde elementen op de eigenschappenpagina.
+* Er is een nieuwe configuratie geïntroduceerd om te voorkomen dat gebruikers zonder beheerdersrechten openbare verzamelingen maken. Organisaties kunnen met het team van de Steun van Adobe samenwerken om dit vermogen op specifieke rekeningen te vormen.
 
 ### Verbeteringen voor zoeken
 
@@ -423,7 +452,7 @@ Verbeterde eigenschappenkiezer in de beheerfuncties voor metagegevens, zoeken en
 
 ### Andere verbeteringen
 
-* Middelen die vanuit AEM 6.3.2.1 en 6.4 naar Brand Portal worden gepubliceerd, kunnen nu openbaar worden gemaakt voor algemene gebruikers van het Merkortaal door het selectievakje Openbare map publiceren te markeren in het dialoogvenster AEM Assets Merkorportreplicatie.
+* Middelen die vanuit AEM 6.3.2.1 en 6.4 naar Brand Portal zijn gepubliceerd, kunnen nu openbaar worden gemaakt voor algemene gebruikers van het Merkortaal door het selectievakje Openbare map publiceren in te schakelen in het dialoogvenster AEM Assets Merkorportreplicatie.
 
 ![](assets/public-folder-publish.png)
 
@@ -439,7 +468,7 @@ Gebruikers kunnen nu toegang tot het Brand Portal aanvragen met behulp van de ni
 
 ![](assets/bplogin_request_access.png)
 
-Afhankelijk van het feit of gebruikers een Adobe ID hebben of een Adobe ID moeten maken, kunnen gebruikers de juiste workflow volgen om een aanvraag in te dienen. Brand Portal-productbeheerders ontvangen dergelijke verzoeken in hun systeemvak en verlenen toegang via Adobe Admin Console.
+Afhankelijk van of gebruikers een Adobe ID hebben of een Adobe ID moeten maken, kunnen gebruikers de juiste workflow volgen om een aanvraag in te dienen. Merk Portal-productbeheerders ontvangen dergelijke verzoeken in hun aanmeldingsgebied en verlenen toegang via Adobe Admin Console.
 
 Zie Toegang [aanvragen tot Brand Portal](../using/brand-portal.md#requestaccesstobrandportal)voor meer informatie.
 
@@ -473,21 +502,21 @@ De prestaties van de kiezer van de gebruiker worden nu verbeterd om tegemoet te 
 
 ### Ervaar wijzigingen in cloud-branding {#experience-cloud-branding-changes}
 
-Brand Portal voldoet nu aan de nieuwe Adobe Experience Cloud-branding.
+Brand Portal voldoet nu aan de nieuwe Adobe Experience Cloud-merknaam.
 
 ![](assets/bp_solution_switcher.png)
 
 ## Wat veranderde in 6.3.1 {#what-changed-in-4}
 
-Merkportal 6.3.1 bevat nieuwe en verbeterde functionaliteit die gericht is op het uitlijnen van Merkportal en AEM.
+Brand Portal 6.3.1 bevat nieuwe en verbeterde functionaliteit die gericht is op het uitlijnen van Brand Portal op AEM.
 
 ### Bijgewerkte gebruikersinterface {#upgraded-user-interface}
 
-Om de gebruikerservaring van het Brand Portal op één lijn te brengen met AEM, gaat Adobe over naar de gebruikersinterface van Coral 3. Deze wijziging verbetert de algemene bruikbaarheid, waaronder navigatie en vormgeving.
+Als u de gebruikerservaring van Brand Portal wilt uitlijnen op AEM, gaat Adobe over naar de gebruikersinterface van Coral 3. Deze wijziging verbetert de algemene bruikbaarheid, waaronder navigatie en vormgeving.
 
 #### Verbeterde navigatie-ervaring {#enhanced-navigational-experience}
 
-* Snelle toegang tot beheergereedschappen via het nieuwe Adobe-logo:
+* Snelle toegang tot administratieve hulpmiddelen door het nieuwe embleem van de Adobe:
 
 ![](assets/aemlogo-3.png)
 
@@ -568,11 +597,11 @@ Merkortaal 6.3.1 introduceert aanvullende metagegevens, die overeenkomen met AEM
 
 ### Nieuwe publicatiemogelijkheden in AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}
 
-* AEM-beheerders kunnen metagegevensschema van AEM Assets naar Brand Portal publiceren met behulp van AEM 6.3 SP1-GVB 1 (6.3.1.1), dat beschikbaar zal zijn in het vierde kwartaal van 2017.
+* AEM beheerders kunnen het schema van meta-gegevens van AEM Assets aan het Portaal van het Merk publiceren gebruikend AEM 6.3 SP1-GFP 1 (6.3.1.1), die in Q4 2017 beschikbaar zal zijn.
 
 ![](assets/publish_metadataschemaaemassets.png)
 
-* AEM-beheerders kunnen alle tags van AEM Assets naar Brand Portal publiceren met behulp van AEM 6.2 SP1-GVB7 en AEM 6.3 SP1-GVB 1 (6.3.1.1).
+* AEM beheerders kunnen alle tags van AEM Assets naar Brand Portal publiceren met behulp van AEM 6.2 SP1-GVB7 en AEM 6.3 SP1-GVB 1 (6.3.1.1).
 
 ![](assets/publish_tags_aemassets.png)
 
