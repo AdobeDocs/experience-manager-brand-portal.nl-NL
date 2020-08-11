@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4738'
 ht-degree: 0%
 
 ---
@@ -24,29 +24,46 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 ## Wat veranderde in 6.4.7 {#what-changed-in-647}
 
-De release van Brand Portal 6.4.7 richt zich op het verbeteren van de viewerervaring voor documenten, de configuratie voor het downloaden van middelen van het Brand Portal en de belangrijkste verzoeken van klanten. Zie Opmerkingen bij de release van de nieuwste [Brand Portal](brand-portal-release-notes.md).
+De release van Brand Portal 6.4.7 introduceert de documentviewer, verbetert de ervaring voor het downloaden van middelen en bevat belangrijke correcties. Zie Opmerkingen bij de release van de nieuwste [Brand Portal](brand-portal-release-notes.md).
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Documentviewer {#doc-viewer}
 
-De *documentviewer* verbetert de PDF-viewerervaring. De toepassing biedt een vergelijkbare ervaring als de Adobe Document Cloud voor het weergeven van PDF-bestanden in Brand Portal.
+De documentviewer verbetert de weergave van PDF&#39;s. Deze app biedt een vergelijkbare ervaring als de Adobe Document Cloud bij het bekijken van de PDF-bestanden in Brand Portal.
 
-Eerder waren uitvoeringen alleen beschikbaar voor de eerste pagina van het PDF-bestand en waren de opties in de standaard-PDF-viewer ook beperkt.
+Eerder waren er beperkte opties beschikbaar om de PDF-bestanden te bekijken.
 
-Met de implementatie van de *documentviewer* kunnen de gebruikers van de Brand Portal de PDF-metagegevens weergeven en nieuwe opties gebruiken voor het afspelen van de PDF-bestanden, zoals paginaweergave, indexweergave, inline zoeken, inzoomen, uitzoomen, vorige pagina, volgende pagina, schakelen naar pagina, passend maken voor venster, passend maken voor scherm, de werkbalk verbergen of de verbergen ervan opheffen.
+Met Document Viewer hebben de gebruikers van de Brand Portal nu de opties om pagina&#39;s weer te geven, bladwijzers weer te geven, op pagina te zoeken, in te zoomen, uit te zoomen, naar vorige en volgende pagina&#39;s te navigeren, naar pagina te schakelen, aan venster te passen, op scherm te passen en de werkbalk te verbergen of te verbergen.
 
-Waar de gebruikers van de Brand Portal nu beschikken over een verbeterde ervaring voor PDF-viewers, blijft de ervaring met andere indelingen ongewijzigd.
+>[!NOTE]
+>
+>De ervaring met het weergeven van andere documentindelingen blijft ongewijzigd.
+
+
 
 ![](assets/doc-viewer.png)
 
-### Downloadinstellingen {#download-configurations}
+### Downloadervaring {#download-configurations}
 
-Downloadinstellingen zijn een nieuwe configuratie waarmee de beheerders van het Brand Portal de download van bedrijfsmiddelen vanaf het Brand Portal kunnen configureren.
+Het proces voor het downloaden van bedrijfsmiddelen is vernieuwd en biedt een eenvoudige gebruikerservaring bij het downloaden van bedrijfsmiddelen van Brand Portal.
 
-De bestaande workflow voor het downloaden van elementen van het Brand Portal wordt onvermijdelijk gevolgd door de weergave van een pop-upvenster met meerdere downloadopties waaruit u kunt kiezen.
+De bestaande workflow voor het downloaden van middelen van het Brand Portal wordt onvermijdelijk gevolgd door het verschijnen van een **[!UICONTROL Download]** dialoogvenster met meerdere downloadopties waaruit u kunt kiezen.
 
-In Brand Portal 6.4.7 kan het downloaden van de elementen worden geconfigureerd via de gebruikersinterface van het Brand Portal. Snelle download, aangepaste uitvoeringen en systeemuitvoeringen zijn de drie beschikbare configuraties. De beheerder van het Poortportaal van het Merk kan om het even welke combinatie selecteren om activadownload te vormen. De beheerder kan deze configuraties ook in- of uitschakelen.
+In het Portaal van het Merk 6.4.7, kunnen de beheerders van het Portaal van het Merk de activa **[!UICONTROL Download]** montages vormen. De beschikbare configuraties zijn:
+* **[!UICONTROL Fast Download]**
+* **[!UICONTROL Custom Renditions]**
+* **[!UICONTROL System Renditions]**
 
-De snelle downloadconfiguratie slaat de weergave van het pop-upvenster tijdens het downloaden van middelen over. In het geval van aangepaste uitvoeringen, systeemuitvoeringen of meerdere configuraties, wordt het pop-upvenster weergegeven en worden het oorspronkelijke element samen met de elementuitvoeringen gedownload.
+De beheerder van het Portaal van het Merk kan om het even welke combinatie toelaten om activadownload te vormen.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* Als alle drie configuraties zijn uitgeschakeld, worden de elementen gedownload zonder extra dialoogvenster dat het downloaden van de gebruikers van de Brand Portal vereenvoudigt. Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, omslag die activa, vergunning of unlicensed activa bevatten, en ook wanneer de activa worden gedownload gebruikend aandeelverbinding.
+
+* Als een van de elementen **[!UICONTROL Custom Rendition]** of **[!UICONTROL System Rendition]** is ingeschakeld, wordt het **[!UICONTROL Download]** dialoogvenster weergegeven en worden het oorspronkelijke element en de elementvertoningen gedownload. Het inschakelen van **[!UICONTROL Fast Download]** configuratie versnelt het downloadproces.
 
 ![](assets/download-configuration.png)
 
@@ -385,7 +402,7 @@ Brand Portal 6.4.1 is een platform upgraderelease die verschillende nieuwe funct
 
 * Nieuwe sneltoetsen geïntroduceerd, bijvoorbeeld _(p)_ voor navigatie naar eigenschappenpagina, _(e)_ voor Bewerken en _(ctrl+c)_ voor kopieerbewerkingen.
 * Verbeterde schuifervaring, luie laadervaring in kaart- en lijstweergave voor het bladeren door een groot aantal elementen.
-* Uitgebreide kaartweergave met ondersteuning voor kaarten van verschillende grootte op basis van weergave-instelling.
+* Uitgebreide kaartweergave met ondersteuning voor kaarten van verschillende grootte op basis van de instelling voor weergave.
 
 ![](assets/cardviewsettings-1.png)
 
