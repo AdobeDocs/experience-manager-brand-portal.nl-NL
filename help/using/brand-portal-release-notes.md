@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 * De zoekopdracht duurt langer om de resultaten voor bepaalde trefwoorden weer te geven.
 
-* De **[!UICONTROL Agree]** - en **[!UICONTROL Disagree]** selectievakjes worden tijdens het downloaden niet weergegeven bij een grote selectie van onder licentie geplaatste en niet-gelicentieerde middelen.
+* De selectievakjes **[!UICONTROL Agree]** en **[!UICONTROL Disagree]** selectievakjes worden tijdens het downloaden niet weergegeven bij een grote selectie van in licentie gegeven en niet-gelicentieerde middelen.
 
 * Op filter-gebaseerde onderzoek toont verwerking op de productinterface zonder onderzoeksresultaat.
 
