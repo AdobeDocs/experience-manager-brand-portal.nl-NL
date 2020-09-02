@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -79,7 +79,8 @@ Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-
 * Als zowel **[!UICONTROL Custom Renditions]** als **[!UICONTROL System Renditions]** configuraties zijn uitgeschakeld, worden de oorspronkelijke uitvoeringen van de elementen gedownload zonder dat er een extra dialoogvenster aan de gebruikers wordt getoond.
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * Als een van de opties **[!UICONTROL Custom Renditions]** of de **[!UICONTROL System Renditions]** configuratie is ingeschakeld, wordt een extra **[!UICONTROL Download]** dialoogvenster weergegeven waarin u kunt kiezen of u het oorspronkelijke element samen met de uitvoeringen wilt downloaden of alleen bepaalde uitvoeringen wilt downloaden.
@@ -180,7 +181,7 @@ Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van 
 | US West (N. Californië) | 18 milliseconden | 7,68 MB/s | 4 minuten |
 | US West (Oregon) | 42 milliseconden | 3,84 MB/s | 9 minuten |
 | US East (N. Virginia) | 85 milliseconden | 1,61 MB/s | 21 minuten |
-| APAC (Tokio) | 124 milliseconden | 1,13 MB/s | 10 minuten |
+| APAC (Tokio) | 124 milliseconden | 1,13 MB/s | 30 minuten |
 | Noida | 275 milliseconden | 0,5 MB/s | 68 minuten |
 | Sydney | 175 milliseconden | 0,49 MB/s | 69 minuten |
 | Londen | 179 milliseconden | 0,32 MB/s | 106 minuten |
