@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 # Frequently Asked Questions {#frequently-asked-questions}
 
-De veelgestelde vragen over het Brand Portal zijn gericht op de vragen en problemen die eindgebruikers kunnen tegenkomen tijdens het werken met de nieuwste AEM Assets Brand Portal 6.4.6-versie of eerdere versies.
+In de veelgestelde vragen over het merkenportaal wordt aandacht besteed aan de vragen en problemen die eindgebruikers kunnen tegenkomen tijdens het werken met de nieuwste AEM Assets Brand Portal versie 6.4.6 of eerdere versies.
 
 
 ## Veelgestelde vragen over Merknaam 6.4.6  {#faqs-bp646}
 
 **Ques. Het bestaande oudere eindpunt OAuth (`https://legacy-oauth.cloud.adobe.io/login`) werkt niet. Wat zou de mogelijke reden kunnen zijn?**
 
-**Ans.** Verouderde OAuth-configuratie is vervangen. U moet de auteur-instanties van AEM Assets upgraden naar het nieuwste servicepack en deze configureren via Adobe Developer Console. Zie AEM Assets [configureren met Brand Portal](configure-aem-assets-with-brand-portal.md) voor meer informatie. Nochtans, voor Verouderde configuratie OAuth om te werken tot u bevordert, werk het Eigen eindpunt OAuth aan `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** Verouderde OAuth-configuratie is vervangen. U moet AEM Assets auteur instanties aan het recentste de dienstpak bevorderen en het vormen via de Console van de Ontwikkelaar van de Adobe. Zie AEM Assets [configureren met Brand Portal](configure-aem-assets-with-brand-portal.md) voor meer informatie. Nochtans, voor Verouderde configuratie OAuth om te werken tot u bevordert, werk het Eigen eindpunt OAuth aan `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -35,33 +35,33 @@ De veelgestelde vragen over het Brand Portal zijn gericht op de vragen en proble
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Ques. Ik kan de middelen van de bijdragemap niet publiceren van Brand Portal naar AEM Assets na een upgrade naar Adobe Developer Console. Mijn auteur-exemplaar bevindt zich op AEM 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
+**Ques. Ik kan de middelen van de bijdragemap niet publiceren van Brand Portal naar AEM Assets na de upgrade naar Adobe Developer Console. Mijn auteur bevindt zich op AEM 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
 
 **Ans.** Ja, er is een bekend probleem bij het publiceren van de middelen van de bijdragemap naar AEM Assets op AEM 6.5.4 via Adobe Developer Console.
 
-Het probleem is opgelost in AEM 6.5.5. U kunt uw AEM Assets-exemplaar upgraden naar het nieuwste servicepack AEM 6.5.5 en uw configuraties [upgraden](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in de Adobe Developer Console.
+De kwestie is vastgelegd in AEM 6.5.5. U kunt uw AEM Assets-exemplaar upgraden naar het nieuwste servicepack AEM 6.5.5 en uw configuraties [](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) upgraden op de Adobe Developer Console.
 
-Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de AEM-auteurinstantie te installeren.
+Voor directe correctie op AEM 6.5.4 wordt aangeraden de hotfix [te](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) downloaden en op de AEM auteurinstantie te installeren.
 
-**Ques. Ik zie de inhoud van de bijdragemap die via Brand Portal is gepubliceerd, niet in AEM Assets. Wat zou de mogelijke reden kunnen zijn?**
+**Ques. Ik zie de inhoud van de bijdragemap niet gepubliceerd vanuit Brand Portal in AEM Assets. Wat zou de mogelijke reden kunnen zijn?**
 
-**Ans.** Contacteer uw beheerder van AEM Assets om de configuraties te verifiëren en ervoor te zorgen dat uw huurder van het Portaal van het Merk met slechts één de auteurinstantie van AEM Assets wordt gevormd.
+**Ans.** Neem contact op met uw AEM Assets-beheerder om de configuraties te verifiëren en ervoor te zorgen dat uw Poortmedewerker is geconfigureerd met slechts één AEM Assets-auteurinstantie.
 
-Deze kwestie komt mogelijk voor wanneer u een huurder van het Portaal van het Merk op veelvoudige de auteur van AEM Assets instanties hebt gevormd. Bijvoorbeeld, vormt de beheerder de zelfde huurder van het Portaal van het Merk op de de auteur van AEM Assets instantie van het opvoeren en productiemilieu. In dit geval, de activa die trekkers publiceren in het Portaal van het Merk maar de de auteur van AEM Assets instantie kon de activa geen coz invoeren de replicatieagent ontvangt niet het het vragen token.
+Dit probleem doet zich mogelijk voor wanneer u een Brand Portal-huurder hebt geconfigureerd voor meerdere AEM Assets-auteur-instanties. Bijvoorbeeld, vormt de beheerder de zelfde huurder van het Portaal van het Merk op de auteursinstantie van AEM Assets van het opvoeren en productiemilieu. In dit geval wordt de functie voor het publiceren van middelen geactiveerd in Brand Portal, maar de AEM Assets-instantie die de auteur heeft, kan de elementcode niet importeren die de replicator niet ontvangt voor de token die hij aanvraagt.
 
 
-**Ques. Ik kan geen middelen van AEM Assets publiceren naar Brand Portal. Het replicatielogboek verklaart dat de verbinding uit timed. Is er een snelle oplossing?**
+**Ques. Ik kan geen middelen van AEM Assets naar Brand Portal publiceren. Het replicatielogboek verklaart dat de verbinding uit timed. Is er een snelle oplossing?**
 
 **Ans.** Meestal mislukt het publiceren met een time-out-fout als er meerdere aanvragen in behandeling zijn in de replicatiewachtrij. Om de kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
 
 Voer de volgende stappen uit om de replicatieagent te vormen:
-1. Meld u aan bij de auteur-instantie van uw AEM Assets.
+1. Meld u aan bij de AEM Assets-auteur.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. Klik op de pagina Replicatie **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten voor uw Poorthuurder van het Merk zien.
 1. Klik de replicatieagent URL om de agentendetails te openen.
 1. Klik **[!UICONTROL Edit]** om de montages van de replicatieagent te wijzigen.
 1. Klik in Agent-instellingen op het **[!UICONTROL Extended]** tabblad.
-1. Schakel het **[!UICONTROL Close Connection]** selectievakje in.
+1. Select the **[!UICONTROL Close Connection]** check box.
 1. Herhaal stap 4 door 7 om alle vier replicatieagenten te vormen.
 1. Start de server opnieuw en controleer de verbinding.
 
@@ -70,7 +70,7 @@ Voer de volgende stappen uit om de replicatieagent te vormen:
 
 **Ques. Wat is de grote verandering in de release van Brand Portal 6.4.5?**
 
-**Ans.** AEM Assets Brand Portal 6.4.5 is een functieversie waarmee de gebruikers van het Brand Portal inhoud kunnen uploaden vanuit de instantie Brand Portal en de map Contribution weer kunnen publiceren naar AEM Assets zonder beheerdersrechten te hebben.
+**Ans.** AEM Assets Brand Portal 6.4.5 is een release met functies waarmee de gebruikers van het Brand Portal inhoud kunnen uploaden vanuit de instantie Brand Portal en de map Contribution weer naar AEM Assets kunnen publiceren zonder beheerdersrechten.
 Zie [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md)voor meer informatie.
 
 
@@ -96,13 +96,13 @@ Voor updates en versieverandering, wordt het geadviseerd om de Nota&#39;s [van d
 
 **Ques. Is er actie van mijn kant vereist als gebruiker van het Brand Portal?**
 
-**Ans.** De merkportal 6.4.5-release wordt geleverd met een nieuwe functie genaamd Asset Sourcing. De beheerder van AEM moet de eigenschap van de Middel van Activa vormen in AEM Assets om de eigenschap voor de gebruikers van het Portaal van het Merk toe te laten. Raadpleeg [Asset Sourcing](brand-portal-configure-asset-sourcing.md)inschakelen voor meer informatie.
+**Ans.** De merkportal 6.4.5-release wordt geleverd met een nieuwe functie genaamd Asset Sourcing. AEM beheerder moet de functie Asset Sourcing in AEM Assets configureren om deze functie in te schakelen voor de gebruikers van het Brand Portal. Raadpleeg [Asset Sourcing](brand-portal-configure-asset-sourcing.md)inschakelen voor meer informatie.
 
 
 
 **Ques. Wie kan een Contribute-map maken?**
 
-**Ans.** Elke AEM-gebruiker met machtigingen om een nieuwe map in AEM Assets te maken, kan een map **Contribute** maken. Als u een map **Contribute** wilt maken, maakt u een nieuwe map van het type **Asset Contribution**.
+**Ans.** Elke AEM gebruiker met bevoegdheden om een nieuwe map in AEM Assets te maken, kan een **Contribute** -map maken. Als u een map **Contribute** wilt maken, maakt u een nieuwe map van het type **Asset Contribution**.
 Deze map wordt gedeeld met de actieve gebruikers van het Brand Portal voor een bijdrage.
 
 
@@ -128,7 +128,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Kan ik elementen uploaden naar elke toegestane map?**
 
-**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag uploaden van de **Bijdrage** die door de beheerder van AEM of van het Merk wordt gedeeld.
+**Ans.** Niet alle toegestane mappen. Een gebruiker van het Merk Portal kan inhoud slechts aan de omslag van de **Bijdrage** uploaden die door de AEM of beheerder van het Merk Portal wordt gedeeld.
 
 
 
@@ -138,7 +138,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 >[!NOTE]
 >
->Als u geen bestaande gebruiker van het Portaal van het Merk bent, verzoek de beheerder AEM om uw gebruiker in AEM te creëren admin console en uw profiel toe te voegen aan het dossier van de gebruikersconfiguratie in de gebruikerslijst van de Portaalgebruikers van het Merk. Zie, [Brand Portal-gebruiker](brand-portal-configure-asset-sourcing.md)toevoegen.
+>Als u geen bestaande gebruiker van het Portaal van het Merk bent, verzoek de AEM beheerder om uw gebruiker in de AEM te creëren admin console en uw profiel toe te voegen aan het dossier van de gebruikersconfiguratie in de gebruikerslijst van het Portaal van het Merk. Zie, [Brand Portal-gebruiker](brand-portal-configure-asset-sourcing.md)toevoegen.
 
 **Ques. Wat is de indeling van het CSV-bestand voor het importeren van gebruikers?**
 
@@ -154,7 +154,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Waar zie ik de status van import en publicatie van banen?**
 
-**Ans.** In AEM, kunt u de status van het invoeren in **async** baanpagina zien. In Brand Portal ziet u de status van een publicatietaak in **[!UICONTROL Tools > Asset Contribution status]**.
+**Ans.** In AEM kunt u de status van een importbewerking zien op een **asynchrone** taakpagina. In Brand Portal ziet u de status van een publicatietaak in **[!UICONTROL Tools > Asset Contribution status]**.
 
 
 
@@ -166,7 +166,7 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 **Ques. Is er een drempelwaarde voor het aantal keren dat een map kan worden gepubliceerd van Brand Portal naar AEM Assets?**
 
-**Ans.** Nee, alle elementen in de map **NEW** worden gepubliceerd naar AEM Assets, ongeacht of ze eerder zijn gepubliceerd. Telkens wanneer een map **Contribution** van Brand Portal naar AEM Assets wordt gepubliceerd, wordt de inhoud van de map **NEW** overschreven.
+**Ans.** Nee, alle elementen in de map **NEW** worden gepubliceerd naar AEM Assets, ongeacht of ze eerder zijn gepubliceerd. Telkens wanneer een map **Contribution** wordt gepubliceerd van Brand Portal naar AEM Assets, wordt de inhoud van de map **NEW** overschreven.
 
 
 
@@ -182,21 +182,21 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 
 
 
-**Ques. Wat gebeurt er als een map wordt gepubliceerd van AEM Assets naar Brand Portal dat in stroom is?**
+**Ques. Wat gebeurt er als een map van AEM Assets naar Brand Portal wordt gepubliceerd die in stroom is?**
 
-**Ans.** In AEM worden logbestanden voor elke keer dat een map wordt gepubliceerd naar Brand Portal onderhouden. Op het moment van publicatie worden alle elementen die niet naar Brand Portal zijn gepubliceerd, in een replicatiewachtrij geplaatst. Middelen die aan de map worden toegevoegd nadat de publicatietaak is geactiveerd, worden niet gepubliceerd naar Brand Portal. Wanneer de AEM-gebruiker de map opnieuw publiceert, worden alleen de elementen die niet eerder zijn gepubliceerd (in de replicatiewachtrij), gepubliceerd naar Brand Portal.
-Dit geldt voor elke map die van AEM Assets naar Brand Portal wordt gepubliceerd en voor de map SHARED in de map Contribution.
+**Ans.** In AEM worden logbestanden voor elke keer dat een map wordt gepubliceerd naar Brand Portal onderhouden. Op het moment van publicatie worden alle elementen die niet naar Brand Portal zijn gepubliceerd, in een replicatiewachtrij geplaatst. Middelen die aan de map worden toegevoegd nadat de publicatietaak is geactiveerd, worden niet gepubliceerd naar Brand Portal. Wanneer de AEM gebruiker de map opnieuw publiceert, worden alleen de elementen die niet eerder zijn gepubliceerd (in de replicatiewachtrij), gepubliceerd naar Brand Portal.
+Dit geldt voor elke map die van AEM Assets naar Brand Portal wordt gepubliceerd en voor de map Shared in de map Contribution.
 
 
 
 **Ques. Met wie heb ik contact?**
 
-**Ans.** Neem contact op met de accountmanager van Adobe of de klantenondersteuning.
+**Ans.** Neem contact op met uw Adobe-accountmanager of klantenondersteuning.
 
 
 >[!NOTE]
 >
->De releaseplanning is tijdelijk en kan worden gewijzigd. Neem contact op met uw accountmanager of klantenondersteuning van Adobe voor het bijgewerkte releaseprogramma.
+>De releaseplanning is tijdelijk en kan worden gewijzigd. Neem contact op met uw Adobe-accountmanager of klantenondersteuning voor het bijgewerkte releaseprogramma.
 
 
 
@@ -204,7 +204,7 @@ Dit geldt voor elke map die van AEM Assets naar Brand Portal wordt gepubliceerd 
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 
-Deze sites zijn alleen beschikbaar voor klanten. Neem contact op met uw accountmanager van Adobe als u een klant bent en toegang nodig hebt.
+Deze sites zijn alleen beschikbaar voor klanten. Neem contact op met uw Adobe-accountmanager als u een klant bent en toegang nodig hebt.
 
 * [](https://daycare.day.com) [Producttoegang](https://login.marketing.adobe.com)
 
