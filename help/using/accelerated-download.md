@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 2%
 
 ---
@@ -26,15 +26,16 @@ Brand Portal maakt het mogelijk de downloadprestaties van grote bestanden met be
 >
 >Downloadsnelheid verschilt voor gebruikers omdat dit afhankelijk is van factoren zoals netwerkbandbreedte, serverlatentie en geografische locatie van clients.
 
-Als deze optie is ingeschakeld, kunnen gebruikers van Brand Portal de tijd die nodig is om de gewenste elementbestanden te downloaden, aanzienlijk verkorten via Brand Portal of de gedeelde koppeling door de Aspera Connect-client te installeren.
 
-![](assets/enable-fast-file-download.png)
+De **[!UICONTROL Fast Download]** configuratie is standaard ingeschakeld, waardoor het downloaden van de gewenste elementbestanden van Brand Portal aanzienlijk sneller verloopt.
+
+![](assets/download-configuration.png)
 
 ## Vereisten om bestanden sneller te downloaden {#prerequisites-to-accelerate-file-download}
 
 Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 
-* **[!UICONTROL Enable Download Acceleration]** (standaard uitgeschakeld) in [!UICONTROL General Settings] het deelvenster met beheergereedschappen.
+* Navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** en controleer of de **[!UICONTROL Fast Download]** configuratie is ingeschakeld **[!UICONTROL Download Settings]**.
 * Poort 33001 (zowel TCP als UDP) is open op de firewall. Raadpleeg de documentatie bij [Aspera Connect Client voor meer informatie over de voorwaarden](https://downloads.asperasoft.com/en/documentation/8).
 * Installeer Aspera Connect met behulp van beheerdersrechten.
 * Raadpleeg de ondersteuningsmatrix van [Aspera Connect-platform voor platformondersteuning van Aspera Transfer Client](https://www.asperasoft.com/company/support/transfer-clients/).
@@ -72,8 +73,8 @@ In de volgende tabel worden de downloadprestaties voor 2 GB-bestanden weergegeve
 Middelen sneller downloaden van Brand Portal:
 
 1. Meld u aan bij Brand Portal met behulp van een ondersteunde browser.
-1. Blader en selecteer het gewenste elementbestand, de map of de verzameling die u wilt downloaden. Tik/klik op de downloadoptie.
-Het dialoogvenster Downloaden wordt geopend met de optie [Downloadversnelling] inschakelen geselecteerd.
+1. Blader naar de mappen of elementen die u wilt downloaden en selecteer deze. Klik op het **[!UICONTROL Download]** pictogram op de werkbalk boven in het scherm. het **[!UICONTROL Download]** dialoogvenster wordt weergegeven met de standaardselectievakjes **[!UICONTROL Asset(s)]** en **[!UICONTROL Enable download acceleration]** selectievakjes ingeschakeld.
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -82,19 +83,25 @@ Het dialoogvenster Downloaden wordt geopend met de optie [Downloadversnelling] i
 
    ![](assets/fast-download-emailchk.png)
 
-1. Tik/klik op de **[!UICONTROL Download]** optie.
-Als u de downloadervaring voor uw zakelijke portalaccount wilt versnellen, moet de clienttoepassing van Aspera Connect op uw systeem zijn geïnstalleerd.
+1. Klik op **[!UICONTROL Download]**.
 
-1. **Download Aspera Connect Client** Als de Aspera Connect-client niet op uw systeem is geïnstalleerd of de bestaande geïnstalleerde Aspera Connect-client verouderd is, wordt een vraag weergegeven op de browserpagina vanwaar u de systeemspecifieke Aspera Connect-client kunt downloaden door **[!UICONTROL Download Latest Version]** te selecteren.
+   Als u de downloadervaring voor uw zakelijke portalaccount wilt versnellen, moet de clienttoepassing van Aspera Connect zijn geïnstalleerd in de browserextensie.
+
+1. **Aspera Connect-client downloaden**
+
+   Als Aspera Connect-client niet op uw systeem is geïnstalleerd of als de bestaande Aspera Connect-client verouderd is, wordt een vraag weergegeven op de browserpagina vanwaar u de systeemspecifieke Aspera Connect-client kunt downloaden door **[!UICONTROL Download Latest Version]** te selecteren.
 
    ![](assets/aspera-not-launched.png)
 
    Als u de meest recente versie van Aspera Connect wilt downloaden van [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), selecteert **[!UICONTROL Download Now]** en volgt u de instructies.
 
-1. **Installeer Aspera Connect Client** To install IBM Aspera Connect client setup, voer de installatie uit vanuit het .msi-bestand van de IBM Aspera Connect-clienttoepassing en volg de installatiewizard.
+1. **Aspera Connect-client installeren**
 
-1. Wanneer de client is geïnstalleerd, vernieuwt u de browserpagina en start u de downloadstappen opnieuw of selecteert u **[!UICONTROL Restart]** in het **[!UICONTROL Download]** dialoogvenster Middelen (Stap 2).
-Wanneer u Aspera Connect voor het eerst gebruikt, wordt de browser gevraagd om de koppeling te openen met **[!UICONTROL IBM Aspera Connect]**. Schakel deze optie in als u dit dialoogvenster in de toekomst wilt overslaan. **[!UICONTROL Remember my choice for FASP links]**
+   Als u de installatie van de IBM Aspera Connect-client wilt installeren, voert u de installatie uit vanuit het .msi-bestand van de IBM Aspera Connect-clienttoepassing en volgt u de installatiewizard.
+
+1. Als de client is geïnstalleerd, vernieuwt u de browserpagina en start u de downloadstappen opnieuw.
+
+   Wanneer u Aspera Connect voor het eerst gebruikt, wordt de browser gevraagd om de koppeling te openen met **[!UICONTROL IBM Aspera Connect]**. Schakel deze optie in als u dit dialoogvenster in de toekomst wilt overslaan. **[!UICONTROL Remember my choice for FASP links]**
 
    >[!NOTE]
    >
@@ -111,7 +118,7 @@ Nadat het downloaden is voltooid, wordt in een dialoogvenster de locatie weergeg
 
 >[!NOTE]
 >
->Er is een bekende beperking in de clienttoepassing van Aspera Connect dat er geen vraag verschijnt om de downloadlocatie te selecteren als **[!UICONTROL Always ask me where to save downloaded files]** deze is ingeschakeld onder het tabblad [!UICONTROL Transfers] in [!UICONTROL Preferences]. Geef de locatie op in het tekstvak voordat u begint met downloaden **[!UICONTROL Save downloaded files to]**.
+>Er is een bekende beperking in de clienttoepassing van Aspera Connect dat er geen vraag verschijnt om de downloadlocatie te selecteren als **[!UICONTROL Always ask me where to save downloaded files]** deze is ingeschakeld onder het tabblad **[!UICONTROL Transfers]** in **[!UICONTROL Preferences]**. Geef de locatie op in het tekstvak voordat u begint met downloaden **[!UICONTROL Save downloaded files to]**.
 
 ## Bestandsversneller gebruiken in Microsoft Edge-browser {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -121,8 +128,8 @@ Microsoft Edge wordt uitgevoerd in de EPM-modus (Enhanced Protected Mode), waard
 
 Als u de functie voor versnelde download wilt gebruiken op Microsoft Edge, verwijdert u de Brand Portal-site uit de lijst met vertrouwde sites.
 
-1. Open het Configuratiescherm (druk op **[!UICONTROL Window key + X]** en selecteer **[!UICONTROL Control Panel]**).
-1. Go to **[!UICONTROL Network and Internet > Internet Options]**. Click the **[!UICONTROL Security]** tab.
+1. Open het regelpaneel (**[!UICONTROL Window key + X]** selecteer vervolgens **[!UICONTROL Control Panel]**).
+1. Go to **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Click the **[!UICONTROL Security]** tab.
 1. Klik op de knop **[!UICONTROL Trusted sites zone]** en klik vervolgens op **[!UICONTROL Sites]**.
 1. Merk Portal-site verwijderen uit de lijst.
 
@@ -144,7 +151,7 @@ Bovendien kan de Aspera Connect-client worden gemarkeerd om automatisch te start
 
 Als de downloadversnelling niet voor u werkt, volgt u deze stappen om problemen op te lossen:
 
-1. Controleer of poorten niet geblokkeerd zijn door op uw computer naar [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) te gaan.
+1. Controleer of poorten niet worden geblokkeerd door op uw computer naar [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) te gaan.
 
    Als de havens niet O.K. zijn, dan bereik uit aan uw netwerkteam en zorg ervoor dat de Havens 33001 (zowel TCP &amp; UDP) niet in de firewall worden geblokkeerd.
 
