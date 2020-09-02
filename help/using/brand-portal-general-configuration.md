@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,11 @@ Met AEM Assets Brand Portal kunnen organisaties de volgende mogelijkheden config
 * Verwijderen van bedrijfsmiddelen door beheerders
 * Openbare collectie maken door gebruikers die geen beheerder zijn
 * Creatie van slimme openbare verzamelingen door gebruikers zonder beheerdersrechten
-* Downloadversnelling
 * Bovenliggende hiërarchie van gedeelde mappen zichtbaar voor gebruikers zonder beheerdersrechten
 
 Deze configuraties zijn geleverd als **[!UICONTROL General Settings]** configuraties in het deelvenster met beheergereedschappen.
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **Een** configuratie waarmee beheerders elementen uit het Brand Portal kunnen verwijderen. (Standaard is ingeschakeld)
 
@@ -38,16 +37,14 @@ Deze configuraties zijn geleverd als **[!UICONTROL General Settings]** configura
 
 **C** Configuration om de gebruikers niet-admin toe te staan om openbare slimme inzamelingen tot stand te brengen. (Standaard is ingeschakeld)
 
-**D** Configuration om downloadversnelling toe te staan van activa die van het portaal en van de gedeelde verbindingen worden gedownload. (Standaard is uitgeschakeld)
-
-**E** Configuration to display folder shiërarchie (from the root) of shared folders to non-admin users (Editors, Viewers, Guest Users). (Standaard is uitgeschakeld)
+**D** -configuratie om de maphiërarchie (van de hoofdmap) van gedeelde mappen weer te geven aan gebruikers die geen beheerder zijn (Editors, Viewers, gastgebruikers). (Standaard is uitgeschakeld)
 
 ## Algemene configuraties inschakelen/uitschakelen {#enable-disable-general-configurations}
 
 Om elk van deze configuraties toe te laten/onbruikbaar te maken:
 
 1. Meld u aan met beheerdersrechten.
-1. Selecteer het AEM-logo voor toegang tot beheergereedschappen op de werkbalk boven in het scherm.
+1. Selecteer het AEM logo voor toegang tot de beheergereedschappen op de werkbalk boven in het scherm.
 1. Selecteer in het deelvenster met beheergereedschappen **[!UICONTROL General]** de optie om de **[!UICONTROL General Settings]** pagina te openen.
 1. Gebruik de respectieve knevelschakelaar om het even welke Algemene configuraties toe te laten/onbruikbaar te maken.
 1. **[!UICONTROL Save]** de wijzigingen.
@@ -65,9 +62,11 @@ Om elk van deze configuraties toe te laten/onbruikbaar te maken:
 
 [[!UICONTROL Allow public smart collections creation]](../using/brand-portal-searching.md#main-pars-header-500620467) de configuratie controleert of niet-beheerders hun onderzoeken als slimme inzamelingen kunnen bewaren en hen openbaar voor die huurder maken. De configuratie is standaard ingeschakeld. Door de configuratieorganisaties onbruikbaar te maken kan het hebben van een enorm aantal openbare slimme inzamelingen verhinderen die door niet-admin gebruikers op het Portaal van het Merk van de organisatie worden gecreeerd.
 
-## Downloadversnelling toestaan {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) Met de configuratie kunnen organisaties versnelde downloads van middelen van Brand Portal en gedeelde koppelingen toestaan, door te integreren met IBM Aspera Connect, een toepassing die op aanvraag wordt geïnstalleerd. De toepassing gebruikt merkgebonden technologie om de overheadkosten van TCP te verwijderen.
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## Maphiërarchie inschakelen {#enable-folder-hierarchy}
 
