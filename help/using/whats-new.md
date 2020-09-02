@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
+source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
 workflow-type: tm+mt
-source-wordcount: '4738'
+source-wordcount: '4739'
 ht-degree: 0%
 
 ---
@@ -61,16 +61,18 @@ De beheerder van het Portaal van het Merk kan om het even welke combinatie toela
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Als alle drie configuraties zijn uitgeschakeld, worden de elementen gedownload zonder extra dialoogvenster dat het downloaden van de gebruikers van de Brand Portal vereenvoudigt. Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, omslag die activa, vergunning of unlicensed activa bevatten, en ook wanneer de activa worden gedownload gebruikend aandeelverbinding.
+* Als zowel **[!UICONTROL Custom Renditions]** als **[!UICONTROL System Renditions]** configuraties zijn uitgeschakeld, worden de oorspronkelijke uitvoeringen van de elementen gedownload zonder extra dialoogvenster dat het downloaden voor de gebruikers van de Brand Portal vereenvoudigt.
 
 * Als een van de elementen **[!UICONTROL Custom Rendition]** of **[!UICONTROL System Rendition]** is ingeschakeld, wordt het **[!UICONTROL Download]** dialoogvenster weergegeven en worden het oorspronkelijke element en de elementvertoningen gedownload. Het inschakelen van **[!UICONTROL Fast Download]** configuratie versnelt het downloadproces.
+
+Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, omslagen die activa, vergunning of unlicensed activa bevatten, en het downloaden van activa gebruikend aandeelverbinding.
 
 ![](assets/download-configuration.png)
 
 
 ## Wat veranderde in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets Cloud Service, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hoger werd het Brand Portal eerder geconfigureerd in de klassieke gebruikersinterface via Legacy OAuth Gateway, die de JWT-tokenuitwisseling gebruikt om een IMS Access-token voor verificatie te verkrijgen. AEM Assets is nu geconfigureerd met het Brand Portal via de Adobe Developer Console, die een IMS-token aanschaft voor toestemming van uw Poortmedewerker.
+In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets als Cloud Service, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hoger werd het Brand Portal eerder geconfigureerd in de klassieke gebruikersinterface via Legacy OAuth Gateway, die de JWT-tokenuitwisseling gebruikt om een IMS Access-token voor verificatie te verkrijgen. AEM Assets is nu geconfigureerd met het Brand Portal via de Adobe Developer Console, die een IMS-token aanschaft voor toestemming van uw Poortmedewerker.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -130,7 +132,7 @@ Met Asset Sourcing kunnen AEM gebruikers (beheerders/gebruikers die geen beheerd
 De AEM gebruiker bepaalt dan het vereiste door een kort [overzicht van de soorten activa te](brand-portal-configure-contribution-folder-properties.md) uploaden die aan de bijdrageomslag moeten worden toegevoegd, evenals basislijnactiva [te](brand-portal-upload-baseline-assets.md)uploaden, aan de **GEDEELDE** omslag om BP gebruikers te verzekeren hebben de verwijzingsinformatie zij nodig hebben. De beheerder kan actieve gebruikers van het Brand Portal dan toegang tot de bijdrageomslag verlenen alvorens de pas gecreëerde omslag van de **Bijdrage** aan het Portaal van het Merk te publiceren.
 
 
-Zodra de gebruiker klaar is met het toevoegen van inhoud in de map **NEW** , kunnen hij of zij de map met bijdragen weer publiceren naar de omgeving van de AEM auteur. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in AEM Assets wordt weerspiegeld.
+Als de gebruiker klaar is met het toevoegen van inhoud in de map **NEW** , kan hij of zij de map met de bijdrage weer publiceren naar de AEM auteuromgeving. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in AEM Assets wordt weerspiegeld.
 
 Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het Brand Portal kunnen middelen weergeven, zoeken en downloaden vanuit de bijdragemap en vanuit de andere toegestane mappen. En beheerders kunnen de bijdragemap verder delen, eigenschappen wijzigen en elementen toevoegen aan verzamelingen.
 
@@ -170,7 +172,7 @@ Lees verder voor meer informatie over gedeeltelijk zoeken naar tekst en zoeken n
 
 U kunt nu naar elementen zoeken door alleen een deel (dat een woord of twee is) van de gezochte woordgroep op te geven in het filtervenster.
 
-**Het zoeken naar hoofdletters/kleine letters** is handig als u niet zeker weet welke combinatie van woorden in de gezochte uitdrukking voorkomt.
+**Het zoeken naar hoofdletters/kleine letters** is handig wanneer u niet zeker weet welke combinatie van woorden in de gezochte uitdrukking voorkomt.
 
 Bijvoorbeeld, als uw onderzoeksvorm in het Portaal van het Merk de Voorkeur van het Bezit voor gedeeltelijke onderzoek op activa titel gebruikt, dan specificerend de term **kamp** keert alle activa met het woordkamp in hun titeluitdrukking terug.
 
@@ -206,7 +208,7 @@ Merk Portal 6.4.3 release richt zich op — organisaties een alternatieve alias 
 
 Beheerders kunnen nu configureren hoe de mappen bij het aanmelden worden weergegeven aan gebruikers zonder beheer (Editors, Viewers en Gastgebruikers). [Configuratie van maphiërarchie](../using/brand-portal-general-configuration.md) inschakelen wordt toegevoegd aan **Algemene instellingen** in het deelvenster met beheergereedschappen. Als de configuratie:
 
-* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie gelijkend op beheerders verlenen.
+* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie ervaring gelijkend op beheerders verlenen.
 * **uitgeschakeld**, worden alleen de gedeelde mappen weergegeven op de bestemmingspagina.
 
 ![](assets/enable-folder-hierarchy.png)
@@ -284,7 +286,7 @@ Zo kan een organisatie met bestaande domeingeomettrix. **brand-portal.adobe.com*
 
 Nochtans, kan de instantie van de Auteur AEM slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselende) URL worden [gevormd](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) .
 
-**De gebruikscase** Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
+**De gebruikscase** Organisaties kunnen aan hun brandingbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -402,7 +404,7 @@ Brand Portal 6.4.1 is een platform upgraderelease die verschillende nieuwe funct
 
 * Nieuwe sneltoetsen geïntroduceerd, bijvoorbeeld _(p)_ voor navigatie naar eigenschappenpagina, _(e)_ voor Bewerken en _(ctrl+c)_ voor kopieerbewerkingen.
 * Verbeterde schuifervaring, luie laadervaring in kaart- en lijstweergave voor het bladeren door een groot aantal elementen.
-* Uitgebreide kaartweergave met ondersteuning voor kaarten van verschillende grootte op basis van de instelling voor weergave.
+* Uitgebreide kaartweergave met ondersteuning voor kaarten van verschillende grootte op basis van weergave-instelling.
 
 ![](assets/cardviewsettings-1.png)
 
