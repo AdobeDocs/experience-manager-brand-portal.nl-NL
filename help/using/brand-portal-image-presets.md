@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -23,28 +23,31 @@ Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefin
 
 Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen te genereren van afbeeldingen die u kunt voorvertonen en downloaden. Wanneer u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kunt u een voorinstelling kiezen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
-Als u dynamische uitvoeringen van een element wilt bekijken in Brand Portal, zorgt u ervoor dat de Pyramid-TIFF-uitvoering bestaat in de AEM-auteur-instantie van de locatie waar u publiceert naar Brand Portal. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal. De PTIFF-uitvoering kan niet worden gegenereerd vanuit Brand Portal.
+(*Als AEM (Auteur)-instantie wordt uitgevoerd in de **dynamische modus***Media Hybrid) Als u dynamische uitvoeringen van een element wilt weergeven in Brand Portal, moet u ervoor zorgen dat de Pyramid-versiering bestaat in de AEM auteur-instantie van de locatie waar u publiceert naar Brand Portal. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
 
 >[!NOTE]
 >
 >Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt, is er geen optie om te kiezen uit de bestaande voorinstellingen. In plaats daarvan kunt u de eigenschappen van een aangepaste voorinstelling voor afbeeldingen opgeven. Zie [Afbeeldingsvoorinstellingen toepassen tijdens het downloaden van afbeeldingen](../using/brand-portal-image-presets.md#main-pars-text-1403412644)voor meer informatie.
 
+
 Zie [Voorinstellingen](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)afbeelding beheren voor meer informatie over de parameters die nodig zijn voor het maken van voorinstellingen voor afbeeldingen.
 
 ## Een voorinstelling voor afbeeldingen maken {#create-an-image-preset}
 
-Beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynamische uitvoeringen worden weergegeven op de pagina met elementdetails. U kunt een geheel nieuwe voorinstelling voor afbeeldingen maken of een bestaande voorinstelling met een nieuwe naam opslaan. Wanneer u een voorinstelling voor afbeeldingen maakt, kiest u een grootte voor de levering van de afbeelding en de opmaakopdrachten. Wanneer een afbeelding voor weergave wordt geleverd, wordt de weergave ervan geoptimaliseerd volgens de gekozen opdrachten.
-Merk op dat alleen beheerders voorinstellingen voor afbeeldingen kunnen maken in Brand Portal.
+De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynamische uitvoeringen op de pagina met elementdetails worden weergegeven. U kunt een geheel nieuwe voorinstelling voor afbeeldingen maken of een bestaande voorinstelling met een nieuwe naam opslaan. Wanneer u een voorinstelling voor afbeeldingen maakt, kiest u een grootte voor de levering van de afbeelding en de opmaakopdrachten. Wanneer een afbeelding voor weergave wordt geleverd, wordt de weergave ervan geoptimaliseerd volgens de gekozen opdrachten.
 
-Merk op dat alleen beheerders voorinstellingen voor afbeeldingen kunnen maken in Brand Portal.
 
 >[!NOTE]
 >
 >Dynamische uitvoeringen van een afbeelding worden gemaakt met de Piramide TIFF. Als de Piramid TIFF niet beschikbaar is voor een element, kunnen dynamische uitvoeringen voor dat element niet worden opgehaald in het Brand-portaal.
-Als een AEM-instantie (Auteur) wordt uitgevoerd in de Hybride modus **voor** Dynamic Media, worden Pyramid TIFF-uitvoeringen van afbeeldingselementen gemaakt en opgeslagen in de AEM-opslagplaats. Als een instantie AEM (Auteur) wordt uitgevoerd in de modus **Scène 7 van**Dynamic Media, bestaat er Pyramid TIFF-uitvoering van afbeeldingselementen op de server Scene 7.
-Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en dynamische uitvoeringen weergegeven.
+>
+>Als AEM (Auteur)-instantie wordt uitgevoerd in de **Dynamic Media Hybrid-modus**, worden Pyramid TIFF-uitvoeringen van afbeeldingselementen gemaakt en opgeslagen in AEM opslagplaats.
+>
+>Terwijl AEM (Auteur) instantie op **Dynamische Scène 7 van Media wijze**loopt, dan bestaan de Verlopen van de Piramide TIFF van beeldactiva op de server van Scene 7.
+>Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en dynamische uitvoeringen weergegeven.
 
-1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
+
+1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
 1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Image Presets]**.
 
