@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 4%
@@ -88,7 +88,7 @@ De gastsessie beperkt u echter het maken van verzamelingen en opgeslagen zoekopd
 
 [Openbare middelen zoeken](brand-portal-searching.md)
 
-[Overheidsmiddelen downloaden](brand-portal-download-users.md)
+[Overheidsmiddelen downloaden](brand-portal-download-assets.md)
 
 [Elementen toevoegen aan [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -100,7 +100,7 @@ Een standaardgebruiker in Brand Portal is doorgaans een gebruiker met de rol van
 
 [Middelen zoeken](brand-portal-searching.md)
 
-[Elementen downloaden](brand-portal-download-users.md)
+[Elementen downloaden](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 
