@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '4739'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Met Document Viewer hebben de gebruikers van de Brand Portal nu de opties om pag
 
 ### Downloadervaring {#download-configurations}
 
-Het proces voor het downloaden van bedrijfsmiddelen is vernieuwd en biedt een eenvoudige gebruikerservaring bij het [downloaden van bedrijfsmiddelen van Brand Portal](brand-portal-download-users.md).
+Het proces voor het downloaden van bedrijfsmiddelen is vernieuwd en biedt een eenvoudige gebruikerservaring bij het [downloaden van bedrijfsmiddelen van Brand Portal](brand-portal-download-assets.md).
 
 De bestaande workflow voor het downloaden van middelen van het Brand Portal wordt onvermijdelijk gevolgd door het verschijnen van een **[!UICONTROL Download]** dialoogvenster met meerdere downloadopties waaruit u kunt kiezen.
 
@@ -279,7 +279,7 @@ Op dezelfde manier kunnen gepubliceerde elementen op een latere datum (tijd) uit
 
 ### Configureerbare alias van huurder in URL
 
-Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel in de URL te hebben. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
+Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in de URL te plaatsen. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
 
 Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Zo kan een organisatie met bestaande domeingeomettrix. **brand-portal.adobe.com** op verzoek **geomettrixinc.brand-portal.adobe.com** maken.
