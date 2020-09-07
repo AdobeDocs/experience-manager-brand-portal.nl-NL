@@ -6,7 +6,7 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 translation-type: tm+mt
-source-git-commit: 3ef894f4aa6f12054716315b343d3f85246a313e
+source-git-commit: 628c051cad7c3d3923b1b6c7f7eaf0e353f13227
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 18%
@@ -19,7 +19,7 @@ ht-degree: 18%
 + [Handboek merkportal](using/home.md)
 + Inleiding {#introduction}
    + [Overzicht](using/brand-portal.md)
-   + [Nieuwe functies in AEM Assets Brand Portal](using/whats-new.md)
+   + [Nieuw in AEM Assets Brand Portal](using/whats-new.md)
    + [Releaseopmerkingen](using/brand-portal-release-notes.md)
    + [Veelgestelde vragen](using/brand-portal-faqs.md)
    + [Ondersteunde bestandsindelingen](using/brand-portal-supported-formats.md)
@@ -36,8 +36,8 @@ ht-degree: 18%
    + [Voorinstellingen, schema en facetten publiceren naar Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset Sourting in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Overzicht](using/brand-portal-asset-sourcing.md)
-   + [Asset Souring configureren in AEM](using/brand-portal-configure-asset-sourcing.md)
-   + De map Contribution in AEM Assets configureren {#configure-contribution-folder}
+   + [Middelen in AEM configureren](using/brand-portal-configure-asset-sourcing.md)
+   + Contribute-map in AEM Assets configureren {#configure-contribution-folder}
       + [Overzicht](using/brand-portal-contribution-folder.md)
       + [Map voor bijdragen maken](using/brand-portal-create-contribution-folder.md)
       + [Eigenschappen voor bijdragemappen configureren](using/brand-portal-configure-contribution-folder-properties.md)
@@ -47,7 +47,7 @@ ht-degree: 18%
       + [Overzicht](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Elementvereisten downloaden](using/brand-portal-download-asset-requirements.md)
       + [Elementen uploaden naar de bijdragemap](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Map met bijdragen publiceren naar AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Bijdragemap publiceren naar AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Elementen delen met gebruikers {#share}
    + [Een verzameling delen](using/brand-portal-share-collection.md)
    + [Mappen delen](using/brand-portal-sharing-folders.md)
@@ -56,7 +56,7 @@ ht-degree: 18%
    + [Middelen zoeken op Brand Portal](using/brand-portal-searching.md)
    + [Aangepaste zoekfacetten gebruiken](using/brand-portal-search-facets.md)
 + Downloadmogelijkheden gebruiken {#download}
-   + [Elementen downloaden](using/brand-portal-download-users.md)
+   + [Elementen downloaden](using/brand-portal-download-assets.md)
    + [Dynamische videoondersteuning op Brand Portal](using/dynamic-video-brand-portal.md)
    + [De lichtbakverzameling beheren](using/brand-portal-light-box.md)
    + [Digitale rechten van middelen beheren](using/manage-digital-rights-of-assets.md)
