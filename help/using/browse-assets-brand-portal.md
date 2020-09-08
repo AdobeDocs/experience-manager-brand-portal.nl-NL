@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Assets Brand Portal biedt verschillende mogelijkheden en gebruikersinterface-elementen die het bladeren door bronnen, het doorlopen van middelenhiërarchieën en het zoeken naar elementen vereenvoudigen terwijl u verschillende weergaveopties gebruikt.
 
-Met het AEM-logo op de AEM-werkbalk boven in het scherm hebben beheerders toegang tot het deelvenster met beheergereedschappen.
+AEM logo in de AEM werkbalk boven in het scherm geeft beheerders toegang tot het deelvenster met beheergereedschappen.
 
 ![](assets/aemlogo.png)
 
@@ -104,7 +104,7 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Titel
 * Landinstelling
 * Type
-* Dimensie
+* Dimension
 * Grootte
 * Classificatie
 * Mappad met middelenhiërarchie<sup>*</sup>
@@ -215,7 +215,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
@@ -245,7 +245,7 @@ Navigeer vanuit de inhoudshiërarchie naar het gewenste element.
 
 ## Details van element {#asset-details}
 
-Met de pagina met elementdetails kunt u elementen weergeven, downloaden, de elementkoppeling delen, naar een verzameling verplaatsen of de eigenschappenpagina bekijken. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
+Met de pagina met elementdetails kunt u een element weergeven, downloaden, de koppeling met middelen delen, naar een verzameling verplaatsen of de eigenschappenpagina van het element weergeven. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
 
 ![](assets/asset-detail.png)
 
@@ -261,4 +261,4 @@ Als u de pagina met eigenschappen van elementen wilt openen, gebruikt u de **[!U
 
 ![](assets/asset-properties.png)
 
-U kunt ook een lijst weergeven met alle gerelateerde elementen (bron of afgeleide elementen in AEM) op de eigenschappenpagina van een element, aangezien de elementrelatie ook van AEM naar Brand Portal wordt gepubliceerd.
+U kunt ook een lijst weergeven met alle gerelateerde elementen (bron of afgeleide elementen op AEM) op de eigenschappenpagina van een element, aangezien de elementrelatie ook wordt gepubliceerd van AEM naar Brand Portal.
