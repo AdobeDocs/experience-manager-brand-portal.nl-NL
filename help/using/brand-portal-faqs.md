@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Dit probleem doet zich mogelijk voor wanneer u een Brand Portal-huurder hebt gec
 
 **Ques. Ik kan geen middelen van AEM Assets naar Brand Portal publiceren. Het replicatielogboek verklaart dat de verbinding uit timed. Is er een snelle oplossing?**
 
-**Ans.** Meestal mislukt het publiceren met een time-out-fout als er meerdere aanvragen in behandeling zijn in de replicatiewachtrij. Om de kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
+**Ans.** Het publiceren ontbreekt gewoonlijk met een onderbrekingsfout als er veelvoudige hangende verzoeken in de replicatierij zijn. Om deze kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
 
 Voer de volgende stappen uit om de replicatieagent te vormen:
 1. Meld u aan bij de AEM Assets-auteur.
