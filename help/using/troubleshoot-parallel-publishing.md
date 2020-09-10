@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Problemen met parallelle publicatie naar Brand Portal oplossen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Het Portaal van het merk wordt gevormd met AEM Assets om goedgekeurde merkactiva te hebben foutloos ingebed (of gepubliceerd) van de schrijverinstantie van AEM Assets. Zodra [gevormd](../using/configure-aem-assets-with-brand-portal.md), gebruikt AEM Author een replicatieagent om de geselecteerde activa aan de dienst van de Poortwolk van het Merk te herhalen voor goedgekeurd gebruik door Poortgebruikers van het Merk. De veelvoudige replicatieagenten worden gebruikt AEM 6.2 SP1-GFP5, AEM GFP 6.3.0.2, en verder om hoge snelheid parallelle publicatie toe te staan.
+Brand Portal is geconfigureerd met AEM Assets zodat goedgekeurde merkmiddelen naadloos kunnen worden opgenomen (of gepubliceerd) in de auteur-instantie van AEM Assets. Zodra [gevormd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de Auteur AEM een replicatieagent om de geselecteerde activa(en) aan de Poortwolkendienst van het Merk te herhalen voor goedgekeurd gebruik door Poortgebruikers van het Merk. De veelvoudige replicatieagenten worden gebruikt AEM 6.2 SP1-GFP5, AEM GFP 6.3.0.2, en verder om hoge snelheid parallelle publicatie toe te staan.
 
 >[!NOTE]
 >
->Adobe raadt u aan een upgrade naar AEM 6.4.1.0 uit te voeren om ervoor te zorgen dat AEM Assets Brand Portal correct is geconfigureerd met AEM Assets. Een beperking in AEM 6.4 geeft een fout terwijl het vormen van AEM Assets met het Portaal van het Merk en de replicatie ontbreekt.
+>Adobe raadt aan een upgrade naar AEM 6.4.1.0 uit te voeren om ervoor te zorgen dat AEM Assets Brand Portal correct is geconfigureerd met AEM Assets. Een beperking in AEM 6.4 geeft een fout wanneer het vormen van AEM Assets met het Portaal van het Merk en de replicatie ontbreekt.
 
-Bij het configureren van de cloudservice voor merkportal onder **[!UICONTROL /etc/cloudservice]**, worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Dit leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen van AEM naar Brand Portal publiceert, worden deze in de wachtrij geplaatst en verdeeld onder deze replicatieagents via Round Robin.
+Bij het configureren van de cloudservice voor merkportal onder **[!UICONTROL /etc/cloudservice]**, worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Dit leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen van AEM naar Brand Portal publiceert, worden deze in een wachtrij geplaatst en verdeeld onder deze replicatieagents via Round Robin.
 
-Nochtans, kan het publiceren met tussenpozen als gevolg van grote sling banen, verhoogd Netwerk en **[!UICONTROL Disk I/O]** op instantie van AEM Author ontbreken, of vertraagde prestaties van instantie AEM Author. Daarom wordt aangeraden de verbinding met de replicatieagent(en) te testen voordat met publiceren wordt begonnen.
+Publiceren kan echter soms mislukken als gevolg van grote verkooptaken, een verhoogd netwerk en een instantie van AEM-auteur of vertraagde prestaties van de instantie AEM-auteur. **[!UICONTROL Disk I/O]** Daarom wordt aangeraden de verbinding met de replicatieagent(en) te testen voordat met publiceren wordt begonnen.
 
 ![](assets/test-connection.png)
 
@@ -49,7 +49,7 @@ Als bij herhaaldelijk het uitgeven van de wolkendienst het niet behoorlijk wordt
 
 Logboek van de mening, als de fouten in replicatielogboek worden gevonden:
 
-1. Neem contact op met de Technische Ondersteuning van Adobe.
+1. Neem contact op met de Adobe-ondersteuning.
 
 1. Opnieuw [opschonen](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) en opnieuw publicatieconfiguratie maken.
 
@@ -63,7 +63,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Bestaande Brand Portal-publicatieconfiguraties opschonen {#clean-up-existing-config}
 
-De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en vandaar publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een nieuwe configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie werkt behoorlijk, schrap omhoog het volgende van auteur AEM opstelling:
+De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en vandaar publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een nieuwe configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie om behoorlijk te werken, schoonmaak het volgende van AEM auteursopstelling:
 
 1. Ga naar `localhost:4502/crx/de/` (als u de auteurinstantie op localhost wilt uitvoeren:4502:\
    i. schrapping `/etc/replication/agents.author/mp_replication`ii. delete 
@@ -72,7 +72,7 @@ De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker di
 1. Ga naar localhost:4502/useradmin:\
    i. zoeken naar gebruiker `mac-<tenantid>replication`ii. deze gebruiker verwijderen
 
-Nu is het systeem helemaal opgeruimd. Nu kunt u proberen tot een nieuwe cloudservice config te leiden en nog steeds de reeds bestaande JWT toepassing in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)gebruiken. Er is geen behoefte om een nieuwe toepassing tot stand te brengen, eerder enkel moet de openbare sleutel van de pas gecreëerde wolkenconfig worden bijgewerkt.
+Nu wordt het systeem helemaal schoongemaakt. Nu kunt u proberen tot een nieuwe cloudservice config te leiden en nog steeds de reeds bestaande JWT toepassing in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)gebruiken. Er is geen behoefte om een nieuwe toepassing tot stand te brengen, eerder enkel moet de openbare sleutel van de pas gecreëerde wolkenconfig worden bijgewerkt.
 
 ## Zichtbaarheid ontwikkelaarsleider JWT-toepassing {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -109,7 +109,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Als een replicatieagent (die aan merkportaal enkel fijn) publiceert ophoudt verwerkend publicatietaken, controleer replicatielogboeken. AEM heeft ingebouwde auto-retry ingebouwde, zodat als een bepaald middel publiceren ontbreekt, wordt het opnieuw geprobeerd automatisch. Als er een probleem is dat soms voorkomt, zoals een netwerkfout, kan dit probleem tijdens het opnieuw proberen optreden.
+Als een replicatieagent (die aan brandportaal enkel fijn) publiceert ophoudt verwerkend publicatietaken, controleer replicatielogboeken. AEM heeft ingebouwde functie voor het automatisch opnieuw proberen van bestanden. Als de publicatie van een bepaald element mislukt, wordt dit automatisch opnieuw geprobeerd. Als er een probleem is dat soms voorkomt, zoals een netwerkfout, kan dit probleem tijdens het opnieuw proberen optreden.
 
 Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u moeten controleren **[!UICONTROL test connection]** en proberen om de fouten op te lossen die worden gemeld.
 
@@ -118,17 +118,15 @@ Gebaseerd op de fouten, wordt u geadviseerd om een steunkaartje te registreren, 
 
 ## Replicatieagents configureren om een time-outfout voor de verbinding te voorkomen {#connection-timeout}
 
-**Probleem**: Ik kan geen middelen van AEM Assets publiceren naar Brand Portal. Het replicatielogboek verklaart dat de verbinding uit timed.
-
-**Resolutie**: Meestal mislukt het publiceren met een time-out-fout als er meerdere aanvragen in behandeling zijn in de replicatiewachtrij. Om de kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
+Doorgaans mislukt de publicatietaak met een time-outfout als er meerdere aanvragen in behandeling zijn in de replicatiestoets. Om deze kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
 
 Voer de volgende stappen uit om de replicatieagent te vormen:
-1. Meld u aan bij de auteur-instantie van uw AEM Assets.
+1. Meld u aan bij de AEM Assets-auteur.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. Klik op de pagina Replicatie **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten voor uw Poorthuurder van het Merk zien.
+1. Klik op de pagina Replicatie **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten van uw huurder van het Portaal van het Merk zien.
 1. Klik de replicatieagent URL om de agentendetails te openen.
 1. Klik **[!UICONTROL Edit]** om de montages van de replicatieagent te wijzigen.
 1. Klik in Agent-instellingen op het **[!UICONTROL Extended]** tabblad.
-1. Schakel het **[!UICONTROL Close Connection]** selectievakje in.
+1. Select the **[!UICONTROL Close Connection]** check box.
 1. Herhaal stap 4 door 7 om alle vier replicatieagenten te vormen.
 1. Start de server opnieuw.
