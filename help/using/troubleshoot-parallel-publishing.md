@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
+source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Gebaseerd op de fouten, wordt u geadviseerd om een steunkaartje te registreren, 
 
 Doorgaans mislukt de publicatietaak met een time-outfout als er meerdere aanvragen in behandeling zijn in de replicatiestoets. Om deze kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
 
-Voer de volgende stappen uit om de replicatieagent te vormen:
+Voer de volgende stappen uit om de replicatieagenten te vormen:
 1. Meld u aan bij de AEM Assets-auteur.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. Klik op de pagina Replicatie **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten van uw huurder van het Portaal van het Merk zien.
