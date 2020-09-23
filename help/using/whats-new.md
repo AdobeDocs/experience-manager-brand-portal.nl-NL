@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
 workflow-type: tm+mt
 source-wordcount: '4739'
 ht-degree: 0%
@@ -279,7 +279,7 @@ Op dezelfde manier kunnen gepubliceerde elementen op een latere datum (tijd) uit
 
 ### Configureerbare alias van huurder in URL
 
-Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in de URL te plaatsen. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
+Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel in de URL te hebben. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
 
 Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Zo kan een organisatie met bestaande domeingeomettrix. **brand-portal.adobe.com** op verzoek **geomettrixinc.brand-portal.adobe.com** maken.
