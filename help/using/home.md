@@ -1,20 +1,20 @@
 ---
-title: Gebruikershandleiding AEM Brand Portal
-seo-title: Gebruikershandleiding AEM Brand Portal
-description: Gebruikershandleiding voor AEM Brand Portal
+title: Gebruikershandleiding voor portal AEM
+seo-title: Gebruikershandleiding voor portal AEM
+description: Gebruikershandleiding voor Merkortaal AEM
 seo-description: Beschrijft hoe te om het Portaal van het Merk te gebruiken
 translation-type: tm+mt
-source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
+source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 7%
+source-wordcount: '353'
+ht-degree: 6%
 
 ---
 
 
-# Inleiding
+# Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** helpt organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers om te downloaden.
+**Adobe Experience Manager Assets Brand Portal** helpt organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
 
 Het ontbreken van een veilige oplossing voor het delen van bedrijfsmiddelen kan leiden tot:
 
@@ -26,13 +26,13 @@ Het ontbreken van een veilige oplossing voor het delen van bedrijfsmiddelen kan 
 * Onbeveiligde opslag van elementen vóór vrijgave
 
 Met Brand Portal kunnen organisaties de naleving van merken garanderen door marketers in staat te stellen samen te werken met kanaalpartners en interne zakelijke gebruikers om snel de nieuwste ontwerprichtlijnen, logo&#39;s, campagne en productmiddelen te maken, te beheren en aan de belanghebbenden te leveren.
-Brand Portal is een op de cloud gebaseerd SAAS-aanbod. Het is beschikbaar als toevoeging aan het product van de Activa van de Adobe Experience Manager (op gebouw of beheerde dienst).
+Brand Portal is een op de cloud gebaseerd SAAS-aanbod. Het is beschikbaar als toevoeging aan het Adobe Experience Manager Assets-product (op locatie of beheerde service).
 
 De workflow van de Brand Portal-oplossing wordt in de volgende afbeelding geïllustreerd.
 
 ![](assets/BPWorkflow1.png)
 
-## Handleiding gebruikersportal voor Adobe Experience Manager
+## Handleiding voor Adobe Experience Manager-merkportal
 
 In deze gebruikershandleiding vindt u inzichten in het aanbod van Brand Portal en belangrijke workflows. Gebruik het linkerspoor om door diverse functionaliteit te navigeren en boor neer om te weten hoe de verschillende personen met het portaal in wisselwerking staan.
 
@@ -46,7 +46,7 @@ In deze gebruikershandleiding vindt u inzichten in het aanbod van Brand Portal e
 | [Problemen met parallelle publicatie oplossen](troubleshoot-parallel-publishing.md) | Los replicatie tussen het Portaal van het Merk en AEM Assets problemen op. |
 | [Ondersteunde bestandsindelingen](brand-portal-supported-formats.md) | Ondersteunde bestandsindelingen in Brand Portal voor voorvertoning en download. |
 | [Middelen publiceren naar Brand Portal](brand-portal-sharing-folders.md) | Mappen, verzamelingen, koppelingen, voorinstellingen, schema, facetten en tags publiceren naar Brand Portal. |
-| [Asset Sourting in Brand Portal](brand-portal-asset-sourcing.md) | Hoe te om Activa te vormen die in AEM Assets, activa in het Portaal van het Merk uploaden en bijdrageomslag terug naar AEM Assets publiceren. |
+| [Asset Sourting in Brand Portal](brand-portal-asset-sourcing.md) | Hoe te om Activa te vormen die in AEM Assets, activa in Brand Portaal uploaden en bijdrageomslag terug naar AEM Assets publiceren. |
 
 ### Nuttige bronnen
 
