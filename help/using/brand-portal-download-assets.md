@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,12 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
       ![](assets/licensed-asset-download-1.png)
 
+      >[!NOTE]
+      >
+      >Zorg ervoor dat u alle vereiste elementuitvoeringen selecteert terwijl u deze downloadt van de pagina met elementdetails en klik op **[!UICONTROL Download]**. De geselecteerde vertoningen worden gedownload naar uw lokale computer.
+      > 
+      >Wanneer u het bestand hebt gedownload, is de **[!UICONTROL Download]** knop uitgeschakeld om te voorkomen dat er dubbele kopieën van de gedownloade uitvoeringen worden gemaakt. Als u meer (ontbrekende of een andere kopie van vertoningen) wilt downloaden, vernieuwt u de browser om de downloadknop weer in te schakelen.
+
       Als een van de opties **[!UICONTROL Custom Renditions]** of de **[!UICONTROL System Renditions]** configuratie in het dialoogvenster is ingeschakeld, wordt het **[!UICONTROL Download Settings]** dialoogvenster weergegeven met het **[!UICONTROL Download]** **[!UICONTROL Asset(s)]** selectievakje standaard ingeschakeld. Als de **[!UICONTROL Fast Download]** configuratie is ingeschakeld, is het **[!UICONTROL Enable download acceleration]** selectievakje standaard ingeschakeld.
 
       ![](assets/download-dialog.png)
@@ -181,7 +187,7 @@ Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van 
 | US West (N. Californië) | 18 milliseconden | 7,68 MB/s | 4 minuten |
 | US West (Oregon) | 42 milliseconden | 3,84 MB/s | 9 minuten |
 | US East (N. Virginia) | 85 milliseconden | 1,61 MB/s | 21 minuten |
-| APAC (Tokio) | 124 milliseconden | 1,13 MB/s | 10 minuten |
+| APAC (Tokio) | 124 milliseconden | 1,13 MB/s | 30 minuten |
 | Noida | 275 milliseconden | 0,5 MB/s | 68 minuten |
 | Sydney | 175 milliseconden | 0,49 MB/s | 69 minuten |
 | Londen | 179 milliseconden | 0,32 MB/s | 106 minuten |
