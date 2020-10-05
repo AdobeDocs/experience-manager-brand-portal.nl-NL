@@ -1,18 +1,18 @@
 ---
-title: Gebruikershandleiding voor portal AEM
-seo-title: Gebruikershandleiding voor portal AEM
-description: Gebruikershandleiding voor Merkortaal AEM
+title: Handleiding Adobe Experience Manager Assets Merk Portal
+seo-title: Handleiding Adobe Experience Manager Assets Merk Portal
+description: Handleiding Adobe Experience Manager Assets Merk Portal
 seo-description: Beschrijft hoe te om het Portaal van het Merk te gebruiken
 translation-type: tm+mt
-source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
+source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 6%
 
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
+# Handleiding Adobe Experience Manager Assets Merk Portal {#aem-brand-portal}
 
 **Adobe Experience Manager Assets Brand Portal** helpt organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
 
