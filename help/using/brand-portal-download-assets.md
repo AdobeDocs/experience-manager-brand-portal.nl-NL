@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -28,7 +28,6 @@ Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doord
 >[!NOTE]
 >
 >Installeer IBM Aspera Connect 3.9.9 in de browserextensie voordat u de middelen downloadt van Brand Portal.
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >Alleen de beheerders kunnen de verlopen elementen downloaden. Zie [Digitale rechten van elementen](../using/manage-digital-rights-of-assets.md)beheren voor meer informatie over verlopen elementen.
-
 
 ## Stappen om elementen te downloaden {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
       >
       >Het Portaal van het merk steunt het vormen Dynamische Media op zowel - Hyird als wijze 7.
       >
-      >(*Als AEM auteurinstantie op **Dynamische Media Hybride wijze***loopt)      >Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel wordt gepubliceerd naar Brand Portal, wordt ook de Pyramid tiff-uitvoering gepubliceerd.
+      >(*Als AEM auteurinstantie op **Dynamische Media Hybride wijze***loopt)
+      >
+      >Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel wordt gepubliceerd naar Brand Portal, wordt ook de Pyramid tiff-uitvoering gepubliceerd.
 
    * Schakel het **[!UICONTROL Create separate folder for each asset]** selectievakje in als u de maphiërarchie van het Brand Portal wilt behouden tijdens het downloaden van elementen. Standaard wordt de maphiërarchie Brand Portal genegeerd en worden alle elementen in één map op uw lokale systeem gedownload.
 
@@ -179,7 +179,6 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
    >[!NOTE]
    >
    >Elementen die afzonderlijk worden gedownload, worden weergegeven in het rapport voor het downloaden van elementen. Als er echter een map met elementen wordt gedownload, worden de map en de middelen niet weergegeven in het rapport voor het downloaden van middelen.
-
 
 ## Downloadprestaties verwacht {#expected-download-performance}
 
@@ -199,4 +198,3 @@ Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van 
 >[!NOTE]
 >
 >Er worden gegevens met betrekking tot de kationen waargenomen onder testomstandigheden, die kunnen variëren voor gebruikers op verschillende locaties met een gevarieerde latentie en bandbreedte.
-
