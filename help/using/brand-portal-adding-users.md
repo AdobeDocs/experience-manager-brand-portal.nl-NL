@@ -1,15 +1,15 @@
 ---
 title: Gebruikers, groepen en gebruikersrollen beheren
 seo-title: Gebruikers, groepen en gebruikersrollen beheren
-description: Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets te maken voor gebruikers van het Brand Portal en productprofielen en om hun rollen te beheren met behulp van de gebruikersinterface van het Brand Portal. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
-seo-description: Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets te maken voor gebruikers van het Brand Portal en productprofielen en om hun rollen te beheren met behulp van de gebruikersinterface van het Brand Portal. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
+description: Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets Brand Portal-gebruikers en productprofielen te maken en hun rollen te beheren met behulp van de gebruikersinterface van het Brand Portal. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
+seo-description: Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets Brand Portal-gebruikers en productprofielen te maken en hun rollen te beheren met behulp van de gebruikersinterface van het Brand Portal. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Gebruikers, groepen en gebruikersrollen beheren {#manage-users-groups-and-user-roles}
 
-Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets te maken voor gebruikers van het Brand Portal en productprofielen en om hun rollen te beheren met behulp van de gebruikersinterface van het Brand Portal. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
+Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets Brand Portal-gebruikers en productprofielen te maken en hun rollen te beheren met behulp van de gebruikersinterface van het Brand Portal. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
 
-In [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), kunt u alle producten bekijken verbonden aan uw organisatie. Een product kan elke Experience Cloud-oplossing zijn, zoals Adobe Analytics, Adobe Target of AEM Brand Portal. U moet het AEM-merkportaalproduct kiezen en productprofielen maken.
+In [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), kunt u alle producten bekijken verbonden aan uw organisatie. Een product kan elke Experience Cloud-oplossing zijn, zoals Adobe Analytics, Adobe Target of AEM Brand Portal. U moet het product AEM Brand Portal kiezen en productprofielen maken.
 
 <!--
 Comment Type: draft
@@ -37,23 +37,23 @@ Deze productprofielen worden om de acht uur gesynchroniseerd met de gebruikersin
 
 >[!NOTE]
 >
->Als u groepen wilt maken in Brand Portal, gebruikt u [!UICONTROL Admin Console]dit programma in plaats van **[!UICONTROL Products > Product Profiles]****[!UICONTROL User page > User Groups]**. Productprofielen in Adobe [!UICONTROL Admin Console] worden gebruikt om groepen te maken in Brand Portal.
+>Om groepen in het Portaal van het Merk, van Adobe te creëren, gebruik [!UICONTROL Admin Console], in plaats van **[!UICONTROL Products > Product Profiles]****[!UICONTROL User page > User Groups]**. De profielen van het product in Adobe [!UICONTROL Admin Console] worden gebruikt om groepen in het Portaal van het Merk tot stand te brengen.
 
 ## Een gebruiker toevoegen {#add-a-user}
 
-Als u een productbeheerder bent, gebruikt u Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) om gebruikers tot stand te brengen en hen toe te wijzen aan productprofielen (*vroeger genoemd als productconfiguraties*), die als groepen in het Portaal van het Merk tonen. U kunt groepen gebruiken om bulkbewerkingen uit te voeren, zoals rolbeheer en het delen van elementen.
+Als u een productbeheerder bent, gebruik Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) om gebruikers tot stand te brengen en hen toe te wijzen aan productprofielen (die *vroeger als productconfiguraties* worden bekend), die als groepen in het Portaal van het Merk tonen. U kunt groepen gebruiken om bulkbewerkingen uit te voeren, zoals rolbeheer en het delen van elementen.
 
 >[!NOTE]
 >
->Nieuwe gebruikers die geen toegang hebben tot Brand Portal, kunnen toegang aanvragen via het aanmeldingsscherm van het Brand Portal. Raadpleeg [Verzoek om toegang tot Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)voor meer informatie. Nadat u in het systeemvak kennisgevingen van verzoeken om toegang hebt ontvangen, klikt u op de betreffende melding en vervolgens op **[!UICONTROL Grant Access]**. U kunt ook de koppeling volgen in de ontvangen e-mail met het toegangsverzoek. Als u vervolgens een gebruiker via [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)Adobe wilt toevoegen, volgt u stap 4-7 in de onderstaande procedure.
+>Nieuwe gebruikers die geen toegang hebben tot Brand Portal, kunnen toegang aanvragen via het aanmeldingsscherm van het Brand Portal. Raadpleeg [Verzoek om toegang tot Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)voor meer informatie. Nadat u in het systeemvak kennisgevingen van verzoeken om toegang hebt ontvangen, klikt u op de betreffende melding en vervolgens op **[!UICONTROL Grant Access]**. U kunt ook de koppeling volgen in de ontvangen e-mail met het toegangsverzoek. Als u vervolgens een gebruiker door [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)Adobe wilt toevoegen, volgt u stap 4-7 in de onderstaande procedure.
 
 >[!NOTE]
 >
->U kunt zich rechtstreeks of vanuit Brand Portal aanmelden bij [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) . Als u zich direct aanmeldt, volgt u de stappen 4 tot en met 7 in de onderstaande procedure om een gebruiker toe te voegen.
+>U kunt zich aanmelden bij [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) rechtstreeks of via Brand Portal. Als u zich direct aanmeldt, volgt u de stappen 4 tot en met 7 in de onderstaande procedure om een gebruiker toe te voegen.
 
-1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
+1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
-   ![AEM-logo](assets/aemlogo.png)
+   ![AEM](assets/aemlogo.png)
 
 1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Users]**.
 
@@ -82,7 +82,7 @@ Als u een productbeheerder bent, gebruikt u Adobe [[!UICONTROL Admin Console]](h
 
    >[!NOTE]
    >
-   >Als een gebruiker zich niet kan aanmelden bij Brand Portal, gaat de beheerder van de organisatie naar Adobe [!UICONTROL Admin Console] en controleert hij of de gebruiker aanwezig is en aan ten minste één productprofiel is toegevoegd.
+   >Als een gebruiker zich niet kan aanmelden bij Brand Portal, moet de beheerder van de organisatie naar Adobe gaan [!UICONTROL Admin Console] en controleren of de gebruiker aanwezig is en aan ten minste één productprofiel is toegevoegd.
 
    Zie [Beheerdersrechten verlenen aan gebruikers](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)voor informatie over het verlenen van beheerdersrechten aan de gebruiker.
 
@@ -94,9 +94,9 @@ Productprofielen (voorheen productconfiguraties genoemd) in [!UICONTROL Admin Co
 >
 >U kunt zich [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-7 in de onderstaande procedure om een productprofiel toe te voegen.
 
-1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
+1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
-   ![AEM-logo](assets/aemlogo.png)
+   ![Logo AEM](assets/aemlogo.png)
 
 1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Users]**.
 
@@ -127,9 +127,9 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 >
 >U kunt zich [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich direct bij de Admin Console aanmeldt, volgt u stap 4-7 in de onderstaande procedure om gebruikers aan een productprofiel toe te voegen.
 
-1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
+1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
-   ![AEM-logo](assets/aemlogo.png)
+   ![Logo AEM](assets/aemlogo.png)
 
 1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Users]**.
 
@@ -181,7 +181,7 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
 >
 >U kunt zich [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-8 in de onderstaande procedure om een gebruiker aan een productprofiel toe te voegen.
 
-1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
+1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
    ![AEMLogo](assets/aemlogo.png)
 
@@ -209,8 +209,7 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
    >
    >Brand Portal ondersteunt alleen de rollen Systeembeheerder en Productbeheerder.
    >
-   >
-   >Adobe raadt u aan de rol Systeembeheerder niet te gebruiken omdat hierdoor beheerdersrechten voor de hele organisatie worden toegekend voor alle producten van een organisatie. Bijvoorbeeld, heeft een systeembeheerder van een organisatie die drie marketing wolkenproducten omvat de volledige reeks voorrechten voor alle drie producten. Slechts kan een Beheerder van het Systeem AEM Assets vormen zodat de activa van AEM Assets aan het Portaal van het Merk kunnen worden gepubliceerd. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe raadt u aan de rol Systeembeheerder niet te gebruiken omdat deze beheerdersrechten voor de hele organisatie toekent voor alle producten van een organisatie. Bijvoorbeeld, heeft een systeembeheerder van een organisatie die drie marketing wolkenproducten omvat de volledige reeks voorrechten voor alle drie producten. Slechts kan een Beheerder van het Systeem AEM Assets vormen zodat de activa van AEM Assets aan het Portaal van het Merk kunnen worden gepubliceerd. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >In tegenstelling, verleent de rol van de Beheerder van het Product beheerder beheerdervoorrechten voor slechts een specifiek product. Als u een meer korrelig toegangsbeheer binnen het Portaal van het Merk wilt afdwingen, gebruik de rol van de Beheerder van het Product en selecteer het product als Portaal van het Merk.
 
@@ -233,7 +232,7 @@ Naast de rol van Beheerder, steunt het Portaal van het Merk de volgende rollen:
 * [!UICONTROL Viewer]: Gebruikers met deze rol kunnen de bestanden en mappen weergeven die een beheerder met hen deelt. Viewers kunnen ook middelen zoeken en downloaden. Viewers kunnen echter geen inhoud (bestanden, mappen [!UICONTROL collections]) delen met andere gebruikers.
 * [!UICONTROL Editor]: Gebruikers met deze rol hebben alle rechten van een Viewer. Bovendien kunnen Editors inhoud (mappen, koppelingen [!UICONTROL collections]en koppelingen) delen met andere gebruikers.
 
-1. Klik op de AEM-werkbalk boven in het scherm op het Adobe-logo voor toegang tot beheergereedschappen.
+1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
    ![AEMLogo](assets/aemlogo.png)
 
@@ -286,7 +285,6 @@ Voer de volgende stappen uit om de rol en het recht op toegang tot originele uit
    >
    >Als een gebruiker wordt toegevoegd aan meerdere groepen en als een van deze groepen beperkingen heeft, gelden de beperkingen voor die gebruiker.
    >
-   >
    >Beperkingen op de toegang tot originele uitvoeringen van afbeeldingsbestanden zijn ook niet van toepassing op beheerders, ook al zijn deze leden van beperkte groepen.
 
 1. Klik op **[!UICONTROL Save]**. De rol wordt gewijzigd voor de overeenkomstige groepen.
@@ -294,4 +292,3 @@ Voer de volgende stappen uit om de rol en het recht op toegang tot originele uit
    >[!NOTE]
    >
    >De user-to-group vereniging, of het groepslidmaatschap van een gebruiker, wordt gesynchroniseerd aan het Portaal van het Merk om de 8 uur. Wijzigingen in gebruikers- of groepsrollen zijn van kracht nadat de volgende synchronisatietaak is uitgevoerd.
-
