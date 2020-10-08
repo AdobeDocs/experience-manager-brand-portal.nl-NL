@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -187,20 +187,13 @@ De gebruikers van het Merk Portal hebben toegang tot de map **Contribution** en 
 **Ans.** In AEM worden logbestanden voor elke keer dat een map wordt gepubliceerd naar Brand Portal onderhouden. Op het moment van publicatie worden alle elementen die niet naar Brand Portal zijn gepubliceerd, in een replicatiewachtrij geplaatst. Middelen die aan de map worden toegevoegd nadat de publicatietaak is geactiveerd, worden niet gepubliceerd naar Brand Portal. Wanneer de AEM gebruiker de map opnieuw publiceert, worden alleen de elementen die niet eerder zijn gepubliceerd (in de replicatiewachtrij), gepubliceerd naar Brand Portal.
 Dit geldt voor elke map die van AEM Assets naar Brand Portal wordt gepubliceerd en voor de map Shared in de map Contribution.
 
-
-
 **Ques. Met wie heb ik contact?**
 
 **Ans.** Neem contact op met uw Adobe-accountmanager of klantenondersteuning.
 
-
 >[!NOTE]
 >
 >De releaseplanning is tijdelijk en kan worden gewijzigd. Neem contact op met uw Adobe-accountmanager of klantenondersteuning voor het bijgewerkte releaseprogramma.
-
-
-
-
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 
