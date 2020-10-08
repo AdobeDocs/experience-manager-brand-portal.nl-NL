@@ -1,8 +1,8 @@
 ---
 title: Elementen delen als koppeling
 seo-title: Elementen delen als koppeling
-description: AEM Assets Poortbeheerders kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
-seo-description: AEM Assets Poortbeheerders kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+description: Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+seo-description: Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Elementen delen als koppeling {#share-assets-as-a-link}
 
-AEM Assets Poortbeheerders kunnen koppelingen van meerdere middelen delen met geoorloofde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
 
 Het delen van elementen via een koppeling is een handige manier om deze beschikbaar te maken voor externe partijen, aangezien de ontvangers zich niet hoeven aan te melden bij Brand Portal voor toegang tot de middelen.
 
@@ -31,7 +31,6 @@ Voor meer informatie, zie het [Leiden gebruikers, groepen, en gebruikersrollen](
 >[!NOTE]
 >
 >Maximaal 5 GB ZIP-download is toegestaan met de functie voor delen van koppelingen op Brand Portal.
-
 
 Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
 
@@ -79,7 +78,7 @@ Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
 
 ## Elementen downloaden van gedeelde koppelingen {#download-assets-from-shared-links}
 
-Klik op de koppeling in de e-mail om het gedeelde element weer te geven. De pagina AEM-koppeling voor delen wordt geopend.
+Klik op de koppeling in de e-mail om het gedeelde element weer te geven. De pagina AEM delen van koppeling wordt geopend.
 
 De gedeelde elementen downloaden:
 
@@ -190,7 +189,7 @@ In de volgende legenda worden de symbolen uitgelegd die in de matrix worden gebr
 | ✓ | Deze bestandsindeling ondersteunt deze functie |
 | ✕ | Deze functie wordt niet ondersteund door deze bestandsindeling |
 | NA | Deze functie is niet van toepassing op deze bestandsindeling |
-| * | Voor deze functie is add-on ondersteuning voor deze bestandsindeling vereist op AEM-auteur-instantie, maar niet op Brand Portal nadat de middelen naar Brand Portal zijn gepubliceerd |
+| * | Voor deze functie is add-on ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat de middelen naar Brand Portal zijn gepubliceerd |
 
 ## Delen van elementen die worden gedeeld als koppeling opheffen {#unshare-assets-shared-as-a-link}
 
