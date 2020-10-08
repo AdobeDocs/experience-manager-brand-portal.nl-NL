@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '4736'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Met Document Viewer hebben de gebruikers van de Brand Portal nu de opties om pag
 >[!NOTE]
 >
 >De ervaring met het weergeven van andere documentindelingen blijft ongewijzigd.
-
-
 
 ![](assets/doc-viewer.png)
 
@@ -282,7 +280,7 @@ Op dezelfde manier kunnen gepubliceerde elementen op een latere datum (tijd) uit
 
 ### Configureerbare alias van huurder in URL
 
-Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel in de URL te hebben. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
+Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in de URL te plaatsen. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
 
 Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Zo kan een organisatie met bestaande domeingeomettrix. **brand-portal.adobe.com** op verzoek **geomettrixinc.brand-portal.adobe.com** maken.
