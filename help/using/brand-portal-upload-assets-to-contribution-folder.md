@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -29,7 +29,6 @@ Vervolgens kunnen ze nieuwe middelen maken voor de bijdrage en deze uploaden naa
 >
 >De maximale uploadlimiet voor elke Brand Portal-huurder is **10** GB, die cumulatief wordt toegepast op alle bijdragemappen.
 
-
 Nadat de nieuwe middelen naar AEM Assets zijn gepubliceerd, kunnen de gebruikers van het Brand Portal deze uit de map NEW verwijderen. De beheerder van het Brand Portal kan de elementen uit de map NEW en Shared verwijderen.
 
 Zodra de doelstelling van het creëren van de bijdrageomslag wordt bereikt, kan de beheerder van het Portaal van het Merk de bijdrageomslag schrappen om uploadruimte voor andere gebruikers vrij te geven.
@@ -39,7 +38,6 @@ Zodra de doelstelling van het creëren van de bijdrageomslag wordt bereikt, kan 
 >Aanbevolen wordt om de uploadruimte vrij te geven na publicatie van de map met bijdragen aan AEM Assets, zodat deze beschikbaar is voor de andere gebruikers van het Brand Portal.
 >
 >Als er een behoefte is om de uploadlimiet van uw Poorthuurder van het Merk voorbij **10** GB uit te breiden, contacteer de Steun van de Adobe die het vereiste specificeert.
-
 
 **Nieuwe elementen uploaden:**
 
