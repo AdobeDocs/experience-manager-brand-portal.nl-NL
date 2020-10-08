@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 9%
@@ -32,7 +32,6 @@ Adobe Experience Manager Assets wordt geconfigureerd met Brand Portal via Adobe 
 >
 >Configuratie via verouderde OAuth wordt vanaf 6 april 2020 niet meer ondersteund en wordt gewijzigd in configuratie via Adobe Developer Console.
 
-
 >[!TIP]
 >
 >***Alleen voor bestaande klanten***
@@ -40,7 +39,6 @@ Adobe Experience Manager Assets wordt geconfigureerd met Brand Portal via Adobe 
 >De verouderde configuratie van de Gateway OAuth zal blijven werkend voor bestaande klanten.
 >
 >Voor het geval u problemen met erfenisOAuth configuratie tegenkomt, schrap de bestaande configuratie en creeer nieuwe configuratie via de Console van de Ontwikkelaar van Adobe.
-
 
 De stappen voor het configureren van AEM Assets met Brand Portal verschillen afhankelijk van uw AEM versie en of u voor het eerst configureert of de bestaande configuraties bijwerkt:
 
@@ -51,5 +49,3 @@ De stappen voor het configureren van AEM Assets met Brand Portal verschillen afh
 | **AEM 6.4 (6.4.8.0 en hoger)** | [Configuratie maken](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgradeconfiguratie](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 en hoger)** | [Configuratie maken](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgradeconfiguratie](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6,2** | Contact opnemen met ondersteuning | Contact opnemen met ondersteuning |
-
-
