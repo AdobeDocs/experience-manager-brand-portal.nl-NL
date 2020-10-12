@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 0%
@@ -121,7 +121,6 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
       >Zorg ervoor dat u alle vereiste elementuitvoeringen selecteert terwijl u deze downloadt van de pagina met elementdetails en klik op **[!UICONTROL Download]**. De geselecteerde vertoningen worden gedownload naar uw lokale computer.
       > 
       >Wanneer u het bestand hebt gedownload, is de **[!UICONTROL Download]** knop uitgeschakeld om te voorkomen dat er dubbele kopieën van de gedownloade uitvoeringen worden gemaakt. Als u meer (ontbrekende of een andere kopie van vertoningen) wilt downloaden, vernieuwt u de browser om de downloadknop weer in te schakelen.
-
 
       Als een van de opties **[!UICONTROL Custom Renditions]** of de **[!UICONTROL System Renditions]** configuratie in het dialoogvenster is ingeschakeld, wordt het **[!UICONTROL Download Settings]** dialoogvenster weergegeven met het **[!UICONTROL Download]** **[!UICONTROL Asset(s)]** selectievakje standaard ingeschakeld. Als de **[!UICONTROL Fast Download]** configuratie is ingeschakeld, is het **[!UICONTROL Enable download acceleration]** selectievakje standaard ingeschakeld.
 
