@@ -1,8 +1,8 @@
 ---
 title: Release-opmerkingen
 seo-title: Release-opmerkingen
-description: Bekijk de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 6.4.7-release.
-seo-description: Bekijk de verbeteringen, de kritieke problemen die zijn opgelost en de bekende problemen in de Adobe Experience Manager Assets Brand Portal 6.4.7-release.
+description: Bekijk de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal versie 2020.10.0.
+seo-description: Bekijk de verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal versie 2020.10.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '486'
 ht-degree: 5%
 
 ---
@@ -20,59 +20,92 @@ ht-degree: 5%
 
 # Releaseopmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 6.4.7-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal versie 2020.10.0.
 
 ## Geen informatie {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 6.4.7 |
-| Date | augustus 2020 |
+| Versie | 2020.10.0 |
+| Date | Oktober 2020 |
 
 ## Overzicht {#overview}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Merkportal biedt gebruikers de mogelijkheid om in door het bedrijf goedgekeurde indelingen te zoeken, te bekijken, voor te vertonen, te downloaden en te exporteren, altijd en overal.
 
-## Nieuwe functies in 6.4.7 {#whats-new-in-647}
+## Nieuwe functies in 2020.10.0 {#whats-new-in-2020.10.0}
 
 ### Nieuwe functies {#new-features}
 
 Deze release bevat de volgende nieuwe functies:
 
-* Documentviewer is geïntroduceerd om de PDF-weergave te verbeteren. Er zijn nieuwe opties beschikbaar voor de weergave van PDF-bestanden in Brand Portal.
+* Het **[!UICONTROL Download]** dialoogvenster wordt vernieuwd in een lijstweergave met extra opties voor het uitsluiten van de uitvoeringen die niet vereist zijn, het toepassen van dezelfde set regels voor vergelijkbare elementtypen en het downloaden van de geselecteerde elementuitvoeringen.
+
+<!--
+* The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
+-->
+
+* Navigatie naar de pagina&#39;s **[!UICONTROL Files]**, **[!UICONTROL Collections]** en **[!UICONTROL Shared Links]** is nu mogelijk vanaf alle pagina&#39;s van het Brand Portal met één klik.
+
+* Met het **[!UICONTROL Renditions]** deelvenster op de pagina met elementdetails kunnen de gebruikers van het Brand Portal het oorspronkelijke element en (of) specifieke elementen selecteren en deze rechtstreeks downloaden vanuit het **[!UICONTROL Renditions]** deelvenster zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen.
+
+<!--
+Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
+-->
+
+* Naast de bestaande **[!UICONTROL Download]** configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers ook vormen om het originele activa en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden. Deze configuraties bepalen wie toegang heeft tot de elementuitvoeringen en (of deze kan downloaden).
+
+
+### Kritieke problemen opgelost {#critical-issues-fixed}
+
+Deze release bevat oplossingen voor het volgende kritieke probleem:
+
+* De gebruikers kunnen de PDF-pagina&#39;s niet weergeven als de PDF subelementen bevat.
+
+
+### Bekende problemen {#known-issues}
+
+Deze release bevat de volgende bekende uitgave:
+
+* Als de gebruiker het element downloadt via de koppeling voor delen, wordt het oorspronkelijke element gedownload, zelfs als de optie voor **[!UICONTROL Allow download of original file]** het downloaden is uitgeschakeld.
+
+
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Het proces voor het downloaden van bedrijfsmiddelen verbetert de gebruikerservaring van het Brand Portal tijdens het [downloaden van bedrijfsmiddelen van het Brand Portal](brand-portal-download-assets.md). De beheerders van het Portaal van het merk kunnen vormen **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, en **[!UICONTROL System Renditions]** van de **[!UICONTROL Download]** montages.
+<!--
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-Zie voor meer informatie [wat er nieuw is in Brand Portal 6.4.7](whats-new.md).
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
-### Kritieke problemen opgelost {#critical-issues-fixed-647}
+For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
-Deze release bevat oplossingen voor de volgende kritieke problemen:
+### Critical Issues Fixed {#critical-issues-fixed-647}
 
-* De gebruikers van de viewer mogen geen koppeling voor verzamelingen delen, maar de optie om te delen is voor hen zichtbaar in de productinterface.
+This release includes fixes to the following critical issues:
 
-* Op de **[!UICONTROL Download]** knop op de optiebalk worden niet alle gelicentieerde middelen van de geselecteerde map weergegeven.
+* The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
-* De zoekopdracht duurt langer om de resultaten voor bepaalde trefwoorden weer te geven.
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
-* De selectievakjes **[!UICONTROL Agree]** en **[!UICONTROL Disagree]** selectievakjes worden tijdens het downloaden niet weergegeven bij een grote selectie van in licentie gegeven en niet-gelicentieerde middelen.
+* The search takes longer to show the results for certain keywords.
 
-* Op filter-gebaseerde onderzoek toont verwerking op de productinterface zonder onderzoeksresultaat.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
-* De elementen worden niet gedownload van de koppeling voor delen als de gedeelde map een groot aantal elementen bevat.
+* Filter-based search shows processing on the product interface with no search result. 
 
-
-### Bekende problemen {#known-issues-647}
-
-Deze release bevat de volgende bekende problemen:
-
-* Als er meerdere elementen zijn geselecteerd, wordt er geen licentietekst weergegeven wanneer u tijdens het downloaden via de koppeling voor delen op de pagina met licentieovereenkomsten op de pagina Voorwaarden en -bepalingen klikt.
+* The assets do not download from share link if the shared folder contains numerous and large assets.
 
 
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
+
+-->
 
 ## Talen {#languages}
 
