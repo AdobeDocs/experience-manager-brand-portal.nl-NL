@@ -1,8 +1,8 @@
 ---
 title: Nieuw in AEM Assets Brand Portal
 seo-title: Nieuw in AEM Assets Brand Portal
-description: Bekijk de nieuwe functies en verbeteringen voor 6.4.7.
-seo-description: Bekijk de nieuwe functies en verbeteringen voor 6.4.7.
+description: Bekijk de nieuwe functies en verbeteringen voor 2020.10.0.
+seo-description: Bekijk de nieuwe functies en verbeteringen voor 2020.10.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4736'
+source-wordcount: '5334'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,94 @@ ht-degree: 0%
 # Nieuw in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene ervaring van het Brand Portal. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+
+## Wat veranderde in 2020.10.0 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0 is een verbeteringsrelease die zich richt op het vereenvoudigen van het downloaden van bedrijfsmiddelen en die kritieke oplossingen bevat. De verbetering omvat nieuwe en betere werkschema voor activa downloaden, extra opties om vertoningen uit te sluiten, direct download van **[!UICONTROL Renditions]** paneel, configuratie om toegang en downloadrechten voor specifieke groep gebruikers toe te staan, en gemakkelijke navigatie aan de dossiers, inzamelingen, en gedeelde verbindingen van alle Poortpagina&#39;s van het Merk. Zie Opmerkingen bij de release van de nieuwste [Brand Portal](brand-portal-release-notes.md).
+
+
+### Vereenvoudigde downloadervaring {#download-dialog}
+
+Eerder werd het **[!UICONTROL Download]** dialoogvenster weergegeven met meerdere opties, zoals het maken van een aparte map voor elk element, het e-mailmiddel, het selecteren van het oorspronkelijke element, aangepaste uitvoeringen, dynamische uitvoeringen, het uitsluiten van systeemuitvoeringen en het inschakelen van downloadversnelling, die ambigu waren voor niet-technische of nieuwe gebruikers, met name wanneer meerdere elementen of mappen waren geselecteerd om te worden gedownload. Bovendien kon de gebruiker niet alle elementuitvoeringen zien of een specifieke aangepaste of dynamische uitvoering uitsluiten.
+
+Het nieuwe **[!UICONTROL Download]** dialoogvenster veralgement de selectie van elementen en het filterproces, waardoor gebruikers van het Brand Portal gemakkelijker effectieve beslissingen kunnen nemen tijdens het downloaden van de uitvoeringen van elementen. Alle geselecteerde elementen en de bijbehorende uitvoeringen worden weergegeven, afhankelijk van de [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuratie en de **[!UICONTROL Download]** instellingen.
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+In het **[!UICONTROL Download]** dialoogvenster kunnen de gebruikers:
+
+* Alle beschikbare uitvoeringen van elementen in de downloadlijst weergeven.
+* Sluit uitvoeringen van de elementen uit die niet vereist zijn voor downloaden.
+* Pas met één klik dezelfde set vertoningen toe op alle vergelijkbare elementtypen.
+* Verschillende sets uitvoeringen toepassen op verschillende elementtypen.
+* Maak afzonderlijke map voor elk element.
+* Geselecteerde elementen en de bijbehorende uitvoeringen downloaden.
+
+De downloadworkflow blijft constant voor zelfstandige elementen, meerdere elementen, mappen met elementen, onder licentie of zonder licentie geplaatste elementen en het downloaden van elementen via de koppeling voor delen.
+
+![download-dialog](assets/download-dialog-box.png)
+
+### Snelle navigatie  {#quick-navigation}
+
+Eerder, de optie om te bekijken, **[!UICONTROL Files]** en **[!UICONTROL Collections]****[!UICONTROL Shared Links]** werden verborgen en vereiste veelvoudige kliks telkens als de gebruiker op een andere mening wilde schakelen.
+
+In het Portaal van het Merk 2020.10.0, kunnen de gebruikers aan **[!UICONTROL Files]**, **[!UICONTROL Collections]** en **[!UICONTROL Shared Links]** van alle Poortpagina&#39;s van het Merk in één klik navigeren gebruikend de snelle navigatiekoppelingen.
+
+![collectie-navigatie](assets/collection-navigation.png)
+
+### Verbeterd deelvenster voor uitvoering {#rendition-panel}
+
+Eerder konden de gebruikers het oorspronkelijke element en de bijbehorende uitvoeringen alleen weergeven in het **[!UICONTROL Renditions]** deelvenster als een van de elementen **[!UICONTROL Custom Rendition]** of **[!UICONTROL System Rendition]** was ingeschakeld in de **[!UICONTROL Download]** configuratie. Bovendien moesten de gebruikers alle elementuitvoeringen downloaden omdat er geen filter was om specifieke aangepaste of dynamische uitvoeringen uit te sluiten die niet vereist waren.
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+In Brand Portal 2020.10.0 kunnen gebruikers specifieke uitvoeringen uitsluiten en de geselecteerde uitvoeringen rechtstreeks downloaden van het **[!UICONTROL Renditions]** deelvenster op de pagina met elementdetails zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen.
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![renditions-panel](assets/rendition-panel.png)
+
+
+### Downloadmachtigingen configureren {#download-permissions}
+
+Naast de bestaande [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers ook vormen om het originele activa en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden. Deze configuraties bepalen wie toegang heeft tot de elementuitvoeringen en (of deze kan downloaden).
+
+Eerder waren de instellingen alleen beschikbaar om te voorkomen dat groepsgebruikers het oorspronkelijke element konden downloaden.
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+Op het **[!UICONTROL Groups]** tabblad op de **[!UICONTROL User Roles]** pagina kunnen beheerders de weergave- en downloadinstellingen configureren:
+
+* Als zowel **[!UICONTROL Download Original]** als de **[!UICONTROL Download Renditions]** instellingen zijn ingeschakeld, kunnen de gebruikers van de geselecteerde groep de originele elementen en hun uitvoeringen weergeven en downloaden.
+* Als beide instellingen zijn uitgeschakeld, kunnen de gebruikers alleen de originele elementen bekijken. De elementuitvoeringen zijn niet zichtbaar voor de gebruikers op de pagina met elementdetails.
+* Als alleen de **[!UICONTROL Download Original]** instelling is ingeschakeld, kunnen de gebruikers alleen de oorspronkelijke elementen weergeven en downloaden van de pagina met elementdetails.
+* Als alleen de **[!UICONTROL Download Renditions]** instelling is ingeschakeld, kunnen de gebruikers het oorspronkelijke element weergeven maar niet downloaden. De gebruiker kan de elementuitvoeringen wel weergeven en downloaden.
+
+![view-download-permission](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>Als een gebruiker wordt toegevoegd aan meerdere groepen en als een van deze groepen beperkingen heeft, gelden de beperkingen voor de gebruiker.
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## Wat veranderde in 6.4.7 {#what-changed-in-647}
 
@@ -236,7 +324,6 @@ De standaardminiatuur van de virtuele mappen is de miniatuurafbeelding van de ee
 
 ![](assets/edit-search-form.png)
 
-**Het gebruiksgeval**
 
 U kunt nu het zoeken naar middelen beperken in een specifieke map waarnaar u hebt gebladerd, in plaats van te beginnen bij de hoofdmap.
 
@@ -252,7 +339,8 @@ Gebruikers van wie de AEM-auteur-instantie zich in de hybride modus Dynamische m
 
 Om voorproef en download van dynamische media vertoningen op specifieke huurdersrekeningen toe te staan, moeten de beheerders **Dynamische Configuratie** van Media (videodienst URL (DM-Gateway URL) en registratie identiteitskaart specificeren om de dynamische video) in de configuratie van de **Video** van het admin hulpmiddelenpaneel te halen.
 
-**U kunt een voorvertoning weergeven van video&#39;s over het gebruiksscenario** Dynamic Media:
+
+Dynamische mediavideo&#39;s kunnen worden voorvertoond op:
 
 * Pagina met elementgegevens
 * Weergave van de kaart van het element
@@ -274,20 +362,21 @@ De middelen (en de omslagen) publiceren werkschema van [AEM (6.4.2.0)](https://h
 Op dezelfde manier kunnen gepubliceerde elementen op een latere datum (tijd) uit de portal worden verwijderd door de workflow Publiceren via Brand Portal te plannen.
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Configureerbare alias van huurder in URL
 
-Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in de URL te plaatsen. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
+Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel in de URL te hebben. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
 
 Merk op dat alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Zo kan een organisatie met bestaande domeingeomettrix. **brand-portal.adobe.com** op verzoek **geomettrixinc.brand-portal.adobe.com** maken.
 
 Nochtans, kan de instantie van de Auteur AEM slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselende) URL worden [gevormd](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) .
 
-**De gebruikscase** Organisaties kunnen aan hun brandingbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
+Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -295,8 +384,8 @@ Nochtans, kan de instantie van de Auteur AEM slechts met huurder identiteitskaar
 
 De release biedt een vereenvoudigde downloadervaring met een beperkt aantal klikken en waarschuwingen, op:
 
-* ervoor kiezen alleen de uitvoeringen (en niet de originele elementen) te downloaden.
-* de elementen downloaden wanneer de toegang tot de oorspronkelijke uitvoeringen beperkt is.
+* Opdat alleen de uitvoeringen (en niet de oorspronkelijke elementen) worden gedownload.
+* De elementen downloaden wanneer de toegang tot de oorspronkelijke uitvoeringen beperkt is.
 
 ## Wat veranderde in 6.4.2 {#what-changed-in-1}
 
