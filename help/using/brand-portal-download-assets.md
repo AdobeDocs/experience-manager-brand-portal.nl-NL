@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 0%
@@ -107,11 +107,13 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
       >
       >Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd om de Aspera-downloadaccelerator te installeren.
 
+
       >[!NOTE]
       >
       >Als de elementen die u downloadt ook elementen met licentie bevatten, wordt u doorgestuurd naar de **[!UICONTROL Copyright Management]** pagina. Selecteer op deze pagina de elementen, klik op **[!UICONTROL Agree]** en klik op **[!UICONTROL Download]**. Als u het niet eens bent, worden de gelicentieerde middelen niet gedownload.
       > 
       >Bij voor licentie beveiligde elementen is een [licentieovereenkomst gekoppeld](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , die wordt uitgevoerd door de eigenschap [](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadata van het element in te stellen in Experience Manager Assets.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
       >
       >De beheerders kunnen e-mailberichten, dat wil zeggen het logo, de beschrijving en de voettekst, aanpassen met de functie [Branding](../using/brand-portal-branding.md) .
 
+
    * U kunt een vooraf gedefinieerde voorinstelling voor een afbeelding selecteren of een aangepaste dynamische uitvoering maken in het **[!UICONTROL Download]** dialoogvenster.
 
       Als u een [aangepaste voorinstelling voor afbeeldingen wilt toepassen op het element en de uitvoeringen](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)ervan, schakelt u het **[!UICONTROL Dynamic Rendition(s)]** selectievakje in. Geef de eigenschappen van de voorinstellingen voor de afbeelding op (zoals grootte, indeling, kleurruimte, resolutie en afbeeldingswijziging) om de aangepaste voorinstelling voor de afbeelding toe te passen tijdens het downloaden van het element en de uitvoeringen. Als u alleen de dynamische uitvoeringen wilt downloaden, schakelt u het **[!UICONTROL Asset(s)]** selectievakje uit.
@@ -166,6 +169,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
       >
       >Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel wordt gepubliceerd naar Brand Portal, wordt ook de Pyramid tiff-uitvoering gepubliceerd.
 
+
    * Schakel het **[!UICONTROL Create separate folder for each asset]** selectievakje in als u de maphiërarchie van het Brand Portal wilt behouden tijdens het downloaden van elementen. Standaard wordt de maphiërarchie Brand Portal genegeerd en worden alle elementen in één map op uw lokale systeem gedownload.
 
 1. Klik op **[!UICONTROL Download]**.
@@ -177,6 +181,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
    >[!NOTE]
    >
    >Elementen die afzonderlijk worden gedownload, worden weergegeven in het rapport voor het downloaden van elementen. Als er echter een map met elementen wordt gedownload, worden de map en de middelen niet weergegeven in het rapport voor het downloaden van middelen.
+
 
 ## Downloadprestaties verwacht {#expected-download-performance}
 
@@ -193,6 +198,8 @@ Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van 
 | Londen | 179 milliseconden | 0,32 MB/s | 106 minuten |
 | Singapore | 196 milliseconden | 0,5 MB/s | 68 minuten |
 
+
 >[!NOTE]
 >
 >Er worden gegevens met betrekking tot de kationen waargenomen onder testomstandigheden, die kunnen variëren voor gebruikers op verschillende locaties met een gevarieerde latentie en bandbreedte.
+
