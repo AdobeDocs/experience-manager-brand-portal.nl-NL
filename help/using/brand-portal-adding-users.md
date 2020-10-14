@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -223,6 +223,7 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
    >
    >Als u de beheerdersrechten voor een gebruiker wilt intrekken, brengt u de gewenste wijzigingen aan op de **[!UICONTROL Edit Admin]** pagina en klikt u op **[!UICONTROL Save]**.
 
+
 ## Gebruikersrollen beheren {#manage-user-roles}
 
 Een beheerder kan rollen voor gebruikers in het Portaal van het Merk wijzigen.
@@ -250,9 +251,11 @@ Naast de rol van Beheerder, steunt het Portaal van het Merk de volgende rollen:
    >
    >De [!UICONTROL Role] lijst voor gebruikers van de Beheerder is gehandicapt. U kunt deze gebruikers niet selecteren om hun rollen te wijzigen.
 
+
    >[!NOTE]
    >
    >De gebruikersrol is ook gehandicapt als de gebruiker een lid van de groep van de Redacteur is. Als u bewerkingsrechten van de gebruiker wilt intrekken, verwijdert u de gebruiker uit de groep Editor of wijzigt u de rol van de gehele groep in Viewer.
+
 
 1. Klik op **[!UICONTROL Save]**. De rol wordt gewijzigd voor de overeenkomstige gebruiker. Als u meerdere gebruikers hebt geselecteerd, worden de rollen voor alle gebruikers gelijktijdig gewijzigd.
 
@@ -287,8 +290,10 @@ Voer de volgende stappen uit om de rol en het recht op toegang tot originele uit
    >
    >Beperkingen op de toegang tot originele uitvoeringen van afbeeldingsbestanden zijn ook niet van toepassing op beheerders, ook al zijn deze leden van beperkte groepen.
 
+
 1. Klik op **[!UICONTROL Save]**. De rol wordt gewijzigd voor de overeenkomstige groepen.
 
    >[!NOTE]
    >
    >De user-to-group vereniging, of het groepslidmaatschap van een gebruiker, wordt gesynchroniseerd aan het Portaal van het Merk om de 8 uur. Wijzigingen in gebruikers- of groepsrollen zijn van kracht nadat de volgende synchronisatietaak is uitgevoerd.
+
