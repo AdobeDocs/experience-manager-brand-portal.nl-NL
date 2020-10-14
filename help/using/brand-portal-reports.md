@@ -1,15 +1,15 @@
 ---
 title: Werken met rapporten
 seo-title: Werken met rapporten
-description: AEM Assets Poortbeheerders kunnen rapporten over het gebruik van het Brand Portal weergeven en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via het Brand Portal gedeelde elementen.
-seo-description: AEM Assets Poortbeheerders kunnen rapporten over het gebruik van het Brand Portal weergeven en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via het Brand Portal gedeelde elementen.
+description: Beheerders van AEM Assets Brand Portal kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
+seo-description: Beheerders van AEM Assets Brand Portal kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -27,7 +27,7 @@ De interface van het rapportbeheer is intuïtief en omvat fijnkorrelige opties e
 
 Voer de volgende stappen uit om een rapport weer te geven:
 
-1. Tik op of klik op het AEM-logo op de werkbalk boven in het scherm om beheergereedschappen te openen.
+1. Tik op of klik op het AEM om beheergereedschappen te openen via de werkbalk boven in het scherm.
 
    ![](assets/aemlogo.png)
 
@@ -79,7 +79,6 @@ Voer de volgende stappen uit om een rapport weer te geven:
    >
    >Het rapport Delen van koppeling geeft geen gebruikers weer die toegang hebben tot het element dat via de koppeling wordt gedeeld of dat het element via de koppeling heeft gedownload.
    >
-   >
    >Voor het volgen van downloads door de gedeelde verbinding, moet u downloadrapport produceren na het selecteren van **[!UICONTROL Only Link Share Downloads]** optie op **[!UICONTROL Create Report]** pagina. De gebruiker (Gedownload door) is in dit geval echter anoniem.
 
 ## Rapporten genereren {#generate-reports}
@@ -94,7 +93,7 @@ Beheerders kunnen de volgende standaardrapporten genereren en beheren, zodra dez
 
 De kolommen in het rapport Downloaden, Verlopen en Publiceren kunnen worden aangepast voor weergave. Voer de volgende stappen uit om een rapport te genereren:
 
-1. Tik op het AEM-logo of klik op de werkbalk boven in het scherm om beheergereedschappen te openen.
+1. Tik op of klik op het AEM om beheergereedschappen te openen vanuit de werkbalk bovenaan.
 
    ![](assets/aemlogo.png)
 
