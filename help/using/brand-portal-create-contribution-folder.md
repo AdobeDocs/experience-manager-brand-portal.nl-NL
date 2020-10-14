@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -45,6 +45,7 @@ Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naa
    >[!NOTE]
    >
    >Een gebruiker die geen beheerder is, kan een map voor middelenbijdragen maken en delen, maar kan deze niet wijzigen of verwijderen.
+
 
    ![](assets/create-contribution-folder.png)
 
