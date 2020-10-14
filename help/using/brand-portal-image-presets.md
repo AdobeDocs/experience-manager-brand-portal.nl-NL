@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -29,6 +29,7 @@ Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen t
 >
 >Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt, is er geen optie om te kiezen uit de bestaande voorinstellingen. In plaats daarvan kunt u de eigenschappen van een aangepaste voorinstelling voor afbeeldingen opgeven. Zie [Afbeeldingsvoorinstellingen toepassen tijdens het downloaden van afbeeldingen](../using/brand-portal-image-presets.md#main-pars-text-1403412644)voor meer informatie.
 
+
 Zie [Voorinstellingen](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)afbeelding beheren voor meer informatie over de parameters die nodig zijn voor het maken van voorinstellingen voor afbeeldingen.
 
 ## Een voorinstelling voor afbeeldingen maken {#create-an-image-preset}
@@ -44,6 +45,7 @@ De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynami
 >Terwijl AEM auteurinstantie op **Dynamische Scène 7 van Media wijze** loopt, dan bestaan de Verlopen van de Piramide TIFF van beeldactiva op de server van Scene 7.
 >
 >Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en dynamische uitvoeringen weergegeven.
+
 
 1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
