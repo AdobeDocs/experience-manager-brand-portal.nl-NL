@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '531'
 ht-degree: 5%
 
 ---
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * Naast de bestaande **[!UICONTROL Download]** configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers ook vormen om het originele activa en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden. Deze configuraties bepalen wie toegang heeft tot de elementuitvoeringen en (of deze kan downloaden).
 
+### Verbeteringen {#enhancements}
 
-### Kritieke problemen opgelost {#critical-issues-fixed}
+Deze release bevat de volgende verbeteringen:
 
-Deze release bevat oplossingen voor het volgende kritieke probleem:
+* De drempel van sessietime-out voor de gastgebruikers is verlaagd van 2 uur naar 15 minuten.
+* De extra **[!UICONTROL View pages]** optie is verwijderd voor PDF&#39;s die uit meerdere pagina&#39;s bestaan, omdat de gebruiker de PDF-pagina&#39;s nu kan weergeven vanuit de Adobe Document Cloud Viewer.
 
-* De gebruikers kunnen de PDF-pagina&#39;s niet weergeven als de PDF subelementen bevat.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### Bekende problemen {#known-issues}
 
 Deze release bevat de volgende bekende uitgave:
 
-* Als de gebruiker het element downloadt via de koppeling voor delen, wordt het oorspronkelijke element gedownload, zelfs als de optie voor **[!UICONTROL Allow download of original file]** het downloaden is uitgeschakeld.
+* In de zoekopdracht op de **[!UICONTROL Asset Reports]** werkbalk ziet u de verwerking in de productinterface zonder zoekresultaat.
+* De video-DM-codes zijn niet zichtbaar voor gebruikers die geen beheerder zijn, op de pagina met elementdetails.
+* De uitlijning van de grootte van afzonderlijke elementuitvoeringen en de totale downloadgrootte wordt vervormd in het dialoogvenster Downloaden.
 
 
 
