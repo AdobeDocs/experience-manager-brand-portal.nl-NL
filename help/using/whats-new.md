@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5334'
 ht-degree: 0%
@@ -249,7 +249,7 @@ Wanneer het uploaden is voltooid naar de map **NEW** , kunnen gebruikers van Bra
 
 Merk Portal 6.4.4 versie concentreert zich op verhogingen aan tekstonderzoek en hoogste klantenverzoeken. Zie Opmerkingen bij de release van de nieuwste [Brand Portal](brand-portal-release-notes.md).
 
-### Verbeteringen voor zoeken {#search-enhancements}
+### Verbeteringen voor zoeken
 
 Brand Portal 6.4.4 en hoger ondersteunt gedeeltelijk zoeken naar voorspelling van tekst in filtervenster. Als u gedeeltelijk zoeken in tekst wilt toestaan, moet u **Gedeeltelijk zoeken** in Voorspelling eigenschap in het zoekformulier inschakelen.
 
@@ -316,7 +316,7 @@ De standaardminiatuur van de virtuele mappen is de miniatuurafbeelding van de ee
 
 ### Zoeken in specifieke maphiërarchie of pad
 
-**Voorspelfunctie van padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
+**Voorspelfunctie voor padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
 
 * Admin-gebruikers kunnen met Padbrowser naar een willekeurige map op het Brand Portal navigeren.
 * Gebruikers die geen beheerder zijn, kunnen de padbrowser gebruiken om alleen naar de mappen (en terug te navigeren naar de bovenliggende mappen) te navigeren die met hen worden gedeeld.
