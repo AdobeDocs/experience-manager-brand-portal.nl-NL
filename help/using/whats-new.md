@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5334'
+source-wordcount: '5379'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Brand Portal 2020.10.0 is een verbeteringsrelease die zich richt op het vereenvo
 Eerder werd het **[!UICONTROL Download]** dialoogvenster weergegeven met meerdere opties, zoals het maken van een aparte map voor elk element, het e-mailmiddel, het selecteren van het oorspronkelijke element, aangepaste uitvoeringen, dynamische uitvoeringen, het uitsluiten van systeemuitvoeringen en het inschakelen van downloadversnelling, die ambigu waren voor niet-technische of nieuwe gebruikers, met name wanneer meerdere elementen of mappen waren geselecteerd om te worden gedownload. Bovendien kon de gebruiker niet alle elementuitvoeringen zien of een specifieke aangepaste of dynamische uitvoering uitsluiten.
 
 Het nieuwe **[!UICONTROL Download]** dialoogvenster veralgement de selectie van elementen en het filterproces, waardoor gebruikers van het Brand Portal gemakkelijker effectieve beslissingen kunnen nemen tijdens het downloaden van de uitvoeringen van elementen. Alle geselecteerde elementen en de bijbehorende uitvoeringen worden weergegeven, afhankelijk van de [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuratie en de **[!UICONTROL Download]** instellingen.
+
+>[!NOTE]
+>
+>Alle gebruikers hebben nu standaard **[!UICONTROL Fast Download]** ingeschakeld en IBM Aspera Connect 3.9.9 moet in de extensie van hun browser zijn geïnstalleerd voordat ze de middelen van Brand Portal kunnen downloaden.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0 kunnen gebruikers specifieke uitvoeringen uitsluiten en de geselecteerde uitvoeringen rechtstreeks downloaden van het **[!UICONTROL Renditions]** deelvenster op de pagina met elementdetails zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen.
+In Brand Portal 2020.10.0 kunnen gebruikers specifieke uitvoeringen uitsluiten en de geselecteerde uitvoeringen rechtstreeks [downloaden van het **[!UICONTROL Renditions]** deelvenster](brand-portal-download-assets.md#download-assets-from-asset-details-page) op de pagina met elementdetails zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen.
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![renditions-panel](assets/rendition-panel.png)
+![renditions-panel](assets/renditions-panel.png)
 
 
 ### Downloadmachtigingen configureren {#download-permissions}
 
-Naast de bestaande [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers ook vormen om het originele activa en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden. Deze configuraties bepalen wie toegang heeft tot de elementuitvoeringen en (of deze kan downloaden).
+Naast de bestaande [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers ook vormen om het originele activa en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden.
+
+Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+
+Navigeer op de **[!UICONTROL User Roles]** pagina naar het **[!UICONTROL Groups]** tabblad om de weergave te configureren en (of) downloadmachtigingen voor de gebruikersgroepen in te stellen
 
 Eerder waren de instellingen alleen beschikbaar om te voorkomen dat groepsgebruikers het oorspronkelijke element konden downloaden.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 Op het **[!UICONTROL Groups]** tabblad op de **[!UICONTROL User Roles]** pagina kunnen beheerders de weergave- en downloadinstellingen configureren:
 
