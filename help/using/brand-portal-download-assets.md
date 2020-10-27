@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71623676e70168fda2fef286119bb20a4c2f4782
+source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
    Klik op een element om de beschikbare uitvoeringen weer te geven en selecteer de selectievakjes die overeenkomen met de uitvoeringen die u wilt downloaden.
 
-   U kunt de uitvoeringen voor afzonderlijke elementen handmatig selecteren of uitsluiten, of op het pictogram **Toepassen** klikken om dezelfde set uitvoeringen toe te passen op alle vergelijkbare elementtypen (alle afbeeldingsbestanden in dit voorbeeld) die u wilt downloaden. Klik **[!UICONTROL Done]** om de toegepaste regel te bevestigen.
+   U kunt de uitvoeringen voor afzonderlijke elementen handmatig selecteren of uitsluiten, of op het pictogram **Toepassen** klikken om dezelfde set uitvoeringen te selecteren die u voor vergelijkbare elementtypen wilt downloaden (alle afbeeldingsbestanden in dit voorbeeld). Klik in het **[!UICONTROL Apply All]** dialoogvenster **[!UICONTROL Done]** om de regel toe te passen op alle vergelijkbare elementen.
 
    ![toepassen](assets/apply.png)
 
