@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doord
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (en hoger) is de **[!UICONTROL Fast Download]** instelling standaard ingeschakeld. Hierbij wordt gebruikgemaakt van IBM Aspera Connect voor een versnelde download van de middelen. Installeer IBM Aspera Connect 3.9.9 in de browserextensie voordat u de middelen downloadt van Brand Portal. Voor meer details, zie [gids om downloads van het Portaal](../using/accelerated-download.md)van het Merk te versnellen.
+>In Brand Portal 2020.10.0 (en hoger) is de **[!UICONTROL Fast Download]** instelling standaard ingeschakeld. Hierbij wordt gebruikgemaakt van IBM Aspera Connect voor een versnelde download van de middelen. [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in de browserextensie voordat u de middelen downloadt van Brand Portal. Voor meer details, zie [gids om downloads van het Portaal](../using/accelerated-download.md)van het Merk te versnellen.
 >
 >Als u IBM Aspera Connect niet wilt gebruiken en verder wilt gaan met het normale downloadproces, neemt u contact op met de beheerder van het Brand Portal om de **[!UICONTROL Fast Download]** instelling uit te schakelen.
 
