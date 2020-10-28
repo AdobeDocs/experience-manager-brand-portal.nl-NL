@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 4%
@@ -39,7 +39,7 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 Deze release bevat de volgende nieuwe functies:
 
-* Het **[!UICONTROL Download]** dialoogvenster wordt vernieuwd in een lijstweergave met aanvullende opties om de uitvoeringen uit te sluiten die niet vereist zijn, dezelfde set regels toe te passen voor vergelijkbare elementtypen en de geselecteerde elementuitvoeringen te downloaden. Zie [Stappen om activa van het Portaal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)van het Merk te downloaden.
+* Het **[!UICONTROL Download]** dialoogvenster wordt vernieuwd in een lijstweergave met aanvullende opties om de uitvoeringen uit te sluiten die niet vereist zijn, dezelfde set regels toe te passen voor vergelijkbare elementtypen en de geselecteerde elementuitvoeringen te downloaden. Zie de [stappen voor het downloaden van middelen van Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,7 +47,7 @@ Deze release bevat de volgende nieuwe functies:
 
 * Navigatie naar de pagina&#39;s **[!UICONTROL Files]**, **[!UICONTROL Collections]** en **[!UICONTROL Shared Links]** is nu mogelijk vanaf alle pagina&#39;s van het Brand Portal met één klik.
 
-* Met het **[!UICONTROL Renditions]** deelvenster op de pagina met elementdetails kunnen de gebruikers van het Brand Portal het oorspronkelijke element en (of) specifieke elementen selecteren en deze rechtstreeks downloaden vanuit het **[!UICONTROL Renditions]** deelvenster zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen. Zie [Elementen downloaden vanaf de pagina](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)met elementdetails.
+* Met het **[!UICONTROL Renditions]** deelvenster op de pagina met elementdetails kunnen de gebruikers van het Brand Portal het oorspronkelijke element en (of) specifieke elementen selecteren en deze rechtstreeks downloaden vanuit het **[!UICONTROL Renditions]** deelvenster zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen. Zie Elementen [downloaden vanaf de pagina](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)met elementdetails.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
