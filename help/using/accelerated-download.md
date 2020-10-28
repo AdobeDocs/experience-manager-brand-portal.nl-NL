@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -35,9 +35,9 @@ De **[!UICONTROL Fast Download]** configuratie is standaard ingeschakeld, waardo
 Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 
 * Navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** en controleer of de **[!UICONTROL Fast Download]** configuratie is ingeschakeld **[!UICONTROL Download Settings]**.
-* Poort 33001 (zowel TCP als UDP) is open op de firewall. Raadpleeg de documentatie bij [Aspera Connect Client voor meer informatie over de voorwaarden](https://downloads.asperasoft.com/en/documentation/8).
-* Installeer Aspera Connect met behulp van beheerdersrechten.
-* Raadpleeg de ondersteuningsmatrix van [Aspera Connect-platform voor platformondersteuning van Aspera Transfer Client](https://www.asperasoft.com/company/support/transfer-clients/).
+* Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall. Raadpleeg de documentatie bij [](https://downloads.asperasoft.com/en/documentation/8)IBM Aspera Connect Client voor meer informatie over de voorwaarden.
+* [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in de browserextensie met beheerdersrechten.
+* Zie de ondersteuningsmatrix van [IBM Aspera Connect-platform voor platformondersteuning van Aspera Transfer Client](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Domeinen downloaden {#download-domains}
 
