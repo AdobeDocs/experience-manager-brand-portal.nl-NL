@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5379'
+source-wordcount: '5412'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ In het **[!UICONTROL Download]** dialoogvenster kunnen de gebruikers:
 * Maak afzonderlijke map voor elk element.
 * Geselecteerde elementen en de bijbehorende uitvoeringen downloaden.
 
-De downloadworkflow blijft constant voor zelfstandige elementen, meerdere elementen, mappen met elementen, onder licentie of zonder licentie geplaatste elementen en het downloaden van elementen via de koppeling voor delen.
+De downloadworkflow blijft constant voor zelfstandige elementen, meerdere elementen, mappen met elementen, onder licentie of zonder licentie geplaatste elementen en het downloaden van elementen via de koppeling voor delen. Zie de [stappen voor het downloaden van middelen van Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0 kunnen gebruikers specifieke uitvoeringen uitsluiten en de geselecteerde uitvoeringen rechtstreeks [downloaden van het **[!UICONTROL Renditions]** deelvenster](brand-portal-download-assets.md#download-assets-from-asset-details-page) op de pagina met elementdetails zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen.
+In Brand Portal 2020.10.0 kunnen gebruikers specifieke uitvoeringen uitsluiten en de geselecteerde uitvoeringen rechtstreeks [downloaden vanuit het deelvenster](brand-portal-download-assets.md#download-assets-from-asset-details-page) Uitvoeringen op de pagina met elementdetails zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen.
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Downloadmachtigingen configureren {#download-permissions}
 
-Naast de bestaande [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers ook vormen om het originele activa en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden.
+Naast de bestaande **[!UICONTROL Download]** configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers ook vormen om het originele activa en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden.
 
 Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
@@ -99,6 +99,8 @@ Op het **[!UICONTROL Groups]** tabblad op de **[!UICONTROL User Roles]** pagina 
 * Als beide instellingen zijn uitgeschakeld, kunnen de gebruikers alleen de originele elementen bekijken. De elementuitvoeringen zijn niet zichtbaar voor de gebruikers op de pagina met elementdetails.
 * Als alleen de **[!UICONTROL Download Original]** instelling is ingeschakeld, kunnen de gebruikers alleen de oorspronkelijke elementen weergeven en downloaden van de pagina met elementdetails.
 * Als alleen de **[!UICONTROL Download Renditions]** instelling is ingeschakeld, kunnen de gebruikers het oorspronkelijke element weergeven maar niet downloaden. De gebruiker kan de elementuitvoeringen wel weergeven en downloaden.
+
+Zie [Elementdownload](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)configureren.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -320,7 +322,7 @@ De standaardminiatuur van de virtuele mappen is de miniatuurafbeelding van de ee
 
 ### Zoeken in specifieke maphiërarchie of pad
 
-**Voorspelfunctie voor padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
+**Voorspelfunctie van padbrowser** wordt geïntroduceerd in Zoekformulier om te kunnen zoeken naar elementen in een specifieke map. Het standaardzoekpad van zoekvoorspelling voor padbrowser is `/content/dam/mac/<tenant-id>/`, dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
 
 * Admin-gebruikers kunnen met Padbrowser naar een willekeurige map op het Brand Portal navigeren.
 * Gebruikers die geen beheerder zijn, kunnen de padbrowser gebruiken om alleen naar de mappen (en terug te navigeren naar de bovenliggende mappen) te navigeren die met hen worden gedeeld.
