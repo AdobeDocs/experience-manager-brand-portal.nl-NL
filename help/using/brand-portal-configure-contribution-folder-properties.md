@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,22 @@ De beheerder kan gebruikers/groepen van het Portaal van het Merk toegang tot de 
 
 1. Meld u aan bij de instantie AEM auteurStandaard-URL: http:// localhost:4502/aem/start.html
 1. Navigeer naar de map met de bijdrage **[!UICONTROL Assets > Files]** en zoek deze.
-1. Selecteer de map met bijdragen en klik op **[!UICONTROL Properties]** ![](assets/properties.png). Het venster Eigenschappen van map wordt geopend.
+1. Selecteer de map met bijdragen en klik **[!UICONTROL Properties]** om het venster Eigenschappen van map te openen.
+
+   ![](assets/properties.png)
+
    ![](assets/contribution-folder-property1.png)
+
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Voer een hoog niveau **[!UICONTROL Description]** in voor de map met bijdragen.
-1. Klik **[!UICONTROL Upload Brief]** om vanaf uw lokale computer te bladeren en een document ![](assets/upload.png) met **** elementvereisten te uploaden.
-1. Voeg in het **[!UICONTROL Add User or Group]** veld Poortgebruikers toe met wie u de bijdraamap wilt delen. Toegevoegde gebruikers kunnen via de interface Brand Portal toegang krijgen tot de map met bijdragen en inhoud uploaden. U kunt momenteel geen groepen toevoegen aan een bijdragemap.
+1. Klik **[!UICONTROL Upload Brief]** om vanaf uw lokale computer te bladeren en een document **met** elementvereisten te uploaden.
+
+   ![](assets/upload.png)
+
+1. Voeg in het **[!UICONTROL Add User or Group]** veld Poortgebruikers toe met wie u de bijdraamap wilt delen. Deze gebruikers kunnen inhoud tot de bijdrageomslag toegang hebben en uploaden gebruikend de interface van het Portaal van het Merk.
 1. Klik op **[!UICONTROL Save]**.
 
-![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
