@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -191,9 +191,8 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
 >[!NOTE]
 >
->Als er meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het **[!UICONTROL Download]** dialoogvenster overgeslagen en worden alle uitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, rechtstreeks in een ZIP-map gedownload.
->
->Hetzelfde gedrag wordt toegepast tijdens het downloaden van de mappen met elementen en verzamelingen. De toegankelijke uitvoeringen, met uitzondering van de dynamische uitvoeringen, worden rechtstreeks gedownload in een ZIP-map.
+>Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het **[!UICONTROL Download]** dialoogvenster overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map. De elementuitvoeringen worden gedownload in een aparte map voor elk element in de ZIP-map.
+
 
 >[!NOTE]
 >
