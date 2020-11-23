@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: c2f230fabfa62768ad63d1f0952335ed8c6fd004
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,8 @@ Als u het Brand Portal anoniem wilt openen, selecteert u **[!UICONTROL Click her
 
 ## Duur gastsessie {#guest-session-duration}
 
-Een gastgebruikerssessie blijft 15 minuten actief.
-Dit betekent dat de staat van de **[!UICONTROL Lightbox]** wordt bewaard gedurende 15 minuten van de tijd van het zittingsbegin, en na dat de huidige gastzitting opnieuw begint zodat wordt de staat van de Lichtbak verloren.
-
-Bijvoorbeeld, meldt een gastgebruiker zich aan bij het Portaal van het Merk bij 1500 uren en voegt activa aan toe **[!UICONTROL Lightbox]** voor download bij 15:05 uur. Als de gebruiker de **[!UICONTROL Lightbox]** verzameling (of de bijbehorende middelen) niet vóór 15:15 uur downloadt (binnen 15 minuten na aanmelding), moet de gebruiker de sessie opnieuw starten. Het **[!UICONTROL Lightbox]** zal leeg zijn, wat betekent dat de geüploade activa niet meer beschikbaar zijn als de zitting werd verloren.
-
-<!--
-A guest user session remains active for 2 hours. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
-For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
--->
+Een gastgebruikerssessie blijft 2 uur actief. Dit betekent dat de staat van de **[!UICONTROL Lightbox]** wordt bewaard tot 1 uur van de tijd van het zittingsbegin, en na 2 uur de huidige gastzitting opnieuw begint zodat wordt de Lichtbakstaat verloren.\
+Bijvoorbeeld, meldt een gastgebruiker zich bij 1500 uren aan het Portaal van het Merk aan en voegt activa aan Lichtbak voor download bij 16:50 uren toe. Als de gebruiker de **[!UICONTROL Lightbox]** verzameling (of zijn middelen) niet vóór 17.00 uur downloadt, **[!UICONTROL Lightbox]** wordt de verzameling leeg omdat de gebruiker de sessie aan het einde van 1 uur (dat is 1700 uur) opnieuw moet starten.
 
 ## Gelijktijdige gastsessies toegestaan {#concurrent-guest-sessions-allowed}
 
