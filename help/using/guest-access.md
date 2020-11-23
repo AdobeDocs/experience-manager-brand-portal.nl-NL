@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: c2f230fabfa62768ad63d1f0952335ed8c6fd004
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Gasttoegang tot Brand Portal {#guest-access-to-brand-portal}
 
-Het portaal van het Merk AEM staat gasttoegang tot het portaal toe. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan hun lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt, die 2 uren vanaf het begin van de zitting is tenzij de gastgebruiker verkiest om te [[!UICONTROL End Session]](#exit-guest-session)downloaden.
+AEM Brand-portaal biedt gasten toegang tot het portaal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan hun lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt, die 2 uren vanaf het begin van de zitting is tenzij de gastgebruiker verkiest om te [[!UICONTROL End Session]](#exit-guest-session)downloaden.
 
 Dankzij de functie voor toegang van gasten kunnen organisaties [snel goedgekeurde middelen](../using/brand-portal-sharing-folders.md#how-to-share-folders) delen met het beoogde publiek op schaal zonder dat ze zich aan boord hoeven te bevinden. Brand Portal 6.4.2 en hoger is uitgerust voor meerdere gelijktijdige gastgebruikers, hetgeen 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers aan boord te beheren en te installeren die beperkte functies op het Brand Portal moeten gebruiken.\
 Organisaties kunnen gasttoegang inschakelen (of uitschakelen) op de Brand Portal-account van de organisatie met **[!UICONTROL Allow Guest Access]** optie van de **[!UICONTROL Access]** instellingen in het deelvenster met beheergereedschappen.
@@ -42,8 +42,15 @@ Als u het Brand Portal anoniem wilt openen, selecteert u **[!UICONTROL Click her
 
 ## Duur gastsessie {#guest-session-duration}
 
-Een gastgebruikerssessie blijft 2 uur actief. Dit betekent dat de staat van de **[!UICONTROL Lightbox]** wordt bewaard tot 1 uur van de tijd van het zittingsbegin, en na 2 uur de huidige gastzitting opnieuw begint zodat wordt de Lichtbakstaat verloren.\
-Bijvoorbeeld, meldt een gastgebruiker zich bij 1500 uren aan het Portaal van het Merk aan en voegt activa aan Lichtbak voor download bij 16:50 uren toe. Als de gebruiker de **[!UICONTROL Lightbox]** verzameling (of zijn middelen) niet vóór 17.00 uur downloadt, **[!UICONTROL Lightbox]** wordt de verzameling leeg omdat de gebruiker de sessie aan het einde van 1 uur (dat is 1700 uur) opnieuw moet starten.
+Een gastgebruikerssessie blijft 15 minuten actief.
+Dit betekent dat de staat van de **[!UICONTROL Lightbox]** wordt bewaard gedurende 15 minuten van de tijd van het zittingsbegin, en na dat de huidige gastzitting opnieuw begint zodat wordt de staat van de Lichtbak verloren.
+
+Bijvoorbeeld, meldt een gastgebruiker zich aan bij het Portaal van het Merk bij 1500 uren en voegt activa aan toe **[!UICONTROL Lightbox]** voor download bij 15:05 uur. Als de gebruiker de **[!UICONTROL Lightbox]** verzameling (of de bijbehorende middelen) niet vóór 15:15 uur downloadt (binnen 15 minuten na aanmelding), moet de gebruiker de sessie opnieuw starten. Het **[!UICONTROL Lightbox]** zal leeg zijn, wat betekent dat de geüploade activa niet meer beschikbaar zijn als de zitting werd verloren.
+
+<!--
+A guest user session remains active for 2 hours. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
+For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+-->
 
 ## Gelijktijdige gastsessies toegestaan {#concurrent-guest-sessions-allowed}
 
@@ -57,7 +64,7 @@ Bij het ingaan van het Portaal van het Merk als gast, kunnen de gebruikers alle 
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-Nochtans, zien de gastgebruikers de omslagboom (die van de wortelomslag) begint en de gedeelde omslagen die binnen hun respectieve ouderomslagen bij het aanmelden bij het Portaal van het Merk worden geschikt, als de beheerders de configuratie van de Hiërarchie van de [Enable Omslag](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) hebben toegelaten.
+Nochtans, zien de gastgebruikers de omslagboom (die van de wortelomslag) begint en de gedeelde omslagen die binnen hun respectieve ouderomslagen bij het aanmelden bij het Portaal van het Merk worden geschikt, als de beheerders de configuratie van de Hiërarchie [](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) van de Omslag hebben toegelaten.
 
 Deze bovenliggende mappen zijn de virtuele mappen en er kunnen geen handelingen op worden uitgevoerd. U kunt deze virtuele mappen herkennen met een vergrendelingspictogram.
 
