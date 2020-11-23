@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Map met bijdragen publiceren naar Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Zodra de [bijdragemap is geconfigureerd](brand-portal-configure-contribution-folder-properties.md), kan AEM gebruiker (beheerder/niet-beheerder gebruiker) de bijdragemap van AEM Assets naar Brand Portal publiceren. Gebruikers van het Brand Portal die toegang hebben tot de bijdragemap, ontvangen een e-mail-/pulsmelding wanneer de publicatieactie is voltooid.
+Zodra de [bijdragemap is geconfigureerd](brand-portal-configure-contribution-folder-properties.md), kan AEM gebruiker (beheerder/niet-beheerder gebruiker) de bijdragemap van AEM Assets naar Brand Portal publiceren. Gebruikers/groepen van Brand Portal die toegang hebben tot de bijdragemap, ontvangen een e-mail-/pulsmelding wanneer de publicatieactie is voltooid.
 
 **Map met bijdragen publiceren:**
 
