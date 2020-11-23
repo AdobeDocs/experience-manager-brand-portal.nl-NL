@@ -1,8 +1,8 @@
 ---
 title: 'Map met bijdragen publiceren naar Brand Portal '
 seo-title: Map met bijdragen publiceren naar Brand Portal
-description: Krijg inzicht in het publiceren van een bijdrageomslag van AEM Assets aan het Portaal van het Merk in Portaal 6.4.5.
-seo-description: Krijg inzicht in het publiceren van een bijdrageomslag van AEM Assets aan het Portaal van het Merk in Portaal 6.4.5.
+description: Bekijk meer inzicht in het publiceren van een map met bijdragen van AEM Assets naar Brand Portal in Brand Portal 6.4.5.
+seo-description: Bekijk meer inzicht in het publiceren van een map met bijdragen van AEM Assets naar Brand Portal in Brand Portal 6.4.5.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 168177bae46b2242d883838da538218b8d192031
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Map met bijdragen publiceren naar Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Zodra de [bijdragemap is geconfigureerd](brand-portal-configure-contribution-folder-properties.md), kan AEM-gebruiker (beheerder/niet-beheerder gebruiker) de bijdragemap van AEM Assets naar Brand Portal publiceren. Gebruikers/groepen van Brand Portal die toegang hebben tot de bijdragemap, ontvangen een e-mail-/pulsmelding wanneer de publicatieactie is voltooid.
+Zodra de [bijdragemap is geconfigureerd](brand-portal-configure-contribution-folder-properties.md), kan AEM gebruiker (beheerder/niet-beheerder gebruiker) de bijdragemap van AEM Assets naar Brand Portal publiceren. Gebruikers van het Brand Portal die toegang hebben tot de bijdragemap, ontvangen een e-mail-/pulsmelding wanneer de publicatieactie is voltooid.
 
 **Map met bijdragen publiceren:**
 
-1. Meld u aan bij de AEM-auteur.
+1. Meld u aan bij de AEM auteur.
 Standaard-URL: http:// localhost:4502/aem/start.html
 1. Navigeer naar **[!UICONTROL Assets > Files]** en zoek de map met bijdragen waarin u wilt publiceren naar Brand Portal.
 1. Selecteer de map met bijdragen en klik op **[!UICONTROL Quick Publish > Publish to Brand Portal]**.
