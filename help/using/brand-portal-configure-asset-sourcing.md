@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,6 @@ Blader vanaf uw lokale computer en upload het **configuratiebestand** (.csv) met
    ![](assets/upload-user-list2.png)
 
 
-Beheerders kunnen toegang tot specifieke gebruikers/groepen bieden vanuit deze gebruikerslijst tijdens het configureren van de bijdragemap.
+Beheerders kunnen toegang tot specifieke gebruikers bieden vanuit deze gebruikerslijst tijdens het configureren van de bijdragemap.
 
 Zie Contribute-map [](brand-portal-contribution-folder.md)configureren voor meer informatie.
