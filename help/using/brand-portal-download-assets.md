@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -197,11 +197,11 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
 >[!NOTE]
 >
->Brand Portal ondersteunt het configureren van dynamische media in zowel de hybride als de Scene7-modus.
+>Het Portaal van het merk steunt het vormen van Dynamische Media op zowel Hybride als wijze Scene 7.
 >
 >(*Als AEM auteurinstantie op **Dynamische Media Hybride wijze***loopt)
 >
->Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en dat de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van AEM aan het Portaal van het Merk wordt gepubliceerd, wordt zijn piramide tiff vertoning ook gepubliceerd.
+>Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van AEM aan het Portaal van het Merk wordt gepubliceerd, wordt zijn piramide tiff vertoning ook gepubliceerd.
 
 
 
