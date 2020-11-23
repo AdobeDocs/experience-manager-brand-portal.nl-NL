@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ AEM beheerder voert de volgende activiteiten uit terwijl het vormen van de eigen
 
 * **Beschrijving** toevoegen: Geef een beschrijving op hoog niveau van de map met bijdragen.
 * **Uploadinstructie**:  Document voor vereist element uploaden dat informatie over elementen bevat.
-* **Medewerkers** toevoegen: Voeg merkgebruikers toe om hen toegang tot de bijdrageomslag te verlenen.
+* **Medewerkers** toevoegen: Voeg gebruikers of groepen van het Merk Portal toe om hen toegang tot de bijdrageomslag te verlenen.
 
 Het vereiste van activa verwijst naar de details die door beheerders worden verstrekt om contribuanten (gebruikers van het Portaal van het Merk) te helpen de behoefte en de vereisten van de bijdrageomslag begrijpen. De beheerder uploadt een document met middelenvereisten dat een korte beschrijving bevat van het type activa dat aan de bijdrageomslag en activa verwante informatie, bijvoorbeeld, doel, type van beelden, maximumgrootte, enz. zou moeten worden toegevoegd.
 
-Beheerders kunnen gebruikers van Brand Portal toegang geven tot de map met bijdragen voordat ze de nieuwe Contribute-map publiceren naar Brand Portal.
+De beheerder kan gebruikers/groepen van het Portaal van het Merk toegang tot de bijdrageomslag dan verlenen alvorens de pas gecreëerde omslag van de Bijdrage aan het Portaal van het Merk te publiceren.
 
 **Eigenschappen voor bijdragemappen configureren:**
 
@@ -40,13 +40,11 @@ Beheerders kunnen gebruikers van Brand Portal toegang geven tot de map met bijdr
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Voer een hoog niveau **[!UICONTROL Description]** in voor de map met bijdragen.
 1. Klik **[!UICONTROL Upload Brief]** om vanaf uw lokale computer te bladeren en een document ![](assets/upload.png) met **** elementvereisten te uploaden.
-1. Voeg in het **[!UICONTROL Add User or Group]** veld Poortgebruikers toe met wie u de bijdraamap wilt delen. Deze gebruikers kunnen inhoud tot de bijdrageomslag toegang hebben en uploaden gebruikend de interface van het Portaal van het Merk.
+1. Voeg in het **[!UICONTROL Add User or Group]** veld Poortgebruikers toe met wie u de bijdraamap wilt delen. Toegevoegde gebruikers kunnen via de interface Brand Portal toegang krijgen tot de map met bijdragen en inhoud uploaden. U kunt momenteel geen groepen toevoegen aan een bijdragemap.
 1. Klik op **[!UICONTROL Save]**.
 
 ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
->
->U kunt momenteel geen groepen toevoegen aan een bijdragemap.
 >
 >De zoekresultaten zijn gebaseerd op de gebruikerslijst van het Merkortaal die in AEM Assets is geconfigureerd. Zorg ervoor dat u de bijgewerkte gebruikerslijst voor Brand Portal hebt. Zie Gebruikerslijst [Brand Portal](brand-portal-configure-asset-sourcing.md)uploaden.
