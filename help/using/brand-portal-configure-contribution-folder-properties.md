@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,9 @@ AEM beheerder voert de volgende activiteiten uit terwijl het vormen van de eigen
 
 * **Beschrijving** toevoegen: Geef een beschrijving op hoog niveau van de map met bijdragen.
 * **Uploadinstructie**:  Document voor vereist element uploaden dat informatie over elementen bevat.
-* **Medewerkers** toevoegen: Voeg gebruikers of groepen van het Merk Portal toe om hen toegang tot de bijdrageomslag te verlenen.
+* **Medewerkers** toevoegen: Voeg merkgebruikers toe om hen toegang tot de bijdrageomslag te verlenen.
 
 Het vereiste van activa verwijst naar de details die door beheerders worden verstrekt om contribuanten (gebruikers van het Portaal van het Merk) te helpen de behoefte en de vereisten van de bijdrageomslag begrijpen. De beheerder uploadt een document met middelenvereisten dat een korte beschrijving bevat van het type activa dat aan de bijdrageomslag en activa verwante informatie, bijvoorbeeld, doel, type van beelden, maximumgrootte, enz. zou moeten worden toegevoegd.
-
-De beheerder kan gebruikers/groepen van het Portaal van het Merk toegang tot de bijdrageomslag dan verlenen alvorens de pas gecreëerde omslag van de Bijdrage aan het Portaal van het Merk te publiceren.
 
 **Eigenschappen voor bijdragemappen configureren:**
 
@@ -53,5 +51,7 @@ De beheerder kan gebruikers/groepen van het Portaal van het Merk toegang tot de 
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
+>
+>Groepen kunnen momenteel niet worden toegewezen aan een bijdragemap.
 >
 >De zoekresultaten zijn gebaseerd op de gebruikerslijst van het Merkortaal die in AEM Assets is geconfigureerd. Zorg ervoor dat u de bijgewerkte gebruikerslijst voor Brand Portal hebt. Zie Gebruikerslijst [Brand Portal](brand-portal-configure-asset-sourcing.md)uploaden.
