@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -55,11 +55,14 @@ Beheerders kunnen nieuwe gebruikers toevoegen in AEM Admin Console. Zie Gebruike
 
 **Ga als volgt te werk om de gebruikerslijst van Brand Portal te uploaden:**
 1. Meld u aan bij de instantie AEM auteurStandaard-URL: http:// localhost:4502/aem/start.html
-1. Ga vanuit het deelvenster **** ![](assets/tools.png)Tools naar **[!UICONTROL Assets > Brand Portal Users]**
+1. From **Tools**  panel, navigate to **[!UICONTROL Assets > Brand Portal Users]**
+
    ![](assets/upload-user-list1.png)
+
 1. Het venster Contribuanten uploaden naar Brand Portal wordt geopend.
 Blader vanaf uw lokale computer en upload het **configuratiebestand** (.csv) met de actieve gebruikerslijst voor het Brand Portal.
 1. Klik op **[!UICONTROL Save]**.
+
    ![](assets/upload-user-list2.png)
 
 
