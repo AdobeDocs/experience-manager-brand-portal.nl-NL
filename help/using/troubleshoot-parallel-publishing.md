@@ -17,21 +17,21 @@ ht-degree: 0%
 ---
 
 
-# Problemen met parallelle publicatie naar Brand Portal oplossen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Problemen met parallelle publicatie op Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal} oplossen
 
-Brand Portal is geconfigureerd met AEM Assets zodat goedgekeurde merkmiddelen naadloos kunnen worden opgenomen (of gepubliceerd) in de auteur-instantie van AEM Assets. Zodra [gevormd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de Auteur AEM een replicatieagent om de geselecteerde activa(en) aan de Poortwolkendienst van het Merk te herhalen voor goedgekeurd gebruik door Poortgebruikers van het Merk. De veelvoudige replicatieagenten worden gebruikt AEM 6.2 SP1-GFP5, AEM GFP 6.3.0.2, en verder om hoge snelheid parallelle publicatie toe te staan.
+Brand Portal is geconfigureerd met AEM Assets zodat goedgekeurde merkmiddelen naadloos kunnen worden opgenomen (of gepubliceerd) in de auteur-instantie van AEM Assets. Eenmaal [geconfigureerd](../using/configure-aem-assets-with-brand-portal.md) gebruikt AEM-auteur een replicatieagent om de geselecteerde middelen te repliceren naar de Poortservice voor het merk Portal, zodat gebruikers van het Brand Portal deze service kunnen gebruiken. De veelvoudige replicatieagenten worden gebruikt AEM 6.2 SP1-GFP5, AEM GFP 6.3.0.2, en verder om hoge snelheid parallelle publicatie toe te staan.
 
 >[!NOTE]
 >
 >Adobe raadt aan een upgrade naar AEM 6.4.1.0 uit te voeren om ervoor te zorgen dat AEM Assets Brand Portal correct is geconfigureerd met AEM Assets. Een beperking in AEM 6.4 geeft een fout wanneer het vormen van AEM Assets met het Portaal van het Merk en de replicatie ontbreekt.
 
-Bij het configureren van de cloudservice voor merkportal onder **[!UICONTROL /etc/cloudservice]**, worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Dit leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen van AEM naar Brand Portal publiceert, worden deze in een wachtrij geplaatst en verdeeld onder deze replicatieagents via Round Robin.
+Bij het configureren van de cloudservice voor merkportal onder **[!UICONTROL /etc/cloudservice]** worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Dit leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen van AEM naar Brand Portal publiceert, worden deze in een wachtrij geplaatst en verdeeld onder deze replicatieagents via Round Robin.
 
-Publiceren kan echter soms mislukken als gevolg van grote verkooptaken, een verhoogd netwerk en een instantie van AEM-auteur of vertraagde prestaties van de instantie AEM-auteur. **[!UICONTROL Disk I/O]** Daarom wordt aangeraden de verbinding met de replicatieagent(en) te testen voordat met publiceren wordt begonnen.
+Publiceren kan echter soms mislukken als gevolg van grote verkooptaken, een verhoogd netwerk en **[!UICONTROL Disk I/O]** op een instantie van AEM-auteur of vertraagde prestaties van een instantie van AEM-auteur. Daarom wordt aangeraden de verbinding met de replicatieagent(en) te testen voordat met publiceren wordt begonnen.
 
 ![](assets/test-connection.png)
 
-## Problemen met eerste publicatie oplossen: valideren, uw publicatieconfiguratie {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## Problemen met eerste publicatie oplossen: valideren van uw publicatieconfiguratie {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 Uw publicatieconfiguraties valideren:
 
@@ -51,7 +51,7 @@ Logboek van de mening, als de fouten in replicatielogboek worden gevonden:
 
 1. Neem contact op met de Adobe-ondersteuning.
 
-1. Opnieuw [opschonen](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) en opnieuw publicatieconfiguratie maken.
+1. [opschonen](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) opnieuw proberen en opnieuw publicatieconfiguratie maken.
 
 <!--
 Comment Type: remark
@@ -61,20 +61,22 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Bestaande Brand Portal-publicatieconfiguraties opschonen {#clean-up-existing-config}
+### Bestaande Brand Portal-publicatieconfiguraties opruimen {#clean-up-existing-config}
 
-De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en vandaar publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een nieuwe configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie om behoorlijk te werken, schoonmaak het volgende van AEM auteursopstelling:
+De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en daarom publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een nieuwe configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie om behoorlijk te werken, schoonmaak het volgende van AEM auteursopstelling:
 
-1. Ga naar `localhost:4502/crx/de/` (als u de auteurinstantie op localhost wilt uitvoeren:4502:\
-   i. schrapping `/etc/replication/agents.author/mp_replication`ii. delete 
+1. Ga naar `localhost:4502/crx/de/` (als u de auteurinstantie op localhost:4502 uitvoert:\
+   i. verwijderen `/etc/replication/agents.author/mp_replication`
+ii. delete 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Ga naar localhost:4502/useradmin:\
-   i. zoeken naar gebruiker `mac-<tenantid>replication`ii. deze gebruiker verwijderen
+   i. zoeken naar gebruiker `mac-<tenantid>replication`
+ii. deze gebruiker verwijderen
 
-Nu wordt het systeem helemaal schoongemaakt. Nu kunt u proberen tot een nieuwe cloudservice config te leiden en nog steeds de reeds bestaande JWT toepassing in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)gebruiken. Er is geen behoefte om een nieuwe toepassing tot stand te brengen, eerder enkel moet de openbare sleutel van de pas gecreëerde wolkenconfig worden bijgewerkt.
+Nu wordt het systeem helemaal schoongemaakt. Nu kunt u proberen tot een nieuwe cloudservice config te leiden en nog steeds de reeds bestaande JWT toepassing in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) gebruiken. Er is geen behoefte om een nieuwe toepassing tot stand te brengen, eerder enkel moet de openbare sleutel van de pas gecreëerde wolkenconfig worden bijgewerkt.
 
-## Zichtbaarheid ontwikkelaarsleider JWT-toepassing {#developer-connection-jwt-application-tenant-visibility-issue}
+## Zichtbaarheidsprobleem voor JWT-toepassingshuurder ontwikkelaarsverbinding {#developer-connection-jwt-application-tenant-visibility-issue}
 
 Als op [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), alle organen (huurders) waarvoor de huidige gebruikers systeembeheerder houden zijn vermeld. Als u hier de naam van de org niet vindt of u kunt geen toepassing voor een vereiste huurder hier tot stand brengen, gelieve te controleren of hebt u voldoende (systeembeheerder) rechten om dit te doen.
 
@@ -82,7 +84,7 @@ Er is één bekende kwestie op dit gebruikersinterface dat voor om het even welk
 
 De JWT-toepassing wordt mogelijk niet correct vermeld. Daarom wordt aangeraden de URL bij het maken van een JWT-toepassing te noteren of een bladwijzer te maken.
 
-## Het runnen van Configuratie houdt het werken op {#running-configuration-stops-working}
+## De lopende Configuratie houdt werkend {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -111,22 +113,22 @@ permission
 
 Als een replicatieagent (die aan brandportaal enkel fijn) publiceert ophoudt verwerkend publicatietaken, controleer replicatielogboeken. AEM heeft ingebouwde functie voor het automatisch opnieuw proberen van bestanden. Als de publicatie van een bepaald element mislukt, wordt dit automatisch opnieuw geprobeerd. Als er een probleem is dat soms voorkomt, zoals een netwerkfout, kan dit probleem tijdens het opnieuw proberen optreden.
 
-Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u moeten controleren **[!UICONTROL test connection]** en proberen om de fouten op te lossen die worden gemeld.
+Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u **[!UICONTROL test connection]** moeten controleren en proberen om de fouten op te lossen die worden gemeld.
 
 Gebaseerd op de fouten, wordt u geadviseerd om een steunkaartje te registreren, zodat het de technische team van het Portaal van het Merk u kan helpen kwesties oplossen.
 
 
-## Replicatieagents configureren om een time-outfout voor de verbinding te voorkomen {#connection-timeout}
+## Replicatieagents configureren om een time-outfout {#connection-timeout} voor de verbinding te voorkomen
 
 Doorgaans mislukt de publicatietaak met een time-outfout als er meerdere aanvragen in behandeling zijn in de replicatiestoets. Om deze kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
 
 Voer de volgende stappen uit om de replicatieagenten te vormen:
 1. Meld u aan bij de AEM Assets-auteur.
-1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. Klik op de pagina Replicatie **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten van uw huurder van het Portaal van het Merk zien.
+1. Navigeer in het deelvenster **Gereedschappen** naar **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. Klik op **[!UICONTROL Agents on author]** op de pagina Replicatie. U kunt de vier replicatieagenten van uw huurder van het Portaal van het Merk zien.
 1. Klik de replicatieagent URL om de agentendetails te openen.
 1. Klik **[!UICONTROL Edit]** om de montages van de replicatieagent te wijzigen.
-1. Klik in Agent-instellingen op het **[!UICONTROL Extended]** tabblad.
-1. Select the **[!UICONTROL Close Connection]** check box.
+1. Klik in Agent-instellingen op het tabblad **[!UICONTROL Extended]**.
+1. Schakel het selectievakje **[!UICONTROL Close Connection]** in.
 1. Herhaal stap 4 door 7 om alle vier replicatieagenten te vormen.
 1. Start de server opnieuw.
