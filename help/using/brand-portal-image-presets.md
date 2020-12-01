@@ -17,22 +17,22 @@ ht-degree: 1%
 ---
 
 
-# Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen {#apply-image-presets-or-dynamic-renditions}
+# Voorinstellingen voor afbeeldingen of dynamische vertoningen toepassen {#apply-image-presets-or-dynamic-renditions}
 
 Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kunnen AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren.
 
 Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen te genereren van afbeeldingen die u kunt voorvertonen en downloaden. Wanneer u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kunt u een voorinstelling kiezen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
-(*Als AEM auteurinstantie op **Dynamische Media Hybride wijze***loopt) om dynamische vertoningen van een activa in het Portaal van het Merk te bekijken, zorg ervoor dat zijn piramide tiff vertoning bij de AEM auteursinstantie van waar u aan het Portaal van het Merk publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
+(*Als AEM auteurinstantie op **Dynamische Hybride wijze van Media***) loopt om dynamische vertoningen van een activa in het Portaal van het Merk te bekijken, zorg ervoor dat zijn Piramid tiff vertoning bij de AEM auteursinstantie van waar u aan het Portaal van het Merk publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
 
 >[!NOTE]
 >
->Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt, is er geen optie om te kiezen uit de bestaande voorinstellingen. In plaats daarvan kunt u de eigenschappen van een aangepaste voorinstelling voor afbeeldingen opgeven. Zie [Afbeeldingsvoorinstellingen toepassen tijdens het downloaden van afbeeldingen](../using/brand-portal-image-presets.md#main-pars-text-1403412644)voor meer informatie.
+>Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt, is er geen optie om te kiezen uit de bestaande voorinstellingen. In plaats daarvan kunt u de eigenschappen van een aangepaste voorinstelling voor afbeeldingen opgeven. Zie [Voorinstellingen voor afbeeldingen toepassen bij het downloaden van afbeeldingen](../using/brand-portal-image-presets.md#main-pars-text-1403412644) voor meer informatie.
 
 
-Zie [Voorinstellingen](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)afbeelding beheren voor meer informatie over de parameters die nodig zijn voor het maken van voorinstellingen voor afbeeldingen.
+Zie [Voorinstellingen afbeelding beheren](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html) voor meer informatie over de vereiste parameters bij het maken van voorinstellingen voor afbeeldingen.
 
-## Een voorinstelling voor afbeeldingen maken {#create-an-image-preset}
+## Een voorinstelling voor een afbeelding maken {#create-an-image-preset}
 
 De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynamische uitvoeringen op de pagina met elementdetails worden weergegeven. U kunt een geheel nieuwe voorinstelling voor afbeeldingen maken of een bestaande voorinstelling met een nieuwe naam opslaan. Wanneer u een voorinstelling voor afbeeldingen maakt, kiest u een grootte voor de levering van de afbeelding en de opmaakopdrachten. Wanneer een afbeelding voor weergave wordt geleverd, wordt de weergave ervan geoptimaliseerd volgens de gekozen opdrachten.
 
@@ -40,9 +40,9 @@ De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynami
 >
 >Dynamische uitvoeringen van een afbeelding worden gemaakt met de Piramide TIFF. Als de Piramid TIFF niet beschikbaar is voor een element, kunnen dynamische uitvoeringen voor dat element niet worden opgehaald in het Brand-portaal.
 >
->Als AEM instantie van de auteur op **Dynamische Media Hybride wijze** loopt, dan worden de vertoningen van de vertoningen van TIF van de piramide van beeldactiva gecreeerd en in AEM bewaarplaats bewaard.
+>Als AEM auteurinstantie op **Dynamische Hybride wijze van Media** loopt, dan worden de vertoningen van de vertoningen van TIF van beeldBeelden gecreeerd en in AEM bewaarplaats bewaard.
 >
->Terwijl AEM auteurinstantie op **Dynamische Scène 7 van Media wijze** loopt, dan bestaan de Verlopen van de Piramide TIFF van beeldactiva op de server van Scene 7.
+>Als AEM auteurinstantie op **Dynamische Scène 7 van Media wijze** loopt, dan bestaan de Vertoningen van TIFF van de Piramide van beeldactiva op de server van Scene 7.
 >
 >Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en dynamische uitvoeringen weergegeven.
 
@@ -53,22 +53,22 @@ De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynami
 
    ![](assets/admin-tools-panel-4.png)
 
-1. Klik op de pagina met voorinstellingen voor afbeeldingen **[!UICONTROL Create]**.
+1. Klik op **[!UICONTROL Create]** op de pagina met voorinstellingen voor afbeeldingen.
 
    ![](assets/image_preset_homepage.png)
 
-1. In the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Voorinstellingen worden weergegeven in het linkerdeelvenster en kunnen direct samen met andere assets worden gebruikt.
+1. Voer op de pagina **[!UICONTROL Edit Image Preset]** waarden in op de tabbladen **[!UICONTROL Basic]** en **[!UICONTROL Advanced]**, zoals van toepassing, inclusief een naam. De opties worden beschreven in [Voorinstellingsopties voor afbeeldingen](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Voorinstellingen worden weergegeven in het linkerdeelvenster en kunnen direct samen met andere assets worden gebruikt.
 
    ![](assets/image_preset_create.png)
 
    >[!NOTE]
    >
-   >U kunt de **[!UICONTROL Edit Image Preset]** pagina ook gebruiken om de eigenschappen van een bestaande voorinstelling te bewerken. Als u een voorinstelling voor afbeeldingen wilt bewerken, selecteert u deze op de pagina met voorinstellingen voor afbeeldingen en klikt u **[!UICONTROL Edit]** op deze pagina.
+   >U kunt de pagina **[!UICONTROL Edit Image Preset]** ook gebruiken om de eigenschappen van een bestaande voorinstelling te bewerken. Als u een voorinstelling voor afbeeldingen wilt bewerken, selecteert u deze op de pagina met voorinstellingen voor afbeeldingen en klikt u op **[!UICONTROL Edit]**.
 
 1. Klik op **[!UICONTROL Save]**. De voorinstelling voor de afbeelding wordt gemaakt en weergegeven op de pagina met voorinstellingen voor de afbeelding.
-1. Als u een voorinstelling voor afbeeldingen wilt verwijderen, selecteert u deze op de pagina met voorinstellingen voor afbeeldingen en klikt u **[!UICONTROL Delete]** op deze voorinstelling. Klik op de bevestigingspagina **[!UICONTROL Delete]** om de verwijdering te bevestigen. De voorinstelling voor de afbeelding wordt verwijderd van de pagina met voorinstellingen voor de afbeelding.
+1. Als u een voorinstelling voor afbeeldingen wilt verwijderen, selecteert u deze op de pagina met voorinstellingen voor afbeeldingen en klikt u op **[!UICONTROL Delete]**. Klik in de bevestigingspagina op **[!UICONTROL Delete]** om de verwijdering te bevestigen. De voorinstelling voor de afbeelding wordt verwijderd van de pagina met voorinstellingen voor de afbeelding.
 
-## Afbeeldingsvoorinstellingen toepassen bij voorvertoningen van afbeeldingen  {#apply-image-presets-when-previewing-images}
+## Afbeeldingsvoorinstellingen toepassen bij voorvertonen van afbeeldingen {#apply-image-presets-when-previewing-images}
 
 Als u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kiest u een van de bestaande voorinstellingen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
@@ -77,7 +77,7 @@ Als u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoering
 
    ![](assets/image-preset-previewrenditions.png)
 
-1. Selecteer in de **[!UICONTROL Renditions]** lijst bijvoorbeeld de juiste dynamische vertoning **[!UICONTROL Thumbnail]**. De voorvertoningsafbeelding wordt weergegeven op basis van uw keuze voor de vertoning.
+1. Selecteer in de lijst **[!UICONTROL Renditions]** de toepasselijke dynamische vertoning, bijvoorbeeld **[!UICONTROL Thumbnail]**. De voorvertoningsafbeelding wordt weergegeven op basis van uw keuze voor de vertoning.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
@@ -87,19 +87,19 @@ Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt van Brand Porta
 
 1. Voer een van de volgende handelingen uit vanuit de interface Brand Portal:
 
-   * Houd de aanwijzer boven de afbeelding die u wilt downloaden. Klik op het **[!UICONTROL Download]** pictogram van de snelactieminiaturen die beschikbaar zijn.
+   * Houd de aanwijzer boven de afbeelding die u wilt downloaden. Klik op het pictogram **[!UICONTROL Download]** van de beschikbare miniaturen voor snelle handelingen.
 
    ![](assets/downloadsingleasset.png)
 
-   * Selecteer de afbeelding die u wilt downloaden. Klik op het **[!UICONTROL Download]** pictogram op de werkbalk boven in het scherm.
+   * Selecteer de afbeelding die u wilt downloaden. Klik op het pictogram **[!UICONTROL Download]** op de werkbalk boven in het scherm.
 
    ![](assets/downloadassets.png)
 
-1. Selecteer in het **[!UICONTROL Download]** dialoogvenster de vereiste opties, afhankelijk van het feit of u het element met of zonder de uitvoeringen wilt downloaden.
+1. Selecteer in het dialoogvenster **[!UICONTROL Download]** de vereiste opties, afhankelijk van het feit of u het element met of zonder de uitvoeringen wilt downloaden.
 
    ![](assets/donload-assets-dialog.png)
 
-1. Selecteer de **[!UICONTROL Dynamic Rendition(s)]** optie om dynamische uitvoeringen van het element te downloaden.
+1. Als u dynamische uitvoeringen van het element wilt downloaden, selecteert u de optie **[!UICONTROL Dynamic Rendition(s)]**.
 1. Pas vooraf ingestelde eigenschappen van een afbeelding aan op basis waarvan u de afbeelding en de vertoningen tijdens het downloaden dynamisch opnieuw wilt opmaken. Geef de grootte, indeling, kleurruimte, resolutie en afbeeldingswijziging op.
 
    ![](assets/dynamicrenditions.png)
