@@ -19,21 +19,21 @@ ht-degree: 2%
 
 # Aangepaste zoekfacetten gebruiken {#use-custom-search-facets}
 
-Beheerders kunnen voorspelden voor zoekopdrachten aan het [!UICONTROL Filters] deelvenster toevoegen om de zoekfunctie aan te passen en veelzijdig te maken.
+Beheerders kunnen voorspelden voor zoekopdrachten toevoegen aan het deelvenster [!UICONTROL Filters] om de zoekfunctie aan te passen en veelzijdig te maken.
 
-Brand Portal ondersteunt [beperkte zoekopdrachten](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) naar korrelige zoekopdrachten naar goedgekeurde merkmiddelen, wat mogelijk is vanwege het deelvenster [**Filters **](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). De facetten van het onderzoek worden beschikbaar gemaakt op het paneel van Filters door **[!UICONTROL Search Form]**in de admin hulpmiddelen. Een standaardzoekformulier met de naam Asset Admin Search Rail bestaat op de pagina Zoekformulieren in beheerprogramma&#39;s. Beheerders kunnen het standaarddeelvenster Filters echter aanpassen door het standaardformulier voor zoekopdrachten (Asset Admin Search Rail) te bewerken door zoekvoorspelden toe te voegen, te wijzigen of te verwijderen, waardoor de zoekfunctionaliteit veelzijdig wordt.
+Brand Portal ondersteunt [beperkte zoekopdrachten](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) voor korrelige zoekopdrachten van goedgekeurde merkmiddelen, wat mogelijk is vanwege [**Filters** panel](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). De facetten van het onderzoek worden ter beschikking gesteld op het paneel van Filters door **[!UICONTROL Search Form]** in de admin hulpmiddelen. Een standaardzoekformulier met de naam Asset Admin Search Rail bestaat op de pagina Search Forms in de beheerprogramma&#39;s. Beheerders kunnen het standaarddeelvenster Filters echter aanpassen door het standaardformulier voor zoekopdrachten (Asset Admin Search Rail) te bewerken door zoekvoorspelden toe te voegen, te wijzigen of te verwijderen, waardoor de zoekfunctionaliteit veelzijdig wordt.
 
-U kunt verschillende zoekvoorinstellingen gebruiken om het **[!UICONTROL Filters]** deelvenster aan te passen. Voeg bijvoorbeeld de voorspelling van de eigenschap toe om te zoeken naar elementen die overeenkomen met één eigenschap die u in deze voorspelling opgeeft. Voeg de voorspelling van de opties toe om te zoeken naar elementen die overeenkomen met een of meer waarden die u voor een bepaalde eigenschap opgeeft. Voeg het datumbereik toe om te zoeken naar elementen die binnen een opgegeven datumbereik zijn gemaakt.
+U kunt verschillende zoekvoorspelling gebruiken om het deelvenster **[!UICONTROL Filters]** aan te passen. Voeg bijvoorbeeld de voorspelling van de eigenschap toe om te zoeken naar elementen die overeenkomen met één eigenschap die u in deze voorspelling opgeeft. Voeg de voorspelling van de opties toe om te zoeken naar elementen die overeenkomen met een of meer waarden die u voor een bepaalde eigenschap opgeeft. Voeg het datumbereik toe om te zoeken naar elementen die binnen een opgegeven datumbereik zijn gemaakt.
 
 >[!NOTE]
 >
->Met AEM kunnen organisaties de aangepaste zoekformulieren van AEM Author [naar Brand Portal](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) publiceren in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.
+>Met AEM kunnen organisaties de aangepaste zoekformulieren van AEM Author[ naar Brand Portal publiceren in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)
 
-## Een zoekvoorspelling toevoegen {#add-a-search-predicate}
+## Zoekvoorspelling {#add-a-search-predicate} toevoegen
 
-Een voorspelling van zoekopdrachten toevoegen aan het **[!UICONTROL Filters]** deelvenster:
+Een zoekvoorspelling toevoegen aan het **[!UICONTROL Filters]**-deelvenster:
 
-1. Als u beheergereedschappen wilt openen, klikt u op het AEM-logo op de werkbalk boven in het venster.
+1. Als u beheergereedschappen wilt openen, klikt u op het AEM op de werkbalk boven in het venster.
 
    ![](assets/aemlogo.png)
 
@@ -41,54 +41,54 @@ Een voorspelling van zoekopdrachten toevoegen aan het **[!UICONTROL Filters]** d
 
    ![](assets/navigation-panel-1.png)
 
-1. Selecteer op de **[!UICONTROL Search Forms]** pagina **[!UICONTROL Assets Admin Search Rail]**.
+1. Selecteer **[!UICONTROL Assets Admin Search Rail]** op de pagina **[!UICONTROL Search Forms]**.
 
    ![](assets/search-forms-page.png)
 
-1. Klik op de werkbalk boven in het scherm om het zoekformulier **[!UICONTROL Edit]** te openen.
+1. Klik op **[!UICONTROL Edit]** op de werkbalk boven in het scherm om het zoekformulier te openen.
 
    ![](assets/edit-search-form-1.png)
 
-1. In the [!UICONTROL Edit Search Form] page, drag a predicate from the [!UICONTROL Select Predicate] tab to the main pane. Sleep bijvoorbeeld **[!UICONTROL Property Predicate]**.
+1. Sleep op de pagina [!UICONTROL Edit Search Form] een voorspelling van het tabblad [!UICONTROL Select Predicate] naar het hoofdvenster. Sleep bijvoorbeeld **[!UICONTROL Property Predicate]**.
 
-   Het **[!UICONTROL Property]** veld wordt weergegeven in het hoofdvenster en op de **[!UICONTROL Settings]** tab rechts ziet u de voorspelling van de eigenschap.
+   Het veld **[!UICONTROL Property]** wordt weergegeven in het hoofdvenster en het tabblad **[!UICONTROL Settings]** aan de rechterkant geeft de voorspelling van de eigenschap aan.
 
    ![](assets/partial-prop-predicate.png)
 
    >[!NOTE]
    >
-   >Het koptekstlabel op het **[!UICONTROL Settings]** tabblad geeft het type voorspelling aan dat u selecteert.
+   >Het koptekstlabel op het tabblad **[!UICONTROL Settings]** geeft het type voorspelling aan dat u selecteert.
 
-1. Voer op het **[!UICONTROL Settings]** tabblad een label, plaatsaanduidingstekst en een beschrijving in voor de voorspelling van de eigenschap.
+1. Voer op het tabblad **[!UICONTROL Settings]** een label, plaatsaanduidingstekst en beschrijving in voor de voorspelling van de eigenschap.
 
-   * Selecteer deze optie **[!UICONTROL Partial Search]** als u wilt toestaan dat op basis van de opgegeven eigenschapswaarde wordt gezocht naar woordgroepen (en zoeken naar jokertekens) van elementen. Standaard wordt in de voorvertoning de zoekopdracht met volledige tekst ondersteund.
-   * Selecteer deze optie **[!UICONTROL Ignore Case]** als u wilt dat de zoekopdracht naar elementen op basis van de waarde van de eigenschap niet hoofdlettergevoelig is. Standaard is het zoeken naar eigenschapswaarden in de zoekfilter hoofdlettergevoelig.
+   * Selecteer **[!UICONTROL Partial Search]**, als u gedeeltelijk woordonderzoek (en vervangingsonderzoek) van activa-gebaseerd op de gespecificeerde bezitswaarde wilt toestaan. Standaard wordt in de voorvertoning de zoekopdracht met volledige tekst ondersteund.
+   * Selecteer **[!UICONTROL Ignore Case]** als u wilt dat de elementenzoekopdracht op basis van de eigenschapswaarde niet hoofdlettergevoelig is. Standaard is het zoeken naar eigenschapswaarden in de zoekfilter hoofdlettergevoelig.
 
    >[!NOTE]
    >
-   >Als u **[!UICONTROL Partial Search]** selectievakje selecteert, **[!UICONTROL Ignore Case]** is dit standaard ingeschakeld.
+   >Als u **[!UICONTROL Partial Search]** inschakelt, is **[!UICONTROL Ignore Case]** standaard geselecteerd.
 
-1. Open in het **[!UICONTROL Property Name]** veld de eigenschapkiezer en selecteer de eigenschap op basis waarvan de zoekopdracht wordt uitgevoerd. U kunt ook een naam voor de eigenschap invoeren. Voer bijvoorbeeld `  jcr :content/metadata/dc:title` of `./jcr:content/metadata/dc:title` in.
+1. Open in het veld **[!UICONTROL Property Name]** de eigenschapkiezer en selecteer de eigenschap op basis waarvan de zoekopdracht wordt uitgevoerd. U kunt ook een naam voor de eigenschap invoeren. Voer bijvoorbeeld `  jcr :content/metadata/dc:title` of `./jcr:content/metadata/dc:title` in.
 
    ![](assets/title-prop.png)
 
-1. Klik **[!UICONTROL Done]** om de instellingen op te slaan.
-1. Klik in de [!UICONTROL Assets] gebruikersinterface op het bedekkingspictogram en kies **[!UICONTROL Filter]** om naar het **[!UICONTROL Filters]** deelvenster te navigeren. Het predicaat **[!UICONTROL Property]** wordt toegevoegd aan het deelvenster.
+1. Klik **[!UICONTROL Done]** om de montages te bewaren.
+1. Klik in de gebruikersinterface [!UICONTROL Assets] op het bedekkingspictogram en kies **[!UICONTROL Filter]** om naar het deelvenster **[!UICONTROL Filters]** te navigeren. Het predicaat **[!UICONTROL Property]** wordt toegevoegd aan het deelvenster.
 
    ![](assets/property-filter-panel.png)
 
-1. Voer in het **[!UICONTROL Property]** tekstvak een titel in voor het element dat u wilt doorzoeken. Bijvoorbeeld &#39;Adobe&#39;. Wanneer u een zoekopdracht uitvoert, worden elementen waarvan de titel overeenkomt met &quot;Adobe&quot; weergegeven in de zoekresultaten.
+1. Voer in het tekstvak **[!UICONTROL Property]** een titel in voor het element dat moet worden doorzocht. Bijvoorbeeld &quot;Adobe&quot;. Wanneer u een zoekopdracht uitvoert, worden elementen met de titel &quot;Adobe&quot; weergegeven in de zoekresultaten.
 
-## Lijst met zoekvoorvertoningen {#list-of-search-predicates}
+## Lijst met zoekvoorspelling {#list-of-search-predicates}
 
-Net als bij de manier waarop u een **[!UICONTROL Property]** voorspelling toevoegt, kunt u de volgende voorspelling toevoegen aan het **[!UICONTROL Filters]** deelvenster:
+Net als bij de manier waarop u een **[!UICONTROL Property]**-voorspelling toevoegt, kunt u de volgende voorspelling toevoegen aan het **[!UICONTROL Filters]**-deelvenster:
 
 | **Naam voorspelling** | **Beschrijving** | **Eigenschappen** |
 |-------|-------|----------|
-| **[!UICONTROL Path Browser]** | Zoeken voorspelt dat op een bepaalde locatie naar elementen wordt gezocht. **Opmerking:** *Voor een aangemelde gebruiker geeft de padbrowser op Filter alleen de inhoudsstructuur weer van de mappen (en hun voorouders) die met de gebruiker worden gedeeld.* <br> Admin-gebruikers kunnen in elke map naar elementen zoeken door met de padbrowser naar die map te navigeren. <br> Niet-beheerders kunnen echter naar elementen in een map (die voor hen toegankelijk is) zoeken door in de padbrowser naar die map te navigeren. | <ul><li>Veldlabel</li><li>Pad</li><li>Beschrijving</li></ul> |
-| **[!UICONTROL Property]** | Zoeken in elementen op basis van een bepaalde eigenschap voor metagegevens. **Opmerking:** *Als Gedeeltelijke zoekopdracht wordt geselecteerd, is Hoofd-kleine letter* negeren standaard ingeschakeld. | <ul><li>Veldlabel</li><li>Plaatsaanduiding</li><li>Eigenschapnaam</li><li>Gedeeltelijk zoeken</li><li>Hoofdlettergebruik negeren</li><li> Beschrijving</li></ul> |
-| **[!UICONTROL Multi-Value Property]** | Vergelijkbaar met eigenschap voorspellen, maar er kunnen meerdere invoerwaarden worden geretourneerd, gescheiden door een scheidingsteken (standaard is COMMA[,]standaard). | <ul><li>Veldlabel</li><li>Plaatsaanduiding</li><li>Eigenschapnaam</li><li>Delimiter-ondersteuning</li><li>Hoofdlettergebruik negeren</li><li>Beschrijving</li></ul> |
-| **[!UICONTROL Tags]** | Zoeken voorspellen om elementen te zoeken op basis van tags. U kunt het bezit van de Weg vormen om diverse markeringen in de lijst van Markeringen te bevolken. *Opmerking: Beheerders moeten mogelijk de padwaarde wijzigen [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]als ze het zoekformulier publiceren vanuit AEM, waarbij het pad bijvoorbeeld geen huurdersgegevens bevat [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Pad</li><li>Beschrijving</li></ul> |
+| **[!UICONTROL Path Browser]** | Zoeken voorspelt dat op een bepaalde locatie naar elementen wordt gezocht. **Opmerking:** *Voor een aangemelde gebruiker toont de padbrowser op Filter alleen de inhoudsstructuur van de mappen (en hun voorouders) die met de gebruiker worden gedeeld.* <br> Admin-gebruikers kunnen in elke map naar elementen zoeken door met de padbrowser naar die map te navigeren. <br> Niet-beheerders kunnen echter naar elementen in een map (die voor hen toegankelijk is) zoeken door in de padbrowser naar die map te navigeren. | <ul><li>Veldlabel</li><li>Pad</li><li>Beschrijving</li></ul> |
+| **[!UICONTROL Property]** | Zoeken in elementen op basis van een bepaalde eigenschap voor metagegevens. **Opmerking:** *Bij het selecteren van Gedeeltelijk zoeken is Hoofd-kleine letter negeren standaard* geselecteerd. | <ul><li>Veldlabel</li><li>Plaatsaanduiding</li><li>Eigenschapnaam</li><li>Gedeeltelijk zoeken</li><li>Hoofdlettergebruik negeren</li><li> Beschrijving</li></ul> |
+| **[!UICONTROL Multi-Value Property]** | Vergelijkbaar met eigenschap voorspellen, maar er kunnen meerdere invoerwaarden worden gebruikt, gescheiden door een scheidingsteken (standaard COMMA[,]). Elementen die overeenkomen met een van de invoerwaarden worden geretourneerd in de resultaten. | <ul><li>Veldlabel</li><li>Plaatsaanduiding</li><li>Eigenschapnaam</li><li>Delimiter-ondersteuning</li><li>Hoofdlettergebruik negeren</li><li>Beschrijving</li></ul> |
+| **[!UICONTROL Tags]** | Zoeken voorspellen om elementen te zoeken op basis van tags. U kunt het bezit van de Weg vormen om diverse markeringen in de lijst van Markeringen te bevolken. *Opmerking: Beheerders moeten mogelijk de padwaarde wijzigen, bijvoorbeeld [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], als ze het zoekformulier publiceren vanuit AEM, waar het pad geen huurdersgegevens bevat, bijvoorbeeld [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Pad</li><li>Beschrijving</li></ul> |
 | **[!UICONTROL Path]** | Zoeken voorspelt dat op een bepaalde locatie naar elementen wordt gezocht. | <ul><li>Veldlabel</li><li>Pad</li><li>Beschrijving</li></ul> |  |
 | **[!UICONTROL Relative Date]** | Zoeken voorspelt dat er wordt gezocht naar elementen op basis van de relatieve datum waarop deze zijn gemaakt. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Relatieve datum</li></ul> |
 | **[!UICONTROL Range]** | Zoeken voorspelt hoe u elementen kunt zoeken die binnen een opgegeven reeks eigenschapswaarden liggen. In het deelvenster Filters kunt u minimum- en maximumeigenschapswaarden voor het bereik opgeven. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
@@ -96,22 +96,22 @@ Net als bij de manier waarop u een **[!UICONTROL Property]** voorspelling toevoe
 | **[!UICONTROL Date]** | Zoeken voorspelt hoe elementen op basis van een schuifregelaar worden doorzocht op basis van een eigenschap date. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
 | **[!UICONTROL File Size]** | Zoeken voorspelt hoe u elementen kunt zoeken op basis van hun grootte. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Pad</li><li>Beschrijving</li></ul> |
 | **[!UICONTROL Asset Last Modified]** | Zoeken voorspelt hoe u elementen kunt zoeken op basis van de laatste gewijzigde datum. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
-| **[!UICONTROL Approval Status]** | Zoeken voorspelt hoe u elementen kunt zoeken op basis van de eigenschap voor metagegevens van goedkeuring. De standaardeigenschapnaam is **dam:status**. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
-| **[!UICONTROL Checkout Status]** | Zoeken voorspelt hoe u elementen kunt zoeken op basis van de uitcheck-status van een element op het moment dat het vanuit AEM Assets werd gepubliceerd. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
+| **[!UICONTROL Approval Status]** | Zoeken voorspelt hoe u elementen kunt zoeken op basis van de eigenschap voor metagegevens van goedkeuring. De standaard bezitsnaam is **dam:status**. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
+| **[!UICONTROL Checkout Status]** | Zoeken voorspelt dat er wordt gezocht naar middelen op basis van de uitcheckstatus van een middel toen het vanuit AEM Assets werd gepubliceerd. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
 | **[!UICONTROL Checked Out By]** | Zoeken voorspelt hoe u elementen kunt zoeken op basis van de gebruiker die het element heeft uitgecheckt. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
-| **[!UICONTROL Expiry Status]** | Zoeken voorspelt dat er wordt gezocht naar elementen die zijn gebaseerd op de vervalstatus. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
+| **[!UICONTROL Expiry Status]** | Zoeken voorspelt dat er op basis van de vervalstatus naar elementen wordt gezocht. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
 | **[!UICONTROL Member of collection]** | Zoeken voorspelt hoe u elementen kunt zoeken op basis van het feit of een element deel uitmaakt van een verzameling. | Beschrijving |
-| **[!UICONTROL Hidden]** | Dit voorspellen is niet uitdrukkelijk zichtbaar aan het eind - gebruikers en wordt gebruikt voor om het even welke verborgen beperkingen typisch voor het beperken van het type van onderzoeksresultaten tot **dam:Activum**. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
+| **[!UICONTROL Hidden]** | Deze voorspelling is niet expliciet zichtbaar voor de eindgebruikers en wordt gebruikt voor verborgen beperkingen waarmee het type zoekresultaten wordt beperkt tot **dam:Asset**. | <ul><li>Veldlabel</li><li>Eigenschapnaam</li><li>Beschrijving</li></ul> |
 
 >[!NOTE]
 >
->Niet gebruiken **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]** en **[!UICONTROL Rating Predicate]** omdat deze voorspellingen niet functioneren in Brand Portal.
+>Gebruik **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]** en **[!UICONTROL Rating Predicate]** niet omdat deze voorspellingen niet functioneel zijn in Brand Portal.
 
-## Een zoekvoorspelling verwijderen {#delete-a-search-predicate}
+## Zoekvoorspelling {#delete-a-search-predicate} verwijderen
 
 Ga als volgt te werk om een voorspeld in een zoekopdracht te verwijderen:
 
-1. Klik op het Adobe-logo voor toegang tot beheergereedschappen.
+1. Klik op het logo van de Adobe voor toegang tot de beheergereedschappen.
 
    ![](assets/aemlogo.png)
 
@@ -119,25 +119,25 @@ Ga als volgt te werk om een voorspeld in een zoekopdracht te verwijderen:
 
    ![](assets/navigation-panel-2.png)
 
-1. Selecteer op de **[!UICONTROL Search Forms]** pagina **[!UICONTROL Assets Admin Search Rail]**.
+1. Selecteer **[!UICONTROL Assets Admin Search Rail]** op de pagina **[!UICONTROL Search Forms]**.
 
    ![](assets/search-forms-page.png)
 
-1. Klik op de werkbalk boven in het scherm om het zoekformulier **[!UICONTROL Edit]** te openen.
+1. Klik op **[!UICONTROL Edit]** op de werkbalk boven in het scherm om het zoekformulier te openen.
 
    ![](assets/edit-search-form-2.png)
 
-1. Selecteer op de [!UICONTROL Edit Search Form] pagina in het hoofdvenster de voorspelling die u wilt verwijderen. Selecteer bijvoorbeeld **[!UICONTROL Property Predicate]**.
+1. Selecteer op de pagina [!UICONTROL Edit Search Form] in het hoofdvenster de voorspelling die u wilt verwijderen. Selecteer bijvoorbeeld **[!UICONTROL Property Predicate]**.
 
-   Op het **[!UICONTROL Settings]** tabblad rechts worden de eigenschappenvoorspelvelden weergegeven.
+   Op de tab **[!UICONTROL Settings]** rechts worden de eigenschappenvoorspelde velden weergegeven.
 
-1. Als u de voorspelling van de eigenschap wilt verwijderen, klikt u op het binpictogram. Klik in het **[!UICONTROL Delete Field]** dialoogvenster **[!UICONTROL Delete]** om de verwijderactie te bevestigen.
+1. Als u de voorspelling van de eigenschap wilt verwijderen, klikt u op het binpictogram. Klik in het dialoogvenster **[!UICONTROL Delete Field]** op **[!UICONTROL Delete]** om de verwijderhandeling te bevestigen.
 
-   Het **[!UICONTROL Property Predicate]** veld wordt verwijderd uit het hoofdvenster en het **[!UICONTROL Settings]** tabblad wordt leeg.
+   Het veld **[!UICONTROL Property Predicate]** wordt uit het hoofdvenster verwijderd en het tabblad **[!UICONTROL Settings]** wordt leeg.
 
    ![](assets/search-form-delete-predicate.png)
 
-1. Klik op de werkbalk om de wijzigingen op te slaan. **[!UICONTROL Done]**
-1. Klik in de **[!UICONTROL Assets]** gebruikersinterface op het bedekkingspictogram en kies **[!UICONTROL Filter]** om naar het **[!UICONTROL Filters]** deelvenster te navigeren. De **[!UICONTROL Property]** voorspelling wordt verwijderd uit het deelvenster.
+1. Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Done]** op de werkbalk.
+1. Klik in de gebruikersinterface **[!UICONTROL Assets]** op het bedekkingspictogram en kies **[!UICONTROL Filter]** om naar het deelvenster **[!UICONTROL Filters]** te navigeren. De voorspelling **[!UICONTROL Property]** wordt verwijderd uit het deelvenster.
 
    ![](assets/property-predicate-removed.png)
