@@ -1,8 +1,8 @@
 ---
-title: Publiceren naar de map Contributie aan AEM Assets
-seo-title: Publiceren naar de map Contributie aan AEM Assets
-description: Krijg inzicht in het publiceren van de bijdragemap aan AEM Assets in Brand Portal.
-seo-description: Krijg inzicht in het publiceren van de bijdragemap aan AEM Assets in Brand Portal.
+title: Publiceren naar de map Contribution naar AEM Assets
+seo-title: Publiceren naar de map Contribution naar AEM Assets
+description: Bekijk meer inzicht in het publiceren van de map met bijdragen naar AEM Assets in Brand Portal.
+seo-description: Bekijk meer inzicht in het publiceren van de map met bijdragen naar AEM Assets in Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Map met bijdragen publiceren naar AEM Assets {#publish-contribution-folder-to-aem}
+# Bijdragemap publiceren naar AEM Assets {#publish-contribution-folder-to-aem}
 
-Gebruikers van het Brand Portal kunnen de map met bijdragen publiceren naar AEM Assets zonder toegang tot de instantie van AEM-auteurs te hoeven hebben.
+Gebruikers van het Brand Portal kunnen de map met bijdragen publiceren naar AEM Assets zonder dat ze toegang hoeven te hebben tot de AEM auteur.
 
-Controleer of u de [elementvereisten](brand-portal-download-asset-requirements.md) hebt doorlopen en upload de nieuw gemaakte elementen naar de map **NEW** in de map Contribution. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contributie.
+Zorg ervoor dat u de [elementvereisten](brand-portal-download-asset-requirements.md) hebt doorlopen en uploadt u de nieuw gemaakte elementen in de map **NEW** in de bijdragemap. Zie [Elementen uploaden naar bijdragemap](brand-portal-upload-assets-to-contribution-folder.md).
 
 **Map met bijdragen publiceren:**
 
@@ -36,8 +36,8 @@ Controleer of u de [elementvereisten](brand-portal-download-asset-requirements.m
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Er wordt een e-mail-/pulsmelding verzonden naar de gebruiker en beheerders van het Brand Portal in verschillende stadia van de publicatieworkflow:
-1. **In wachtrij** - er wordt een melding verzonden naar de gebruikers- en merkportalbeheerders van het Brand Portal wanneer een publicatieworkflow wordt geactiveerd in het Brand Portal.
+1. **In wachtrij**  - Er wordt een melding verzonden naar de gebruikers- en merkportalbeheerders van het Brand Portal wanneer een publicatieworkflow wordt geactiveerd in het Brand Portal.
 
-1. **Voltooid** - Er wordt een melding verzonden naar de gebruikers en beheerders van het Brand Portal wanneer de map met bijdragen met succes is gepubliceerd naar AEM Assets.
+1. **Voltooid**  - Er wordt een melding verzonden naar de gebruikers en beheerders van het Brand Portal wanneer de map met bijdragen met succes is gepubliceerd naar AEM Assets.
 
 
