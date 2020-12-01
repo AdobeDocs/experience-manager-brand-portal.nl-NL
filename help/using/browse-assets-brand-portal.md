@@ -37,7 +37,7 @@ U kunt elementen weergeven, doorbladeren en selecteren met een van de beschikbar
 
 ![](assets/viewselector.png)
 
-## Bronnen weergeven en selecteren {#viewing-and-selecting-resources}
+## Bronnen {#viewing-and-selecting-resources} weergeven en selecteren
 
 Het bekijken, navigeren, en het selecteren van elk zijn conceptueel het zelfde over alle meningen, maar hebben kleine variaties in behandeling, afhankelijk van de mening u gebruikt.
 
@@ -61,7 +61,7 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Grootte
 * Dimensies
 
-U kunt de hiërarchie omlaag navigeren door op de kaart te tikken of erop te klikken (zorg dat u de snelle handelingen voorkomt) of door de [broodkruimels in de koptekst](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)weer te gebruiken.
+U kunt de hiërarchie omlaag navigeren door op kaarten te tikken of te klikken (waarbij u de snelle handelingen vermijdt) of weer omhoog met de [broodkruimels in de header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
@@ -81,7 +81,7 @@ De optie Overzicht is beschikbaar voor gebruikers die geen beheerder zijn (Edito
 * in de werkbalk bovenaan bij het selecteren van een middel/map.
 * in de vervolgkeuzelijst betreffende de selectie van de spoorstaafkiezer.
 
-Als gebruikers de **[!UICONTROL Overview]** optie selecteren terwijl een element/map is geselecteerd, kunnen ze de titel, het pad en het tijdstip van het maken van het element zien. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
+Als gebruikers de optie **[!UICONTROL Overview]** selecteren terwijl een element/map is geselecteerd, kunnen ze de titel, het pad en het tijdstip zien waarop het element wordt gemaakt. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
 
 ![](assets/overview-option.png)
 
@@ -89,7 +89,7 @@ Als gebruikers de **[!UICONTROL Overview]** optie selecteren terwijl een element
 
 #### Instellingen weergeven in de kaartweergave
 
-**[!UICONTROL View Settings]** wordt geopend bij het selecteren **[!UICONTROL View Settings]** vanuit de weergavekiezer. Hiermee kunt u de grootte van de elementminiaturen in de kaartweergave wijzigen. Op deze manier kunt u de weergave aanpassen en het aantal weergegeven miniaturen bepalen.
+**[!UICONTROL View Settings]** wordt geopend bij het selecteren  **[!UICONTROL View Settings]** vanuit de weergavekiezer. Hiermee kunt u de grootte van de elementminiaturen in de kaartweergave wijzigen. Op deze manier kunt u de weergave aanpassen en het aantal weergegeven miniaturen bepalen.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,10 +107,10 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Dimension
 * Grootte
 * Classificatie
-* Mappad met middelenhiërarchie<sup>*</sup>
+* Mappad met elementhiërarchie<sup>*</sup>
 * Datum van publicatie van het middel op de Brand Portal
 
-Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [broodkruimels in de koptekst](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [breadcrumbs in de header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Instellingen weergeven in de lijstweergave
 
-In de lijstweergave wordt **[!UICONTROL Name]** standaard de eerste kolom weergegeven. De extra informatie, zoals activa **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, wordt ook getoond. U kunt echter wel de kolommen selecteren die u wilt weergeven **[!UICONTROL View Settings]**.
+In de lijstweergave wordt element **[!UICONTROL Name]** standaard als de eerste kolom weergegeven. Aanvullende informatie, zoals element **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, wordt ook weergegeven. U kunt echter wel de kolommen selecteren die u wilt weergeven met **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -235,7 +235,7 @@ Comment Type: draft
 
 Naast deze weergaven gebruikt u de structuurweergave om de hiërarchie van elementen omlaag te doorlopen terwijl u de gewenste elementen of mappen weergeeft en selecteert.
 
-Als u de structuurweergave wilt openen, tikt u op de railkiezer linksboven en selecteert u deze in het **[!UICONTROL Content tree]** menu.
+Als u de structuurweergave wilt openen, tikt u op de railkiezer linksboven en selecteert u **[!UICONTROL Content tree]** in het menu.
 
 ![](assets/contenttree.png)
 
@@ -243,7 +243,7 @@ Navigeer vanuit de inhoudshiërarchie naar het gewenste element.
 
 ![](assets/content-tree.png)
 
-## Details van element {#asset-details}
+## Elementdetails {#asset-details}
 
 Met de pagina met elementdetails kunt u een element weergeven, downloaden, de koppeling met middelen delen, naar een verzameling verplaatsen of de eigenschappenpagina van het element weergeven. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
 
@@ -257,7 +257,7 @@ U kunt alle beschikbare uitvoeringen van het element weergeven op de pagina met 
 
 ![](assets/renditions.png)
 
-Als u de pagina met eigenschappen van elementen wilt openen, gebruikt u de **[!UICONTROL Properties (p)]** optie in de bovenste balk.
+Als u de pagina met elementeigenschappen wilt openen, gebruikt u de optie **[!UICONTROL Properties (p)]** in de bovenste balk.
 
 ![](assets/asset-properties.png)
 
