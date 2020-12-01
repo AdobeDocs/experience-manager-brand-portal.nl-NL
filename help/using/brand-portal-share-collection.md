@@ -20,47 +20,47 @@ ht-degree: 0%
 
 # Verzamelingen delen {#share-collections}
 
-Een verzameling vertegenwoordigt een groep gerelateerde elementen die samen zijn opgeslagen in Adobe Experience Manager Assets Brand Portal. Gebruikers kunnen slimme verzamelingen maken door [zoekopdrachten in de vorm van zoekopdrachten of facetten toe te passen om gerelateerde elementen](brand-portal-searching.md) te filteren en ze samen op te slaan, zodat ze gemakkelijk toegankelijk zijn en ze verder kunnen delen met andere gebruikers van het Brand Portal.
+Een verzameling vertegenwoordigt een groep gerelateerde elementen die samen zijn opgeslagen in Adobe Experience Manager Assets Brand Portal. De gebruikers kunnen slimme inzamelingen tot stand brengen door onderzoek of facetonderzoek toe te passen om verwante activa [ uit te filteren en hen samen op te slaan voor gemakkelijke toegang en het verder te delen met andere gebruikers van het Poortportaal van het Merk.](brand-portal-searching.md)
 
 De beheerders kunnen een inzameling met de erkende gebruikers van het Portaal van het Merk delen en unshare. Editors en viewers kunnen de verzamelingen die door hen zijn gemaakt, met hen worden gedeeld en openbare verzamelingen weergeven en delen.
 
 >[!NOTE]
 >
->Editors kunnen een openbare verzameling niet wijzigen in een verzameling die niet openbaar is en beschikken daarom niet over het **[!UICONTROL Public Collection]** selectievakje dat beschikbaar is in het **[!UICONTROL Collection Settings]** dialoogvenster.
+>Editors kunnen een openbare verzameling niet wijzigen in een niet-openbare verzameling en beschikken daarom niet over het selectievakje **[!UICONTROL Public Collection]** in het dialoogvenster **[!UICONTROL Collection Settings]**.
 
 ## Een verzameling delen {#share-collection}
 
 Hier volgen de stappen voor het delen van een verzameling met de geautoriseerde gebruikers van het Brand Portal:
 
-1. Meld u aan bij uw Brand Portal-huurder. Standaard wordt de **[!UICONTROL Files]** weergave geopend met alle gepubliceerde elementen en mappen.
+1. Meld u aan bij uw Brand Portal-huurder. Standaard wordt de weergave **[!UICONTROL Files]** geopend, die alle gepubliceerde elementen en mappen bevat.
 
-1. Klik op de snelle navigaties bovenaan **[!UICONTROL Collections]**.
+1. Klik op **[!UICONTROL Collections]** vanaf de snelle navigaties bovenaan.
 
-1. Voer vanuit de **[!UICONTROL Collections]** console een van de volgende handelingen uit:
+1. Voer in de console **[!UICONTROL Collections]** een van de volgende handelingen uit:
 
-   * Houd de aanwijzer boven de verzameling die u wilt delen. Klik op het **[!UICONTROL Settings]** pictogram in de snelactieminiaturen die beschikbaar zijn voor de verzameling.
+   * Houd de aanwijzer boven de verzameling die u wilt delen. Klik op het pictogram **[!UICONTROL Settings]** van de miniaturen voor snelle handelingen die beschikbaar zijn voor de verzameling.
 
       ![](assets/settings-icon.png)
 
-   * Selecteer de verzameling die u wilt delen. Klik op de werkbalk boven in het scherm **[!UICONTROL Settings]**.
+   * Selecteer de verzameling die u wilt delen. Klik op **[!UICONTROL Settings]** op de werkbalk boven in het scherm.
 
       ![](assets/collection-console.png)
 
-1. Selecteer in het **[!UICONTROL Collection Settings]** dialoogvenster de gebruikers met wie u de verzameling wilt delen en selecteer de rol die de gebruiker aan de algemene rol moet toekennen. Wijs bijvoorbeeld de rol Editor toe aan een algemene editor, de rol Viewer, aan een algemene viewer.
+1. Selecteer in het dialoogvenster **[!UICONTROL Collection Settings]** de gebruikers met wie u de verzameling wilt delen en selecteer de rol die de gebruiker moet spelen in overeenstemming met zijn algemene rol. Wijs bijvoorbeeld de rol Editor toe aan een algemene editor, de rol Viewer, aan een algemene viewer.
 
-   U kunt de verzameling ook beschikbaar maken voor alle gebruikers, ongeacht hun groepslidmaatschap en rol, door het **[!UICONTROL Public Collection]** selectievakje in te schakelen.
+   U kunt de verzameling ook openbaar maken door het selectievakje **[!UICONTROL Public Collection]** in te schakelen als u deze ter beschikking wilt stellen van alle gebruikers, ongeacht hun groepslidmaatschap en rol.
 
    >[!NOTE]
    >
-   >Nochtans, kunnen niet-admin gebruikers van het creëren van openbare inzamelingen worden beperkt, om het hebben van talrijke openbare inzamelingen te vermijden zodat systeemruimte kan worden bewaard. Organisaties kunnen de **[!UICONTROL Allow public collections creation]** configuratie uitschakelen op basis van de **[!UICONTROL General]** instellingen in het deelvenster met beheergereedschappen.
+   >Nochtans, kunnen niet-admin gebruikers van het creëren van openbare inzamelingen worden beperkt, om het hebben van talrijke openbare inzamelingen te vermijden zodat systeemruimte kan worden bewaard. Organisaties kunnen de **[!UICONTROL Allow public collections creation]**-configuratie uitschakelen via de **[!UICONTROL General]**-instellingen die beschikbaar zijn in het deelvenster met beheergereedschappen.
 
    ![](assets/collection_sharingadduser.png)
 
-   De editors kunnen een openbare verzameling niet wijzigen in een niet-openbare verzameling en beschikken daarom niet over een **[!UICONTROL Public Collection]** selectievakje dat beschikbaar is in het **[!UICONTROL Collection Settings]** dialoogvenster.
+   De editors kunnen een openbare inzameling niet in een niet openbare inzameling veranderen en hebben daarom niet **[!UICONTROL Public Collection]** controledoos beschikbaar in **[!UICONTROL Collection Settings]** dialoog.
 
    ![](assets/collection-setting-editor.png)
 
-1. Klik op de **[!UICONTROL Add]** knop om de gebruiker toe te voegen en klik vervolgens **[!UICONTROL Save]**. De verzameling wordt gedeeld met de gebruikers.
+1. Klik op de knop **[!UICONTROL Add]** om de gebruiker toe te voegen en klik vervolgens op **[!UICONTROL Save]**. De verzameling wordt gedeeld met de gebruikers.
 
    >[!NOTE]
    >
@@ -70,19 +70,19 @@ Hier volgen de stappen voor het delen van een verzameling met de geautoriseerde 
 
 Ga als volgt te werk om het delen van een eerder gedeelde verzameling op te heffen:
 
-1. Selecteer in de **[!UICONTROL Collections]** console de verzameling waarvan u het delen wilt opheffen.
+1. Selecteer in de **[!UICONTROL Collections]**-console de verzameling waarvan u het delen wilt opheffen.
 
-   Klik op de werkbalk boven in het scherm **[!UICONTROL Settings]**.
+   Klik op **[!UICONTROL Settings]** op de werkbalk boven in het scherm.
 
    ![](assets/collection_settings.png)
 
-1. Klik in het **[!UICONTROL Collection Settings]** dialoogvenster onder de **[!UICONTROL Members]** sectie op het **[!UICONTROL x]** symbool naast gebruikers om deze te verwijderen uit de lijst met gebruikers die toegang hebben tot de verzameling.
+1. Klik in het dialoogvenster **[!UICONTROL Collection Settings]** onder de sectie **[!UICONTROL Members]** op het symbool **[!UICONTROL x]** naast gebruikers om deze te verwijderen uit de lijst met gebruikers die toegang hebben tot de verzameling.
 
    ![](assets/unshare_collection.png)
 
 1. Er verschijnt een waarschuwingsbericht. Klik **[!UICONTROL Confirm]** om het delen van de verzameling op te heffen.
 
-1. Klik **[!UICONTROL Save]** om de wijzigingen toe te passen.
+1. Klik **[!UICONTROL Save]** om de veranderingen toe te passen.
 
    Zodra de gebruiker uit de gedeelde lijst wordt verwijderd, wordt de niet gedeelde inzameling verwijderd uit de **[!UICONTROL Collections]** console van de gebruiker.
 
