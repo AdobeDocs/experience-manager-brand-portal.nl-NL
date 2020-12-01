@@ -37,19 +37,19 @@ Deze productprofielen worden om de acht uur gesynchroniseerd met de gebruikersin
 
 >[!NOTE]
 >
->Om groepen in het Portaal van het Merk, van Adobe te creëren, gebruik [!UICONTROL Admin Console], in plaats van **[!UICONTROL Products > Product Profiles]****[!UICONTROL User page > User Groups]**. De profielen van het product in Adobe [!UICONTROL Admin Console] worden gebruikt om groepen in het Portaal van het Merk tot stand te brengen.
+>Als u groepen wilt maken in Brand Portal, gebruikt u **[!UICONTROL Products > Product Profiles]** in plaats van **[!UICONTROL User page > User Groups]** om op basis van Adobe [!UICONTROL Admin Console] groepen te maken. De profielen van het product in Adobe [!UICONTROL Admin Console] worden gebruikt om groepen in het Portaal van het Merk tot stand te brengen.
 
-## Een gebruiker toevoegen {#add-a-user}
+## Een gebruiker {#add-a-user} toevoegen
 
-Als u een productbeheerder bent, gebruik Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) om gebruikers tot stand te brengen en hen toe te wijzen aan productprofielen (die *vroeger als productconfiguraties* worden bekend), die als groepen in het Portaal van het Merk tonen. U kunt groepen gebruiken om bulkbewerkingen uit te voeren, zoals rolbeheer en het delen van elementen.
-
->[!NOTE]
->
->Nieuwe gebruikers die geen toegang hebben tot Brand Portal, kunnen toegang aanvragen via het aanmeldingsscherm van het Brand Portal. Raadpleeg [Verzoek om toegang tot Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)voor meer informatie. Nadat u in het systeemvak kennisgevingen van verzoeken om toegang hebt ontvangen, klikt u op de betreffende melding en vervolgens op **[!UICONTROL Grant Access]**. U kunt ook de koppeling volgen in de ontvangen e-mail met het toegangsverzoek. Als u vervolgens een gebruiker door [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)Adobe wilt toevoegen, volgt u stap 4-7 in de onderstaande procedure.
+Als u een productbeheerder bent, gebruik Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) om gebruikers tot stand te brengen en hen toe te wijzen aan productprofielen (*vroeger bekend als productconfiguraties*), die als groepen in het Portaal van het Merk tonen. U kunt groepen gebruiken om bulkbewerkingen uit te voeren, zoals rolbeheer en het delen van elementen.
 
 >[!NOTE]
 >
->U kunt zich aanmelden bij [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) rechtstreeks of via Brand Portal. Als u zich direct aanmeldt, volgt u de stappen 4 tot en met 7 in de onderstaande procedure om een gebruiker toe te voegen.
+>Nieuwe gebruikers die geen toegang hebben tot Brand Portal, kunnen toegang aanvragen via het aanmeldingsscherm van het Brand Portal. Voor meer informatie, verwijs naar [Verzoek om toegang tot het Portaal van het Merk](../using/brand-portal.md#request-access-to-brand-portal). Nadat u de berichten van het toegangsverzoek in uw berichtgebied ontvangt, klik het relevante bericht en klik dan **[!UICONTROL Grant Access]**. U kunt ook de koppeling volgen in de ontvangen e-mail met het toegangsverzoek. Als u vervolgens een gebruiker via [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) wilt toevoegen, volgt u stap 4-7 in de onderstaande procedure.
+
+>[!NOTE]
+>
+>U kunt zich bij [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich direct aanmeldt, volgt u de stappen 4 tot en met 7 in de onderstaande procedure om een gebruiker toe te voegen.
 
 1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
@@ -59,17 +59,17 @@ Als u een productbeheerder bent, gebruik Adobe [[!UICONTROL Admin Console]](http
 
    ![Deelvenster Gereedschappen voor beheerders](assets/admin-tools-panel-5.png)
 
-1. Klik in de [!UICONTROL User Roles] pagina op het **[!UICONTROL Management]** tabblad en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
+1. Klik op het tabblad [!UICONTROL User Roles] op de pagina **[!UICONTROL Management]** en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
 
    ![Gebruikersrollen om Admin Console te starten](assets/launch_admin_console.png)
 
 1. Voer in Admin Console een van de volgende handelingen uit om een nieuwe gebruiker te maken:
 
-   * Klik op de werkbalk boven in het scherm **[!UICONTROL Overview]**. Klik op de [!UICONTROL Overview] pagina op de productkaart **[!UICONTROL Assign Users]** van het Brand Portal.
+   * Klik op **[!UICONTROL Overview]** op de werkbalk boven in het scherm. Klik op de [!UICONTROL Overview]-pagina op **[!UICONTROL Assign Users]** van de productkaart van het Brand Portal.
 
    ![Overzicht van Admin Console](assets/admin_console_overviewadduser.png)
 
-   * Klik op de werkbalk boven in het scherm **[!UICONTROL Users]**. Op de [!UICONTROL Users] pagina wordt standaard [!UICONTROL Users] in de linkerspoorstaaf geselecteerd. Klik op **[!UICONTROL Add User]**.
+   * Klik op **[!UICONTROL Users]** op de werkbalk boven in het scherm. Op de pagina [!UICONTROL Users] wordt [!UICONTROL Users] in de linkertrack standaard geselecteerd. Klik op **[!UICONTROL Add User]**.
 
    ![Admin Console Gebruikers toevoegen](assets/admin_console_adduseruserpage.png)
 
@@ -77,22 +77,22 @@ Als u een productbeheerder bent, gebruik Adobe [[!UICONTROL Admin Console]](http
 
    ![Gebruiker toevoegen aan Brand-portal](assets/add_user_to_aem_bp.png)
 
-1. Wijs de gebruiker aan minstens één productprofiel (vroeger genoemd als productconfiguraties) toe zodat de gebruiker tot het Portaal van het Merk kan toegang hebben. Selecteer het gewenste productprofiel in het **[!UICONTROL Please select a profile for this product]** veld.
-1. Klik op **[!UICONTROL Save]**. Er wordt een welkomstbericht verzonden naar de gebruiker die u hebt toegevoegd. De uitgenodigde gebruiker kan tot het Portaal van het Merk toegang hebben door de verbinding in welkome e-mail te klikken en binnen te ondertekenen gebruikend een [!UICONTROL Adobe ID]. Voor meer informatie, zie de [Eerste login ervaring](../using/brand-portal-onboarding.md).
+1. Wijs de gebruiker aan minstens één productprofiel (vroeger genoemd als productconfiguraties) toe zodat de gebruiker tot het Portaal van het Merk kan toegang hebben. Selecteer het juiste productprofiel in het veld **[!UICONTROL Please select a profile for this product]**.
+1. Klik op **[!UICONTROL Save]**. Er wordt een welkomstbericht verzonden naar de gebruiker die u hebt toegevoegd. De uitgenodigde gebruiker kan tot het Portaal van het Merk toegang hebben door de verbinding in welkome e-mail te klikken en binnen te ondertekenen gebruikend [!UICONTROL Adobe ID]. Voor meer informatie, zie [Eerste-inlogervaring](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
-   >Als een gebruiker zich niet kan aanmelden bij Brand Portal, moet de beheerder van de organisatie naar Adobe gaan [!UICONTROL Admin Console] en controleren of de gebruiker aanwezig is en aan ten minste één productprofiel is toegevoegd.
+   >Als een gebruiker zich niet kan aanmelden bij Brand Portal, moet de beheerder van de organisatie naar Adobe [!UICONTROL Admin Console] gaan en controleren of de gebruiker aanwezig is en aan ten minste één productprofiel is toegevoegd.
 
-   Zie [Beheerdersrechten verlenen aan gebruikers](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)voor informatie over het verlenen van beheerdersrechten aan de gebruiker.
+   Zie [Beheerdersrechten verlenen aan gebruikers](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers) voor informatie over het verlenen van beheerdersrechten aan de gebruiker.
 
 ## Een productprofiel toevoegen {#add-a-product-profile}
 
-Productprofielen (voorheen productconfiguraties genoemd) in [!UICONTROL Admin Console] worden gebruikt om groepen te maken in Brand Portal, zodat u bulkbewerkingen kunt uitvoeren, zoals rolbeheer en het delen van bedrijfsmiddelen in Brand Portal. **Merkortaal** is het standaardproductprofiel dat beschikbaar is; u kunt meer productprofielen maken en gebruikers toevoegen aan de nieuwe productprofielen.
+De profielen van het product (vroeger genoemd als productconfiguraties) in [!UICONTROL Admin Console] worden gebruikt om groepen in het Portaal van het Merk tot stand te brengen zodat u bulkverrichtingen zoals rolbeheer en activa het delen in het Portaal van het Merk kunt uitvoeren. **Merk** Portalis het standaardproductprofiel dat beschikbaar is; u kunt meer productprofielen maken en gebruikers toevoegen aan de nieuwe productprofielen.
 
 >[!NOTE]
 >
->U kunt zich [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-7 in de onderstaande procedure om een productprofiel toe te voegen.
+>U kunt zich bij [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich direct bij [!UICONTROL Admin Console] aanmeldt, volgt u stap 4-7 in de onderstaande procedure om een productprofiel toe te voegen.
 
 1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
@@ -102,30 +102,30 @@ Productprofielen (voorheen productconfiguraties genoemd) in [!UICONTROL Admin Co
 
    ![Deelvenster Gereedschappen voor beheerders](assets/admin-tools-panel-6.png)
 
-1. Klik in de [!UICONTROL User Roles] pagina op het **[!UICONTROL Management]** tabblad en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
+1. Klik op het tabblad [!UICONTROL User Roles] op de pagina **[!UICONTROL Management]** en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
 
    ![Admin Console starten](assets/launch_admin_console.png)
 
-1. Klik op de werkbalk boven in het scherm **[!UICONTROL Products]**.
-1. Deze optie is standaard [!UICONTROL Products] geselecteerd op de [!UICONTROL Product Profiles] pagina. Klik op **[!UICONTROL New Profile]**.
+1. Klik op **[!UICONTROL Products]** op de werkbalk boven in het scherm.
+1. Op de pagina [!UICONTROL Products] is [!UICONTROL Product Profiles] standaard geselecteerd. Klik op **[!UICONTROL New Profile]**.
 
    ![Nieuw productprofiel toevoegen](assets/admin_console_addproductprofile.png)
 
-1. Geef op de [!UICONTROL Create a New Profile] pagina de profielnaam, de weergavenaam, de profielbeschrijving op en kies of u gebruikers via e-mail op de hoogte wilt stellen wanneer ze aan het profiel worden toegevoegd of uit het profiel worden verwijderd.
+1. Geef op de pagina [!UICONTROL Create a New Profile] de profielnaam, weergavenaam, profielbeschrijving op en kies of u gebruikers via e-mail op de hoogte wilt stellen wanneer ze aan het profiel worden toegevoegd of uit het profiel worden verwijderd.
 
    ![Productprofiel maken](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-1. Klik op **[!UICONTROL Done]**. De groep van de productconfiguratie, bijvoorbeeld **[!UICONTROL Sales group]**, wordt toegevoegd aan het Portaal van het Merk.
+1. Klik op **[!UICONTROL Done]**. De productconfiguratiegroep, bijvoorbeeld **[!UICONTROL Sales group]**, wordt toegevoegd aan Brand Portal.
 
    ![Productprofielen](assets/admin_console_productprofileadded.png)
 
-## Gebruikers aan een productprofiel toevoegen {#add-users-to-a-product-profile}
+## Gebruikers toevoegen aan een productprofiel {#add-users-to-a-product-profile}
 
-Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen aan het overeenkomstige productprofiel (vroeger genoemd als productconfiguraties) in toe [!UICONTROL Admin Console]. U kunt gebruikers afzonderlijk of bulksgewijs toevoegen.
+Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen aan het overeenkomstige productprofiel (vroeger genoemd als productconfiguraties) in [!UICONTROL Admin Console] toe. U kunt gebruikers afzonderlijk of bulksgewijs toevoegen.
 
 >[!NOTE]
 >
->U kunt zich [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich direct bij de Admin Console aanmeldt, volgt u stap 4-7 in de onderstaande procedure om gebruikers aan een productprofiel toe te voegen.
+>U kunt zich bij [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich direct bij de Admin Console aanmeldt, volgt u stap 4-7 in de onderstaande procedure om gebruikers aan een productprofiel toe te voegen.
 
 1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
@@ -135,12 +135,12 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 
    ![Deelvenster Gereedschappen voor beheerders](assets/admin-tools-panel-7.png)
 
-1. Klik in de [!UICONTROL User Roles] pagina op het **[!UICONTROL Management]** tabblad en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
+1. Klik op het tabblad [!UICONTROL User Roles] op de pagina **[!UICONTROL Management]** en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
 
-   ![Starten [!DNL Admin Console]](assets/launch_admin_console.png)
+   ![Starten  [!DNL Admin Console]](assets/launch_admin_console.png)
 
-1. Klik op de werkbalk boven in het scherm **[!UICONTROL Products]**.
-1. Deze optie is standaard [!UICONTROL Products] geselecteerd op de [!UICONTROL Product Profiles] pagina. Open bijvoorbeeld het productprofiel waaraan u een gebruiker wilt toevoegen [!UICONTROL Sales group].
+1. Klik op **[!UICONTROL Products]** op de werkbalk boven in het scherm.
+1. Op de pagina [!UICONTROL Products] is [!UICONTROL Product Profiles] standaard geselecteerd. Open het productprofiel waaraan u een gebruiker wilt toevoegen, bijvoorbeeld [!UICONTROL Sales group].
 
    ![Productprofielen](assets/admin_console_productprofileadded.png)
 
@@ -150,7 +150,7 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 
    ![Groeperen om productprofiel in kaart te brengen in Brand Portal](assets/admin_console_productprofilesalesgroup.png)
 
-   * Typ op de [!UICONTROL Add User to Sales group] pagina de e-mailadres van de gebruiker die u wilt toevoegen of selecteer de gebruiker in de lijst met suggesties die worden weergegeven terwijl u typt.
+   * Typ op de pagina [!UICONTROL Add User to Sales group] de e-mailadres van de gebruiker die u wilt toevoegen of selecteer de gebruiker in de lijst met suggesties die worden weergegeven terwijl u typt.
 
    ![Gebruiker toevoegen aan een groep](assets/admin_console_addusertosalesgroup.png)
 
@@ -164,22 +164,22 @@ Om gebruikers aan een groep van het Portaal van het Merk toe te voegen, voeg hen
 
    ![Gebruikers bulksgewijs toevoegen](assets/admin_console_addbulkusers.png)
 
-   * Download een CSV-sjabloon in de **[!UICONTROL Add Users by CSV]** pagina of sleep een CSV-bestand.
+   * Download een CSV-sjabloon of sleep een CSV-bestand naar de pagina **[!UICONTROL Add Users by CSV]**.
 
    ![Gebruikers toevoegen met csv](assets/admin_console_addbulkuserscsv.png)
 
    * Klik op **[!UICONTROL Upload]**.
-   Als u gebruikers hebt toegevoegd aan het standaardproductprofiel, namelijk Brand Portal, wordt een welkomstbericht verzonden naar de e-mail-id van de gebruikers die u hebt toegevoegd. De uitgenodigde gebruikers kunnen tot het Portaal van het Merk toegang hebben door de verbinding in welkome e-mail te klikken en binnen te ondertekenen gebruikend een [!UICONTROL Adobe ID]. Voor meer informatie, zie de [Eerste login ervaring](../using/brand-portal-onboarding.md).
+   Als u gebruikers hebt toegevoegd aan het standaardproductprofiel, namelijk Brand Portal, wordt een welkomstbericht verzonden naar de e-mail-id van de gebruikers die u hebt toegevoegd. De uitgenodigde gebruikers kunnen tot het Portaal van het Merk toegang hebben door de verbinding in welkome e-mail te klikken en binnen te ondertekenen gebruikend [!UICONTROL Adobe ID]. Voor meer informatie, zie [Eerste-inlogervaring](../using/brand-portal-onboarding.md).
 
    Gebruikers die aan een aangepast of nieuw productprofiel zijn toegevoegd, ontvangen geen e-mailberichten.
 
-## Beheerdersrechten aan gebruikers opgeven {#provide-administrator-privileges-to-users}
+## Beheerdersrechten opgeven voor gebruikers {#provide-administrator-privileges-to-users}
 
-U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Poortgebruiker van het Merk verstrekken. Geef geen andere beheerrechten op die beschikbaar zijn in [!UICONTROL Admin Console], zoals de beheerder van het productprofiel, de beheerder van de gebruikersgroep en de ondersteuningsbeheerder. Voor meer informatie over deze rollen, zie [Administratieve rollen](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Poortgebruiker van het Merk verstrekken. Geef geen andere beheerrechten op die beschikbaar zijn in [!UICONTROL Admin Console], zoals de beheerder van het productprofiel, de beheerder van de gebruikersgroep en de ondersteuningsbeheerder. Om meer over deze rollen te weten te komen, zie [Administratieve rollen](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >
->U kunt zich [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich [!UICONTROL Admin Console] rechtstreeks aanmeldt, volgt u stap 4-8 in de onderstaande procedure om een gebruiker aan een productprofiel toe te voegen.
+>U kunt zich bij [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direct of van het Portaal van het Merk aanmelden. Als u zich direct bij [!UICONTROL Admin Console] aanmeldt, volgt u stap 4-8 in de onderstaande procedure om een gebruiker aan een productprofiel toe te voegen.
 
 1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
@@ -189,19 +189,19 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
 
    ![Deelvenster Gereedschappen voor beheerders](assets/admin-tools-panel-8.png)
 
-1. Klik in de [!UICONTROL User Roles] pagina op het **[!UICONTROL Management]** tabblad en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
+1. Klik op het tabblad [!UICONTROL User Roles] op de pagina **[!UICONTROL Management]** en klik vervolgens op **[!UICONTROL Launch Admin Console]**.
 
    ![Admin Console starten](assets/launch_admin_console.png)
 
-1. Klik op de werkbalk boven in het scherm **[!UICONTROL Users]**.
-1. Op de [!UICONTROL Users] pagina wordt standaard [!UICONTROL Users] in de linkerspoorstaaf geselecteerd. Klik op de gebruikersnaam van de gebruiker aan wie u beheerdersrechten wilt verlenen.
+1. Klik op **[!UICONTROL Users]** op de werkbalk boven in het scherm.
+1. Op de pagina [!UICONTROL Users] wordt [!UICONTROL Users] in de linkertrack standaard geselecteerd. Klik op de gebruikersnaam van de gebruiker aan wie u beheerdersrechten wilt verlenen.
 
    ![Gebruikers toevoegen in Admin Console](assets/admin_console_adduseruserpage.png)
 
-1. Zoek in de pagina met gebruikersprofielen de **[!UICONTROL Administrative Rights]** sectie onderaan en kies **[!UICONTROL ellipsis (...) > Edit admin rights]**.
+1. Zoek in de pagina met gebruikersprofielen de sectie **[!UICONTROL Administrative Rights]** onderaan en kies **[!UICONTROL ellipsis (...) > Edit admin rights]**.
    ![Beheerdersrechten in Admin Console](assets/admin_console_editadminrights.png)
 
-1. Selecteer Systeembeheerder of Productbeheerder op de [!UICONTROL Edit Admin] pagina.
+1. Selecteer Systeembeheerder of Productbeheerder op de pagina [!UICONTROL Edit Admin].
 
    ![Beheerdersrechten in Admin Console bewerken](assets/admin_console_editadminrightsselection.png)
 
@@ -209,7 +209,7 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
    >
    >Brand Portal ondersteunt alleen de rollen Systeembeheerder en Productbeheerder.
    >
-   >Adobe raadt u aan de rol Systeembeheerder niet te gebruiken omdat deze beheerdersrechten voor de hele organisatie toekent voor alle producten van een organisatie. Bijvoorbeeld, heeft een systeembeheerder van een organisatie die drie marketing wolkenproducten omvat de volledige reeks voorrechten voor alle drie producten. Slechts kan een Beheerder van het Systeem AEM Assets vormen zodat de activa van AEM Assets aan het Portaal van het Merk kunnen worden gepubliceerd. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe raadt u aan de rol Systeembeheerder niet te gebruiken omdat deze beheerdersrechten voor de hele organisatie toekent voor alle producten van een organisatie. Bijvoorbeeld, heeft een systeembeheerder van een organisatie die drie marketing wolkenproducten omvat de volledige reeks voorrechten voor alle drie producten. Slechts kan een Beheerder van het Systeem AEM Assets vormen zodat de activa van AEM Assets aan het Portaal van het Merk kunnen worden gepubliceerd. Zie [AEM Assets configureren met Merkportal](../using/configure-aem-assets-with-brand-portal.md) voor meer informatie.
    >
    >In tegenstelling, verleent de rol van de Beheerder van het Product beheerder beheerdervoorrechten voor slechts een specifiek product. Als u een meer korrelig toegangsbeheer binnen het Portaal van het Merk wilt afdwingen, gebruik de rol van de Beheerder van het Product en selecteer het product als Portaal van het Merk.
 
@@ -217,11 +217,11 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een Po
    >
    >Brand Portal biedt geen ondersteuning voor bevoegdheden van de beheerder van het productprofiel (voorheen bekend als configuratiebeheerder). Wijs geen beheerdersrechten voor het productprofiel toe aan een gebruiker.
 
-1. Controleer de selectie van het beheertype en klik op **[!UICONTROL Save]**.
+1. Controleer de selectie van het admin-type en klik op **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
-   >Als u de beheerdersrechten voor een gebruiker wilt intrekken, brengt u de gewenste wijzigingen aan op de **[!UICONTROL Edit Admin]** pagina en klikt u op **[!UICONTROL Save]**.
+   >Als u beheerdersrechten voor een gebruiker wilt intrekken, brengt u de gewenste wijzigingen aan op de pagina **[!UICONTROL Edit Admin]** en klikt u op **[!UICONTROL Save]**.
 
 
 ## Gebruikersrollen beheren {#manage-user-roles}
@@ -230,8 +230,8 @@ Een beheerder kan rollen voor gebruikers in het Portaal van het Merk wijzigen.
 
 Naast de rol van Beheerder, steunt het Portaal van het Merk de volgende rollen:
 
-* [!UICONTROL Viewer]: Gebruikers met deze rol kunnen de bestanden en mappen weergeven die een beheerder met hen deelt. Viewers kunnen ook middelen zoeken en downloaden. Viewers kunnen echter geen inhoud (bestanden, mappen [!UICONTROL collections]) delen met andere gebruikers.
-* [!UICONTROL Editor]: Gebruikers met deze rol hebben alle rechten van een Viewer. Bovendien kunnen Editors inhoud (mappen, koppelingen [!UICONTROL collections]en koppelingen) delen met andere gebruikers.
+* [!UICONTROL Viewer]: Gebruikers met deze rol kunnen de bestanden en mappen weergeven die een beheerder met hen deelt. Viewers kunnen ook middelen zoeken en downloaden. Viewers kunnen echter geen inhoud (bestanden, mappen, [!UICONTROL collections]) delen met andere gebruikers.
+* [!UICONTROL Editor]: Gebruikers met deze rol hebben alle rechten van een Viewer. Bovendien kunnen Editors inhoud (mappen, [!UICONTROL collections], koppelingen) delen met andere gebruikers.
 
 1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
@@ -241,15 +241,15 @@ Naast de rol van Beheerder, steunt het Portaal van het Merk de volgende rollen:
 
    ![Deelvenster Gereedschappen voor beheerders](assets/admin-tools-panel-9.png)
 
-1. Op de [!UICONTROL User Roles] pagina is het [!UICONTROL Users] tabblad standaard geselecteerd. Voor de gebruiker van wie rol u wilt veranderen, selecteer **[!UICONTROL Editor]** of **[!UICONTROL Viewer]** van **[!UICONTROL Role]** drop-down.
+1. Op de pagina [!UICONTROL User Roles] is de tab [!UICONTROL Users] standaard geselecteerd. Selecteer **[!UICONTROL Editor]** of **[!UICONTROL Viewer]** in de vervolgkeuzelijst **[!UICONTROL Role]** voor de gebruiker wiens rol u wilt wijzigen.
 
    ![Gebruikersrollen wijzigen](assets/modify_user_role.png)
 
-   Als u de rol van meerdere gebruikers tegelijk wilt wijzigen, selecteert u de gebruikers en kiest u de gewenste rol in de **[!UICONTROL Role]** vervolgkeuzelijst.
+   Als u de rol van meerdere gebruikers tegelijk wilt wijzigen, selecteert u de gebruikers en kiest u de gewenste rol in de vervolgkeuzelijst **[!UICONTROL Role]**.
 
    >[!NOTE]
    >
-   >De [!UICONTROL Role] lijst voor gebruikers van de Beheerder is gehandicapt. U kunt deze gebruikers niet selecteren om hun rollen te wijzigen.
+   >De lijst [!UICONTROL Role] voor gebruikers van de Beheerder is gehandicapt. U kunt deze gebruikers niet selecteren om hun rollen te wijzigen.
 
 
    >[!NOTE]
@@ -261,11 +261,11 @@ Naast de rol van Beheerder, steunt het Portaal van het Merk de volgende rollen:
 
    >[!NOTE]
    >
-   >Wijzigingen in gebruikersmachtigingen worden pas op de **[!UICONTROL User Roles]** pagina weergegeven nadat de gebruikers zich opnieuw hebben aangemeld bij Brand Portal.
+   >Wijzigingen in gebruikersmachtigingen worden pas op de pagina **[!UICONTROL User Roles]** weergegeven nadat de gebruikers zich opnieuw hebben aangemeld bij Brand Portal.
 
 ## Groeprollen en -rechten beheren {#manage-group-roles-and-privileges}
 
-Een beheerder kan specifieke voorrechten met een [groep](../using/brand-portal-adding-users.md#main-pars-title-278567577) gebruikers op het Portaal van het Merk associëren. Op het **[!UICONTROL Groups]** tabblad op de **[!UICONTROL User Roles]** pagina kunnen beheerders:
+Een beheerder kan specifieke voorrechten met een [groep](../using/brand-portal-adding-users.md#main-pars-title-278567577) van gebruikers op het Portaal van het Merk associëren. Met het tabblad **[!UICONTROL Groups]** op de pagina **[!UICONTROL User Roles]** kunnen beheerders:
 
 * Rollen toewijzen aan gebruikersgroepen
 * Gebruikersgroepen beperken om originele uitvoeringen van afbeeldingsbestanden te downloaden (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x Photoshop, .psd, image/vnd.adobe.photoshop) van Brand Portal.
@@ -276,11 +276,11 @@ Een beheerder kan specifieke voorrechten met een [groep](../using/brand-portal-a
 
 Voer de volgende stappen uit om de rol en het recht op toegang tot originele uitvoeringen voor specifieke groepsleden te wijzigen:
 
-1. Navigeer op de **[!UICONTROL User Roles]** pagina naar het **[!UICONTROL Groups]** tabblad.
+1. Navigeer op de pagina **[!UICONTROL User Roles]** naar het tabblad **[!UICONTROL Groups]**.
 1. Selecteer de groepen waarvoor u rollen wilt wijzigen.
-1. Selecteer de gewenste rol in de **[!UICONTROL Role]** vervolgkeuzelijst.
+1. Selecteer de aangewezen rol van **[!UICONTROL Role]** drop-down lijst.
 
-   De leden van een groep toegang geven tot originele uitvoeringen van afbeeldingsbestanden (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/shop , image/x-photoshop, .psd, image/vnd.adobe.photoshop) die zij van het portaal of de gedeelde verbinding downloaden, houden de **[!UICONTROL Access to  Original]** optie voor die groep geselecteerd. Deze optie is standaard **[!UICONTROL Access to Original]** geselecteerd voor alle gebruikers. Als u wilt voorkomen dat een gebruikersgroep toegang krijgt tot de oorspronkelijke uitvoeringen, schakelt u de optie uit die overeenkomt met die groep.
+   De leden van een groep toegang geven tot originele uitvoeringen van afbeeldingsbestanden (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/shop , image/x-photoshop, .psd, image/vnd.adobe.photoshop) die zij van het portaal of de gedeelde verbinding downloaden, houden de **[!UICONTROL Access to  Original]** optie voor die groep geselecteerd. De optie **[!UICONTROL Access to Original]** is standaard geselecteerd voor alle gebruikers. Als u wilt voorkomen dat een gebruikersgroep toegang krijgt tot de oorspronkelijke uitvoeringen, schakelt u de optie uit die overeenkomt met die groep.
 
    ![Gebruikersgroeprollen](assets/access-original-rend.png)
 
