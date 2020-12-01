@@ -12,9 +12,9 @@ ht-degree: 6%
 ---
 
 
-# Handleiding Adobe Experience Manager Assets Merk Portal {#aem-brand-portal}
+# Handleiding Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** helpt organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
+**Adobe Experience Manager Assets Brand** Portalaids-organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
 
 Het ontbreken van een veilige oplossing voor het delen van bedrijfsmiddelen kan leiden tot:
 
