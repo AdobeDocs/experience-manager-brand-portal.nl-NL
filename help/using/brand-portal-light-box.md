@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # De lichtbakverzameling beheren {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]** is een speciaal type verzameling dat eenvoudig toegang biedt tot activa. Elke gebruiker heeft een exclusieve **[!UICONTROL Lightbox]** die automatisch wordt gecreeerd wanneer zij login aan het Portaal van het Merk voor het eerst. De **[!UICONTROL Lightbox]** verzameling kan niet worden verwijderd.
+**[!UICONTROL Lightbox]** is een speciaal type verzameling dat eenvoudig toegang biedt tot activa. Elke gebruiker heeft een exclusieve **[!UICONTROL Lightbox]** die automatisch wordt gecreeerd wanneer zij login aan het Portaal van het Merk voor het eerst. De **[!UICONTROL Lightbox]**-verzameling kan niet worden verwijderd.
 
 ## Elementen toevoegen aan lichtbak {#add-assets-to-lightbox}
 
-Ga als volgt te werk om elementen aan toe te voegen **[!UICONTROL Lightbox]**:
+Ga als volgt te werk om elementen toe te voegen aan **[!UICONTROL Lightbox]**:
 
-1. Navigeer naar de locatie van de elementen die u wilt toevoegen **[!UICONTROL Lightbox]** en selecteer de elementen.
+1. Navigeer naar de locatie van de elementen die u wilt toevoegen aan **[!UICONTROL Lightbox]** en selecteer de elementen.
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -33,30 +33,30 @@ Ga als volgt te werk om elementen aan toe te voegen **[!UICONTROL Lightbox]**:
 
    ![](assets/add_to_collection.png)
 
-1. Op de **[!UICONTROL Add To Collection]** pagina is de **[!UICONTROL Lightbox]** verzameling standaard geselecteerd.
+1. Op de **[!UICONTROL Add To Collection]** pagina, wordt de **[!UICONTROL Lightbox]** inzameling door gebrek geselecteerd.
 
-   Klik op **[!UICONTROL Add]**. De geselecteerde elementen worden toegevoegd aan het **[!UICONTROL Lightbox]** bestand.
+   Klik op **[!UICONTROL Add]**. De geselecteerde elementen worden toegevoegd aan **[!UICONTROL Lightbox]**.
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. Als u de elementen wilt bekijken die aan **[!UICONTROL Lightbox]** zijn toegevoegd, klikt u op **[!UICONTROL Collections]** de linkertrack en vervolgens op de **[!UICONTROL Lightbox]** verzameling.
+1. Als u de aan **[!UICONTROL Lightbox]** toegevoegde elementen wilt bekijken, klikt u op **[!UICONTROL Collections]** op de linkertrack en klikt u vervolgens op de verzameling **[!UICONTROL Lightbox]**.
 
    ![](assets/collections_lightbox.png)
 
-   De toegevoegde elementen worden op de **[!UICONTROL Lightbox]** pagina **[!UICONTROL Lightbox]** weergegeven.
+   De aan **[!UICONTROL Lightbox]** toegevoegde elementen worden weergegeven op de pagina **[!UICONTROL Lightbox]**.
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Elementen verwijderen uit lichtbak {#remove-assets-from-lightbox}
 
-1. Als u de elementen in wilt bekijken [!UICONTROL Lightbox], klikt u op **[!UICONTROL Collections]** de linkertrack en klikt u op de [!UICONTROL Lightbox] verzameling.
+1. Als u de elementen in [!UICONTROL Lightbox] wilt bekijken, klikt u op **[!UICONTROL Collections]** op de linkertrack en klikt u vervolgens op de verzameling [!UICONTROL Lightbox].
 
    ![](assets/collections_lightbox-1.png)
 
-1. Selecteer de map die u uit de verzameling wilt verwijderen en klik op **[!UICONTROL Remove]** de werkbalk boven in de verzameling.
+1. Selecteer de map die u uit de verzameling wilt verwijderen en klik vervolgens op **[!UICONTROL Remove]** op de werkbalk boven in de verzameling.
 
    ![](assets/collections_lightboxdelete.png)
 
-1. Klik in het waarschuwingsbericht op Verwijderen **[!UICONTROL Remove]** om te bevestigen.
+1. Klik in het waarschuwingsbericht op **[!UICONTROL Remove]** om de verwijdering te bevestigen.
 
-De map wordt verwijderd uit de **[!UICONTROL Lightbox]** verzameling.
+De map wordt verwijderd uit de verzameling **[!UICONTROL Lightbox]**.
