@@ -22,11 +22,11 @@ ht-degree: 4%
 
 Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal versie 2020.10.0.
 
-## Geen informatie {#release-information}
+## Informatie opheffen {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2020.10.0 |
+| Versie | 2020 10,0 |
 | Date | Oktober 2020 |
 
 ## Overzicht {#overview}
@@ -39,28 +39,28 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 Deze release bevat de volgende nieuwe functies:
 
-* Het **[!UICONTROL Download]** dialoogvenster wordt vernieuwd in een lijstweergave met aanvullende opties om de uitvoeringen uit te sluiten die niet vereist zijn, dezelfde set regels toe te passen voor vergelijkbare elementtypen en de geselecteerde elementuitvoeringen te downloaden. Zie de [stappen voor het downloaden van middelen van Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* Het dialoogvenster **[!UICONTROL Download]** wordt vernieuwd in een lijstweergave met aanvullende opties om de uitvoeringen uit te sluiten die niet vereist zijn, dezelfde set regels toe te passen voor vergelijkbare elementtypen en de geselecteerde elementuitvoeringen te downloaden. Zie [stappen om elementen te downloaden van Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* Navigatie naar de pagina&#39;s **[!UICONTROL Files]**, **[!UICONTROL Collections]** en **[!UICONTROL Shared Links]** is nu mogelijk vanaf alle pagina&#39;s van het Brand Portal met één klik.
+* Navigatie naar **[!UICONTROL Files]**, **[!UICONTROL Collections]**, en **[!UICONTROL Shared Links]** is nu mogelijk van alle pagina&#39;s van het Portaal van het Merk in één klik.
 
-* Met het **[!UICONTROL Renditions]** deelvenster op de pagina met elementdetails kunnen de gebruikers van het Brand Portal het oorspronkelijke element en (of) specifieke elementen selecteren en deze rechtstreeks downloaden vanuit het **[!UICONTROL Renditions]** deelvenster zonder dat ze het **[!UICONTROL Download]** dialoogvenster hoeven te openen. Zie Elementen [downloaden vanaf de pagina](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)met elementdetails.
+* Met het **[!UICONTROL Renditions]**-deelvenster op de pagina met elementdetails kunnen de gebruikers van het Brand Portal het oorspronkelijke element en (of) specifieke elementen selecteren en deze rechtstreeks downloaden vanuit het **[!UICONTROL Renditions]**-deelvenster zonder dat ze het **[!UICONTROL Download]**-dialoogvenster hoeven te openen. Zie [Elementen downloaden van pagina met elementdetails](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Naast de bestaande **[!UICONTROL Download]** configuraties, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers [ook](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) vormen om het originele element en zijn vertoningen van de pagina van de activadetails te bekijken en (of) te downloaden. Deze configuraties bepalen wie toegang heeft tot de elementuitvoeringen en (of deze kan downloaden).
+* Naast de bestaande **[!UICONTROL Download]** configuraties, kunnen de beheerders van het Portaal van het Merk ook [toestemmingen voor verschillende groep gebruikers ](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) vormen om het originele element en zijn vertoningen van de pagina van de elementendetails te bekijken en (of) te downloaden. Deze configuraties bepalen wie toegang heeft tot de elementuitvoeringen en (of deze kan downloaden).
 
 ### Verbeteringen {#enhancements}
 
 Deze release bevat de volgende verbeteringen:
 
 * De drempel van sessietime-out voor de gastgebruikers is verlaagd van 2 uur naar 15 minuten.
-* De extra **[!UICONTROL View pages]** optie is verwijderd voor PDF&#39;s die uit meerdere pagina&#39;s bestaan, omdat de gebruiker de PDF-pagina&#39;s nu kan weergeven vanuit de Adobe Document Cloud Viewer.
+* De extra optie **[!UICONTROL View pages]** is verwijderd voor PDF&#39;s met meerdere pagina&#39;s omdat de gebruiker de PDF-pagina&#39;s nu kan bekijken vanuit de Adobe Document Cloud Viewer.
 
 
 <!--
@@ -75,7 +75,7 @@ This release includes fixes to the following critical issue:
 
 Deze release bevat de volgende bekende uitgave:
 
-* In de zoekopdracht op de **[!UICONTROL Asset Reports]** werkbalk ziet u de verwerking in de productinterface zonder zoekresultaat.
+* Het onderzoek op **[!UICONTROL Asset Reports]** toont verwerking op de productinterface zonder onderzoeksresultaat.
 * De video-DM-codes zijn niet zichtbaar voor gebruikers die geen beheerder zijn, op de pagina met elementdetails.
 * De uitlijning van de grootte van afzonderlijke elementuitvoeringen en de totale downloadgrootte wordt vervormd in het dialoogvenster Downloaden.
 
@@ -133,7 +133,7 @@ De gebruikersinterface van het Merk Portal is beschikbaar in de volgende talen:
 
 ## Gecertificeerde Platforms {#certified-platforms}
 
-Als u wilt weten welke platforms zijn gecertificeerd voor uitvoering met deze versie van Brand Portal, raadpleegt u de kolom **Ondersteuning voor voor voor touch geoptimaliseerde interface** in de tabel in het gedeelte **Ondersteunde browsers voor ontwerpen van gebruikersinterface** van [Technische vereisten](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Als u wilt controleren welke platforms zijn gecertificeerd voor uitvoering met deze versie van Brand Portal, raadpleegt u de kolom **Ondersteuning voor voor voor touch geoptimaliseerde interface** in de tabel in de sectie **Ondersteunde browsers voor ontwerpgebruikersinterface** van [Technische vereisten](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Koppelingen {#links}
 
