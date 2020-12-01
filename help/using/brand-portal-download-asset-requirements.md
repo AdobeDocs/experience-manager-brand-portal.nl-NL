@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Elementvereisten downloaden {#using-asset-souring-in-bp}
+# Elementvereisten {#using-asset-souring-in-bp} downloaden
 
-De gebruikers van het Portaal van het merk ontvangen automatisch e-mail/pulse berichten wanneer een bijdrageomslag door de gebruiker AEM wordt gedeeld, die hen toestaat om het korte (activa vereiste) document te downloaden, evenals basiselementen (verwijzing inhoud) te downloaden, van de **GEDEELDE** omslag om hen te verzekeren de activavereisten begrijpen.
+De gebruikers van het Portaal van het merk ontvangen automatisch e-mail/pulse berichten wanneer een bijdrageomslag door de AEM gebruiker wordt gedeeld, die hen toestaat om het korte (activa vereiste) document te downloaden, evenals de basisactiva (verwijzing inhoud) te downloaden, van **SHARED** omslag om hun de activavereisten te begrijpen.
 
 De gebruiker van het Portaal van het merk voert de volgende activiteiten uit om activavereisten te downloaden:
 
@@ -35,13 +35,13 @@ Het dashboard voor Brand Portal weerspiegelt alle bestaande mappen die zijn toeg
 1. Selecteer de bijdragemap in het dashboard voor het Brand Portal.
 1. Klik op **[!UICONTROL Properties]** ![](assets/properties.png). Het venster Eigenschappen wordt geopend en hierin worden de gegevens van de map Asset Contribution weergegeven.
    ![](assets/download-asset-requirement1.png)
-1. Klik **[!UICONTROL Download Brief]** ![](assets/download.png) om het document met elementvereisten te downloaden naar uw lokale computer.
+1. Klik **[!UICONTROL Download Brief]** ![](assets/download.png) om het document met elementvereisten op uw lokale computer te downloaden.
    ![](assets/download-asset-requirement2.png)
 1. Ga terug naar het dashboard van de Portaalpagina van het Merk.
-1. Klik om de map met bijdragen te openen. Er worden twee submappen **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met bijdragen weergegeven. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
-1. U kunt de **[!UICONTROL SHARED]** map met alle basislijnelementen downloaden naar uw lokale computer.
-U kunt ook de **[!UICONTROL SHARED]** map openen en op het pictogram **Downloaden** klikken ![](assets/download.png) om afzonderlijke bestanden/mappen te downloaden.
+1. Klik om de bijdragemap te openen. U ziet twee submappen -**[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de bijdragemap. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
+1. U kunt de map **[!UICONTROL SHARED]** downloaden met alle basislijnelementen op uw lokale computer.
+U kunt ook de map **[!UICONTROL SHARED]** openen en op **Downloadpictogram** ![](assets/download.png) klikken om afzonderlijke bestanden/mappen te downloaden.
    ![](assets/download-asset-requirement3.png)
 
-Doorloop het korte document (document met elementvereisten) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contributie.
+Doorloop de samenvatting (document met vereisten voor elementen) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen. Zie [Elementen uploaden naar bijdragemap](brand-portal-upload-assets-to-contribution-folder.md).
 
