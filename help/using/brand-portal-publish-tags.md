@@ -21,7 +21,7 @@ ht-degree: 3%
 
 Leer hoe u tags kunt publiceren van AEM Assets naar Brand Portal.
 
-Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Als u wilt weten hoe u tags aan elementen in AEM Assets wilt toewijzen, raadpleegt u [gebruikstags om elementen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)te ordenen.
+Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Als u wilt weten hoe tags aan elementen in AEM Assets moeten worden toegewezen, raadpleegt u [tags gebruiken om elementen te ordenen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 Tags (gekoppeld aan elementen en verzamelingen in AEM) worden automatisch naar Brand Portal gepubliceerd wanneer de elementen (en verzamelingen) met bijbehorende tags naar Brand Portal worden gepubliceerd. De gepubliceerde tags zijn handig om zoekopdrachten in staat te stellen de bijbehorende elementen te vinden.
 
@@ -29,13 +29,14 @@ Tags (gekoppeld aan elementen en verzamelingen in AEM) worden automatisch naar B
 >
 >Het wordt echter aanbevolen om uitsluitend labels naar Brand Portal te publiceren voordat de elementen (en verzamelingen) waarmee de labels zijn gekoppeld, worden gepubliceerd. Hierdoor wordt het sneller publiceren van de elementen (en verzamelingen) naar Brand Portal gegarandeerd.
 
-## Tags beheren {#manage-tags}
+## Tags {#manage-tags} beheren
 
-U kunt de bestaande tags gebruiken om aan een element te koppelen of nieuwe tags maken vanuit de AEM Tags-console (**[!UICONTROL Tools | Tagging | AEM Tags]**). In beide scenario&#39;s moet u de labels eerst publiceren naar Brand Portal en ze vervolgens koppelen aan de juiste middelen.
+U kunt de reeds bestaande markeringen gebruiken om aan activa vast te maken of nieuwe markeringen van AEM console van Markeringen tot stand te brengen (**[!UICONTROL Tools | Tagging | AEM Tags]**). In beide scenario&#39;s moet u de labels eerst publiceren naar Brand Portal en ze vervolgens koppelen aan de juiste middelen.
 
-Voer de volgende stappen uit om labels te maken op AEM, de labels te publiceren op Brand Portal en de tags te koppelen aan de juiste elementen (of verzamelingen):
+Als u tags wilt maken op AEM, de tags wilt publiceren op Brand Portal en de tags wilt koppelen aan de juiste elementen (of verzamelingen), voert u de volgende stappen uit:
 
-1. **Tags** aanmelden bij AEM Author-instantie met beheerdersrechten en toegang tot **[!UICONTROL AEM Tags]** console via globale navigatie:
+1. **Maak**
+TagsAanmelden bij de instantie AEM-auteur met beheerdersrechten en open  **[!UICONTROL AEM Tags]** console via globale navigatie:
 
    1. Selecteer **[!UICONTROL Tools]**
 
@@ -43,8 +44,8 @@ Voer de volgende stappen uit om labels te maken op AEM, de labels te publiceren 
 
    1. Selecteer **[!UICONTROL Tagging]**
 
-1. Selecteer **[!UICONTROL Create]** en selecteer de **[!UICONTROL Create Tag]** optie.
-1. Opgeven:
+1. Selecteer **[!UICONTROL Create]** en selecteer vervolgens **[!UICONTROL Create Tag]** optie.
+1. Geef het volgende op:
 
    * **[!UICONTROL Title]**
 
@@ -54,11 +55,12 @@ Voer de volgende stappen uit om labels te maken op AEM, de labels te publiceren 
    * **Beschrijving**
 
       *(optioneel)* Een beschrijving van de tag.
-   * **Tagpad** JCR-pad van de tag.
+   * **Label het**
+pad PathJCR van de tag.
 
-1. Selecteer deze optie **[!UICONTROL Submit]** om de tag te maken.
+1. Selecteer **[!UICONTROL Submit]** om de tag te maken.
 
-   Nadat u een tag op een AEM-instantie hebt gemaakt, is de tag beschikbaar om aan een element te worden gekoppeld (met de sectie Eigenschappen of de sectie Codes beheren van dat element).
+   Nadat u een tag hebt gemaakt op AEM instantie, is de tag beschikbaar om aan een element te worden gekoppeld (met de sectie Eigenschappen of de sectie Codes van dat element beheren).
 
 1. **Publiceer de tag naar Brand Portal**.
 
@@ -66,7 +68,7 @@ Voer de volgende stappen uit om labels te maken op AEM, de labels te publiceren 
 
 1. **Koppel de tag aan een element (of verzameling)**.
 
-   Selecteer een element (of verzameling) en koppel de gewenste tag via het gedeelte Eigenschappen of het gedeelte Codes beheren van dat element. Als u meer wilt weten over het toewijzen van labels aan elementen in AEM Assets, raadpleegt u [gebruikstags om elementen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)te ordenen.
+   Selecteer een element (of verzameling) en koppel de gewenste tag via het gedeelte Eigenschappen of het gedeelte Codes beheren van dat element. Raadpleeg [Tags gebruiken om elementen te ordenen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets) voor meer informatie over het toewijzen van tags aan elementen in AEM Assets.
 
 1. **Elementen (of verzamelingen) publiceren naar Brand Portal**.\
    Wanneer u een element (of verzameling) publiceert naar Brand Portal, is de bijgevoegde tag ook beschikbaar op Brand Portal.
@@ -75,17 +77,17 @@ Voer de volgende stappen uit om labels te maken op AEM, de labels te publiceren 
 
 ## Zoeken bevorderen {#search-promote}
 
-Met AEM Assets Brand Portal kunt u specifieke elementen als de beste resultaten maken voor zoekopdrachten op basis van een trefwoordtag.
+Met AEM Assets Brand Portal kunt u specifieke elementen gebruiken als de beste resultaten voor zoekopdrachten op basis van een trefwoordtag.
 
 Voer de volgende stappen uit om elementen voor een zoektrefwoord te verhogen:
 
-1. Open de **[!UICONTROL Properties]** pagina van een element op de AEM-auteurinstantie.
+1. Open de pagina **[!UICONTROL Properties]** van een element op AEM auteurinstantie.
 1. Ga naar **[!UICONTROL Advanced]** tabblad.
-1. Selecteer in **[!UICONTROL Search Promote]** de **[!UICONTROL Elevate for search keywords]** sectie **[!UICONTROL Add]** om de zoektrefwoorden of -tags toe te voegen.
+1. Selecteer **[!UICONTROL Add]** in **[!UICONTROL Search Promote]** in **[!UICONTROL Elevate for search keywords]** sectie om de zoektrefwoorden of -tags toe te voegen.
 
    ![](assets/search-promote.png)
 
 1. Sla de wijzigingen op.
 1. Publiceer het element naar Brand Portal.
-1. Meld u aan bij Brand Portal. Tabblad weergeven **[!UICONTROL Advanced]** in **[!UICONTROL Properties]** sectie van het element.
-Het **[!UICONTROL Search Promote]** trefwoord is ook zichtbaar in de eigenschappen van dat element.
+1. Meld u aan bij Brand Portal. Tabblad **[!UICONTROL Advanced]** weergeven in sectie **[!UICONTROL Properties]** van het element.
+Het trefwoord **[!UICONTROL Search Promote]** is ook zichtbaar in de eigenschappen van dat element.
