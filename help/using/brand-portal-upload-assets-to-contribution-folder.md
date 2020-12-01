@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Elementen uploaden naar de bijdragemap {#uplad-new-assets-to-contribution-folder}
+# Elementen uploaden naar bijdragemap {#uplad-new-assets-to-contribution-folder}
 
-De gebruikers van het Merk Portal kunnen de activavereisten [](brand-portal-download-asset-requirements.md) downloaden om de behoefte van bijdrage te begrijpen.
+De gebruikers van de Poort van het Merk kunnen [de activa vereisten ](brand-portal-download-asset-requirements.md) downloaden om de behoefte van bijdrage te begrijpen.
 Vervolgens kunnen ze nieuwe middelen maken voor de bijdrage en deze uploaden naar de map NEW in de map met de bijdrage.
 
 >[!NOTE]
@@ -46,18 +46,18 @@ Zodra de doelstelling van het creëren van de bijdrageomslag wordt bereikt, kan 
 1. Meld u aan bij uw Brand Portal-exemplaar.
 Het dashboard voor het Brand Portal geeft alle bestaande mappen weer die zijn toegestaan aan de gebruiker van het Brand Portal, samen met de nieuwe gedeelde bijdragemap.
 
-1. Selecteer de map met de bijdrage en klik om deze te openen. De map voor bijdragen bevat twee submappen - **[!UICONTROL SHARED]** en **[!UICONTROL NEW]**.
+1. Selecteer de map met de bijdrage en klik om deze te openen. De map voor bijdragen bevat twee submappen: **[!UICONTROL SHARED]** en **[!UICONTROL NEW]**.
 
-1. Klik op de **[!UICONTROL NEW]** map.
+1. Klik op de **[!UICONTROL NEW]** omslag.
 
    ![](assets/upload-new-assets1.png)
 
-1. Klik **[!UICONTROL Create]** > **[!UICONTROL Files]** om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
+1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]** om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
 
    ![](assets/upload-new-assets2.png)
 
-1. Blader naar elementen (bestanden of mappen) en upload deze naar de **[!UICONTROL NEW]** map.
+1. Blader naar elementen (bestanden of mappen) en upload deze naar de map **[!UICONTROL NEW]**.
 
    ![](assets/upload-new-assets3.png)
 
-Nadat u alle elementen of mappen naar de map NEW hebt geüpload, publiceert u de map met bijdragen naar AEM Assets. Zie Contribute-map [publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Nadat u alle elementen of mappen naar de map NEW hebt geüpload, publiceert u de map met bijdragen naar AEM Assets. Zie [Bijdragemap publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
