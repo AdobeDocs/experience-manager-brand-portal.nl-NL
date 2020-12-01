@@ -1,8 +1,8 @@
 ---
 title: Ondersteunde bestandsindelingen
 seo-title: Ondersteunde bestandsindelingen
-description: 'Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
-seo-description: 'Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
+description: 'Elk AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
+seo-description: 'Elk AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 # Ondersteunde bestandsindelingen {#supported-file-formats}
 
-Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
+Elk AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
 
 | Bestandsindeling | Middelen gepubliceerd op Brand Portal | Uitvoeringen gepubliceerd naar Brand Portal | Metagegevens gepubliceerd naar Brand Portal | Miniaturen gepubliceerd naar Brand Portal | Pagina&#39;s met informatie over middelen gepubliceerd naar Brand Portal | Koppelingen | Miniaturen voor delen koppelen | Voorvertoningen van delen koppelen |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
@@ -44,7 +44,7 @@ Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aa
 | ODT* | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | HTML | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
-| RTF | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
+| TTF | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | XLS | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | XLSX | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
@@ -60,7 +60,7 @@ Elke AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aa
 | MIDI | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MP3 | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
-| Mp4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
+| MP4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
 | Mpg | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | OGA | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
 | OGG | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
@@ -88,4 +88,4 @@ In de volgende legenda worden de symbolen uitgelegd die in de matrix worden gebr
 | ✓ | Deze bestandsindeling ondersteunt deze functie. |
 | ✕ | Deze functie wordt niet ondersteund door deze bestandsindeling. |
 | NA | Deze functie is niet van toepassing op deze bestandsindeling. |
-| * | Voor deze functie is add-on ondersteuning voor deze bestandsindeling op AEM-auteur vereist, maar niet op Brand Portal nadat de middelen naar Brand Portal zijn gepubliceerd. |
+| * | Voor deze functie is add-on ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat de middelen naar Brand Portal zijn gepubliceerd. |
