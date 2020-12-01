@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Map met bijdragen publiceren naar Brand Portal {#publish-contribution-folder-to-brand-portal}
+# Map met bijdragen publiceren naar Brand-portal {#publish-contribution-folder-to-brand-portal}
 
-Zodra de [bijdragemap is geconfigureerd](brand-portal-configure-contribution-folder-properties.md), kan AEM gebruiker (beheerder/niet-beheerder gebruiker) de bijdragemap van AEM Assets naar Brand Portal publiceren. Gebruikers van het Brand Portal die toegang hebben tot de bijdragemap, ontvangen een e-mail-/pulsmelding wanneer de publicatieactie is voltooid.
+Zodra de [contributiemap](brand-portal-configure-contribution-folder-properties.md) wordt gevormd, kan AEM gebruiker (beheerder/niet-admin gebruiker) de bijdrageomslag van AEM Assets aan het Portaal van het Merk publiceren. Gebruikers van het Brand Portal die toegang hebben tot de bijdragemap, ontvangen een e-mail-/pulsmelding wanneer de publicatieactie is voltooid.
 
 
 **Map met bijdragen publiceren:**
@@ -34,4 +34,4 @@ Standaard-URL: http:// localhost:4502/aem/start.html
 
    U ontvangt een succesbericht zodra de map met bijdragen naar Brand Portal is gepubliceerd.
 
-Er wordt een e-mail-/pulsmelding verzonden naar de gebruikers van het Brand Portal die zijn toegewezen aan de map met bijdragen. De gebruikers van het Merk Portal hebben toegang tot de bijdragemap en kunnen beginnen met hun bijdrage. Zie Elementen [uploaden naar de map](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
+Er wordt een e-mail-/pulsmelding verzonden naar de gebruikers van het Brand Portal die zijn toegewezen aan de map met bijdragen. De gebruikers van het Merk Portal hebben toegang tot de bijdragemap en kunnen beginnen met hun bijdrage. Zie [Elementen uploaden naar de Contribute-map](brand-portal-upload-assets-to-contribution-folder.md).
