@@ -18,17 +18,17 @@ ht-degree: 0%
 ---
 
 
-# Contribute-map configureren {#configure-contribution-folder}
+# Contribute-map {#configure-contribution-folder} configureren
 
-Voor gezamenlijke bronnen van middelen kunnen AEM-gebruikers (beheerders en gebruikers zonder beheerdersrechten) nieuwe mappen maken van het type **Asset Contribution**, zodat de nieuwe map die u maakt, kan worden verzonden door gebruikers van Brand Portal.  Dit leidt automatisch tot een werkschema dat tot twee extra subomslagen, genoemd **GEDEELD** en **NIEUW**, binnen de pas gecreëerde omslag van de **Bijdrage** leidt.
+Voor gezamenlijke bronnen van middelen kunnen AEM gebruikers (beheerders en gebruikers zonder beheerdersrechten) nieuwe mappen van het type **Asset Contribution** maken, zodat de nieuwe map die u maakt, kan worden verzonden door gebruikers van Brand Portal.  Dit leidt automatisch tot een werkschema dat tot twee extra subomslagen, genoemd **SHARED** en **NEW**, binnen de pas gecreëerde **Bijdrage** omslag leidt.
 
-AEM-gebruiker definieert vervolgens de elementvereisten door een korte beschrijving te uploaden van de typen elementen die aan de bijdragemap en een set basiselementen moeten worden toegevoegd aan de map **SHARED** om ervoor te zorgen dat gebruikers van Brand Portal over de benodigde informatie beschikken. De beheerder kan actieve gebruikers van het Brand Portal dan toegang tot de bijdrageomslag verlenen alvorens de pas gecreëerde omslag van de Bijdrage aan het Portaal van het Merk te publiceren.
+AEM gebruiker bepaalt dan de activavereisten door een kort over de types van activa te uploaden die aan de bijdrageomslag, evenals een reeks basisactiva, aan **SHARED** omslag moeten worden toegevoegd om ervoor te zorgen de gebruikers van het Portaal van het Merk de informatie hebben zij nodig. De beheerder kan actieve gebruikers van het Brand Portal dan toegang tot de bijdrageomslag verlenen alvorens de pas gecreëerde omslag van de Bijdrage aan het Portaal van het Merk te publiceren.
 
-In de volgende video ziet u hoe u een map Contribution in AEM Assets kunt configureren:
+In de volgende video wordt gedemonstreerd hoe u een Contribute-map in AEM Assets kunt configureren:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-AEM-gebruiker voert de volgende activiteiten uit tijdens het configureren van een bijdragemap:
+AEM gebruiker voert de volgende activiteiten uit terwijl het vormen van een bijdrageomslag:
 
 * [Map voor bijdragen maken](brand-portal-create-contribution-folder.md)
 * [Elementvereisten uploaden](brand-portal-configure-contribution-folder-properties.md)
