@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Map voor bijdragen maken {#create-contribution-folder}
+# Premiemap {#create-contribution-folder} maken
 
 
 AEM beheerders en gebruikers zonder beheerdersrechten die toestemming hebben om een nieuwe map te maken, kunt u een bijdragemap maken in AEM Assets.
@@ -35,9 +35,9 @@ Een bijdragemap maken:
 
 1. Ga naar **[!UICONTROL Assets]** > **[!UICONTROL Files]**. Alle bestaande mappen in de AEM Assets-opslagplaats worden weergegeven.
 
-1. Klik **[!UICONTROL Create]** om een nieuwe map te maken. **[!UICONTROL Create Folder]** wordt geopend.
+1. Klik **[!UICONTROL Create]** om een nieuwe omslag tot stand te brengen. **[!UICONTROL Create Folder]** wordt geopend.
 
-1. Voer **[!UICONTROL Title]** en **[!UICONTROL Name]** van de map in en selecteer het **[!UICONTROL Asset Contribution]** selectievakje.
+1. Voer **[!UICONTROL Title]** en **[!UICONTROL Name]** van de map in en selecteer het selectievakje **[!UICONTROL Asset Contribution]**.
 Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naam te geven.
 
 1. Klik op **[!UICONTROL Create]**. U kunt de bijdragemap weergeven in de AEM Assets-opslagplaats.
@@ -49,10 +49,10 @@ Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naa
 
    ![](assets/create-contribution-folder.png)
 
-1. Klik om de map met bijdragen te openen. Er worden twee submappen **[!UICONTROL SHARED]** weergegeven en deze **[!UICONTROL NEW]** worden automatisch gemaakt in de map met bijdragen.
+1. Klik om de bijdragemap te openen. Er worden twee submappen weergegeven.-**[!UICONTROL SHARED]** en **[!UICONTROL NEW]** worden automatisch gemaakt in de bijdragemap.
 
    ![](assets/contribution-folder.png)
 
-U kunt nu de eigenschappen [van de bijdragemap](brand-portal-configure-contribution-folder-properties.md)configureren.
+U kunt nu [de eigenschappen van de bijdragemap configureren](brand-portal-configure-contribution-folder-properties.md).
 
 
