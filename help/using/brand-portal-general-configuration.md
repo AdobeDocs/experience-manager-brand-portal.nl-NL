@@ -27,17 +27,17 @@ Met AEM Assets Brand Portal kunnen organisaties de volgende mogelijkheden config
 * Creatie van slimme openbare verzamelingen door gebruikers zonder beheerdersrechten
 * Bovenliggende hiërarchie van gedeelde mappen zichtbaar voor gebruikers zonder beheerdersrechten
 
-Deze configuraties zijn geleverd als **[!UICONTROL General Settings]** configuraties in het deelvenster met beheergereedschappen.
+Deze configuraties zijn opgegeven als **[!UICONTROL General Settings]** configuraties in het deelvenster met beheergereedschappen.
 
 ![](assets/general-config.png)
 
-**Een** configuratie waarmee beheerders elementen uit het Brand Portal kunnen verwijderen. (Standaard is ingeschakeld)
+****   AConfiguration om beheerders toe te staan om activa van het Portaal van het Merk te schrappen. (Standaard is ingeschakeld)
 
-**B** Configuratie om de gebruikers niet-admin toe te staan om openbare inzamelingen tot stand te brengen. (Standaard is ingeschakeld)
+****   BConfiguration om de gebruikers niet-admin toe te staan om openbare inzamelingen tot stand te brengen. (Standaard is ingeschakeld)
 
-**C** Configuration om de gebruikers niet-admin toe te staan om openbare slimme inzamelingen tot stand te brengen. (Standaard is ingeschakeld)
+**Configuratie**   waarmee gebruikers die geen beheerder zijn, openbare slimme verzamelingen kunnen maken. (Standaard is ingeschakeld)
 
-**D** -configuratie om de maphiërarchie (van de hoofdmap) van gedeelde mappen weer te geven aan gebruikers die geen beheerder zijn (Editors, Viewers, gastgebruikers). (Standaard is uitgeschakeld)
+****  DConfiguration om maphiërarchie (van de wortel) van gedeelde omslagen aan niet-admingebruikers (Editors, Kijkers, de Gebruikers van de Gast) te tonen. (Standaard is uitgeschakeld)
 
 ## Algemene configuraties inschakelen/uitschakelen {#enable-disable-general-configurations}
 
@@ -45,16 +45,16 @@ Om elk van deze configuraties toe te laten/onbruikbaar te maken:
 
 1. Meld u aan met beheerdersrechten.
 1. Selecteer het AEM logo voor toegang tot de beheergereedschappen op de werkbalk boven in het scherm.
-1. Selecteer in het deelvenster met beheergereedschappen **[!UICONTROL General]** de optie om de **[!UICONTROL General Settings]** pagina te openen.
+1. Selecteer **[!UICONTROL General]** in het deelvenster met beheergereedschappen om de pagina **[!UICONTROL General Settings]** te openen.
 1. Gebruik de respectieve knevelschakelaar om het even welke Algemene configuraties toe te laten/onbruikbaar te maken.
 1. **[!UICONTROL Save]** de wijzigingen.
 1. Afmelden om de wijzigingen van kracht te laten worden.
 
-## Beheerdergebruikers toestaan elementen van Brand Portal te verwijderen {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Beheerdergebruikers toestaan elementen te verwijderen uit Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 **[!UICONTROL Allow users to delete]** Met configuratie kunnen organisaties gebruikers met beheerdersrechten toestaan (of beperken) om elementen en mappen te verwijderen uit Brand Portal.
 
-## Openbare collecties maken door niet-beheerders toestaan {#allow-public-collections-creation-by-non-admins}
+## Maken van openbare verzamelingen door niet-beheerders toestaan {#allow-public-collections-creation-by-non-admins}
 
 [[!UICONTROL Allow public collections creation]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) de configuratie controleert of de niet beheerders openbare inzamelingen op het Portaal van het Merk kunnen tot stand brengen. De configuratie is standaard ingeschakeld. Door de configuratieorganisaties onbruikbaar te maken kunnen het hebben van talrijke openbare inzamelingen op hun portaal verhinderen zodat de systeemruimte kan worden bewaard.
 
@@ -68,6 +68,6 @@ Om elk van deze configuraties toe te laten/onbruikbaar te maken:
 [[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
 -->
 
-## Maphiërarchie inschakelen {#enable-folder-hierarchy}
+## Maphiërarchie {#enable-folder-hierarchy} inschakelen
 
 [[!UICONTROL Enable Folder Hierarchy]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) De configuratie staat de beheerders toe om te controleren hoe de gebruikers niet-admin (Editors, Kijkers, en de Gebruikers van de Gast) de gedeelde omslagen na het programma openen zien.
