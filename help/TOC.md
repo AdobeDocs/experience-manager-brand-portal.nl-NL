@@ -15,7 +15,7 @@ ht-degree: 16%
 ---
 
 
-# Handleiding Adobe Experience Manager Assets Merk Portal {#using}
+# Handleiding Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Handleiding merkportal](using/home.md)
 + Inleiding {#introduction}
@@ -38,13 +38,13 @@ ht-degree: 16%
 + Asset Sourting in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Overzicht](using/brand-portal-asset-sourcing.md)
    + [Middelen in AEM configureren](using/brand-portal-configure-asset-sourcing.md)
-   + Contribute-map in AEM Assets configureren {#configure-contribution-folder}
+   + Contribute-map in AEM Assets {#configure-contribution-folder} configureren
       + [Overzicht](using/brand-portal-contribution-folder.md)
       + [Map voor bijdragen maken](using/brand-portal-create-contribution-folder.md)
       + [Eigenschappen voor bijdragemappen configureren](using/brand-portal-configure-contribution-folder-properties.md)
       + [Basiselementen uploaden](using/brand-portal-upload-baseline-assets.md)
       + [Map met bijdragen publiceren naar Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Asset Souring gebruiken in Brand Portal {#using-asset-sourcing}
+   + Asset Sourting gebruiken in Brand Portal {#using-asset-sourcing}
       + [Overzicht](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Elementvereisten downloaden](using/brand-portal-download-asset-requirements.md)
       + [Elementen uploaden naar de bijdragemap](using/brand-portal-upload-assets-to-contribution-folder.md)
@@ -56,7 +56,7 @@ ht-degree: 16%
 + Zoekmogelijkheden gebruiken {#search-capabilities}
    + [Middelen zoeken op Brand Portal](using/brand-portal-searching.md)
    + [Aangepaste zoekfacetten gebruiken](using/brand-portal-search-facets.md)
-+ Downloadmogelijkheden gebruiken {#download}
++ Downloadmogelijkheden {#download} gebruiken
    + [Elementen downloaden](using/brand-portal-download-assets.md)
    + [Dynamische videoondersteuning op Brand Portal](using/dynamic-video-brand-portal.md)
    + [De lichtbakverzameling beheren](using/brand-portal-light-box.md)
