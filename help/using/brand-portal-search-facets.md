@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
@@ -69,6 +69,12 @@ Een zoekvoorspelling toevoegen aan het **[!UICONTROL Filters]**-deelvenster:
    >Als u **[!UICONTROL Partial Search]** inschakelt, is **[!UICONTROL Ignore Case]** standaard geselecteerd.
 
 1. Open in het veld **[!UICONTROL Property Name]** de eigenschapkiezer en selecteer de eigenschap op basis waarvan de zoekopdracht wordt uitgevoerd. U kunt ook een naam voor de eigenschap invoeren. Voer bijvoorbeeld `  jcr :content/metadata/dc:title` of `./jcr:content/metadata/dc:title` in.
+
+   >[!NOTE]
+   >
+   >In Brand Portal worden alle eigenschappen (behalve de eigenschappen die beginnen met `xmp`) in `jcrcontent/metadata` van `dam:asset` standaard geïndexeerd.
+   >
+   >Om het even welk bezit dat wordt geïndexeerd kan worden gebruikt terwijl het creëren van een bezit voorspelt. Als om het even welk niet-geïndexeerd bezit wordt gevormd, kan de onderzoeksvraag op een niet-geïndexeerd bezit geen onderzoeksresultaat geven.
 
    ![](assets/title-prop.png)
 
