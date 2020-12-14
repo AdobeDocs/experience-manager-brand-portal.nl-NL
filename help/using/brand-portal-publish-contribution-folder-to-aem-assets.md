@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,16 @@ Er wordt een e-mail-/pulsmelding verzonden naar de gebruiker en beheerders van h
 1. **In wachtrij**  - Er wordt een melding verzonden naar de gebruikers- en merkportalbeheerders van het Brand Portal wanneer een publicatieworkflow wordt geactiveerd in het Brand Portal.
 
 1. **Voltooid**  - Er wordt een melding verzonden naar de gebruikers en beheerders van het Brand Portal wanneer de map met bijdragen met succes is gepubliceerd naar AEM Assets.
+
+
+**Status van taak publiceren**
+
+Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de omslagen van de activabijdrage te bekijken die van het Portaal van het Merk aan AEM Assets worden gepubliceerd.
+
+* Navigeer in Brand Portal naar **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Dit rapport geeft de status van alle publicatietaken weer, inclusief de verschillende stadia van de publicatieworkflow (In wachtrij en voltooid).
+
+* Navigeer in AEM Assets-auteurinstantie naar **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Dit verslag geeft alleen de publicatietaken weer die in behandeling zijn.
+
+
 
 
