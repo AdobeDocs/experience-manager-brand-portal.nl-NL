@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
+source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
 workflow-type: tm+mt
 source-wordcount: '1854'
 ht-degree: 0%
@@ -39,7 +39,7 @@ De beheerders van het Portaal van het merk kunnen de activa downloaden en de mon
 
 >[!NOTE]
 >
->De downloadmontages die op het gebruikersinterface worden toegepast vergemakkelijken een zelfbedieningservaring aan de gebruikers van het Portaal van het Merk om de activa gemakkelijk te vormen en te downloaden. Het beperkt niet het downloaden van elementen op de toepassingslaag, bijvoorbeeld, kunnen de gebruikers tot de activa nog toegang hebben en downloaden vertoningen met de volledige weg URL.
+>De downloadmontages die op het gebruikersinterface worden toegepast vergemakkelijken een zelfbedieningservaring aan de gebruikers van het Portaal van het Merk om de activa gemakkelijk te vormen en te downloaden. De functionaliteit beperkt het downloaden van elementen op de toepassingslaag niet. Gebruikers kunnen bijvoorbeeld nog steeds de elementuitvoeringen openen en downloaden met het volledige URL-pad.
 
 De toegang tot en het downloaden van de activa van de interface van het Portaal van het Merk wordt bepaald door de volgende configuraties:
 
