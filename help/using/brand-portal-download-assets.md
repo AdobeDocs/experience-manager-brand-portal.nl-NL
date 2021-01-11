@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,16 @@ Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doord
 
 ## Elementdownload {#configure-download} configureren
 
-De beheerders van het Portaal van het merk kunnen de montages en de toestemmingen van de activadownload voor de gebruikers van het Portaal van het Merk vormen hen om tot activa van de interface van het Portaal van het Merk toegang te hebben en te downloaden.
+De beheerders van het Portaal van het merk kunnen de activa downloaden en de montages van de gebruikersgroep voor de gebruikers van het Portaal van het Merk vormen hen om tot activa van de interface van het Portaal van het Merk toegang te hebben en te downloaden.
 
-De toegang tot en het downloaden van de vertoningen van het Portaal van het Merk wordt bepaald door de volgende configuraties:
+>[!NOTE]
+>
+>De downloadmontages die op het gebruikersinterface worden toegepast vergemakkelijken een zelfbedieningservaring aan de gebruikers van het Portaal van het Merk om de activa gemakkelijk te vormen en te downloaden. Het beperkt niet het downloaden van elementen op de toepassingslaag, bijvoorbeeld, kunnen de gebruikers tot de activa nog toegang hebben en downloaden vertoningen met de volledige weg URL.
+
+De toegang tot en het downloaden van de activa van de interface van het Portaal van het Merk wordt bepaald door de volgende configuraties:
 
 * Downloadinstellingen inschakelen
-* Downloadmachtigingen configureren
+* Gebruikersgroepinstellingen configureren
 
 ### Downloadinstellingen {#enable-download-settings} inschakelen
 
@@ -75,11 +79,11 @@ De beheerders kunnen om het even welke combinatie montages voor de gebruikers va
 >
 >Alleen de beheerders kunnen de verlopen elementen downloaden. Zie [Digitale rechten van elementen beheren](../using/manage-digital-rights-of-assets.md) voor meer informatie over verlopen elementen.
 
-### Downloadmachtigingen {#configure-download-permissions} configureren
+### Gebruikersgroepinstellingen {#configure-user-group-settings} configureren
 
-Naast **[!UICONTROL Download Settings]**, kunnen de beheerders van het Portaal van het Merk toestemmingen voor verschillende groep gebruikers verder vormen om de originele activa en hun vertoningen te bekijken en (of) te downloaden.
+Naast **[!UICONTROL Download Settings]** kunnen de beheerders van het Poortportaal van het Merk montages voor verschillende groep gebruikers verder vormen om de originele activa en hun vertoningen te bekijken en (of) te downloaden.
 
-Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Navigeer op de pagina **[!UICONTROL User Roles]** naar het tabblad **[!UICONTROL Groups]** om de weergave en (of) downloadmachtigingen voor de gebruikersgroepen te configureren.
+Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Navigeer op de pagina **[!UICONTROL User Roles]** naar het tabblad **[!UICONTROL Groups]** om de weergave- en (of) downloadinstellingen voor de gebruikersgroepen te configureren.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-
 
 De volgende matrix definieert of een gebruiker toegang heeft tot de uitvoeringen, afhankelijk van de [downloadconfiguraties](#configure-download):
 
-| **Downloadinstellingen: Aangepaste uitvoeringen** | **Downloadinstellingen: Systeemuitvoeringen** | **Machtigingen gebruikersgroep: Origineel downloaden** | **Machtigingen gebruikersgroep: Uitvoeringen downloaden** | **Resultaat** |
+| **Downloadinstellingen: Aangepaste uitvoeringen** | **Downloadinstellingen: Systeemuitvoeringen** | **Instellingen gebruikersgroep: Origineel downloaden** | **Instellingen gebruikersgroep: Uitvoeringen downloaden** | **Resultaat** |
 |---|---|---|---|---|
 | ON | ON | ON | ON | Alle uitvoeringen weergeven en downloaden |
 | ON | ON | UIT | UIT | Origineel element weergeven |
@@ -112,7 +116,7 @@ De gebruikers van het Portaal van het merk kunnen veelvoudige activa, omslagen d
 
 >[!NOTE]
 >
->Neem contact op met de beheerder van het Brand Portal als u geen machtigingen hebt om de uitvoeringen te openen of te downloaden.
+>Neem contact op met de beheerder van het Brand Portal als u geen machtiging hebt om de elementuitvoeringen te openen of te downloaden.
 
 Als de gebruiker toegang tot vertoningen heeft, wordt de gebruiker voorzien van het verbeterde **[!UICONTROL Download]** dialoog met de volgende mogelijkheden:
 * Alle beschikbare uitvoeringen van elementen in de downloadlijst weergeven.
@@ -196,9 +200,9 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
 >[!NOTE]
 >
->Het Portaal van het merk steunt het vormen van Dynamische Media op zowel Hybride als wijze Scene 7.
+>Het Portaal van het merk steunt het vormen Dynamic Media op zowel Hybride als wijze Scene 7.
 >
->(*Als AEM auteurinstantie op **Dynamische Media Hybride wijze*** loopt)
+>(*Als AEM auteurinstantie op **Dynamic Media Hybride wijze*** loopt)
 >
 >Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van AEM aan het Portaal van het Merk wordt gepubliceerd, wordt zijn piramide tiff vertoning ook gepubliceerd.
 
