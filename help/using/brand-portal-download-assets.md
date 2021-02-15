@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -68,11 +68,16 @@ De beschikbare instellingen zijn:
 
    Dit zijn de miniaturen die automatisch worden gegenereerd in AEM Assets op basis van de workflow voor &quot;DAM-updatebestanden&quot;.
 
+* **[!UICONTROL Asset Download]**
+
+   Hiermee kunt u de uitvoeringen voor elk element in een aparte map downloaden. Deze instelling is van toepassing voor het downloaden van mappen, verzamelingen en het bulkdownloaden van elementen (meer dan 20 elementen).
+
+
 Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
 
 De beheerders kunnen om het even welke combinatie montages voor de gebruikers van het Portaal van het Merk aan toegang en downloadvertoningen toelaten.
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -123,7 +128,7 @@ Als de gebruiker toegang tot vertoningen heeft, wordt de gebruiker voorzien van 
 * Sluit uitvoeringen van de elementen uit die niet vereist zijn voor downloaden.
 * Pas met één klik dezelfde set uitvoeringen toe op alle vergelijkbare elementtypen.
 * Pas een andere set uitvoeringen toe voor verschillende elementtypen.
-* Maak een aparte map voor elke elementuitvoering.
+* Maak een aparte map voor elk element.
 * Geselecteerde elementen en de bijbehorende uitvoeringen downloaden.
 
 ![download-dialog](assets/download-dialog-box.png)
@@ -176,7 +181,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
    ![remove](assets/remove.png)
 
-   Selecteer het selectievakje **[!UICONTROL Create separate folder for each asset]** om de maphiërarchie van het Brand Portal te behouden tijdens het downloaden van elementen. Standaard wordt de maphiërarchie Brand Portal genegeerd en worden alle elementen gedownload in een ZIP-map.
+   Selecteer het selectievakje **[!UICONTROL Create separate folder for each asset]** om de maphiërarchie van het Brand Portal te behouden tijdens het downloaden van elementen.
 
    De downloadknop geeft het aantal geselecteerde items weer. Als u klaar bent met het toepassen van de regels, klikt u op **[!UICONTROL Download items]**.
 
@@ -195,7 +200,9 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
 >[!NOTE]
 >
->Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map. De elementuitvoeringen worden gedownload in een aparte map voor elk element in de ZIP-map.
+>Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map.
+>
+>Als de instelling **[!UICONTROL Asset Download]** is ingeschakeld in **[!UICONTROL Download Settings]**, worden de elementuitvoeringen gedownload in een aparte map voor elk element in de ZIP-map.
 
 
 >[!NOTE]
