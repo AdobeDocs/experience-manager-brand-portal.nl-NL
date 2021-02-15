@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Brand Portal maakt het mogelijk de downloadprestaties van grote bestanden met be
 
 De **[!UICONTROL Fast Download]** configuratie is door gebrek toegelaten, die beduidend de tijd vermindert om de gewenste activadossiers van het Portaal van het Merk te downloaden.
 
-![](assets/download-configuration.png)
+![](assets/download-configuration-old.png)
 
 ## Vereisten om het downloaden van bestanden te versnellen {#prerequisites-to-accelerate-file-download}
 
