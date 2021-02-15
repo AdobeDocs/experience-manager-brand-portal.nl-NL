@@ -1,8 +1,8 @@
 ---
 title: Nieuw in AEM Assets Brand Portal
 seo-title: Nieuw in AEM Assets Brand Portal
-description: Bekijk de nieuwe functies en verbeteringen voor 2020.10.0.
-seo-description: Bekijk de nieuwe functies en verbeteringen voor 2020.10.0.
+description: Bekijk de nieuwe functies en verbeteringen voor 2021.02.0.
+seo-description: Bekijk de nieuwe functies en verbeteringen voor 2021.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5420'
+source-wordcount: '5720'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,44 @@ ht-degree: 0%
 # Nieuw in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene ervaring van het Brand Portal. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+
+## Wat is veranderd in 2021.02.0 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0 is een verbeteringsrelease die zich richt op de verbetering van het downloaden van bedrijfsmiddelen en die kritieke oplossingen bevat. Het laat de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. Het Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve gebruikers van het Brand Portal. Zie de nieuwste [Opmerkingen bij de release Brand Portal](brand-portal-release-notes.md).
+
+
+### Downloaden van middelen {#asset-download-setting}
+
+Naast de bestaande **[!UICONTROL Download Settings]**, kunnen de beheerders van het Portaal van het Merk **[!UICONTROL Asset Download]** nu het plaatsen vormen. Met deze instelling kunnen beheerders het standaarddownloadgedrag van mappen, verzamelingen en het bulkdownloaden van elementen (meer dan 20 elementen) op huurdersniveau bepalen.
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+Eerder werden alle elementenuitvoeringen rechtstreeks gedownload in een ZIP-map. Het **[!UICONTROL Download]**-dialoogvenster is overgeslagen voor mappen en verzamelingen en er was geen methode om het downloadgedrag van de elementen te bepalen, waardoor het moeilijk was om te zoeken naar een bepaalde uitvoering via een groot aantal downloads.
+
+**[!UICONTROL Asset Download]** met de instelling kunt u nu een aparte map voor elk element maken terwijl u de mappen, verzamelingen of bestanden bulksgewijs downloadt.
+
+Als de instelling **[!UICONTROL Asset Download]** is uitgeschakeld, worden de mappen of verzamelingen gedownload in een ZIP-map met alle elementuitvoeringen in dezelfde map, behalve voor het downloaden van de elementen via de koppeling voor delen.
+
+
+Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]**. De beheerders kunnen **[!UICONTROL Asset Download]** plaatsen toelaten om afzonderlijke omslag voor elk middel tot stand te brengen terwijl het downloaden van omslagen, inzamelingen, en bulkdownload van activa.
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### Gebruiksrapport {#usage-report}
+
+Het Brand Portal **[!UICONTROL Usage Report]** is gewijzigd om alleen de actieve merkportalgebruikers weer te geven. De merkportalgebruikers die niet aan enig productprofiel in de Admin Console worden toegewezen worden beschouwd als inactieve gebruikers en niet weerspiegeld in **[!UICONTROL Usage Report]**.
+
+Eerder, zowel werden de actieve als inactieve gebruikers getoond in het Rapport van het Gebruik.
+
+![](assets/usage-report.png)
 
 ## Wat is veranderd in 2020.10.0 {#what-changed-in-oct-2020}
 
@@ -58,7 +96,7 @@ De downloadworkflow blijft constant voor zelfstandige elementen, meerdere elemen
 
 Eerder, werden de optie om **[!UICONTROL Files]**, **[!UICONTROL Collections]**, en **[!UICONTROL Shared Links]** te bekijken verborgen en vereiste veelvoudige kliks telkens als de gebruiker op een andere mening wilde schakelen.
 
-In Brand Portal 2020.10.0 kunnen de gebruikers met één klik naar **[!UICONTROL Files]**, **[!UICONTROL Collections]** en **[!UICONTROL Shared Links]** van alle pagina&#39;s van het Poortportaal van het Merk navigeren in het gebruiken van de snelle navigatiekoppelingen.
+In Brand Portal 2020.10.0 kunnen gebruikers met één klik naar **[!UICONTROL Files]**, **[!UICONTROL Collections]** en **[!UICONTROL Shared Links]** van alle pagina&#39;s van het Merksportaal navigeren.
 
 ![collectie-navigatie](assets/collection-navigation.png)
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![renditions-panel](assets/renditions-panel.png)
 
 
-### Downloadmachtigingen {#download-permissions} configureren
+### Downloadinstellingen {#download-permissions} configureren
 
-Naast de bestaande **[!UICONTROL Download]** configuraties, kunnen de beheerders van het Portaal van het Merk ook toestemmingen voor verschillende groep gebruikers vormen om het originele element en zijn vertoningen van de pagina van de elementendetails te bekijken en (of) te downloaden.
+Naast de bestaande **[!UICONTROL Download]** configuraties, kunnen de beheerders van het Portaal van het Merk montages voor verschillende groep gebruikers ook vormen om het originele element en zijn vertoningen van de pagina van elementendetails te bekijken en (of) te downloaden.
 
 Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
-Navigeer op de pagina **[!UICONTROL User Roles]** naar het tabblad **[!UICONTROL Groups]** om de weergave en (of) downloadmachtigingen voor de gebruikersgroepen te configureren
+Navigeer op de pagina **[!UICONTROL User Roles]** naar het tabblad **[!UICONTROL Groups]** om de weergave- en (of) downloadinstellingen voor de gebruikersgroepen te configureren.
 
 Eerder waren de instellingen alleen beschikbaar om te voorkomen dat groepsgebruikers het oorspronkelijke element konden downloaden.
 
@@ -159,8 +197,6 @@ De beheerder van het Portaal van het Merk kan om het even welke combinatie toela
 * Als een van **[!UICONTROL Custom Rendition]** of **[!UICONTROL System Rendition]** is ingeschakeld, wordt het dialoogvenster **[!UICONTROL Download]** weergegeven en worden het oorspronkelijke element samen met de elementuitvoeringen gedownload. Als u **[!UICONTROL Fast Download]**-configuratie inschakelt, wordt het downloadproces versneld.
 
 Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, omslagen die activa, vergunning of unlicensed activa bevatten, en het downloaden van activa gebruikend aandeelverbinding.
-
-![](assets/download-configuration.png)
 
 
 ## Wat is veranderd in 6.4.6 {#what-changed-in-646}
@@ -303,7 +339,7 @@ Merk Portal 6.4.3 release richt zich op — organisaties een alternatieve alias 
 
 Beheerders kunnen nu configureren hoe de mappen bij het aanmelden worden weergegeven aan gebruikers zonder beheer (Editors, Viewers en Gastgebruikers). [Configuratie ](../using/brand-portal-general-configuration.md) van maphiërarchie inschakelen wordt toegevoegd aan  **Algemene instellingen** in het deelvenster met beheergereedschappen. Als de configuratie:
 
-* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie ervaring gelijkend op beheerders verlenen.
+* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie gelijkend op beheerders verlenen.
 * **uitgeschakeld**, worden alleen de gedeelde mappen weergegeven op de bestemmingspagina.
 
 ![](assets/enable-folder-hierarchy.png)
@@ -342,20 +378,20 @@ Het zoeken onder deze mappen resulteert alleen uit de elementen die met de gebru
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Ondersteuning voor dynamische media-video-uitvoeringen
+### Ondersteuning voor Dynamic Media-video-uitvoeringen
 
-Gebruikers van wie de AEM-auteur-instantie zich in de hybride modus Dynamische media bevindt, kunnen naast de originele videobestanden ook een voorvertoning van de dynamische media-uitvoeringen weergeven en deze downloaden.
+Gebruikers van wie de AEM-auteur-instantie zich in de hybride Dynamic Media-modus bevindt, kunnen naast de originele videobestanden ook een voorvertoning van de dynamische media-uitvoeringen weergeven en deze downloaden.
 
-Om voorproef en download van dynamische media vertoningen op specifieke huurdersrekeningen toe te staan, moeten de beheerders **Dynamische Configuratie van Media** (videodienst URL (DM-Gateway URL) en registratie ID specificeren om de dynamische video) in **Video** configuratie van admin hulpmiddelenpaneel te halen.
+Om voorvertoning en download van dynamische media-uitvoeringen op specifieke huurdersaccounts mogelijk te maken, moeten beheerders **Dynamic Media Configuration** (video service URL (DM-Gateway URL) en registratie-id opgeven om de dynamische video op te halen) in **Video**-configuratie vanuit het deelvenster met beheergereedschappen.
 
 
-Dynamische mediavideo&#39;s kunnen worden voorvertoond op:
+Dynamic Media-video&#39;s kunnen worden voorvertoond op:
 
 * Pagina met elementgegevens
 * Weergave van de kaart van het element
 * Voorvertoningspagina voor delen koppelen
 
-Dynamische videocodes voor media kunnen worden gedownload van:
+Dynamic Media Video-codering kan worden gedownload van:
 
 * Brand Portal
 * Gedeelde koppeling
@@ -436,7 +472,7 @@ Beheerders kunnen de gebruikerstoegang tot originele afbeeldingsbestanden (.jpeg
 * Beheerders moeten de selectie van de desbetreffende selectievakjes opheffen om te voorkomen dat een groep gebruikers toegang krijgt tot de oorspronkelijke uitvoeringen.
 * Als een gebruiker lid is van meerdere groepen, maar slechts één van de groepen heeft beperkingen, gelden de beperkingen voor die gebruiker.
 * De beperkingen zijn niet van toepassing op beheerders, ook al zijn zij lid van beperkte groepen.
-* Rechten van de gebruiker die elementen deelt als koppeling zijn van toepassing op de gebruikers die elementen downloaden via gedeelde koppelingen.
+* De machtigingen van de gebruiker die elementen deelt als koppeling zijn van toepassing op de gebruikers die elementen downloaden via gedeelde koppelingen.
 
 ### Pad met maphiërarchie op kaart- en lijstweergaven
 
