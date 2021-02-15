@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5720'
+source-wordcount: '5718'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Naast de bestaande **[!UICONTROL Download Settings]**, kunnen de beheerders van 
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Eerder werden alle elementenuitvoeringen rechtstreeks gedownload in een ZIP-map. Het **[!UICONTROL Download]**-dialoogvenster is overgeslagen voor mappen en verzamelingen en er was geen methode om het downloadgedrag van de elementen te bepalen, waardoor het moeilijk was om te zoeken naar een bepaalde uitvoering via een groot aantal downloads.
+Eerder werden alle elementenuitvoeringen rechtstreeks gedownload in een ZIP-map. Het dialoogvenster **[!UICONTROL Download]** is overgeslagen voor mappen en verzamelingen en er was geen methode om het downloadgedrag van de elementen te beheren, waardoor het moeilijk was om te zoeken naar een bepaalde uitvoering van een groot aantal downloads.
 
 **[!UICONTROL Asset Download]** met de instelling kunt u nu een aparte map voor elk element maken terwijl u de mappen, verzamelingen of bestanden bulksgewijs downloadt.
 
