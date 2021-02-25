@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,12 @@ Voer de volgende stappen uit om een rapport weer te geven:
 
    >[!NOTE]
    >
-   >Gebruiksrapport is standaard aanwezig in Brand Portal. Kan het niet maken of verwijderen. U kunt echter wel de rapporten Download, Expiration, Publish, Link Share en User Logins maken, downloaden en verwijderen.
+   >Het rapport van het gebruik is een standaardrapport dat in het Portaal van het Merk wordt geproduceerd. Kan het niet maken of verwijderen. U kunt echter wel de rapporten Download, Expiration, Publish, Link Share en User Logins maken, downloaden en verwijderen.
 
-   Tik op de rapportkoppeling om een rapport weer te geven. U kunt ook het rapport selecteren en op het pictogram Weergave op de werkbalk tikken of erop klikken.
+   Klik op de rapportkoppeling om een rapport weer te geven. U kunt ook het rapport selecteren en op het pictogram Weergave op de werkbalk tikken of erop klikken.
 
-   **[!UICONTROL Usage Report]** geeft informatie weer over het aantal huidige gebruikers van het Brand Portal, de opslagruimte die door alle elementen wordt ingenomen en het totale aantal elementen in het Brand Portal. Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetriek.
+   **[!UICONTROL Usage Report]** geeft informatie weer over het aantal actieve gebruikers van het Brand Portal, de opslagruimte die door alle elementen wordt ingenomen en het totale aantal elementen in het Brand Portal. De merkportalgebruikers die niet aan enig productprofiel in de Admin Console worden toegewezen worden beschouwd als inactieve gebruikers en niet weerspiegeld in **[!UICONTROL Usage Report]**.
+Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetriek.
 
    ![](assets/usage-report.png)
 
@@ -94,8 +95,6 @@ Beheerders kunnen de volgende standaardrapporten genereren en beheren, wanneer d
 De kolommen in het rapport Downloaden, Verlopen en Publiceren kunnen worden aangepast voor weergave. Voer de volgende stappen uit om een rapport te genereren:
 
 1. Tik op of klik op het AEM om beheergereedschappen te openen vanuit de werkbalk bovenaan.
-
-   ![](assets/aemlogo.png)
 
 1. Tik in het deelvenster met beheergereedschappen op **[!UICONTROL Create/Manage Reports]** om de pagina **[!UICONTROL Asset Reports]** te openen.
 
