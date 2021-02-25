@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ De beschikbare instellingen zijn:
 
 * **[!UICONTROL Asset Download]**
 
-   Hiermee kunt u de uitvoeringen voor elk element in een aparte map downloaden. Deze instelling is van toepassing voor het downloaden van mappen, verzamelingen en het bulkdownloaden van elementen (meer dan 20 elementen).
+   Hiermee kunt u de uitvoeringen voor elk element in een aparte map downloaden. De instelling is van toepassing op mappen, verzamelingen en het bulkdownloaden van elementen (meer dan 20 elementen).
 
 
 Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
@@ -135,7 +135,7 @@ Als de gebruiker toegang tot vertoningen heeft, wordt de gebruiker voorzien van 
 
 >[!NOTE]
 >
->Het dialoogvenster **[!UICONTROL Download]** wordt alleen weergegeven als de elementen zijn geselecteerd om te worden gedownload en **[!UICONTROL Custom Renditions]** of **[!UICONTROL System Renditions]** is ingeschakeld in **[!UICONTROL Download Settings]**.
+>Het dialoogvenster **[!UICONTROL Download]** wordt alleen weergegeven als **[!UICONTROL Custom Renditions]** en (of) **[!UICONTROL System Renditions]** is ingeschakeld in **[!UICONTROL Download Settings]**.
 
 
 ### Stappen om elementen te downloaden {#bulk-download}
@@ -157,7 +157,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
       >[!NOTE]
       >
-      >Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd om de Aspera-downloadaccelerator te installeren.
+      >Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd [de Aspera-downloadaccelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) te installeren.
 
 
       >[!NOTE]
@@ -185,13 +185,13 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
    De downloadknop geeft het aantal geselecteerde items weer. Als u klaar bent met het toepassen van de regels, klikt u op **[!UICONTROL Download items]**.
 
-   ![download-dialog](assets/download-dialog-new.png)
+   ![download-dialog](assets/download-dialog-box-new.png)
 
 1. Standaard is de instelling **[!UICONTROL Fast Download]** ingeschakeld in **[!UICONTROL Download Settings]**. Daarom wordt een bevestigingsvenster weergegeven waarin versnelde download met IBM Aspera Connect is toegestaan.
 
    Als u **[!UICONTROL Fast Download]** wilt blijven gebruiken, klikt u op **[!UICONTROL Allow]**. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met behulp van IBM Aspera Connect.
 
-   Als u IBM Aspera Connect niet wilt gebruiken, klikt u op **[!UICONTROL Deny]**. Als **[!UICONTROL Fast Download]** wordt ontkend of ontbreekt, bevolkt het systeem een Bericht van de Fout. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van de elementen. De geselecteerde vertoningen worden gedownload in een ZIP-map zonder gebruik te maken van IBM Aspera Connect.
+   Als u IBM Aspera Connect niet wilt gebruiken, klikt u op **[!UICONTROL Deny]**. Als **[!UICONTROL Fast Download]** wordt ontkend of ontbreekt, bevolkt het systeem een Bericht van de Fout. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van de elementen.
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Hier volgen de stappen voor het downloaden van elementuitvoeringen van de pagina
 
    Als u **[!UICONTROL Fast Download]** wilt blijven gebruiken, klikt u op **[!UICONTROL Allow]**. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met behulp van IBM Aspera Connect.
 
-   Als u het gebruik van **[!UICONTROL Fast Download]** weigert, vult het systeem een foutbericht in. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met downloaden. De geselecteerde vertoningen worden gedownload in een ZIP-map zonder gebruik te maken van IBM Aspera Connect.
+   Als u het gebruik van **[!UICONTROL Fast Download]** weigert, vult het systeem een foutbericht in. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van de elementen.
 
 >[!NOTE]
 >
