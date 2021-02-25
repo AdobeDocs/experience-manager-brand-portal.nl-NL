@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
+source-git-commit: 1a2ede041a08c687022108a3d5f52c258c6b945a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,11 @@ Standaard-URL: http:// localhost:4502/aem/start.html
 
    ![](assets/upload.png)
 
-1. Voeg in het veld **[!UICONTROL Add User or Group]** de gebruikers van Brand Portal toe met wie u de map met bijdragen wilt delen. Deze gebruikers kunnen inhoud tot de bijdrageomslag toegang hebben en uploaden gebruikend de interface van het Portaal van het Merk.
+1. Voeg in het veld **[!UICONTROL Add User]** de gebruikers van Brand Portal toe met wie u de map met bijdragen wilt delen. Deze gebruikers kunnen inhoud tot de bijdrageomslag toegang hebben en uploaden gebruikend de interface van het Portaal van het Merk.
 1. Klik op **[!UICONTROL Save]**.
 
-   ![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
->
->Groepen kunnen momenteel niet worden toegewezen aan een bijdragemap.
 >
 >De zoekresultaten zijn gebaseerd op de gebruikerslijst van het Merkortaal die in AEM Assets is geconfigureerd. Zorg ervoor dat u de bijgewerkte gebruikerslijst voor Brand Portal hebt. Zie [Gebruikerslijst Brand Portal uploaden](brand-portal-configure-asset-sourcing.md).
