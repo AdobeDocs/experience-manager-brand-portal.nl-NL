@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,9 @@ Voor updates en versieverandering, wordt het geadviseerd om [Nota&#39;s van de V
 
 
 
-**Ques. Is er om het even welke actie vereist op mijn deel als gebruiker van het Portaal van het Merk?**
+**Ques. Is er actie vereist van mijn kant als gebruiker van het Portaal van het Merk?**
 
-**Ans.** De merkportal 6.4.5-release wordt geleverd met een nieuwe functie genaamd Asset Sourcing. AEM beheerder moet de functie Asset Sourcing in AEM Assets configureren om deze functie in te schakelen voor de gebruikers van het Brand Portal. Raadpleeg [Asset Sourcing inschakelen](brand-portal-configure-asset-sourcing.md) voor meer informatie.
+**Ans.** De merkportal 6.4.5-release wordt geleverd met een nieuwe functie genaamd Asset Sourcing. AEM beheerder moet de functie Asset Sourcing in AEM Assets configureren om deze functie in te schakelen voor de gebruikers van het Brand Portal. Raadpleeg [Asset Sourcing inschakelen](brand-portal-asset-sourcing.md) voor meer informatie.
 
 
 
@@ -138,7 +138,7 @@ De gebruikers van het Merk Portaal hebben toegang tot **Bijdrage** omslag en upl
 
 >[!NOTE]
 >
->Als u geen bestaande gebruiker van het Portaal van het Merk bent, verzoek de AEM beheerder om uw gebruiker in de AEM te creëren admin console en uw profiel toe te voegen aan het dossier van de gebruikersconfiguratie in de gebruikerslijst van het Portaal van het Merk. Zie [Handelsversie toevoegen](brand-portal-configure-asset-sourcing.md).
+>Als u geen bestaande gebruiker van het Portaal van het Merk bent, verzoek de AEM beheerder om uw gebruiker in de AEM te creëren admin console en uw profiel toe te voegen aan het dossier van de gebruikersconfiguratie in de gebruikerslijst van het Portaal van het Merk.
 
 **Ques. Wat is het Formaat van het Csv- dossier voor gebruikersinvoer?**
 
@@ -172,7 +172,7 @@ De gebruikers van het Merk Portaal hebben toegang tot **Bijdrage** omslag en upl
 
 **Ques. Hoe te om nieuwe activa in een omslag van de Bijdrage te uploaden?**
 
-**Ans.** Raadpleeg de gedetailleerde documentatie voor het  [uploaden van middelen naar de map](brand-portal-upload-assets-to-contribution-folder.md) Contribution.
+**Ans.** Raadpleeg de gedetailleerde documentatie voor het  [uploaden van middelen naar de map](brand-portal-publish-contribution-folder-to-brand-portal.md) Contribution.
 
 
 
