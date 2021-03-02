@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '5718'
+source-wordcount: '5829'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,14 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 ## Wat is veranderd in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is een verbeteringsrelease die zich richt op de verbetering van het downloaden van bedrijfsmiddelen en die kritieke oplossingen bevat. Het laat de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. Het Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve gebruikers van het Brand Portal. Zie de nieuwste [Opmerkingen bij de release Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 is een verbeteringsrelease die zich richt op het faciliteren van de functie voor het aantrekken van bedrijfsmiddelen op AEM Assets als een Cloud Service, het verbeteren van de ervaring bij het downloaden van bedrijfsmiddelen en het opnemen van belangrijke oplossingen. Het laat de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. Het Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve gebruikers van het Brand Portal. Zie de nieuwste [Opmerkingen bij de release Brand Portal](brand-portal-release-notes.md).
 
+
+### Asset Sourting op AEM Assets als een Cloud Service {#asset-sourcing-on-cloud-service}
+
+De functie Asset Sourcing is nu als Cloud Service beschikbaar op AEM Assets. De functies zijn standaard ingeschakeld voor alle gebruikers van de cloudservice. De geoorloofde gebruikers van het Brand Portal kunnen bijdragen aan het aantrekken van bedrijfsmiddelen door nieuwe middelen te uploaden naar de bijdragemappen en de bijdragemap van Brand Portal naar AEM Assets te publiceren als een instantie van Cloud Servicen. De beheerders kunnen de bijdrage van de gebruikers van het Merkortaal herzien en goedkeuren om hen aan andere gebruikers van het Merkortaal verder te verspreiden.
+
+Eerder was Asset Sourcing alleen beschikbaar op AEM Assets (op locatie en beheerde service).
 
 ### Downloaden van middelen {#asset-download-setting}
 
@@ -258,7 +264,7 @@ Brand Portal 6.4.5 is een functieversie die zich richt op het bieden van gebruik
 
 Met Asset Sourcing kunnen AEM gebruikers (beheerders/gebruikers zonder beheer) nieuwe mappen maken met een extra eigenschap **Asset Contribution**, zodat de nieuwe map die is gemaakt, kan worden verzonden door gebruikers van Brand Portal. Dit leidt automatisch tot een werkschema dat tot twee extra subomslagen, genoemd NIEUW en GEDEELD, binnen de pas gecreëerde **Bijdrage** omslag leidt.
 
-De AEM gebruiker bepaalt dan de vereiste door [een korte ](brand-portal-configure-contribution-folder-properties.md) over de types van activa te uploaden die aan de bijdrageomslag moeten worden toegevoegd, evenals [uploadend basislijnactiva](brand-portal-upload-baseline-assets.md), aan **SHARED** omslag om BP gebruikers de verwijzingsinformatie te verzekeren zij nodig hebben. De beheerder kan de actieve gebruikers van het Portaal van het Merk dan toegang tot de bijdrageomslag verlenen alvorens de pas gecreëerde **omslag** aan het Portaal van het Merk te publiceren.
+De AEM gebruiker bepaalt dan het vereiste door een kort overzicht van de types van activa te uploaden die aan de bijdrageomslag, evenals het uploaden van basislijnactiva, aan **SHARED** omslag zouden moeten worden toegevoegd om BP gebruikers de verwijzingsinformatie te verzekeren zij hebben nodig. De beheerder kan de actieve gebruikers van het Portaal van het Merk dan toegang tot de bijdrageomslag verlenen alvorens de pas gecreëerde **omslag** aan het Portaal van het Merk te publiceren.
 
 
 Zodra de gebruiker klaar is met het toevoegen van inhoud in de map **NEW**, kunnen zij de bijdragemap weer publiceren naar de AEM auteursomgeving. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in AEM Assets wordt weerspiegeld.
@@ -273,7 +279,7 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 ### Elementen uploaden naar bijdragemap {#upload-assets-in-bp}
 
-Gebruikers van Brand Portal met de juiste machtigingen kunnen [de vereisten voor middelen downloaden](brand-portal-download-asset-requirements.md) om te begrijpen dat ze een bijdrage moeten leveren en meerdere middelen of mappen met meerdere middelen kunnen uploaden naar de map met bijdragen. Merk portalgebruikers kunnen echter alleen elementen uploaden naar de submap **NEW**. De map **SHARED** is bedoeld voor de verdeling van vereisten en basislijnelementen. Zie [Elementen uploaden naar bijdragemap](brand-portal-upload-assets-to-contribution-folder.md)
+Gebruikers van het Brand Portal met de juiste machtigingen kunnen de elementvereisten downloaden om te begrijpen dat ze een bijdrage moeten leveren en meerdere middelen of mappen met meerdere elementen kunnen uploaden naar de map voor de bijdrage. Merk portalgebruikers kunnen echter alleen elementen uploaden naar de submap **NEW**. De map **SHARED** is bedoeld voor de verdeling van vereisten en basislijnelementen.
 
 ![](assets/upload-asset6.png)
 
@@ -339,7 +345,7 @@ Merk Portal 6.4.3 release richt zich op — organisaties een alternatieve alias 
 
 Beheerders kunnen nu configureren hoe de mappen bij het aanmelden worden weergegeven aan gebruikers zonder beheer (Editors, Viewers en Gastgebruikers). [Configuratie ](../using/brand-portal-general-configuration.md) van maphiërarchie inschakelen wordt toegevoegd aan  **Algemene instellingen** in het deelvenster met beheergereedschappen. Als de configuratie:
 
-* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie gelijkend op beheerders verlenen.
+* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie ervaring gelijkend op beheerders verlenen.
 * **uitgeschakeld**, worden alleen de gedeelde mappen weergegeven op de bestemmingspagina.
 
 ![](assets/enable-folder-hierarchy.png)
@@ -518,7 +524,7 @@ De bovenstaande configuraties zijn beschikbaar onder Toegang en Algemene instell
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe I/O UI voor het configureren van Auth-integratie
+### Adobe I/O UI om de Integraties van de Auth te vormen
 
 Brand Portal 6.4.2 en hoger gebruiken Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface om JWT toepassing tot stand te brengen, die het vormen van de Integraties van Auth toelaat om de integratie van AEM Assets met het Portaal van het Merk toe te staan. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/`. Raadpleeg [AEM Assets-integratie configureren met Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) voor meer informatie over het integreren van AEM Assets met Brand Portal voor het publiceren van middelen en verzamelingen naar Brand Portal.
 
