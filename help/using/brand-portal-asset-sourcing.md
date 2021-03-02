@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 product: experience-manager
 sub-product: elementen
-feature: brand-portal
+feature: merkportal
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 5a61c42762e111b824163ce7d054d413a4da56bc
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,9 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 ## Vereisten {#prerequisites}
 
-* AEM 6.5.2 of hoger.
+* AEM Assets als Cloud Service-instantie, AEM Assets 6.5.2 of hoger.
 * Zorg ervoor dat uw AEM Assets-exemplaar is geconfigureerd met Brand Portal. Zie [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 * Zorg ervoor dat uw Poorthuurder van het Merk met één de auteursinstantie van AEM Assets wordt gevormd.
-
->[!NOTE]
->
->Asset Sourcing wordt niet ondersteund op AEM Assets als Cloud Service.
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
@@ -51,25 +46,72 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Gebruikers van het 
 
 >[!NOTE]
 >
->In AEM 6.5.4 is een probleem bekend. Gebruikers van het Brand Portal kunnen de middelen van de map met bijdragen niet naar AEM Assets publiceren bij de upgrade naar de Adobe Developer Console.
+>Er is een bekend probleem in AEM Assets 6.5.4. Gebruikers van het Brand Portal kunnen de middelen van de map met bijdragen niet naar AEM Assets publiceren bij de upgrade naar de Adobe Developer Console.
 >
 >De kwestie is vastgelegd in AEM 6.5.5. U kunt uw AEM Assets-instantie upgraden naar het nieuwste servicepack AEM 6.5.5 en [uw configuraties upgraden](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) op de Adobe Developer Console.
 >
 >Voor directe oplossing op AEM 6.5.4, wordt het geadviseerd [hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) te downloaden en op uw auteursinstantie te installeren.
 
+## Asset Sourting {#configure-asset-sourcing} configureren
+
+**Asset** Sourcingis geconfigureerd vanuit de AEM Assets-auteurinstantie. De beheerders kunnen de configuratie van de de eigenschapmarkering van de Levering van Activa van **AEM de Configuratie van de Console van het Web** toelaten en de actieve lijst van gebruikers van het Portaal van het Merk in **AEM Assets** uploaden.
+
+>[!NOTE]
+>
+>Asset Sourcing is standaard ingeschakeld op AEM Assets als Cloud Service. De AEM beheerder kan de actieve gebruikers van het Portaal van het Merk direct uploaden om hen toegang tot de eigenschap van de Activa te verlenen die.
+
+>[!NOTE]
+>
+>Voordat u met de configuratie begint, moet u ervoor zorgen dat uw AEM Assets-instantie is geconfigureerd met Brand Portal. Zie [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+
+In de volgende video ziet u hoe u Asset Sourcing configureert op uw AEM Assets-auteurinstantie:
+
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
+
+### Asset Souring {#enable-asset-sourcing} inschakelen
+
+AEM beheerders kunnen de de eigenschapmarkering van de Levering van Activa van binnen de Configuratie van de Console van het AEM Web (a.k.a de Manager van de Configuratie) toelaten.
+
+>[!NOTE]
+>
+>Deze stap is niet van toepassing voor AEM Assets als Cloud Service.
+
+
+**Asset Sourcing inschakelen:**
+1. Meld u aan bij de AEM Assets-auteur en open Configuration Manager.
+Standaard-URL: http:// localhost:4502/system/console/configMgr.
+1. Zoek met het trefwoord **Asset Sourcing** naar **[!UICONTROL Asset Sourcing Feature Flag Config]**.
+1. Klik **[!UICONTROL Asset Sourcing Feature Flag Config]** om het configuratievenster te openen.
+1. Schakel het selectievakje **[!UICONTROL feature.flag.active.status]** in.
+1. Klik op **[!UICONTROL Save]**.
+
+![](assets/enable-asset-sourcing.png)
+
+### Lijst met gebruikers van Brand Portal {#upload-bp-user-list} uploaden
+
+AEM beheerders kunnen het CSV-bestand (Brand Portal-gebruikersconfiguratiebestand) uploaden dat een actieve gebruikerslijst voor Brand Portal in AEM Assets bevat. Een bijdragemap kan alleen worden gedeeld met de actieve gebruikers van het Brand Portal die zijn gedefinieerd in de gebruikerslijst. De beheerder kan ook nieuwe gebruikers toevoegen aan het configuratiebestand en de gewijzigde gebruikerslijst uploaden.
+
+>[!NOTE]
+>
+>De indeling van het CSV-bestand is gelijk aan de indeling die wordt ondersteund in Admin Console voor het importeren van bulkgebruikers. E-mail, voornaam en achternaam zijn verplicht.
+
+De beheerders kunnen nieuwe gebruikers in AEM Admin Console toevoegen, zie [Gebruikers beheren](brand-portal-adding-users.md) voor gedetailleerde informatie. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van het Portaal van het Merk worden toegevoegd en dan toestemming toegewezen om tot de bijdrageomslag toegang te hebben.
+
+**Ga als volgt te werk om de gebruikerslijst van Brand Portal te uploaden:**
+1. Meld u aan bij uw AEM Assets-exemplaar.
+1. Navigeer in het deelvenster **Gereedschappen** naar **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
+
+1. Het venster Contribuanten uploaden naar Brand Portal wordt geopend.
+Blader van uw lokale computer en upload **configuratiebestand (.csv)** met de actieve gebruikerslijst van het Merkortaal.
+1. Klik op **[!UICONTROL Save]**.
+
+   ![](assets/upload-user-list2.png)
+
+
+Beheerders kunnen toegang tot specifieke gebruikers bieden vanuit deze gebruikerslijst terwijl ze een bijdragemap configureren. Alleen de gebruikers die zijn toegewezen aan een map met bijdragen hebben toegang tot de map met bijdragen en publiceren middelen van Brand Portal naar AEM Assets.
 
 ## Zie ook {#reference-articles}
 
-**Voor beheerders**
+* [Contribute-map voor Brand Portal configureren en publiceren](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Middelen in AEM configureren](brand-portal-configure-asset-sourcing.md)
-* [Lijst met gebruikers van Brand Portal uploaden](brand-portal-configure-asset-sourcing.md)
-* [Contribute-map configureren](brand-portal-contribution-folder.md)
-* [Basislijnelementen uploaden naar de bijdragemap](brand-portal-upload-baseline-assets.md)
-* [Map met bijdragen publiceren naar Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
-
-**Voor gebruikers van Brand Portal**
-
-* [Elementvereisten downloaden](brand-portal-download-asset-requirements.md)
-* [Nieuwe elementen uploaden naar de bijdragemap](brand-portal-upload-assets-to-contribution-folder.md)
 * [Bijdragemap publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
