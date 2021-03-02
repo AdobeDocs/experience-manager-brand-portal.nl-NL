@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Nadat de nieuwe middelen naar AEM Assets zijn gepubliceerd, kunnen de gebruikers
 
 Zodra de doelstelling van het creëren van de bijdrageomslag wordt bereikt, kan de beheerder van het Portaal van het Merk de bijdrageomslag schrappen om uploadruimte voor andere gebruikers vrij te geven.
 
-**Status van taak publiceren**
+## Status van taak {#publishing-job-status} publiceren
 
 Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de omslagen van de activabijdrage te bekijken die van het Portaal van het Merk aan AEM Assets worden gepubliceerd.
 
@@ -129,13 +129,27 @@ Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de om
 
    ![](assets/contribution-folder-status.png)
 
-* Navigeer in AEM Assets-auteurinstantie naar **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
+* Navigeer in AEM Assets (op locatie of beheerde service) naar **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
 
    ![](assets/publishing-status.png)
 
+* Navigeer in AEM Assets als Cloud Service naar **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Reports]**.
+
+   Klik op **[!UICONTROL Create]** knoop en selecteer **[!UICONTROL Publish]** om een het publiceren rapport tot stand te brengen.
+
+   ![](assets/create-publish-report.png)
+
+   Voer **[!UICONTROL Title]** en **[!UICONTROL Description]** in, selecteer vervolgens **[!UICONTROL Folder Path]** van de bijdragemap en plant het rapport voor **[!UICONTROL Now]**. Klik op **[!UICONTROL Next]**.
+
+   ![](assets/create-publish-report1.png)
+
+   Selecteer de veldkenmerken die u in het rapport wilt opnemen en genereren. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
+
+<!--
 >[!NOTE]
 >
->De gebruikersinterface van AEM Assets als Cloud Service kan een klein verschil hebben maar de workflow blijft ongewijzigd.
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
