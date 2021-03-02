@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 5%
+source-wordcount: '546'
+ht-degree: 4%
 
 ---
 
@@ -38,6 +38,8 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 ### Nieuwe functies {#new-features}
 
 Deze release bevat de volgende nieuwe functies:
+
+* De functie Asset Sourcing is nu als Cloud Service beschikbaar op AEM Assets. Hiermee kunnen gebruikers van het Brand Portal elementen uploaden naar de mappen met toegestane bijdragen en de map met bijdragen publiceren van Brand Portal naar AEM Assets als instantie van Cloud Service.
 
 * Er is een extra **[!UICONTROL Asset Download]**-instelling toegevoegd onder **[!UICONTROL Download Settings]**. Er wordt een aparte map voor elk element gemaakt tijdens het downloaden van de mappen, verzamelingen of het bulkdownloaden van elementen. Zie [downloadinstellingen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
 
