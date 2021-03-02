@@ -7,9 +7,9 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Handleiding merkportal
 user-guide-description: Gebruik AEM Assets Brand Portal om aan marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '283'
 ht-degree: 16%
 
 ---
@@ -36,19 +36,9 @@ ht-degree: 16%
    + [Tags publiceren naar Brand Portal](using/brand-portal-publish-tags.md)
    + [Voorinstellingen, schema en facetten publiceren naar Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset Sourting in Brand Portal {#asset-sourcing-in-brand-portal}
-   + [Overzicht](using/brand-portal-asset-sourcing.md)
-   + [Middelen in AEM configureren](using/brand-portal-configure-asset-sourcing.md)
-   + Contribute-map in AEM Assets {#configure-contribution-folder} configureren
-      + [Overzicht](using/brand-portal-contribution-folder.md)
-      + [Map voor bijdragen maken](using/brand-portal-create-contribution-folder.md)
-      + [Eigenschappen voor bijdragemappen configureren](using/brand-portal-configure-contribution-folder-properties.md)
-      + [Basiselementen uploaden](using/brand-portal-upload-baseline-assets.md)
-      + [Map met bijdragen publiceren naar Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Asset Sourting gebruiken in Brand Portal {#using-asset-sourcing}
-      + [Overzicht](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [Elementvereisten downloaden](using/brand-portal-download-asset-requirements.md)
-      + [Elementen uploaden naar de bijdragemap](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Bijdragemap publiceren naar AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Overzicht van Asset Souring](using/brand-portal-asset-sourcing.md)
+   + [Contribute-map in AEM Assets configureren](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Bijdragemap publiceren naar AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Elementen delen met gebruikers {#share}
    + [Een verzameling delen](using/brand-portal-share-collection.md)
    + [Mappen delen](using/brand-portal-sharing-folders.md)
