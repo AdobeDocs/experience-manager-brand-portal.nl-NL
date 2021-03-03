@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ AEM gebruiker voert de volgende activiteiten uit terwijl het vormen van een bijd
 AEM beheerders en gebruikers zonder beheerdersrechten die toestemming hebben om een nieuwe map te maken, kunt u een bijdragemap maken in AEM Assets.
 Als u een map met bijdragen wilt maken, maakt u een nieuwe map van het type Asset Contribution. Zo zorgt u ervoor dat de nieuwe map die u maakt, kan worden verzonden door gebruikers van Brand Portal.  Dit leidt automatisch tot een werkschema dat tot twee extra subomslagen, genoemd GEDEELD en NIEUW, binnen de bijdrageomslag leidt.
 
+
 >[!NOTE]
 >
 >U kunt meerdere mappen voor bijdragen maken in een map. Maak geen bijdragemap in een andere bijdragemap.
+
+U kunt de eigenschappen van de bijdragemap afzonderlijk configureren en de bijdragemap maken. In dit voorbeeld configureren we de eigenschappen afzonderlijk.
 
 **Een bijdragemap maken:**
 1. Meld u aan bij uw AEM Assets-exemplaar.
@@ -68,7 +71,6 @@ Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naa
 
    ![](assets/contribution-folder.png)
 
-U kunt de eigenschappen van de bijdragemap ook configureren tijdens het maken van de bijdragemap.
 
 ## Eigenschappen voor bijdragemappen configureren {#configure-contribution-folder-properties}
 
