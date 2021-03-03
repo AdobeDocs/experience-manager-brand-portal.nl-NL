@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '568'
 ht-degree: 4%
 
 ---
@@ -91,6 +91,13 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 * Er is sprake van inconsistent gedrag wanneer een element (miniatuur of webuitvoering) wordt gedownload via een koppeling voor delen.
 
 Zie [nieuwe functies in Brand Portal 2021.02.0](whats-new.md).
+
+
+### Bekende problemen {#known-issues}
+
+Deze release bevat de volgende bekende uitgave:
+
+* De gebruikers ontvangen geen e-mailmeldingen voor de publicatieworkflows voor Asset Sourcing.
 
 <!--
 ### Known Issues {#known-issues}
