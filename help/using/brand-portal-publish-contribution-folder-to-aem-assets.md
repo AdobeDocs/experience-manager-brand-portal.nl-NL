@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,24 @@ Het dashboard voor Brand Portal weerspiegelt alle bestaande mappen die zijn toeg
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
 1. Selecteer de bijdragemap in het dashboard voor het Brand Portal.
-1. Klik op **[!UICONTROL Properties]** ![](assets/properties.png). Het venster Eigenschappen wordt geopend en hierin worden de gegevens van de map Asset Contribution weergegeven.
-   ![](assets/download-asset-requirement1.png)
-1. Klik **[!UICONTROL Download Brief]** ![](assets/download.png) om het document met elementvereisten op uw lokale computer te downloaden.
+1. Klik op **[!UICONTROL Properties]**. Het venster van het Bezit dat de details van de bijdrageomslag bevat opent.
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. Klik op de optie **[!UICONTROL Download Brief]** om het document met elementvereisten te downloaden naar uw lokale computer.
+
+   ![](assets/download.png)
+
 1. Ga terug naar het dashboard van de Portaalpagina van het Merk.
 1. Klik om de bijdragemap te openen. U ziet twee submappen -**[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de bijdragemap. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
 1. U kunt de map **[!UICONTROL SHARED]** downloaden met alle basislijnelementen op uw lokale computer.
-U kunt ook de map **[!UICONTROL SHARED]** openen en op **Downloadpictogram** ![](assets/download.png) klikken om afzonderlijke bestanden/mappen te downloaden.
-   ![](assets/download-asset-requirement3.png)
+U kunt ook de map **[!UICONTROL SHARED]** openen en op het pictogram **Download** klikken om afzonderlijke bestanden/mappen te downloaden.
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 Doorloop de samenvatting (document met vereisten voor elementen) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
 
@@ -82,15 +91,15 @@ Het dashboard voor het Brand Portal geeft alle bestaande mappen weer die zijn to
 
 1. Klik op de **[!UICONTROL NEW]** omslag.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]** om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. Blader naar elementen (bestanden of mappen) en upload deze naar de map **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 Nadat u alle elementen of mappen naar de map NEW hebt geüpload, publiceert u de map met bijdragen naar AEM Assets.
 
@@ -110,7 +119,7 @@ Zorg ervoor dat u de elementvereisten hebt doorlopen en dat u de nieuw gemaakte 
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 Er wordt een e-mail-/pulsmelding verzonden naar de gebruiker en beheerders van het Brand Portal in verschillende stadia van de publicatieworkflow:
 1. **In wachtrij**  - Er wordt een melding verzonden naar de gebruikers- en merkportalbeheerders van het Brand Portal wanneer een publicatieworkflow wordt geactiveerd in het Brand Portal.
@@ -129,21 +138,17 @@ Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de om
 
    ![](assets/contribution-folder-status.png)
 
-* Navigeer in AEM Assets (op locatie of beheerde service) naar **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
+* Navigeer in AEM Assets (op locatie of beheerde service) naar **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
 
    ![](assets/publishing-status.png)
 
-* Navigeer in AEM Assets als Cloud Service naar **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Reports]**.
+* Navigeer in AEM Assets als Cloud Service naar **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**.
 
-   Klik op **[!UICONTROL Create]** knoop en selecteer **[!UICONTROL Publish]** om een het publiceren rapport tot stand te brengen.
+   U kunt ook rechtstreeks vanuit de globale navigatie naar **[!UICONTROL Jobs]** navigeren.
 
-   ![](assets/create-publish-report.png)
+   Dit rapport geeft de uiteindelijke status (Succesvol of Fout) weer van alle publicatietaken, inclusief de import van middelen van Brand Portal naar AEM Assets als Cloud Service.
 
-   Voer **[!UICONTROL Title]** en **[!UICONTROL Description]** in, selecteer vervolgens **[!UICONTROL Folder Path]** van de bijdragemap en plant het rapport voor **[!UICONTROL Now]**. Klik op **[!UICONTROL Next]**.
-
-   ![](assets/create-publish-report1.png)
-
-   Selecteer de veldkenmerken die u in het rapport wilt opnemen en genereren. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
