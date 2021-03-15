@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '5991'
+source-wordcount: '5975'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Brand Portal 2021.02.0 is een verbeteringsrelease die de automatiseringsworkflow
 
 AEM Assets als Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. Een gebruiker van de Manager van de Wolk activeert het activeringswerkschema dat tot de vereiste configuraties bij het achtereind leidt en activeert Brand Portal op zelfde IMS org zoals van AEM Assets als instantie van de Cloud Service.
 
-Eerder, werd AEM Assets als Cloud Service manueel gevormd met het Portaal van het Merk gebruikend de Console van de Ontwikkelaar van Adobe, die een teken van de Diensten van Adobe Identity Management (IMS) voor goedkeuring van de huurder van het Portaal van het Merk koopt.
+Eerder, werd AEM Assets als Cloud Service manueel gevormd met het Portaal van het Merk gebruikend de Console van de Ontwikkelaar van Adobe.
 
 Zie [Brand Portal op AEM Assets activeren als een Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
@@ -448,7 +448,7 @@ De release biedt een vereenvoudigde downloadervaring met een beperkt aantal klik
 * Opdat alleen de uitvoeringen (en niet de oorspronkelijke elementen) worden gedownload.
 * De elementen downloaden wanneer de toegang tot de oorspronkelijke uitvoeringen beperkt is.
 
-## Wat is veranderd in 6.4.6 {#what-changed-in-1}
+## Wat is veranderd in 6.4.2 {#what-changed-in-1}
 
 De introductie van Brand Portal 6.4.2 biedt een aantal mogelijkheden om te voldoen aan de behoeften van organisaties op het gebied van middelendistributie en helpt hen om een groot aantal gebruikers te bereiken die wereldwijd via gasttoegang en optimale ervaring met versnelde downloads worden gedistribueerd. Het Portaal van het merk verstrekt ook grotere controle aan organisaties door nieuwe configuraties voor beheerders, onlangs toegevoegd rapport, en caters aan klantenverzoeken.
 
