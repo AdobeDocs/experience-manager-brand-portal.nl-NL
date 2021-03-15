@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
 workflow-type: tm+mt
-source-wordcount: '5829'
+source-wordcount: '5991'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,23 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 ## Wat is veranderd in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is een verbeteringsrelease die zich richt op het faciliteren van de functie voor het aantrekken van bedrijfsmiddelen op AEM Assets als een Cloud Service, het verbeteren van de ervaring bij het downloaden van bedrijfsmiddelen en het opnemen van belangrijke oplossingen. Het laat de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. Het Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve gebruikers van het Brand Portal. Zie de nieuwste [Opmerkingen bij de release Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 is een verbeteringsrelease die de automatiseringsworkflow van de Brand Portal op AEM Assets als Cloud Service inbrengt, de functie voor het aantrekken van bedrijfsmiddelen op AEM Assets als Cloud Service vereenvoudigt, de ervaring voor het downloaden van bedrijfsmiddelen verbetert en kritieke oplossingen bevat. Het laat ook de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. Het Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve gebruikers van het Brand Portal. Zie de nieuwste [Opmerkingen bij de release Brand Portal](brand-portal-release-notes.md).
 
+### Merk Portal-automatisering op AEM Assets als een Cloud Service {#bp-automation-on-cloud-service}
+
+AEM Assets als Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. Een gebruiker van de Manager van de Wolk activeert het activeringswerkschema dat tot de vereiste configuraties bij het achtereind leidt en activeert Brand Portal op zelfde IMS org zoals van AEM Assets als instantie van de Cloud Service.
+
+Eerder, werd AEM Assets als Cloud Service manueel gevormd met het Portaal van het Merk gebruikend de Console van de Ontwikkelaar van Adobe, die een teken van de Diensten van Adobe Identity Management (IMS) voor goedkeuring van de huurder van het Portaal van het Merk koopt.
+
+Zie [Brand Portal op AEM Assets activeren als een Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
 ### Asset Sourting op AEM Assets als een Cloud Service {#asset-sourcing-on-cloud-service}
 
-De functie Asset Sourcing is nu als Cloud Service beschikbaar op AEM Assets. De functies zijn standaard ingeschakeld voor alle gebruikers van de cloudservice. De geoorloofde gebruikers van het Brand Portal kunnen bijdragen aan het aantrekken van bedrijfsmiddelen door nieuwe middelen te uploaden naar de bijdragemappen en de bijdragemap van Brand Portal naar AEM Assets te publiceren als een instantie van Cloud Servicen. De beheerders kunnen de bijdrage van de gebruikers van het Merkortaal herzien en goedkeuren om hen aan andere gebruikers van het Merkortaal verder te verspreiden.
+De functie Asset Sourcing is nu als Cloud Service beschikbaar op AEM Assets. De functie is standaard ingeschakeld voor alle gebruikers van de cloudservice. De geoorloofde gebruikers van het Brand Portal kunnen bijdragen aan het aantrekken van bedrijfsmiddelen door nieuwe middelen te uploaden naar de bijdragemappen en de bijdragemap van Brand Portal naar AEM Assets te publiceren als een instantie van Cloud Servicen. De beheerders kunnen de bijdrage van de gebruikers van het Merkortaal herzien en goedkeuren om hen aan andere gebruikers van het Merkortaal verder te verspreiden.
 
 Eerder was Asset Sourcing alleen beschikbaar op AEM Assets (op locatie en beheerde service).
+
+Zie [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
 
 ### Downloaden van middelen {#asset-download-setting}
 
@@ -52,6 +61,7 @@ Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICO
 
 ![](assets/download-settings-new.png)
 
+Zie [Elementen downloaden van Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -339,13 +349,13 @@ Op dezelfde manier specificeren:
 
 ## Wat is veranderd in 6.4.3 {#what-changed-in}
 
-Merk Portal 6.4.3 release richt zich op — organisaties een alternatieve alias ter beschikking stellen naast hun huurder-id in de toegangs-URL van het Brand Portal, nieuwe configuratie van de mappenhiërarchie, verbeteringen op het gebied van videoondersteuning, gepland publiceren van de AEM-auteur naar het Brand Portal, operationele verbeteringen en gaat in op verzoeken van klanten.
+Merk Portal 6.4.3 release richt zich op — organisaties een alternatieve alias ter beschikking stellen naast hun huurder-id in de toegangs-URL van het Brand Portal, nieuwe configuratie van de mappenhiërarchie, verbeteringen op het gebied van videoondersteuning, gepland publiceren van de AEM-auteur naar het Brand Portal, operationele verbeteringen en op verzoeken van klanten.
 
 ### Navigatie in maphiërarchie voor niet-beheerders
 
 Beheerders kunnen nu configureren hoe de mappen bij het aanmelden worden weergegeven aan gebruikers zonder beheer (Editors, Viewers en Gastgebruikers). [Configuratie ](../using/brand-portal-general-configuration.md) van maphiërarchie inschakelen wordt toegevoegd aan  **Algemene instellingen** in het deelvenster met beheergereedschappen. Als de configuratie:
 
-* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie ervaring gelijkend op beheerders verlenen.
+* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie gelijkend op beheerders verlenen.
 * **uitgeschakeld**, worden alleen de gedeelde mappen weergegeven op de bestemmingspagina.
 
 ![](assets/enable-folder-hierarchy.png)
@@ -438,7 +448,7 @@ De release biedt een vereenvoudigde downloadervaring met een beperkt aantal klik
 * Opdat alleen de uitvoeringen (en niet de oorspronkelijke elementen) worden gedownload.
 * De elementen downloaden wanneer de toegang tot de oorspronkelijke uitvoeringen beperkt is.
 
-## Wat is veranderd in 6.4.2 {#what-changed-in-1}
+## Wat is veranderd in 6.4.6 {#what-changed-in-1}
 
 De introductie van Brand Portal 6.4.2 biedt een aantal mogelijkheden om te voldoen aan de behoeften van organisaties op het gebied van middelendistributie en helpt hen om een groot aantal gebruikers te bereiken die wereldwijd via gasttoegang en optimale ervaring met versnelde downloads worden gedistribueerd. Het Portaal van het merk verstrekt ook grotere controle aan organisaties door nieuwe configuraties voor beheerders, onlangs toegevoegd rapport, en caters aan klantenverzoeken.
 
