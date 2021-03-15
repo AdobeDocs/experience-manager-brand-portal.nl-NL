@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '575'
 ht-degree: 4%
 
 ---
@@ -39,9 +39,11 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 Deze release bevat de volgende nieuwe functies:
 
+* AEM Assets als Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager.
+
 * De functie Asset Sourcing is nu als Cloud Service beschikbaar op AEM Assets. Hiermee kunnen gebruikers van het Brand Portal elementen uploaden naar de mappen met toegestane bijdragen en de map met bijdragen publiceren van Brand Portal naar AEM Assets als instantie van Cloud Service.
 
-* Er is een extra **[!UICONTROL Asset Download]**-instelling toegevoegd onder **[!UICONTROL Download Settings]**. Er wordt een aparte map voor elk element gemaakt tijdens het downloaden van de mappen, verzamelingen of het bulkdownloaden van elementen. Zie [downloadinstellingen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* Er is een extra **[!UICONTROL Asset Download]**-instelling toegevoegd onder **[!UICONTROL Download Settings]**. Er wordt een aparte map voor elk element gemaakt tijdens het downloaden van de mappen, verzamelingen of het bulkdownloaden van elementen.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
