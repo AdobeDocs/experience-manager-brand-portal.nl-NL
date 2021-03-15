@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 7adc6b311a7f669b05dd8cc82cede62194cb8ec6
+source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 4%
+source-wordcount: '1466'
+ht-degree: 2%
 
 ---
 
@@ -32,21 +32,17 @@ Met de browsergebaseerde portalomgeving kunt u elementen gemakkelijk uploaden, d
 
 ## AEM Assets configureren met Brand Portal {#configure-brand-portal}
 
-Adobe Experience Manager (AEM) Assets wordt geconfigureerd met Brand Portal via Adobe Developer Console, die een IMS-token aanschaft voor goedkeuring van uw Brand Portal-huurder.
+Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u functies voor het publiceren van bedrijfsmiddelen, het distribueren van bedrijfsmiddelen en het leveren van bedrijfsmiddelen gebruiken voor de gebruikers van het Brand Portal.
 
 >[!NOTE]
 >
->Het configureren van AEM Assets met Brand Portal via Adobe Developer Console wordt ondersteund op AEM Assets als Cloud Service, AEM Assets 6.3 en hoger.
+>Het configureren van AEM Assets met Brand Portal wordt op AEM Assets ondersteund als Cloud Service, AEM Assets 6.3 en hoger.
 
-### Vereisten voor het configureren van AEM Assets met Brand Portal {#prerequisites}
+AEM Assets als Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS-org als de AEM Assets als een Cloud Service-instantie.
 
-U hebt het volgende nodig om AEM Assets te configureren met Brand Portal:
+Terwijl AEM Assets (op-gebouw en Managed Services) manueel met het Portaal van het Merk gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor toestemming van de huurder van het Portaal van het Merk koopt.
 
-* Een AEM Assets-exemplaar voor gebruik.
-* URL van Brand Portal-tenant.
-* Een gebruiker met systeembeheerdersbevoegdheden op de IMS-organisatie van de Brand Portal-tenant.
-
-Zie [AEM Assets configureren met merk Poral](../using/configure-aem-assets-with-brand-portal.md) voor meer informatie.
+Zie [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) voor meer informatie.
 
 ## Personen van gebruikers in Brand Portal {#Personas}
 
