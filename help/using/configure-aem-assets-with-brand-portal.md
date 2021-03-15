@@ -10,19 +10,25 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: bfb0c38bf8d5b542caf9d0d20d3168cdcac649b3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 9%
+source-wordcount: '430'
+ht-degree: 8%
 
 ---
 
 
 # AEM Assets configureren met Brand Portal {#configure-integration}
 
-Als u Adobe Experience Manager Assets configureert als Cloud Service met Adobe Experience Manager Assets Brand Portal, kunt u elementen publiceren en distribueren met de gebruikers van het Brand Portal. Terwijl het Vormen van AEM 6.3 (en hoger) met het Portaal van het Merk activa het publiceren, de distributie van activa, en de eigenschappen van de activabijdrage voor de gebruikers van het Portaal van het Merk toelaat.
+Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u functies voor het publiceren van bedrijfsmiddelen, het distribueren van bedrijfsmiddelen en het leveren van bedrijfsmiddelen gebruiken voor de gebruikers van het Brand Portal. Hiermee kunnen AEM Assets-gebruikers elementen publiceren en distribueren met de gebruikers van het Brand Portal. De gebruikers van het Brand Portal hebben toegang tot de gedeelde elementen en kunnen een bijdrage leveren door nieuwe elementen te uploaden naar de mappen voor middelenbijdragen en deze weer te publiceren naar AEM Assets.
 
-Adobe Experience Manager Assets wordt geconfigureerd met Brand Portal via Adobe Developer Console, die een Adobe Identity Management Services (IMS)-token aanschaft voor toestemming van uw Brand Portal-huurder.
+Het configureren van AEM Assets met Brand Portal wordt ondersteund op:
+* AEM Assets as a Cloud Service
+* AEM Assets (ter plaatse en Managed Services) 6.3 en hoger
+
+AEM Assets als Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS-org als de AEM Assets als een Cloud Service-instantie.
+
+Terwijl AEM Assets (op-gebouw en Managed Services) manueel met het Portaal van het Merk gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor toestemming van de huurder van het Portaal van het Merk koopt.
 
 >[!NOTE]
 >
@@ -35,7 +41,7 @@ Adobe Experience Manager Assets wordt geconfigureerd met Brand Portal via Adobe 
 
 >[!TIP]
 >
->***Alleen voor bestaande klanten***
+>***Alleen voor bestaande klanten (op locatie en Managed Services)***
 >
 >De verouderde configuratie van de Gateway OAuth zal blijven werkend voor bestaande klanten.
 >
@@ -45,7 +51,7 @@ De stappen voor het configureren van AEM Assets met Brand Portal verschillen afh
 
 | **AEM** | **Nieuwe configuratie** | **Upgradeconfiguratie** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Configuratie maken](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM Assets as a Cloud Service** | [Merkportal activeren](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 en hoger)** | [Configuratie maken](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgradeconfiguratie](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 en hoger)** | [Configuratie maken](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgradeconfiguratie](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 en hoger)** | [Configuratie maken](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgradeconfiguratie](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
