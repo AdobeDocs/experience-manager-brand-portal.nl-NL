@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6043'
+source-wordcount: '6056'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,15 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 ## Wat is veranderd in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is een verbeteringsrelease die de automatiseringsworkflow van de Brand Portal op AEM Assets als Cloud Service inbrengt, de functie voor het aantrekken van bedrijfsmiddelen op AEM Assets als Cloud Service vereenvoudigt, de ervaring voor het downloaden van bedrijfsmiddelen verbetert en kritieke oplossingen bevat. Het laat ook de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. Het Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve gebruikers van het Brand Portal. Zie de nieuwste [Opmerkingen bij de release Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 is een verbeteringsrelease die de activeringsworkflow van de Brand Portal op AEM Assets als Cloud Service introduceert, de functie Asset Sourcing op AEM Assets als Cloud Service vergemakkelijkt, de functionaliteit voor het downloaden van bedrijfsmiddelen verbetert en kritieke oplossingen bevat. Het laat ook de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. Het Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve gebruikers van het Brand Portal. Zie de nieuwste [Opmerkingen bij de release Brand Portal](brand-portal-release-notes.md).
 
-### Merk Portal-automatisering op AEM Assets als een Cloud Service {#bp-automation-on-cloud-service}
+### Merkportal op AEM Assets activeren als een Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets als Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager.
+AEM Assets als Cloud Service heeft nu het recht om een vooraf geconfigureerde Brand Portal-instantie te hebben. De gebruiker van de Manager van de Wolk kan het Portaal van het Merk op de AEM Assets als instantie van de Cloud Service activeren.
 
 Eerder, werd AEM Assets als Cloud Service manueel gevormd met het Portaal van het Merk gebruikend de Console van de Ontwikkelaar van Adobe.
 
-Een gebruiker van de Manager van de Wolk activeert het activeringswerkschema dat tot de vereiste configuraties bij het achtereind leidt en activeert Brand Portal op zelfde IMS org zoals van AEM Assets als instantie van de Cloud Service.
+De gebruiker van de Manager van de Wolk activeert het activeringswerkschema dat tot de vereiste configuraties bij het achtereind leidt en activeert Brand Portal op zelfde IMS org zoals van AEM Assets als instantie van de Cloud Service.
 
 Brand Portal activeren op uw AEM Assets als een Cloud Service-exemplaar:
 
@@ -458,7 +458,7 @@ De release biedt een vereenvoudigde downloadervaring met een beperkt aantal klik
 * Opdat alleen de uitvoeringen (en niet de oorspronkelijke elementen) worden gedownload.
 * De elementen downloaden wanneer de toegang tot de oorspronkelijke uitvoeringen beperkt is.
 
-## Wat is veranderd in 6.4.2 {#what-changed-in-1}
+## Wat is veranderd in 6.4.6 {#what-changed-in-1}
 
 De introductie van Brand Portal 6.4.2 biedt een aantal mogelijkheden om te voldoen aan de behoeften van organisaties op het gebied van middelendistributie en helpt hen om een groot aantal gebruikers te bereiken die wereldwijd via gasttoegang en optimale ervaring met versnelde downloads worden gedistribueerd. Het Portaal van het merk verstrekt ook grotere controle aan organisaties door nieuwe configuraties voor beheerders, onlangs toegevoegd rapport, en caters aan klantenverzoeken.
 
