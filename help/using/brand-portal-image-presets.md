@@ -8,10 +8,11 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
+role: Beheerder
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefin
 
 Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen te genereren van afbeeldingen die u kunt voorvertonen en downloaden. Wanneer u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kunt u een voorinstelling kiezen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
-(*Als AEM auteurinstantie op **Dynamische Hybride wijze van Media***) loopt om dynamische vertoningen van een activa in het Portaal van het Merk te bekijken, zorg ervoor dat zijn Piramid tiff vertoning bij de AEM auteursinstantie van waar u aan het Portaal van het Merk publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
+(*Als AEM auteurinstantie op **Dynamic Media Hybride wijze***) loopt om dynamische vertoningen van een activa in het Portaal van het Merk te bekijken, zorg ervoor dat zijn Piramid tiff vertoning bij de AEM auteursinstantie van waar u aan het Portaal van het Merk publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
 
 >[!NOTE]
 >
@@ -40,9 +41,9 @@ De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynami
 >
 >Dynamische uitvoeringen van een afbeelding worden gemaakt met de Piramide TIFF. Als de Piramid TIFF niet beschikbaar is voor een element, kunnen dynamische uitvoeringen voor dat element niet worden opgehaald in het Brand-portaal.
 >
->Als AEM auteurinstantie op **Dynamische Hybride wijze van Media** loopt, dan worden de vertoningen van de vertoningen van TIF van beeldBeelden gecreeerd en in AEM bewaarplaats bewaard.
+>Als AEM auteurinstantie op **Dynamic Media Hybrid wijze** loopt, dan worden de vertoningen van de vertoningen van TIF van beeldBeelden gecreeerd en in AEM bewaarplaats bewaard.
 >
->Als AEM auteurinstantie op **Dynamische Scène 7 van Media wijze** loopt, dan bestaan de Vertoningen van TIFF van de Piramide van beeldactiva op de server van Scene 7.
+>Als AEM auteurinstantie op **Dynamic Media Scene 7 wijze** loopt, dan bestaan de Verlopen van de Piramid TIFF van beeldactiva op Scene 7 server.
 >
 >Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en dynamische uitvoeringen weergegeven.
 
