@@ -6,11 +6,13 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Handleiding merkportal
 user-guide-description: Gebruik AEM Assets Brand Portal om aan marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
+feature: Brand Portal
+role: Zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
