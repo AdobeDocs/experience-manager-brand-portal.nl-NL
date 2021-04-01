@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 sub-product: merkportal voor ervaren manager
 audience: end-user
@@ -9,10 +9,10 @@ user-guide-description: Gebruik AEM Assets Brand Portal om aan marketingbehoefte
 feature: Brand Portal
 role: Zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
+source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '287'
+ht-degree: 16%
 
 ---
 
