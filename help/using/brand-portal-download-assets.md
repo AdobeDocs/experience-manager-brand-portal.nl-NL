@@ -9,14 +9,13 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
+source-git-commit: 0999d50f9e33d079c082afda28d7690015a13303
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
-
 
 # Elementen downloaden van Brand Portal {#download-assets-from-bp}
 
@@ -24,31 +23,31 @@ ht-degree: 0%
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
-Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doordat gebruikers tegelijkertijd meerdere middelen en mappen kunnen downloaden die voor hen toegankelijk zijn via Brand Portal. Op deze manier kunnen goedgekeurde merkmiddelen veilig worden gedistribueerd voor offline gebruik. Lees verder om te weten hoe u goedgekeurde middelen kunt downloaden van Brand Portal en wat u kunt verwachten van de [downloadprestaties](../using/brand-portal-download-assets.md#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doordat gebruikers tegelijkertijd meerdere middelen en mappen kunnen downloaden die vanuit Brand Portal voor hen toegankelijk zijn. Op deze manier kunnen goedgekeurde merkmiddelen veilig worden gedistribueerd voor offline gebruik. Lees verder om te weten hoe u goedgekeurde middelen van Brand Portal kunt downloaden en wat u van de [downloadprestaties](../using/brand-portal-download-assets.md#expected-download-performance) kunt verwachten.
 
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld, waarbij IBM Aspera Connect wordt gebruikt voor het versnelde downloaden van de middelen. [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in de browserextensie voordat u de middelen downloadt van Brand Portal. Voor meer details, zie [gids om downloads van het Portaal van het Merk te versnellen](../using/accelerated-download.md).
+>In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld, waarbij IBM Aspera Connect wordt gebruikt voor het versnelde downloaden van de middelen. [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in de browserextensie voordat u de middelen downloadt van Brand Portal. Zie [handleiding voor het versnellen van downloads vanuit Brand Portal](../using/accelerated-download.md) voor meer informatie.
 >
->Als u IBM Aspera Connect niet wilt gebruiken en verder wilt gaan met het normale downloadproces, neemt u contact op met de beheerder van het Brand Portal om de instelling **[!UICONTROL Fast Download]** uit te schakelen.
+>Als u IBM Aspera Connect niet wilt gebruiken en verder wilt gaan met het normale downloadproces, neemt u contact op met de Brand Portal-beheerder om de instelling **[!UICONTROL Fast Download]** uit te schakelen.
 
 ## Elementdownload {#configure-download} configureren
 
-De beheerders van het Portaal van het merk kunnen de activa downloaden en de montages van de gebruikersgroep voor de gebruikers van het Portaal van het Merk vormen hen om tot activa van de interface van het Portaal van het Merk toegang te hebben en te downloaden.
+Brand Portal-beheerders kunnen de instellingen voor het downloaden van middelen en gebruikersgroepen configureren voor de Brand Portal-gebruikers, zodat ze via de Brand Portal-interface toegang hebben tot elementen en deze kunnen downloaden.
 
 >[!NOTE]
 >
->De downloadmontages die op het gebruikersinterface worden toegepast vergemakkelijken een zelfbedieningservaring aan de gebruikers van het Portaal van het Merk om de activa gemakkelijk te vormen en te downloaden. De functionaliteit beperkt het downloaden van elementen op de toepassingslaag niet. Gebruikers kunnen bijvoorbeeld nog steeds de elementuitvoeringen openen en downloaden met het volledige URL-pad.
+>De downloadinstellingen die in de gebruikersinterface worden toegepast, maken het voor de Brand Portal-gebruikers gemakkelijker om de elementuitvoeringen eenvoudig te configureren en te downloaden. De functionaliteit beperkt het downloaden van elementen op de toepassingslaag niet. Gebruikers kunnen bijvoorbeeld nog steeds de elementuitvoeringen openen en downloaden met het volledige URL-pad.
 
-De toegang tot en het downloaden van de activa van de interface van het Portaal van het Merk wordt bepaald door de volgende configuraties:
+De toegang tot en het downloaden van de elementuitvoeringen vanuit de Brand Portal-interface worden gedefinieerd door de volgende configuraties:
 
 * Downloadinstellingen inschakelen
 * Gebruikersgroepinstellingen configureren
 
 ### Downloadinstellingen {#enable-download-settings} inschakelen
 
-De beheerders kunnen de activa **[!UICONTROL Download Settings]** toelaten om de reeks vertoningen te bepalen die voor de gebruikers van het Portaal van het Merk voor download toegankelijk zijn.
+De beheerders kunnen het element **[!UICONTROL Download Settings]** inschakelen om de set uitvoeringen te definiëren die voor Brand Portal-gebruikers toegankelijk is om te worden gedownload.
 
 De beschikbare instellingen zijn:
 
@@ -73,9 +72,9 @@ De beschikbare instellingen zijn:
    Hiermee kunt u de uitvoeringen voor elk element in een aparte map downloaden. De instelling is van toepassing op mappen, verzamelingen en het bulkdownloaden van elementen (meer dan 20 elementen).
 
 
-Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
+Meld u als beheerder aan bij uw Brand Portal-medewerker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
 
-De beheerders kunnen om het even welke combinatie montages voor de gebruikers van het Portaal van het Merk aan toegang en downloadvertoningen toelaten.
+De beheerders kunnen om het even welke combinatie montages voor de gebruikers van Brand Portal toelaten om uitvoeringen toegang te hebben en te downloaden.
 
 ![](assets/download-settings-new.png)
 
@@ -86,9 +85,9 @@ De beheerders kunnen om het even welke combinatie montages voor de gebruikers va
 
 ### Gebruikersgroepinstellingen {#configure-user-group-settings} configureren
 
-Naast **[!UICONTROL Download Settings]** kunnen de beheerders van het Poortportaal van het Merk montages voor verschillende groep gebruikers verder vormen om de originele activa en hun vertoningen te bekijken en (of) te downloaden.
+Naast **[!UICONTROL Download Settings]** kunnen de Brand Portal-beheerders de instellingen voor verschillende groepen gebruikers verder configureren om de oorspronkelijke elementen en hun uitvoeringen weer te geven en (of) te downloaden.
 
-Meld u als beheerder aan bij uw Brand Portal-gebruiker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Navigeer op de pagina **[!UICONTROL User Roles]** naar het tabblad **[!UICONTROL Groups]** om de weergave- en (of) downloadinstellingen voor de gebruikersgroepen te configureren.
+Meld u als beheerder aan bij uw Brand Portal-medewerker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Navigeer op de pagina **[!UICONTROL User Roles]** naar het tabblad **[!UICONTROL Groups]** om de weergave- en (of) downloadinstellingen voor de gebruikersgroepen te configureren.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -117,11 +116,11 @@ De volgende matrix definieert of een gebruiker toegang heeft tot de uitvoeringen
 
 ## Elementen {#download-assets} downloaden
 
-De gebruikers van het Portaal van het merk kunnen veelvoudige activa, omslagen die activa, en inzamelingen van de interface van het Portaal van het Merk downloaden.
+Brand Portal-gebruikers kunnen vanuit de Brand Portal-interface meerdere elementen, mappen met elementen en verzamelingen downloaden.
 
 >[!NOTE]
 >
->Neem contact op met de beheerder van het Brand Portal als u geen machtiging hebt om de elementuitvoeringen te openen of te downloaden.
+>Neem contact op met de Brand Portal-beheerder als u geen toestemming hebt om de elementuitvoeringen te openen of te downloaden.
 
 Als de gebruiker toegang tot vertoningen heeft, wordt de gebruiker voorzien van het verbeterde **[!UICONTROL Download]** dialoog met de volgende mogelijkheden:
 * Alle beschikbare uitvoeringen van elementen in de downloadlijst weergeven.
@@ -140,7 +139,7 @@ Als de gebruiker toegang tot vertoningen heeft, wordt de gebruiker voorzien van 
 
 ### Stappen om elementen te downloaden {#bulk-download}
 
-Hier volgen de stappen voor het downloaden van elementen of mappen met elementen van de interface Brand Portal:
+Hier volgen de stappen voor het downloaden van elementen of mappen met elementen van de Brand Portal-interface:
 
 1. Meld u aan bij uw Brand Portal-huurder. Standaard wordt de weergave **[!UICONTROL Files]** geopend, die alle gepubliceerde elementen en mappen bevat.
 
@@ -181,7 +180,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
    ![remove](assets/remove.png)
 
-   Selecteer het selectievakje **[!UICONTROL Create separate folder for each asset]** om de maphiërarchie van het Brand Portal te behouden tijdens het downloaden van elementen.
+   Schakel het selectievakje **[!UICONTROL Create separate folder for each asset]** in om de Brand Portal-maphiërarchie tijdens het downloaden van elementen te behouden.
 
    De downloadknop geeft het aantal geselecteerde items weer. Als u klaar bent met het toepassen van de regels, klikt u op **[!UICONTROL Download items]**.
 
@@ -200,18 +199,19 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
 >[!NOTE]
 >
->Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map.
->
 >Als de instelling **[!UICONTROL Asset Download]** is ingeschakeld in **[!UICONTROL Download Settings]**, worden de elementuitvoeringen gedownload in een aparte map voor elk element in de ZIP-map.
-
+>  
+>Als de elementen worden gedownload van een gedeelde koppeling, worden de elementuitvoeringen gedownload in een aparte map voor elk element in de ZIP-map.
+>
+>Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map.
 
 >[!NOTE]
 >
->Het Portaal van het merk steunt het vormen Dynamic Media op zowel Hybride als wijze Scene 7.
+>Brand Portal ondersteunt het configureren van Dynamic Media in zowel de Hybride als de Scène 7-modus.
 >
 >(*Als AEM auteurinstantie op **Dynamic Media Hybride wijze*** loopt)
 >
->Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van AEM aan het Portaal van het Merk wordt gepubliceerd, wordt zijn piramide tiff vertoning ook gepubliceerd.
+>Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van AEM naar Brand Portal wordt gepubliceerd, wordt ook de uitvoering van de piramide-tiff gepubliceerd.
 
 
 
@@ -234,7 +234,7 @@ Gebruikers kunnen een voorvertoning van verschillende uitvoeringen bekijken, spe
 
 Hier volgen de stappen voor het downloaden van elementuitvoeringen van de pagina met elementdetails:
 
-1. Meld u aan bij uw Poortmedewerker voor merken en klik op het element om de pagina met elementdetails te openen.
+1. Meld u aan bij de Brand Portal-huurder en klik op het element om de pagina met elementdetails te openen.
 1. Klik op het bedekkingspictogram aan de linkerkant en klik op **[!UICONTROL Renditions]**.
 
    ![rendition-navigation](assets/rendition-navigation.png)
@@ -402,7 +402,7 @@ Following are the steps to download assets or folders containing assets from Bra
 
 ## Downloadprestaties {#expected-download-performance} verwacht
 
-Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van factoren zoals lokale internetverbinding en serverwachttijd. De verwachte downloadprestaties voor 2-GB dossier dat bij verschillende cliëntplaatsen wordt waargenomen zijn als volgt, met de server van het Portaal van het Merk bij Oregon in Verenigde Staten:
+Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van factoren zoals lokale internetverbinding en serverwachttijd. De verwachte downloadprestaties voor 2-GB dossier dat bij verschillende cliëntplaatsen wordt waargenomen zijn als volgt, met de server van Brand Portal bij Oregon in Verenigde Staten:
 
 | Clientlocatie | Latentie tussen client en server | Downloadsnelheid verwacht | Tijd die nodig is om een bestand van 2 GB te downloaden |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
@@ -419,4 +419,3 @@ Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van 
 >[!NOTE]
 >
 >Er worden gegevens met betrekking tot de kationen waargenomen onder testomstandigheden, die kunnen variëren voor gebruikers op verschillende locaties met een gevarieerde latentie en bandbreedte.
-
