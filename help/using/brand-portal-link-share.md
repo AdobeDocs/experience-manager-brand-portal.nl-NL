@@ -1,28 +1,27 @@
 ---
 title: Elementen delen als koppeling
 seo-title: Elementen delen als koppeling
-description: Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
-seo-description: Beheerders van AEM Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+description: AEM Assets Brand Portal-beheerders kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+seo-description: AEM Assets Brand Portal-beheerders kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: tm+mt
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
+source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
-
 # Elementen delen als een koppeling {#share-assets-as-a-link}
 
-Beheerders van Adobe Experience Manager Assets Brand Portal kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
+Adobe Experience Manager Assets Brand Portal-beheerders kunnen koppelingen van meerdere middelen delen met geautoriseerde interne gebruikers en externe entiteiten, waaronder partners en leveranciers. Editors kunnen alleen de elementen weergeven en delen die met hen worden gedeeld.
 
-Het delen van elementen via een koppeling is een handige manier om deze beschikbaar te maken voor externe partijen, aangezien de ontvangers zich niet hoeven aan te melden bij Brand Portal voor toegang tot de middelen.
+Het delen van elementen via een koppeling is een handige manier om deze beschikbaar te maken voor externe partijen, aangezien de ontvangers zich niet hoeven aan te melden bij Brand Portal om toegang te krijgen tot de middelen.
 
 <!-- Link sharing access is restricted to editors and administrators. 
 -->
@@ -31,7 +30,7 @@ Zie [Gebruikers, groepen en gebruikersrollen beheren](../using/brand-portal-addi
 
 >[!NOTE]
 >
->Maximaal 5 GB ZIP-download is toegestaan met de functie voor delen van koppelingen op Brand Portal.
+>Maximaal 5 GB gedownload via de functie voor delen van koppelingen in Brand Portal.
 
 
 Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
@@ -57,7 +56,7 @@ Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
    * Gebruik in het veld **[!UICONTROL Expiration]** de datumkiezer om een vervaldatum en -tijd voor de koppeling op te geven. De vervaldatum is standaard ingesteld op 7 dagen vanaf de datum waarop u de koppeling deelt.
    * Schakel het selectievakje **[!UICONTROL Allow downlod of original file]** in zodat de ontvangers de oorspronkelijke vertoning kunnen downloaden.
 
-   De elementen die via de koppeling worden gedeeld, verlopen na het overschrijden van de datum en tijd die in het veld **[!UICONTROL Expiration]** zijn opgegeven. Zie [Digitale rechten van middelen beheren](../using/manage-digital-rights-of-assets.md#asset-expiration) voor informatie over het gedrag van verlopen elementen en wijzigingen in de toegestane activiteiten op basis van gebruikersrollen in Brand Portal.
+   De elementen die via de koppeling worden gedeeld, verlopen na het overschrijden van de datum en tijd die in het veld **[!UICONTROL Expiration]** zijn opgegeven. Zie [Digitale rechten van elementen beheren](../using/manage-digital-rights-of-assets.md#asset-expiration) voor informatie over het gedrag van verlopen elementen en wijzigingen in de toegestane activiteiten op basis van gebruikersrollen in Brand Portal.
 
    >[!NOTE]
    >
@@ -97,7 +96,9 @@ De gedeelde elementen downloaden:
 
    >[!NOTE]
    >
-   >Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map. Voor elk element in de ZIP-map wordt een aparte map gemaakt.
+   >Voor elk element wordt een aparte map gemaakt terwijl de elementen worden gedownload van een gedeelde koppeling.
+   >
+   >Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map met een aparte map voor elk element.
 
    >[!NOTE]
    >
@@ -134,7 +135,7 @@ De gedeelde elementen downloaden:
 
 ## Ondersteuning voor voorvertoningen en miniaturen van asset-indelingen {#preview-thumbnail-support}
 
-De volgende matrix geeft een overzicht van de indelingen voor elementen waarvoor Brand Portal miniatuur en voorvertoning ondersteunt:
+De volgende matrix geeft een overzicht van de indelingen voor elementen waarvoor Brand Portal miniaturen en voorvertoningen ondersteunt:
 
 | Elementformaat | Ondersteuning voor miniaturen | Ondersteuning voor voorvertoningen |
 |--------------|-------------------|-----------------|
@@ -202,7 +203,7 @@ In de volgende legenda worden de symbolen uitgelegd die in de matrix worden gebr
 | ✓ | Deze bestandsindeling ondersteunt deze functie |
 | ✕ | Deze functie wordt niet ondersteund door deze bestandsindeling |
 | NA | Deze functie is niet van toepassing op deze bestandsindeling |
-| * | Voor deze functie is add-on ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat de middelen naar Brand Portal zijn gepubliceerd |
+| * | Voor deze functie is aanvullende ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat elementen naar Brand Portal zijn gepubliceerd |
 
 ## Delen van elementen die worden gedeeld als een koppeling {#unshare-assets-shared-as-a-link} opheffen
 
