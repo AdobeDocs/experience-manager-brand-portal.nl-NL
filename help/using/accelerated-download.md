@@ -1,32 +1,31 @@
 ---
-title: De downloads van de Brand Portal versnellen
-seo-title: De downloads van de Brand Portal versnellen
-description: Verbeter downloadprestaties van Brand Portal en de gedeelde koppelingen.
-seo-description: Verbeter downloadprestaties van Brand Portal en de gedeelde koppelingen.
+title: Brand Portal-downloads versnellen
+seo-title: Brand Portal-downloads versnellen
+description: Verbeter de downloadprestaties van Brand Portal en de gedeelde koppelingen.
+seo-description: Verbeter de downloadprestaties van Brand Portal en de gedeelde koppelingen.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+exl-id: cf28df58-c6dd-4b12-8279-01351892009f
+source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 3%
 
 ---
 
+# Brand Portal-downloads versnellen {#guide-to-accelerate-downloads-from-brand-portal}
 
-# De downloads van de Brand Portal {#guide-to-accelerate-downloads-from-brand-portal} versnellen
-
-Met Adobe Experience Manager Assets Brand Portal kunt u de downloadprestaties van grote elementbestanden verbeteren door te integreren met IBM Aspera Connect, een toepassing die op aanvraag kan worden geïnstalleerd. De toepassing gebruikt merkgebonden technologie om de overheadkosten van TCP te verwijderen en helpt overdrachtsnelheid van de activadossiers te verbeteren. Deze integratie zorgt voor een verbeterde downloadervaring.
+Adobe Experience Manager Assets Brand Portal maakt het mogelijk de downloadprestaties van grote elementbestanden te verbeteren door integratie met IBM Aspera Connect, een toepassing die op aanvraag wordt geïnstalleerd. De toepassing gebruikt merkgebonden technologie om de overheadkosten van TCP te verwijderen en helpt overdrachtsnelheid van de activadossiers te verbeteren. Deze integratie zorgt voor een verbeterde downloadervaring.
 
 >[!NOTE]
 >
 >Downloadsnelheid verschilt voor gebruikers omdat dit afhankelijk is van factoren zoals netwerkbandbreedte, serverlatentie en geografische locatie van clients.
 
-De **[!UICONTROL Fast Download]** configuratie is door gebrek toegelaten, die beduidend de tijd vermindert om de gewenste activadossiers van het Portaal van het Merk te downloaden.
+De configuratie **[!UICONTROL Fast Download]** is standaard ingeschakeld, waardoor de downloadtijd voor de gewenste elementbestanden van Brand Portal aanzienlijk afneemt.
 
 ![](assets/download-settings-new.png)
 
@@ -54,7 +53,7 @@ Hier volgen de downloaddomeinen voor verschillende geografische gebieden:
 
 In de volgende tabel worden de downloadprestaties voor 2 GB-bestanden weergegeven met de Aspera Connect-bestandsdownloadaccelerator:
 
-*De waargenomen resultaten variëren toe te schrijven aan factoren zoals netwerkbandbreedte, serverlatentie, en cliëntplaats, aangezien de server van het Portaal van het Merk bij Oregon (Verenigde Staten) is.*
+*De waargenomen resultaten variëren door factoren zoals netwerkbandbreedte, serverlatentie, en cliëntplaats, gezien de server van Brand Portal bij Oregon (Verenigde Staten) is.*
 
 | Clientlocatie | Latentie tussen client en server (milliseconden) | Snelheid met Aspera Connect File Transfer Accelerator (MBps) | Tijd die nodig is om 2 GB bestand te downloaden met Aspera File Transfer Accelerator (seconden) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -69,7 +68,7 @@ In de volgende tabel worden de downloadprestaties voor 2 GB-bestanden weergegeve
 
 ## Workflow downloaden met bestandsaccelerator {#download-workflow-using-file-accelerator}
 
-Middelen sneller downloaden van Brand Portal:
+Zo downloadt u elementen sneller van Brand Portal:
 
 1. Meld u aan bij uw Brand Portal-huurder. Standaard wordt de weergave **[!UICONTROL Files]** geopend, die alle gepubliceerde elementen en mappen bevat.
 
@@ -85,7 +84,7 @@ Middelen sneller downloaden van Brand Portal:
 
 1. Het dialoogvenster **[!UICONTROL Download]** met alle geselecteerde elementen wordt geopend.
 
-   Selecteer het selectievakje **[!UICONTROL Create separate folder for each asset]** om de maphiërarchie van het Brand Portal te behouden tijdens het downloaden van elementen.
+   Schakel het selectievakje **[!UICONTROL Create separate folder for each asset]** in om de Brand Portal-maphiërarchie tijdens het downloaden van elementen te behouden.
 
    De downloadknop geeft het aantal geselecteerde items weer. Als u klaar bent met het toepassen van de regels, klikt u op **[!UICONTROL Download items]**. Zie [Elementen downloaden](../using/brand-portal-download-assets.md#download-assets) voor meer informatie over het toepassen van regels.
 
@@ -185,7 +184,7 @@ Als u de functie voor versnelde download wilt gebruiken op Microsoft Edge, verwi
 1. Open het Configuratiescherm (**[!UICONTROL Window key + X]**, dan selecteer **[!UICONTROL Control Panel]**).
 1. Ga naar **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Klik op het tabblad **[!UICONTROL Security]**.
 1. Klik **[!UICONTROL Trusted sites zone]**, dan klik **[!UICONTROL Sites]**.
-1. Merk Portal-site verwijderen uit de lijst.
+1. Brand Portal-site verwijderen uit de lijst.
 
 ## Voorkeuren voor Adobe Connect-client {#aspera-connect-client-preferences}
 
