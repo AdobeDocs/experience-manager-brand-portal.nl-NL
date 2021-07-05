@@ -1,50 +1,50 @@
 ---
 title: Release-opmerkingen
 seo-title: Release-opmerkingen
-description: Bekijk de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal versie 2021.02.0.
-seo-description: Bekijk de verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal versie 2021.02.0.
+description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2021.06.0-release.
+seo-description: Bekijk de verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2021.06.0-release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
+source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 4%
+source-wordcount: '327'
+ht-degree: 7%
 
 ---
 
+# Release-opmerkingen {#release-notes}
 
-# Releaseopmerkingen {#release-notes}
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2021.06.0-release.
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal versie 2021.02.0.
-
-## Informatie opheffen {#release-information}
+## Geen informatie {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2021 02,0 |
-| Date | februari 2021 |
+| Versie | 2021,06,0 |
+| Date | Juni 2021 |
 
 ## Overzicht {#overview}
 
-Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Merkportal biedt gebruikers de mogelijkheid om in door het bedrijf goedgekeurde indelingen te zoeken, te bekijken, voor te vertonen, te downloaden en te exporteren, altijd en overal.
+Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
 
-## Nieuwe functies in 2021.02.0 {#whats-new-in-2021.02.0}
+## Nieuwe functies in 2021.06.0 {#whats-new-in-2021.06.0}
 
-### Nieuwe functies {#new-features}
+<!--
+### New Features {#new-features}
 
-Deze release bevat de volgende nieuwe functies:
+This release includes the following new features:
 
-* AEM Assets als Cloud Service heeft nu het recht om een vooraf geconfigureerde Brand Portal-instantie te hebben. De gebruiker van de Manager van de Wolk kan het Portaal van het Merk op de AEM Assets als instantie van de Cloud Service activeren.
+* AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-* De functie Asset Sourcing is nu als Cloud Service beschikbaar op AEM Assets. Hiermee kunnen gebruikers van het Brand Portal elementen uploaden naar de mappen met toegestane bijdragen en de map met bijdragen publiceren van Brand Portal naar AEM Assets als instantie van Cloud Service.
+* Asset Sourcing feature is now available on AEM Assets as a Cloud Service. It allows the Brand Portal users to upload assets to the permitted contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. 
 
-* Er is een extra **[!UICONTROL Asset Download]**-instelling toegevoegd onder **[!UICONTROL Download Settings]**. Er wordt een aparte map voor elk element gemaakt tijdens het downloaden van de mappen, verzamelingen of het bulkdownloaden van elementen.
-
+* An additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]**. It creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
+-->
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 -->
@@ -67,12 +67,25 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-### Verbeteringen {#enhancements}
+<!--
+### Enhancements {#enhancements}
 
-Deze release bevat de volgende verbeteringen:
+Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
 
-* Voor het downloaden van mappen wordt voor elk element een aparte map gemaakt met behulp van een gedeelde koppeling, ongeacht **[!UICONTROL Download Settings]**.
-* Het Brand Portal **[!UICONTROL Usage Report]** is gewijzigd om alleen de actieve gebruikers van het Brand Portal weer te geven.
+This release includes the following enhancements:
+
+* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+
+
+* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+
+* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
+-->
+
+<!-- 
+* For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
+* The Brand Portal **[!UICONTROL Usage Report]** has been modified to reflect only the active Brand Portal users.
+-->
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -82,24 +95,39 @@ Deze release bevat de volgende verbeteringen:
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
-Deze release bevat oplossingen voor de volgende kritieke problemen:
+Brand Portal 2021.06.0 is een interne release met oplossingen voor de volgende kritieke problemen:
 
-* Als alleen de originele elementen worden gedownload, weerspiegelt het element de eigen extensie en wordt het pas geopend als de extensie handmatig wordt gewijzigd in zip.
-* De gebruikersinterface van de verzamelingsmap reageert niet wanneer u op de navigatiepijl klikt.
-* **[!UICONTROL Create]** Deze knop is zichtbaar in de  **[!UICONTROL Column]** weergave, zelfs als de mappen leeg zijn.
-* **[!UICONTROL Omni search]** ontbreekt met een 414 foutenmelding (verzoek-URI Te lang) als de verzender terwijl het toegang tot van de instantie van het Portaal van het Merk wordt overgeslagen.
-* Er wordt een lege ZIP-map gedownload als het element een komma (`,`) in de bestandsnaam bevat.
-* Gebruikers van viewers kunnen gebruikers toevoegen aan de verzameling die ze hebben gemaakt.
-* Er is sprake van inconsistent gedrag wanneer een element (miniatuur of webuitvoering) wordt gedownload via een koppeling voor delen.
+* E-mailmeldingen voor middelenbronnen worden niet voor sommige organisaties geleverd.
 
-Zie [nieuwe functies in Brand Portal 2021.02.0](whats-new.md).
+* Videobestanden met de extensie .mov worden niet uitgevoerd op Brand Portal.
 
+* In het vervolgkeuzemenu Slimme verzamelingen zijn slechts tien opgeslagen verzamelingen zichtbaar.
 
-### Bekende problemen {#known-issues}
+<!--
+* *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
+-->
 
-Deze release bevat de volgende bekende uitgave:
+<!--
+In case only the original assets are downloaded, the asset reflects its own extension and does not open until the extension is manually changed to zip. 
+* The user interface of the collection folder does not respond on clicking the navigation arrow. 
+* **[!UICONTROL Create]** button is visible in the **[!UICONTROL Column]** view even when the folders are empty.
+* **[!UICONTROL Omni search]** fails with a 414 error message (Request-URI Too Long) if the dispatcher is bypassed while accessing the Brand Portal instance.
+* An empty zip folder is downloaded if the asset contains a comma (`,`) in the file name.
+* The viewer users get the option to add users to the collection they have created. 
+* Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
-* De gebruikers ontvangen geen e-mailmeldingen voor de publicatieworkflows voor Asset Sourcing.
+See [what's new in Brand Portal 2021.02.0](whats-new.md).
+-->
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+
+  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
+-->
 
 <!--
 ### Known Issues {#known-issues}
@@ -150,7 +178,7 @@ This release includes the following known issues:
 
 ## Talen {#languages}
 
-De gebruikersinterface van het Merk Portal is beschikbaar in de volgende talen:
+De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 
 * Engels
 * Duits
@@ -169,7 +197,7 @@ Als u wilt controleren welke platforms zijn gecertificeerd voor uitvoering met d
 ## Koppelingen {#links}
 
 * [Adobe Experience Manager-productpagina op adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Merknaam van bedrijfsmiddelen — Documentatie](https://helpx.adobe.com/nl/experience-manager/brand-portal/user-guide.html)
+* [Assets Brand Portal-documentatie](https://helpx.adobe.com/nl/experience-manager/brand-portal/user-guide.html)
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 
