@@ -1,30 +1,29 @@
 ---
 title: Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen
 seo-title: Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen
-description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kunnen AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
-seo-description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kunnen AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
+description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
+seo-description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 212a1b3a-686f-4250-be06-b679b6039887
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
 
+# Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen {#apply-image-presets-or-dynamic-renditions}
 
-# Voorinstellingen voor afbeeldingen of dynamische vertoningen toepassen {#apply-image-presets-or-dynamic-renditions}
-
-Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kunnen AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren.
+Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren.
 
 Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen te genereren van afbeeldingen die u kunt voorvertonen en downloaden. Wanneer u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kunt u een voorinstelling kiezen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
-(*Als AEM auteurinstantie op **Dynamic Media Hybride wijze***) loopt om dynamische vertoningen van een activa in het Portaal van het Merk te bekijken, zorg ervoor dat zijn Piramid tiff vertoning bij de AEM auteursinstantie van waar u aan het Portaal van het Merk publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
+(*Als AEM auteurinstantie op **Dynamic Media Hybride wijze***) loopt om dynamische vertoningen van een activa in Brand Portal te bekijken, zorg ervoor dat zijn Pyramid tiff vertoning bij de AEM auteursinstantie van waar u aan Brand Portal publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
 
 >[!NOTE]
 >
@@ -33,7 +32,7 @@ Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen t
 
 Zie [Voorinstellingen afbeelding beheren](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html) voor meer informatie over de vereiste parameters bij het maken van voorinstellingen voor afbeeldingen.
 
-## Een voorinstelling voor een afbeelding maken {#create-an-image-preset}
+## Een voorinstelling voor afbeeldingen maken {#create-an-image-preset}
 
 De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynamische uitvoeringen op de pagina met elementdetails worden weergegeven. U kunt een geheel nieuwe voorinstelling voor afbeeldingen maken of een bestaande voorinstelling met een nieuwe naam opslaan. Wanneer u een voorinstelling voor afbeeldingen maakt, kiest u een grootte voor de levering van de afbeelding en de opmaakopdrachten. Wanneer een afbeelding voor weergave wordt geleverd, wordt de weergave ervan geoptimaliseerd volgens de gekozen opdrachten.
 
@@ -69,11 +68,11 @@ De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynami
 1. Klik op **[!UICONTROL Save]**. De voorinstelling voor de afbeelding wordt gemaakt en weergegeven op de pagina met voorinstellingen voor de afbeelding.
 1. Als u een voorinstelling voor afbeeldingen wilt verwijderen, selecteert u deze op de pagina met voorinstellingen voor afbeeldingen en klikt u op **[!UICONTROL Delete]**. Klik in de bevestigingspagina op **[!UICONTROL Delete]** om de verwijdering te bevestigen. De voorinstelling voor de afbeelding wordt verwijderd van de pagina met voorinstellingen voor de afbeelding.
 
-## Afbeeldingsvoorinstellingen toepassen bij voorvertonen van afbeeldingen {#apply-image-presets-when-previewing-images}
+## Afbeeldingsvoorinstellingen toepassen bij voorvertoningen van afbeeldingen  {#apply-image-presets-when-previewing-images}
 
 Als u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kiest u een van de bestaande voorinstellingen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
-1. Klik in de interface Brand Portal op een afbeelding om deze te openen.
+1. Klik in de Brand Portal-interface op een afbeelding om deze te openen.
 1. Klik op het bedekkingspictogram aan de linkerkant en kies **[!UICONTROL Renditions]**.
 
    ![](assets/image-preset-previewrenditions.png)
@@ -84,9 +83,9 @@ Als u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoering
 
 ## Afbeeldingsvoorinstellingen toepassen bij het downloaden van afbeeldingen {#apply-image-presets-when-downloading-images}
 
-Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt van Brand Portal, kunt u geen voorinstellingen voor bestaande afbeeldingen kiezen. U kunt de eigenschappen van voorinstellingen voor afbeeldingen echter aanpassen op basis waarvan u de afbeeldingen opnieuw wilt opmaken.
+Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt uit Brand Portal, kunt u geen voorinstellingen voor bestaande afbeeldingen kiezen. U kunt de eigenschappen van voorinstellingen voor afbeeldingen echter aanpassen op basis waarvan u de afbeeldingen opnieuw wilt opmaken.
 
-1. Voer een van de volgende handelingen uit vanuit de interface Brand Portal:
+1. Voer een van de volgende handelingen uit vanuit de Brand Portal-interface:
 
    * Houd de aanwijzer boven de afbeelding die u wilt downloaden. Klik op het pictogram **[!UICONTROL Download]** van de beschikbare miniaturen voor snelle handelingen.
 
