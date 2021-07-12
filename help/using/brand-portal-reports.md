@@ -1,30 +1,29 @@
 ---
 title: Werken met rapporten
 seo-title: Werken met rapporten
-description: Beheerders van AEM Assets Brand Portal kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
-seo-description: Beheerders van AEM Assets Brand Portal kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
+description: AEM Assets Brand Portal-beheerders kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
+seo-description: AEM Assets Brand Portal-beheerders kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
 
-
 # Werken met rapporten {#work-with-reports}
 
-De rapporteringscapaciteit is nuttig om het gebruik van het Portaal van het Merk te beoordelen, en het weten hoe de interne en externe gebruikers met goedgekeurde activa in wisselwerking staan. Beheerders kunnen het rapport Brand Portal-verbruik weergeven. Dit rapport is altijd beschikbaar op de pagina Asset Reports. Rapporten voor gebruikersaanmeldingen en gedownloade, verlopen, gepubliceerde en via koppelingen gedeelde elementen kunnen echter worden gegenereerd en weergegeven op de pagina Asset Reports. Deze rapporten zijn nuttig in het analyseren van middelenplaatsing, die u zeer belangrijke succesmetriek laat afleiden om de goedkeuring van goedgekeurde activa binnen en buiten uw organisatie te meten.
+De rapportagefunctie is van essentieel belang voor het beoordelen van het gebruik van Brand Portal en het weten hoe interne en externe gebruikers met goedgekeurde middelen omgaan. Beheerders kunnen het rapport Brand Portal-verbruik weergeven. Dit rapport is altijd beschikbaar op de pagina Asset Reports. Rapporten voor gebruikersaanmeldingen en gedownloade, verlopen, gepubliceerde en via koppelingen gedeelde elementen kunnen echter worden gegenereerd en weergegeven op de pagina Asset Reports. Deze rapporten zijn nuttig in het analyseren van middelenplaatsing, die u zeer belangrijke succesmetriek laat afleiden om de goedkeuring van goedgekeurde activa binnen en buiten uw organisatie te meten.
 
 De interface van het rapportbeheer is intuïtief en omvat fijnkorrelige opties en controles om tot bewaarde rapporten toegang te hebben. U kunt rapporten weergeven, downloaden of verwijderen van de pagina Asset Reports, waar alle eerder gegenereerde rapporten worden weergegeven.
 
-## Rapporten {#view-reports} weergeven
+## Rapporten weergeven {#view-reports}
 
 Voer de volgende stappen uit om een rapport weer te geven:
 
@@ -40,16 +39,16 @@ Voer de volgende stappen uit om een rapport weer te geven:
 
    >[!NOTE]
    >
-   >Het rapport van het gebruik is een standaardrapport dat in het Portaal van het Merk wordt geproduceerd. Kan het niet maken of verwijderen. U kunt echter wel de rapporten Download, Expiration, Publish, Link Share en User Logins maken, downloaden en verwijderen.
+   >Gebruiksrapport is een standaardrapport dat in Brand Portal wordt gegenereerd. Kan het niet maken of verwijderen. U kunt echter wel de rapporten Download, Expiration, Publish, Link Share en User Logins maken, downloaden en verwijderen.
 
    Klik op de rapportkoppeling om een rapport weer te geven. U kunt ook het rapport selecteren en op het pictogram Weergave op de werkbalk tikken of erop klikken.
 
-   **[!UICONTROL Usage Report]** geeft informatie weer over het aantal actieve gebruikers van het Brand Portal, de opslagruimte die door alle elementen wordt ingenomen en het totale aantal elementen in het Brand Portal. De merkportalgebruikers die niet aan enig productprofiel in de Admin Console worden toegewezen worden beschouwd als inactieve gebruikers en niet weerspiegeld in **[!UICONTROL Usage Report]**.
+   **[!UICONTROL Usage Report]** geeft informatie weer over het aantal actieve Brand Portal-gebruikers, de opslagruimte die door alle elementen wordt ingenomen en het totale aantal elementen in Brand Portal. De merkportalgebruikers die niet aan enig productprofiel in de Admin Console worden toegewezen worden beschouwd als inactieve gebruikers en niet weerspiegeld in **[!UICONTROL Usage Report]**.
 Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetriek.
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL User Logins]** het rapport geeft informatie over de gebruikers die aan het Portaal van het Merk het programma hebben geopend. Het rapport toont vertoningsnamen, e-mail IDs, persona&#39;s (admin, kijker, redacteur, gast), groepen, laatste login, activiteitenstatus, en login telling van elke gebruiker van Poort 6.4.2 plaatsing van het Merk tot de tijd van rapportgeneratie.
+   **[!UICONTROL User Logins]** het rapport bevat informatie over de gebruikers die zich bij Brand Portal hebben aangemeld. Het rapport toont vertoningsnamen, e-mail IDs, persona&#39;s (admin, kijker, redacteur, gast), groepen, laatste login, activiteitenstatus, en login telling van elke gebruiker van de plaatsing van Brand Portal 6.4.2 tot de tijd van rapportgeneratie.
 
    ![](assets/user-logins.png)
 
@@ -59,13 +58,13 @@ Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetri
 
    >[!NOTE]
    >
-   >In het rapport assets **[!UICONTROL Download]** worden alleen de elementen weergegeven die afzonderlijk zijn geselecteerd en gedownload van Brand Portal. Als een gebruiker een map met elementen heeft gedownload, geeft het rapport de map of de elementen in de map niet weer.
+   >In het middelenrapport **[!UICONTROL Download]** worden alleen de elementen weergegeven die afzonderlijk zijn geselecteerd en gedownload van Brand Portal. Als een gebruiker een map met elementen heeft gedownload, geeft het rapport de map of de elementen in de map niet weer.
 
    **[!UICONTROL Expiration]** het rapport maakt een lijst en details van alle activa die in een specifiek tijdkader verliepen.
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]** het rapport maakt een lijst en geeft informatie over alle activa die van AEM aan het Portaal van het Merk in een gespecificeerd tijdkader worden gepubliceerd.
+   **[!UICONTROL Publish]** het rapport maakt een lijst en geeft informatie over alle activa die van AEM aan Brand Portal in een gespecificeerd tijdkader worden gepubliceerd.
 
    ![](assets/publish-report.png)
 
@@ -73,7 +72,7 @@ Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetri
    >
    >In het publicatierapport wordt geen informatie weergegeven over inhoudsfragmenten, omdat de inhoudsfragmenten niet naar de Brand Portal kunnen worden gepubliceerd.
 
-   **[!UICONTROL Link Share report]** geeft een lijst van alle activa die door verbindingen van de interface van het Portaal van het Merk in een specifiek tijdkader worden gedeeld. Het rapport informeert ook wanneer het middel via verbinding werd gedeeld, door welke gebruiker, wanneer de verbinding verloopt, en het aantal gedeelde verbindingen voor de huurder (en gebruikers met wie de activaverbinding werd gedeeld). De kolommen van het Rapport van het Aandeel van de Verbinding zijn niet klantgericht.
+   **[!UICONTROL Link Share report]** geeft een lijst weer van alle elementen die via koppelingen van de Brand Portal-interface in een specifiek tijdframe worden gedeeld. Het rapport informeert ook wanneer het middel via verbinding werd gedeeld, door welke gebruiker, wanneer de verbinding verloopt, en het aantal gedeelde verbindingen voor de huurder (en gebruikers met wie de activaverbinding werd gedeeld). De kolommen van het Rapport van het Aandeel van de Verbinding zijn niet klantgericht.
 
    ![](assets/link-share-report.png)
 
@@ -140,7 +139,7 @@ U kunt ook het pad typen in het veld Pad eigenschap.
 
 1. Tik of klik op **[!UICONTROL Create]**. Een bericht meldt dat de rapportgeneratie is in werking gesteld.
 
-## Rapporten {#download-reports} downloaden
+## Rapporten downloaden {#download-reports}
 
 Voer een van de volgende handelingen uit om een rapport op te slaan en te downloaden als CSV-bestand:
 
@@ -152,7 +151,7 @@ Voer een van de volgende handelingen uit om een rapport op te slaan en te downlo
 
 ![](assets/download-report-fromwithin.png)
 
-## Rapporten {#delete-reports} verwijderen
+## Rapporten verwijderen {#delete-reports}
 
 Als u een bestaand rapport wilt verwijderen, selecteert u het rapport op de pagina **[!UICONTROL Asset Reports]** en tikt u op **[!UICONTROL Delete]** op de werkbalk boven in het venster.
 
