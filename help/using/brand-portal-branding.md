@@ -1,26 +1,25 @@
 ---
 title: Achtergrond, koptekst en e-mailbericht aanpassen
 seo-title: Achtergrond, koptekst en e-mailbericht aanpassen
-description: De beheerders van het Portaal van het merk kunnen beperkte aanpassingen aan de interface maken die aan gebruikers wordt getoond. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de aanmeldingspagina van het Brand Portal. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
-seo-description: De beheerders van het Portaal van het merk kunnen beperkte aanpassingen aan de interface maken die aan gebruikers wordt getoond. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de aanmeldingspagina van het Brand Portal. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
+description: Brand Portal-beheerders kunnen beperkte aanpassingen aanbrengen in de interface die voor gebruikers wordt weergegeven. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de Brand Portal-aanmeldingspagina. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
+seo-description: Brand Portal-beheerders kunnen beperkte aanpassingen aanbrengen in de interface die voor gebruikers wordt weergegeven. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de Brand Portal-aanmeldingspagina. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
 
-
 # Achtergrond, koptekst en e-mailbericht aanpassen {#customize-wallpaper-header-and-email-message}
 
-De beheerders van het Portaal van het merk kunnen beperkte aanpassingen aan de interface maken die aan gebruikers wordt getoond. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de aanmeldingspagina van het Brand Portal. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
+Brand Portal-beheerders kunnen beperkte aanpassingen aanbrengen in de interface die voor gebruikers wordt weergegeven. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de Brand Portal-aanmeldingspagina. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
 
 ## De achtergrond voor het aanmeldingsscherm aanpassen {#customize-the-login-screen-wallpaper}
 
@@ -52,7 +51,7 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 
 1. Geef een koptekst en beschrijving op voor de achtergrondafbeelding. Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Save]** op de werkbalk boven in het venster.
 
-1. Klik op de werkbalk boven in het scherm op het pictogram **[!UICONTROL Preview]** om een voorbeeld te genereren van de interface Brand Portal met de afbeelding.
+1. Klik op de werkbalk boven in het scherm op het pictogram **[!UICONTROL Preview]** om een voorbeeld van de Brand Portal-interface met de afbeelding te genereren.
 
    ![](assets/chlimage_1.png)
 
@@ -60,11 +59,11 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 
 1. Als u de standaardachtergrond wilt activeren of deactiveren, voert u de volgende handelingen uit op de pagina **[!UICONTROL Configure Branding > Wallpaper]**:
 
-   * Als u de standaardachtergrondafbeelding wilt weergeven op de aanmeldingspagina van het Brand Portal, klikt u op **[!UICONTROL Deactivate Wallpaper]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de aangepaste afbeelding is gedeactiveerd.
+   * Als u de standaardachtergrondafbeelding op de Brand Portal-aanmeldingspagina wilt weergeven, klikt u op **[!UICONTROL Deactivate Wallpaper]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de aangepaste afbeelding is gedeactiveerd.
 
    ![](assets/chlimage_1-1.png)
 
-   * Als u de aangepaste afbeelding wilt herstellen op de aanmeldingspagina van het Brand Portal, klikt u op **[!UICONTROL Activate Wallpaper]** op de werkbalk. Een bericht bevestigt dat de afbeelding is hersteld.
+   * Als u de aangepaste afbeelding op de Brand Portal-aanmeldingspagina wilt herstellen, klikt u op **[!UICONTROL Activate Wallpaper]** op de werkbalk. Een bericht bevestigt dat de afbeelding is hersteld.
 
    ![](assets/chlimage_1-2.png)
 
@@ -72,9 +71,9 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 
 
 
-## Koptekst {#customize-the-header} aanpassen
+## De koptekst aanpassen {#customize-the-header}
 
-De koptekst wordt weergegeven op verschillende pagina&#39;s van het Brand Portal nadat u zich hebt aangemeld bij het Brand Portal.
+De koptekst wordt weergegeven op verschillende Brand Portal-pagina&#39;s nadat u zich hebt aangemeld bij Brand Portal.
 
 1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
 
@@ -84,7 +83,7 @@ De koptekst wordt weergegeven op verschillende pagina&#39;s van het Brand Portal
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Als u de paginakoptekst voor de interface Brand Portal wilt aanpassen, selecteert u **[!UICONTROL Header Image]** in de linkertrack op de pagina **[!UICONTROL Configure Branding]**. De standaardkoptekstafbeelding wordt weergegeven.
+1. Als u de paginakoptekst voor de Brand Portal-interface wilt aanpassen, selecteert u **[!UICONTROL Header Image]** op de pagina in de linkertrack. **[!UICONTROL Configure Branding]** De standaardkoptekstafbeelding wordt weergegeven.
 
    ![](assets/default-header.png)
 
@@ -105,18 +104,18 @@ Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Save]** op de werkba
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Klik in de werkbalk boven in het scherm op het pictogram **[!UICONTROL Preview]** om een voorbeeld te genereren van de interface Brand Portal met de koptekstafbeelding.
+1. Klik op de werkbalk boven in het scherm op het pictogram **[!UICONTROL Preview]** om een voorvertoning van de Brand Portal-interface met de koptekstafbeelding te genereren.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. U activeert of deactiveert de koptekstafbeelding door op de pagina **[!UICONTROL Configure Branding > Header Image]** het volgende te doen:
 
-   * Als u wilt voorkomen dat een koptekstafbeelding op de pagina&#39;s van het Brand Portal wordt weergegeven, klikt u op **[!UICONTROL Deactivate Header]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de afbeelding is gedeactiveerd.
+   * Als u wilt voorkomen dat een koptekstafbeelding op Brand Portal-pagina&#39;s wordt weergegeven, klikt u op **[!UICONTROL Deactivate Header]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de afbeelding is gedeactiveerd.
 
    ![](assets/chlimage_1-4.png)
 
-   * Als u de koptekstafbeelding weer wilt weergeven op de pagina&#39;s van het Brand Portal, klikt u op **[!UICONTROL Activate Header]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de afbeelding is geactiveerd.
+   * Als u de koptekstafbeelding weer wilt weergeven op Brand Portal-pagina&#39;s, klikt u op **[!UICONTROL Activate Header]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de afbeelding is geactiveerd.
 
    ![](assets/chlimage_1-5.png)
 
@@ -124,7 +123,7 @@ Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Save]** op de werkba
 
 
 
-## Het e-mailbericht {#customize-the-email-messaging} aanpassen
+## Het e-mailbericht aanpassen {#customize-the-email-messaging}
 
 Wanneer elementen als een koppeling worden gedeeld, ontvangen gebruikers een e-mail met de koppeling. Beheerders kunnen het bericht, dat wil zeggen het logo, de beschrijving en de voettekst, van deze e-mails aanpassen.
 
