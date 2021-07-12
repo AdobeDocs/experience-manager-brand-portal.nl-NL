@@ -8,21 +8,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1641'
 ht-degree: 6%
 
 ---
-
 
 # Het metagegevensschema gebruiken {#use-the-metadata-schema-form}
 
 Een meta-gegevensschema beschrijft de lay-out van de pagina van Eigenschappen en de meta-gegevenseigenschappen die voor activa worden getoond die het bepaalde schema gebruiken. Het schema dat u op een element toepast, bepaalt de metagegevensvelden die op de eigenschappenpagina worden weergegeven.
 
-De pagina **[!UICONTROL Properties]** voor elk element bevat standaardeigenschappen voor metagegevens, afhankelijk van het MIME-type van het element. Beheerders kunnen de Editor metagegevensschema&#39;s gebruiken om bestaande schema&#39;s te wijzigen of aangepaste metagegevensschema&#39;s toe te voegen. AEM Assets Brand Portal biedt standaardformulieren voor elementen van verschillende MIME-typen. U kunt echter ook aangepaste formulieren voor dergelijke elementen toevoegen.
+De pagina **[!UICONTROL Properties]** voor elk element bevat standaardeigenschappen voor metagegevens, afhankelijk van het MIME-type van het element. Beheerders kunnen de Editor metagegevensschema&#39;s gebruiken om bestaande schema&#39;s te wijzigen of aangepaste metagegevensschema&#39;s toe te voegen. AEM Assets Brand Portal biedt standaardformulieren voor elementen van diverse MIME-typen. U kunt echter ook aangepaste formulieren voor dergelijke elementen toevoegen.
 
 ## Een metagegevensschema toevoegen {#add-a-metadata-schema-form}
 
@@ -44,7 +43,7 @@ Ga als volgt te werk om een nieuw schema voor metagegevens te maken:
 
    ![](assets/create-schema-form.png)
 
-## Een metagegevensschemaformulier bewerken {#edit-a-metadata-schema-form}
+## Een formulier voor een metagegevensschema bewerken {#edit-a-metadata-schema-form}
 
 U kunt een nieuw toegevoegd of bestaand schema voor metagegevens bewerken. Het metagegevensschema bevat inhoud die is afgeleid van het bovenliggende element, inclusief tabbladen en formulieritems binnen tabbladen. U kunt deze formulieritems toewijzen aan of configureren naar een veld binnen een metagegevensknooppunt.
 
@@ -92,14 +91,14 @@ Het tabblad **[!UICONTROL Build Form]** bevat items die u in het schemaformulier
 | **[!UICONTROL Hidden Field]** | Voeg een verborgen veld toe. Deze wordt als een POST-parameter verzonden wanneer het element wordt opgeslagen. |
 | **[!UICONTROL Asset Referenced By]** | Voeg deze component toe om een lijst weer te geven met elementen waarnaar door het element wordt verwezen. |
 | **[!UICONTROL Asset Referencing]** | Toevoegen om een lijst weer te geven met elementen die naar het element verwijzen. |
-| **[!UICONTROL Asset Rating]** | Gemiddelde rating van een door AEM Assets toegevoegde activa voordat deze aan Brand Portal worden gepubliceerd. |
+| **[!UICONTROL Asset Rating]** | Gemiddelde rating van een actief dat door AEM Assets is toegevoegd voordat het aan Brand Portal wordt bekendgemaakt. |
 | **[!UICONTROL Contextual Metadata]** | Toevoegen om de weergave van andere tabbladen met metagegevens op de pagina Eigenschappen van elementen te bepalen. |
 
 >[!NOTE]
 >
 >Gebruik **[!UICONTROL Product References]** niet omdat het niet functioneel is.
 
-#### De metagegevenscomponent {#edit-the-metadata-component} bewerken
+#### De metagegevenscomponent bewerken {#edit-the-metadata-component}
 
 Als u de eigenschappen van een metagegevenscomponent in het formulier wilt bewerken, klikt u op de component en bewerkt u de eigenschappen ervan op het tabblad **[!UICONTROL Settings]**.
 
@@ -140,7 +139,7 @@ De standaardschemavorm omvat **[!UICONTROL Basic]** en **[!UICONTROL Advanced]**
 
 ## Een metagegevensschema toepassen op een map {#apply-a-metadata-schema-to-a-folder}
 
-Het Portaal van het merk staat u toe om het meta-gegevensschema aan te passen en te controleren zodat de **[!UICONTROL Properties]** pagina van activa slechts de specifieke informatie toont u verkiest om te openbaren. Om de meta-gegevens te controleren die in **[!UICONTROL Properties]** pagina worden getoond, verwijder de vereiste meta-gegevens uit de vorm van het meta-gegevensschema en pas het op de specifieke omslag toe.
+Met Brand Portal kunt u het metagegevensschema aanpassen en beheren, zodat op de pagina **[!UICONTROL Properties]** van een element alleen de specifieke informatie wordt weergegeven die u wilt weergeven. Om de meta-gegevens te controleren die in **[!UICONTROL Properties]** pagina worden getoond, verwijder de vereiste meta-gegevens uit de vorm van het meta-gegevensschema en pas het op de specifieke omslag toe.
 
 Ga als volgt te werk om een metagegevensschema-formulier toe te passen op een map:
 
@@ -172,7 +171,7 @@ Ga als volgt te werk om een metagegevensschema-formulier toe te passen op een ma
 
 ## Een metagegevensschema verwijderen {#delete-a-metadata-schema-form}
 
-Met Merkportal kunt u alleen aangepaste schema-formulieren verwijderen. U kunt hiermee de standaardschema-formulieren/sjablonen niet verwijderen. U kunt echter alle aangepaste wijzigingen in deze formulieren verwijderen.
+Met Brand Portal kunt u alleen aangepaste schema-formulieren verwijderen. U kunt hiermee de standaardschema-formulieren/sjablonen niet verwijderen. U kunt echter alle aangepaste wijzigingen in deze formulieren verwijderen.
 
 Als u een formulier wilt verwijderen, selecteert u een formulier en klikt u op het pictogram **[!UICONTROL Delete]**.
 
@@ -182,7 +181,7 @@ Als u een formulier wilt verwijderen, selecteert u een formulier en klikt u op h
 >
 >Nadat u de aangepaste wijzigingen hebt verwijderd die in een standaardformulier zijn aangebracht, verschijnt het symbool **[!UICONTROL Lock]** opnieuw vóór de formuliernaam in de interface van het schema van metagegevens om aan te geven dat de standaardstatus van het formulier wordt hersteld.
 
-## Schemaformulieren voor MIME-TYPEN {#schema-forms-for-mime-types}
+## Schema-formulieren voor MIME-TYPES {#schema-forms-for-mime-types}
 
 ### Nieuwe formulieren toevoegen voor MIME-typen {#adding-new-forms-for-mime-types}
 
@@ -202,7 +201,7 @@ In dit geval maakt u een nieuw knooppunt op [!UICONTROL `/etc/dam/metadataeditor
 * **exposedmimetype**: Naam van het bestaande formulier dat moet worden toegewezen
 * **mimetypen**: Lijst met MIME-typen die het formulier gebruiken dat is gedefinieerd in het  **** kenmerk exposedmimetypeattribute
 
-MIME-typen en -schema&#39;s worden toegewezen aan Brand Portal:
+Brand Portal wijst de volgende MIME-typen en schema-formulieren toe:
 
 | **Schema-formulier** | **MIME-typen** |
 |---|---|
