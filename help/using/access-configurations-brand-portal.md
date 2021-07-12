@@ -9,29 +9,28 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
+# Gebruikerstoegang beheren op Brand Portal {#administer-user-access-on-brand-portal}
 
-# Gebruikerstoegang beheren op Brand-portal {#administer-user-access-on-brand-portal}
-
-Vanaf AEM Assets Brand Portal 6.4.2 kunnen beheerders gasttoegang configureren en gebruikers toegang vragen via het Brand Portal van hun organisatie. Deze configuraties zijn opgegeven als **[!UICONTROL Access Settings]** configuraties in het beheerpaneel. Beide instellingen zijn standaard uitgeschakeld.
+Vanaf AEM Assets Brand Portal 6.4.2 staan beheerders toe om gasttoegang te vormen en gebruikers toe te laten om toegang op Brand Portal van hun organisatie te verzoeken. Deze configuraties zijn opgegeven als **[!UICONTROL Access Settings]** configuraties in het beheerpaneel. Beide instellingen zijn standaard uitgeschakeld.
 
 ![](assets/access-configs.png)
 
-****   AConfiguration om gasttoegang op het Portaal van het Merk toe te staan gebruikend  **[!UICONTROL Guest Access?]** verbinding op het Portaal van het Merk welkomstscherm. (Standaard is uitgeschakeld)
+****   AConfiguration om gasttoegang op Brand Portal toe te staan gebruikend  **[!UICONTROL Guest Access?]** verbinding op het Brand Portal welkomstscherm. (Standaard is uitgeschakeld)
 
-****   BConfiguration om gebruikers toe te staan om toegang tot het Portaal van het Merk te verzoeken gebruikend  **[!UICONTROL Need access?]** verbinding op het het welkomstscherm van het Portaal van het Merk. (Standaard is uitgeschakeld)
+****   BConfiguration zodat gebruikers toegang tot Brand Portal kunnen aanvragen via de  **[!UICONTROL Need access?]** koppeling op het Brand Portal-welkomstscherm. (Standaard is uitgeschakeld)
 
 ## Toegang voor gasten toestaan {#allow-guest-access}
 
-Door gasttoegang toe te staan, kunnen de gebruikers tot de openbare activa zonder het moeten login aan het Portaal van het Merk toegang hebben.
+Door gasttoegang toe te staan, kunnen de gebruikers tot de openbare activa zonder het moeten login aan Brand Portal toegang hebben.
 Om gasttoegang toe te staan, moet de beheerder de volgende stappen uitvoeren:
 
 1. Selecteer het AEM logo voor toegang tot de beheergereedschappen op de werkbalk boven in het scherm.
@@ -42,11 +41,11 @@ Om gasttoegang toe te staan, moet de beheerder de volgende stappen uitvoeren:
 
 ![](assets/bp-welcome-screen.png)
 
-## Gebruikers toestaan om toegang aan te vragen {#allow-users-to-request-access}
+## Gebruikers toegang aanvragen {#allow-users-to-request-access}
 
-De beheerders kunnen de organisatiegebruikers toestaan om toegang tot het Portaal van het Merk van het welkomstscherm te verzoeken. Nochtans, moeten de beheerders de **[!UICONTROL Allow Users to Request Access]** configuratie toelaten zodat de verbinding van de verzoektoegang op het welkome scherm verschijnt.
+Beheerders kunnen de gebruikers van de organisatie toestaan om toegang tot Brand Portal aan te vragen via het welkomstscherm. Nochtans, moeten de beheerders de **[!UICONTROL Allow Users to Request Access]** configuratie toelaten zodat de verbinding van de verzoektoegang op het welkome scherm verschijnt.
 
-Om organisatiegebruikers toegang op het Portaal van het Merk te verlenen, moeten de beheerders:
+Beheerders moeten:
 
 1. Selecteer het AEM logo voor toegang tot de beheergereedschappen op de werkbalk boven in het scherm.
 1. Selecteer **[!UICONTROL Access]** in het deelvenster met beheergereedschappen om de pagina **[!UICONTROL Access Settings]** te openen.
