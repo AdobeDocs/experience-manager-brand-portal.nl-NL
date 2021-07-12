@@ -8,15 +8,14 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
-
 
 # Aangepaste zoekfacetten gebruiken {#use-custom-search-facets}
 
@@ -30,7 +29,7 @@ U kunt verschillende zoekvoorspelling gebruiken om het deelvenster **[!UICONTROL
 >
 >Met AEM kunnen organisaties de aangepaste zoekformulieren van AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) naar Brand Portal publiceren in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.[
 
-## Zoekvoorspelling {#add-a-search-predicate} toevoegen
+## Een zoekvoorspelling toevoegen {#add-a-search-predicate}
 
 Een zoekvoorspelling toevoegen aan het **[!UICONTROL Filters]**-deelvenster:
 
@@ -86,7 +85,7 @@ Een zoekvoorspelling toevoegen aan het **[!UICONTROL Filters]**-deelvenster:
 
 1. Voer in het tekstvak **[!UICONTROL Property]** een titel in voor het element dat moet worden doorzocht. Bijvoorbeeld &quot;Adobe&quot;. Wanneer u een zoekopdracht uitvoert, worden elementen met de titel &quot;Adobe&quot; weergegeven in de zoekresultaten.
 
-## Lijst met zoekvoorspelling {#list-of-search-predicates}
+## Lijst met zoekvoorvertoningen {#list-of-search-predicates}
 
 Net als bij de manier waarop u een **[!UICONTROL Property]**-voorspelling toevoegt, kunt u de volgende voorspelling toevoegen aan het **[!UICONTROL Filters]**-deelvenster:
 
@@ -114,7 +113,7 @@ Net als bij de manier waarop u een **[!UICONTROL Property]**-voorspelling toevoe
 >
 >Gebruik **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]** en **[!UICONTROL Rating Predicate]** niet omdat deze voorspellingen niet functioneel zijn in Brand Portal.
 
-## Zoekvoorspelling {#delete-a-search-predicate} verwijderen
+## Een zoekvoorspelling verwijderen {#delete-a-search-predicate}
 
 Ga als volgt te werk om een voorspeld in een zoekopdracht te verwijderen:
 
