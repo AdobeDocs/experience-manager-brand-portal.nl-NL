@@ -1,26 +1,25 @@
 ---
 title: De lichtbakverzameling beheren
 seo-title: De lichtbakverzameling beheren
-description: Lichtbak is een speciaal type verzameling dat eenvoudig toegang biedt tot elementen. Elke gebruiker heeft een exclusieve lichtbak die automatisch wordt gecreeerd wanneer zij login aan het Portaal van het Merk voor het eerst. De lichtbakverzameling kan niet worden verwijderd.
-seo-description: Lichtbak is een speciaal type verzameling dat eenvoudig toegang biedt tot elementen. Elke gebruiker heeft een exclusieve lichtbak die automatisch wordt gecreeerd wanneer zij login aan het Portaal van het Merk voor het eerst. De lichtbakverzameling kan niet worden verwijderd.
+description: Lichtbak is een speciaal type verzameling dat eenvoudig toegang biedt tot elementen. Elke gebruiker heeft een exclusieve lichtbak die automatisch wordt gecreeerd wanneer zij login aan Brand Portal voor het eerst. De lichtbakverzameling kan niet worden verwijderd.
+seo-description: Lichtbak is een speciaal type verzameling dat eenvoudig toegang biedt tot elementen. Elke gebruiker heeft een exclusieve lichtbak die automatisch wordt gecreeerd wanneer zij login aan Brand Portal voor het eerst. De lichtbakverzameling kan niet worden verwijderd.
 uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-
 # De lichtbakverzameling beheren {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]** is een speciaal type verzameling dat eenvoudig toegang biedt tot activa. Elke gebruiker heeft een exclusieve **[!UICONTROL Lightbox]** die automatisch wordt gecreeerd wanneer zij login aan het Portaal van het Merk voor het eerst. De **[!UICONTROL Lightbox]**-verzameling kan niet worden verwijderd.
+**[!UICONTROL Lightbox]** is een speciaal type verzameling dat eenvoudig toegang biedt tot activa. Elke gebruiker heeft een exclusieve **[!UICONTROL Lightbox]** die automatisch wordt gecreeerd wanneer zij login aan Brand Portal voor het eerst. De **[!UICONTROL Lightbox]**-verzameling kan niet worden verwijderd.
 
 ## Elementen toevoegen aan lichtbak {#add-assets-to-lightbox}
 
