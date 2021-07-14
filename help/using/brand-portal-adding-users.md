@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 785be735a11277ea16e269bfc00368ced88ed510
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2050'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Als u een productbeheerder bent, gebruik Adobe [[!UICONTROL Admin Console]](http
    ![Gebruiker toevoegen aan Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. Wijs de gebruiker toe aan ten minste één productprofiel (voorheen productconfiguraties genoemd) zodat de gebruiker toegang heeft tot Brand Portal. Selecteer het juiste productprofiel in het veld **[!UICONTROL Please select a profile for this product]**.
-1. Klik op **[!UICONTROL Save]**. Er wordt een welkomstbericht verzonden naar de gebruiker die u hebt toegevoegd. De uitgenodigde gebruiker kan tot Brand Portal toegang hebben door de verbinding in welkome e-mail te klikken en binnen te ondertekenen gebruikend [!UICONTROL Adobe ID]. Voor meer informatie, zie [Eerste-inlogervaring](../using/brand-portal-onboarding.md).
+1. Klik op **[!UICONTROL Save]**. Er wordt een welkomstbericht verzonden naar de nieuwe gebruiker. De uitgenodigde gebruiker kan op de verbinding in welkome e-mail klikken om tot Brand Portal toegang te hebben. De gebruiker kan zich aanmelden met de e-mailid ([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] of [!UICONTROL Fedrated ID]) die in Admin Console is geconfigureerd. Voor meer informatie, zie [Eerste-inlogervaring](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
