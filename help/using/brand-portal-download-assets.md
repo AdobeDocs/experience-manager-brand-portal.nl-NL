@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
 
-# Elementen downloaden van Brand Portal {#download-assets-from-bp}
+# Middelen downloaden van Brand Portal {#download-assets-from-bp}
 
 <!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
@@ -28,11 +28,11 @@ Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doord
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld, waarbij IBM Aspera Connect wordt gebruikt voor het versnelde downloaden van de middelen. [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in de browserextensie voordat u de middelen downloadt van Brand Portal. Zie [handleiding voor het versnellen van downloads vanuit Brand Portal](../using/accelerated-download.md) voor meer informatie.
+>In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld, waarbij IBM Aspera Connect wordt gebruikt voor het versnelde downloaden van de middelen. [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) in de browserextensie voordat u de middelen downloadt van Brand Portal. Zie [handleiding voor het versnellen van downloads vanuit Brand Portal](../using/accelerated-download.md) voor meer informatie.
 >
 >Als u IBM Aspera Connect niet wilt gebruiken en verder wilt gaan met het normale downloadproces, neemt u contact op met de Brand Portal-beheerder om de instelling **[!UICONTROL Fast Download]** uit te schakelen.
 
-## Elementdownload {#configure-download} configureren
+## Assets-download configureren {#configure-download}
 
 Brand Portal-beheerders kunnen de instellingen voor het downloaden van middelen en gebruikersgroepen configureren voor de Brand Portal-gebruikers, zodat ze via de Brand Portal-interface toegang hebben tot elementen en deze kunnen downloaden.
 
@@ -45,7 +45,7 @@ De toegang tot en het downloaden van de elementuitvoeringen vanuit de Brand Port
 * Downloadinstellingen inschakelen
 * Gebruikersgroepinstellingen configureren
 
-### Downloadinstellingen {#enable-download-settings} inschakelen
+### Downloadinstellingen inschakelen {#enable-download-settings}
 
 De beheerders kunnen het element **[!UICONTROL Download Settings]** inschakelen om de set uitvoeringen te definiëren die voor Brand Portal-gebruikers toegankelijk is om te worden gedownload.
 
@@ -83,7 +83,7 @@ De beheerders kunnen om het even welke combinatie montages voor de gebruikers va
 >
 >Alleen de beheerders kunnen de verlopen elementen downloaden. Zie [Digitale rechten van elementen beheren](../using/manage-digital-rights-of-assets.md) voor meer informatie over verlopen elementen.
 
-### Gebruikersgroepinstellingen {#configure-user-group-settings} configureren
+### Gebruikersgroepinstellingen configureren {#configure-user-group-settings}
 
 Naast **[!UICONTROL Download Settings]** kunnen de Brand Portal-beheerders de instellingen voor verschillende groepen gebruikers verder configureren om de oorspronkelijke elementen en hun uitvoeringen weer te geven en (of) te downloaden.
 
@@ -114,7 +114,7 @@ De volgende matrix definieert of een gebruiker toegang heeft tot de uitvoeringen
 
 
 
-## Elementen {#download-assets} downloaden
+## Elementen downloaden {#download-assets}
 
 Brand Portal-gebruikers kunnen vanuit de Brand Portal-interface meerdere elementen, mappen met elementen en verzamelingen downloaden.
 
@@ -156,7 +156,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
       >[!NOTE]
       >
-      >Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd [de Aspera-downloadaccelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) te installeren.
+      >Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd [de Aspera-downloadaccelerator](https://www.ibm.com/docs/en/aspera-connect/3.9.9) te installeren.
 
 
       >[!NOTE]
@@ -224,7 +224,7 @@ Als de beheerder u niet [heeft gemachtigd om toegang te hebben tot de oorspronke
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
 -->
 
-### Elementen downloaden van de pagina met elementdetails {#download-assets-from-asset-details-page}
+### Elementen downloaden vanaf de pagina met elementgegevens {#download-assets-from-asset-details-page}
 
 Naast de downloadworkflow is er een andere methode om de uitvoeringen voor afzonderlijke elementen rechtstreeks te downloaden vanaf de pagina met elementdetails.
 
@@ -399,7 +399,7 @@ Following are the steps to download assets or folders containing assets from Bra
    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-## Downloadprestaties {#expected-download-performance} verwacht
+## Downloadprestaties verwacht {#expected-download-performance}
 
 Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van factoren zoals lokale internetverbinding en serverwachttijd. De verwachte downloadprestaties voor 2-GB dossier dat bij verschillende cliëntplaatsen wordt waargenomen zijn als volgt, met de server van Brand Portal bij Oregon in Verenigde Staten:
 
