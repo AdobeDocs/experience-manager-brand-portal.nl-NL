@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '993'
 ht-degree: 3%
 
 ---
@@ -29,16 +29,16 @@ De configuratie **[!UICONTROL Fast Download]** is standaard ingeschakeld, waardo
 
 ![](assets/download-settings-new.png)
 
-## Vereisten om het downloaden van bestanden te versnellen {#prerequisites-to-accelerate-file-download}
+## Vereisten om bestanden sneller te downloaden {#prerequisites-to-accelerate-file-download}
 
 Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 
 * Navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** en controleer of de **[!UICONTROL Fast Download]**-configuratie is ingeschakeld in **[!UICONTROL Download Settings]**.
 * Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall. Zie [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8) voor meer informatie over de voorwaarden.
-* [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in de browserextensie met beheerdersrechten.
+* [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) in de browserextensie met beheerdersrechten.
 * Zie [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/) voor platformondersteuning van de Aspera-overdrachtclient.
 
-## Domeinen {#download-domains} downloaden
+## Domeinen downloaden {#download-domains}
 
 Hier volgen de downloaddomeinen voor verschillende geografische gebieden:
 
@@ -92,7 +92,7 @@ Zo downloadt u elementen sneller van Brand Portal:
 
 1. Standaard is de instelling **[!UICONTROL Fast Download]** ingeschakeld in **[!UICONTROL Download Settings]**. Daarom wordt een bevestigingsvenster weergegeven waarin u middelen kunt downloaden met IBM Aspera Connect.
 
-   Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser heeft geïnstalleerd of als de bestaande versie verouderd is, wordt u gevraagd [de Aspera-downloadaccelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) te installeren.
+   Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser heeft geïnstalleerd of als de bestaande versie verouderd is, wordt u gevraagd [de Aspera-downloadaccelerator](https://www.ibm.com/docs/en/aspera-connect/3.9.9) te installeren.
 
    ![](assets/aspera-not-launched.png)
 
@@ -186,7 +186,7 @@ Als u de functie voor versnelde download wilt gebruiken op Microsoft Edge, verwi
 1. Klik **[!UICONTROL Trusted sites zone]**, dan klik **[!UICONTROL Sites]**.
 1. Brand Portal-site verwijderen uit de lijst.
 
-## Voorkeuren voor Adobe Connect-client {#aspera-connect-client-preferences}
+## Voorkeuren voor Aspera Connect-client {#aspera-connect-client-preferences}
 
 Er zijn een paar handige voorkeuren die u kunt instellen in de voorkeur voor IBM Aspera Connect Client door met de rechtermuisknop op het pictogram te klikken en **[!UICONTROL Preferences]** te selecteren.
 
@@ -200,7 +200,7 @@ Bovendien kan de Aspera Connect-client worden gemarkeerd om automatisch te start
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Problemen met downloadversnelling {#troubleshoot-issues-with-download-acceleration} oplossen
+## Problemen met downloadversnelling oplossen {#troubleshoot-issues-with-download-acceleration}
 
 Als de downloadversnelling niet voor u werkt, volgt u deze stappen om problemen op te lossen:
 
