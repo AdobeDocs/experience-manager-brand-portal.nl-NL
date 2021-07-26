@@ -10,9 +10,9 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -74,11 +74,11 @@ ii. delete
    i. zoeken naar gebruiker `mac-<tenantid>replication`
 ii. deze gebruiker verwijderen
 
-Nu wordt het systeem helemaal schoongemaakt. Nu kunt u proberen tot een nieuwe cloudservice config te leiden en nog steeds de reeds bestaande JWT toepassing in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) gebruiken. Er is geen behoefte om een nieuwe toepassing tot stand te brengen, eerder enkel moet de openbare sleutel van de pas gecreëerde wolkenconfig worden bijgewerkt.
+Nu wordt het systeem helemaal schoongemaakt. Nu kunt u proberen creërend een nieuwe cloudservice config en nog de reeds bestaande toepassing JWT in `https://legacy-oauth.cloud.adobe.io/` gebruiken. Er is geen behoefte om een nieuwe toepassing tot stand te brengen, eerder enkel moet de openbare sleutel van de pas gecreëerde wolkenconfig worden bijgewerkt.
 
 ## Zichtbaarheid ontwikkelaarsleider JWT-toepassing {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Als op [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), alle organen (huurders) waarvoor de huidige gebruikers systeembeheerder houden zijn vermeld. Als u hier de naam van de org niet vindt of u kunt geen toepassing voor een vereiste huurder hier tot stand brengen, gelieve te controleren of hebt u voldoende (systeembeheerder) rechten om dit te doen.
+Als op `https://legacy-oauth.cloud.adobe.io/`, alle organen (huurders) waarvoor de huidige gebruikers systeembeheerder houden zijn vermeld. Als u hier de naam van de org niet vindt of u kunt geen toepassing voor een vereiste huurder hier tot stand brengen, gelieve te controleren of hebt u voldoende (systeembeheerder) rechten om dit te doen.
 
 Er is één bekende kwestie op dit gebruikersinterface dat voor om het even welke huurder slechts top 10 toepassingen zichtbaar zijn. Wanneer u de toepassing maakt, blijft u op die pagina en bladwijzer de URL. U hoeft niet naar de pagina met lijsten van de toepassing te gaan en de toepassing te zoeken die u hebt gemaakt. U kunt rechtstreeks op deze URL met bladwijzer drukken en de toepassing zo nodig bijwerken of verwijderen.
 
