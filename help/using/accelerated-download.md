@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '983'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 
 * Navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** en controleer of de **[!UICONTROL Fast Download]**-configuratie is ingeschakeld in **[!UICONTROL Download Settings]**.
 * Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall. Zie [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8) voor meer informatie over de voorwaarden.
-* [Installeer IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) in de browserextensie met beheerdersrechten.
+* **Installeer IBM Aspera Connect 3.9.9** in de browserextensie met beheerdersrechten (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Zie [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/) voor platformondersteuning van de Aspera-overdrachtclient.
 
 ## Domeinen downloaden {#download-domains}
@@ -92,7 +92,7 @@ Zo downloadt u elementen sneller van Brand Portal:
 
 1. Standaard is de instelling **[!UICONTROL Fast Download]** ingeschakeld in **[!UICONTROL Download Settings]**. Daarom wordt een bevestigingsvenster weergegeven waarin u middelen kunt downloaden met IBM Aspera Connect.
 
-   Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser heeft geïnstalleerd of als de bestaande versie verouderd is, wordt u gevraagd [de Aspera-downloadaccelerator](https://www.ibm.com/docs/en/aspera-connect/3.9.9) te installeren.
+   Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser heeft geïnstalleerd of als de bestaande versie verouderd is, wordt u gevraagd om de Aspera-downloadaccelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) te installeren.
 
    ![](assets/aspera-not-launched.png)
 
