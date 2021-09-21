@@ -1,8 +1,8 @@
 ---
 title: Brand Portal-downloads versnellen
-seo-title: Brand Portal-downloads versnellen
+seo-title: Speed up the Brand Portal downloads
 description: Verbeter de downloadprestaties van Brand Portal en de gedeelde koppelingen.
-seo-description: Verbeter de downloadprestaties van Brand Portal en de gedeelde koppelingen.
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '987'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,10 @@ Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 * Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall. Zie [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8) voor meer informatie over de voorwaarden.
 * **Installeer IBM Aspera Connect 3.9.9** in de browserextensie met beheerdersrechten (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Zie [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/) voor platformondersteuning van de Aspera-overdrachtclient.
+
+>[!NOTE]
+>
+>Er is een bekend probleem met IBM Aspera Connect. Snel downloaden werkt niet met IBM Aspera Connect versie 3.10 en hoger.
 
 ## Domeinen downloaden {#download-domains}
 
@@ -208,7 +212,7 @@ Als de downloadversnelling niet voor u werkt, volgt u deze stappen om problemen 
 
    Als de havens niet O.K. zijn, dan bereik uit aan uw netwerkteam en zorg ervoor dat de Havens 33001 (zowel TCP &amp; UDP) niet in de firewall worden geblokkeerd.
 
-1. Als de havens O.K. zijn dan controleer als uw netwerk niet langzaam is, door de beschikbare bandbreedte te meten gebruikend [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Als de havens O.K. zijn, dan controleer als uw netwerk niet langzaam is, door de beschikbare bandbreedte te meten gebruikend [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Als de bandbreedte weinig (1-10 Mbps) of in Kbps is, dan gebruik de Voorkeur van de RUIMTE en probeer om de bandbreedte te beperken gelijk aan de beschikbare bandbreedte.
 
