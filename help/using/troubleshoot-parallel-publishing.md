@@ -1,8 +1,8 @@
 ---
 title: Problemen met parallelle publicatie naar Brand Portal oplossen
-seo-title: Problemen met parallelle publicatie naar Brand Portal oplossen
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: Los parallel publiceren problemen op.
-seo-description: Los parallel publiceren problemen op.
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,7 @@ Op basis van de fouten wordt u aangeraden een ondersteuningsticket te registrere
 Doorgaans mislukt de publicatietaak met een time-outfout als er meerdere aanvragen in behandeling zijn in de replicatiestoets. Om deze kwestie op te lossen, zorg ervoor dat de replicatieagenten worden gevormd om onderbreking te vermijden.
 
 Voer de volgende stappen uit om de replicatieagenten te vormen:
+
 1. Meld u aan bij de AEM Assets-auteur.
 1. Navigeer in het deelvenster **Gereedschappen** naar **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. Klik op **[!UICONTROL Agents on author]** op de pagina Replicatie. U kunt de vier replicatieagenten van uw huurder van Brand Portal zien.
