@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,10 @@ Bijvoorbeeld, meldt een gastgebruiker zich bij 1500 uren aan Brand Portal en voe
 ## Gelijktijdige gastsessies toegestaan {#concurrent-guest-sessions-allowed}
 
 Het aantal gelijktijdige gastsessies is beperkt tot 10% van de totale gebruikersquota per organisatie. Het betekent voor een organisatie met gebruikersquota van 200, maximaal 20 gastgebruikers kunnen tezelfdertijd werken. De 21ste gebruiker wordt ontzegd toegang, en kan als gast slechts toegang hebben als de zitting van om het even welke 20 actieve gastgebruikers beëindigt.
+
+>[!NOTE]
+>
+>Brand Portal verzendt geen melding als het aantal gebruikers met licentie de contractueel vastgelegde waarde (quota) overschrijdt. Bovendien worden de activiteiten van de gebruikers met een licentie niet beperkt.
 
 ## Gebruikersinteractie Gast met Brand Portal {#guest-user-interaction-with-brand-portal}
 
