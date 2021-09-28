@@ -1,15 +1,15 @@
 ---
 title: Asset Sourting in Brand Portal
-seo-title: Asset Sourting in Brand Portal
+seo-title: Asset Sourcing in Brand Portal
 description: Bekijk de functie voor het aanschaffen van bedrijfsmiddelen die in de Adobe Experience Manager Assets Brand Portal wordt uitgebracht.
-seo-description: Bekijk de functie voor het aanschaffen van bedrijfsmiddelen die in de Adobe Experience Manager Assets Brand Portal wordt uitgebracht.
+seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-sub-product: elementen
+sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -17,9 +17,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebrui
 >
 >Er is een bekend probleem in AEM Assets 6.5.4. Brand Portal-gebruikers kunnen de middelen van de map met bijdragen niet naar AEM Assets publiceren bij de upgrade naar de Adobe Developer Console.
 >
->De kwestie is vastgelegd in AEM 6.5.5. U kunt uw AEM Assets-instantie upgraden naar het nieuwste servicepack AEM 6.5.5 en [uw configuraties upgraden](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) op de Adobe Developer Console.
+>De kwestie is vastgelegd in AEM 6.5.5. U kunt uw AEM Assets-instantie upgraden naar het nieuwste servicepack AEM 6.5.5 en [uw configuraties upgraden](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) op de Adobe Developer Console.
 
 <!--
 
@@ -117,6 +117,7 @@ Een bijdragemap kan alleen worden gedeeld met de actieve Brand Portal-gebruikers
 De beheerders kunnen nieuwe gebruikers in AEM Admin Console toevoegen, zie [Gebruikers beheren](brand-portal-adding-users.md) voor gedetailleerde informatie. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van Brand Portal worden toegevoegd en dan toestemming worden toegewezen om tot de bijdrageomslag toegang te hebben.
 
 **Brand Portal-gebruikerslijst uploaden:**
+
 1. Meld u aan bij uw AEM Assets-exemplaar.
 1. Navigeer in het deelvenster **Gereedschappen** naar **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
 

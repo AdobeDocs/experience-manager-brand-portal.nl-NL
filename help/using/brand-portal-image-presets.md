@@ -1,8 +1,8 @@
 ---
 title: Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen
-seo-title: Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen
+seo-title: Apply image presets or dynamic renditions
 description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
-seo-description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen t
 >Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt, is er geen optie om te kiezen uit de bestaande voorinstellingen. In plaats daarvan kunt u de eigenschappen van een aangepaste voorinstelling voor afbeeldingen opgeven. Zie [Voorinstellingen voor afbeeldingen toepassen bij het downloaden van afbeeldingen](../using/brand-portal-image-presets.md#main-pars-text-1403412644) voor meer informatie.
 
 
-Zie [Voorinstellingen afbeelding beheren](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html) voor meer informatie over de vereiste parameters bij het maken van voorinstellingen voor afbeeldingen.
+Zie [Voorinstellingen afbeelding beheren](../using/brand-portal-image-presets.md) voor meer informatie over de vereiste parameters bij het maken van voorinstellingen voor afbeeldingen.
 
 ## Een voorinstelling voor afbeeldingen maken {#create-an-image-preset}
 
@@ -57,7 +57,7 @@ De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynami
 
    ![](assets/image_preset_homepage.png)
 
-1. Voer op de pagina **[!UICONTROL Edit Image Preset]** waarden in op de tabbladen **[!UICONTROL Basic]** en **[!UICONTROL Advanced]**, zoals van toepassing, inclusief een naam. De opties worden beschreven in [Voorinstellingsopties voor afbeeldingen](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Voorinstellingen worden weergegeven in het linkerdeelvenster en kunnen direct samen met andere assets worden gebruikt.
+1. Voer op de pagina **[!UICONTROL Edit Image Preset]** waarden in op de tabbladen **[!UICONTROL Basic]** en **[!UICONTROL Advanced]**, zoals van toepassing, inclusief een naam. Voorinstellingen worden weergegeven in het linkerdeelvenster en kunnen direct samen met andere assets worden gebruikt.
 
    ![](assets/image_preset_create.png)
 
