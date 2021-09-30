@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 4%
 
 ---
@@ -100,8 +100,8 @@ This release includes the following enhancements:
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
-* Elementen die vanuit Brand Portal worden gepubliceerd, worden niet weergegeven in Experience Manager Assets voor een bepaalde map met bijdragen.
-* **[!UICONTROL totalUploadSize]** voor een Brand Portal huurder wordt niet verminderd wanneer een bijdrageomslag unpublished.
+* De elementen van een map met bijdragen die even groot zijn, worden niet van Brand Portal naar Experience Manager Assets gepubliceerd.
+* De grootte van een map met middelenbijdragen wordt niet verkleind wanneer de map met bijdragen niet is gepubliceerd.
 * Gebruikers kunnen het toegepaste schema voor metagegevens niet uit een map verwijderen.
 * Het aantal groepen op de pagina met gebruikersmachtigingen is onjuist.
 * De pagina Verzamelingen duurt te lang wanneer u door de lijst navigeert.
