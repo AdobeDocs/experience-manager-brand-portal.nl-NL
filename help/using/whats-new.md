@@ -1,8 +1,8 @@
 ---
 title: Nieuwe functies in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Nieuwe en verbeterde functies voor 2021.08.0
-seo-description: What are the new features and enhancements for 2021.08.0
+description: Nieuwe en verbeterde functies voor 2021.10.0
+seo-description: What are the new features and enhancements for 2021.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '6257'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # Nieuwe functies in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Met Adobe Experience Manager Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene Brand Portal-ervaring. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+
+## Wat veranderde in 2021.10.0 {#what-changed-in-october-2021}
+
+Brand Portal 2021.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2021.08.0 {#what-changed-in-august-2021}
 
@@ -446,7 +450,7 @@ De release van Brand Portal 6.4.3 richt zich op het bieden van een alternatieve 
 
 Beheerders kunnen nu configureren hoe de mappen bij het aanmelden worden weergegeven aan gebruikers zonder beheer (Editors, Viewers en Gastgebruikers). [Configuratie ](../using/brand-portal-general-configuration.md) van maphiërarchie inschakelen wordt toegevoegd aan  **Algemene instellingen** in het deelvenster met beheergereedschappen. Als de configuratie:
 
-* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie gelijkend op beheerders verlenen.
+* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie ervaring gelijkend op beheerders verlenen.
 * **uitgeschakeld**, worden alleen de gedeelde mappen weergegeven op de bestemmingspagina.
 
 ![](assets/enable-folder-hierarchy.png)
