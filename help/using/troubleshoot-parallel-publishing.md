@@ -10,20 +10,20 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 96ce77b306c207bb20e0fdc56dd218295fbaeffe
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
 
 # Problemen met parallelle publicatie naar Brand Portal oplossen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is geconfigureerd met AEM Assets om goedgekeurde merkmiddelen naadloos in te nemen (of te publiceren) vanuit de AEM Assets-auteur-instantie. Eenmaal [geconfigureerd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de auteur van de Experience Manager een replicatieagent om de geselecteerde middelen aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
+Brand Portal is geconfigureerd met Experience Manager Assets, zodat goedgekeurde merkelementen naadloos worden opgenomen (of gepubliceerd) in de authoringinstantie van Experience Manager Assets. Eenmaal [geconfigureerd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de auteur van de Experience Manager een replicatieagent om de geselecteerde middelen aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
 
 >[!NOTE]
 >
->Adobe raadt aan een upgrade naar Experience Manager 6.4.1.0 uit te voeren om ervoor te zorgen dat AEM Assets Brand Portal correct is geconfigureerd met AEM Assets. Een beperking in Experience Manager 6.4 geeft een fout terwijl het vormen van AEM Assets met Brand Portal en replicatie ontbreekt.
+>Adobe raadt aan een upgrade naar Experience Manager 6.4.1.0 uit te voeren om ervoor te zorgen dat Experience Manager Assets Brand Portal correct is geconfigureerd met Experience Manager Assets. Een beperking in Experience Manager 6.4 geeft een fout terwijl het vormen van de Middelen van de Experience Manager met Brand Portal en de replicatie ontbreekt.
 
 Bij het configureren van de cloudservice voor Brand Portal onder **[!UICONTROL /etc/cloudservice]** worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Het leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen publiceert van Experience Manager naar Brand Portal, worden de elementen in een wachtrij geplaatst en verdeeld onder de replicatieagents via Round Robin.
 
@@ -49,7 +49,7 @@ Als bij herhaaldelijk het uitgeven van de wolkendienst het niet behoorlijk wordt
 
 Logboek van de mening, als de fouten in replicatielogboek worden gevonden:
 
-1. Neem contact op met de Adobe-ondersteuning.
+1. Neem contact op met de Klantenondersteuning.
 
 1. [opschonen](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) opnieuw proberen en opnieuw publicatieconfiguratie maken.
 

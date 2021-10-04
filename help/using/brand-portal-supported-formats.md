@@ -1,27 +1,26 @@
 ---
 title: Ondersteunde bestandsindelingen
-seo-title: Ondersteunde bestandsindelingen
-description: 'Elk AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
-seo-description: 'Elk AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
+seo-title: Supported file formats
+description: 'Elke Experience Manager Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
+seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
-translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 5%
+source-wordcount: '315'
+ht-degree: 4%
 
 ---
 
-
 # Ondersteunde bestandsindelingen {#supported-file-formats}
 
-Elk AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
+Elke Experience Manager Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
 
-| Bestandsindeling | Middelen gepubliceerd op Brand Portal | Uitvoeringen gepubliceerd naar Brand Portal | Metagegevens gepubliceerd naar Brand Portal | Miniaturen gepubliceerd naar Brand Portal | Pagina&#39;s met informatie over middelen gepubliceerd naar Brand Portal | Koppelingen | Miniaturen voor delen koppelen | Voorvertoningen van delen koppelen |
+| Bestandsindeling | Op Brand Portal gepubliceerde activa | Uitvoeringen gepubliceerd naar Brand Portal | Metagegevens gepubliceerd naar Brand Portal | Miniaturen gepubliceerd naar Brand Portal | Pagina&#39;s met informatie over middelen die zijn gepubliceerd naar Brand Portal | Koppelingen | Miniaturen voor delen koppelen | Voorvertoningen van delen koppelen |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -44,7 +43,7 @@ Elk AEM Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aan
 | ODT* | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | HTML | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
-| TTF | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
+| RTF | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | XLS | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | XLSX | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
@@ -88,4 +87,4 @@ In de volgende legenda worden de symbolen uitgelegd die in de matrix worden gebr
 | ✓ | Deze bestandsindeling ondersteunt deze functie. |
 | ✕ | Deze functie wordt niet ondersteund door deze bestandsindeling. |
 | NA | Deze functie is niet van toepassing op deze bestandsindeling. |
-| * | Voor deze functie is add-on ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat de middelen naar Brand Portal zijn gepubliceerd. |
+| * | Voor deze functie is add-on ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat middelen naar Brand Portal zijn gepubliceerd. |

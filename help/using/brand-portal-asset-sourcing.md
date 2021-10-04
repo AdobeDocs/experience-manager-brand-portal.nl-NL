@@ -17,16 +17,16 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Asset Souring {#overview-asset-sourcing-in-bp}
 
-**Met Asset** Sourcingkunnen de AEM (beheerders/gebruikers zonder beheer) nieuwe mappen maken met een extra  **Asset** Contribution-eigenschap, zodat de nieuwe map die is gemaakt, kan worden verzonden door de Brand Portal-gebruikers. Dit leidt automatisch tot een werkschema dat tot twee extra subomslagen, genoemd **SHARED** en **NEW**, binnen de pas gecreëerde **Bijdrage** omslag leidt. De AEM beheerder bepaalt dan het vereiste door een kort over de types van activa te uploaden die aan de bijdrageomslag, evenals een reeks basislijnactiva, aan **SHARED** omslag moeten worden toegevoegd om ervoor te zorgen de gebruikers van BP de verwijzingsinformatie hebben zij nodig. De beheerder kan actieve Brand Portal-gebruikers dan toegang tot de bijdragemap geven voordat ze de nieuwe map **Contribution** publiceren naar Brand Portal. Zodra de gebruiker klaar is met het toevoegen van inhoud in de map **NEW**, kunnen zij de bijdragemap weer publiceren naar de AEM auteursomgeving. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in AEM Assets wordt weerspiegeld.
+**Met Asset** Sources kunnen gebruikers van Experience Manager Assets (beheerders/gebruikers die geen beheerder zijn) nieuwe mappen maken met een extra  **Asset** Contribution-eigenschap, zodat de nieuwe map die is gemaakt, kan worden verzonden door de Brand Portal-gebruikers. Dit leidt automatisch tot een werkschema dat tot twee extra subomslagen, genoemd **SHARED** en **NEW**, binnen de pas gecreëerde **Bijdrage** omslag leidt. De beheerder bepaalt dan het vereiste door een kort over de types van activa te uploaden die aan de bijdrageomslag, evenals een reeks basislijnactiva, aan **SHARED** omslag moeten worden toegevoegd om ervoor te zorgen de gebruikers van BP de verwijzingsinformatie hebben zij nodig. De beheerder kan actieve Brand Portal-gebruikers dan toegang tot de bijdragemap geven voordat ze de nieuwe map **Contribution** publiceren naar Brand Portal. Zodra de gebruiker klaar is met het toevoegen van inhoud in de **NEW** omslag, kunnen zij de bijdrageomslag terug naar het auteursmilieu van de Experience Manager publiceren. Houd er rekening mee dat het een paar minuten kan duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in Experience Manager Assets is weerspiegeld.
 
 Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebruikers kunnen middelen weergeven, zoeken en downloaden vanuit de map met bijdragen en vanuit de andere toegestane mappen. En beheerders kunnen de bijdragemap verder delen, eigenschappen wijzigen en elementen toevoegen aan verzamelingen.
 
@@ -36,8 +36,8 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebrui
 
 ## Vereisten {#prerequisites}
 
-* AEM Assets als Cloud Service-instantie, AEM Assets 6.5.2 of hoger.
-* Controleer of uw AEM Assets-exemplaar is geconfigureerd met Brand Portal. Zie [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Activa van de Experience Manager als een instantie van de Cloud Service, Experience Manager Activa 6.5.2 of hoger.
+* Zorg ervoor dat de Experience Manager Assets-instantie is geconfigureerd met Brand Portal. Zie [Elementen van Experience Managers configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -45,15 +45,15 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebrui
 
 >[!NOTE]
 >
->De functie Asset Sourcing is standaard ingeschakeld op AEM Assets als Cloud Service, AEM Assets 6.5.9 en hoger.
+>De functie Asset Sourcing is standaard ingeschakeld bij Experience Manager Assets als Cloud Service, Experience Manager Assets 6.5.9 en hoger.
 >
 >De bestaande configuraties zullen aan de vroegere versies blijven werken.
 
 >[!NOTE]
 >
->Er is een bekend probleem in AEM Assets 6.5.4. Brand Portal-gebruikers kunnen de middelen van de map met bijdragen niet naar AEM Assets publiceren bij de upgrade naar de Adobe Developer Console.
+>Er is een bekende emissie in activa Experience Manager 6.5.4. Brand Portal-gebruikers kunnen de middelen van de map met bijdragen niet publiceren naar Experience Manager Assets bij de upgrade naar de Adobe Developer Console.
 >
->De kwestie is vastgelegd in AEM 6.5.5. U kunt uw AEM Assets-instantie upgraden naar het nieuwste servicepack AEM 6.5.5 en [uw configuraties upgraden](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) op de Adobe Developer Console.
+>De emissie is vastgelegd in de activa van Experience Manager 6.5.5. U kunt uw instantie van de Middelen van de Experience Manager aan het recentste de dienstpak bevorderen en [uw configuraties ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) op de Console van de Ontwikkelaar van de Adobe bevorderen.
 
 <!--
 
@@ -102,23 +102,23 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Lijst met Brand Portal-gebruikers uploaden {#upload-bp-user-list}
 
-AEM beheerders kunnen het configuratiebestand (.csv) van de Brand Portal-gebruiker met de actieve Brand Portal-gebruikerslijst in AEM Assets uploaden om ze toegang te geven tot de functie Asset Sourcing.
+Experience Manager Assets beheerders kunnen het Brand Portal-gebruikersconfiguratiebestand (.csv) met de actieve Brand Portal-gebruikerslijst in Experience Manager Assets uploaden om ze toegang te geven tot de functie Asset Sourcing.
 
 Een bijdragemap kan alleen worden gedeeld met de actieve Brand Portal-gebruikers die zijn gedefinieerd in de gebruikerslijst. De beheerder kan ook nieuwe gebruikers toevoegen aan het configuratiebestand en de gewijzigde gebruikerslijst uploaden.
 
 >[!NOTE]
 >
->Controleer of uw AEM Assets-exemplaar is geconfigureerd met Brand Portal. Zie [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Zorg ervoor dat de Experience Manager Assets-instantie is geconfigureerd met Brand Portal. Zie [Elementen van Experience Managers configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
 >De indeling van het CSV-bestand is gelijk aan de indeling die wordt ondersteund in Admin Console voor het importeren van bulkgebruikers. E-mail, voornaam en achternaam zijn verplicht.
 
-De beheerders kunnen nieuwe gebruikers in AEM Admin Console toevoegen, zie [Gebruikers beheren](brand-portal-adding-users.md) voor gedetailleerde informatie. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van Brand Portal worden toegevoegd en dan toestemming worden toegewezen om tot de bijdrageomslag toegang te hebben.
+De beheerders kunnen nieuwe gebruikers in Admin Console toevoegen, zie [Gebruikers beheren](brand-portal-adding-users.md) voor gedetailleerde informatie. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van Brand Portal worden toegevoegd en dan toestemming worden toegewezen om tot de bijdrageomslag toegang te hebben.
 
 **Brand Portal-gebruikerslijst uploaden:**
 
-1. Meld u aan bij uw AEM Assets-exemplaar.
+1. Meld u aan bij de Experience Manager Assets-instantie.
 1. Navigeer in het deelvenster **Gereedschappen** naar **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
 
 1. Het venster Brand Portal Upload Contributors wordt geopend.
@@ -128,10 +128,10 @@ Blader vanaf uw lokale computer en upload **configuratiebestand (.csv)** met de 
    ![](assets/upload-user-list2.png)
 
 
-Beheerders kunnen toegang tot specifieke gebruikers bieden vanuit deze gebruikerslijst terwijl ze een bijdragemap configureren. Alleen de gebruikers die zijn toegewezen aan een map met bijdragen hebben toegang tot de map met bijdragen en publiceren middelen van Brand Portal naar AEM Assets.
+Beheerders kunnen toegang tot specifieke gebruikers bieden vanuit deze gebruikerslijst terwijl ze een bijdragemap configureren. Alleen de gebruikers die zijn toegewezen aan een map met bijdragen hebben toegang tot de map met bijdragen en publiceren elementen van Brand Portal naar Experience Manager Assets.
 
 ## Zie ook {#reference-articles}
 
 * [Contribute-map voor Brand Portal configureren en publiceren](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Bijdragemap publiceren naar AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Map met bijdragen publiceren naar Experience Manager-elementen](brand-portal-publish-contribution-folder-to-aem-assets.md)

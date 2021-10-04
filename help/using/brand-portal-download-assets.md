@@ -1,8 +1,8 @@
 ---
 title: Elementen downloaden
-seo-title: Elementen downloaden
+seo-title: Download assets
 description: Alle gebruikers kunnen tegelijkertijd meerdere middelen en mappen downloaden die voor hen toegankelijk zijn. Op deze manier kunnen goedgekeurde merkmiddelen veilig worden gedistribueerd voor offline gebruik.
-seo-description: Alle gebruikers kunnen tegelijkertijd meerdere middelen en mappen downloaden die voor hen toegankelijk zijn. Op deze manier kunnen goedgekeurde merkmiddelen veilig worden gedistribueerd voor offline gebruik.
+seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1852'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ De beschikbare instellingen zijn:
 
    Hiermee kunt u aangepaste en (of) dynamische uitvoeringen van de elementen downloaden.
 
-   Alle andere elementuitvoeringen dan het oorspronkelijke element en door het systeem gegenereerde uitvoeringen worden aangepaste uitvoeringen genoemd. Dit omvat statische en dynamische uitvoeringen die beschikbaar zijn voor het element. Elke gebruiker kan een aangepaste statische uitvoering maken in AEM Assets, terwijl alleen de AEM beheerder aangepaste dynamische uitvoeringen kan maken. Zie [hoe u voorinstellingen voor afbeeldingen of dynamische vertoningen kunt toepassen](../using/brand-portal-image-presets.md) voor meer informatie.
+   Alle andere elementuitvoeringen dan het oorspronkelijke element en door het systeem gegenereerde uitvoeringen worden aangepaste uitvoeringen genoemd. Dit omvat statische en dynamische uitvoeringen die beschikbaar zijn voor het element. Elke gebruiker kan een aangepaste statische uitvoering maken in Experience Manager Assets, terwijl alleen de beheerder aangepaste dynamische uitvoeringen kan maken. Zie [hoe u voorinstellingen voor afbeeldingen of dynamische vertoningen kunt toepassen](../using/brand-portal-image-presets.md) voor meer informatie.
 
 * **[!UICONTROL System Renditions]**
 
    Hiermee kunt u door het systeem gegenereerde uitvoeringen van de elementen downloaden.
 
-   Dit zijn de miniaturen die automatisch worden gegenereerd in AEM Assets op basis van de workflow voor &quot;DAM-updatebestanden&quot;.
+   Dit zijn de miniaturen die automatisch worden gegenereerd in Experience Manager Assets op basis van de workflow &quot;DAM update asset&quot;.
 
 * **[!UICONTROL Asset Download]**
 
@@ -208,9 +208,9 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 >
 >Brand Portal ondersteunt het configureren van Dynamic Media in zowel de Hybride als de Scène 7-modus.
 >
->(*Als AEM auteurinstantie op **Dynamic Media Hybride wijze*** loopt)
+>(*Als de Experience Manager Assets auteurinstantie op **Hybride wijze van Dynamic Media*** loopt)
 >
->Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de AEM Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van AEM naar Brand Portal wordt gepubliceerd, wordt ook de uitvoering van de piramide-tiff gepubliceerd.
+>Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat bij de Experience Manager Assets auteurinstantie vanwaar de elementen zijn gepubliceerd. Wanneer een activum van de Activa van de Experience Manager aan Brand Portal wordt gepubliceerd, wordt zijn vertoning van de Piramid tiff ook gepubliceerd.
 
 
 

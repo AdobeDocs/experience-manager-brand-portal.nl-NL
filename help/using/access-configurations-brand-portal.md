@@ -1,8 +1,8 @@
 ---
 title: Gebruikerstoegang beheren op Brand Portal
-seo-title: Gebruikerstoegang beheren op Brand Portal
+seo-title: Administer user access on Brand Portal
 description: Gasttoegang en nieuwe gebruikerstoegang op merkportal configureren.
-seo-description: Gasttoegang en nieuwe gebruikerstoegang op merkportal configureren.
+seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
 # Gebruikerstoegang beheren op Brand Portal {#administer-user-access-on-brand-portal}
 
-Vanaf AEM Assets Brand Portal 6.4.2 staan beheerders toe om gasttoegang te vormen en gebruikers toe te laten om toegang op Brand Portal van hun organisatie te verzoeken. Deze configuraties zijn opgegeven als **[!UICONTROL Access Settings]** configuraties in het beheerpaneel. Beide instellingen zijn standaard uitgeschakeld.
+Vanaf Adobe Experience Manager Assets Brand Portal 6.4.2 staan beheerders toe om gasttoegang te vormen en gebruikers toe te laten om toegang op Brand Portal van hun organisatie te verzoeken. Deze configuraties zijn opgegeven als **[!UICONTROL Access Settings]** configuraties in het beheerpaneel. Beide instellingen zijn standaard uitgeschakeld.
 
 ![](assets/access-configs.png)
 

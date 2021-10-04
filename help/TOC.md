@@ -3,15 +3,15 @@ cloud: Experience Cloud
 product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
-user-guide-title: AEM Brand Portal
+user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Brand Portal Guide
-user-guide-description: Gebruik AEM Assets Brand Portal om aan de marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
+user-guide-description: Gebruik Experience Manager Assets Brand Portal om aan de marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
 feature: Brand Portal
 role: User
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 9%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 0%
 + [Brand Portal Guide](using/home.md)
 + Inleiding {#introduction}
    + [Overzicht](using/brand-portal.md)
-   + [Nieuwe functies in AEM Assets Brand Portal](using/whats-new.md)
+   + [Nieuwe functies in Experience Manager Assets Brand Portal](using/whats-new.md)
    + [Release-opmerkingen](using/brand-portal-release-notes.md)
    + [Veelgestelde vragen](using/brand-portal-faqs.md)
    + [Ondersteunde bestandsindelingen](using/brand-portal-supported-formats.md)
    + [Toegang voor gasten tot Brand Portal](using/guest-access.md)
-   + [Brand Portal begrijpen met AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Brand Portal met Experience Manager-elementen begrijpen](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Bladeren op Brand Portal](using/browse-assets-brand-portal.md)
-+  publiceren van AEM Assets naar Brand Portal{#publish}
-   + [AEM Assets configureren met Brand Portal](using/configure-aem-assets-with-brand-portal.md)
++ Publiceren van Experience Manager Assets naar Brand Portal {#publish}
+   + [Experience Manager-elementen configureren met Brand Portal](using/configure-aem-assets-with-brand-portal.md)
    + [Assets publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
@@ -38,8 +38,8 @@ ht-degree: 0%
    + [Voorinstellingen, schema en facetten publiceren naar Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset Sourting in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Overzicht van Asset Souring](using/brand-portal-asset-sourcing.md)
-   + [Contribute-map in AEM Assets configureren](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Bijdragemap publiceren naar AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Contributiemap configureren in Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Map met bijdragen publiceren naar Experience Manager-elementen](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Elementen delen met gebruikers {#share}
    + [Een verzameling delen](using/brand-portal-share-collection.md)
    + [Mappen delen](using/brand-portal-sharing-folders.md)

@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal Guide
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 2%
 
 ---
 
@@ -41,8 +41,8 @@ In deze gebruikershandleiding vindt u inzichten in Brand Portal-aanbiedingen en 
 |--- |---|
 | [Wat is er nieuw](whats-new.md) | Wat veranderde en recentste dienstenaanbod in Brand Portal door vorige versies. |
 | [Releaseopmerkingen](brand-portal-release-notes.md) | Verbeteringen, kritieke problemen zijn opgelost en bekende problemen in de huidige release. |
-| [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Hoe kan ik Brand Portal met AEM Assets repliceren om elementen te publiceren. |
-| [Problemen met parallelle publicatie oplossen](troubleshoot-parallel-publishing.md) | Los replicatie tussen Brand Portal en AEM Assets problemen op. |
+| [Experience Manager-elementen configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Hoe kan ik Brand Portal met Experience Manager Assets repliceren om elementen te publiceren. |
+| [Problemen met parallelle publicatie oplossen](troubleshoot-parallel-publishing.md) | Los replicatie tussen Brand Portal en de Middelen van de Experience Manager problemen op. |
 | [Ondersteunde bestandsindelingen](brand-portal-supported-formats.md) | Ondersteunde bestandsindelingen in Brand Portal voor voorvertoning en downloaden. |
 | [Middelen publiceren naar Brand Portal](brand-portal-sharing-folders.md) | Mappen, verzamelingen, koppelingen, voorinstellingen, schema, facetten en tags publiceren naar Brand Portal. |
 | [Asset Sourting in Brand Portal](brand-portal-asset-sourcing.md) | Hoe te om Activa te vormen die in AEM Assets, activa in Brand Portal uploaden en bijdrageomslag terug naar AEM Assets publiceren. |

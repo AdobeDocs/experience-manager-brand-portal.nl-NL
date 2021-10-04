@@ -1,8 +1,8 @@
 ---
 title: Het metagegevensschema gebruiken
-seo-title: Het metagegevensschema gebruiken
+seo-title: Use the metadata schema form
 description: Een meta-gegevensschema beschrijft de lay-out van de pagina van Eigenschappen en de meta-gegevenseigenschappen die voor activa worden getoond die het bepaalde schema gebruiken. Het schema dat u op een element toepast, bepaalt de metagegevensvelden die op de eigenschappenpagina worden weergegeven.
-seo-description: Een meta-gegevensschema beschrijft de lay-out van de pagina van Eigenschappen en de meta-gegevenseigenschappen die voor activa worden getoond die het bepaalde schema gebruiken. Het schema dat u op een element toepast, bepaalt de metagegevensvelden die op de eigenschappenpagina worden weergegeven.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1603'
 ht-degree: 6%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 6%
 
 Een meta-gegevensschema beschrijft de lay-out van de pagina van Eigenschappen en de meta-gegevenseigenschappen die voor activa worden getoond die het bepaalde schema gebruiken. Het schema dat u op een element toepast, bepaalt de metagegevensvelden die op de eigenschappenpagina worden weergegeven.
 
-De pagina **[!UICONTROL Properties]** voor elk element bevat standaardeigenschappen voor metagegevens, afhankelijk van het MIME-type van het element. Beheerders kunnen de Editor metagegevensschema&#39;s gebruiken om bestaande schema&#39;s te wijzigen of aangepaste metagegevensschema&#39;s toe te voegen. AEM Assets Brand Portal biedt standaardformulieren voor elementen van diverse MIME-typen. U kunt echter ook aangepaste formulieren voor dergelijke elementen toevoegen.
+De pagina **[!UICONTROL Properties]** voor elk element bevat standaardeigenschappen voor metagegevens, afhankelijk van het MIME-type van het element. Beheerders kunnen de Editor metagegevensschema&#39;s gebruiken om bestaande schema&#39;s te wijzigen of aangepaste metagegevensschema&#39;s toe te voegen. Experience Manager Assets Brand Portal biedt standaardformulieren voor elementen van diverse MIME-typen. U kunt echter ook aangepaste formulieren voor dergelijke elementen toevoegen.
 
 ## Een metagegevensschema toevoegen {#add-a-metadata-schema-form}
 
 Ga als volgt te werk om een nieuw schema voor metagegevens te maken:
 
-1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
+1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ U kunt nieuwe tabbladen of formulieritems toevoegen aan het metagegevensschemafo
 
 Ga als volgt te werk om een metagegevensschemaformulier te bewerken:
 
-1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
+1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ Het tabblad **[!UICONTROL Build Form]** bevat items die u in het schemaformulier
 | **[!UICONTROL Number]** | Voeg een getalcomponent toe. |
 | **[!UICONTROL Date]** | Voeg een datumcomponent toe. |
 | **[!UICONTROL Dropdown]** | Voeg een vervolgkeuzelijst toe. |
-| **[!UICONTROL Standard Tags]** | Voeg een tag toe. **Opmerking:** Beheerders moeten mogelijk de padwaarde wijzigen,  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`als ze bijvoorbeeld het metagegevensschema publiceren vanuit AEM, waar het pad bijvoorbeeld geen huurdersgegevens bevat  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart Tags]** | Automatisch gedetecteerde tags als u de invoegtoepassing voor slimme tags hebt aangeschaft en geconfigureerd. |
+| **[!UICONTROL Standard Tags]** | Voeg een tag toe. **Opmerking:** Beheerders moeten mogelijk de padwaarde wijzigen  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`als ze de vorm van het metagegevensschema publiceren op basis van Experience Manager Assets, waarbij het pad bijvoorbeeld geen huurdersgegevens bevat  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart Tags]** | Automatisch gedetecteerde tags als u de invoegtoepassing Slimme tags voor Experience Manager Assets hebt aangeschaft en geconfigureerd. |
 | **[!UICONTROL Hidden Field]** | Voeg een verborgen veld toe. Deze wordt als een POST-parameter verzonden wanneer het element wordt opgeslagen. |
 | **[!UICONTROL Asset Referenced By]** | Voeg deze component toe om een lijst weer te geven met elementen waarnaar door het element wordt verwezen. |
 | **[!UICONTROL Asset Referencing]** | Toevoegen om een lijst weer te geven met elementen die naar het element verwijzen. |
-| **[!UICONTROL Asset Rating]** | Gemiddelde rating van een actief dat door AEM Assets is toegevoegd voordat het aan Brand Portal wordt bekendgemaakt. |
+| **[!UICONTROL Asset Rating]** | Gemiddelde rating van een actief dat is toegevoegd uit activa van de Experience Manager voordat het aan Brand Portal wordt bekendgemaakt. |
 | **[!UICONTROL Contextual Metadata]** | Toevoegen om de weergave van andere tabbladen met metagegevens op de pagina Eigenschappen van elementen te bepalen. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Hier volgen de geldige waarden voor deze eigenschap:
 
 >[!NOTE]
 >
->Alle metagegevensvelden zijn alleen-lezen in de vorm van de metagegevenseditor van een element. Aangezien metagegevens van het element in AEM Assets moeten worden bewerkt voordat een element naar Brand Portal wordt gepubliceerd.
+>Alle metagegevensvelden zijn alleen-lezen in de vorm van de metagegevenseditor van een element. Aangezien metagegevens van het element moeten worden bewerkt in Experience Manager Assets voordat een element naar Brand Portal wordt gepubliceerd.
 
 #### Een tabblad toevoegen aan of verwijderen uit het schemaformulier {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Met Brand Portal kunt u het metagegevensschema aanpassen en beheren, zodat op de
 
 Ga als volgt te werk om een metagegevensschema-formulier toe te passen op een map:
 
-1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
+1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
 
    ![](assets/aemlogo.png)
 

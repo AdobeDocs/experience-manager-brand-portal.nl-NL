@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6257'
+source-wordcount: '6258'
 ht-degree: 0%
 
 ---
 
-# Nieuwe functies in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Nieuwe functies in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Met Adobe Experience Manager Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene Brand Portal-ervaring. Hier is een blik in de nieuwe eigenschappen en verhogingen.
 
@@ -450,7 +450,7 @@ De release van Brand Portal 6.4.3 richt zich op het bieden van een alternatieve 
 
 Beheerders kunnen nu configureren hoe de mappen bij het aanmelden worden weergegeven aan gebruikers zonder beheer (Editors, Viewers en Gastgebruikers). [Configuratie ](../using/brand-portal-general-configuration.md) van maphiërarchie inschakelen wordt toegevoegd aan  **Algemene instellingen** in het deelvenster met beheergereedschappen. Als de configuratie:
 
-* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie ervaring gelijkend op beheerders verlenen.
+* **Als deze optie is ingeschakeld**, is de mappenstructuur die begint in de hoofdmap zichtbaar voor gebruikers zonder beheerdersrechten. Aldus, die hen een navigatie gelijkend op beheerders verlenen.
 * **uitgeschakeld**, worden alleen de gedeelde mappen weergegeven op de bestemmingspagina.
 
 ![](assets/enable-folder-hierarchy.png)
@@ -525,7 +525,7 @@ Op dezelfde manier kunnen gepubliceerde elementen later uit het portaal worden v
 
 ### Configureerbare alias van huurder in URL
 
-Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in de URL te plaatsen. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties Adobe steun contacteren.
+Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in de URL te plaatsen. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties de Steun van de Klant contacteren.
 
 Alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Zo kan een organisatie met een bestaand domein **geomettrix.brand-portal.adobe.com** **geomettrixinc.brand-portal.adobe.com** op verzoek krijgen.
@@ -668,7 +668,7 @@ Brand Portal 6.4.1 is een upgraderelease voor platformen die verschillende nieuw
 
 * Nieuwe mogelijkheid om audiobestanden, geüpload vanaf AEM, voor te vertonen op de detailpagina van het element.
 * New Related Assets capabilities provided in Asset properties. Activa die op AEM verband houden met andere bron/afgeleide activa en op Brand Portal zijn gepubliceerd, hebben hun relatie in Brand Portal nu intact, met koppelingen naar de gerelateerde activa op de eigenschappenpagina.
-* Er is een nieuwe configuratie geïntroduceerd om te voorkomen dat gebruikers zonder beheerdersrechten openbare verzamelingen maken. Organisaties kunnen met het team van de Steun van Adobe samenwerken om dit vermogen op specifieke rekeningen te vormen.
+* Er is een nieuwe configuratie geïntroduceerd om te voorkomen dat gebruikers zonder beheerdersrechten openbare verzamelingen maken. Organisaties kunnen samenwerken met het team van Klantenondersteuning om deze mogelijkheid te configureren voor specifieke accounts.
 
 ### Verbeteringen voor zoeken
 

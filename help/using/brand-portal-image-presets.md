@@ -1,8 +1,8 @@
 ---
 title: Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen
 seo-title: Apply image presets or dynamic renditions
-description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: 'Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan Experience Manager Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '789'
+ht-degree: 2%
 
 ---
 
 # Voorinstellingen voor afbeeldingen of dynamische uitvoeringen toepassen {#apply-image-presets-or-dynamic-renditions}
 
-Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan AEM Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren.
+Net als bij een macro is een voorinstelling voor afbeeldingen een vooraf gedefinieerde verzameling opdrachten voor grootte en opmaak die onder een naam zijn opgeslagen. Met voorinstellingen voor afbeeldingen kan Experience Manager Assets Brand Portal dynamisch afbeeldingen van verschillende grootten, indelingen en eigenschappen leveren.
 
 Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen te genereren van afbeeldingen die u kunt voorvertonen en downloaden. Wanneer u een voorvertoning weergeeft van afbeeldingen en de bijbehorende uitvoeringen, kunt u een voorinstelling kiezen om de afbeeldingen opnieuw op te maken volgens de specificaties die zijn ingesteld door uw beheerder.
 
-(*Als AEM auteurinstantie op **Dynamic Media Hybride wijze***) loopt om dynamische vertoningen van een activa in Brand Portal te bekijken, zorg ervoor dat zijn Pyramid tiff vertoning bij de AEM auteursinstantie van waar u aan Brand Portal publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
+(*Als de Experience Manager Assets auteurinstantie op **Dynamic Media Hybrid wijze***) loopt om dynamische vertoningen van een activa in Brand Portal te bekijken, zorg ervoor dat zijn Piramid tiff vertoning bij de de auteur van de Elementen van de Experience Manager instantie van waar u aan Brand Portal publiceert bestaat. Wanneer u het element publiceert, wordt de PTIFF-uitvoering ook gepubliceerd naar Brand Portal.
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ Zie [Voorinstellingen afbeelding beheren](../using/brand-portal-image-presets.md
 
 ## Een voorinstelling voor afbeeldingen maken {#create-an-image-preset}
 
-De AEM beheerders kunnen voorinstellingen voor afbeeldingen maken die als dynamische uitvoeringen op de pagina met elementdetails worden weergegeven. U kunt een geheel nieuwe voorinstelling voor afbeeldingen maken of een bestaande voorinstelling met een nieuwe naam opslaan. Wanneer u een voorinstelling voor afbeeldingen maakt, kiest u een grootte voor de levering van de afbeelding en de opmaakopdrachten. Wanneer een afbeelding voor weergave wordt geleverd, wordt de weergave ervan geoptimaliseerd volgens de gekozen opdrachten.
+De beheerders van de Elementen van de Experience Manager kunnen beeld tot stand brengen vooraf instelt die als dynamische vertoningen op de elementendetailpagina verschijnen. U kunt een geheel nieuwe voorinstelling voor afbeeldingen maken of een bestaande voorinstelling met een nieuwe naam opslaan. Wanneer u een voorinstelling voor afbeeldingen maakt, kiest u een grootte voor de levering van de afbeelding en de opmaakopdrachten. Wanneer een afbeelding voor weergave wordt geleverd, wordt de weergave ervan geoptimaliseerd volgens de gekozen opdrachten.
 
 >[!NOTE]
 >
 >Dynamische uitvoeringen van een afbeelding worden gemaakt met de Piramide TIFF. Als de Piramid TIFF niet beschikbaar is voor een element, kunnen dynamische uitvoeringen voor dat element niet worden opgehaald in het Brand-portaal.
 >
->Als AEM auteurinstantie op **Dynamic Media Hybrid wijze** loopt, dan worden de vertoningen van de vertoningen van TIF van beeldBeelden gecreeerd en in AEM bewaarplaats bewaard.
+>Als de Experience Manager Assets auteurinstantie op **Dynamic Media Hybrid wijze** loopt, dan worden de vertoningen van de vertoningen van TIF van beeldactiva gecreeerd en in de bewaarplaats van de Middelen van de Experience Manager bewaard.
 >
->Als AEM auteurinstantie op **Dynamic Media Scene 7 wijze** loopt, dan bestaan de Verlopen van de Piramid TIFF van beeldactiva op Scene 7 server.
+>Terwijl, als de auteursinstantie van de Activa van de Experience Manager op **Dynamic Media Scene 7 wijze** loopt, dan bestaan de Piramid TIF vertoningen van beeldactiva op Scene 7 server.
 >
 >Wanneer dergelijke middelen op brandportal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en dynamische uitvoeringen weergegeven.
 
 
-1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
+1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
 
 1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Image Presets]**.
 

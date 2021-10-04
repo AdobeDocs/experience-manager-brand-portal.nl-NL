@@ -1,8 +1,8 @@
 ---
 title: Algemene huurdersconfiguraties beheren
-seo-title: Algemene huurdersconfiguraties beheren
+seo-title: Administer general tenant configurations
 description: Configureer downloadversnelling, maak van openbare slimme verzamelingen, maak van openbare verzamelingen en stel beheerders in staat elementen op huurders te verwijderen.
-seo-description: Configureer downloadversnelling, maak van openbare slimme verzamelingen, maak van openbare verzamelingen en stel beheerders in staat elementen op huurders te verwijderen.
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # Algemene huurdersconfiguraties beheren {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal staat organisaties toe om de volgende mogelijkheden voor specifieke huurders te vormen:
+Met Experience Manager Assets Brand Portal kunnen organisaties de volgende mogelijkheden configureren voor specifieke huurders:
 
 * Verwijderen van bedrijfsmiddelen door beheerders
 * Openbare collectie maken door gebruikers die geen beheerder zijn
@@ -44,7 +44,7 @@ Deze configuraties zijn opgegeven als **[!UICONTROL General Settings]** configur
 Om elk van deze configuraties toe te laten/onbruikbaar te maken:
 
 1. Meld u aan met beheerdersrechten.
-1. Selecteer het AEM logo voor toegang tot de beheergereedschappen op de werkbalk boven in het scherm.
+1. Selecteer het logo van de Experience Manager voor toegang tot de beheergereedschappen op de werkbalk boven in het scherm.
 1. Selecteer **[!UICONTROL General]** in het deelvenster met beheergereedschappen om de pagina **[!UICONTROL General Settings]** te openen.
 1. Gebruik de respectieve knevelschakelaar om het even welke Algemene configuraties toe te laten/onbruikbaar te maken.
 1. **[!UICONTROL Save]** de wijzigingen.

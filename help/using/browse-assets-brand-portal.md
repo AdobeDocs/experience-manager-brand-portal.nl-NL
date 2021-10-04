@@ -1,27 +1,26 @@
 ---
-title: Door elementen bladeren op Brand Portal
-seo-title: Door elementen bladeren op Brand Portal
-description: Blader door elementen, de hiërarchieën van doorlopende elementen en zoekelementen met behulp van verschillende weergaveopties en UI-elementen op Brand Portal.
-seo-description: Blader door elementen, de hiërarchieën van doorlopende elementen en zoekelementen met behulp van verschillende weergaveopties en UI-elementen op Brand Portal.
+title: Zoeken naar middelen op Brand Portal
+seo-title: Browse assets on Brand Portal
+description: Blader door elementen, de hiërarchieën van elementen over elkaar heen en zoek elementen met behulp van verschillende weergaveopties en UI-elementen op Brand Portal.
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
-source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
+exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
 
+# Zoeken naar middelen op Brand Portal {#browsing-assets-on-brand-portal}
 
-# Door elementen bladeren op Brand Portal {#browsing-assets-on-brand-portal}
+Experience Manager Assets Brand Portal biedt verschillende mogelijkheden en elementen van de gebruikersinterface die het bladeren door middelen, het oversteken van activa hiërarchieën, en het zoeken van activa terwijl het gebruiken van verschillende meningsopties vergemakkelijken.
 
-AEM Assets Brand Portal biedt verschillende mogelijkheden en gebruikersinterface-elementen die het bladeren door bronnen, het doorlopen van middelenhiërarchieën en het zoeken naar elementen vereenvoudigen terwijl u verschillende weergaveopties gebruikt.
-
-AEM logo in de AEM werkbalk boven in het scherm geeft beheerders toegang tot het deelvenster met beheergereedschappen.
+Met het logo van de Experience Manager in de werkbalk boven aan het scherm hebben beheerders toegang tot het deelvenster met beheergereedschappen.
 
 ![](assets/aemlogo.png)
 
@@ -29,15 +28,15 @@ AEM logo in de AEM werkbalk boven in het scherm geeft beheerders toegang tot het
 
 ![](assets/bp_subheader.png)<br />
 
-De kiezer voor het spoor linksboven in Brand Portal zet de keuzelijst neer om opties beschikbaar te maken waarmee u in de hiërarchieën van middelen kunt navigeren, uw zoekopdracht kunt stroomlijnen en bronnen kunt weergeven.
+Linksboven in Brand Portal-vervolgkeuzelijst voor spoorwegkiezers om opties beschikbaar te maken waarmee u in de hiërarchieën van middelen kunt navigeren, uw zoekopdracht kunt stroomlijnen en bronnen kunt weergeven.
 
 ![](assets/siderail-1.png)
 
-U kunt elementen weergeven, doorbladeren en selecteren met een van de beschikbare weergaven (Kaart, Kolom en Lijst) in de weergavekiezer in de rechterbovenhoek in Brand Portal.
+U kunt elementen weergeven, doorbladeren en selecteren met een van de beschikbare weergaven (Kaart, Kolom en Lijst) in de weergavekiezer rechtsboven in Brand Portal.
 
 ![](assets/viewselector.png)
 
-## Bronnen {#viewing-and-selecting-resources} weergeven en selecteren
+## Bronnen weergeven en selecteren {#viewing-and-selecting-resources}
 
 Het bekijken, navigeren, en het selecteren van elk zijn conceptueel het zelfde over alle meningen, maar hebben kleine variaties in behandeling, afhankelijk van de mening u gebruikt.
 
@@ -57,7 +56,7 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Type
 * Titel
 * Naam
-* Datum en tijdstip waarop de middelen van AEM naar Brand Portal zijn gepubliceerd
+* Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
 * Grootte
 * Dimensies
 
@@ -108,7 +107,7 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Grootte
 * Classificatie
 * Mappad met elementhiërarchie<sup>*</sup>
-* Datum van publicatie van het middel op de Brand Portal
+* Datum van publicatie van het element op Brand Portal
 
 Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [breadcrumbs in de header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
@@ -142,7 +141,7 @@ Wanneer een element is geselecteerd in de kolomweergave, wordt de visuele weerga
 * Titel
 * Naam
 * Dimensies
-* Datum en tijdstip waarop de middelen van AEM naar Brand Portal zijn gepubliceerd
+* Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
 * Grootte
 * Type
 * Meer informatie, optie om op de detailpagina van het element te gaan
@@ -243,7 +242,7 @@ Navigeer vanuit de inhoudshiërarchie naar het gewenste element.
 
 ![](assets/content-tree.png)
 
-## Elementdetails {#asset-details}
+## Details van element {#asset-details}
 
 Met de pagina met elementdetails kunt u een element weergeven, downloaden, de koppeling met middelen delen, naar een verzameling verplaatsen of de eigenschappenpagina van het element weergeven. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
 
@@ -261,4 +260,4 @@ Als u de pagina met elementeigenschappen wilt openen, gebruikt u de optie **[!UI
 
 ![](assets/asset-properties.png)
 
-U kunt ook een lijst weergeven met alle gerelateerde elementen (bron of afgeleide elementen op AEM) op de eigenschappenpagina van een element, aangezien de elementrelatie ook wordt gepubliceerd van AEM naar Brand Portal.
+U kunt ook een lijst weergeven met alle gerelateerde elementen (bron of afgeleide elementen op AEM) op de eigenschappenpagina van een element, aangezien de elementrelatie ook van AEM naar Brand Portal wordt gepubliceerd.

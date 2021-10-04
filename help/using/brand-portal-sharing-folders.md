@@ -1,35 +1,34 @@
 ---
 title: Mappen delen
-seo-title: Mappen delen
-description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen via een vooraf geconfigureerde AEM-auteur naar Brand Portal moeten worden gepubliceerd. Gepubliceerde middelen zijn niet toegankelijk voor niet-admingebruikers van het Portaal van het Merk, tenzij gevormd terwijl het vormen van replicatie met AEM instantie, en moeten met hen worden gedeeld.
-seo-description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen via een vooraf geconfigureerde AEM-auteur naar Brand Portal moeten worden gepubliceerd. Gepubliceerde middelen zijn niet toegankelijk voor niet-admingebruikers van het Portaal van het Merk, tenzij gevormd terwijl het vormen van replicatie met AEM instantie, en moeten met hen worden gedeeld.
+seo-title: Share folders
+description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen naar Brand Portal moeten worden gepubliceerd vanuit een vooraf geconfigureerde instantie van de Experience Manager Assets Author. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers die geen beheerder zijn van Brand Portal, tenzij dit is geconfigureerd tijdens het configureren van replicatie met een Experience Manager-instantie, en moeten met hen worden gedeeld.
+seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: tm+mt
-source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
+exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
 
-
 # Mappen delen op Brand Portal {#share-folders}
 
-Middelen moeten via een vooraf geconfigureerde AEM Author-instantie naar Brand Portal worden gepubliceerd, omdat het Brand Portal geen ondersteuning biedt voor het opnemen van bedrijfsmiddelen.
+Elementen moeten vanuit een vooraf geconfigureerde instantie van Auteur van Experience Manager naar Brand Portal worden gepubliceerd, omdat Brand Portal het opnemen van elementen niet ondersteunt.
 
 ## Workflow voor het delen van mappen in Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 Hieronder worden de workflow voor het delen van mappen en gebruikerstoegang beschreven:
 
-* Door gebrek, zijn alle omslagen die van AEM Assets aan het Portaal van het Merk worden gepubliceerd zichtbaar slechts aan de Beheerder van het Portaal van het Merk, tenzij duidelijk als openbaar terwijl het vormen van replicatie.
-* De beheerder gebruikt de **[!UICONTROL Folder Properties]** console om een omslag met selectieve gebruikers of groepen te delen. Alleen die gebruikers of groepen met wie de map wordt gedeeld, kunnen de map zien nadat ze zich hebben aangemeld bij Brand Portal. De map is niet zichtbaar voor andere gebruikers.
+* Standaard zijn alle mappen die van Experience Manager Assets naar Brand Portal worden gepubliceerd, alleen zichtbaar voor de Brand Portal Administrator, tenzij ze zijn gemarkeerd als public tijdens het configureren van replicatie.
+* De beheerder gebruikt de **[!UICONTROL Folder Properties]** console om een omslag met selectieve gebruikers of groepen te delen. Alleen de gebruikers of groepen met wie de map wordt gedeeld, kunnen de map zien nadat ze zich hebben aangemeld bij Brand Portal. De map is niet zichtbaar voor andere gebruikers.
 * De beheerder kan er ook voor kiezen een map openbaar te maken via het selectievakje **[!UICONTROL Public Folder]** in de console **[!UICONTROL Folder Properties]**. Alle gebruikers zien een openbare map.
 
-* Ongeacht gebruikersrollen en voorrechten, wanneer de gebruikers login aan het Portaal van het Merk, zien zij alle openbare omslagen, en de omslagen die direct met hen of met een groep worden gedeeld waartoe zij behoren. Privémappen of mappen die met andere gebruikers worden gedeeld, zijn niet voor alle gebruikers zichtbaar.
+* Ongeacht gebruikersrollen en rechten, zien gebruikers die zich aanmelden bij Brand Portal, alle openbare mappen en de mappen die rechtstreeks met hen of met een groep waartoe zij behoren worden gedeeld. Privémappen of mappen die met andere gebruikers worden gedeeld, zijn niet voor alle gebruikers zichtbaar.
 
 ### Mappen delen met gebruikersgroepen op Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
@@ -39,7 +38,7 @@ Op dezelfde manier hebben gebruikersgroepen (of gebruikers) met toegangsmachtigi
 
 ### Openbare map publiceren {#public-folder-publish}
 
-Tenzij de optie **[!UICONTROL Public Folder Publish]** is geselecteerd tijdens het configureren van de replicatie van het Brand Portal, hebben gebruikers zonder beheerdersrechten (zoals Editors en Viewers) geen toegang tot de middelen die van AEM Assets naar Brand Portal zijn gepubliceerd.
+Tenzij de optie **[!UICONTROL Public Folder Publish]** is geselecteerd tijdens het configureren van Brand Portal-replicatie, hebben gebruikers die geen beheerder zijn (zoals Editors en Viewers) geen toegang tot de middelen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd.
 
 ![](assets/assetbpreplication.png)
 
@@ -53,7 +52,7 @@ Als de optie **[!UICONTROL Public Folder Publish]** is uitgeschakeld, moeten beh
 
 In de volgende matrix worden de toegangsrechten en rechten voor het delen/ontdelen van elementen voor verschillende gebruikersrollen besproken:
 
-|  | Toegang tot alle mappen die van AEM Assets naar Brand Portal zijn gepubliceerd | Toegang tot gedeelde mappen | Maprechten delen/delen opheffen |
+|  | Toegang tot alle mappen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd | Toegang tot gedeelde mappen | Maprechten delen/delen opheffen |
 |---------------|-----------|-----------|------------|
 | Beheerder | Ja | Ja | Ja |
 | Editor | Nee* | Ja, alleen indien gedeeld met hen of met de groep waartoe zij behoren | Ja, alleen voor de mappen die met hen worden gedeeld of met de groep waartoe zij behoren |
@@ -62,7 +61,7 @@ In de volgende matrix worden de toegangsrechten en rechten voor het delen/ontdel
 
 >[!NOTE]
 >
->Standaard is de optie **[!UICONTROL Public Folder Publish]** uitgeschakeld tijdens het configureren van replicatie van Brand Portal met AEM-auteur. Als de optie is ingeschakeld, zijn de mappen die naar het Brand Portal worden gepubliceerd standaard toegankelijk voor alle gebruikers (ook niet-beheerders).
+>Standaard is de optie **[!UICONTROL Public Folder Publish]** uitgeschakeld tijdens het configureren van replicatie van Brand Portal met AEM-auteur. Als deze optie is ingeschakeld, zijn de mappen die naar Brand Portal worden gepubliceerd standaard toegankelijk voor alle gebruikers (ook niet-beheerders).
 
 ### Toegang van gebruikers die geen beheerder zijn tot gedeelde mappen {#non-admin-user-access-to-shared-folders}
 
@@ -70,13 +69,13 @@ Gebruikers die geen beheerder zijn, hebben alleen toegang tot de mappen die met 
 
 **Als de configuratie is uitgeschakeld**
 
-Niet-admin-gebruikers zien alle mappen die met hen worden gedeeld op de bestemmingspagina, bij het aanmelden bij het Brand Portal.
+Niet-beheerders zien alle mappen die met hen worden gedeeld op de bestemmingspagina, bij het aanmelden bij de Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
 **Als de configuratie is ingeschakeld**
 
-Gebruikers die geen beheerder zijn, zien de mapstructuur (te beginnen met de hoofdmap) en de gedeelde mappen die in hun respectieve bovenliggende mappen zijn gerangschikt, bij het aanmelden bij de Brand Portal.
+Gebruikers die geen beheerder zijn, zien de mappenstructuur (te beginnen met de hoofdmap) en de gedeelde mappen die in hun respectieve bovenliggende mappen zijn gerangschikt bij het aanmelden bij de Brand Portal.
 
 Deze bovenliggende mappen zijn de virtuele mappen en er kunnen geen handelingen op worden uitgevoerd. U kunt deze virtuele mappen herkennen met een vergrendelingspictogram.
 
@@ -88,7 +87,7 @@ In tegenstelling tot de gedeelde mappen zijn er geen actietaken zichtbaar bij he
 
 ![](assets/enabled-hierarchy1-1.png) ![](assets/hierarchy1-nonadmin-1.png) ![](assets/hierarchy-nonadmin-1.png) ![](assets/hierarchy2-nonadmin-1.png)
 
-## Mappen {#how-to-share-folders} delen
+## Mappen delen {#how-to-share-folders}
 
 Ga als volgt te werk als u een map wilt delen met gebruikers op Brand Portal:
 
@@ -100,7 +99,7 @@ Ga als volgt te werk als u een map wilt delen met gebruikers op Brand Portal:
 
    ![](assets/access_files.png)
 
-1. Selecteer in de interface Brand Portal de map die u wilt delen.
+1. Selecteer in de Brand Portal-interface de map die u wilt delen.
 
    ![](assets/share-folders.png)
 
@@ -127,11 +126,11 @@ Als u de map alleen met gastgebruikers en geen andere gebruikers wilt delen, sel
 
 1. Als u toegang wilt tot de gedeelde map, meldt u zich aan bij Brand Portal met de referenties van de gebruiker met wie u de map hebt gedeeld. Controleer de gedeelde map in de interface.
 
-## Mappen {#unshare-the-folders} opheffen
+## Mappen delen ongedaan maken {#unshare-the-folders}
 
 Voer de volgende stappen uit om het delen van een eerder gedeelde map op te heffen:
 
-1. Selecteer in de interface Brand Portal de map waarvan u het delen wilt opheffen.
+1. Selecteer in de Brand Portal-interface de map waarvan u het delen wilt opheffen.
 
    ![](assets/share-folders-1.png)
 
@@ -143,4 +142,4 @@ Voer de volgende stappen uit om het delen van een eerder gedeelde map op te heff
 1. Klik in het waarschuwingsbericht op **[!UICONTROL Confirm]** om het delen te bevestigen.
 Klik op **[!UICONTROL Save]**.
 
-1. Meld u aan bij Brand Portal met de referenties van de gebruiker die u uit de gedeelde lijst hebt verwijderd. De map is niet meer beschikbaar in de interface Brand Portal voor de gebruiker.
+1. Meld u aan bij Brand Portal met de gegevens van de gebruiker die u uit de gedeelde lijst hebt verwijderd. De map is niet meer beschikbaar in de Brand Portal-interface voor de gebruiker.

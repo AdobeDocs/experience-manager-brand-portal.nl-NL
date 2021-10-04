@@ -1,39 +1,38 @@
 ---
 title: Tags publiceren naar Brand Portal
-seo-title: Tags publiceren naar Brand Portal
-description: Leer hoe u tags kunt publiceren van AEM Assets naar Brand Portal.
-seo-description: Leer hoe u tags kunt publiceren van AEM Assets naar Brand Portal.
+seo-title: Publish tags to Brand Portal
+description: Leer hoe u tags kunt publiceren van Experience Manager Assets naar Brand Portal.
+seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
-translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
 
-
 # Tags publiceren naar Brand Portal {#publish-tags-to-brand-portal}
 
-Leer hoe u tags kunt publiceren van AEM Assets naar Brand Portal.
+Leer hoe u tags kunt publiceren van Experience Manager Assets naar Brand Portal.
 
-Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Als u wilt weten hoe tags aan elementen in AEM Assets moeten worden toegewezen, raadpleegt u [tags gebruiken om elementen te ordenen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Raadpleeg [Tags gebruiken om elementen te ordenen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets) voor informatie over het toewijzen van tags aan Experience Manager-elementen.
 
-Tags (gekoppeld aan elementen en verzamelingen in AEM) worden automatisch naar Brand Portal gepubliceerd wanneer de elementen (en verzamelingen) met bijbehorende tags naar Brand Portal worden gepubliceerd. De gepubliceerde tags zijn handig om zoekopdrachten in staat te stellen de bijbehorende elementen te vinden.
+Tags (gekoppeld aan elementen en verzamelingen in AEM) worden automatisch naar Brand Portal gepubliceerd wanneer de elementen (en verzamelingen) met de bijbehorende tags naar Brand Portal worden gepubliceerd. De gepubliceerde tags zijn handig om zoekopdrachten in staat te stellen de bijbehorende elementen te vinden.
 
 >[!NOTE]
 >
->Het wordt echter aanbevolen om uitsluitend labels naar Brand Portal te publiceren voordat de elementen (en verzamelingen) waarmee de labels zijn gekoppeld, worden gepubliceerd. Hierdoor wordt het sneller publiceren van de elementen (en verzamelingen) naar Brand Portal gegarandeerd.
+>Het wordt echter aanbevolen alleen labels naar Brand Portal te publiceren voordat u de elementen (en verzamelingen) publiceert waaraan de tags zijn gekoppeld. Zo zorgt u ervoor dat de elementen (en verzamelingen) sneller naar Brand Portal worden gepubliceerd.
 
-## Tags {#manage-tags} beheren
+## Tags beheren {#manage-tags}
 
-U kunt de reeds bestaande markeringen gebruiken om aan activa vast te maken of nieuwe markeringen van AEM console van Markeringen tot stand te brengen (**[!UICONTROL Tools | Tagging | AEM Tags]**). In beide scenario&#39;s moet u de labels eerst publiceren naar Brand Portal en ze vervolgens koppelen aan de juiste middelen.
+U kunt de reeds bestaande markeringen gebruiken om aan activa vast te maken of nieuwe markeringen van AEM console van Markeringen tot stand te brengen (**[!UICONTROL Tools | Tagging | AEM Tags]**). In beide scenario&#39;s moet u de tags eerst publiceren naar Brand Portal en vervolgens koppelen aan de juiste elementen.
 
-Als u tags wilt maken op AEM, de tags wilt publiceren op Brand Portal en de tags wilt koppelen aan de juiste elementen (of verzamelingen), voert u de volgende stappen uit:
+Ga als volgt te werk als u tags wilt maken bij AEM, de tags op Brand Portal wilt publiceren en de tags aan de juiste elementen (of verzamelingen) wilt koppelen:
 
 1. **Maak**
 TagsAanmelden bij de instantie AEM-auteur met beheerdersrechten en open  **[!UICONTROL AEM Tags]** console via globale navigatie:
@@ -64,16 +63,16 @@ pad PathJCR van de tag.
 
 1. **Publiceer de tag naar Brand Portal**.
 
-   Ga naar **[!UICONTROL AEM Tags]** console ([!UICONTROL Tools | Tagging | AEM Tags]), selecteer de gewenste markering en publiceer aan het Portaal van het Merk.
+   Ga naar **[!UICONTROL AEM Tags]** console ([!UICONTROL Tools | Tagging | AEM Tags]), selecteer de gewenste markering en publiceer aan Brand Portal.
 
 1. **Koppel de tag aan een element (of verzameling)**.
 
    Selecteer een element (of verzameling) en koppel de gewenste tag via het gedeelte Eigenschappen of het gedeelte Codes beheren van dat element. Raadpleeg [Tags gebruiken om elementen te ordenen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets) voor meer informatie over het toewijzen van tags aan elementen in AEM Assets.
 
 1. **Elementen (of verzamelingen) publiceren naar Brand Portal**.\
-   Wanneer u een element (of verzameling) publiceert naar Brand Portal, is de bijgevoegde tag ook beschikbaar op Brand Portal.
+   Als u een element (of verzameling) publiceert naar Brand Portal, is de bijgevoegde tag ook beschikbaar op Brand Portal.
 
-   Als u de bijgevoegde tag wilt weergeven op het respectievelijke element (of verzameling) in Brand Portal, meldt u zich aan bij Brand Portal en selecteert u het element onder Eigenschappen in de sectie waaraan u de bijgevoegde tag wilt toevoegen.
+   Als u de bijgevoegde tag wilt weergeven op het respectievelijke element (of de desbetreffende verzameling) in Brand Portal, meldt u zich aan bij Brand Portal en selecteert u het element. In het gedeelte Eigenschappen ziet u de bijgevoegde tag.
 
 ## Zoeken bevorderen {#search-promote}
 

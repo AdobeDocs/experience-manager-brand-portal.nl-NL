@@ -1,8 +1,8 @@
 ---
 title: Gebruikers, groepen en gebruikersrollen beheren
 seo-title: Manage users, groups, and user roles
-description: Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets Brand Portal-gebruikers en productprofielen te maken en hun rollen te beheren met behulp van de Brand Portal-gebruikersinterface. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
-seo-description: Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+description: Beheerders kunnen Adobe Admin Console gebruiken om Brand Portal-gebruikers en productprofielen te maken en hun rollen te beheren met behulp van de Brand Portal-gebruikersinterface. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
+seo-description: Administrators can use Adobe Admin Console to create Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 257a4686e1f5fba1ae4900bfa966e3ad6bb81a7a
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
 
 # Gebruikers, groepen en gebruikersrollen beheren {#manage-users-groups-and-user-roles}
 
-Beheerders kunnen Adobe Admin Console gebruiken om AEM Assets Brand Portal-gebruikers en productprofielen te maken en hun rollen te beheren met behulp van de Brand Portal-gebruikersinterface. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
+Beheerders kunnen Adobe Admin Console gebruiken om Assets Brand Portal-gebruikers en productprofielen voor Experience Managers te maken en hun rollen te beheren met behulp van de Brand Portal-gebruikersinterface. Deze bevoegdheid is niet beschikbaar voor Viewers en Editors.
 
-In [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), kunt u alle producten bekijken verbonden aan uw organisatie. Een product kan elke Experience Cloud oplossing zijn, zoals Adobe Analytics, Adobe Target of AEM Brand Portal. U moet het AEM Brand Portal-product kiezen en productprofielen maken.
+In [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), kunt u alle producten bekijken verbonden aan uw organisatie. Een product kan elke Experience Cloud oplossing zijn, zoals Adobe Analytics, Adobe Target of Experience Manager Assets Brand Portal. U moet het AEM Brand Portal-product kiezen en productprofielen maken.
 
 <!--
 Comment Type: draft
@@ -127,7 +127,7 @@ Als u gebruikers wilt toevoegen aan een Brand Portal-groep, voegt u deze toe aan
 >
 >U kunt zich direct of vanuit Brand Portal aanmelden bij [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Als u zich direct bij de Admin Console aanmeldt, volgt u stap 4-7 in de onderstaande procedure om gebruikers aan een productprofiel toe te voegen.
 
-1. Klik op de AEM werkbalk boven in het scherm op het Adobe-logo voor toegang tot de beheergereedschappen.
+1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
 
    ![Logo AEM](assets/aemlogo.png)
 
@@ -209,7 +209,7 @@ U kunt de systeembeheerder of de bevoegdheden van de productbeheerder aan een ge
    >
    >Brand Portal ondersteunt alleen de rollen Systeembeheerder en Productbeheerder.
    >
-   >Adobe raadt u aan de rol Systeembeheerder niet te gebruiken omdat deze beheerdersrechten voor de hele organisatie toekent voor alle producten van een organisatie. Bijvoorbeeld, heeft een systeembeheerder van een organisatie die drie marketing wolkenproducten omvat de volledige reeks voorrechten voor alle drie producten. Alleen een systeembeheerder kan AEM Assets zodanig configureren dat middelen van AEM Assets naar Brand Portal kunnen worden gepubliceerd. Zie [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) voor meer informatie.
+   >Adobe raadt u aan de rol Systeembeheerder niet te gebruiken omdat deze beheerdersrechten voor de hele organisatie toekent voor alle producten van een organisatie. Bijvoorbeeld, heeft een systeembeheerder van een organisatie die drie marketing wolkenproducten omvat de volledige reeks voorrechten voor alle drie producten. Slechts kan een Beheerder van het Systeem de Middelen van de Experience Manager vormen zodat de activa van de Experience Manager aan Brand Portal kunnen worden gepubliceerd. Zie [Elementen van Experience Managers configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) voor meer informatie.
    >
    >In tegenstelling, verleent de rol van de Beheerder van het Product beheerder beheerdervoorrechten voor slechts een specifiek product. Als u een meer korrelig toegangsbeheer binnen Brand Portal wilt afdwingen, gebruikt u de rol van de Beheerder van het Product en selecteert u het product als Brand Portal.
 

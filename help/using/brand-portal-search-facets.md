@@ -1,8 +1,8 @@
 ---
 title: Aangepaste zoekfacetten gebruiken
-seo-title: Aangepaste zoekfacetten gebruiken
+seo-title: Use custom search facets
 description: Beheerders kunnen voorspelden voor zoekopdrachten toevoegen aan het deelvenster Filters om de zoekfunctie aan te passen en veelzijdig te maken.
-seo-description: Beheerders kunnen voorspelden voor zoekopdrachten toevoegen aan het deelvenster Filters om de zoekfunctie aan te passen en veelzijdig te maken.
+seo-description: Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,13 @@ U kunt verschillende zoekvoorspelling gebruiken om het deelvenster **[!UICONTROL
 
 >[!NOTE]
 >
->Met AEM kunnen organisaties de aangepaste zoekformulieren van AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) naar Brand Portal publiceren in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.[
+>Met Experience Manager Assets kunnen organisaties de aangepaste zoekformulieren van AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) naar Brand Portal publiceren in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.[
 
 ## Een zoekvoorspelling toevoegen {#add-a-search-predicate}
 
 Een zoekvoorspelling toevoegen aan het **[!UICONTROL Filters]**-deelvenster:
 
-1. Als u beheergereedschappen wilt openen, klikt u op het AEM op de werkbalk boven in het venster.
+1. Als u beheergereedschappen wilt openen, klikt u op het logo van de Experience Manager op de werkbalk boven in het scherm.
 
    ![](assets/aemlogo.png)
 

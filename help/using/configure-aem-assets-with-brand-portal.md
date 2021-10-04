@@ -1,8 +1,8 @@
 ---
-title: AEM Assets configureren met Brand Portal
-seo-title: Configure AEM Assets with Brand Portal
-description: Meer informatie over het configureren van AEM Assets met Brand Portal.
-seo-description: Get an insight into configuring AEM Assets with Brand Portal.
+title: Experience Manager-elementen configureren met Brand Portal
+seo-title: Configure Experience Manager Assets with Brand Portal
+description: Meer informatie over het configureren van Experience Manager Assets met Brand Portal.
+seo-description: Get an insight into configuring Experience Manager Assets with Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,29 +11,29 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
-# AEM Assets configureren met Brand Portal {#configure-integration}
+# Experience Manager-elementen configureren met Brand Portal {#configure-integration}
 
-Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u functies voor het publiceren van bedrijfsmiddelen, het distribueren van bedrijfsmiddelen en het leveren van bedrijfsmiddelen voor Brand Portal-gebruikers inschakelen. Hiermee kunnen AEM Assets-gebruikers elementen publiceren en distribueren met Brand Portal-gebruikers. De Brand Portal-gebruikers hebben toegang tot de gedeelde elementen en kunnen een bijdrage leveren door nieuwe elementen te uploaden naar de mappen voor middelenbijdragen en deze weer te publiceren naar AEM Assets.
+Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u functies voor het publiceren van bedrijfsmiddelen, het distribueren van bedrijfsmiddelen en het leveren van bedrijfsmiddelen voor Brand Portal-gebruikers inschakelen. Hiermee kunnen gebruikers van Experience Manager Assets elementen publiceren en distribueren met Brand Portal-gebruikers. De Brand Portal-gebruikers hebben toegang tot de gedeelde elementen en kunnen een bijdrage leveren door nieuwe elementen te uploaden naar de mappen voor de bijdrage van elementen en deze weer te publiceren naar Experience Manager Assets.
 
-Het configureren van AEM Assets met Brand Portal wordt ondersteund op:
+Het configureren van Experience Manager Assets met Brand Portal wordt ondersteund op:
 
-* AEM Assets as a Cloud Service
-* AEM Assets (on-premisse en beheerde service) 6.3 en hoger
+* Elementen Experience Managers als Cloud Service
+* Experience Manager Assets (on-premisse en beheerde service) 6.3 en hoger
 
-AEM Assets als Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de AEM Assets als een Cloud Service-instantie.
+Elementen als Cloud Service Experience Managers wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de Experience Manager Assets als een Cloud Service-instantie.
 
-Terwijl AEM Assets (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor toestemming van de huurder van Brand Portal koopt.
+Terwijl, de Middelen van de Experience Manager (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor vergunning van de huurder van Brand Portal aanschaft.
 
 >[!NOTE]
 >
->***Voor AEM Assets 6.3 en hoger***
+>***Voor Experience Manager Activa 6.3 en hoger***
 >
 >Eerder, werd Brand Portal gevormd in klassieke interface via de Gateway van Legacy OAuth, die het token van het Web JSON (JWT) gebruikt om een teken IMS voor vergunning te verkrijgen.
 >

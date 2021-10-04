@@ -1,28 +1,27 @@
 ---
 title: Een verzameling delen
-seo-title: Een verzameling delen
-description: Beheerders van AEM Assets Brand Portal kunnen een verzameling of een slimme verzameling delen en delen met geautoriseerde gebruikers. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
-seo-description: Beheerders van AEM Assets Brand Portal kunnen een verzameling of een slimme verzameling delen en delen met geautoriseerde gebruikers. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
+seo-title: Share a collection
+description: De Beheerders van Assets Brand Portal van de Experience Manager kunnen een inzameling of een slimme inzameling met erkende gebruikers delen en unshare. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
+seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: tm+mt
-source-git-commit: a587061bc8afe250a88b4a02b42b6acd9ef6bbeb
+exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-
 # Verzamelingen delen {#share-collections}
 
-Een verzameling vertegenwoordigt een groep gerelateerde elementen die samen zijn opgeslagen in Adobe Experience Manager Assets Brand Portal. De gebruikers kunnen slimme inzamelingen tot stand brengen door onderzoek of facetonderzoek toe te passen om verwante activa [ uit te filteren en hen samen op te slaan voor gemakkelijke toegang en het verder te delen met andere gebruikers van het Poortportaal van het Merk.](brand-portal-searching.md)
+Een verzameling vertegenwoordigt een groep gerelateerde elementen die samen in Adobe Experience Manager Assets Brand Portal zijn opgeslagen. De gebruikers kunnen slimme verzamelingen maken door [het toepassen van zoekopdrachten of facetzoekopdrachten om gerelateerde elementen te filteren](brand-portal-searching.md) en ze samen op te slaan, zodat ze gemakkelijk toegankelijk zijn en verder kunnen worden gedeeld met andere Brand Portal-gebruikers.
 
-De beheerders kunnen een inzameling met de erkende gebruikers van het Portaal van het Merk delen en unshare. Editors en viewers kunnen de verzamelingen die door hen zijn gemaakt, met hen worden gedeeld en openbare verzamelingen weergeven en delen.
+De beheerders kunnen een inzameling met de erkende gebruikers van Brand Portal delen en delen. Editors en viewers kunnen de verzamelingen die door hen zijn gemaakt, met hen worden gedeeld en openbare verzamelingen weergeven en delen.
 
 >[!NOTE]
 >
@@ -30,7 +29,7 @@ De beheerders kunnen een inzameling met de erkende gebruikers van het Portaal va
 
 ## Een verzameling delen {#share-collection}
 
-Hier volgen de stappen voor het delen van een verzameling met de geautoriseerde gebruikers van het Brand Portal:
+Hier volgen de stappen voor het delen van een verzameling met geautoriseerde Brand Portal-gebruikers:
 
 1. Meld u aan bij uw Brand Portal-huurder. Standaard wordt de weergave **[!UICONTROL Files]** geopend, die alle gepubliceerde elementen en mappen bevat.
 

@@ -1,8 +1,8 @@
 ---
 title: Werken met rapporten
-seo-title: Werken met rapporten
-description: AEM Assets Brand Portal-beheerders kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
-seo-description: AEM Assets Brand Portal-beheerders kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
+seo-title: Work with reports
+description: De Beheerders van Assets Brand Portal van de Experience Manager kunnen rapport over het gebruik van Brand Portal bekijken, en tot stand brengen, leiden, en meningsrapporten rond activa die worden gedownload, verlopen, gepubliceerd, en verbinding die door Brand Portal wordt gedeeld.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De interface van het rapportbeheer is intuïtief en omvat fijnkorrelige opties e
 
 Voer de volgende stappen uit om een rapport weer te geven:
 
-1. Tik op of klik op het AEM om beheergereedschappen te openen via de werkbalk boven in het scherm.
+1. Tik op het logo van de Experience Manager of klik op de werkbalk boven in het scherm om beheergereedschappen te openen.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetri
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]** het rapport maakt een lijst en geeft informatie over alle activa die van AEM aan Brand Portal in een gespecificeerd tijdkader worden gepubliceerd.
+   **[!UICONTROL Publish]** het rapport maakt een lijst en geeft informatie over alle activa die van de Activa van de Experience Manager aan Brand Portal in een gespecificeerd tijdkader worden gepubliceerd.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ Beheerders kunnen de volgende standaardrapporten genereren en beheren, wanneer d
 
 De kolommen in het rapport Downloaden, Verlopen en Publiceren kunnen worden aangepast voor weergave. Voer de volgende stappen uit om een rapport te genereren:
 
-1. Tik op of klik op het AEM om beheergereedschappen te openen vanuit de werkbalk bovenaan.
+1. Tik op het logo van de Experience Manager of klik op de werkbalk boven in het scherm om beheergereedschappen te openen.
 
 1. Tik in het deelvenster met beheergereedschappen op **[!UICONTROL Create/Manage Reports]** om de pagina **[!UICONTROL Asset Reports]** te openen.
 
