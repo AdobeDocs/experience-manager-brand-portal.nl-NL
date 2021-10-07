@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 4%
@@ -100,7 +100,7 @@ This release includes the following enhancements:
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
-* De elementen van een map met bijdragen die even groot zijn, worden niet van Brand Portal naar Experience Manager Assets gepubliceerd.
+* De elementen van een bijdragemap die even groot zijn, worden niet van Brand Portal naar Experience Manager Assets gepubliceerd.
 * Wanneer een map met middelenbijdragen niet is gepubliceerd, wordt de grootte van de bijdragemap niet verkleind.
 * Gebruikers kunnen het toegepaste schema voor metagegevens niet uit een map verwijderen.
 * Het aantal groepen op de pagina met gebruikersmachtigingen is onjuist.
@@ -220,5 +220,5 @@ Deze sites zijn alleen beschikbaar voor klanten. Neem contact op met uw Adobe-ac
 -->
 
 <!--
-* [Customer Support](https://helpx.adobe.com/contact.html)
+* [Customer Support]()
 -->

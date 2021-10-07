@@ -1,8 +1,8 @@
 ---
 title: Digitale rechten van middelen beheren
-seo-title: Digitale rechten van middelen beheren
+seo-title: Manage digital rights of assets
 description: Het verlenen van vergunningen activa en het plaatsen van vervaldatum voor activa en gedeelde verbindingen verzekeren gecontroleerd gebruik van deze activa en beschermen hen.
-seo-description: Het verlenen van vergunningen activa en het plaatsen van vervaldatum voor activa en gedeelde verbindingen verzekeren gecontroleerd gebruik van deze activa en beschermen hen.
+seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Raadpleeg [Elementen delen als een koppeling](../using/brand-portal-link-share.m
 
 Voor gelicentieerde activa moet een licentieovereenkomst worden geaccepteerd voordat ze van Brand Portal kunnen worden gedownload. Deze overeenkomst voor gelicentieerde activa komt wanneer u direct het middel van Brand Portal of via een gedeelde verbinding downloadt. Alle gebruikers kunnen de door een licentie beveiligde middelen bekijken, ongeacht of deze zijn verlopen of niet. Het downloaden en gebruiken van verlopen gelicentieerde middelen is echter beperkt. Raadpleeg [gebruiksmachtigingen van verlopen elementen](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets) voor informatie over het gedrag van verlopen, in licentie gegeven elementen en toegestane activiteiten op basis van gebruikersrollen.
 
-Voor met licentie beveiligde elementen is [licentieovereenkomst gekoppeld](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dit gebeurt door de [metagegevenseigenschap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) van het element in AEM Assets in te stellen.
+Voor met licentie beveiligde elementen is [licentieovereenkomst gekoppeld](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html). Dit gebeurt door de [metagegevenseigenschap](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) van het element in AEM Assets in te stellen.
 
 Als u met licentie beveiligde middelen wilt downloaden, wordt u omgeleid naar de pagina **[!UICONTROL Copyright Management]**.
 

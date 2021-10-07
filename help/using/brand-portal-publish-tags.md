@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Leer hoe u tags kunt publiceren van Experience Manager Assets naar Brand Portal.
 
-Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Raadpleeg [Tags gebruiken om elementen te ordenen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets) voor informatie over het toewijzen van tags aan Experience Manager-elementen.
+Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Als u wilt weten hoe tags aan elementen in Experience Manager Assets moeten worden toegewezen, raadpleegt u [tags gebruiken om elementen te ordenen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 Tags (gekoppeld aan elementen en verzamelingen in AEM) worden automatisch naar Brand Portal gepubliceerd wanneer de elementen (en verzamelingen) met de bijbehorende tags naar Brand Portal worden gepubliceerd. De gepubliceerde tags zijn handig om zoekopdrachten in staat te stellen de bijbehorende elementen te vinden.
 
@@ -50,7 +50,7 @@ TagsAanmelden bij de instantie AEM-auteur met beheerdersrechten en open  **[!UIC
 
       *(vereist)* Een weergavetoetitel voor de tag.
    * **[!UICONTROL Name]**
-      *(vereist)* Een naam voor de tag. Als er geen waarde wordt opgegeven, wordt een geldige knooppuntnaam gemaakt op basis van de titel. Zie [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(vereist)* Een naam voor de tag. Als er geen waarde wordt opgegeven, wordt een geldige knooppuntnaam gemaakt op basis van de titel. Zie [TagID](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/tagging/framework.html).
    * **Beschrijving**
 
       *(optioneel)* Een beschrijving van de tag.
@@ -67,7 +67,7 @@ pad PathJCR van de tag.
 
 1. **Koppel de tag aan een element (of verzameling)**.
 
-   Selecteer een element (of verzameling) en koppel de gewenste tag via het gedeelte Eigenschappen of het gedeelte Codes beheren van dat element. Raadpleeg [Tags gebruiken om elementen te ordenen](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets) voor meer informatie over het toewijzen van tags aan elementen in AEM Assets.
+   Selecteer een element (of verzameling) en koppel de gewenste tag via het gedeelte Eigenschappen of het gedeelte Codes beheren van dat element. Raadpleeg [Tags gebruiken om elementen te ordenen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html) voor meer informatie over het toewijzen van tags aan elementen in AEM Assets.
 
 1. **Elementen (of verzamelingen) publiceren naar Brand Portal**.\
    Als u een element (of verzameling) publiceert naar Brand Portal, is de bijgevoegde tag ook beschikbaar op Brand Portal.

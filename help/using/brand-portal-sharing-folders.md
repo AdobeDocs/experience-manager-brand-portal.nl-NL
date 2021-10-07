@@ -1,7 +1,7 @@
 ---
 title: Mappen delen
 seo-title: Share folders
-description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat bedrijfsmiddelen naar Brand Portal moeten worden gepubliceerd vanuit een vooraf geconfigureerde instantie van de Experience Manager Assets Author. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers die geen beheerder zijn van Brand Portal, tenzij dit is geconfigureerd tijdens het configureren van replicatie met een Experience Manager-instantie, en moeten met hen worden gedeeld.
+description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat middelen vanuit een vooraf geconfigureerde Experience Manager Assets Author-instantie naar Brand Portal moeten worden gepubliceerd. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers die geen beheerder zijn van Brand Portal, tenzij dit is geconfigureerd tijdens het configureren van replicatie met een Experience Manager-instantie, en moeten met hen worden gedeeld.
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -9,9 +9,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Elementen moeten vanuit een vooraf geconfigureerde instantie van Auteur van Expe
 
 Hieronder worden de workflow voor het delen van mappen en gebruikerstoegang beschreven:
 
-* Standaard zijn alle mappen die van Experience Manager Assets naar Brand Portal worden gepubliceerd, alleen zichtbaar voor de Brand Portal Administrator, tenzij ze zijn gemarkeerd als public tijdens het configureren van replicatie.
+* Standaard zijn alle mappen die vanuit Experience Manager Assets naar Brand Portal worden gepubliceerd, alleen zichtbaar voor de Brand Portal Administrator, tenzij ze als public zijn gemarkeerd tijdens het configureren van de replicatie.
 * De beheerder gebruikt de **[!UICONTROL Folder Properties]** console om een omslag met selectieve gebruikers of groepen te delen. Alleen de gebruikers of groepen met wie de map wordt gedeeld, kunnen de map zien nadat ze zich hebben aangemeld bij Brand Portal. De map is niet zichtbaar voor andere gebruikers.
 * De beheerder kan er ook voor kiezen een map openbaar te maken via het selectievakje **[!UICONTROL Public Folder]** in de console **[!UICONTROL Folder Properties]**. Alle gebruikers zien een openbare map.
 
@@ -32,7 +32,7 @@ Hieronder worden de workflow voor het delen van mappen en gebruikerstoegang besc
 
 ### Mappen delen met gebruikersgroepen op Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Toegangsrechten voor elementen van een map zijn afhankelijk van de toegangsrechten voor de bovenliggende map, ongeacht de instellingen van onderliggende mappen. Dit gedrag wordt geregeerd door [ACLs](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM, aangezien de kindomslagen ACLs van hun ouderomslagen erven. Bijvoorbeeld, als een omslag A omslag B bevat die omslag C bevat, dan hebben een gebruikersgroep (of gebruikers) die toegangsrechten op omslag A hebben ook de zelfde toegangsrechten op omslag B en omslag C. De omslag B die de kindomslag van A is overerft ACLs, en de omslag C die de kindomslag van B overerft ACLs.
+Toegangsrechten voor elementen van een map zijn afhankelijk van de toegangsrechten voor de bovenliggende map, ongeacht de instellingen van onderliggende mappen. Dit gedrag wordt geregeerd door [ACLs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) in AEM, aangezien de kindomslagen ACLs van hun ouderomslagen erven. Bijvoorbeeld, als een omslag A omslag B bevat die omslag C bevat, dan hebben een gebruikersgroep (of gebruikers) die toegangsrechten op omslag A hebben ook de zelfde toegangsrechten op omslag B en omslag C. De omslag B die de kindomslag van A is overerft ACLs, en de omslag C die de kindomslag van B overerft ACLs.
 
 Op dezelfde manier hebben gebruikersgroepen (of gebruikers) met toegangsmachtigingen voor alleen map B dezelfde toegangsmachtigingen voor map C, maar niet voor map A. Daarom wordt geadviseerd dat de organisaties hun inhoud zodanig schikken dat de meeste blootgestelde activa in de kindomslag en van kinderen aan de toegang van de wortelomslag kunnen worden beperkt.
 

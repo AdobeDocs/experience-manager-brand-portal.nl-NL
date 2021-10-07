@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
 
 # Zoeken naar middelen op Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal biedt verschillende mogelijkheden en elementen van de gebruikersinterface die het bladeren door middelen, het oversteken van activa hiërarchieën, en het zoeken van activa terwijl het gebruiken van verschillende meningsopties vergemakkelijken.
+Experience Manager Assets Brand Portal biedt verschillende mogelijkheden en gebruikersinterface-elementen die het bladeren door bronnen, het doorlopen van middelenhiërarchieën en het zoeken naar middelen vereenvoudigen terwijl u verschillende weergaveopties gebruikt.
 
 Met het logo van de Experience Manager in de werkbalk boven aan het scherm hebben beheerders toegang tot het deelvenster met beheergereedschappen.
 
@@ -60,7 +60,7 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Grootte
 * Dimensies
 
-U kunt de hiërarchie omlaag navigeren door op kaarten te tikken of te klikken (waarbij u de snelle handelingen vermijdt) of weer omhoog met de [broodkruimels in de header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+U kunt de hiërarchie omlaag navigeren door op kaarten te tikken of te klikken (waarbij u de snelle handelingen vermijdt) of weer omhoog met de [broodkruimels in de header](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -109,7 +109,7 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Mappad met elementhiërarchie<sup>*</sup>
 * Datum van publicatie van het element op Brand Portal
 
-Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [breadcrumbs in de header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [breadcrumbs in de header](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."

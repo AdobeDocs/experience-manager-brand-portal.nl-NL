@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doord
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld, waarbij IBM Aspera Connect wordt gebruikt voor het versnelde downloaden van de middelen. Installeer IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in de extensie van uw browser voordat u de middelen downloadt van Brand Portal. Zie [handleiding voor het versnellen van downloads vanuit Brand Portal](../using/accelerated-download.md) voor meer informatie.
+>In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld, die IBM Aspera Connect gebruikt om de middelen sneller te downloaden. Installeer IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in de browserextensie voordat u de middelen downloadt van Brand Portal. Zie [handleiding voor het versnellen van downloads vanuit Brand Portal](../using/accelerated-download.md) voor meer informatie.
 >
 >Als u IBM Aspera Connect niet wilt gebruiken en verder wilt gaan met het normale downloadproces, neemt u contact op met de Brand Portal-beheerder om de instelling **[!UICONTROL Fast Download]** uit te schakelen.
 
@@ -65,7 +65,7 @@ De beschikbare instellingen zijn:
 
    Hiermee kunt u door het systeem gegenereerde uitvoeringen van de elementen downloaden.
 
-   Dit zijn de miniaturen die automatisch worden gegenereerd in Experience Manager Assets op basis van de workflow &quot;DAM update asset&quot;.
+   Dit zijn de miniaturen die automatisch worden gegenereerd in Experience Manager Assets op basis van de workflow voor &quot;DAM-updatebestanden&quot;.
 
 * **[!UICONTROL Asset Download]**
 
@@ -163,7 +163,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
       >
       >Als de elementen die u downloadt ook gelicentieerde elementen bevatten, wordt u doorgestuurd naar de pagina **[!UICONTROL Copyright Management]**. Selecteer op deze pagina de elementen, klik op **[!UICONTROL Agree]** en klik op **[!UICONTROL Download]**. Als u het niet eens bent, worden de gelicentieerde middelen niet gedownload.
       > 
-      >Voor met licentie beveiligde elementen is [licentieovereenkomst gekoppeld](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dit gebeurt door de [metagegevenseigenschap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) van het element in Experience Manager Assets in te stellen.
+      >Voor met licentie beveiligde elementen is [licentieovereenkomst gekoppeld](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html). Dit gebeurt door de [metagegevenseigenschap](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) van het element in Experience Manager Assets in te stellen.
 
 
       ![in licentie gegeven](assets/licensed-asset-new.png)
@@ -194,7 +194,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
 >[!NOTE]
 >
->Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder gebruik te maken van IBM Aspera Connect.
+>Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder IBM Aspera Connect te gebruiken.
 
 >[!NOTE]
 >
@@ -208,9 +208,9 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 >
 >Brand Portal ondersteunt het configureren van Dynamic Media in zowel de Hybride als de Scène 7-modus.
 >
->(*Als de Experience Manager Assets auteurinstantie op **Hybride wijze van Dynamic Media*** loopt)
+>(*Als de Experience Manager Assets-auteurinstantie wordt uitgevoerd in **Dynamic Media Hybrid-modus***)
 >
->Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat bij de Experience Manager Assets auteurinstantie vanwaar de elementen zijn gepubliceerd. Wanneer een activum van de Activa van de Experience Manager aan Brand Portal wordt gepubliceerd, wordt zijn vertoning van de Piramid tiff ook gepubliceerd.
+>Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de Experience Manager Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van Experience Manager Assets naar Brand Portal wordt gepubliceerd, wordt ook de Pyramid tiff-uitvoering gepubliceerd.
 
 
 
@@ -252,7 +252,7 @@ Hier volgen de stappen voor het downloaden van elementuitvoeringen van de pagina
 
 >[!NOTE]
 >
->Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder gebruik te maken van IBM Aspera Connect.
+>Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder IBM Aspera Connect te gebruiken.
 
 
 >[!NOTE]
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

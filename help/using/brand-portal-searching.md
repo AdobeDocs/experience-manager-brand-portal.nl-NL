@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1063'
 ht-degree: 4%
 
 ---
@@ -43,13 +43,13 @@ Op Brand Portal zoeken naar elementen:
 
    *Zoeken van middelen met alzoekfunctie*
 
-Zie [Zoekresultaten en gedrag begrijpen](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html) voor informatie over het zoekgedrag met slimme gecodeerde elementen.
+Zie [Zoekresultaten en gedrag begrijpen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html) voor informatie over het zoekgedrag met slimme gecodeerde elementen.
 
 ## Zoeken met facetten in het deelvenster Filters {#search-using-facets-in-filters-panel}
 
 Met zoekfacetten in het deelvenster Filters kunt u de zoekervaring korter maken en de zoekfunctionaliteit efficiënt maken. De facetten van het onderzoek gebruiken veelvoudige dimensies (predikaten) die u toelaten om complexe onderzoeken uit te voeren. U kunt gemakkelijk tot het gewenste niveau van detail voor een gerichter onderzoek boor.
 
-Als u bijvoorbeeld een afbeelding zoekt, kunt u kiezen of u een bitmap- of een vectorafbeelding wilt. U kunt het zoekbereik verder beperken door het MIME-type voor de afbeelding op te geven in de zoekfacet Bestandstype. Op dezelfde manier kunt u bij het zoeken naar documenten de indeling opgeven, bijvoorbeeld PDF- of MS Word-indeling.
+Als u bijvoorbeeld een afbeelding zoekt, kunt u kiezen of u een bitmap- of een vectorafbeelding wilt. U kunt het zoekbereik verder beperken door het MIME-type voor de afbeelding op te geven in de zoekfacet Bestandstype. Op dezelfde manier kunt u bij het zoeken naar documenten de indeling opgeven, bijvoorbeeld de indeling PDF of MS Word.
 
 ![Deelvenster Filters in het deelvenster Brand ](assets/file-type-search.png "PortalFilters in Brand Portal")
 
@@ -70,7 +70,7 @@ Gebruik bijvoorbeeld de volgende standaardfilters:
    >Voor gebruikers die geen beheerder zijn, geeft [!UICONTROL Path Browser] in [!UICONTROL Filter] alleen de inhoudsstructuur weer van de mappen (en hun bovenliggende mappen) die met hen worden gedeeld.\
    >Als u gebruikers wilt beheren, kunt u in de padbrowser naar een willekeurige map in Brand Portal navigeren.
 
-   * **[!UICONTROL File Type]** om het type elementbestand op te geven (afbeelding, document, multimedia, archief) dat u zoekt. Verder kunt u het bereik van de zoekopdracht beperken door bijvoorbeeld het MIME-type (TIFF, Bitmap, GIMP-afbeeldingen) voor de afbeelding of indeling (PDF of MS Word) voor de documenten op te geven.
+   * **[!UICONTROL File Type]** om het type elementbestand op te geven (afbeelding, document, multimedia, archief) dat u zoekt. Verder kunt u het bereik van uw zoekopdracht beperken door bijvoorbeeld het MIME-type (TIFF, Bitmap, GIMP-afbeeldingen) voor de afbeelding of indeling (PDF of MS Word) voor de documenten op te geven.
    * **[!UICONTROL File Size]** om te zoeken naar elementen op basis van hun grootte. U kunt de onder- en bovengrenzen voor het groottebereik opgeven om de zoekopdracht te beperken en de maateenheid voor de zoekactie opgeven.
    * **[!UICONTROL Status]** om te zoeken naar elementen die zijn gebaseerd op de status van elementen, zoals Goedgekeurd, Wijzigingen aangevraagd, Geweigerd, In behandeling) en Verlopen.
    * **[!UICONTROL Average Rating]** het zoeken naar activa op basis van de rating van de activa.

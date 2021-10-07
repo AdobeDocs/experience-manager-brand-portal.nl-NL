@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1443'
 ht-degree: 2%
 
 ---
@@ -24,24 +24,24 @@ Het is echter een uitdaging om oplossingen te ontwikkelen die efficiënte en vei
 
 **Adobe Experience Manager (AEM) Assets Brand** Portalis gericht op de noodzaak van een effectieve samenwerking van de markt met de wereldwijd gedistribueerde Brand Portal-gebruikers door middel van mogelijkheden voor middelendistributie en het leveren van middelen.
 
-Met Asset Distribution kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Terwijl de inbreng van Activa de gebruikers van Brand Portal de capaciteit toelaat om activa aan Brand Portal te uploaden en aan de Activa van de Experience Manager te publiceren, zonder toegang tot het auteursmilieu te vereisen. De bijdragefunctie wordt aangeroepen als **Middelen bron in Brand Portal**. En samen verbetert het de algemene ervaring van Brand Portal op het gebied van de distributie van activa en de bijdrage van de Brand Portal-gebruikers (externe agentschappen/teams), versnelt het de tijd-aan-markt voor activa, en vermindert het risico van niet-naleving en onbevoegde toegang.
+Met Asset Distribution kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Terwijl de inbreng van activa de gebruikers van Brand Portal de capaciteit om activa aan Brand Portal te uploaden en aan Experience Manager Assets te publiceren toelaat, zonder toegang tot het auteursmilieu te vereisen. De bijdragefunctie wordt aangeroepen als **Middelen bron in Brand Portal**. En samen verbetert het de algemene ervaring van Brand Portal op het gebied van de distributie van activa en de bijdrage van de Brand Portal-gebruikers (externe agentschappen/teams), versnelt het de tijd-aan-markt voor activa, en vermindert het risico van niet-naleving en onbevoegde toegang.
 Zie [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 Met de browsergebaseerde portalomgeving kunt u elementen gemakkelijk uploaden, doorbladeren, zoeken, voorvertonen en exporteren in een goedgekeurde indeling.
 
-## Experience Manager-elementen configureren met Brand Portal {#configure-brand-portal}
+## Experience Manager Assets configureren met Brand Portal {#configure-brand-portal}
 
 Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u functies voor het publiceren van bedrijfsmiddelen, het distribueren van bedrijfsmiddelen en het leveren van bedrijfsmiddelen voor Brand Portal-gebruikers inschakelen.
 
 >[!NOTE]
 >
->Het vormen van de Middelen van de Experience Manager met Brand Portal wordt gesteund op de Activa van de Experience Manager als Cloud Service, de Activa van de Experience Manager 6.3 en hierboven.
+>Het configureren van Experience Manager Assets met Brand Portal wordt ondersteund op Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 en hoger.
 
-Elementen als Cloud Service Experience Managers wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de Experience Manager Assets als een Cloud Service-instantie.
+Experience Manager Assets as a Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de as a Cloud Service Experience Manager Assets-instantie.
 
-Terwijl, de Middelen van de Experience Manager (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor vergunning van de huurder van Brand Portal aanschaft.
+Terwijl Experience Manager Assets (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor toestemming van de huurder van Brand Portal koopt.
 
-Zie [Elementen van Experience Managers configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) voor meer informatie.
+Zie [Experience Manager Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) voor meer informatie.
 
 ## Personen van gebruikers in Brand Portal {#Personas}
 
@@ -129,9 +129,9 @@ Naast de bovenstaande taken kan een auteur in AEM Assets de volgende taken uitvo
 
 [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Mappen publiceren naar Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Verzamelingen publiceren naar Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alternatieve alias voor Brand Portal URL {#tenant-alias-for-portal-url}
 
@@ -229,7 +229,7 @@ Je kunt dit bericht negeren en doorgaan met Brand Portal. Deze melding wordt in 
 ## Gerelateerde bronnen {#related-resources}
 
 <!--
-* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe Customer Support]()
 -->
 
 * [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

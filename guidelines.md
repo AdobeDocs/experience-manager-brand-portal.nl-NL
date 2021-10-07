@@ -1,7 +1,7 @@
 ---
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,7 @@ De uitzonderingen op deze regel zijn op de versienota&#39;s van toepassing waar 
 
 Alle ideeën die u eventueel nodig hebt om AEM documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en pull-aanvragen zijn echter alleen bedoeld voor *bijdragen*. Ze zijn niet bedoeld om u te helpen uw vragen te beantwoorden over het gebruik van AEM, het implementeren van uw AEM-project of het oplossen van technische problemen.
 
-Eventuele vragen over het gebruik van AEM of technische fouten moeten via het normale supportproces worden gerapporteerd via het [Experience Cloud Enterprise Support-portaal](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) of worden besproken in de [Experience Manager-community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Eventuele vragen over het gebruik van AEM of technische fouten moeten via het normale supportproces worden gerapporteerd via het [Experience Cloud Enterprise Support-portaal](https://experienceleague.adobe.com/?support-solution=General#support) of worden besproken in de [Experience Manager-community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***AEM documentatiebijdragen zijn geen vervanging voor*** Klantenondersteuning en dergelijke bijdragen die antwoorden op supportgerelateerde vragen zoeken, zullen worden afgewezen.
 
@@ -63,9 +63,9 @@ Door deze richtlijnen te volgen wordt de revisie van uw bijdrage gemakkelijker e
 
 Alle lezers van AEM documentatie zijn wereldwijd en kunnen niet verwachten dat ze native of vloeiende Engelstalige luidsprekers zijn. Vermijd colloquialisme en houd de taal zo duidelijk en eenvoudig mogelijk.
 
-#### Handleiding van Microsoft volgen
+#### Handleiding Microsoft volgen
 
-[De handleiding van Microsoft van ](https://docs.microsoft.com/en-us/style-guide/welcome/) stijl is een vrij beschikbare gids van de documentatiestijl die zich op softwaredocumentatie en AEM documentatie concentreert volgt deze gids waar mogelijk.
+[De Microsoft Manual of ](https://docs.microsoft.com/en-us/style-guide/welcome/) Style is een vrij beschikbare documentatiestijlgids die zich concentreert op softwaredocumentatie en AEM documentatie volgt deze gids waar mogelijk.
 
 ### Opmaak
 
