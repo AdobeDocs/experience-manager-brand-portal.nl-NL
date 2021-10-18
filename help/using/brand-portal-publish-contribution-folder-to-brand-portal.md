@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,10 @@ Het vereiste van activa verwijst naar de details die door beheerders worden vers
 >[!NOTE]
 >
 >De zoekresultaten zijn gebaseerd op de Brand Portal-gebruikerslijst die in Experience Manager Assets is geconfigureerd. Controleer of u de bijgewerkte gebruikerslijst van Brand Portal hebt.
+
+De beheerders kunnen het `user.csv` dossier van [!DNL Admin Console] downloaden en het gebruiken als basismalplaatje voor het toevoegen van de gebruikers van Brand Portal. Ga naar [!UICONTROL Users] en klik op [!UICONTROL Export users list to csv] optie om het `users.csv` dossier te downloaden. De volgende voorbeeldgebruikers geven een overzicht van de kenmerken die vereist zijn voor het toevoegen van de gebruikers. Het enige verplichte kenmerk voor een gebruikersinvoer is `Email` en alle andere kenmerken zijn optioneel.
+
+[Bestand ophalen](assets/users.csv)
 
 ## Elementen uploaden naar de bijdragemap {#uplad-new-assets-to-contribution-folder}
 
