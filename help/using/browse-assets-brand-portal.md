@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Met het logo van de Experience Manager in de werkbalk boven aan het scherm hebbe
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Linksboven in Brand Portal-vervolgkeuzelijst voor spoorwegkiezers om opties beschikbaar te maken waarmee u in de hiërarchieën van middelen kunt navigeren, uw zoekopdracht kunt stroomlijnen en bronnen kunt weergeven.
 
@@ -106,7 +106,7 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Dimension
 * Grootte
 * Classificatie
-* Mappad met elementhiërarchie<sup>*</sup>
+* Mappad met middelenhiërarchie
 * Datum van publicatie van het element op Brand Portal
 
 Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [breadcrumbs in de header](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).

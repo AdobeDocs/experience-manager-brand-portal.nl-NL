@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Als u een map met bijdragen wilt maken, maakt u een nieuwe map van het type Asse
 
 >[!NOTE]
 >
->U kunt meerdere mappen voor bijdragen maken in een map.
+>De beheerders kunnen veelvoudige omslagen van de middelenbijdrage binnen een omslag tot stand brengen.
 >
->Een map met middelenbijdragen bevat de mappen NEW en SHARED voor de distributie en bijdrage van de elementen. Maak geen middelen-, map- of bijdragemap in een bronnenbijdragemap.
+>Een map met middelenbijdragen bevat de mappen NEW en SHARED voor de distributie en bijdrage van de elementen. Maak geen map met middelen, mappen of bijdragen in een bijdragemap.
 
 
 U kunt de eigenschappen van de bijdragemap afzonderlijk configureren en de bijdragemap maken. In dit voorbeeld configureren we de eigenschappen afzonderlijk.
