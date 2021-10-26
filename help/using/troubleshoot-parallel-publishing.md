@@ -10,24 +10,24 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
 # Problemen met parallelle publicatie naar Brand Portal oplossen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is geconfigureerd met Experience Manager Assets, zodat goedgekeurde merkelementen naadloos worden opgenomen (of gepubliceerd) in de authoringinstantie van Experience Manager Assets. Eenmaal [geconfigureerd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de auteur van de Experience Manager een replicatieagent om de geselecteerde middelen aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
+Brand Portal is geconfigureerd met Experience Manager Assets om goedgekeurde merkmiddelen naadloos in te nemen (of te publiceren) vanuit de Experience Manager Assets-auteur-instantie. Eenmaal [geconfigureerd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de auteur van de Experience Manager een replicatieagent om de geselecteerde activa aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
 
 >[!NOTE]
 >
->Adobe raadt aan een upgrade naar Experience Manager 6.4.1.0 uit te voeren om ervoor te zorgen dat Experience Manager Assets Brand Portal correct is geconfigureerd met Experience Manager Assets. Een beperking in Experience Manager 6.4 geeft een fout terwijl het vormen van de Middelen van de Experience Manager met Brand Portal en de replicatie ontbreekt.
+>Adobe raadt aan een upgrade naar Experience Manager 6.4.1.0 uit te voeren om ervoor te zorgen dat Experience Manager Assets Brand Portal correct is geconfigureerd met Experience Manager Assets. Een beperking in Experience Manager 6.4 geeft een fout terwijl het vormen van Experience Manager Assets met Brand Portal en replicatie ontbreekt.
 
-Bij het configureren van de cloudservice voor Brand Portal onder **[!UICONTROL /etc/cloudservice]** worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Het leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen publiceert van Experience Manager naar Brand Portal, worden de elementen in een wachtrij geplaatst en verdeeld onder de replicatieagents via Round Robin.
+Bij het configureren van cloudservice voor Brand Portal onder **[!UICONTROL /etc/cloudservice]** Alle benodigde gebruikers en token worden automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Het leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen publiceert van Experience Manager naar Brand Portal, worden de elementen in een wachtrij geplaatst en verdeeld onder de replicatieagents via Round Robin.
 
-Nochtans, kan het publiceren met tussenpozen als gevolg van grote sling banen, verhoogd Netwerk en **[!UICONTROL Disk I/O]** op de instantie van de Auteur van de Experience Manager, of vertraagde prestaties van de instantie van de Auteur van de Experience Manager ontbreken. Het wordt daarom aangeraden de verbinding met de replicatieagent(en) te testen voordat u begint met publiceren.
+Publiceren kan echter tijdelijk mislukken als gevolg van grote slingertaken, een groter netwerk en **[!UICONTROL Disk I/O]** op de instantie van de Auteur van de Experience Manager, of vertraagde prestaties van de instantie van de Auteur van de Experience Manager. Het wordt daarom aangeraden de verbinding met de replicatieagent(en) te testen voordat u begint met publiceren.
 
 ![](assets/test-connection.png)
 
@@ -51,7 +51,7 @@ Logboek van de mening, als de fouten in replicatielogboek worden gevonden:
 
 1. Neem contact op met de Klantenondersteuning.
 
-1. [opschonen](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) opnieuw proberen en opnieuw publicatieconfiguratie maken.
+1. Opnieuw [opruimen](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) en maak opnieuw een publicatieconfiguratie.
 
 <!--
 Comment Type: remark
@@ -61,12 +61,12 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Bestaande Brand Portal-publicatieconfiguraties opschonen {#clean-up-existing-config}
+## Bestaande Brand Portal-publicatieconfiguraties opschonen {#clean-up-existing-config}
 
-De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en daarom publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie om behoorlijk te werken, schoonmaak het volgende van de opstelling van de auteur van de Experience Manager:
+De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en vandaar publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie om behoorlijk te werken, schoonmaak het volgende van de opstelling van de auteur van de Experience Manager:
 
-1. Ga naar `localhost:4502/crx/de/` (aangezien u auteursinstantie op localhost:4502: in werking stelt\
-   i. verwijderen `/etc/replication/agents.author/mp_replication`
+1. Ga naar `localhost:4502/crx/de/` (als u de auteurinstantie op localhost wilt uitvoeren):4502:\
+   i. delete `/etc/replication/agents.author/mp_replication`
 ii. delete 
 `/etc/cloudservices/mediaportal/<config_name>`
 
@@ -83,7 +83,7 @@ Nu wordt het systeem helemaal schoongemaakt. Nu kunt u proberen om een config va
 
 ## Zichtbaarheid ontwikkelaarsleider JWT-toepassing {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Als op `https://legacy-oauth.cloud.adobe.io/`, alle organen (huurders) waarvoor de huidige gebruikers systeembeheerder houden zijn vermeld. Als u hier de naam van de org niet vindt of u kunt geen toepassing voor een vereiste huurder hier tot stand brengen, gelieve te controleren of hebt u voldoende (systeembeheerder) rechten.
+Indien ingeschakeld `https://legacy-oauth.cloud.adobe.io/`, worden alle organen (huurders) vermeld waarvoor de huidige gebruikers systeembeheerder houden. Als u hier de naam van de org niet vindt of u kunt geen toepassing voor een vereiste huurder hier tot stand brengen, gelieve te controleren of hebt u voldoende (systeembeheerder) rechten.
 
 Er is één bekende kwestie op dit gebruikersinterface die voor om het even welke huurder slechts tien toepassingen zichtbaar zijn. Wanneer u de toepassing maakt, blijft u op die pagina en bladwijzer de URL. U hoeft niet naar de pagina met lijsten van de toepassing te gaan en de toepassing te zoeken die u hebt gemaakt. U kunt rechtstreeks op deze URL met bladwijzer drukken en de toepassing zo nodig bijwerken of verwijderen.
 
@@ -118,9 +118,17 @@ permission
 
 Als een replicatieagent (die aan Brand Portal enkel fijn) publiceerde ophoudt verwerkend publiceert banen, controleer replicatielogboeken. Experience Manager heeft ingebouwde functie voor het automatisch opnieuw proberen van bestanden. Als de publicatie van een bepaald element mislukt, wordt dit automatisch opnieuw geprobeerd. Als er een probleem is dat soms voorkomt, zoals een netwerkfout, kan dit probleem tijdens het opnieuw proberen optreden.
 
-Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u **[!UICONTROL test connection]** moeten controleren en proberen om de fouten op te lossen die worden gemeld.
+Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u moeten controleren **[!UICONTROL test connection]** en proberen de fouten op te lossen die worden gerapporteerd.
 
 Op basis van de fouten wordt u aangeraden een ondersteuningsticket te registreren, zodat het technische team van Brand Portal u kan helpen problemen op te lossen.
+
+## Brand Portal IMS-configuratietoken verlopen {#token-expired}
+
+Als uw Brand Portal-omgeving abrupt stopt, is het mogelijk dat de IMS-configuraties niet goed werken. Het systeem toont een ongezonde configuratie IMS en wijst op een foutenmelding (gelijkend op het volgende) dat uw toegangstoken is verlopen.
+
+`com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
+
+U kunt dit probleem oplossen door de IMS-configuratie handmatig op te slaan en te sluiten en de status van de status opnieuw te controleren. Als de configuraties niet werken, verwijdert u de bestaande configuraties en maakt u een nieuwe.
 
 
 ## Replicatieagents configureren om een time-outfout voor de verbinding te voorkomen {#connection-timeout}
@@ -130,10 +138,10 @@ Doorgaans mislukt de publicatietaak met een time-outfout als er meerdere aanvrag
 Om de replicatieagenten te vormen:
 
 1. Meld u aan bij de AEM Assets-auteur.
-1. Navigeer in het deelvenster **Gereedschappen** naar **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. Klik op **[!UICONTROL Agents on author]** op de pagina Replicatie. U kunt de vier replicatieagenten van uw huurder van Brand Portal zien.
+1. Van de **Gereedschappen** deelvenster, navigeren naar **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. Klik op de pagina Replicatie op **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten van uw huurder van Brand Portal zien.
 1. Klik de replicatieagent URL en klik **[!UICONTROL Edit]**.
-1. Klik in Agent-instellingen op het tabblad **[!UICONTROL Extended]**.
-1. Schakel het selectievakje **[!UICONTROL Close Connection]** in.
+1. Klik in Agent-instellingen op de knop **[!UICONTROL Extended]** tab.
+1. Selecteer **[!UICONTROL Close Connection]** selectievakje.
 1. Herhaal stap 4 door 7 om alle vier replicatieagenten te vormen.
 1. Start de server opnieuw.
