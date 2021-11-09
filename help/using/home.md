@@ -4,16 +4,16 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal Guide
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: d3076552969eb17264f5f27cbe7527470c01299d
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 2%
 
 ---
 
 # Adobe Experience Manager Assets Brand Portal Guide {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand** Portalaids-organisaties om aan hun marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
+**Adobe Experience Manager Assets Brand Portal** de organisaties van hulp om aan hun marketing behoeften te voldoen door goedgekeurde merk en productactiva aan externe agentschappen, partners, interne teams, en wederverkopers voor download veilig te verdelen.
 
 Het ontbreken van een veilige oplossing voor het delen van bedrijfsmiddelen kan leiden tot:
 
@@ -41,11 +41,12 @@ In deze gebruikershandleiding vindt u inzichten in Brand Portal-aanbiedingen en 
 |--- |---|
 | [Wat is er nieuw](whats-new.md) | Wat veranderde en recentste dienstenaanbod in Brand Portal door vorige versies. |
 | [Releaseopmerkingen](brand-portal-release-notes.md) | Verbeteringen, kritieke problemen zijn opgelost en bekende problemen in de huidige release. |
-| [Experience Manager-elementen configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Hoe kan ik Brand Portal met Experience Manager Assets repliceren om elementen te publiceren. |
-| [Problemen met parallelle publicatie oplossen](troubleshoot-parallel-publishing.md) | Los replicatie tussen Brand Portal en de Middelen van de Experience Manager problemen op. |
+| [Experience Manager Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Hoe kan ik Brand Portal met Experience Manager Assets repliceren om elementen te publiceren. |
+| [Problemen met parallelle publicatie oplossen](troubleshoot-parallel-publishing.md) | Los replicatie tussen Brand Portal en Experience Manager Assets problemen op. |
 | [Ondersteunde bestandsindelingen](brand-portal-supported-formats.md) | Ondersteunde bestandsindelingen in Brand Portal voor voorvertoning en downloaden. |
 | [Middelen publiceren naar Brand Portal](brand-portal-sharing-folders.md) | Mappen, verzamelingen, koppelingen, voorinstellingen, schema, facetten en tags publiceren naar Brand Portal. |
 | [Asset Sourting in Brand Portal](brand-portal-asset-sourcing.md) | Hoe te om Activa te vormen die in AEM Assets, activa in Brand Portal uploaden en bijdrageomslag terug naar AEM Assets publiceren. |
+| [Video over Brand Portal-functies](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Leer hoe u Experience Manager Assets Brand Portal kunt gebruiken met behulp van videozelfstudies. |
 
 ### Nuttige bronnen
 
