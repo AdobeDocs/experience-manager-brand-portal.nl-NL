@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 7128c71576ae938a49f9bff0b95b98b7fc480f69
+source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ Aangezien videocoderingen niet in de gegevensopslagplaats van Brand Portal worde
 Als u met dynamische video&#39;s wilt werken op Brand Portal, moet u:
 
 * **Auteur van Experience Manager starten in de Dynamic Media-modus**
-Start de Experience Manager Author-instantie (waarmee Brand Portal is geconfigureerd) in [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) of in [Dynamic Media - Hybride modus](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) of
+Start de Experience Manager Author-instantie (waarmee Brand Portal is geconfigureerd) in [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) of in [Dynamic Media - Hybride modus](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) of
 * **Dynamic Media-Cloud Services configureren voor auteur van Experience Manager**
-Op basis van de Dynamic Media-modus (Scene7-modus of hybride modus) waarop de Experience Manager-auteur is ingeschakeld, stelt u een van de [Dynamic Media Cloud Services ([!DNL Scene7] modus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) of [Dynamic Media-Cloud Services (hybride modus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) op Experience Manager Auteur van **Gereedschappen** | **Cloud Services** | **Dynamic Media**.
+Op basis van de Dynamic Media-modus (Scene7-modus of hybride modus) waarop de Experience Manager-auteur is ingeschakeld, stelt u een van de [Dynamic Media Cloud Services ([!DNL Scene7] modus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) of [Dynamic Media-Cloud Services (hybride modus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) op Experience Manager Auteur van **Gereedschappen** | **Cloud Services** | **Dynamic Media**.
 * **Dynamic Media configureren op Brand Portal**
-Configureer op basis van de Dynamic Media-cloudconfiguraties op Experience Manager Author [Dynamic Media-instellingen](#configure-dm-hybrid-settings) of [[!DNL Scene7] instellingen](#configure-dm-scene7-settings)  uit Brand Portal-beheertools.
+Configureer op basis van de Dynamic Media-cloudconfiguraties op Experience Manager Author [Dynamic Media-instellingen](#configure-dm-hybrid-settings) of [[!DNL Scene7] instellingen](#configure-dm-scene7-settings) uit Brand Portal-beheertools.
 Controleer of [aparte Brand Portal-huurders](#separate-tenants) worden gebruikt voor instanties van de Auteur van de Experience Manager die in Dynamic Media - worden gevormd **[!UICONTROL Scene7]** en Dynamic Media - hybride modus. Vooral als u functies van Dynamic Media gebruikt **[!UICONTROL S7]** en Dynamic Media Hybrid.
 * **Mappen publiceren waarop videocodering is toegepast op Brand Portal**
 Toepassen [videocoderingen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) en publiceert u de map met rich media-elementen van de Experience Manager Author-instantie naar Brand Portal.
@@ -122,7 +122,7 @@ Als de instantie Auteur van de Experience Manager op dynamische media hybride wi
 
 >[!NOTE]
 >
->De [videocoderingsprofielen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) worden niet gepubliceerd naar Brand Portal, maar worden opgehaald van de **[!UICONTROL Scene7]** server. Zorg er daarom voor dat de configuratiegegevens gelijk zijn aan de [Dynamic Media Cloud Services ([!DNL Scene7] modus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) in uw instantie Auteur van de Experience Manager.
+>De [videocoderingsprofielen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) worden niet gepubliceerd naar Brand Portal, maar worden opgehaald van de **[!UICONTROL Scene7]** server. Zorg er daarom voor dat de configuratiegegevens gelijk zijn aan de [Dynamic Media Cloud Services ([!DNL Scene7] modus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) in uw instantie Auteur van de Experience Manager.
 
 Dynamic Media-configuraties instellen op Brand Portal-huurders:
 
