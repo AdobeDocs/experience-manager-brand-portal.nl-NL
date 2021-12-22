@@ -10,18 +10,18 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 533b2a637700770ff08c88da92892af863265902
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
 # Contribute-map in Experience Manager Assets configureren {#configure-contribution-folder}
 
-Voor gezamenlijke bronnen van middelen kunnen Experience Manager Assets-gebruikers (beheerders en gebruikers zonder beheerdersrechten) nieuwe mappen maken van het type **Bijdrage van middelen**, zodat de nieuwe map die u maakt, kan worden verzonden door Brand Portal-gebruikers.  Dit leidt automatisch tot een werkschema dat tot twee extra subomslagen, genoemd **SHARED** en **NEW**, binnen de pas gecreëerde **Bijdrage** omslag leidt.
+Voor gezamenlijke bronnen van middelen kunnen Experience Manager Assets-gebruikers (beheerders en gebruikers zonder beheerdersrechten) nieuwe mappen van het type maken **Bijdrage activa**, zodat Brand Portal-gebruikers de nieuwe map kunnen verzenden.  Dit activeert automatisch een workflow die twee extra submappen maakt, genaamd **GEDEELD** en **NIEUW**, binnen de nieuwe **Bijdrage** map.
 
-Vervolgens definieert Experience Manager Assets-gebruiker de elementvereisten door een korte beschrijving te uploaden van de typen elementen die moeten worden toegevoegd aan de bijdragemap, plus een set basiselementen, naar de map **SHARED** om ervoor te zorgen dat Brand Portal-gebruikers over de benodigde informatie beschikken. De beheerder kan actieve Brand Portal-gebruikers vervolgens toegang tot de map met bijdragen geven voordat ze de nieuwe Contribute-map publiceren naar Brand Portal.
+Experience Manager Assets-gebruiker definieert vervolgens de elementvereisten door een korte beschrijving te uploaden van de typen elementen die moeten worden toegevoegd aan de map Contribution en een set basiselementen naar de **GEDEELD** om ervoor te zorgen dat Brand Portal-gebruikers beschikken over de informatie die ze nodig hebben. De beheerder kan actieve Brand Portal-gebruikers vervolgens toegang tot de map met bijdragen geven voordat ze de nieuwe Contribute-map publiceren naar Brand Portal.
 
 In de volgende video wordt gedemonstreerd hoe u een Contribute-map in Experience Manager Assets kunt configureren:
 
@@ -56,9 +56,9 @@ U kunt de eigenschappen van de bijdragemap afzonderlijk configureren en de bijdr
 
 1. Ga naar **[!UICONTROL Assets]** > **[!UICONTROL Files]**. Alle bestaande mappen in de Experience Manager Assets-opslagplaats worden weergegeven.
 
-1. Klik **[!UICONTROL Create]** om een nieuwe omslag tot stand te brengen. **[!UICONTROL Create Folder]** wordt geopend.
+1. Klikken **[!UICONTROL Create]** om een nieuwe map te maken. **[!UICONTROL Create Folder]** wordt geopend.
 
-1. Voer **[!UICONTROL Title]** en **[!UICONTROL Name]** van de map in en selecteer het selectievakje **[!UICONTROL Asset Contribution]**.
+1. Enter **[!UICONTROL Title]** en **[!UICONTROL Name]** van de map en selecteer de **[!UICONTROL Asset Contribution]** selectievakje.
 Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naam te geven.
 
 1. Klik op **[!UICONTROL Create]**. U kunt de bijdragemap weergeven in de Experience Manager Assets-opslagplaats.
@@ -70,7 +70,7 @@ Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naa
 
    ![](assets/create-contribution-folder.png)
 
-1. Klik om de bijdragemap te openen. Er worden twee submappen weergegeven.-**[!UICONTROL SHARED]** en **[!UICONTROL NEW]** worden automatisch gemaakt in de bijdragemap.
+1. Klik om de map met bijdragen te openen. U ziet twee submappen-**[!UICONTROL SHARED]** en **[!UICONTROL NEW]** worden automatisch gemaakt in de map met bijdragen.
 
    ![](assets/contribution-folder.png)
 
@@ -79,9 +79,9 @@ Het wordt aanbevolen kleine letters zonder ruimte te gebruiken om de map een naa
 
 De beheerder van Experience Manager Assets voert de volgende activiteiten uit terwijl het vormen van de eigenschappen van een bijdrageomslag.
 
-* **Beschrijving** toevoegen: Geef een beschrijving op hoog niveau van de map met bijdragen.
+* **Beschrijving toevoegen**: Geef een beschrijving op hoog niveau van de map met bijdragen.
 * **Uploadinstructie**: Document voor vereist element uploaden dat informatie over elementen bevat.
-* **Medewerkers** toevoegen: Voeg Brand Portal-gebruikers toe om ze toegang te verlenen tot de map met bijdragen.
+* **Medewerkers toevoegen**: Voeg Brand Portal-gebruikers toe om ze toegang te verlenen tot de map met bijdragen.
 
 Het vereiste van activa verwijst naar de details die door beheerders worden verstrekt om contribuanten (gebruikers van Brand Portal) te helpen de behoefte en de vereisten van de bijdrageomslag begrijpen. De beheerder uploadt een document met middelenvereisten dat een korte beschrijving bevat van het type activa dat aan de bijdrageomslag en activa verwante informatie, bijvoorbeeld, doel, type van beelden, maximumgrootte, enz. zou moeten worden toegevoegd.
 
@@ -89,20 +89,20 @@ Het vereiste van activa verwijst naar de details die door beheerders worden vers
 
 1. Meld u aan bij uw Experience Manager Assets-exemplaar.
 
-1. Navigeer naar **[!UICONTROL Assets > Files]** en zoek de map met de bijdrage.
-1. Selecteer de map met bijdragen en klik op **[!UICONTROL Properties]** om het venster Eigenschappen van map te openen.
+1. Navigeren naar **[!UICONTROL Assets > Files]** en zoek de map met de bijdrage.
+1. Selecteer map voor bijdrage en klik op **[!UICONTROL Properties]** om het venster Eigenschappen van map te openen.
 
    ![](assets/properties.png)
 
    ![](assets/contribution-folder-property1.png)
 
-1. Navigeer naar het tabblad **[!UICONTROL Asset Contribution]**.
-1. Voer op hoog niveau **[!UICONTROL Description]** van de bijdragemap in.
-1. Klik **[!UICONTROL Upload Brief]** om van uw lokale machine te doorbladeren en **Document van de Vereiste van Activa te uploaden**.
+1. Navigeren naar **[!UICONTROL Asset Contribution]** tab.
+1. Ga op hoog niveau in **[!UICONTROL Description]** van de map met Help.
+1. Klikken **[!UICONTROL Upload Brief]** om vanaf uw lokale computer te bladeren en een **Element-document**.
 
    ![](assets/upload.png)
 
-1. Voeg in het veld **[!UICONTROL Add User]** Brand Portal-gebruikers toe met wie u de bijdraamap wilt delen. Deze gebruikers kunnen met de Brand Portal-interface toegang krijgen tot inhoud en deze uploaden naar de map met bijdragen.
+1. In de **[!UICONTROL Add User]** toevoegen, voegt u Brand Portal-gebruikers toe met wie u de map met bijdragen wilt delen. Deze gebruikers kunnen met de Brand Portal-interface toegang krijgen tot inhoud en deze uploaden naar de map met bijdragen.
 1. Klik op **[!UICONTROL Save]**.
 
    ![](assets/contribution-folder-property3.png)
@@ -111,51 +111,33 @@ Het vereiste van activa verwijst naar de details die door beheerders worden vers
 >
 >De zoekresultaten zijn gebaseerd op de Brand Portal-gebruikerslijst die in Experience Manager Assets is geconfigureerd. Controleer of u de bijgewerkte gebruikerslijst van Brand Portal hebt.
 
-De beheerders kunnen het `user.csv` dossier van [!DNL Admin Console] downloaden en het gebruiken als basismalplaatje voor het toevoegen van de gebruikers van Brand Portal. Ga naar [!UICONTROL Users] en klik op [!UICONTROL Export users list to csv] optie om het `users.csv` dossier te downloaden. De volgende voorbeeldgebruikers geven een overzicht van de kenmerken die vereist zijn voor het toevoegen van de gebruikers. Het enige verplichte kenmerk voor een gebruikersinvoer is `Email` en alle andere kenmerken zijn optioneel.
+De beheerders kunnen de `user.csv` bestand van [!DNL Admin Console] en gebruik dit als de basissjabloon voor het toevoegen van Brand Portal-gebruikers. Ga naar [!UICONTROL Users] en klik op de knop [!UICONTROL Export users list to csv] om de `users.csv` bestand. De volgende voorbeeldgebruikers geven een overzicht van de kenmerken die vereist zijn voor het toevoegen van de gebruikers. De enige verplichte eigenschap voor een gebruikervermelding is de `Email` en alle andere kenmerken zijn optioneel.
 
 [Bestand ophalen](assets/users.csv)
 
 ## Elementen uploaden naar de bijdragemap {#uplad-new-assets-to-contribution-folder}
 
-De Brand Portal-gebruikers kunnen de vereisten voor middelen downloaden om te begrijpen of een bijdrage nodig is.
-Vervolgens kunnen ze nieuwe middelen maken voor de bijdrage en deze uploaden naar de map NEW in de map met de bijdrage.
+Experience Manager Assets-gebruiker uploadt een set basislijnelementen naar de **GEDEELD** om ervoor te zorgen dat Brand Portal-gebruikers beschikken over de informatie die ze nodig hebben.
 
->[!NOTE]
->
->De Brand Portal-gebruikers kunnen alleen elementen uploaden naar de map NEW.
->
->De maximale uploadlimiet voor elke Brand Portal-huurder is **10** GB, die cumulatief wordt toegepast op alle mappen voor de bijdrage.
+**Basiselementen uploaden:**
 
+1. Meld u aan bij uw Experience Manager Assets-exemplaar.
 
-Na publicatie van de zojuist gemaakte middelen naar Experience Manager Assets kunnen de Brand Portal-gebruikers deze verwijderen uit de map NEW. De Brand Portal-beheerder kan de elementen echter verwijderen uit zowel de map NEW als de map SHARED.
+1. Navigeren naar **[!UICONTROL Assets > Files]** en zoek de map met de bijdrage.
 
-Zodra het doel om de bijdrageomslag tot stand te brengen wordt bereikt, kan de beheerder van Brand Portal de bijdrageomslag schrappen om uploadruimte voor andere gebruikers vrij te geven.
+1. Selecteer de map met de bijdrage en klik om deze te openen.
 
->[!NOTE]
->
->U wordt aangeraden de uploadruimte vrij te geven nadat u de map met bijdragen naar Experience Manager Assets hebt gepubliceerd, zodat deze beschikbaar is voor de andere Brand Portal-gebruikers voor een bijdrage.
->
->Als het nodig is om de uploadlimiet van uw Brand Portal-huurder te verhogen tot meer dan **10** GB, neemt u contact op met de Klantenondersteuning om de vereiste op te geven.
-
-
-**Nieuwe elementen uploaden:**
-
-1. Meld u aan bij uw Brand Portal-exemplaar.
-Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand Portal-gebruiker zijn toegestaan, samen met de nieuw gedeelde bijdragemap.
-
-1. Selecteer de map met de bijdrage en klik om deze te openen. De map voor bijdragen bevat twee submappen: **[!UICONTROL SHARED]** en **[!UICONTROL NEW]**.
-
-1. Klik op de **[!UICONTROL NEW]** omslag.
+1. Klik op de knop **[!UICONTROL NEW]** map.
 
    ![](assets/upload-new-assets1.png)
 
-1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]** om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
+1. Klikken **[!UICONTROL Create]** > **[!UICONTROL Files]** om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
 
    ![](assets/upload-new-assets2.png)
 
-1. Blader naar elementen (bestanden of mappen) en upload deze naar de map **[!UICONTROL NEW]**.
+1. Blader naar elementen (bestanden of mappen) en upload deze naar de **[!UICONTROL NEW]** map.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-asset4.png)
 
 Nadat u alle elementen of mappen naar de map NEW hebt geüpload, publiceert u de map met bijdragen naar Experience Manager Assets.
 
@@ -169,11 +151,11 @@ Als de map met bijdragen is geconfigureerd, kan Experience Manager Assets-gebrui
 
 1. Meld u aan bij uw Experience Manager Assets-exemplaar.
 
-1. Navigeer naar **[!UICONTROL Assets > Files]** en zoek de map met bijdragen waarin u wilt publiceren naar Brand Portal.
-1. Selecteer de map met bijdragen en klik op **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish to Brand Portal]**.
+1. Navigeren naar **[!UICONTROL Assets > Files]** en zoek de map met de bijdrage waarin u wilt publiceren naar Brand Portal.
+1. Selecteer map voor bijdrage en klik op **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish to Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    U ontvangt een succesbericht zodra de map met bijdragen naar Brand Portal is gepubliceerd.
 
-Er wordt een e-mail-/pulsmelding verzonden naar de Brand Portal-gebruikers die zijn toegewezen aan de bijdragemap. De Brand Portal-gebruikers hebben toegang tot de map met bijdragen en kunnen hun bijdrage starten. Zie [Elementen uploaden naar de bijdragemap en publiceren naar Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Er wordt een e-mail-/pulsmelding verzonden naar de Brand Portal-gebruikers die zijn toegewezen aan de bijdragemap. De Brand Portal-gebruikers hebben toegang tot de map met bijdragen en kunnen hun bijdrage starten. Zie, [Elementen uploaden naar de map met bijdragen en publiceren naar Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
