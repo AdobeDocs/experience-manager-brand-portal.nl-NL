@@ -1,8 +1,8 @@
 ---
 title: Release-opmerkingen
 seo-title: Release Notes
-description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2021.10.0-release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Lees meer over de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2022.02.0-release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '535'
+ht-degree: 3%
 
 ---
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2021.10.0-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2022.02.0-release.
 
 ## Geen informatie {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2021 10,0 |
-| Date | Oktober 2021 |
+| Versie | 2022,02,0 |
+| Date | februari 2022 |
 
 ## Overzicht {#overview}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
 
-## Nieuwe functies in 2021.10.0 {#whats-new-in-2021.10.0}
+## Nieuwe functies in 2022.02.0 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
-* De elementen van een bijdragemap die even groot zijn, worden niet van Brand Portal naar Experience Manager Assets gepubliceerd.
-* Wanneer een map met middelenbijdragen niet is gepubliceerd, wordt de grootte van de bijdragemap niet verkleind.
-* Gebruikers kunnen het toegepaste schema voor metagegevens niet uit een map verwijderen.
-* Het aantal groepen op de pagina met gebruikersmachtigingen is onjuist.
-* De pagina Verzamelingen duurt te lang wanneer u door de lijst navigeert.
+* De gebruikers kunnen niet naar mappen zoeken, navigeren of deze openen. De gebruikersinterface geeft het foutbericht weer: `Failed to load data`.
+* De **[!UICONTROL Renditions]** bevat niet alle statische uitvoeringen van de elementen die naar Brand Portal zijn gepubliceerd.
+* De **[!UICONTROL Renditions]** worden de slimme uitsnijduitvoeringen van het element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet voorvertonen of downloaden.
+* In het dialoogvenster Downloaden worden de slimme uitsnijduitvoeringen van het geselecteerde element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet downloaden.
+* Een gebruiker die geen beheerder is, krijgt alleen de oorspronkelijke uitvoering van het element wanneer een element wordt gedownload. Het systeem en de aangepaste uitvoeringen worden niet gedownload.
+* Wanneer u een zoekfilter toepast om een element te downloaden, wordt de knop `Download` is uitgeschakeld in het dialoogvenster Downloaden en de gebruiker kan het element niet downloaden.
+* Indien `Smart Tags` en (of) `Color Tags` zijn ingeschakeld, wordt in het dialoogvenster Downloaden de lijst `json` bestanden als vertoningen en downloadt deze `json` bestanden in de gearchiveerde ZIP-map.
+* De anonieme gebruikers kunnen geen elementen downloaden via een gedeelde koppeling omdat de koppeling wordt omgeleid naar de Brand Portal-aanmeldingspagina.
+* Het systeem geeft niet de juiste waarde weer voor het aantal actieve gelijktijdige gebruikers.
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ Deze release bevat de volgende bekende problemen:
    De actieve gebruikers die zijn aangemeld bij Brand Portal, kunnen echter blijven werken tot hun huidige sessie verloopt.
 
 * Bij het navigeren van Brand Portal naar Admin Console zien de beheerders mogelijk een extra scherm om de organisatie te selecteren.
+
+* Indien `Color Tags` worden ingeschakeld en de gebruiker downloadt een map of verzameling, plus `xml` bestand wordt gedownload voor elk middel van de map (of verzameling) in de gearchiveerde ZIP-map.
 
 
 <!--
@@ -204,7 +211,7 @@ De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 
 ## Gecertificeerde Platforms {#certified-platforms}
 
-Als u wilt controleren welke platforms zijn gecertificeerd voor uitvoering met deze versie van Brand Portal, raadpleegt u de kolom **Ondersteuning voor voor voor touch geoptimaliseerde interface** in de tabel in de sectie **Ondersteunde browsers voor ontwerpgebruikersinterface** van [Technische vereisten](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Als u wilt weten welke platforms zijn gecertificeerd voor deze release van Brand Portal, raadpleegt u de **Ondersteuning voor interface met aanraakfuncties** in de tabel in de **Ondersteunde browsers voor gebruikersinterface voor ontwerpen** deel van [Technische vereisten](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Koppelingen {#links}
 

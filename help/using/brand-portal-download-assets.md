@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,7 @@ Brand Portal-gebruikers kunnen vanuit de Brand Portal-interface meerdere element
 >Neem contact op met de Brand Portal-beheerder als u geen toestemming hebt om de elementuitvoeringen te openen of te downloaden.
 
 Als de gebruiker toegang heeft tot uitvoeringen, wordt de gebruiker voorzien van de verbeterde **[!UICONTROL Download]** met de volgende mogelijkheden:
+
 * Alle beschikbare uitvoeringen van elementen in de downloadlijst weergeven.
 * Sluit uitvoeringen van de elementen uit die niet vereist zijn voor downloaden.
 * Pas met één klik dezelfde set uitvoeringen toe op alle vergelijkbare elementtypen.
@@ -186,17 +187,19 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** Alleen) Het volgende bekende probleem wordt in de volgende release opgelost:
-   >
-   >In het dialoogvenster Downloaden worden de slimme uitsnijduitvoeringen van het geselecteerde element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet downloaden.
-
 1. Standaard worden de **[!UICONTROL Fast Download]** instelling is ingeschakeld in het dialoogvenster **[!UICONTROL Download Settings]**. Daarom wordt een bevestigingsvenster weergegeven waarin versnelde download met IBM Aspera Connect is toegestaan.
 
    Als u wilt doorgaan met gebruiken **[!UICONTROL Fast Download]**, klikt u op **[!UICONTROL Allow]**. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met behulp van IBM Aspera Connect.
 
    Als u IBM Aspera Connect niet wilt gebruiken, klikt u op **[!UICONTROL Deny]**. Indien **[!UICONTROL Fast Download]** wordt ontkend of ontbreekt, vult het systeem een Bericht van de Fout. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van de elementen.
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ Hier volgen de stappen voor het downloaden van elementuitvoeringen van de pagina
 
    ![renditions-panel](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** Alleen) De volgende bekende problemen worden in de volgende release opgelost:
-   >
-   >De **[!UICONTROL Renditions]** bevat niet alle statische vertoningen van de elementen die na 16 december 2021 naar Brand Portal worden gepubliceerd.
-   >
-   >De **[!UICONTROL Renditions]** worden de slimme uitsnijduitvoeringen van het element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet voorvertonen of downloaden.
 
 1. Standaard worden de **[!UICONTROL Fast Download]** instelling is ingeschakeld in het dialoogvenster **[!UICONTROL Download Settings]**. Daarom wordt een bevestigingsvenster weergegeven waarin versnelde download met IBM Aspera Connect is toegestaan.
 
    Als u wilt doorgaan met gebruiken **[!UICONTROL Fast Download]**, klikt u op **[!UICONTROL Allow]**. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met behulp van IBM Aspera Connect.
 
    Als u het gebruik ontkent **[!UICONTROL Fast Download]**, vult het systeem een foutbericht in. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van de elementen.
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
