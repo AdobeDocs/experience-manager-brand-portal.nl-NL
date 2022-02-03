@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 63b7bdd34ff185a96ea69560d2b94c2dc04129de
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 3%
@@ -90,7 +90,7 @@ Zo downloadt u elementen sneller van Brand Portal:
 
    Als u de Brand Portal-maphiërarchie wilt behouden terwijl u elementen downloadt, selecteert u de optie **[!UICONTROL Create separate folder for each asset]** selectievakje.
 
-   De downloadknop geeft het aantal geselecteerde items weer. Als u klaar bent met het toepassen van de regels, klikt u op **[!UICONTROL Download items]**. Ga voor meer informatie over het toepassen van regels naar [downloadmiddelen](../using/download-assets.md#download-assets).
+   De downloadknop geeft het aantal geselecteerde items weer. Als u klaar bent met het toepassen van de regels, klikt u op **[!UICONTROL Download items]**. Ga voor meer informatie over het toepassen van regels naar [downloadmiddelen](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 

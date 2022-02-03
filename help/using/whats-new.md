@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '6234'
 ht-degree: 0%
@@ -184,14 +184,14 @@ Brand Portal 2020.10.0 is een verbeteringsrelease die zich richt op het vereenvo
 
 Eerder, **[!UICONTROL Download]** Er is een dialoogvenster weergegeven met meerdere opties, zoals het maken van een aparte map voor elk element, het e-mailmiddel, het selecteren van het oorspronkelijke element, aangepaste uitvoeringen, dynamische uitvoeringen, het uitsluiten van systeemuitvoeringen en het inschakelen van downloadversnelling, die ambigu waren voor niet-technische of nieuwe gebruikers, met name wanneer er meerdere middelen of mappen waren geselecteerd om te worden gedownload. Bovendien kon de gebruiker niet alle elementuitvoeringen zien of een specifieke aangepaste of dynamische uitvoering uitsluiten.
 
-De nieuwe **[!UICONTROL Download]** wordt het proces van selectie en filtratie van elementen veralgemeend, waardoor het voor Brand Portal-gebruikers gemakkelijker wordt om effectieve beslissingen te nemen tijdens het downloaden van de rendities van elementen. Alle geselecteerde elementen en de bijbehorende uitvoeringen worden weergegeven, afhankelijk van de opties [**[!UICONTROL Download]**](download-assets.md) configuratie en **[!UICONTROL Download]** instellingen.
+De nieuwe **[!UICONTROL Download]** wordt het proces van selectie en filtratie van elementen veralgemeend, waardoor het voor Brand Portal-gebruikers gemakkelijker wordt om effectieve beslissingen te nemen tijdens het downloaden van de rendities van elementen. Alle geselecteerde elementen en de bijbehorende uitvoeringen worden weergegeven, afhankelijk van de opties [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuratie en **[!UICONTROL Download]** instellingen.
 
 >[!NOTE]
 >
 >Alle gebruikers hebben nu **[!UICONTROL Fast Download]** standaard ingeschakeld en vereist IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) geïnstalleerd in de extensie van hun browser voordat de middelen van Brand Portal worden gedownload.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 Van de **[!UICONTROL Download]** kunnen de gebruikers:
@@ -224,7 +224,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0 kunnen gebruikers specifieke uitvoeringen uitsluiten en rechtstreeks [de geselecteerde uitvoeringen downloaden vanuit het deelvenster Uitvoeringen](download-assets.md#download-assets-from-asset-details-page) op de pagina met elementdetails zonder dat u de **[!UICONTROL Download]** .
+In Brand Portal 2020.10.0 kunnen gebruikers specifieke uitvoeringen uitsluiten en rechtstreeks [de geselecteerde uitvoeringen downloaden vanuit het deelvenster Uitvoeringen](brand-portal-download-assets.md#download-assets-from-asset-details-page) op de pagina met elementdetails zonder dat u de **[!UICONTROL Download]** .
 
 
 <!-- 
@@ -294,7 +294,7 @@ Met Documentviewer hebben de Brand Portal-gebruikers nu de opties om pagina&#39;
 
 ### Downloadervaring {#download-configurations}
 
-Het proces voor het downloaden van bedrijfsmiddelen is vernieuwd, zodat gebruikers er eenvoudiger mee kunnen werken terwijl [bestanden downloaden van Brand Portal](download-assets.md).
+Het proces voor het downloaden van bedrijfsmiddelen is vernieuwd, zodat gebruikers er eenvoudiger mee kunnen werken terwijl [bestanden downloaden van Brand Portal](brand-portal-download-assets.md).
 
 De bestaande workflow voor het downloaden van middelen van Brand Portal wordt onvermijdelijk gevolgd door het verschijnen van een  **[!UICONTROL Download]** met meerdere downloadopties waaruit u kunt kiezen.
 
