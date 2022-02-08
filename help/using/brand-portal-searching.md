@@ -10,22 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1090'
 ht-degree: 4%
 
 ---
 
 # Middelen zoeken op Brand Portal {#search-assets-on-brand-portal}
 
-Met de zoekfunctie van Brand Portal kunt u snel relevante middelen zoeken aan de hand van alzoekopdrachten en zoeken naar facetten die filters gebruiken om uw zoekopdracht verder te beperken. U kunt uw zoekopdrachten ook opslaan als slimme verzamelingen voor de toekomst.
+Met de zoekfunctie van Brand Portal kunt u snel relevante middelen zoeken aan de hand van alzoekopdrachten en zoeken naar facetten die filters gebruiken om uw zoekopdracht verder te beperken. U kunt middelen op dossiers of omslagniveau zoeken en uw onderzoeksresultaten opslaan als slimme inzamelingen. U kunt echter niet zoeken in elementen van een verzameling met behulp van zoeken op basis van zoeken.
 
 ## Middelen zoeken met Omgaan {#search-assets-using-omnisearch}
 
 Op Brand Portal zoeken naar elementen:
 
-1. Klik op het pictogram **[!UICONTROL Search]** op de werkbalk of druk op de toets &quot;**[!UICONTROL /]**&quot; om het venster te openen.
+1. Klik in de werkbalk op de knop **[!UICONTROL Search]** of druk op &quot;**[!UICONTROL /]**&quot;.
 
    ![](assets/omnisearchicon-1.png)
 
@@ -43,7 +43,7 @@ Op Brand Portal zoeken naar elementen:
 
    *Zoeken van middelen met alzoekfunctie*
 
-Zie [Zoekresultaten en gedrag begrijpen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html) voor informatie over het zoekgedrag met slimme gecodeerde elementen.
+Zie voor meer informatie over het zoekgedrag met slimme gecodeerde elementen [zoekresultaten en gedrag begrijpen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
 ## Zoeken met facetten in het deelvenster Filters {#search-using-facets-in-filters-panel}
 
@@ -51,26 +51,26 @@ Met zoekfacetten in het deelvenster Filters kunt u de zoekervaring korter maken 
 
 Als u bijvoorbeeld een afbeelding zoekt, kunt u kiezen of u een bitmap- of een vectorafbeelding wilt. U kunt het zoekbereik verder beperken door het MIME-type voor de afbeelding op te geven in de zoekfacet Bestandstype. Op dezelfde manier kunt u bij het zoeken naar documenten de indeling opgeven, bijvoorbeeld de indeling PDF of MS Word.
 
-![Deelvenster Filters in het deelvenster Brand ](assets/file-type-search.png "PortalFilters in Brand Portal")
+![Deelvenster Filters in Brand Portal](assets/file-type-search.png "Deelvenster Filters in Brand Portal")
 
-Het **[!UICONTROL Filters]** paneel omvat een paar standaardfacetten, zoals- **[!UICONTROL Path Browser]**, **[!UICONTROL File Type]**, **[!UICONTROL File Size]**, **[!UICONTROL Status]**, en **[!UICONTROL Orientation]**. U kunt echter [aangepaste zoekfacetten toevoegen](../using/brand-portal-search-facets.md) of specifieke zoekfacetten verwijderen uit het venster **[!UICONTROL Filters]** door voorspelden toe te voegen aan of te verwijderen uit het onderliggende zoekformulier. Zie de lijst van beschikbare en bruikbare [onderzoeksvoorspellingen op Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+De **[!UICONTROL Filters]** bevat enkele standaardfacetten, zoals **[!UICONTROL Path Browser]**, **[!UICONTROL File Type]**, **[!UICONTROL File Size]**, **[!UICONTROL Status]**, en **[!UICONTROL Orientation]**. U kunt echter [aangepaste zoekfacetten toevoegen](../using/brand-portal-search-facets.md) of specifieke zoekfacetten verwijderen uit de **[!UICONTROL Filters]** door voorspelden toe te voegen aan of te verwijderen uit het onderliggende zoekformulier. Zie de lijst met beschikbare en bruikbare [zoekresultaten op Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-Als u filters wilt toepassen op uw zoekopdracht, gebruikt u de beschikbare [zoekfacetten](../using/brand-portal-search-facets.md):
+Filters toepassen op uw zoekopdracht met de beschikbare [zoekfacetten](../using/brand-portal-search-facets.md):
 
 1. Klik op het bedekkingspictogram en selecteer **[!UICONTROL Filter]**.
 
    ![](assets/selectorrail.png)
 
-1. Selecteer in het deelvenster **[!UICONTROL Filters]** aan de linkerkant de juiste opties om de relevante filters toe te passen.
+1. Van de **[!UICONTROL Filters]** Selecteer de gewenste opties om de relevante filters toe te passen.
 Gebruik bijvoorbeeld de volgende standaardfilters:
 
-   * **[!UICONTROL Path Browser]** om elementen in een specifieke map te zoeken. Het standaardonderzoekspad van predikaat voor Browser van de Weg is `/content/dam/mac/<tenant-id>/`, die kan worden gevormd door de standaardonderzoeksvorm uit te geven.
+   * **[!UICONTROL Path Browser]** om elementen in een specifieke map te zoeken. Het standaardzoekpad van de voorspelling voor de padbrowser is `/content/dam/mac/<tenant-id>/`, die kan worden geconfigureerd door het standaardzoekformulier te bewerken.
    >[!NOTE]
    >
-   >Voor gebruikers die geen beheerder zijn, geeft [!UICONTROL Path Browser] in [!UICONTROL Filter] alleen de inhoudsstructuur weer van de mappen (en hun bovenliggende mappen) die met hen worden gedeeld.\
+   >Voor gebruikers die geen beheerder zijn, [!UICONTROL Path Browser] in [!UICONTROL Filter] toont alleen de inhoudsstructuur van de mappen (en hun bovenliggende mappen) die met hen worden gedeeld.\
    >Als u gebruikers wilt beheren, kunt u in de padbrowser naar een willekeurige map in Brand Portal navigeren.
 
-   * **[!UICONTROL File Type]** om het type elementbestand op te geven (afbeelding, document, multimedia, archief) dat u zoekt. Verder kunt u het bereik van uw zoekopdracht beperken door bijvoorbeeld het MIME-type (TIFF, Bitmap, GIMP-afbeeldingen) voor de afbeelding of indeling (PDF of MS Word) voor de documenten op te geven.
+   * **[!UICONTROL File Type]** om het type elementbestand op te geven (afbeelding, document, multimedia, archief) dat u zoekt. Verder kunt u het bereik van uw zoekopdracht beperken door bijvoorbeeld het MIME-type (TIFF, Bitmap, GIMP-afbeeldingen) voor de afbeelding of de indeling (PDF of MS Word) voor de documenten op te geven.
    * **[!UICONTROL File Size]** om te zoeken naar elementen op basis van hun grootte. U kunt de onder- en bovengrenzen voor het groottebereik opgeven om de zoekopdracht te beperken en de maateenheid voor de zoekactie opgeven.
    * **[!UICONTROL Status]** om te zoeken naar elementen die zijn gebaseerd op de status van elementen, zoals Goedgekeurd, Wijzigingen aangevraagd, Geweigerd, In behandeling) en Verlopen.
    * **[!UICONTROL Average Rating]** het zoeken naar activa op basis van de rating van de activa.
@@ -78,28 +78,28 @@ Gebruik bijvoorbeeld de volgende standaardfilters:
    * **[!UICONTROL Style]** om te zoeken naar elementen op basis van de stijl (gekleurd, monochroom) van de elementen.
    * **[!UICONTROL Video Format]** naar video-elementen zoeken op basis van hun indeling (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
-   U kunt [aangepaste zoekfacetten](../using/brand-portal-search-facets.md) in het deelvenster Filters gebruiken door het onderliggende zoekformulier te bewerken.
+   U kunt [aangepaste zoekfacetten](../using/brand-portal-search-facets.md) in het deelvenster Filters door het onderliggende zoekformulier te bewerken.
 
    * **[!UICONTROL Property Predicate]** als u deze functie gebruikt in het zoekformulier, kunt u zoeken naar elementen die overeenkomen met een eigenschap metadata waaraan de voorspelling wordt toegewezen.\
-      Als Eigenschapsvoorspelling bijvoorbeeld wordt toegewezen aan [!UICONTROL `jcr:content /metadata/dc:title`], kunt u zoeken naar elementen op basis van hun titel.\
-      De [!UICONTROL Property Predicate] ondersteunt tekstzoekopdrachten naar:
+      Als u bijvoorbeeld Eigenschapvoorspelling wilt toewijzen aan [!UICONTROL `jcr:content /metadata/dc:title`], kunt u elementen zoeken op basis van hun titel.\
+      De [!UICONTROL Property Predicate] ondersteunt zoekopdrachten naar tekst:
 
-      **Gedeeltelijke**
-zinnenSchakel het  **[!UICONTROL Partial Search]** selectievakje Zoekformulier in om het zoeken naar elementen toe te staan met gebruik van gedeeltelijke woordgroepen in voorspelling van eigenschappen.\
+      **Gedeeltelijke zinnen**
+Als u het zoeken van elementen wilt toestaan met gebruik van gedeeltelijke woordgroepen in voorspelling van eigenschappen, schakelt u de optie **[!UICONTROL Partial Search]** Schakel het selectievakje Formulier zoeken in.\
       Op deze manier kunt u naar de gewenste assets zoeken, zelfs als u niet de exacte woorden/woordgroepen opgeeft die in de metadata van de assets worden gebruikt.\
       U kunt:
-      * Geef een woord op dat in de gezochte woordgroep voorkomt in het facet in het deelvenster Filters. Als u bijvoorbeeld zoekt naar de term **klimt** (en Eigenschappenvoorspelling wordt toegewezen aan [!UICONTROL `dc:title`] eigenschap), worden alle elementen met het woord **klimt** in hun titelwoordgroep geretourneerd.
+      * Geef een woord op dat in de gezochte woordgroep voorkomt in het facet in het deelvenster Filters. Als u bijvoorbeeld zoekt naar de term **klimmen** (en Eigenschappenvoorspelling wordt toegewezen aan [!UICONTROL `dc:title`] eigenschap), dan alle elementen met het woord **klimmen** in hun titel worden de woorden teruggegeven.
       * Een deel van het woord opgeven dat in de gezochte woordgroep voorkomt, samen met een jokerteken (*) om de tussenruimten te vullen.
 Bijvoorbeeld bij het zoeken naar:
-         * **klimmen*** retourneert alle elementen met woorden die beginnen met de tekens &quot;klimmen&quot; in hun titelzin.
-         * ***** beklimt alle elementen met woorden die eindigen met tekens &quot;klimmen&quot; in hun titelzin.
-         * ***klib*** retourneert alle elementen met woorden bestaande uit de tekens &quot;klimmen&quot; in hun titelzin.
+         * **klimmen*** retourneert alle elementen met woorden die beginnen met de tekens &quot;klimmen&quot; in de titelzin.
+         * ***klimmen** retourneert alle elementen met woorden die eindigen met tekens &quot;klimmen&quot; in de titelzin.
+         * ***klimmen*** retourneert alle elementen met woorden die de tekens &quot;klimmen&quot; in hun titelzin bevatten.
 
-Als u niet-hoofdlettergevoelig zoeken in voorspelling van eigenschappen wilt toestaan, schakelt u het       **Niet-hoofdlettergevoelige**
-tekstSchakel het  **[!UICONTROL Ignore Case]** selectievakje in Zoekformulier in om niet-hoofdlettergevoelige zoekopdrachten in de voorspelling van eigenschappen toe te staan. Standaard is bij het zoeken naar eigenschappen hoofdlettergevoelig.
+Als u niet-hoofdlettergevoelig zoeken in voorspelling van eigenschappen wilt toestaan, schakelt u het       **Niet-hoofdlettergevoelige tekst**
+Als u niet-hoofdlettergevoelig zoeken in voorspelling van eigenschappen wilt toestaan, schakelt u het **[!UICONTROL Ignore Case]** Schakel het selectievakje Formulier zoeken in. Standaard is bij het zoeken naar eigenschappen hoofdlettergevoelig.
    >[!NOTE]
    >
-   >Als u **[!UICONTROL Partial Search]** inschakelt, is **[!UICONTROL Ignore Case]** standaard geselecteerd.
+   >Bij selecteren **[!UICONTROL Partial Search]** selectievakje, **[!UICONTROL Ignore Case]** is standaard geselecteerd.
 
    ![](assets/wildcard-prop-1.png)
 
@@ -113,24 +113,24 @@ tekstSchakel het  **[!UICONTROL Ignore Case]** selectievakje in Zoekformulier in
 
 ## Uw zoekopdrachten opslaan als slimme verzameling {#save-your-searches-as-smart-collection}
 
-U kunt de zoekinstellingen opslaan als een slimme verzameling zodat u dezelfde zoekopdracht snel kunt herhalen zonder dat u later dezelfde instellingen opnieuw hoeft uit te voeren.
+U kunt de zoekinstellingen opslaan als een slimme verzameling zodat u dezelfde zoekopdracht snel kunt herhalen zonder dat u later dezelfde instellingen opnieuw hoeft uit te voeren. U kunt echter geen zoekfilters toepassen in een verzameling.
 
 De zoekinstellingen opslaan als een slimme verzameling:
 
-1. Tik/ klik op **[!UICONTROL Save Smart Collection]** en geef een naam op voor de slimme verzameling.
+1. Tikken/ klikken **[!UICONTROL Save Smart Collection]** en geef een naam op voor de slimme verzameling.
 
-   Als u de slimme verzameling toegankelijk wilt maken voor alle gebruikers, selecteert u **[!UICONTROL Public]**. Een bericht bevestigt dat de slimme verzameling is gemaakt en toegevoegd aan de lijst met opgeslagen zoekopdrachten.
+   Selecteer **[!UICONTROL Public]**. Een bericht bevestigt dat de slimme verzameling is gemaakt en toegevoegd aan de lijst met opgeslagen zoekopdrachten.
 
    >[!NOTE]
    >
-   >Niet-beheerders kunnen worden beperkt in het openbaar maken van slimme verzamelingen om te voorkomen dat een enorm aantal openbare slimme verzamelingen wordt gemaakt door gebruikers die geen beheerder zijn, op de Brand Portal van de organisatie. Organisaties kunnen de **[!UICONTROL Allow public smart collections creation]**-configuratie uitschakelen via de **[!UICONTROL General]**-instellingen die beschikbaar zijn in het deelvenster met beheergereedschappen.
+   >Niet-beheerders kunnen worden beperkt in het openbaar maken van slimme verzamelingen om te voorkomen dat een enorm aantal openbare slimme verzamelingen wordt gemaakt door gebruikers die geen beheerder zijn, op de Brand Portal van de organisatie. Organisaties kunnen de **[!UICONTROL Allow public smart collections creation]** configuratie van **[!UICONTROL General]** instellingen beschikbaar in het deelvenster met beheergereedschappen.
 
    ![](assets/save_smartcollectionui.png)
 
-1. Als u de slimme verzameling onder een andere naam wilt opslaan en het selectievakje **[!UICONTROL Public]** wilt in- of uitschakelen, klikt u op **[!UICONTROL Edit Smart Collection]**.
+1. Als u de slimme verzameling onder een andere naam wilt opslaan, selecteert of wist u de naam **[!UICONTROL Public]** selectievakje, klikken **[!UICONTROL Edit Smart Collection]**.
 
    ![](assets/edit_smartcollection.png)
 
-1. Selecteer **[!UICONTROL Edit Smart Collection]** in het dialoogvenster en voer een naam in voor de slimme verzameling. **[!UICONTROL Save As]** Klik op **[!UICONTROL Save]**.
+1. Op de **[!UICONTROL Edit Smart Collection]** dialoogvenster selecteert u **[!UICONTROL Save As]** en voer een naam in voor de slimme verzameling. Klik op **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)
