@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
 
 # Middelen zoeken op Brand Portal {#search-assets-on-brand-portal}
 
-Met de zoekfunctie van Brand Portal kunt u snel relevante middelen zoeken aan de hand van alzoekopdrachten en zoeken naar facetten die filters gebruiken om uw zoekopdracht verder te beperken. U kunt middelen op dossiers of omslagniveau zoeken en uw onderzoeksresultaten opslaan als slimme inzamelingen. U kunt echter niet zoeken in elementen van een verzameling met behulp van zoeken op basis van zoeken.
+Met de zoekfunctie van Brand Portal kunt u snel relevante middelen zoeken aan de hand van alzoekopdrachten en zoeken naar facetten die filters gebruiken om uw zoekopdracht verder te beperken. U kunt middelen op dossiers of omslagniveau zoeken en uw onderzoeksresultaten opslaan als slimme inzamelingen.
+
+>[!NOTE]
+>
+>Brand Portal biedt geen ondersteuning voor het zoeken naar verzamelingen met alzoekopdrachten.
+>
+>U kunt echter [zoekfilters om de lijst met relevante verzamelingen op te halen](#search-collection).
 
 ## Middelen zoeken met Omgaan {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ De zoekinstellingen opslaan als een slimme verzameling:
 1. Op de **[!UICONTROL Edit Smart Collection]** dialoogvenster selecteert u **[!UICONTROL Save As]** en voer een naam in voor de slimme verzameling. Klik op **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Zoekverzameling {#search-collection}
+
+Omnissearch wordt niet ondersteund voor verzamelingen. U kunt echter wel zoekfilters toepassen om de relevante verzamelingen weer te geven vanuit de [!UICONTROL Collections] interface.
+
+Van de [!UICONTROL Collections] klikt u op het bedekkingspictogram om het filterdeelvenster in de linkerspoorstaaf te openen. Enkele of meerdere zoekfilters toepassen op basis van de beschikbare filters (`modified date`, `access type`, en `tags`). De meest relevante verzameling verzamelingen wordt weergegeven op basis van de toegepaste filters.
+
+![](assets/collection-search.png)
