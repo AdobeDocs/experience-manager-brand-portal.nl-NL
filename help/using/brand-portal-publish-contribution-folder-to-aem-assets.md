@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Nadat de gebruikers van Brand Portal de elementvereisten hebben doorlopen, kunne
 
 >[!NOTE]
 >
->De Brand Portal-gebruikers kunnen alleen elementen uploaden naar de map NEW.
+>De Brand Portal-gebruikers kunnen elementen uploaden (maximaal **2**(GB per bestandsgrootte) naar de map NEW.
 >
 >De maximale uploadlimiet voor Brand Portal-gebruikers is **10** GB dat cumulatief wordt toegepast op alle bijdragemappen.
 >
