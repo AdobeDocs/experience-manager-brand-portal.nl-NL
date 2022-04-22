@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1471'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u func
 
 Experience Manager Assets as a Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de as a Cloud Service Experience Manager Assets-instantie.
 
-Terwijl Experience Manager Assets (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor toestemming van de huurder van Brand Portal koopt.
+Terwijl Experience Manager Assets (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van Adobe Developer wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor vergunning van de huurder van Brand Portal aanschaft.
 
 Zie voor meer informatie [Experience Manager Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -113,7 +113,11 @@ Naast de taken die een Viewer kan uitvoeren, kan een Editor de volgende extra ta
 
 Een beheerder bevat een gebruiker die is gemarkeerd als systeembeheerder of Brand Portal-productbeheerder in [!UICONTROL Admin Console]. Een beheerder kan systeembeheerders en gebruikers toevoegen en verwijderen, voorinstellingen definiëren, e-mail verzenden naar gebruikers en portaalgebruik en opslagrapporten weergeven.
 
-Een beheerder kan alle taken uitvoeren die een Redacteur de volgende extra taken kan uitvoeren:
+>[!NOTE]
+>
+>In Brand Portal is een gebruiker gemarkeerd met de rol van supportbeheerder in [!UICONTROL Admin Console] heeft dezelfde rechten als die van een systeembeheerder.
+
+Een beheerder kan alle taken uitvoeren die een Redacteur kan uitvoeren. Hier volgen de extra taken die een beheerder kan uitvoeren:
 
 * [Gebruikers, groepen en gebruikersrollen beheren](brand-portal-adding-users.md)
 
