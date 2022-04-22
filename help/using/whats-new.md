@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '6234'
+source-wordcount: '6243'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Brand Portal 2021.02.0 is een verbeteringsrelease die de activeringsworkflow van
 
 AEM Assets as a Cloud Service heeft nu het recht om een vooraf geconfigureerde Brand Portal-instantie te hebben. De gebruiker van Cloud Manager kan Brand Portal activeren op het as a Cloud Service AEM Assets-exemplaar.
 
-Eerder, as a Cloud Service AEM Assets werd manueel gevormd met Brand Portal gebruikend de Console van de Ontwikkelaar van Adobe.
+Eerder werd AEM Assets as a Cloud Service handmatig geconfigureerd met Brand Portal met Adobe Developer Console.
 
 De gebruiker van de Manager van de Wolk activeert het activeringswerkschema dat tot de vereiste configuraties bij het achtereind leidt en Brand Portal op zelfde IMS org activeert zoals van de as a Cloud Service instantie van AEM Assets.
 
@@ -317,7 +317,7 @@ Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-
 
 ## Wat veranderde in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets as a Cloud Service, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hoger werd Brand Portal eerder geconfigureerd in de klassieke gebruikersinterface via Legacy OAuth Gateway, die de JWT-tokenuitwisseling gebruikt om een IMS Access-token voor verificatie te verkrijgen. AEM Assets wordt nu geconfigureerd met Brand Portal via de Adobe Developer Console, die een IMS-token aanschaft voor toestemming van uw Brand Portal-huurder.
+In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets as a Cloud Service, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hoger werd Brand Portal eerder geconfigureerd in de klassieke gebruikersinterface via Legacy OAuth Gateway, die de JWT-tokenuitwisseling gebruikt om een IMS Access-token voor verificatie te verkrijgen. AEM Assets is nu geconfigureerd met Brand Portal via Adobe Developer Console, die een IMS-token aanschaft voor toestemming van uw Brand Portal-huurder.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -389,7 +389,10 @@ Bovendien blijven alle bestaande functies ongewijzigd. Brand Portal-gebruikers k
 
 ### Elementen uploaden naar de bijdragemap {#upload-assets-in-bp}
 
-Brand Portal-gebruikers met de juiste machtigingen kunnen de elementvereisten downloaden om te begrijpen dat ze een bijdrage moeten leveren en meerdere middelen of mappen met meerdere middelen uploaden naar de map voor de bijdrage. Houd er echter rekening mee dat Brand Portal-gebruikers alleen elementen kunnen uploaden naar de **NIEUW** submap. De **GEDEELD** map is bedoeld voor de distributie van vereisten en basislijnelementen.
+Brand Portal-gebruikers met de juiste machtigingen kunnen afzonderlijke elementen of mappen (.zip-bestand) met meerdere elementen uploaden naar de map met bijdragen. Een gebruiker kan meerdere elementen uploaden naar een map voor middelenbijdragen. Er kan echter maar één map tegelijk worden gemaakt.
+
+De Brand Portal-gebruikers kunnen alleen elementen uploaden naar de **NIEUW** submap. De **GEDEELD** map is bedoeld voor de distributie van vereisten en basislijnelementen.
+
 
 ![](assets/upload-asset6.png)
 
@@ -426,19 +429,19 @@ Als in uw zoekformulier in Brand Portal bijvoorbeeld Eigenschapvoorspelling word
 
 #### Zoekopdracht met jokertekens {#wildcard-search}
 
-De Brand Portal staat het gebruik van het sterretje (*) toe in zoekquery samen met een deel van het woord in de gezochte uitdrukking.
+De Brand Portal staat het gebruik van de asterisk toe (&#42;) in zoekquery samen met een deel van het woord in de gezochte uitdrukking.
 
 **Gebruik hoofdletters/kleine letters. Als u niet zeker weet welke woorden precies voorkomen in de gezochte uitdrukking, kunt u een vervangingsonderzoek gebruiken om de hiaten in uw onderzoeksvraag te vullen.
 
-Als u bijvoorbeeld **klimmen*** retourneert alle elementen met woorden die beginnen met de tekens **klimmen** in hun titelzin als het zoekformulier in Brand Portal de functie Voorspelling van eigenschap gebruikt voor gedeeltelijk zoeken naar de titel van de elementen.
+Als u bijvoorbeeld **klimmen&#42;** retourneert alle elementen met woorden die beginnen met de tekens **klimmen** in hun titelzin als het zoekformulier in Brand Portal de functie Voorspelling van eigenschap gebruikt voor gedeeltelijk zoeken naar de titel van de elementen.
 
 ![](assets/wildcard-prop.png)
 
 Op dezelfde manier specificeren:
 
-* ***klimmen** retourneert alle elementen met woorden die eindigen met tekens **klimmen** in hun titelzin.
+* **&#42;klimmen** retourneert alle elementen met woorden die eindigen met tekens **klimmen** in hun titelzin.
 
-* ***klimmen*** retourneert alle elementen met woorden die de tekens omvatten **klimmen** in hun titelzin.
+* **&#42;klimmen&#42;** retourneert alle elementen met woorden die de tekens omvatten **klimmen** in hun titelzin.
 
 >[!NOTE]
 >
