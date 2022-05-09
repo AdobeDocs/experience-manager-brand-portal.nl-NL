@@ -1,8 +1,8 @@
 ---
 title: Nieuwe functies in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Wat zijn de nieuwe eigenschappen en de verhogingen voor 2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: Wat zijn de nieuwe eigenschappen en de verhogingen voor 2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 0%
 # Nieuwe functies in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Met Adobe Experience Manager Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene Brand Portal-ervaring. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+
+## Wat veranderde in 2022.05.0 {#what-changed-in-May-2022}
+
+Brand Portal voert nu om de twaalf uur automatische taken uit om alle Brand Portal-middelen te verwijderen die naar AEM worden gepubliceerd. U hoeft daarom de middelen in de map Contribution niet handmatig te verwijderen om de mapgrootte onder de drempelwaarde te houden. U kunt ook de status van de automatisch uitgevoerde verwijdertaken controleren met de opdracht **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** > **[!UICONTROL Deletion Reports]** in Brand Portal. Het rapport voor een baan verstrekt de volgende details:
+
+* Begintijd taak
+* Eindtijd van taak
+* Taakstatus
+* Totaal aan activa inbegrepen in een baan
+* Het totaal aan elementen is verwijderd in een taak.
+
+![Verwijderingsrapport](assets/deletion-reports.png)
+
+U kunt ook verder naar beneden boren om de details van elk middel te bekijken inbegrepen in een schrappingsbaan. De details zoals activa titel, grootte, auteur, schrappingsstatus, en schrappingstijd zijn inbegrepen in het rapport.
+
+![Verwijderingsrapport uitgebreid](assets/deletion-reports-detailed.png)
+
+Bovendien bevat Brand Portal 2022.05.0 oplossingen voor de kritieke problemen. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
+
 
 ## Wat veranderde in 2022.02.0 {#what-changed-in-Feb-2022}
 
