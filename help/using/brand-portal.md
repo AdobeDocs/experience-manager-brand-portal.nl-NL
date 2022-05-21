@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1489'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ De volgende lijst maakt een lijst van de taken die de gebruikers in deze rollen 
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Gastgebruiker (gebruiker van licht) {#guest-user}
+### Gastgebruiker {#guest-user}
 
 Experience Manager Assets Brand Portal staat [gasttoegang](#request-access-to-brand-portal) naar Brand Portal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare omslagen en de inzamelingen. Als gastgebruiker, kunt u door activa details doorbladeren en volledige activamening van leden van openbare omslagen en inzamelingen hebben. U kunt openbare middelen zoeken, downloaden en toevoegen aan [!UICONTROL Lightbox] verzameling.
 
@@ -89,9 +89,9 @@ De gastsessie beperkt u echter het maken van verzamelingen en opgeslagen zoekopd
 
 Zie voor meer informatie [gasttoegang tot Brand Portal](../using/guest-access.md).
 
-### Viewer (standaardgebruiker) {#viewer}
+### Viewer {#viewer}
 
-Een standaardgebruiker is een Brand Portal-gebruiker die is gedefinieerd in [!DNL Admin Console] die toegang heeft tot Brand Portal met de rol van Viewer. Een gebruiker met deze rol kan zich aanmelden bij Brand Portal en toegang krijgen tot toegestane mappen, verzamelingen en elementen. De gebruiker kan ook naar elementen (oorspronkelijke of specifieke vertoningen) bladeren, deze voorvertonen, downloaden en exporteren, accountinstellingen configureren en naar elementen zoeken. Hier volgt een lijst met taken die een viewer kan uitvoeren:
+Brand Portal-gebruiker gedefinieerd in [!DNL Admin Console] die toegang heeft tot Brand Portal met de rol van Viewer. Een gebruiker met deze rol kan zich aanmelden bij Brand Portal en toegang krijgen tot toegestane mappen, verzamelingen en elementen. De gebruiker kan ook naar elementen (oorspronkelijke of specifieke vertoningen) bladeren, deze voorvertonen, downloaden en exporteren, accountinstellingen configureren en naar elementen zoeken. Hier volgt een lijst met taken die een viewer kan uitvoeren:
 
 * [Bladeren door elementen](browse-assets-brand-portal.md)
 
