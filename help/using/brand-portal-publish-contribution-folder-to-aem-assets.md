@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,10 @@ U kunt ook de opdracht **[!UICONTROL SHARED]** en klik op de knop **Downloaden**
 
    ![](assets/download-asset-requirement5.png)
 
-Doorloop de samenvatting (document met vereisten voor elementen) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
+Doorloop het korte document (document met elementvereisten) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
 
 
-## Elementen uploaden naar de bijdragemap {#uplad-new-assets-to-contribution-folder}
+## Elementen uploaden naar de bijdragemap {#upload-new-assets-to-contribution-folder}
 
 Nadat de gebruikers van Brand Portal de elementvereisten hebben doorlopen, kunnen ze nieuwe middelen maken voor hun bijdrage en deze uploaden naar de map NEW in de bijdragemap. Een gebruiker kan meerdere elementen uploaden naar een map voor middelenbijdragen. Er kan echter maar één map tegelijk worden gemaakt.
 
@@ -138,7 +138,7 @@ Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de om
 
 * Navigeer in Brand Portal naar **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Dit rapport geeft de status van alle publicatietaken in verschillende stadia van de publicatieworkflow weer.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * Navigeer in Experience Manager Assets (op locatie of beheerde service) naar **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
 
@@ -157,3 +157,58 @@ Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de om
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Automatische verwijdering van naar Experience Manager Assets gepubliceerde middelen uit de map Contribution {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal voert nu om de twaalf uur automatische taken uit om alle bijdragemappen te scannen en alle middelen te verwijderen die naar AEM zijn gepubliceerd. Het gevolg is dat u de middelen in de Contribute-map niet handmatig hoeft te verwijderen om de mapgrootte onder de [drempelwaarde](#upload-new-assets-to-contribution-folder). U kunt ook de status controleren van de verwijdertaken die de afgelopen zeven dagen automatisch zijn uitgevoerd. Het rapport voor een baan verstrekt de volgende details:
+
+* Begintijd taak
+* Eindtijd van taak
+* Taakstatus
+* Totaal aan activa inbegrepen in een baan
+* Totaal aantal elementen is verwijderd in een taak
+* Totale opslag beschikbaar gesteld als gevolg van de uitvoering van de taak
+
+   ![Verwijderingsrapport](assets/deletion-reports.png)
+
+U kunt ook verder naar beneden boren om de details van elk middel te bekijken inbegrepen in een schrappingsbaan. De details zoals activa titel, grootte, auteur, schrappingsstatus, en schrappingstijd zijn inbegrepen in het rapport.
+
+![Verwijderingsrapport uitgebreid](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * Klanten kunnen de Klantenondersteuning van Adobe vragen om de functie voor automatische verwijdering van taken uit te schakelen en weer in te schakelen of om de uitvoeringsfrequentie te wijzigen.
+> * Deze functie is beschikbaar in Experience Manager 6.5.13.0 en latere versies.
+
+
+### Verwijderingsrapporten weergeven en downloaden {#view-delete-jobs}
+
+Rapporten voor een verwijdertaak weergeven en downloaden:
+
+1. Navigeer in Brand Portal naar **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** optie.
+
+1. Selecteer een taak en klik op **[!UICONTROL View]** om het rapport te bekijken.
+
+   Bekijk de details van elk middel inbegrepen in een schrappingsbaan. De details zoals activa titel, grootte, auteur, schrappingsstatus, en schrappingstijd zijn inbegrepen in het rapport. Klikken **[!UICONTROL Download]** om het rapport voor de taak in CSV-indeling te downloaden.
+
+   De verwijderstatus voor een element in het rapport kan de volgende mogelijke waarden hebben:
+
+   * **Verwijderd** - Het element is verwijderd uit de map Contribution.
+
+   * **Niet gevonden** - Brand Portal kan het middel niet vinden in de map Contribution. Het element wordt al handmatig uit de map verwijderd.
+
+   * **Overgeslagen** - Brand Portal heeft de elementverwijdering overgeslagen omdat er een nieuwe versie beschikbaar is voor het element in de map Contribution, die nog niet is gepubliceerd naar de Experience Manager.
+
+   * **Mislukt** - Brand Portal kan het element niet verwijderen. Er zijn drie pogingen om middelen met een `Failed` status verwijderen. Als het element de derde poging tot verwijderen mislukt, moet u het element handmatig verwijderen.
+
+### Een rapport verwijderen
+
+Met Brand Portal kunt u ook een of meerdere rapporten selecteren en deze handmatig verwijderen.
+
+Een rapport verwijderen:
+
+1. Navigeren naar **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** optie.
+
+1. Selecteer een of meer rapporten en klik op **[!UICONTROL Delete]**.
+
+
