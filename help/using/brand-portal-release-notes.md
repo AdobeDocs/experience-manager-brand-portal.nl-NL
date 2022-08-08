@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,8 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
-* Als NUI een element niet verwerkt in Experience Manager, geeft Brand Portal een onjuiste status voor het importeren van elementen weer.
+
+* Als Asset compute een element niet verwerkt in Experience Manager, geeft Brand Portal een onjuiste status voor het importeren van elementen weer.
 * Wanneer de voorvertoningsactie mislukt, wordt de fout niet gemeld.
 * De huurder uploadt bezit van de Quota wordt onnauwkeurig geplaatst voor huurders.
 * Wanneer u op **Alle items downloaden** en er zijn veel uitvoeringen beschikbaar voor een element, downloadt Brand Portal een ongeldig ZIP-bestand.
