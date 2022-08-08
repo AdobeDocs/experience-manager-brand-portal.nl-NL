@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2022.05.0-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2022.08.0-release.
 
 ## Geen informatie {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2022,05,0 |
-| Date | mei 2022 |
+| Versie | 2022,08,0 |
+| Date | augustus 2022 |
 
 ## Overzicht {#overview}
 
-Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
+Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
 
-## Nieuwe functies in 2022.05.0 {#whats-new-in-2022.05.0}
+## Nieuwe functies in 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Kritieke problemen opgelost {#critical-issues-fixed}
+
+Deze release bevat oplossingen voor de volgende kritieke problemen:
+* Als NUI een element niet verwerkt in Experience Manager, geeft Brand Portal een onjuiste status voor het importeren van elementen weer.
+* Wanneer de voorvertoningsactie mislukt, wordt de fout niet gemeld.
+* De huurder uploadt bezit van de Quota wordt onnauwkeurig geplaatst voor huurders.
+* Wanneer u op **Alle items downloaden** en er zijn veel uitvoeringen beschikbaar voor een element, downloadt Brand Portal een ongeldig ZIP-bestand.
+* De vertaling van sommige tekenreeksen wordt afgebroken in de Brand Portal-gebruikersinterface.
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### Nieuwe functies {#new-features}
+<!--
+### New features {#new-features}
 
-Brand Portal voert nu om de twaalf uur automatische taken uit om alle Brand Portal-middelen te verwijderen die naar AEM worden gepubliceerd. U hoeft daarom de middelen in de map Contribution niet handmatig te verwijderen om de mapgrootte onder de drempelwaarde te houden. Zie [Nieuwe functies in Experience Manager Assets Brand Portal](whats-new.md).
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### Kritieke problemen opgelost {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-Deze release bevat oplossingen voor de volgende kritieke problemen:
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* Wanneer u een map of een verzameling downloadt die elementen met kleurtags bevat, wordt ook een XML-bestand gedownload.
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* Wanneer u een video downloadt die uitvoeringen bevat, maakt Brand Portal een ongeldig ZIP-bestand.
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* Wanneer u voorinstellingen en elementen maakt op AEM auteur en deze publiceert naar Brand Portal en vervolgens dynamische vertoningen selecteert tijdens het downloaden van de elementen, kunt u het gedownloade bestand niet uitpakken. ZIP-bestand.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Problemen tijdens het downloaden van video-elementen uit bepaalde mappen op Brand Portal.
-
-* Wanneer u de URL van de map Contribution deelt via een e-mail, kunnen de rollen Viewer en Editor problemen ondervinden bij het openen van de bovenliggende map via de breadcrumb.
-
-* Het bron gepubliceerde rapport toont een onjuiste tijd van het baanbegin.
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Deze release bevat de volgende bekende uitgave:
 
-* Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
+* Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing
 
 
 <!--
