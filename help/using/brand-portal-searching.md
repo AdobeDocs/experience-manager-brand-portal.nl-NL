@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
+source-git-commit: 541f736c8157a7aa98faf11a426f6d2fd93829e2
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 4%
+source-wordcount: '1191'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ Zie voor meer informatie over het zoekgedrag met slimme gecodeerde elementen [zo
 
 Met zoekfacetten in het deelvenster Filters kunt u de zoekervaring korter maken en de zoekfunctionaliteit efficiënt maken. De facetten van het onderzoek gebruiken veelvoudige dimensies (predikaten) die u toelaten om complexe onderzoeken uit te voeren. U kunt gemakkelijk tot het gewenste niveau van detail voor een gerichter onderzoek boor.
 
-Als u bijvoorbeeld een afbeelding zoekt, kunt u kiezen of u een bitmap- of een vectorafbeelding wilt. U kunt het zoekbereik verder beperken door het MIME-type voor de afbeelding op te geven in de zoekfacet Bestandstype. Op dezelfde manier kunt u bij het zoeken naar documenten de indeling opgeven, bijvoorbeeld de indeling PDF of MS Word.
+Als u bijvoorbeeld een afbeelding zoekt, kunt u kiezen of u een bitmap- of een vectorafbeelding wilt. U kunt het zoekbereik verder beperken door het MIME-type voor de afbeelding op te geven in de zoekfacet Bestandstype. Op dezelfde manier kunt u bij het zoeken naar documenten de indeling opgeven, bijvoorbeeld de indeling PDF of MS® Word.
 
 ![Deelvenster Filters in Brand Portal](assets/file-type-search.png "Deelvenster Filters in Brand Portal")
 
@@ -76,7 +76,7 @@ Gebruik bijvoorbeeld de volgende standaardfilters:
    >Voor gebruikers die geen beheerder zijn, [!UICONTROL Path Browser] in [!UICONTROL Filter] toont alleen de inhoudsstructuur van de mappen (en hun bovenliggende mappen) die met hen worden gedeeld.\
    >Als u gebruikers wilt beheren, kunt u in de padbrowser naar een willekeurige map in Brand Portal navigeren.
 
-   * **[!UICONTROL File Type]** om het type elementbestand op te geven (afbeelding, document, multimedia, archief) dat u zoekt. Verder kunt u het bereik van uw zoekopdracht beperken door bijvoorbeeld het MIME-type (TIFF, Bitmap, GIMP-afbeeldingen) voor de afbeelding of de indeling (PDF of MS Word) voor de documenten op te geven.
+   * **[!UICONTROL File Type]** om het type elementbestand op te geven (afbeelding, document, multimedia, archief) dat u zoekt. Verder kunt u het bereik van uw zoekopdracht beperken door bijvoorbeeld het MIME-type (TIFF, Bitmap, GIMP-afbeeldingen) voor de afbeelding of de indeling (PDF of MS® Word) voor de documenten op te geven.
    * **[!UICONTROL File Size]** om te zoeken naar elementen op basis van hun grootte. U kunt de onder- en bovengrenzen voor het groottebereik opgeven om de zoekopdracht te beperken en de maateenheid voor de zoekactie opgeven.
    * **[!UICONTROL Status]** om te zoeken naar elementen die zijn gebaseerd op de status van elementen, zoals Goedgekeurd, Wijzigingen aangevraagd, Geweigerd, In behandeling) en Verlopen.
    * **[!UICONTROL Average Rating]** het zoeken naar activa op basis van de rating van de activa.
@@ -91,15 +91,24 @@ Gebruik bijvoorbeeld de volgende standaardfilters:
       De [!UICONTROL Property Predicate] ondersteunt zoekopdrachten naar tekst:
 
       **Gedeeltelijke zinnen**
-Als u het zoeken van elementen wilt toestaan met gebruik van gedeeltelijke woordgroepen in voorspelling van eigenschappen, schakelt u de optie **[!UICONTROL Partial Search]** Schakel het selectievakje Formulier zoeken in.\
-      Op deze manier kunt u naar de gewenste assets zoeken, zelfs als u niet de exacte woorden/woordgroepen opgeeft die in de metadata van de assets worden gebruikt.\
+Als u het zoeken van elementen wilt toestaan met gebruik van gedeeltelijke woordgroepen in voorspelling van eigenschappen, schakelt u de optie **[!UICONTROL Partial Search]** Schakel het selectievakje Formulier zoeken in. Op deze manier kunt u naar de gewenste assets zoeken, zelfs als u niet de exacte woorden/woordgroepen opgeeft die in de metadata van de assets worden gebruikt.
+
+      >[!NOTE]
+      >
+      > Brand Portal ondersteunt de volgende velden voor Gedeeltelijk zoeken:
+      >* jcr:content/metadata/dc:title
+      >* jcr:content/jcr:title
+      >* jcr:content/metadata/dam:search_Promoter
+      >* jcr:content/metadata/dc:format
+
+
       U kunt:
       * Geef een woord op dat in de gezochte woordgroep voorkomt in het facet in het deelvenster Filters. Als u bijvoorbeeld zoekt naar de term **klimmen** (en Eigenschappenvoorspelling wordt toegewezen aan [!UICONTROL `dc:title`] eigenschap), dan alle elementen met het woord **klimmen** in hun titel worden de woorden teruggegeven.
-      * Een deel van het woord opgeven dat in de gezochte woordgroep voorkomt, samen met een jokerteken (*) om de tussenruimten te vullen.
+      * Geef een deel van het woord op dat wordt gebruikt in de gezochte woordgroep, samen met het jokerteken (&#42;) om de tussenruimten te vullen.
 Bijvoorbeeld bij het zoeken naar:
-         * **klimmen*** retourneert alle elementen met woorden die beginnen met de tekens &quot;klimmen&quot; in de titelzin.
-         * ***klimmen** retourneert alle elementen met woorden die eindigen met tekens &quot;klimmen&quot; in de titelzin.
-         * ***klimmen*** retourneert alle elementen met woorden die de tekens &quot;klimmen&quot; in hun titelzin bevatten.
+         * **klimmen&#42;** retourneert alle elementen met woorden die beginnen met de tekens &quot;klimmen&quot; in de titelzin.
+         * **&#42;klimmen** retourneert alle elementen met woorden die eindigen met tekens &quot;klimmen&quot; in de titelzin.
+         * **&#42;klimmen&#42;** retourneert alle elementen met woorden die de tekens &quot;klimmen&quot; in hun titelzin bevatten.
 
 Als u niet-hoofdlettergevoelig zoeken in voorspelling van eigenschappen wilt toestaan, schakelt u het       **Niet-hoofdlettergevoelige tekst**
 Als u niet-hoofdlettergevoelig zoeken in voorspelling van eigenschappen wilt toestaan, schakelt u het **[!UICONTROL Ignore Case]** Schakel het selectievakje Formulier zoeken in. Standaard is bij het zoeken naar eigenschappen hoofdlettergevoelig.
