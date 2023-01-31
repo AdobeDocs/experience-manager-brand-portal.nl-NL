@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1295'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Op Brand Portal zoeken naar elementen:
    >[!NOTE]
    >
    >* Er zijn minimaal 3 tekens nodig om zoeksuggesties te kunnen weergeven.
-   >* Wanneer u de termen doorzoekt `mountain` of `biking` dan levert het onderzoek de onderzoeksresultaten van de tekst `mountain` EN `biking` in hun metagegevensvelden. Anders is het gedrag OR in het geval van slimme tags, wat het resultaat betekent met `mountain` OF `biking` in hun respectievelijke slimme tags worden opgehaald.
+   >* Wanneer u naar `mountain biking`worden alle elementen in de zoekresultaten geretourneerd die beide `mountain` en `biking` beschikbaar in de metagegevensvelden. Bijvoorbeeld: `mountain` in de `Title` veld en `biking` in de `Description` veld. Beide termen moeten beschikbaar zijn in de metagegevensvelden om in de zoekresultaten te kunnen worden weergegeven. Het middel wordt echter in de zoekresultaten geretourneerd als slechts een van de twee termen beschikbaar is in het metagegevensveld Slimme tags. Als een element bijvoorbeeld `mountain` als een van de slimme tags en bevat niet `biking` in een ander metagegevensveld en u zoekt naar `mountain biking`Als u zoekt, wordt het element in de zoekresultaten nog steeds geretourneerd.
 
 
 1. Maak een keuze uit de verwante suggesties die in de vervolgkeuzelijst worden weergegeven, zodat u snel toegang hebt tot relevante elementen.
