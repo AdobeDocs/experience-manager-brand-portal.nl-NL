@@ -1,18 +1,18 @@
 ---
 title: Nieuwe functies in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Nieuwe en verbeterde functies voor 2022.10.0
-seo-description: What are the new features and enhancements for 2022.10.0
+description: Wat zijn de nieuwe eigenschappen en de verhogingen voor 2032.02.0
+seo-description: What are the new features and enhancements for 2023.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
+source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
 workflow-type: tm+mt
-source-wordcount: '6427'
+source-wordcount: '6459'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,17 @@ ht-degree: 0%
 
 Met Adobe Experience Manager Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene Brand Portal-ervaring. Hier is een blik in de nieuwe eigenschappen en verhogingen.
 
+## Wat is er veranderd in 2023.02.0 {#what-changed-in-February-2023}
+
+Brand Portal 2023.02.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
+
 ## Wat veranderde in 2022.10.0 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0 bevat oplossingen voor de kritieke problemen. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2022.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2022.08.0 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 bevat oplossingen voor de kritieke problemen. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2022.08.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2022.05.0 {#what-changed-in-May-2022}
 
