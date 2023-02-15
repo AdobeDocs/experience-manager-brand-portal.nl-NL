@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: b4efe1d2d5a2e6cf6163f6af9e6d862afbfbb129
+source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '451'
 ht-degree: 5%
 
 ---
@@ -39,9 +39,11 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 #### Opgeloste problemen {#bug-fixes}
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
+* Profielafbeelding kan niet worden bijgewerkt op de Brand Portal.
 * De grootte van het deelvenster van de inhoudsstructuur kan niet worden gewijzigd. Als de bestandsnaam langer is dan de standaardbreedte van de inhoudsstructuur, kunt u de inhoudsstructuur niet zowel horizontaal als verticaal slepen. Hierdoor zijn langere bestandsnamen niet leesbaar.
 * De zoekresultaten zijn inconsistent voor dezelfde eigenschap die tweemaal in de zoekformulieren wordt gebruikt.
 * De tekst op de tussenliggende aanmeldingspagina&#39;s is niet voor alle talen gelokaliseerd.
+* Enkele velden van het gebruikersprofiel kunnen niet worden bewerkt op `Edit` Profielpagina.
 
 ### Verbeteringen {#enhancements}
 
