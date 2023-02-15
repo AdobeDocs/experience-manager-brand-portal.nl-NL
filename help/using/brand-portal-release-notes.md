@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -43,7 +43,6 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 * De grootte van het deelvenster van de inhoudsstructuur kan niet worden gewijzigd. Als de bestandsnaam langer is dan de standaardbreedte van de inhoudsstructuur, kunt u de inhoudsstructuur niet zowel horizontaal als verticaal slepen. Hierdoor zijn langere bestandsnamen niet leesbaar.
 * De zoekresultaten zijn inconsistent voor dezelfde eigenschap die tweemaal in de zoekformulieren wordt gebruikt.
 * De tekst op de tussenliggende aanmeldingspagina&#39;s is niet voor alle talen gelokaliseerd.
-* Enkele velden van het gebruikersprofiel kunnen niet worden bewerkt op `Edit` Profielpagina.
 
 ### Verbeteringen {#enhancements}
 
@@ -60,7 +59,8 @@ Deze release bevat de volgende verbeteringen:
 
 Deze release bevat de volgende bekende uitgave:
 
-* Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing
+* Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
+* Weinig velden in het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
 
 <!--
 This release include fixes to the following critical issues:
