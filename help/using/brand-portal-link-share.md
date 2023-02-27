@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -26,20 +26,20 @@ Het delen van elementen via een koppeling is een handige manier om deze beschikb
 <!-- Link sharing access is restricted to editors and administrators. 
 -->
 
-Zie [Gebruikers, groepen en gebruikersrollen beheren](../using/brand-portal-adding-users.md#manage-user-roles) voor meer informatie.
+Zie voor meer informatie [Gebruikers, groepen en gebruikersrollen beheren](../using/brand-portal-adding-users.md#manage-user-roles).
 
 
 Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
 
-1. Meld u aan bij uw Brand Portal-huurder. Standaard wordt de weergave **[!UICONTROL Files]** geopend, die alle gepubliceerde elementen en mappen bevat.
+1. Meld u aan bij uw Brand Portal-huurder. Standaard worden de **[!UICONTROL Files]** wordt geopend met alle gepubliceerde elementen en mappen.
 
-1. Selecteer de elementen of mappen die u wilt delen of navigeer naar de weergave **[!UICONTROL Collections]** om de gemaakte verzamelingen te delen.
+1. Selecteer de elementen of mappen die u wilt delen, of navigeer naar de **[!UICONTROL Collections]** om de gemaakte verzamelingen te delen.
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
-1. Klik op het pictogram **[!UICONTROL Share Link]** op de werkbalk boven in het scherm.
+1. Klik in de werkbalk bovenaan op de knop **[!UICONTROL Share Link]** pictogram.
 
-   Het dialoogvenster **[!UICONTROL Link Sharing]** wordt weergegeven.
+   De **[!UICONTROL Link Sharing]** wordt weergegeven.
 
    ![](assets/link-sharing.png)
 
@@ -47,16 +47,16 @@ Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
 
       ![](assets/link-sharing-text.png)
 
-   * Typ in het tekstvak **[!UICONTROL Subject]** een onderwerp voor het element dat u wilt delen.
-   * Typ desgewenst een bericht in het tekstvak **[!UICONTROL Message]**.
-   * Gebruik in het veld **[!UICONTROL Expiration]** de datumkiezer om een vervaldatum en -tijd voor de koppeling op te geven. De vervaldatum is standaard ingesteld op 7 dagen vanaf de datum waarop u de koppeling deelt.
-   * Schakel het selectievakje **[!UICONTROL Allow downlod of original file]** in zodat de ontvangers de oorspronkelijke vertoning kunnen downloaden.
+   * In de **[!UICONTROL Subject]** typt u een onderwerp voor het element dat u wilt delen.
+   * In de **[!UICONTROL Message]** Typ indien nodig een bericht.
+   * In de **[!UICONTROL Expiration]** in het veld gebruikt u de datumkiezer om een vervaldatum en -tijd voor de koppeling op te geven. De vervaldatum is standaard ingesteld op 7 dagen vanaf de datum waarop u de koppeling deelt.
+   * De optie **[!UICONTROL Allow downlod of original file]** Schakel het selectievakje in zodat de ontvangers de oorspronkelijke vertoning kunnen downloaden.
 
-   De elementen die via de koppeling worden gedeeld, verlopen na het overschrijden van de datum en tijd die in het veld **[!UICONTROL Expiration]** zijn opgegeven. Zie [Digitale rechten van elementen beheren](../using/manage-digital-rights-of-assets.md#asset-expiration) voor informatie over het gedrag van verlopen elementen en wijzigingen in de toegestane activiteiten op basis van gebruikersrollen in Brand Portal.
+   De elementen die via de koppeling worden gedeeld, verlopen nadat de datum en tijd die in de **[!UICONTROL Expiration]** veld. Voor informatie over het gedrag van verlopen activa en wijzigingen in de toegestane activiteiten op basis van gebruikersrollen in Brand Portal raadpleegt u [Digitale rechten van middelen beheren](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
-   >De standaardvervaltijd voor de verbinding is 7 dagen. De koppeling moet naar de gebruikers worden gemaild via het dialoogvenster **[!UICONTROL Link Sharing]**. Kopieer en deel de koppeling niet afzonderlijk.
+   >De standaardvervaltijd voor de verbinding is 7 dagen. De koppeling moet naar de gebruikers worden gemaild met de **[!UICONTROL Link Sharing]** kopiëren en delen de koppeling niet afzonderlijk.
 
 1. Klik op **[!UICONTROL Share]**. Een bericht bevestigt dat de koppeling wordt gedeeld met de gebruikers. Gebruikers ontvangen een e-mail met de gedeelde koppeling.
 
@@ -64,7 +64,7 @@ Hieronder vindt u de stappen voor het delen van elementen als een koppeling:
 
    >[!NOTE]
    >
-   >Beheerders kunnen het e-mailbericht aanpassen. Dit omvat het aanpassen van het logo, de beschrijving en de voettekst met de functie [Branding](../using/brand-portal-branding.md).
+   >Beheerders kunnen het e-mailbericht aanpassen. Dit omvat het aanpassen van het logo, de beschrijving en de voettekst met [Branding](../using/brand-portal-branding.md) gebruiken.
 
 ## Elementen downloaden van gedeelde koppelingen {#download-assets-from-shared-links}
 
@@ -72,21 +72,21 @@ Klik op de koppeling in de e-mail om het gedeelde element te openen. De pagina A
 
 De gedeelde elementen downloaden:
 
-1. Klik op de elementen of mappen en klik vervolgens op het pictogram **[!UICONTROL Download]** op de werkbalk.
+1. Klik op de elementen of mappen en klik vervolgens op de knop **[!UICONTROL Download]** op de werkbalk.
 
    ![](assets/download-share-link.png)
 
    >[!NOTE]
    >
-   >Op dit moment kunt u, afhankelijk van de bestandsindeling, alleen voor bepaalde elementen een voorvertoning en miniatuur genereren. Zie [Ondersteuning van voorvertoningen en miniaturen voor asset-indelingen](#preview-thumbnail-support) voor meer informatie over de ondersteunde bestandsindelingen.
+   >Op dit moment kunt u, afhankelijk van de bestandsindeling, alleen voor bepaalde elementen een voorvertoning en miniatuur genereren. Voor meer informatie over de ondersteunde bestandsindelingen raadpleegt u [Ondersteuning voor voorvertoningen en miniaturen van asset-indelingen](#preview-thumbnail-support).
 
-1. Het dialoogvenster **[!UICONTROL Download]** wordt weergegeven.
+1. De **[!UICONTROL Download]** wordt weergegeven.
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Standaard is de instelling **[!UICONTROL Fast Download]** ingeschakeld in **[!UICONTROL Download Settings]**. Daarom lijkt er een bevestigingsvenster te zijn waarin het downloaden met IBM Aspera Connect wordt voortgezet.
+1. Standaard worden de **[!UICONTROL Fast Download]** instelling is ingeschakeld in het dialoogvenster **[!UICONTROL Download Settings]**. Daarom wordt een bevestigingsvenster weergegeven waarin u kunt doorgaan met downloaden met IBM Aspera Connect.
 
-   Als u **[!UICONTROL Fast Download]** wilt blijven gebruiken, klikt u op **[!UICONTROL Allow]**.
+   Als u wilt doorgaan met gebruiken **[!UICONTROL Fast Download]**, klikt u op **[!UICONTROL Allow]**.
 
    Alle geselecteerde uitvoeringen worden gedownload in een ZIP-map met een aparte map voor elk element.
 
@@ -94,16 +94,16 @@ De gedeelde elementen downloaden:
    >
    >Voor elk element wordt een aparte map gemaakt terwijl de elementen worden gedownload van een gedeelde koppeling.
    >
-   >Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map met een aparte map voor elk element.
+   >Als er een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt de opdracht **[!UICONTROL Download]** wordt overgeslagen en alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, worden gedownload in een ZIP-map met een aparte map voor elk element.
 
    >[!NOTE]
    >
-   >Oorspronkelijke uitvoeringen worden niet gedownload via de gedeelde koppeling als de gebruiker die de elementen als een koppeling heeft gedeeld, niet [gemachtigd is door de beheerder om toegang te hebben tot de oorspronkelijke uitvoeringen](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Oorspronkelijke uitvoeringen worden niet gedownload via de gedeelde koppeling als de gebruiker die de elementen als koppeling heeft gedeeld, [door de beheerder gemachtigd om toegang te hebben tot de oorspronkelijke vertoningen](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
 >
->Brand Portal beperkt het downloaden van elementen die groter zijn dan **1** GB per bestandsgrootte met behulp van gedeelde koppelingen.
+>Brand Portal beperkt het downloaden van mappen of elementen met een grootte van meer dan 5 GB aan de hand van gedeelde koppelingen.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -164,7 +164,7 @@ De volgende matrix geeft een overzicht van de indelingen voor elementen waarvoor
 | INDD | ✓ | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | ✓ | ✕ |
+| ePub | ✓ | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -196,19 +196,19 @@ In de volgende legenda worden de symbolen uitgelegd die in de matrix worden gebr
 | ✓ | Deze bestandsindeling ondersteunt deze functie |
 | ✕ | Deze functie wordt niet ondersteund door deze bestandsindeling |
 | NA | Deze functie is niet van toepassing op deze bestandsindeling |
-| * | Voor deze functie is aanvullende ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat elementen naar Brand Portal zijn gepubliceerd |
+| &#42; | Voor deze functie is aanvullende ondersteuning voor deze bestandsindeling vereist op AEM auteurinstantie, maar niet op Brand Portal nadat elementen naar Brand Portal zijn gepubliceerd |
 
 ## Delen van elementen die worden gedeeld als koppeling opheffen {#unshare-assets-shared-as-a-link}
 
 Ga als volgt te werk als u eerder gedeelde elementen als een koppeling wilt opheffen:
 
-1. Als u zich aanmeldt bij Brand Portal, wordt de weergave **[!UICONTROL File]** standaard geopend. Navigeer naar de weergave **[!UICONTROL Shared Links]** om de elementen weer te geven die u als koppelingen hebt gedeeld.
+1. Wanneer u zich aanmeldt bij Brand Portal, wordt **[!UICONTROL File]** wordt standaard geopend. Als u de elementen die u als koppelingen hebt gedeeld, wilt weergeven, navigeert u naar de **[!UICONTROL Shared Links]** weergeven.
 
 1. Controleer de koppelingen die u hebt gedeeld vanuit de weergegeven lijst.
 
    ![](assets/shared-links.png)
 
-1. Als u een koppeling uit de lijst wilt verwijderen, selecteert u de koppeling en klikt u op het pictogram **[!UICONTROL Unshare]** op de werkbalk boven in het venster.
+1. Als u een koppeling uit de lijst wilt verwijderen, selecteert u de koppeling en klikt u op de knop **[!UICONTROL Unshare]** van de werkbalk bovenaan.
 
    ![](assets/unshare-asset.png)
 
@@ -216,4 +216,4 @@ Ga als volgt te werk als u eerder gedeelde elementen als een koppeling wilt ophe
    >
    >De weergave van gedeelde koppelingen is gebruikersspecifiek. Deze eigenschap toont niet alle verbindingen die door alle gebruikers van een huurder worden gedeeld.
 
-1. Klik in het waarschuwingsbericht op **[!UICONTROL Continue]** om het delen te bevestigen. De vermelding voor de koppeling wordt verwijderd uit de lijst met gedeelde koppelingen.
+1. Klik in het waarschuwingsbericht op **[!UICONTROL Continue]** om te bevestigen dat u niet deelt. De vermelding voor de koppeling wordt verwijderd uit de lijst met gedeelde koppelingen.
