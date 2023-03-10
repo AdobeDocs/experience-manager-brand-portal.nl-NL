@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: e72bdf307fbb16bb66636a342130a3d6c9e8ac3c
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '960'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ In de volgende tabel worden de downloadprestaties voor 2 GB-bestanden weergegeve
 | V.S. West (Oregon) | 42 | 36 | 57 |
 | V.S. Oost (N. Virginia) | 85 | 35 | 58 |
 | APAC (Tokio) | 124 | 36 | 57 |
-| Noida (India) | 275 | 13,36 | 153 |
+| Noida (India) | 275 | 13.36 | 153 |
 | Sydney | 175 | 29 | 70 |
 | Londen | 179 | 35 | 58 |
 | Singapore | 196 | 34 | 60 |
@@ -216,7 +216,7 @@ Als de downloadversnelling niet voor u werkt, volgt u deze stappen om problemen 
 
    Als de bandbreedte weinig (1-10 Mbps) of in Kbps is, dan gebruik de Voorkeur van de RUIMTE en probeer om de bandbreedte te beperken gelijk aan de beschikbare bandbreedte.
 
-1. Als u wilt controleren of de downloads van de Aspera-demoserver werken, gebruikt u [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
-   (aanmelden: asperaweb, wachtwoord: demoaspera )
+   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) -->
 
 1. Als geen van de bovenstaande stappen voor het oplossen van problemen werkt, schakelt u de optie Downloadversnelling inschakelen uit en gebruikt u de normale download.
