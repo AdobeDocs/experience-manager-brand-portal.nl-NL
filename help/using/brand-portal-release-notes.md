@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 5%
+source-wordcount: '1041'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelos
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Versie | 2023.02.0 |
-| Date | februari 2023 |
+| Datum | februari 2023 |
 
 ## Overzicht {#overview}
 
@@ -62,14 +62,72 @@ Deze release bevat de volgende bekende uitgave:
 * Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
 * Weinig velden in het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## Eerdere versies
+
+### Release oktober 2022 {#oct-2022}
+
+**Kritieke problemen opgelost**
+
+Deze release bevat oplossingen voor de volgende kritieke problemen:
+* Langzame reactietijden terwijl het kopiëren van grote dossiers van Brand Portal aan een derdehulpmiddel.
+* Als u het selectievakje voor het aantal vertoningen inschakelt, worden de selectievakjes voor het selecteren van afzonderlijke uitvoeringen uitgeschakeld.
+* Langzame reactietijd voor zoeken.
+
+>[!IMPORTANT]
+>
+>De pulsmeldingen in AEM Assets Brand Portal zullen vanaf 1 december 2022 worden stopgezet. In plaats van Pulse-meldingen, zult u e-mailmeldingen blijven ontvangen voor de volgende gebeurtenissen:
+>* Elementen delen via koppeling
+>* Toegang aanvragen
+>* Mappen met bijdragen delen
+>* Exporteren naar AEM starten
+>* Exporteren naar AEM voltooid
+>
+
+
+### Release van augustus 2022 {#aug-2022}
+
+**Kritieke problemen opgelost**
+
+Deze release bevat oplossingen voor de volgende kritieke problemen:
+* Als NUI een element niet verwerkt in Experience Manager, geeft Brand Portal een onjuiste status voor het importeren van elementen weer.
+* Wanneer de voorvertoningsactie mislukt, wordt de fout niet gemeld.
+* Onnauwkeurige waarde voor de eigenschap totalUploadedSize voor elk element is vast.
+* Wanneer u op **Alle items downloaden** en er zijn veel uitvoeringen beschikbaar voor een element, downloadt Brand Portal een ongeldig ZIP-bestand.
+* De vertaling van sommige tekenreeksen wordt afgebroken in de Brand Portal-gebruikersinterface.
+
+### Release mei 2022 {#may-2022}
+
+**Nieuwe functies**
+
+Brand Portal voert nu om de twaalf uur automatische taken uit om alle Brand Portal-middelen te verwijderen die naar AEM worden gepubliceerd. U hoeft daarom de middelen in de map Contribution niet handmatig te verwijderen om de mapgrootte onder de drempelwaarde te houden.
+
+**Kritieke problemen opgelost**
+
+Deze release bevat oplossingen voor de volgende kritieke problemen:
+
+* Wanneer u een map of een verzameling downloadt die elementen met kleurtags bevat, wordt ook een XML-bestand gedownload.
+* Wanneer u een video downloadt die uitvoeringen bevat, maakt Brand Portal een ongeldig ZIP-bestand.
+* Wanneer u voorinstellingen en elementen maakt op AEM auteur en deze publiceert naar Brand Portal en vervolgens dynamische vertoningen selecteert tijdens het downloaden van de elementen, kunt u het gedownloade ZIP-bestand niet uitpakken.
+* Problemen tijdens het downloaden van video-elementen uit bepaalde mappen op Brand Portal.
+* Wanneer u de URL van de map Contribution deelt via een e-mail, kunnen de rollen Viewer en Editor problemen ondervinden bij het openen van de bovenliggende map via de breadcrumb.
+* Het bron gepubliceerde rapport toont een onjuiste tijd van het baanbegin.
+
+### Release van februari 2022 {#feb-2022}
+
+**Nieuwe functies**
+
+* De drempel van sessietime-out voor de gastgebruikers is verlaagd van 2 uur naar 15 minuten.
+* De aanvullende **[!UICONTROL View pages]** Deze optie is verwijderd voor PDF met meerdere pagina&#39;s omdat de gebruiker de pagina&#39;s PDF nu kan bekijken in de Adobe Document Cloud Viewer.
+* De gebruikers kunnen niet naar mappen zoeken, navigeren of deze openen. De gebruikersinterface geeft het foutbericht weer: `Failed to load data`.
+* De **[!UICONTROL Renditions]** bevat niet alle statische uitvoeringen van de elementen die naar Brand Portal zijn gepubliceerd.
+* De **[!UICONTROL Renditions]** worden de slimme uitsnijduitvoeringen van het element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet voorvertonen of downloaden.
+* In het dialoogvenster Downloaden worden de slimme uitsnijduitvoeringen van het geselecteerde element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet downloaden.
+* Een gebruiker die geen beheerder is, krijgt alleen de oorspronkelijke uitvoering van het element wanneer een element wordt gedownload. Het systeem en de aangepaste uitvoeringen worden niet gedownload.
+* Wanneer u een zoekfilter toepast om een element te downloaden, wordt de knop `Download` is uitgeschakeld in het dialoogvenster Downloaden en de gebruiker kan het element niet downloaden.
+* Indien `Smart Tags` en (of) `Color Tags` zijn ingeschakeld, wordt in het dialoogvenster Downloaden de lijst `json` bestanden als vertoningen en downloadt deze `json` bestanden in de gearchiveerde ZIP-map.
+* De anonieme gebruikers kunnen geen elementen downloaden via een gedeelde koppeling omdat de koppeling wordt omgeleid naar de Brand Portal-aanmeldingspagina.
+* Het systeem geeft niet de juiste waarde weer voor het aantal actieve gelijktijdige gebruikers.
+
 <!--
 ### New Features {#new-features}
 
