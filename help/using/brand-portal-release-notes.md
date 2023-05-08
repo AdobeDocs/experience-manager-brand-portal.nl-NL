@@ -1,8 +1,8 @@
 ---
 title: Release-opmerkingen
 seo-title: Release Notes
-description: Lees meer over de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.02.0-release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
+description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.05.0-release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,50 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
+source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.02.0-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.05.0-release.
 
 ## Geen informatie {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2023.02.0 |
-| Datum | februari 2023 |
+| Versie | 2023.05.0 |
+| Datum | Mei 2023 |
 
 ## Overzicht {#overview}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
 
-## Nieuwe functies in 2023.02.0 {#whats-new-in-2023.02.0}
+## Nieuwe functies in 2023.05.0 {#whats-new-in-2023.05.0}
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
 #### Opgeloste problemen {#bug-fixes}
+
+Deze release bevat oplossingen voor de volgende kritieke problemen:
+* Als er een fout optreedt tijdens het downloaden van een element van een gedeelde koppeling, kunt u het `Notice` en `Close` de labels van de foutmelding zijn niet gelokaliseerd.
+* Brand Portal-schermen **Koptekstvelden aanvragen te groot** fout tijdens het openen van zoekfilters met `Filter` venster.
+
+### Bekende problemen {#known-issues}
+
+Deze release bevat de volgende bekende uitgave:
+
+* Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
+* Weinig velden in het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
+
+## Eerdere versies
+
+### Release van februari 2023 {#feb-2023}
+
+**Opgeloste problemen**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 * Profielafbeelding kan niet worden bijgewerkt op de Brand Portal.
@@ -44,7 +61,7 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 * De zoekresultaten zijn inconsistent voor dezelfde eigenschap die tweemaal in de zoekformulieren wordt gebruikt.
 * De tekst op de tussenliggende aanmeldingspagina&#39;s is niet voor alle talen gelokaliseerd.
 
-### Verbeteringen {#enhancements}
+**Verbeteringen**
 
 Deze release bevat de volgende verbeteringen:
 * Er is nu een nieuwe, moderne PDF-viewer beschikbaar voor een verbeterde voorvertoning van de PDF-elementen.
@@ -55,14 +72,12 @@ Deze release bevat de volgende verbeteringen:
 * Een niet-geautoriseerde gebruiker kan geen toegang tot de Brand Portal aanvragen als de toegang tot de aanvraag is uitgeschakeld.
 * De organisaties slechts die voor Brand Portal zijn provisioned zijn zichtbaar op de profielkiezerslijst.
 
-### Bekende problemen {#known-issues}
+**Bekende problemen**
 
 Deze release bevat de volgende bekende uitgave:
 
 * Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
 * Weinig velden in het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
-
-## Eerdere versies
 
 ### Release oktober 2022 {#oct-2022}
 

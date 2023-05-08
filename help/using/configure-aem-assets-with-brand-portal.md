@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
+source-git-commit: 454b05c05359a2068cc29124f826d5bd25a1bad1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
@@ -25,15 +25,15 @@ Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u func
 Het configureren van Experience Manager Assets met Brand Portal wordt ondersteund op:
 
 * Experience Manager Assets as a Cloud Service
-* Experience Manager Assets (on-premisse en beheerde service) 6.3 en hoger
+* Experience Manager Assets (on-premisse en beheerde service) 6.5 en hoger
 
 Experience Manager Assets as a Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal te activeren vanuit Cloud Manager. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de as a Cloud Service Experience Manager Assets-instantie.
 
-Terwijl Experience Manager Assets (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van de Ontwikkelaar van Adobe wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor toestemming van de huurder van Brand Portal koopt.
+Terwijl Experience Manager Assets (op gebouw en beheerde dienst) manueel met Brand Portal gebruikend de Console van Adobe Developer wordt gevormd, die een teken van de Diensten van Adobe Identity Management (IMS) voor vergunning van de huurder van Brand Portal aanschaft.
 
 >[!NOTE]
 >
->***Voor Experience Manager Assets 6.3 en hoger***
+>***Voor Experience Manager Assets 6.5 en hoger***
 >
 >Eerder, werd Brand Portal gevormd in klassieke interface via de Gateway van Legacy OAuth, die het token van het Web JSON (JWT) gebruikt om een teken IMS voor vergunning te verkrijgen.
 >
@@ -46,7 +46,7 @@ Terwijl Experience Manager Assets (op gebouw en beheerde dienst) manueel met Bra
 >
 >De verouderde configuratie van de Gateway OAuth zal blijven werkend voor bestaande klanten.
 >
->Voor het geval u problemen met erfenisOAuth configuratie tegenkomt, schrap de bestaande configuratie en creeer nieuwe configuratie via de Console van de Ontwikkelaar van Adobe.
+>Voor het geval u problemen met erfenisconfiguratie OAuth Gateway tegenkomt, schrap de bestaande configuratie en creeer nieuwe configuratie via de Console van Adobe Developer.
 
 De stappen voor het configureren van AEM Assets met Brand Portal zijn afhankelijk van uw AEM en of u de configuratie voor het eerst configureert of de bestaande configuraties bijwerkt:
 
@@ -54,6 +54,3 @@ De stappen voor het configureren van AEM Assets met Brand Portal zijn afhankelij
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Brand Portal activeren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 en hoger)** | [Configuratie maken](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgradeconfiguratie](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 en hoger)** | [Configuratie maken](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgradeconfiguratie](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3 (6.3.3.8 en hoger)** | [Configuratie maken](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgradeconfiguratie](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6,2** | Contact opnemen met Klantenondersteuning | Contact opnemen met Klantenondersteuning |
