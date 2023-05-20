@@ -31,23 +31,23 @@ Nadat de voorinstelling is gemaakt, wordt deze weergegeven als dynamische uitvoe
 
 >[!NOTE]
 >
->Als de AEM Author-instantie niet wordt uitgevoerd in **[!UICONTROL Dynamic Media Mode]** (klant heeft Dynamic Media niet aangeschaft), wordt de **[!UICONTROL Pyramid TIFF]**-uitvoering van de elementen niet gemaakt op het moment van uploaden. Afbeeldingsvoorinstellingen of dynamische uitvoeringen werken op **[!UICONTROL Pyramid TIFF]** van een element, dus als **[!UICONTROL Pyramid TIFF]** niet beschikbaar is op de AEM-auteur-instantie, is deze niet ook beschikbaar op Brand Portal. Hierdoor zijn er geen dynamische uitvoeringen aanwezig in de renditions rail of asset details page and download dialog.
+>Als de instantie AEM-auteur niet wordt uitgevoerd in **[!UICONTROL Dynamic Media Mode]** (klant heeft Dynamic Media niet aangeschaft), daarna **[!UICONTROL Pyramid TIFF]**  uitvoering van de elementen wordt niet gemaakt op het moment van uploaden. Voorinstellingen voor afbeeldingen of dynamische vertoningen werken met **[!UICONTROL Pyramid TIFF]** van een actief, zodat **[!UICONTROL Pyramid TIFF]** is niet beschikbaar op de AEM Author-instantie, dan is deze ook niet beschikbaar op Brand Portal. Hierdoor zijn er geen dynamische uitvoeringen aanwezig in de renditions rail of asset details page and download dialog.
 
 Voorinstellingen voor afbeeldingen publiceren naar Brand Portal:
 
-1. Tik/klik in de AEM-instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Image Presets]**.
-1. Selecteer de voorinstelling voor de afbeelding of meerdere voorinstellingen voor de afbeelding in de lijst met voorinstellingen voor de afbeelding en klik of tik op **[!UICONTROL Publish to Brand Portal]**.
+1. Tik/klik op het AEM logo in de AEM Author-instantie om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Image Presets]**.
+1. Selecteer de voorinstelling voor de afbeelding of meerdere voorinstellingen voor de afbeelding in de lijst met voorinstellingen voor afbeeldingen en klik/tik **[!UICONTROL Publish to Brand Portal]**.
 
 ![](assets/publishpreset.png)
 
 >[!NOTE]
 >
->Wanneer gebruikers op **[!UICONTROL Publish to Brand Portal]** klikken, worden de voorinstellingen in de wachtrij voor publicatie geplaatst. De gebruikers worden geadviseerd om het logboek van de replicatieagenten te controleren om te bevestigen of publiceerde succesvol was.
+>Wanneer gebruikers op **[!UICONTROL Publish to Brand Portal]** de voorinstellingen voor afbeeldingen in de wachtrij voor publicatie. De gebruikers worden geadviseerd om het logboek van de replicatieagenten te controleren om te bevestigen of publiceerde succesvol was.
 
 Publicatie van een voorinstelling voor afbeeldingen ongedaan maken vanuit Brand Portal:
 
-1. Tik/klik op het AEM logo in de AEM-instantie Auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram **[!UICONTROL Tools]** en navigeer naar **[!UICONTROL Assets > Image Presets]**.
-1. Selecteer een voorinstelling voor de afbeelding en selecteer **[!UICONTROL Remove from Brand Portal]** van de opties die boven beschikbaar zijn.
+1. Tik/klik op het AEM logo in de AEM Author-instantie om de globale navigatieconsole te openen en tik/klik op de knop **[!UICONTROL Tools]** pictogram en navigeer naar **[!UICONTROL Assets > Image Presets]**.
+1. Selecteer een afbeeldingsvoorinstelling en selecteer **[!UICONTROL Remove from Brand Portal]** van de opties beschikbaar bij de bovenkant.
 
 ## Metagegevensschema publiceren naar Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
@@ -71,30 +71,30 @@ Als gebruikers een aangepast schema hebben gemaakt op een instantie van AEM Auth
 
 Een metagegevensschema van een instantie van AEM-auteur naar Brand Portal publiceren:
 
-1. Tik/klik in de AEM-instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
-1. Selecteer een metagegevensschema en selecteer **[!UICONTROL Publish to Brand Portal]** van de opties die boven beschikbaar zijn.
+1. Tik/klik op het AEM logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
+1. Selecteer een metagegevensschema en selecteer **[!UICONTROL Publish to Brand Portal]** van de opties beschikbaar bij de bovenkant.
 
 >[!NOTE]
 >
->Wanneer gebruikers op **[!UICONTROL Publish to Brand Portal]** klikken, worden de metagegevensschema&#39;s in de wachtrij voor publicatie geplaatst. De gebruikers worden geadviseerd om het logboek van de replicatieagenten te controleren om te bevestigen of publiceerde succesvol was.
+>Wanneer gebruikers op **[!UICONTROL Publish to Brand Portal]**, worden de meta-gegevensschema&#39;s een rij gevormd voor publicatie. De gebruikers worden geadviseerd om het logboek van de replicatieagenten te controleren om te bevestigen of publiceerde succesvol was.
 
 Publicatie van een metagegevensschema vanuit Brand Portal ongedaan maken:
 
-1. Tik/klik in de AEM-instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
-1. Selecteer een metagegevensschema en selecteer **[!UICONTROL Remove from Brand Portal]** van de opties die boven beschikbaar zijn.
+1. Tik/klik op het AEM logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]**.
+1. Selecteer een metagegevensschema en selecteer **[!UICONTROL Remove from Brand Portal]** van de opties beschikbaar bij de bovenkant.
 
 ## Zoeken naar Brand Portal publiceren {#publish-search-facets-to-brand-portal}
 
-Met zoekformulieren kunt u [beperkte zoekopdrachten](../using/brand-portal-search-facets.md) naar gebruikers op Brand Portal sturen. Zoeken in facetten geeft zoekopdrachten op Brand Portal meer granulariteit. Alle [voorspellingen toegevoegd](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html) in het onderzoeksformulier zijn beschikbaar aan gebruikers als onderzoeksfacetten in onderzoeksfilters.
+Met zoekformulieren kunt u [facetzoekopdracht](../using/brand-portal-search-facets.md) aan gebruikers op Brand Portal. Zoeken in facetten geeft zoekopdrachten op Brand Portal meer granulariteit. Alle [toegevoegde voorspelling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html) in het zoekformulier beschikbaar zijn voor gebruikers als zoekfacetten in zoekfilters.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-Als u het aangepaste zoekformulier **[!UICONTROL Assets Admin Search Rail]** van AEM Author-instantie wilt gebruiken, kunt u het aangepaste zoekformulier publiceren van AEM Author-instantie naar Brand Portal in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.
+Als u een aangepast zoekformulier wilt gebruiken **[!UICONTROL Assets Admin Search Rail]** vanuit een instantie van AEM-auteur kunt u het aangepaste zoekformulier publiceren van AEM-auteur naar Brand Portal in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.
 
 >[!NOTE]
 >
->Vergrendeld zoekformulier **[!UICONTROL Assets Admin Search Rail]** op AEM Assets kan alleen worden gepubliceerd naar Brand Portal als het wordt bewerkt. Als dit zoekformulier eenmaal is bewerkt en gepubliceerd naar Brand Portal, wordt het zoekformulier op Brand Portal genegeerd.
+>Vergrendeld zoekformulier **[!UICONTROL Assets Admin Search Rail]** op AEM Assets kan alleen worden gepubliceerd als het wordt bewerkt. Als dit zoekformulier eenmaal is bewerkt en gepubliceerd naar Brand Portal, wordt het zoekformulier op Brand Portal genegeerd.
 
 De bewerkte zoekfacet publiceren van de instantie AEM-auteur naar Brand Portal:
 
@@ -103,21 +103,21 @@ De bewerkte zoekfacet publiceren van de instantie AEM-auteur naar Brand Portal:
 
    >[!NOTE]
    >
-   >Wanneer gebruikers op **[!UICONTROL Publish to Brand Portal]** klikken, worden de zoekfacetten in de wachtrij voor publicatie geplaatst. De gebruikers worden geadviseerd om het logboek van de replicatieagenten te controleren om te bevestigen of publiceerde succesvol was.
+   >Wanneer gebruikers op **[!UICONTROL Publish to Brand Portal]**, worden de zoekfacetten in de wachtrij voor publicatie geplaatst. De gebruikers worden geadviseerd om het logboek van de replicatieagenten te controleren om te bevestigen of publiceerde succesvol was.
 
 U kunt als volgt zoekformulieren verwijderen uit Brand Portal:
 
-1. Tik/klik in de AEM-instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL General > Search Forms]**.
-1. Selecteer het zoekformulier en selecteer **[!UICONTROL Remove from Brand Portal]** uit de opties die boven beschikbaar zijn.
+1. Tik/klik op het AEM logo in de instantie AEM-auteur om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL General > Search Forms]**.
+1. Selecteer het zoekformulier en selecteer **[!UICONTROL Remove from Brand Portal]** van de opties beschikbaar bij de bovenkant.
 
 >[!NOTE]
 >
->De handeling **[!UICONTROL Unpublish from Brand Portal]** laat het standaardzoekformulier op Brand Portal staan en herstelt het laatste zoekformulier dat is gebruikt voor publicatie niet.
+>De **[!UICONTROL Unpublish from Brand Portal]** blijft het standaardzoekformulier in Brand Portal en wordt het laatst gebruikte zoekformulier niet hersteld voordat het wordt gepubliceerd.
 
 ### Beperkingen {#limitations}
 
-1. Weinig zoekvoorspellen zijn niet van toepassing op zoekfilters op de Brand Portal. Wanneer deze zoekvoorspelling wordt gepubliceerd als onderdeel van het zoekformulier van de AEM Author-instantie naar Brand Portal, worden ze uitgefilterd. Gebruikers zien daarom minder voorspellingen in de gepubliceerde vorm op de Brand Portal. Zie [Zoekvoorspelling van toepassing op filters op Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+1. Weinig zoekvoorspellen zijn niet van toepassing op zoekfilters op de Brand Portal. Wanneer deze zoekvoorspelling wordt gepubliceerd als onderdeel van het zoekformulier van de AEM Author-instantie naar Brand Portal, worden ze uitgefilterd. Gebruikers zien daarom minder voorspellingen in de gepubliceerde vorm op de Brand Portal. Zie [zoekvoorspelling van toepassing op filters op Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-1. Als een gebruiker voor [!UICONTROL Options Predicate] een aangepast pad gebruikt om opties te lezen bij een instantie van AEM-auteur, werkt deze niet bij de Brand Portal. Deze extra paden en opties worden niet met het zoekformulier naar Brand Portal gepubliceerd. In dit geval kunnen gebruikers de optie **[!UICONTROL Manual]** in **[!UICONTROL Add Options]** in **[!UICONTROL Options Predicate]** selecteren om deze opties handmatig in Brand Portal toe te voegen.
+1. Voor [!UICONTROL Options Predicate]Als een gebruiker een aangepast pad gebruikt om opties te lezen bij een instantie van AEM Author, werkt dit niet bij de Brand Portal. Deze extra paden en opties worden niet met het zoekformulier naar Brand Portal gepubliceerd. In dit geval kunnen gebruikers de optie **[!UICONTROL Manual]** optie in **[!UICONTROL Add Options]** binnen **[!UICONTROL Options Predicate]** om deze opties handmatig toe te voegen in Brand Portal.
 
 ![](assets/options-predicate-manual.png)

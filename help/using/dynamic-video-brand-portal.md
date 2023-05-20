@@ -74,9 +74,9 @@ De IP&#39;s van de egress zijn als volgt:
 
 | **Regio** | **IP van de uitgang** |
 |--- |--- |
-| NA | 130.248.160.68, 20.94.203.130 |
-| EMEA | 185.34.189.3, 51.132.146.75 |
-| APAC | 63 140 44 54 |
+| NA | 130.248.160.68,  20.94.203.130 |
+| EMEA | 185.34.189.3,  51.132.146.75 |
+| APAC | 63.140.44.54 |
 
 Om één van beiden van deze uitgang IPs toe te staan, zie [uw account voorbereiden voor een veilige testservice](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
@@ -97,7 +97,7 @@ Zorg ervoor dat de configuratiegegevens in Brand Portal gelijk zijn en **[!UICON
 
 * **[!UICONTROL Title]**
 * **[!UICONTROL Registration ID]**
-* **[!UICONTROL Video Service URL]** inch **[!UICONTROL Dynamic Media - Hybrid mode]**
+* **[!UICONTROL Video Service URL]** in **[!UICONTROL Dynamic Media - Hybrid mode]**
 * **[!UICONTROL Title]**
 * Referenties (**[!UICONTROL Email]** en wachtwoord)
 * **[!UICONTROL Region]**
@@ -112,9 +112,9 @@ De IP&#39;s van de uitgang zijn als volgt:
 
 | **Regio** | **IP van de uitgang** |
 |--- |--- |
-| NA | 130.248.160.66, 52.151.32.108 |
-| EMEA | 185 34 189,1 |
-| APAC | 63 140 44 54 |
+| NA | 130.248.160.66,  52.151.32.108 |
+| EMEA | 185.34.189.1 |
+| APAC | 63.140.44.54 |
 
 ## Dynamic Media-instellingen (hybride) configureren {#configure-dm-hybrid-settings}
 

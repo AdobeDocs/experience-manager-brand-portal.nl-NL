@@ -1,5 +1,5 @@
 ---
-title: 'Contribute-map van Experience Manager Assets naar Brand Portal configureren en publiceren '
+title: Contribute-map van Experience Manager Assets naar Brand Portal configureren en publiceren
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
 description: Meer informatie over het configureren en publiceren van een bijdragemap van Experience Manager Assets naar Brand Portal.
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.

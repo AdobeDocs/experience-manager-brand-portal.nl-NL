@@ -34,11 +34,11 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 
    ![](assets/admin-tools-panel-10.png)
 
-1. Op de linkerspoorstaaf van de **[!UICONTROL Configure Branding]** pagina, **[!UICONTROL Wallpaper]** wordt geselecteerd door gebrek. De standaardachtergrondafbeelding die op de aanmeldingspagina wordt weergegeven, wordt weergegeven.
+1. Op de linkerspoorstaaf van de **[!UICONTROL Configure Branding]** pagina, **[!UICONTROL Wallpaper]** is standaard geselecteerd. De standaardachtergrondafbeelding die op de aanmeldingspagina wordt weergegeven, wordt weergegeven.
 
    ![](assets/default_wallpaper.png)
 
-1. Als u een nieuwe achtergrondafbeelding wilt toevoegen, klikt u op het pictogram **[!UICONTROL Choose Image]** op de werkbalk boven in het scherm.
+1. Als u een nieuwe achtergrondafbeelding wilt toevoegen, klikt u op de knop **[!UICONTROL Choose Image]** van de werkbalk bovenaan.
 
    ![](assets/choose_wallpaperimage.png)
 
@@ -49,17 +49,17 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 
    ![](assets/asset-picker.png)
 
-1. Geef een koptekst en beschrijving op voor de achtergrondafbeelding. Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Save]** op de werkbalk boven in het venster.
+1. Geef een koptekst en beschrijving op voor de achtergrondafbeelding. Klik op **[!UICONTROL Save]** van de werkbalk bovenaan.
 
-1. Klik op de werkbalk boven in het scherm op het pictogram **[!UICONTROL Preview]** om een voorbeeld van de Brand Portal-interface met de afbeelding te genereren.
+1. Klik in de werkbalk bovenaan op de knop **[!UICONTROL Preview]** om een voorvertoning van de Brand Portal-interface met de afbeelding te genereren.
 
    ![](assets/chlimage_1.png)
 
    ![](assets/custom-wallpaper-preview.png)
 
-1. Als u de standaardachtergrond wilt activeren of deactiveren, voert u de volgende handelingen uit op de pagina **[!UICONTROL Configure Branding > Wallpaper]**:
+1. Voer de volgende handelingen uit in het dialoogvenster **[!UICONTROL Configure Branding > Wallpaper]** pagina:
 
-   * Als u de standaardachtergrondafbeelding op de Brand Portal-aanmeldingspagina wilt weergeven, klikt u op **[!UICONTROL Deactivate Wallpaper]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de aangepaste afbeelding is gedeactiveerd.
+   * Als u de standaardachtergrondafbeelding op de Brand Portal-aanmeldingspagina wilt weergeven, klikt u op **[!UICONTROL Deactivate Wallpaper]** van de werkbalk bovenaan. Een bericht bevestigt dat de aangepaste afbeelding is gedeactiveerd.
 
    ![](assets/chlimage_1-1.png)
 
@@ -67,7 +67,7 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
 
    ![](assets/chlimage_1-2.png)
 
-   * Klik **[!UICONTROL Save]** om de veranderingen te bewaren.
+   * Klikken **[!UICONTROL Save]** om de wijzigingen op te slaan.
 
 
 
@@ -83,11 +83,11 @@ De koptekst wordt weergegeven op verschillende Brand Portal-pagina&#39;s nadat u
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Als u de paginakoptekst voor de Brand Portal-interface wilt aanpassen, selecteert u **[!UICONTROL Header Image]** op de pagina in de linkertrack. **[!UICONTROL Configure Branding]** De standaardkoptekstafbeelding wordt weergegeven.
+1. Als u de paginakoptekst voor de Brand Portal-interface wilt aanpassen, klikt u op de knop **[!UICONTROL Configure Branding]** pagina, selecteert u **[!UICONTROL Header Image]** van de linkerspoorstaaf. De standaardkoptekstafbeelding wordt weergegeven.
 
    ![](assets/default-header.png)
 
-1. Als u een koptekstafbeelding wilt uploaden, klikt u op het pictogram **[!UICONTROL Choose Image]** en kiest u **[!UICONTROL Upload]**.
+1. Als u een koptekstafbeelding wilt uploaden, klikt u op de knop **[!UICONTROL Choose Image]** pictogram en kies **[!UICONTROL Upload]**.
 
    Als u een bestaande Brand Portal-afbeelding wilt gebruiken, kiest u **[!UICONTROL Select from existing]**.
 
@@ -97,29 +97,29 @@ De koptekst wordt weergegeven op verschillende Brand Portal-pagina&#39;s nadat u
 
    ![](assets/asset-picker-header.png)
 
-1. Als u een URL wilt opnemen in de koptekstafbeelding, geeft u deze op in het vak **[!UICONTROL Image URL]**. U kunt externe of interne URL&#39;s opgeven. Interne koppelingen kunnen bijvoorbeeld ook relatieve koppelingen zijn.
+1. Als u een URL in de koptekstafbeelding wilt opnemen, geeft u deze op in het dialoogvenster **[!UICONTROL Image URL]** doos. U kunt externe of interne URL&#39;s opgeven. Interne koppelingen kunnen bijvoorbeeld ook relatieve koppelingen zijn.
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
 Deze koppeling leidt gebruikers naar de map tags.
-Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Save]** op de werkbalk boven in het venster.
+Klik op **[!UICONTROL Save]** van de werkbalk bovenaan.
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Klik op de werkbalk boven in het scherm op het pictogram **[!UICONTROL Preview]** om een voorvertoning van de Brand Portal-interface met de koptekstafbeelding te genereren.
+1. Klik in de werkbalk bovenaan op de knop **[!UICONTROL Preview]** om een voorvertoning van de Brand Portal-interface met de koptekstafbeelding te genereren.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-1. U activeert of deactiveert de koptekstafbeelding door op de pagina **[!UICONTROL Configure Branding > Header Image]** het volgende te doen:
+1. Voer de volgende handelingen uit in het dialoogvenster **[!UICONTROL Configure Branding > Header Image]** pagina:
 
-   * Als u wilt voorkomen dat een koptekstafbeelding op Brand Portal-pagina&#39;s wordt weergegeven, klikt u op **[!UICONTROL Deactivate Header]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de afbeelding is gedeactiveerd.
+   * Als u wilt voorkomen dat een koptekstafbeelding op Brand Portal-pagina&#39;s wordt weergegeven, klikt u op **[!UICONTROL Deactivate Header]** van de werkbalk bovenaan. Een bericht bevestigt dat de afbeelding is gedeactiveerd.
 
    ![](assets/chlimage_1-4.png)
 
-   * Als u de koptekstafbeelding weer wilt weergeven op Brand Portal-pagina&#39;s, klikt u op **[!UICONTROL Activate Header]** op de werkbalk boven in het scherm. Een bericht bevestigt dat de afbeelding is geactiveerd.
+   * Als u de koptekstafbeelding weer wilt weergeven op Brand Portal-pagina&#39;s, klikt u op **[!UICONTROL Activate Header]** van de werkbalk bovenaan. Een bericht bevestigt dat de afbeelding is geactiveerd.
 
    ![](assets/chlimage_1-5.png)
 
-   * Klik **[!UICONTROL Save]** om de veranderingen te bewaren.
+   * Klikken **[!UICONTROL Save]** om de wijzigingen op te slaan.
 
 
 
@@ -135,13 +135,13 @@ Wanneer elementen als een koppeling worden gedeeld, ontvangen gebruikers een e-m
 
    ![](assets/admin-tools-panel-12.png)
 
-1. Wanneer middelen als koppelingen worden gedeeld of via e-mail worden gedownload en wanneer **[!UICONTROL collections]** wordt gedeeld, worden e-mailmeldingen naar gebruikers verzonden. Als u het e-mailbericht wilt aanpassen, selecteert u **[!UICONTROL Email Message]** op de pagina **[!UICONTROL Configure Branding]** in de linkertrack.
+1. Wanneer elementen worden gedeeld als koppelingen of via e-mail worden gedownload en wanneer  **[!UICONTROL collections]** worden gedeeld, worden de e-mailberichten verzonden naar gebruikers. Als u het e-mailbericht wilt aanpassen, klikt u op de knop **[!UICONTROL Configure Branding]** pagina, selecteert u **[!UICONTROL Email Message]** van de linkerspoorstaaf.
 
    ![](assets/configure-branding-page-email.png)
 
-1. Als u een logo wilt toevoegen aan uitgaande e-mails, klikt u op **[!UICONTROL Upload]** op de werkbalk boven in het scherm.
+1. Als u een logo wilt toevoegen aan uitgaande e-mails, klikt u op **[!UICONTROL Upload]** van de werkbalk bovenaan.
 
-1. Geef in de sectie **[!UICONTROL Description]** de tekst voor de kop- en voettekst van de e-mail op. Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Save]** op de werkbalk boven in het venster.
+1. In de **[!UICONTROL Description]** de kop- en voettekst van de e-mail op. Klik op **[!UICONTROL Save]** van de werkbalk bovenaan.
 
    >[!NOTE]
    >

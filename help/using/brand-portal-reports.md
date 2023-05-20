@@ -1,7 +1,7 @@
 ---
 title: Werken met rapporten
 seo-title: Work with reports
-description: De Beheerders van Assets Brand Portal van de Experience Manager kunnen rapport over het gebruik van Brand Portal bekijken, en tot stand brengen, leiden, en meningsrapporten rond activa die worden gedownload, verlopen, gepubliceerd, en verbinding die door Brand Portal wordt gedeeld.
+description: Experience Manager Assets Brand Portal-beheerders kunnen rapporten weergeven over het gebruik van Brand Portal en rapporten maken, beheren en weergeven over gedownloade, verlopen, gepubliceerde en via Brand Portal gedeelde elementen.
 seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
@@ -31,11 +31,11 @@ Voer de volgende stappen uit om een rapport weer te geven:
 
    ![](assets/aemlogo.png)
 
-1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Create/Manage Reports]** om de pagina **[!UICONTROL Asset Reports]** te openen.
+1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Create/Manage Reports]** openen **[!UICONTROL Asset Reports]** pagina.
 
    ![](assets/access-asset-reports.png)
 
-1. Open het **[!UICONTROL Usage]**-rapport en andere gegenereerde rapporten op de pagina Asset Reports.
+1. Toegang **[!UICONTROL Usage]** rapporten en andere gegenereerde rapporten op de pagina Asset Reports.
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om een rapport weer te geven:
 
    Klik op de rapportkoppeling om een rapport weer te geven. U kunt ook het rapport selecteren en op het pictogram Weergave op de werkbalk tikken of erop klikken.
 
-   **[!UICONTROL Usage Report]** geeft informatie weer over het aantal actieve Brand Portal-gebruikers, de opslagruimte die door alle elementen wordt ingenomen en het totale aantal elementen in Brand Portal. De merkportalgebruikers die niet aan enig productprofiel in de Admin Console worden toegewezen worden beschouwd als inactieve gebruikers en niet weerspiegeld in **[!UICONTROL Usage Report]**.
+   **[!UICONTROL Usage Report]** geeft informatie weer over het aantal actieve Brand Portal-gebruikers, de opslagruimte die door alle elementen wordt ingenomen en het totale aantal elementen in Brand Portal. De merkportalgebruikers die niet aan enig productprofiel in de Admin Console worden toegewezen worden beschouwd als inactieve gebruikers en niet weerspiegeld in het **[!UICONTROL Usage Report]**.
 Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetriek.
 
    ![](assets/usage-report.png)
@@ -58,13 +58,13 @@ Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetri
 
    >[!NOTE]
    >
-   >In het middelenrapport **[!UICONTROL Download]** worden alleen de elementen weergegeven die afzonderlijk zijn geselecteerd en gedownload van Brand Portal. Als een gebruiker een map met elementen heeft gedownload, geeft het rapport de map of de elementen in de map niet weer.
+   >De activa **[!UICONTROL Download]** In dit rapport worden alleen de elementen weergegeven die afzonderlijk zijn geselecteerd en gedownload van Brand Portal. Als een gebruiker een map met elementen heeft gedownload, geeft het rapport de map of de elementen in de map niet weer.
 
    **[!UICONTROL Expiration]** het rapport maakt een lijst en details van alle activa die in een specifiek tijdkader verliepen.
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]** het rapport maakt een lijst en geeft informatie over alle activa die van de Activa van de Experience Manager aan Brand Portal in een gespecificeerd tijdkader worden gepubliceerd.
+   **[!UICONTROL Publish]** Het rapport bevat een lijst en informatie over alle elementen die in een opgegeven tijdsperiode van Experience Manager Assets naar Brand Portal zijn gepubliceerd.
 
    ![](assets/publish-report.png)
 
@@ -80,11 +80,11 @@ Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetri
    >
    >Het rapport Delen van koppeling geeft geen gebruikers weer die toegang hebben tot het element dat via de koppeling wordt gedeeld of dat het element via de koppeling heeft gedownload.
    >
-   >Voor het volgen van downloads door de gedeelde verbinding, moet u downloadrapport produceren na het selecteren van **[!UICONTROL Only Link Share Downloads]** optie op **[!UICONTROL Create Report]** pagina. De gebruiker (Gedownload door) is in dit geval echter anoniem.
+   >Voor het volgen van downloads door de gedeelde verbinding, moet u downloadrapport produceren na het selecteren **[!UICONTROL Only Link Share Downloads]** optie aan **[!UICONTROL Create Report]** pagina. De gebruiker (Gedownload door) is in dit geval echter anoniem.
 
 ## Rapporten genereren {#generate-reports}
 
-Beheerders kunnen de volgende standaardrapporten genereren en beheren, wanneer deze eenmaal zijn gegenereerd, worden deze opgeslagen om later [benaderd](../using/brand-portal-reports.md#main-pars-header) te worden:
+Beheerders kunnen de volgende standaardrapporten genereren en beheren, zodra deze zijn gegenereerd, worden deze opgeslagen om [benaderd](../using/brand-portal-reports.md#main-pars-header) later:
 
 * Aanmeldingsgegevens gebruiker
 * Downloaden
@@ -96,20 +96,20 @@ De kolommen in het rapport Downloaden, Verlopen en Publiceren kunnen worden aang
 
 1. Tik op het logo van de Experience Manager of klik op de werkbalk boven in het scherm om beheergereedschappen te openen.
 
-1. Tik in het deelvenster met beheergereedschappen op **[!UICONTROL Create/Manage Reports]** om de pagina **[!UICONTROL Asset Reports]** te openen.
+1. Tik/klik in het deelvenster met beheergereedschappen op **[!UICONTROL Create/Manage Reports]** openen **[!UICONTROL Asset Reports]** pagina.
 
    ![](assets/asset-reports.png)
 
-1. Tik/klik op **[!UICONTROL Create]** op de pagina Elementrapporten.
-1. Selecteer op de pagina **[!UICONTROL Create Report]** een rapport dat u wilt maken en tik op **[!UICONTROL Next]**.
+1. Tik/klik op de pagina Elementrapporten **[!UICONTROL Create]**.
+1. Van de **[!UICONTROL Create Report]** pagina, selecteert u een rapport dat u wilt maken en tikt/klikt u op **[!UICONTROL Next]**.
 
    ![](assets/crete-report.png)
 
-1. Configureer rapportdetails. Geef een titel, beschrijving, mapstructuur op (waar rapporten moeten worden uitgevoerd en gegenereerd) en geef een datumbereik op voor **[!UICONTROL Download]**-, **[!UICONTROL Expiration]**- en **[!UICONTROL Publish]**-rapporten.
+1. Configureer rapportdetails. Geef een titel, beschrijving, mapstructuur op (waar het rapport statistieken moet uitvoeren en genereren) en geef een datumbereik op voor **[!UICONTROL Download]**, **[!UICONTROL Expiration]**, en **[!UICONTROL Publish]** rapporten.
 
    ![](assets/create-report-page.png)
 
-   Terwijl **[!UICONTROL Link Share Report]** alleen de parameters titel, beschrijving en datumbereik nodig heeft.
+   Overwegende dat **[!UICONTROL Link Share Report]** heeft alleen de parameters titel, beschrijving en datumbereik nodig.
 
    ![](assets/create-link-share-report.png)
 
@@ -117,8 +117,8 @@ De kolommen in het rapport Downloaden, Verlopen en Publiceren kunnen worden aang
    >
    >Speciale tekens # en % in de rapporttitel worden vervangen door een afbreekstreepje (-) bij het genereren van het rapport.
 
-1. Tik/klik **[!UICONTROL Next]** om de kolommen van Download, Expiration, en Publish rapporten te vormen.
-1. Schakel de desbetreffende selectievakjes naar wens in of uit. Als u bijvoorbeeld de namen van gebruikers (die elementen hebben gedownload) in het **[!UICONTROL Download]**-rapport wilt weergeven, selecteert u **[!UICONTROL Downloaded By]**. De volgende afbeelding illustreert het selecteren van standaardkolommen in het rapport Downloaden.
+1. Tikken/klikken **[!UICONTROL Next]** om de kolommen met Download-, Expiration- en Publish-rapporten te configureren.
+1. Schakel de desbetreffende selectievakjes naar wens in of uit. Als u bijvoorbeeld de namen van gebruikers (die elementen hebben gedownload) wilt weergeven in **[!UICONTROL Download]** rapport, selecteren **[!UICONTROL Downloaded By]**. De volgende afbeelding illustreert het selecteren van standaardkolommen in het rapport Downloaden.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ De kolommen in het rapport Downloaden, Verlopen en Publiceren kunnen worden aang
 
    Ga als volgt te werk om aangepaste kolommen toe te voegen aan het rapport Downloaden, Publiceren of Verlopen:
 
-   1. Tik op **[!UICONTROL Add]** in [!UICONTROL Custom Columns] om een aangepaste kolom weer te geven.
-   1. Geef de naam van de kolom op in het veld **[!UICONTROL Column Name]**.
+   1. Tik/klik op een aangepaste kolom om deze weer te geven **[!UICONTROL Add]** binnen [!UICONTROL Custom Columns].
+   1. Geef de naam van de kolom op in **[!UICONTROL Column Name]** veld.
    1. Selecteer de eigenschap waaraan de kolom moet worden toegewezen met behulp van de eigenschapkiezer.
 
       ![](assets/property-picker.png)
@@ -135,7 +135,7 @@ U kunt ook het pad typen in het veld Pad eigenschap.
 
       ![](assets/property-path.png)
 
-      Tik op **Toevoegen** en herhaal stap 2 en 3 om meer aangepaste kolommen toe te voegen.
+      Tik op of klik om meer aangepaste kolommen toe te voegen **Toevoegen** en herhaal stap 2 en 3.
 
 1. Tik of klik op **[!UICONTROL Create]**. Een bericht meldt dat de rapportgeneratie is in werking gesteld.
 
@@ -143,17 +143,17 @@ U kunt ook het pad typen in het veld Pad eigenschap.
 
 Voer een van de volgende handelingen uit om een rapport op te slaan en te downloaden als CSV-bestand:
 
-* Selecteer een rapport op de pagina Asset Reports en tik op **[!UICONTROL Download]** op de werkbalk boven in het scherm.
+* Selecteer een rapport op de pagina Asset Reports en tik/klik op **[!UICONTROL Download]** van de werkbalk bovenaan.
 
 ![](assets/download-asset-report.png)
 
-* Open een rapport op de pagina Asset Reports. Selecteer **[!UICONTROL Download]** optie van de bovenkant van de rapportpagina.
+* Open een rapport op de pagina Asset Reports. Selecteren **[!UICONTROL Download]** boven aan de rapportpagina.
 
 ![](assets/download-report-fromwithin.png)
 
 ## Rapporten verwijderen {#delete-reports}
 
-Als u een bestaand rapport wilt verwijderen, selecteert u het rapport op de pagina **[!UICONTROL Asset Reports]** en tikt u op **[!UICONTROL Delete]** op de werkbalk boven in het venster.
+Om een bestaand rapport te schrappen, selecteer het rapport van **[!UICONTROL Asset Reports]** pagina en tik/klik **[!UICONTROL Delete]** van de werkbalk bovenaan.
 
 >[!NOTE]
 >

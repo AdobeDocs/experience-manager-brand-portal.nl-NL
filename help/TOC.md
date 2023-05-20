@@ -4,21 +4,21 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: Adobe Experience Manager Assets Brand Portal
-breadcrumb-title: Brand Portal Guide
+breadcrumb-title: Handleiding voor Brand Portal
 user-guide-description: Gebruik Experience Manager Assets Brand Portal om aan de marketingbehoeften te voldoen door goedgekeurde merk- en productmiddelen veilig te distribueren aan externe bureaus, partners, interne teams en wederverkopers voor downloaden.
 feature: Brand Portal
 role: User
 source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 9%
+ht-degree: 26%
 
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal Guide {#using}
+# Adobe Experience Manager Assets Brand Portal Handleiding {#using}
 
-+ [Brand Portal Guide](using/home.md)
++ [Handleiding voor Brand Portal](using/home.md)
 + Inleiding {#introduction}
    + [Overzicht](using/brand-portal.md)
    + [Nieuwe functies in Experience Manager Assets Brand Portal](using/whats-new.md)

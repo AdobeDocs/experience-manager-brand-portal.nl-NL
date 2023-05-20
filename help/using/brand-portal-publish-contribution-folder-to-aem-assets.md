@@ -61,7 +61,7 @@ U kunt ook de opdracht **[!UICONTROL SHARED]** en klik op de knop **Downloaden**
 
    ![](assets/download-asset-requirement5.png)
 
-Doorloop het korte document (document met elementvereisten) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
+Doorloop de samenvatting (document met vereisten voor elementen) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
 
 
 ## Elementen uploaden naar de bijdragemap {#upload-new-assets-to-contribution-folder}

@@ -86,7 +86,7 @@ Deze release bevat de volgende bekende uitgave:
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 * Langzame reactietijden terwijl het kopiëren van grote dossiers van Brand Portal aan een derdehulpmiddel.
 * Als u het selectievakje voor het aantal vertoningen inschakelt, worden de selectievakjes voor het selecteren van afzonderlijke uitvoeringen uitgeschakeld.
-* Langzame reactietijd voor zoeken.
+* Trage reactietijd voor zoeken.
 
 >[!IMPORTANT]
 >

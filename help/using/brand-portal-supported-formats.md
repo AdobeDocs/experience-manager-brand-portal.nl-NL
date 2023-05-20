@@ -1,7 +1,7 @@
 ---
 title: Ondersteunde bestandsindelingen
 seo-title: Supported file formats
-description: 'Elke Experience Manager Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix. '
+description: Elke Experience Manager Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -54,12 +54,12 @@ Elke Experience Manager Assets Brand Portal ondersteunt specifieke bestandsindel
 | INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PS | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | QXP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
-| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| ePub | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | AAC | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MIDI | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MP3 | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
-| MP4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
+| Mp4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
 | Mpg | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | OGA | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
 | OGG | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |

@@ -27,17 +27,17 @@ Met Experience Manager Assets Brand Portal kunnen organisaties de volgende mogel
 * Creatie van slimme openbare verzamelingen door gebruikers zonder beheerdersrechten
 * Bovenliggende hiërarchie van gedeelde mappen zichtbaar voor gebruikers zonder beheerdersrechten
 
-Deze configuraties zijn opgegeven als **[!UICONTROL General Settings]** configuraties in het deelvenster met beheergereedschappen.
+Deze configuraties zijn geleverd als **[!UICONTROL General Settings]** configuraties in het deelvenster met beheergereedschappen.
 
 ![](assets/general-config.png)
 
-****   AConfiguration om beheerders toe te staan om activa van Brand Portal te schrappen. (Standaard is ingeschakeld)
+**A**   Configuratie waarmee beheerders elementen uit Brand Portal kunnen verwijderen. (Standaard is ingeschakeld)
 
-****   BConfiguration om de gebruikers niet-admin toe te staan om openbare inzamelingen tot stand te brengen. (Standaard is ingeschakeld)
+**B**   Configuratie om de gebruikers niet-admin toe te staan om openbare inzamelingen tot stand te brengen. (Standaard is ingeschakeld)
 
-**Configuratie**   waarmee gebruikers die geen beheerder zijn, openbare slimme verzamelingen kunnen maken. (Standaard is ingeschakeld)
+**C**   Configuratie om de gebruikers niet-admin toe te staan om openbare slimme inzamelingen tot stand te brengen. (Standaard is ingeschakeld)
 
-****  DConfiguration om maphiërarchie (van de wortel) van gedeelde omslagen aan niet-admingebruikers (Editors, Kijkers, de Gebruikers van de Gast) te tonen. (Standaard is uitgeschakeld)
+**D**  Configuratie om de maphiërarchie (vanuit de hoofdmap) van gedeelde mappen weer te geven aan gebruikers die geen beheerder zijn (Editors, Viewers, Gastgebruikers). (Standaard is uitgeschakeld)
 
 ## Algemene configuraties inschakelen/uitschakelen {#enable-disable-general-configurations}
 
@@ -45,7 +45,7 @@ Om elk van deze configuraties toe te laten/onbruikbaar te maken:
 
 1. Meld u aan met beheerdersrechten.
 1. Selecteer het logo van de Experience Manager voor toegang tot de beheergereedschappen op de werkbalk boven in het scherm.
-1. Selecteer **[!UICONTROL General]** in het deelvenster met beheergereedschappen om de pagina **[!UICONTROL General Settings]** te openen.
+1. Selecteer in het deelvenster met beheergereedschappen de optie **[!UICONTROL General]** om de **[!UICONTROL General Settings]** pagina.
 1. Gebruik de respectieve knevelschakelaar om het even welke Algemene configuraties toe te laten/onbruikbaar te maken.
 1. **[!UICONTROL Save]** de wijzigingen.
 1. Afmelden om de wijzigingen van kracht te laten worden.
@@ -56,7 +56,7 @@ Om elk van deze configuraties toe te laten/onbruikbaar te maken:
 
 ## Openbare collecties maken door niet-beheerders toestaan {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Allow public collections creation]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) De configuratie controleert of niet-beheerders openbare inzamelingen op Brand Portal kunnen tot stand brengen. De configuratie is standaard ingeschakeld. Door de configuratieorganisaties onbruikbaar te maken kunnen het hebben van talrijke openbare inzamelingen op hun portaal verhinderen zodat de systeemruimte kan worden bewaard.
+[[!UICONTROL Allow public collections creation]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) de configuratie controleert of de niet beheerders openbare inzamelingen op Brand Portal kunnen tot stand brengen. De configuratie is standaard ingeschakeld. Door de configuratieorganisaties onbruikbaar te maken kunnen het hebben van talrijke openbare inzamelingen op hun portaal verhinderen zodat de systeemruimte kan worden bewaard.
 
 ## Maken van openbare slimme verzamelingen door niet-beheerders toestaan {#allow-public-smart-collections-creation-by-non-admins}
 

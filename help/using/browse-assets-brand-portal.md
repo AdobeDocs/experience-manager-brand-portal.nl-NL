@@ -12,7 +12,7 @@ exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
 source-wordcount: '999'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Naam
 * Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
 * Grootte
-* Dimensies
+* Dimension
 
 U kunt de hiërarchie omlaag navigeren door op kaarten te tikken of erop te klikken (zorg dat u de snelle handelingen niet uitvoert) of weer omhoog met de knop [broodkruimels in de koptekst](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
@@ -140,7 +140,7 @@ Wanneer een element is geselecteerd in de kolomweergave, wordt de visuele weerga
 
 * Titel
 * Naam
-* Dimensies
+* Dimension
 * Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
 * Grootte
 * Type

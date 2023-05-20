@@ -7,11 +7,11 @@ exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: 08162bdd26983c0362598625e26705addd32975f
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
-# Adobe Experience Manager Assets Brand Portal Guide {#aem-brand-portal}
+# Adobe Experience Manager Assets Brand Portal Handleiding {#aem-brand-portal}
 
 **Adobe Experience Manager Assets Brand Portal** de organisaties van hulp om aan hun marketing behoeften te voldoen door goedgekeurde merk en productactiva aan externe agentschappen, partners, interne teams, en wederverkopers voor download veilig te verdelen.
 
