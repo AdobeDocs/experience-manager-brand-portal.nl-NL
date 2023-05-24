@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
+source-git-commit: f56918ea8eb14ba04b7e141f4f1cae318e532512
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -112,8 +112,8 @@ De IP&#39;s van de uitgang zijn als volgt:
 
 | **Regio** | **IP van de uitgang** |
 |--- |--- |
-| NA | 130.248.160.66,  52.151.32.108 |
-| EMEA | 185.34.189.1 |
+| NA | 130.248.160.66, 20.94.203.130 |
+| EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
 | APAC | 63.140.44.54 |
 
 ## Dynamic Media-instellingen (hybride) configureren {#configure-dm-hybrid-settings}
