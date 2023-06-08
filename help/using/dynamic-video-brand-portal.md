@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: f56918ea8eb14ba04b7e141f4f1cae318e532512
+source-git-commit: beabaa4e5cca4c2554111861b15902cac54ccd4c
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -112,7 +112,7 @@ De IP&#39;s van de uitgang zijn als volgt:
 
 | **Regio** | **IP van de uitgang** |
 |--- |--- |
-| NA | 130.248.160.66, 20.94.203.130 |
+| NA | 130.248.160.68, 20.94.203.130 |
 | EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
 | APAC | 63.140.44.54 |
 
