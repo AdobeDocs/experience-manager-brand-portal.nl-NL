@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
+source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1203'
 ht-degree: 1%
 
 ---
@@ -36,14 +36,14 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
-#### Opgeloste problemen en verbeteringen {#bug-fixes-enhancements}
+#### Oplossingen en verbeteringen voor problemen {#bug-fixes-enhancements}
 
-Deze release bevat oplossingen voor de volgende verbeteringen:
+Deze release bevat de volgende verbeteringen:
 
 * Prestatieverbeteringen tijdens het laden van elementen op de [!UICONTROL Download] pop-up.
 * Wanneer u een middel of een vertoning van een middel downloadt, wordt het nu gedownload in zijn originele dossiertype formaat in plaats van een zip dossier.
 
-In deze release zijn de volgende opgeloste problemen opgelost:
+Deze release bevat de volgende opgeloste problemen:
 
 * De lange labels of labels worden niet correct weergegeven voor zoekfilters.
 * Kan namen van lange vertoningen niet weergeven in het dialoogvenster Downloaden.
