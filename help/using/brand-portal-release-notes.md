@@ -1,8 +1,8 @@
 ---
 title: Release-opmerkingen
 seo-title: Release Notes
-description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.05.0-release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
+description: Lees meer over de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.08.0-release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,52 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
+source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1207'
 ht-degree: 1%
 
 ---
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.05.0-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.08.0-release.
 
-## Geen informatie {#release-information}
+## Gegevens vrijgeven {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2023.05.0 |
-| Datum | Mei 2023 |
+| Versie | 2023.08.0 |
+| Datum | augustus 2023 |
 
 ## Overzicht {#overview}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
 
-## Nieuwe functies in 2023.05.0 {#whats-new-in-2023.05.0}
+## Nieuwe functies in 2023.08.0 {#whats-new-in-2023.08.0}
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
-#### Opgeloste problemen {#bug-fixes}
+#### Opgeloste problemen en verbeteringen {#bug-fixes-enhancements}
 
+Deze release bevat oplossingen voor de volgende verbeteringen:
+
+* Prestatieverbeteringen tijdens het laden van elementen op de [!UICONTROL Download] pop-up.
+* Wanneer u een middel of een vertoning van een middel downloadt, wordt het nu gedownload in zijn originele dossiertype formaat in plaats van een zip dossier.
+
+In deze release zijn de volgende opgeloste problemen opgelost:
+
+* De lange labels of labels worden niet correct weergegeven voor zoekfilters.
+* Kan namen van lange vertoningen niet weergeven in het dialoogvenster Downloaden.
+* Kan geen voorvertoning van video-elementen weergeven in de kaartweergave.
+
+
+## Eerdere versies
+
+### Release mei 2023 {#may-2023}
+
+**Opgeloste problemen**
 Deze release bevat oplossingen voor de volgende kritieke problemen:
+
 * Als er een fout optreedt tijdens het downloaden van een element van een gedeelde koppeling, kunt u het `Notice` en `Close` de labels van de foutmelding zijn niet gelokaliseerd.
 * Brand Portal-schermen **Koptekstvelden aanvragen te groot** fout tijdens het openen van zoekfilters met `Filter` venster.
 
-### Bekende problemen {#known-issues}
-
-Deze release bevat de volgende bekende uitgave:
+**Bekende problemen**
+Deze release bevat de volgende bekende problemen:
 
 * Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
-* Weinig velden in het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
-
-## Eerdere versies
+* Enkele velden van het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
 
 ### Release van februari 2023 {#feb-2023}
 
 **Opgeloste problemen**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
+
 * Profielafbeelding kan niet worden bijgewerkt op de Brand Portal.
 * De grootte van het deelvenster van de inhoudsstructuur kan niet worden gewijzigd. Als de bestandsnaam langer is dan de standaardbreedte van de inhoudsstructuur, kunt u de inhoudsstructuur niet zowel horizontaal als verticaal slepen. Hierdoor zijn langere bestandsnamen niet leesbaar.
 * De zoekresultaten zijn inconsistent voor dezelfde eigenschap die tweemaal in de zoekformulieren wordt gebruikt.
@@ -64,29 +80,31 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 **Verbeteringen**
 
 Deze release bevat de volgende verbeteringen:
+
 * Er is nu een nieuwe, moderne PDF-viewer beschikbaar voor een verbeterde voorvertoning van de PDF-elementen.
 * U kunt er nu voor kiezen om berichten voor het aanschaffen van bedrijfsmiddelen in of uit te schakelen voor beheerders. Navigeren naar [!UICONTROL General Settings] en dan in- of uitschakelen [!UICONTROL `Notify Administrator of asset contribution`].
 
-   ![Beheerder op de hoogte stellen van middelenbijdrage](assets/notify-admin.png)
+  ![Beheerder op de hoogte stellen van middelenbijdrage](assets/notify-admin.png)
 
 * Een niet-geautoriseerde gebruiker kan geen toegang tot de Brand Portal aanvragen als de toegang tot de aanvraag is uitgeschakeld.
-* De organisaties slechts die voor Brand Portal zijn provisioned zijn zichtbaar op de profielkiezerslijst.
+* De organisaties die alleen provisioned zijn voor Brand Portal, zijn zichtbaar in de lijst met profielkiezers.
 
 **Bekende problemen**
 
-Deze release bevat de volgende bekende uitgave:
+Deze release bevat de volgende bekende problemen:
 
 * Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
-* Weinig velden in het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
+* Enkele velden van het gebruikersprofiel kunnen niet worden bewerkt in het gebruikersprofiel.
 
 ### Release oktober 2022 {#oct-2022}
 
 **Kritieke problemen opgelost**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
+
 * Langzame reactietijden terwijl het kopiëren van grote dossiers van Brand Portal aan een derdehulpmiddel.
 * Als u het selectievakje voor het aantal vertoningen inschakelt, worden de selectievakjes voor het selecteren van afzonderlijke uitvoeringen uitgeschakeld.
-* Trage reactietijd voor zoeken.
+* Langzame reactietijd voor zoeken.
 
 >[!IMPORTANT]
 >
@@ -98,14 +116,14 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 >* Exporteren naar AEM voltooid
 >
 
-
 ### Release van augustus 2022 {#aug-2022}
 
 **Kritieke problemen opgelost**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
+
 * Als NUI een element niet verwerkt in Experience Manager, geeft Brand Portal een onjuiste status voor het importeren van elementen weer.
-* Wanneer de voorvertoningsactie mislukt, wordt de fout niet gemeld.
+* Wanneer de voorvertoningsactie mislukt, is er geen melding om de fout te melden.
 * Onnauwkeurige waarde voor de eigenschap totalUploadedSize voor elk element is vast.
 * Wanneer u op **Alle items downloaden** en er zijn veel uitvoeringen beschikbaar voor een element, downloadt Brand Portal een ongeldig ZIP-bestand.
 * De vertaling van sommige tekenreeksen wordt afgebroken in de Brand Portal-gebruikersinterface.
@@ -231,7 +249,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
@@ -322,7 +340,7 @@ De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 
 ## Gecertificeerde Platforms {#certified-platforms}
 
-Als u wilt weten welke platforms zijn gecertificeerd voor deze release van Brand Portal, raadpleegt u de **Ondersteuning voor interface met aanraakfuncties** in de tabel in de **Ondersteunde browsers voor gebruikersinterface voor ontwerpen** deel van [Technische vereisten](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Als u wilt weten welke platforms zijn gecertificeerd voor deze release van Brand Portal, raadpleegt u de **Ondersteuning voor interface die geoptimaliseerd is voor touch** in de tabel in de **Ondersteunde browsers voor gebruikersinterface voor ontwerpen** deel van [Technische vereisten](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Koppelingen {#links}
 
@@ -331,7 +349,7 @@ Als u wilt weten welke platforms zijn gecertificeerd voor deze release van Brand
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 
-Deze sites zijn alleen beschikbaar voor klanten. Neem contact op met uw Adobe-accountmanager als u een klant bent en toegang nodig hebt.
+Deze sites zijn alleen beschikbaar voor klanten. Als u een klant bent en toegang nodig hebt, neemt u contact op met uw Adobe-accountmanager.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
