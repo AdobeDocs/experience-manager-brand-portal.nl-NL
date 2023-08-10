@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1205'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Om een onderzoek toe te voegen voorspelt aan **[!UICONTROL Filters]** paneel:
    >
    >Bij selecteren **[!UICONTROL Partial Search]** selectievakje, **[!UICONTROL Ignore Case]** is standaard geselecteerd.
 
-1. In de **[!UICONTROL Property Name]** , opent u de eigenschapkiezer en selecteert u de eigenschap op basis waarvan de zoekopdracht wordt uitgevoerd. U kunt ook een naam voor de eigenschap invoeren. Voer bijvoorbeeld `  jcr :content/metadata/dc:title` of `./jcr:content/metadata/dc:title` in.
+1. In de **[!UICONTROL Property Name]** , opent u de eigenschapkiezer en selecteert u de eigenschap op basis waarvan de zoekopdracht wordt uitgevoerd. U kunt ook een naam voor de eigenschap invoeren. Voer bijvoorbeeld `jcr :content/metadata/dc:title` of `./jcr:content/metadata/dc:title` in.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Vergelijkbaar met de manier waarop u een **[!UICONTROL Property]** voorspellen, 
 
 >[!NOTE]
 >
->Niet gebruiken **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]**, en **[!UICONTROL Rating Predicate]** aangezien deze voorspellingen niet functioneren in Brand Portal.
+>* Niet gebruiken **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]**, en **[!UICONTROL Rating Predicate]** aangezien deze voorspellingen niet functioneren in Brand Portal.
+>* Type map voorspellen `(nt:folder type)` wordt niet ondersteund op Brand Portal en kan prestatieproblemen veroorzaken. Als het aanwezig is in het gepubliceerde aangepaste zoekformulier, kan het worden verwijderd door het zoekformulier te bewerken.
 
 ## Een zoekvoorspelling verwijderen {#delete-a-search-predicate}
 
