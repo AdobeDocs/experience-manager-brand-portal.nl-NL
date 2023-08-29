@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
+source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
 
 # Toegang voor gasten tot Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal biedt gasttoegang tot het portaal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt, die 2 uren vanaf het begin van de zitting is tenzij de gastgebruiker verkiest om te [[!UICONTROL End Session]](#exit-guest-session).
+Experience Manager Assets Brand Portal biedt gasttoegang tot het portaal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt of tenzij de gastgebruiker verkiest om [[!UICONTROL End Session]](#exit-guest-session). Een sessie voor gastgebruikers blijft 15 minuten actief, terwijl de werkelijke time-out voor gastgebruikers 2 uur bedraagt.
 
 Gasttoegang biedt organisaties de mogelijkheid om [snel goedgekeurde middelen delen](../using/brand-portal-sharing-folders.md#how-to-share-folders) met het beoogde publiek op grote schaal, zonder dat het aan boord hoeft te zijn. Brand Portal 6.4.2 en hoger is uitgerust om meerdere gelijktijdige gastgebruikers te bedienen, wat 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers met beperkte functionaliteit op Brand Portal te beheren en aan boord te hebben.\
 Organisaties kunnen gasttoegang inschakelen (of uitschakelen) voor Brand Portal-account van de organisatie met **[!UICONTROL Allow Guest Access]** optie van **[!UICONTROL Access]** instellingen in het deelvenster met beheergereedschappen.
@@ -40,7 +40,6 @@ Als u Brand Portal anoniem wilt invoeren, selecteert u **[!UICONTROL Click here]
 ![](assets/bp-login-screen.png)
 
 ## Duur gastsessie {#guest-session-duration}
-
 
 Een gastgebruikerssessie blijft 15 minuten actief.
 Dit betekent dat de toestand van de **[!UICONTROL Lightbox]** wordt bewaard gedurende 15 minuten van de tijd van het zittingsbegin, en na dat de huidige gastzitting opnieuw begint zodat wordt de Lichtbakstaat verloren.
@@ -83,7 +82,7 @@ De **[!UICONTROL Content tree]** Hiermee kunt u de hiërarchie van elementen doo
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal biedt **[!UICONTROL Overview]** optie voor gastgebruikers **[!UICONTROL Asset Properties]** van geselecteerde elementen/mappen. De **[!UICONTROL Overview]** is zichtbaar:
+Brand Portal biedt **[!UICONTROL Overview]** optie voor gastgebruikers om te bekijken **[!UICONTROL Asset Properties]** van geselecteerde elementen/mappen. De **[!UICONTROL Overview]** is zichtbaar:
 
 * Selecteer bovenaan op de werkbalk een middel/map.
 * In de vervolgkeuzelijst selecteert u de spoorkiezer.
@@ -105,7 +104,7 @@ Gastgebruikers hebben toegang tot openbare middelen op Brand Portal en hebben oo
 **Gastgebruikers kunnen**:
 
 * Open alle openbare mappen en verzamelingen die voor alle Brand Portal-gebruikers zijn bedoeld.
-* Blader door leden, detailpagina en bekijk de volledige elementenweergave van de leden van alle openbare mappen en verzamelingen.
+* Blader door leden, detailpagina en heb de volledige elementweergave van de leden van alle openbare mappen en verzamelingen.
 * Middelen zoeken in openbare mappen en verzamelingen.
 * Elementen toevoegen aan lichtbakverzameling. Deze veranderingen in de inzameling blijven tijdens de zitting bestaan.
 * Download elementen rechtstreeks of via lichtbakverzameling.
