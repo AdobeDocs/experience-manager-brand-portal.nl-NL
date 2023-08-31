@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
+source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
 # Toegang voor gasten tot Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal biedt gasttoegang tot het portaal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt of tenzij de gastgebruiker verkiest om [[!UICONTROL End Session]](#exit-guest-session). Een sessie voor gastgebruikers blijft 15 minuten actief, terwijl de werkelijke time-out voor gastgebruikers 2 uur bedraagt.
+Experience Manager Assets Brand Portal biedt gasttoegang tot het portaal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt, die 2 uren vanaf het begin van de zitting is tenzij de gastgebruiker verkiest om te [[!UICONTROL End Session]](#exit-guest-session).
 
 Gasttoegang biedt organisaties de mogelijkheid om [snel goedgekeurde middelen delen](../using/brand-portal-sharing-folders.md#how-to-share-folders) met het beoogde publiek op grote schaal, zonder dat het aan boord hoeft te zijn. Brand Portal 6.4.2 en hoger is uitgerust om meerdere gelijktijdige gastgebruikers te bedienen, wat 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers met beperkte functionaliteit op Brand Portal te beheren en aan boord te hebben.\
 Organisaties kunnen gasttoegang inschakelen (of uitschakelen) voor Brand Portal-account van de organisatie met **[!UICONTROL Allow Guest Access]** optie van **[!UICONTROL Access]** instellingen in het deelvenster met beheergereedschappen.
