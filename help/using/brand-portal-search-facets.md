@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ U kunt verschillende voorvertoningen van zoekopdrachten gebruiken om de **[!UICO
 
 >[!NOTE]
 >
->Experience Manager Assets staat organisaties toe om [de aangepaste zoekformulieren publiceren van AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) naar Brand Portal, in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.
+>Experience Manager Assets staat organisaties toe om [de aangepaste zoekformulieren publiceren van AEM auteur](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) naar Brand Portal, in plaats van hetzelfde formulier opnieuw te maken op Brand Portal.
 
 ## Een zoekvoorspelling toevoegen {#add-a-search-predicate}
 
@@ -72,7 +72,7 @@ Om een onderzoek toe te voegen voorspelt aan **[!UICONTROL Filters]** paneel:
 
    >[!NOTE]
    >
-   >In Brand Portal, alle eigenschappen van het Koord (behalve degenen die beginnen met `xmp`) in `jcrcontent/metadata` van `dam:asset` worden standaard geïndexeerd.
+   >In Brand Portal, alle eigenschappen van het Koord (behalve degenen die beginnen met `xmp`) in `jcrcontent/metadata` van `dam:asset` worden standaard geïndexeerd. Alle andere aangepaste eigenschappen van een willekeurig type worden standaard niet geïndexeerd.
    >
    >Om het even welk bezit dat wordt geïndexeerd kan worden gebruikt terwijl het creëren van een bezit voorspelt. Als om het even welk niet-geïndexeerd bezit wordt gevormd, kan de onderzoeksvraag op een niet-geïndexeerd bezit geen onderzoeksresultaat geven.
 
@@ -83,7 +83,7 @@ Om een onderzoek toe te voegen voorspelt aan **[!UICONTROL Filters]** paneel:
 
    ![](assets/property-filter-panel.png)
 
-1. Voer een titel in voor het element dat moet worden doorzocht in het dialoogvenster **[!UICONTROL Property]** tekstvak. Bijvoorbeeld &quot;Adobe&quot;. Wanneer u een zoekopdracht uitvoert, worden elementen met de titel &quot;Adobe&quot; weergegeven in de zoekresultaten.
+1. Voer een titel in voor het element dat moet worden doorzocht in het dialoogvenster **[!UICONTROL Property]** tekstvak. Bijvoorbeeld &#39;Adobe&#39;. Wanneer u een zoekopdracht uitvoert, worden elementen waarvan de titel overeenkomt met de Adobe, weergegeven in de zoekresultaten.
 
 ## Lijst met zoekresultaten {#list-of-search-predicates}
 
@@ -118,7 +118,7 @@ Vergelijkbaar met de manier waarop u een **[!UICONTROL Property]** voorspellen, 
 
 Ga als volgt te werk om een voorspeld in een zoekopdracht te verwijderen:
 
-1. Klik op het logo van de Adobe voor toegang tot de beheergereedschappen.
+1. Klik op het logo van de Adobe voor toegang tot beheergereedschappen.
 
    ![](assets/aemlogo.png)
 
