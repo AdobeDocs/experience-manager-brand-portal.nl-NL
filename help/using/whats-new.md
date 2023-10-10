@@ -1,8 +1,8 @@
 ---
 title: Nieuwe functies in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Wat zijn de nieuwe eigenschappen en de verhogingen voor 2032.08.0
-seo-description: What are the new features and enhancements for 2023.08.0
+description: Wat zijn de nieuwe eigenschappen en de verhogingen voor 2032.10.0
+seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
+source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
 workflow-type: tm+mt
-source-wordcount: '6448'
+source-wordcount: '6470'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # Nieuwe functies in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Met Adobe Experience Manager Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene Brand Portal-ervaring. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+
+## Wat veranderde in 2023.10.0 {#what-changed-in-October-2023}
+
+Brand Portal 2023.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de nieuwste [Opmerkingen bij de release van Brand Portal](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2023.08.0 {#what-changed-in-August-2023}
 
@@ -488,7 +492,7 @@ Op dezelfde manier specificeren:
 
 ## Wat veranderde in 6.4.3 {#what-changed-in}
 
-De release van Brand Portal 6.4.3 richt zich op het bieden van een alternatieve alias aan organisaties naast hun huurder-id in Brand Portal access URL, de nieuwe configuratie van de mappenhiërarchie, de verbetering van de videoondersteuning, de geplande publicatie van AEM Author-instantie naar Brand Portal, operationele verbeteringen — en voorziet in verzoeken van klanten.
+De release van Brand Portal 6.4.3 richt zich op het bieden van een alternatieve alias aan organisaties naast hun huurder-id in Brand Portal access URL, de nieuwe configuratie van de mappenhiërarchie, videosupportverbeteringen, de geplande publicatie van AEM Author-instantie naar Brand Portal, operationele verbeteringen en het doorgeven van aanvragen aan klanten.
 
 ### Navigatie in maphiërarchie voor niet-beheerders
 
@@ -535,7 +539,7 @@ Als u onder deze mappen zoekt, wordt alleen gezocht naar elementen die met de ge
 
 ### Ondersteuning voor Dynamic Media-video-uitvoeringen
 
-Gebruikers van wie de AEM-auteur-instantie zich in de hybride Dynamic Media-modus bevindt, kunnen naast de originele videobestanden ook een voorvertoning van de dynamische media-uitvoeringen weergeven en deze downloaden.
+Gebruikers van wie de AEM Author-instantie zich in de hybride Dynamic Media-modus bevindt, kunnen naast de originele videobestanden ook een voorvertoning van de dynamische media-uitvoeringen weergeven en deze downloaden.
 
 Beheerders moeten opgeven dat dynamische media-uitvoeringen op specifieke huurdersaccounts kunnen worden voorvertoond en gedownload **Dynamic Media-configuratie** (videoservice-URL (DM-Gateway URL) en registratie-id om de dynamische video op te halen) in **Video** configuratie via het deelvenster met beheergereedschappen.
 
@@ -574,9 +578,9 @@ Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel i
 Alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Bijvoorbeeld een organisatie met een bestaand domein **geomettrix.brand-portal.adobe.com** kan **geomettrixinc.brand-portal.adobe.com** op verzoek gemaakt.
 
-AEM-auteurinstantie kan echter [geconfigureerd](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) alleen met de URL van de huurder en niet met alias (alternatief) URL van de huurder.
+AEM instantie Auteur kan echter [geconfigureerd](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) alleen met de URL van de huurder en niet met alias (alternatief) URL van de huurder.
 
-Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
+Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van de Adobe te houden.
 
 [![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -824,11 +828,11 @@ Brand Portal 6.3.1 bevat nieuwe en verbeterde functionaliteit die gericht is op 
 
 ### Bijgewerkte gebruikersinterface {#upgraded-user-interface}
 
-Als u de Brand Portal-gebruikerservaring wilt uitlijnen op AEM, gaat Adobe over naar de gebruikersinterface van Coral 3. Deze wijziging verbetert de algemene bruikbaarheid, waaronder navigatie en vormgeving.
+Als u de Brand Portal-gebruikerservaring wilt uitlijnen op AEM, gaat de Adobe over naar de gebruikersinterface van Coral 3. Deze wijziging verbetert de algemene bruikbaarheid, waaronder navigatie en vormgeving.
 
 #### Verbeterde navigatie-ervaring {#enhanced-navigational-experience}
 
-* Snelle toegang tot administratieve hulpmiddelen door het nieuwe embleem van de Adobe:
+* Snelle toegang tot beheertools via het logo van de nieuwe Adobe:
 
 ![](assets/aemlogo-3.png)
 

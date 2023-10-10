@@ -1,7 +1,7 @@
 ---
 title: Release-opmerkingen
 seo-title: Release Notes
-description: Lees meer over de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.08.0-release.
+description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.10.0-release.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.08.0-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.10.0-release.
 
 ## Gegevens vrijgeven {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2023.08.0 |
-| Datum | augustus 2023 |
+| Versie | 2023.10.0 |
+| Datum | Oktober 2023 |
 
 ## Overzicht {#overview}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
 
-## Nieuwe functies in 2023.08.0 {#whats-new-in-2023.08.0}
+## Nieuwe functies in 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
-#### Oplossingen en verbeteringen voor problemen {#bug-fixes-enhancements}
+#### Bugfixes {#bug-fixes}
 
+Deze release bevat de volgende opgeloste problemen:
+
+* Kan niet opslaan [!UICONTROL Date] en [!UICONTROL Options] voorspelt de [!UICONTROL Smart Collection].
+
+* De [!UICONTROL Date and Time] opmaak is inconsistent wanneer u werkt in een andere landinstelling dan Engels.
+
+* Bij het uitvoeren van zoekopdrachten naar elementen wordt de [!UICONTROL Delete] ontbreekt.
+
+* Als de [!UICONTROL Title] veld bevat multibyte-symbolen in [!UICONTROL Link Share]kan het rapport niet worden gedownload.
+
+* Als u een document van het type PDF bekijkt, zijn de labels en knopinfo niet gelokaliseerd.
+
+#### Verbeteringen {#enhancements}
+
+Deze release bevat de volgende verbeteringen:
+
+* Prestatieverbeteringen tijdens bladeren door [!UICONTROL Collections].
+
+* Wanneer u een gedeeltelijke zoekopdracht uitvoert met het veld OmniSearch, zijn de resultaten niet nauwkeurig.
+
+## Eerdere versies
+
+### Release van augustus 2023 {#aug-2023}
+
+**Oplossingen en verbeteringen voor problemen**
 Deze release bevat de volgende verbeteringen:
 
 * Prestatieverbeteringen tijdens het laden van elementen op de [!UICONTROL Download] pop-up.
@@ -48,9 +73,6 @@ Deze release bevat de volgende opgeloste problemen:
 * De lange labels of labels worden niet correct weergegeven voor zoekfilters.
 * Kan namen van lange vertoningen niet weergeven in het dialoogvenster Downloaden.
 * Kan geen voorvertoning van video-elementen weergeven in de kaartweergave.
-
-
-## Eerdere versies
 
 ### Release mei 2023 {#may-2023}
 
@@ -338,7 +360,7 @@ De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 * Vereenvoudigd Chinees
 * Koreaans
 
-## Gecertificeerde Platforms {#certified-platforms}
+## Gecertificeerde platforms {#certified-platforms}
 
 Als u wilt weten welke platforms zijn gecertificeerd voor deze release van Brand Portal, raadpleegt u de **Ondersteuning voor interface die geoptimaliseerd is voor touch** in de tabel in de **Ondersteunde browsers voor gebruikersinterface voor ontwerpen** deel van [Technische vereisten](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
@@ -349,7 +371,7 @@ Als u wilt weten welke platforms zijn gecertificeerd voor deze release van Brand
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 
-Deze sites zijn alleen beschikbaar voor klanten. Als u een klant bent en toegang nodig hebt, neemt u contact op met uw Adobe-accountmanager.
+Deze sites zijn alleen beschikbaar voor klanten. Als u een klant bent en toegang nodig hebt, neemt u contact op met de accountmanager van de Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
