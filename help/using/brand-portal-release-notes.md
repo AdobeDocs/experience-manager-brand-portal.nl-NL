@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1291'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Deze release bevat de volgende verbeteringen:
 
 * Prestatieverbeteringen tijdens bladeren door [!UICONTROL Collections].
 
-* Wanneer u een gedeeltelijke zoekopdracht uitvoert met het veld OmniSearch, zijn de resultaten niet nauwkeurig.
+* Verbeteringen in onderzoeksresultaten terwijl het uitvoeren van een gedeeltelijk onderzoek gebruikend het gebied OmniSearch.
 
 ## Eerdere versies
 
