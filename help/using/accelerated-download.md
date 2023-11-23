@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: b91e0b4f03beb37d826ce75ac49498b7b79e4a39
+source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +36,8 @@ De **[!UICONTROL Fast Download]** De configuratie is standaard ingeschakeld, waa
 Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 
 * Navigeren naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** en verifieert **[!UICONTROL Fast Download]** configuratie is ingeschakeld in **[!UICONTROL Download Settings]**.
-* Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall. Voor meer informatie over de eerste vereisten, zie [Documentatie IBM® Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
-* **IBM® Aspera Connect 3.9.9 installeren** in de extensie van uw browser met beheerdersrechten (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
-* Voor platformondersteuning van Aspera Transfer Client raadpleegt u [IBM® Aspera Connect-platformsupportmatrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall.
+* **IBM® Aspera Connect 3.9.9 installeren** in de extensie van uw browser met beheerdersrechten ([IBM® Asperra Connect-downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
@@ -63,11 +62,11 @@ In de volgende tabel ziet u de downloadprestaties voor een bestand van 2 GB met 
 
 | Clientlocatie | Latentie tussen client en server (milliseconden) | Snelheid met Aspera Connect File Transfer Accelerator (MBps) | Tijd die nodig is om een bestand van 2 GB te downloaden met Aspera File Transfer Accelerator (seconden) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
-| V.S. West (N. Californië) | 18 | 36 | 57 |
+| VS West (N. Californië) | 18 | 36 | 57 |
 | V.S. West (Oregon) | 42 | 36 | 57 |
-| V.S. Oost (N. Virginia) | 85 | 35 | 58 |
-| APAC (Tokio) | 124 | 36 | 57 |
-| Noida (India) | 275 | 13.36 | 153 |
+| V.S. East (N. Virginia) | 85 | 35 | 58 |
+| APAC (Tokyo) | 124 | 36 | 57 |
+| Noida, India | 275 | 13.36 | 153 |
 | Sydney | 175 | 29 | 70 |
 | Londen | 179 | 35 | 58 |
 | Singapore | 196 | 34 | 60 |
@@ -82,17 +81,17 @@ Zo downloadt u elementen sneller van Brand Portal:
 
    * Selecteer de elementen of mappen die u wilt downloaden. Klik in de werkbalk bovenaan op de knop **[!UICONTROL Download]** pictogram.
 
-      ![select-multiple-assets](assets/select-assets-new.png)
+     ![select-multiple-assets](assets/select-assets-new.png)
 
    * Als u specifieke elementuitvoeringen van een element wilt downloaden, plaatst u de aanwijzer boven het element en klikt u op de knop **[!UICONTROL Download]** in de miniaturen voor snelle acties.
 
-      ![select-element](assets/select-asset.png)
+     ![select-element](assets/select-asset.png)
 
 1. De **[!UICONTROL Download]** wordt geopend.
 
    Als u de Brand Portal-maphiërarchie wilt behouden terwijl u elementen downloadt, selecteert u de optie **[!UICONTROL Create separate folder for each asset]** selectievakje.
 
-   De downloadknop geeft het aantal geselecteerde items weer. Als u klaar bent met het toepassen van de regels, klikt u op **[!UICONTROL Download items]**. Ga voor meer informatie over het toepassen van regels naar [downloadmiddelen](../using/brand-portal-download-assets.md#download-assets).
+   De downloadknop geeft het aantal geselecteerde items weer. Als u de regels hebt toegepast, klikt u op **[!UICONTROL Download items]**. Ga voor meer informatie over het toepassen van regels naar [downloadmiddelen](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
@@ -110,7 +109,7 @@ Zo downloadt u elementen sneller van Brand Portal:
 
 1. Als de client is geïnstalleerd, vernieuwt u de browserpagina en start u de downloadstappen opnieuw.
 
-1. Als u wilt doorgaan met gebruiken **[!UICONTROL Fast Download]**, klikt u op **[!UICONTROL Allow]**. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met behulp van IBM® Aspera Connect.
+1. Als u wilt doorgaan met gebruiken **[!UICONTROL Fast Download]**, klikt u op **[!UICONTROL Allow]**. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met IBM® Aspera Connect.
 
    Nadat het downloaden is voltooid, wordt in een dialoogvenster de locatie weergegeven waar de middelen naar het systeem van de gebruiker worden gedownload.
 
@@ -119,7 +118,8 @@ Zo downloadt u elementen sneller van Brand Portal:
    Als u IBM® Aspera Connect niet wilt gebruiken, klikt u op **[!UICONTROL Deny]**. Indien **[!UICONTROL Fast Download]** wordt ontkend of ontbreekt, vult het systeem een Bericht van de Fout. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van de elementen.
 
 >[!NOTE]
-Als de **[!UICONTROL Fast Download]** De instelling wordt uitgeschakeld door de beheerder. De geselecteerde uitvoeringen worden rechtstreeks gedownload in een ZIP-map zonder IBM® Aspera Connect te gebruiken.
+>
+Als de **[!UICONTROL Fast Download]** De instelling wordt uitgeschakeld door de beheerder. De geselecteerde uitvoeringen worden rechtstreeks gedownload in een ZIP-map zonder gebruik te maken van IBM® Aspera Connect.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -213,7 +213,7 @@ Als downloadversnelling niet voor u werkt, probeert u de volgende suggesties:
 
    Als de havens niet O.K. zijn, dan bereik uit aan uw netwerkteam en zorg ervoor dat de Havens 33001 (zowel TCP &amp; UDP) niet in de firewall worden geblokkeerd.
 
-1. Als de havens O.K. zijn, dan controleer als uw netwerk niet langzaam is, door de beschikbare bandbreedte te meten gebruikend [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Als de havens OK zijn, dan controleer als uw netwerk niet langzaam is, door de beschikbare bandbreedte te meten gebruikend [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Als de bandbreedte weinig (1-10 Mbps) of in Kbps is, dan gebruik de Voorkeur van de RUIMTE en probeer om de bandbreedte te beperken gelijk aan de beschikbare bandbreedte.
 
