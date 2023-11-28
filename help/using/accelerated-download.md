@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
+source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '969'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 
 * Navigeren naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** en verifieert **[!UICONTROL Fast Download]** configuratie is ingeschakeld in **[!UICONTROL Download Settings]**.
 * Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall.
-* **IBM® Aspera Connect 3.9.9 installeren** in de extensie van uw browser met beheerdersrechten ([IBM® Asperra Connect-downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **IBM® Aspera Connect 3.9.9 installeren** in de extensie van uw browser met beheerdersrechten ([IBM® Aspera Connect-downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
