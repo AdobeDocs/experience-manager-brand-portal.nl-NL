@@ -1,8 +1,8 @@
 ---
 title: Release-opmerkingen
 seo-title: Release Notes
-description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.10.0-release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: Lees meer over de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2024.02.0-release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
+source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1449'
 ht-degree: 1%
 
 ---
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2023.10.0-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2024.02.0-release.
 
 ## Gegevens vrijgeven {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2023.10.0 |
-| Datum | Oktober 2023 |
+| Versie | 2024,02,0 |
+| Datum | februari 2024 |
 
 ## Overzicht {#overview}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
 
-## Nieuwe functies in 2023.10.0 {#whats-new-in-2023.10.0}
+## Nieuwe functies in 2024.02.0 {#whats-new-in-2024.02.0}
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
 #### Bugfixes {#bug-fixes}
+
+Deze release bevat de volgende opgeloste problemen:
+
+* Kan geen digitale middelen downloaden die met DRM zijn beveiligd in de Turkse landinstelling.
+
+* Kan de bestaande rapporten met elementen met een titel van meerdere regels niet openen en downloaden.
+
+* Wanneer u elementen downloadt met [!UICONTROL Download] vanuit de actiebalk maximaal 1000 elementen worden gedownload.
+
+* Onjuiste naam van elementen van het type PSD bij weergave in de inhoudsstructuur.
+
+* [!UICONTROL Delete Rendition] op de pagina met elementdetails werkt niet.
+
+* Verkeerd uitgelijnde titel en grootte van elementen in het pop-upvenster Downloaden.
+
+* Kan geen mappen laden in een kaartweergave als u overschakelt van de boomstructuurweergave.
+
+* Zelfs als de [!UICONTROL Fast Download] is ingeschakeld in het dialoogvenster [!UICONTROL Download Settings] voor zowel de redacteuren als de beheerders kunnen de specifieke huurders de verlopen middelen niet downloaden .
+
+* De fout van de gebruikersinterface is niet gelokaliseerd terwijl het creëren van een rapport wanneer alle checkboxes niet worden geselecteerd.
+
+* Tijdens het maken van een rapport worden labels niet gelokaliseerd.
+
+* Ondersteuningsbeheerders worden in Brand Portal aangeduid als beheerders.
+
+## Eerdere versies
+
+### Release oktober 2023 {#oct-2023}
+
+**Oplossingen en verbeteringen voor problemen**
+Deze release bevat de volgende verbeteringen:
+
+* Prestatieverbeteringen tijdens bladeren door [!UICONTROL Collections].
+
+* Verbeteringen in onderzoeksresultaten terwijl het uitvoeren van een gedeeltelijk onderzoek gebruikend het gebied OmniSearch.
 
 Deze release bevat de volgende opgeloste problemen:
 
@@ -49,16 +84,6 @@ Deze release bevat de volgende opgeloste problemen:
 * Als de [!UICONTROL Title] veld bevat multibyte-symbolen in [!UICONTROL Link Share]kan het rapport niet worden gedownload.
 
 * Als u een document van het type PDF bekijkt, zijn de labels en knopinfo niet gelokaliseerd.
-
-#### Verbeteringen {#enhancements}
-
-Deze release bevat de volgende verbeteringen:
-
-* Prestatieverbeteringen tijdens bladeren door [!UICONTROL Collections].
-
-* Verbeteringen in onderzoeksresultaten terwijl het uitvoeren van een gedeeltelijk onderzoek gebruikend het gebied OmniSearch.
-
-## Eerdere versies
 
 ### Release van augustus 2023 {#aug-2023}
 
