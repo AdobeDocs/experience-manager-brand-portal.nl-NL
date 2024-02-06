@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -41,25 +41,12 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 Deze release bevat de volgende opgeloste problemen:
 
 * Kan geen digitale middelen downloaden die met DRM zijn beveiligd in de Turkse landinstelling.
-
 * Kan de bestaande rapporten met elementen met een titel van meerdere regels niet openen en downloaden.
-
 * Wanneer u elementen downloadt met [!UICONTROL Download] vanuit de actiebalk maximaal 1000 elementen worden gedownload.
-
 * Onjuiste naam van elementen van het type PSD bij weergave in de inhoudsstructuur.
-
 * [!UICONTROL Delete Rendition] op de pagina met elementdetails werkt niet.
-
 * Verkeerd uitgelijnde titel en grootte van elementen in het pop-upvenster Downloaden.
-
-* Kan geen mappen laden in een kaartweergave als u overschakelt van de boomstructuurweergave.
-
-* Zelfs als de [!UICONTROL Fast Download] is ingeschakeld in het dialoogvenster [!UICONTROL Download Settings] voor zowel de redacteuren als de beheerders kunnen de specifieke huurders de verlopen middelen niet downloaden .
-
-* De fout van de gebruikersinterface is niet gelokaliseerd terwijl het creëren van een rapport wanneer alle checkboxes niet worden geselecteerd.
-
 * Tijdens het maken van een rapport worden labels niet gelokaliseerd.
-
 * Ondersteuningsbeheerders worden in Brand Portal aangeduid als beheerders.
 
 ## Eerdere versies
