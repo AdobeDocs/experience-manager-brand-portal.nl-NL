@@ -12,33 +12,33 @@ discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
 
-# Bijdragemap publiceren naar Experience Manager Assets {#using-asset-souring-in-bp}
+# Publish Contributiemap naar Experience Manager Assets {#using-asset-souring-in-bp}
 
-Brand Portal-gebruikers met de juiste machtigingen kunnen meerdere elementen of mappen met meerdere elementen uploaden naar de map met bijdragen. Brand Portal-gebruikers kunnen echter alleen elementen uploaden naar **NIEUW** map. De **GEDEELD** Deze map is bedoeld voor de distributie van basislijnelementen (referentie-inhoud) die door Brand Portal-gebruikers kunnen worden gebruikt bij het maken van nieuwe elementen voor een bijdrage.
+Brand Portal-gebruikers met de juiste machtigingen kunnen meerdere elementen of mappen met meerdere elementen uploaden naar de map met bijdragen. Nochtans, kunnen de gebruikers van Brand Portal slechts activa aan de **NIEUWE** omslag uploaden. De **GEDEELDE** omslag wordt bedoeld voor de distributie van basislijnactiva (verwijzingsinhoud) die door de gebruikers van Brand Portal kan worden gebruikt terwijl het creëren van nieuwe activa voor bijdrage.
 
 Brand Portal-gebruikers die toegang hebben tot de map Contribution, kunnen de volgende activiteiten uitvoeren:
 
 * [Elementvereisten downloaden](#download-asset-requirements)
 * [Nieuwe elementen uploaden naar de map voor bijdragen](#uplad-new-assets-to-contribution-folder)
-* [Bijdragemap publiceren naar Experience Manager Assets](#publish-contribution-folder-to-aem)
+* [Publish Contributiemap naar Experience Manager Assets](#publish-contribution-folder-to-aem)
 
 ## Elementvereisten downloaden {#download-asset-requirements}
 
-Brand Portal-gebruikers ontvangen automatisch e-mail-/pulsmeldingen wanneer een bijdragemap wordt gedeeld door de Experience Manager Assets-gebruiker, zodat deze het korte document (met elementvereisten) kunnen downloaden en de basiselementen (referentie-inhoud) kunnen downloaden van de **GEDEELD** om te controleren of ze de vereisten voor middelen begrijpen.
+De gebruikers van Brand Portal ontvangen automatisch e-mail/impulsberichten wanneer een bijdrageomslag door de gebruiker van Experience Manager Assets wordt gedeeld, die hen toestaat om het korte (activa vereiste) document te downloaden, evenals de basislijnactiva (verwijzingsinhoud), van de **GEDEELDE** omslag te downloaden om hen te verzekeren zij de activavereisten begrijpen.
 
 Brand Portal-gebruikers voeren de volgende activiteiten uit om de vereisten voor middelen te downloaden:
 
-* **Download overzicht**: Download de samenvatting (document met middelenvereisten) die is toegevoegd aan de bijdragemap en die informatie bevat over elementen zoals het type middelen, het doel, de ondersteunde indelingen, de maximale grootte van de middelen, enz.
-* **Basiselementen downloaden**: Download de basislijnelementen die kunnen worden gebruikt om de vereiste typen elementen te begrijpen. Brand Portal-gebruikers kunnen deze middelen gebruiken als referentie om nieuwe middelen te maken voor hun bijdrage.
+* **Download samenvatting**: Download het korte (activa vereiste document) verbonden aan de bijdrageomslag die activa verwante informatie zoals type van activa, doel, gesteunde formaten, maximumactivagrootte, enz. bevat.
+* **de basislijnactiva van de Download**: Download de basislijnactiva die kunnen worden gebruikt om de vereiste types van activa te begrijpen. Brand Portal-gebruikers kunnen deze middelen gebruiken als referentie om nieuwe middelen te maken voor hun bijdrage.
 
 Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand Portal-gebruiker zijn toegestaan, samen met de nieuw gedeelde bijdragemap. In dit voorbeeld heeft de Brand Portal-gebruiker alleen toegang tot de zojuist gemaakte map met bijdragen. Er wordt geen andere bestaande map gedeeld met de gebruiker.
 
-**Elementvereisten downloaden:**
+**om activavereisten te downloaden:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
 1. Selecteer de map met bijdragen in het Brand Portal-dashboard.
@@ -48,20 +48,20 @@ Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand P
 
    ![](assets/download-asset-requirement2.png)
 
-1. Klik op de knop **[!UICONTROL Download Brief]** om het document met de elementvereisten op uw lokale computer te downloaden.
+1. Klik op de optie **[!UICONTROL Download Brief]** om het document met elementvereisten te downloaden naar uw lokale computer.
 
    ![](assets/download.png)
 
 1. Ga terug naar het Brand Portal-dashboard.
-1. Klik om de map met bijdragen te openen. U ziet twee submappen-**[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met Help. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
-1. U kunt de **[!UICONTROL SHARED]** map met alle basislijnelementen op uw lokale computer.
-U kunt ook de opdracht **[!UICONTROL SHARED]** en klik op de knop **Downloaden** pictogram om afzonderlijke bestanden/mappen te downloaden.
+1. Klik om de map met bijdragen te openen. U ziet twee submappen - **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met bijdragen. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
+1. U kunt de map **[!UICONTROL SHARED]** met alle basislijnelementen downloaden op uw lokale computer.
+Of, kunt u de **[!UICONTROL SHARED]** omslag openen en het **2} pictogram van de Download {klikken om individuele dossiers/omslagen te downloaden.**
 
    ![](assets/download.png)
 
    ![](assets/download-asset-requirement5.png)
 
-Doorloop de samenvatting (document met vereisten voor elementen) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
+Doorloop het korte document (document met vereisten voor elementen) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
 
 
 ## Elementen uploaden naar de bijdragemap {#upload-new-assets-to-contribution-folder}
@@ -70,9 +70,9 @@ Nadat de gebruikers van Brand Portal de elementvereisten hebben doorlopen, kunne
 
 >[!NOTE]
 >
->De Brand Portal-gebruikers kunnen elementen uploaden (maximaal **2**(GB per bestandsgrootte) naar de map NEW.
+>De gebruikers van Brand Portal kunnen activa (maximum van **2** GB per dossiergrootte) aan de NIEUWE omslag uploaden.
 >
->De maximale uploadlimiet voor Brand Portal-gebruikers is **10** GB dat cumulatief wordt toegepast op alle bijdragemappen.
+>De maximum uploadlimiet voor om het even welke huurder van Brand Portal is **10** GB die cumulatief op alle bijdrageomslagen wordt toegepast.
 >
 >De naar Brand Portal geüploade elementen worden niet verwerkt voor uitvoeringen en bevatten geen voorvertoningen.
 
@@ -80,38 +80,38 @@ Nadat de gebruikers van Brand Portal de elementvereisten hebben doorlopen, kunne
 >
 >U wordt aangeraden de uploadruimte vrij te geven nadat u de map met bijdragen naar Experience Manager Assets hebt gepubliceerd, zodat deze beschikbaar is voor de andere Brand Portal-gebruikers voor een bijdrage.
 >
->Als het nodig is om de uploadlimiet van je Brand Portal-huurder te overschrijden **10** GB, neem contact op met de Klantenondersteuning om de vereiste op te geven.
+>Als er een behoefte is om de uploadlimiet van uw Brand Portal huurder voorbij **10** GB uit te breiden, contacteer de Steun van de Klant die het vereiste specificeert.
 
 
-**Nieuwe elementen uploaden:**
+**om nieuwe activa te uploaden:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
 Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand Portal-gebruiker zijn toegestaan, samen met de nieuw gedeelde bijdragemap.
 
-1. Selecteer de map met de bijdrage en klik om deze te openen. De map met de bijdrage bevat twee submappen - **[!UICONTROL SHARED]** en **[!UICONTROL NEW]**.
+1. Selecteer de map met de bijdrage en klik om deze te openen. De map met de bijdrage bevat twee submappen - **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** .
 
-1. Klik op de knop **[!UICONTROL NEW]** map.
+1. Klik op de map **[!UICONTROL NEW]** .
 
    ![](assets/upload-new-assets4.png)
 
-1. Klikken **[!UICONTROL Create]** > **[!UICONTROL Files]** om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
+1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]** om afzonderlijke bestanden of mappen (.zip) met meerdere elementen te uploaden.
 
    ![](assets/upload-new-assets5.png)
 
-1. Blader naar elementen (bestanden of mappen) en upload deze naar de **[!UICONTROL NEW]** map.
+1. Blader naar en upload elementen (bestanden of mappen) naar de map **[!UICONTROL NEW]** .
 
    ![](assets/upload-asset4.png)
 
 Nadat u alle elementen of mappen naar de map NEW hebt geüpload, publiceert u de map met bijdragen naar Experience Manager Assets.
 
 
-## Bijdragemap publiceren naar Experience Manager Assets {#publish-contribution-folder-to-aem}
+## Publish Contributiemap naar Experience Manager Assets {#publish-contribution-folder-to-aem}
 
 Brand Portal-gebruikers kunnen de map met bijdragen publiceren naar Experience Manager Assets zonder dat ze toegang hoeven te hebben tot het exemplaar van de auteur van de Experience Manager.
 
-Zorg ervoor dat u de elementvereisten hebt doorlopen en upload de nieuwe elementen in **NIEUW** map in de map met Help.
+Zorg ervoor dat u door de activavereisten bent gegaan en de onlangs gecreeerde activa in **NIEUWE** omslag binnen de bijdrageomslag uploadt.
 
-**Map met bijdragen publiceren:**
+**om bijdrageomslag te publiceren:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
 
@@ -124,11 +124,11 @@ Zorg ervoor dat u de elementvereisten hebt doorlopen en upload de nieuwe element
 
 Er wordt een e-mail-/pulsmelding verzonden naar de Brand Portal-gebruiker en -beheerders in verschillende stadia van de publicatieworkflow:
 
-1. **In wachtrij** - Er wordt een melding verzonden naar de Brand Portal-gebruiker en Brand Portal-beheerders wanneer een publicatieworkflow in Brand Portal wordt geactiveerd.
+1. **In een rij opgenomen** - een bericht wordt verzonden naar de gebruiker van Brand Portal en de beheerders van Brand Portal wanneer een het publiceren werkschematrekkers in Brand Portal.
 
-1. **Voltooid** - Er wordt een melding verzonden naar de Brand Portal-gebruiker en Brand Portal-beheerders wanneer de bijdragemap correct is gepubliceerd naar Experience Manager Assets.
+1. **Volledig** - een bericht wordt verzonden naar de gebruiker van Brand Portal en de beheerders van Brand Portal wanneer de bijdrageomslag met succes aan Experience Manager Assets wordt gepubliceerd.
 
-Na publicatie van de zojuist gemaakte middelen naar Experience Manager Assets kunnen de Brand Portal-gebruikers deze verwijderen uit de map NEW. De Brand Portal-beheerder kan de elementen echter verwijderen uit zowel de map NEW als de map SHARED.
+Na publicatie van de zojuist gemaakte middelen naar Experience Manager Assets kunnen de Brand Portal-gebruikers deze verwijderen uit de map NEW. De Brand Portal-beheerder kan de elementen echter verwijderen uit de map NEW en Shared.
 
 Zodra het doel van het creëren van de bijdrageomslag wordt bereikt, kan de beheerder van Brand Portal de bijdrageomslag schrappen om uploadruimte voor andere gebruikers vrij te geven.
 
@@ -136,21 +136,21 @@ Zodra het doel van het creëren van de bijdrageomslag wordt bereikt, kan de behe
 
 Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de omslagen van de activabijdrage te bekijken die van Brand Portal aan Experience Manager Assets worden gepubliceerd.
 
-* Navigeer in Brand Portal naar **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Dit rapport geeft de status van alle publicatietaken in verschillende stadia van de publicatieworkflow weer.
+* Navigeer in Brand Portal naar **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** . Dit rapport geeft de status van alle publicatietaken in verschillende stadia van de publicatieworkflow weer.
 
-   ![](assets/contribution-folder-status-v2.png)
+  ![](assets/contribution-folder-status-v2.png)
 
-* Navigeer in Experience Manager Assets (op locatie of beheerde service) naar **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
+* Navigeer in Experience Manager Assets (op locatie of beheerde service) naar **[!UICONTROL Assets]** > **[!UICONTROL Jobs]** . Dit rapport geeft de uiteindelijke status (Voltooid of Fout) weer van alle publicatietaken.
 
-   ![](assets/publishing-status.png)
+  ![](assets/publishing-status.png)
 
-* Ga in Experience Manager Assets as a Cloud Service naar **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**.
+* Navigeer in Experience Manager Assets as a Cloud Service naar **[!UICONTROL Assets]** > **[!UICONTROL Jobs]** .
 
-   U kunt ook rechtstreeks navigeren naar **[!UICONTROL Jobs]** van de globale navigatie.
+  U kunt ook rechtstreeks vanuit de globale navigatie naar **[!UICONTROL Jobs]** navigeren.
 
-   Dit rapport geeft de uiteindelijke status (Succesvol of Fout) weer van alle publicatietaken, inclusief de import van activa van Brand Portal naar Experience Manager Assets as a Cloud Service.
+  Dit rapport geeft de uiteindelijke status (Succesvol of Fout) weer van alle publicatietaken, inclusief de import van activa van Brand Portal naar Experience Manager Assets as a Cloud Service.
 
-   ![](assets/cloud-service-job-status.png)
+  ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
@@ -160,7 +160,7 @@ Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de om
 
 ## Automatische verwijdering van naar Experience Manager Assets gepubliceerde middelen uit de map Contribution {#automatically-delete-published-assets-from-contribution-folder}
 
-Brand Portal voert nu om de twaalf uur automatische taken uit om alle bijdragemappen te scannen en alle middelen te verwijderen die naar AEM zijn gepubliceerd. Het gevolg is dat u de middelen in de Contribute-map niet handmatig hoeft te verwijderen om de mapgrootte onder de [drempelwaarde](#upload-new-assets-to-contribution-folder). U kunt ook de status controleren van de verwijdertaken die de afgelopen zeven dagen automatisch zijn uitgevoerd. Het rapport voor een baan verstrekt de volgende details:
+Brand Portal voert nu om de twaalf uur automatische taken uit om alle bijdragemappen te scannen en alle middelen te verwijderen die naar AEM zijn gepubliceerd. Dientengevolge, te hoeven u niet de activa in de omslag van de Bijdrage manueel te schrappen om de omslaggrootte onder de [ drempelgrens ](#upload-new-assets-to-contribution-folder) te houden. U kunt ook de status controleren van de verwijdertaken die de afgelopen zeven dagen automatisch zijn uitgevoerd. Het rapport voor een baan verstrekt de volgende details:
 
 * Begintijd taak
 * Eindtijd van taak
@@ -169,37 +169,36 @@ Brand Portal voert nu om de twaalf uur automatische taken uit om alle bijdragema
 * Totaal aantal elementen is verwijderd in een taak
 * Totale opslag beschikbaar gesteld als gevolg van de uitvoering van de taak
 
-   ![Verwijderingsrapport](assets/deletion-reports.png)
+  ![ Rapport van de Schrapping ](assets/deletion-reports.png)
 
 U kunt ook verder naar beneden boren om de details van elk middel te bekijken inbegrepen in een schrappingsbaan. De details zoals activa titel, grootte, auteur, schrappingsstatus, en schrappingstijd zijn inbegrepen in het rapport.
 
-![Verwijderingsrapport uitgebreid](assets/deletion-reports-detailed.png)
+![ Gedetailleerd Rapport van de Schrapping ](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
-> * Klanten kunnen de Klantenondersteuning van Adobe vragen om de functie voor automatische verwijdering van taken uit te schakelen en weer in te schakelen of om de uitvoeringsfrequentie te wijzigen.
+> * Klanten kunnen de Klantenondersteuning van de Adobe vragen om de automatische functionaliteit voor het verwijderen van taken uit te schakelen en weer in te schakelen of de uitvoeringsfrequentie te wijzigen.
 > * Deze functie is beschikbaar in Experience Manager 6.5.13.0 en latere versies.
-
 
 ### Verwijderingsrapporten weergeven en downloaden {#view-delete-jobs}
 
 Rapporten voor een verwijdertaak weergeven en downloaden:
 
-1. Navigeer in Brand Portal naar **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** optie.
+1. In Brand Portal, navigeer aan **[!UICONTROL Tools]**> **[!UICONTROL Asset Contribution Status]**> **[!UICONTROL Deletion Reports]** optie.
 
-1. Selecteer een taak en klik op **[!UICONTROL View]** om het rapport te bekijken.
+1. Selecteer een baan en klik **[!UICONTROL View]** om het rapport te bekijken.
 
-   Bekijk de details van elk middel inbegrepen in een schrappingsbaan. De details zoals activa titel, grootte, auteur, schrappingsstatus, en schrappingstijd zijn inbegrepen in het rapport. Klikken **[!UICONTROL Download]** om het rapport voor de taak in CSV-indeling te downloaden.
+   Bekijk de details van elk middel inbegrepen in een schrappingsbaan. De details zoals activa titel, grootte, auteur, schrappingsstatus, en schrappingstijd zijn inbegrepen in het rapport. Klik op **[!UICONTROL Download]** om het rapport voor de taak in CSV-indeling te downloaden.
 
    De verwijderstatus voor een element in het rapport kan de volgende mogelijke waarden hebben:
 
-   * **Verwijderd** - Het element is verwijderd uit de map Contribution.
+   * **schrapte** - het element wordt met succes geschrapt van de omslag van de Bijdrage.
 
-   * **Niet gevonden** - Brand Portal kan het middel niet vinden in de map Contribution. Het element wordt al handmatig uit de map verwijderd.
+   * **niet Gevonden** - Brand Portal kon niet de activa in de omslag van de Bijdrage vinden. Het element wordt al handmatig uit de map verwijderd.
 
-   * **Overgeslagen** - Brand Portal heeft de elementverwijdering overgeslagen omdat er een nieuwe versie beschikbaar is voor het element in de map Contribution, die nog niet is gepubliceerd naar de Experience Manager.
+   * **Overgeslagen** - Brand Portal overgeslagen de activaschrapping aangezien er een nieuwe versie beschikbaar voor het element in de omslag van de Bijdrage is, die nog niet aan Experience Manager wordt gepubliceerd.
 
-   * **Mislukt** - Brand Portal kan het element niet verwijderen. Er zijn drie pogingen om middelen met een `Failed` status verwijderen. Als het element de derde poging tot verwijderen mislukt, moet u het element handmatig verwijderen.
+   * **Ontbroken** - Brand Portal ontbrak om de activa te schrappen. Er zijn drie pogingen om middelen met een `Failed` verwijderstatus opnieuw te verwijderen. Als het element de derde poging tot verwijderen mislukt, moet u het element handmatig verwijderen.
 
 ### Een rapport verwijderen
 
@@ -207,8 +206,8 @@ Met Brand Portal kunt u ook een of meerdere rapporten selecteren en deze handmat
 
 Een rapport verwijderen:
 
-1. Navigeren naar **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** optie.
+1. Navigeer aan **[!UICONTROL Tools]**> **[!UICONTROL Asset Contribution Status]**> **[!UICONTROL Deletion Reports]** optie.
 
-1. Selecteer een of meer rapporten en klik op **[!UICONTROL Delete]**.
+1. Selecteer een of meer rapporten en klik op **[!UICONTROL Delete]** .
 
 

@@ -42,7 +42,7 @@ Deze release bevat de volgende opgeloste problemen:
 
 * Kan geen digitale middelen downloaden die met DRM zijn beveiligd in de Turkse landinstelling.
 * Kan de bestaande rapporten met elementen met een titel van meerdere regels niet openen en downloaden.
-* Wanneer u elementen downloadt met [!UICONTROL Download] vanuit de actiebalk maximaal 1000 elementen worden gedownload.
+* Wanneer u elementen downloadt met de knop [!UICONTROL Download] op de actiebalk, worden maximaal 1000 elementen gedownload.
 * Onjuiste naam van elementen van het type PSD bij weergave in de inhoudsstructuur.
 * [!UICONTROL Delete Rendition] op de pagina met elementdetails werkt niet.
 * Verkeerd uitgelijnde titel en grootte van elementen in het pop-upvenster Downloaden.
@@ -53,31 +53,31 @@ Deze release bevat de volgende opgeloste problemen:
 
 ### Release oktober 2023 {#oct-2023}
 
-**Oplossingen en verbeteringen voor problemen**
+**fixes en verhogingen van de insect**
 Deze release bevat de volgende verbeteringen:
 
-* Prestatieverbeteringen tijdens bladeren door [!UICONTROL Collections].
+* Prestatieverbeteringen tijdens het bladeren door [!UICONTROL Collections] .
 
 * Verbeteringen in onderzoeksresultaten terwijl het uitvoeren van een gedeeltelijk onderzoek gebruikend het gebied OmniSearch.
 
 Deze release bevat de volgende opgeloste problemen:
 
-* Kan niet opslaan [!UICONTROL Date] en [!UICONTROL Options] voorspelt de [!UICONTROL Smart Collection].
+* Kan [!UICONTROL Date] niet opslaan en [!UICONTROL Options] loopt vooruit op [!UICONTROL Smart Collection] .
 
-* De [!UICONTROL Date and Time] opmaak is inconsistent wanneer u werkt in een andere landinstelling dan Engels.
+* De [!UICONTROL Date and Time] -indeling is inconsistent wanneer u werkt in een andere landinstelling dan Engels.
 
-* Bij het uitvoeren van zoekopdrachten naar elementen wordt de [!UICONTROL Delete] ontbreekt.
+* Tijdens het zoeken naar elementen ontbreekt de knop [!UICONTROL Delete] .
 
-* Als de [!UICONTROL Title] veld bevat multibyte-symbolen in [!UICONTROL Link Share]kan het rapport niet worden gedownload.
+* Als het veld [!UICONTROL Title] multibyte-symbolen bevat in [!UICONTROL Link Share] , kan het rapport niet worden gedownload.
 
 * Als u een document van het type PDF bekijkt, zijn de labels en knopinfo niet gelokaliseerd.
 
 ### Release van augustus 2023 {#aug-2023}
 
-**Oplossingen en verbeteringen voor problemen**
+**fixes en verhogingen van de insect**
 Deze release bevat de volgende verbeteringen:
 
-* Prestatieverbeteringen tijdens het laden van elementen op de [!UICONTROL Download] pop-up.
+* Prestatieverbeteringen tijdens het laden van elementen in het pop-upvenster [!UICONTROL Download] .
 * Wanneer u een middel of een vertoning van een middel downloadt, wordt het nu gedownload in zijn originele dossiertype formaat in plaats van een zip dossier.
 
 Deze release bevat de volgende opgeloste problemen:
@@ -88,13 +88,13 @@ Deze release bevat de volgende opgeloste problemen:
 
 ### Release mei 2023 {#may-2023}
 
-**Opgeloste problemen**
+**Bugfixes**
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
-* Als er een fout optreedt tijdens het downloaden van een element van een gedeelde koppeling, kunt u het `Notice` en `Close` de labels van de foutmelding zijn niet gelokaliseerd.
-* Brand Portal-schermen **Koptekstvelden aanvragen te groot** fout tijdens het openen van zoekfilters met `Filter` venster.
+* Als een fout optreedt tijdens het downloaden van een element van een gedeelde koppeling, worden de labels `Notice` en `Close` van de foutmelding niet gelokaliseerd.
+* De vertoningen van Brand Portal **de gebieden van de Kopbal van het Verzoek te Grote** fout terwijl de toegang tot van onderzoeksfilters gebruikend `Filter` ruit.
 
-**Bekende problemen**
+**Bekende kwesties**
 Deze release bevat de volgende bekende problemen:
 
 * Gedeeltelijke lokalisatie in de rapportinhoud van Asset sourcing.
@@ -102,7 +102,7 @@ Deze release bevat de volgende bekende problemen:
 
 ### Release van februari 2023 {#feb-2023}
 
-**Opgeloste problemen**
+**Bugfixes**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
@@ -116,9 +116,9 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 Deze release bevat de volgende verbeteringen:
 
 * Er is nu een nieuwe, moderne PDF-viewer beschikbaar voor een verbeterde voorvertoning van de PDF-elementen.
-* U kunt er nu voor kiezen om berichten voor het aanschaffen van bedrijfsmiddelen in of uit te schakelen voor beheerders. Navigeren naar [!UICONTROL General Settings] en dan in- of uitschakelen [!UICONTROL `Notify Administrator of asset contribution`].
+* U kunt er nu voor kiezen om berichten voor het aanschaffen van bedrijfsmiddelen in of uit te schakelen voor beheerders. Navigeer naar [!UICONTROL General Settings] en schakel [!UICONTROL `Notify Administrator of asset contribution`] in of uit.
 
-  ![Beheerder op de hoogte stellen van middelenbijdrage](assets/notify-admin.png)
+  ![ breng Beheerder op de hoogte voor activabijdrage ](assets/notify-admin.png)
 
 * Een niet-geautoriseerde gebruiker kan geen toegang tot de Brand Portal aanvragen als de toegang tot de aanvraag is uitgeschakeld.
 * De organisaties die alleen provisioned zijn voor Brand Portal, zijn zichtbaar in de lijst met profielkiezers.
@@ -132,7 +132,7 @@ Deze release bevat de volgende bekende problemen:
 
 ### Release oktober 2022 {#oct-2022}
 
-**Kritieke problemen opgelost**
+**Kritieke Vaste Kwesties**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
@@ -152,23 +152,23 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 ### Release van augustus 2022 {#aug-2022}
 
-**Kritieke problemen opgelost**
+**Kritieke Vaste Kwesties**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 * Als NUI een element niet verwerkt in Experience Manager, geeft Brand Portal een onjuiste status voor het importeren van elementen weer.
 * Wanneer de voorvertoningsactie mislukt, is er geen melding om de fout te melden.
 * Onnauwkeurige waarde voor de eigenschap totalUploadedSize voor elk element is vast.
-* Wanneer u op **Alle items downloaden** en er zijn veel uitvoeringen beschikbaar voor een element, downloadt Brand Portal een ongeldig ZIP-bestand.
+* Wanneer u **klikt Download alle punten** en er groot aantal vertoningen beschikbaar voor activa zijn, downloadt Brand Portal een ongeldig .ZIP dossier.
 * De vertaling van sommige tekenreeksen wordt afgebroken in de Brand Portal-gebruikersinterface.
 
 ### Release mei 2022 {#may-2022}
 
-**Nieuwe functies**
+**Nieuwe eigenschappen**
 
 Brand Portal voert nu om de twaalf uur automatische taken uit om alle Brand Portal-middelen te verwijderen die naar AEM worden gepubliceerd. U hoeft daarom de middelen in de map Contribution niet handmatig te verwijderen om de mapgrootte onder de drempelwaarde te houden.
 
-**Kritieke problemen opgelost**
+**Kritieke Vaste Kwesties**
 
 Deze release bevat oplossingen voor de volgende kritieke problemen:
 
@@ -181,17 +181,17 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 ### Release van februari 2022 {#feb-2022}
 
-**Nieuwe functies**
+**Nieuwe eigenschappen**
 
 * De drempel van sessietime-out voor de gastgebruikers is verlaagd van 2 uur naar 15 minuten.
-* De aanvullende **[!UICONTROL View pages]** Deze optie is verwijderd voor PDF met meerdere pagina&#39;s omdat de gebruiker de pagina&#39;s PDF nu kan bekijken in de Adobe Document Cloud Viewer.
-* De gebruikers kunnen niet naar mappen zoeken, navigeren of deze openen. De gebruikersinterface geeft het foutbericht weer: `Failed to load data`.
-* De **[!UICONTROL Renditions]** bevat niet alle statische uitvoeringen van de elementen die naar Brand Portal zijn gepubliceerd.
-* De **[!UICONTROL Renditions]** worden de slimme uitsnijduitvoeringen van het element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet voorvertonen of downloaden.
+* De extra optie **[!UICONTROL View pages]** is verwijderd voor PDF met meerdere pagina&#39;s omdat de gebruiker de pagina&#39;s PDF nu kan bekijken in de Adobe Document Cloud Viewer.
+* De gebruikers kunnen niet naar mappen zoeken, navigeren of deze openen. De gebruikersinterface geeft het foutbericht weer: `Failed to load data` .
+* In het deelvenster **[!UICONTROL Renditions]** worden niet alle statische uitvoeringen weergegeven van de elementen die naar Brand Portal zijn gepubliceerd.
+* In het deelvenster **[!UICONTROL Renditions]** worden de slimme uitsnijduitvoeringen van het element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet voorvertonen of downloaden.
 * In het dialoogvenster Downloaden worden de slimme uitsnijduitvoeringen van het geselecteerde element weergegeven, maar de gebruiker kan de slimme uitsnijduitvoeringen niet downloaden.
 * Een gebruiker die geen beheerder is, krijgt alleen de oorspronkelijke uitvoering van het element wanneer een element wordt gedownload. Het systeem en de aangepaste uitvoeringen worden niet gedownload.
-* Wanneer u een zoekfilter toepast om een element te downloaden, wordt de knop `Download` is uitgeschakeld in het dialoogvenster Downloaden en de gebruiker kan het element niet downloaden.
-* Indien `Smart Tags` en (of) `Color Tags` zijn ingeschakeld, wordt in het dialoogvenster Downloaden de lijst `json` bestanden als vertoningen en downloadt deze `json` bestanden in de gearchiveerde ZIP-map.
+* Wanneer u een zoekfilter toepast om een element te downloaden, wordt de knop `Download` uitgeschakeld in het dialoogvenster voor downloaden en kan de gebruiker het element niet downloaden.
+* Als `Smart Tags` en (of) `Color Tags` zijn ingeschakeld, worden de `json` -bestanden weergegeven als uitvoeringen en worden deze `json` -bestanden gedownload in de gearchiveerde ZIP-map.
 * De anonieme gebruikers kunnen geen elementen downloaden via een gedeelde koppeling omdat de koppeling wordt omgeleid naar de Brand Portal-aanmeldingspagina.
 * Het systeem geeft niet de juiste waarde weer voor het aantal actieve gelijktijdige gebruikers.
 
@@ -374,12 +374,12 @@ De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 
 ## Gecertificeerde platforms {#certified-platforms}
 
-Als u wilt weten welke platforms zijn gecertificeerd voor deze release van Brand Portal, raadpleegt u de **Ondersteuning voor interface die geoptimaliseerd is voor touch** in de tabel in de **Ondersteunde browsers voor gebruikersinterface voor ontwerpen** deel van [Technische vereisten](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Om na te gaan welke platforms om met deze versie van Brand Portal worden verklaard in werking te stellen, verwijs naar de **Steun voor aanraking-geoptimaliseerde UI** kolom in de lijst in **Ondersteunde Browsers voor de sectie van het Gebruikersinterface van de Authoring** van [ Technische Vereisten ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Koppelingen {#links}
 
-* [Adobe Experience Manager-productpagina op adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal-documentatie](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [ de Pagina van het Product van Adobe Experience Manager op adobe.com ](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [ Documentatie van Assets Brand Portal ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 

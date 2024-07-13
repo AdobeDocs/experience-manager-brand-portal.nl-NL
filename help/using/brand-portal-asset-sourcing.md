@@ -19,25 +19,25 @@ kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Asset Souring {#overview-asset-sourcing-in-bp}
 
-**Asset Sourting** Hiermee kunnen de Experience Manager Assets-gebruikers (beheerders/gebruikers die geen beheerder zijn) nieuwe mappen maken met een extra **Bijdrage activa** , zodat de nieuwe map die u hebt gemaakt, kan worden verzonden door Brand Portal-gebruikers. Dit activeert automatisch een workflow die twee extra submappen maakt, genaamd **GEDEELD** en **NIEUW**, binnen de nieuwe **Bijdrage** map. De beheerder bepaalt dan het vereiste door een kort overzicht van de types van activa te uploaden die aan de bijdrageomslag, evenals een reeks basiselementen, aan de **GEDEELD** om ervoor te zorgen dat BP-gebruikers beschikken over de benodigde informatie. De beheerder kan actieve Brand Portal-gebruikers dan toegang verlenen tot de bijdragemap voordat het zojuist gemaakte **Bijdrage** naar Brand Portal. Wanneer de gebruiker klaar is met het toevoegen van inhoud in de **NIEUW** , kunnen zij de bijdrageomslag terug naar het auteursmilieu van de Experience Manager publiceren. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in Experience Manager Assets wordt weerspiegeld.
+**Middelen van Activa** staat de gebruikers van Experience Manager Assets (beheerders/niet-admin gebruikers) toe om nieuwe omslagen met een extra **bezit van de Bijdrage van Activa** tot stand te brengen, die de nieuwe omslag verzekeren open aan activa voorlegging door de gebruikers van Brand Portal wordt gecreeerd. Dit brengt automatisch een werkschema in werking dat tot twee extra subomslagen leidt, genoemd **GEDEELDE** en **NIEUW**, binnen de pas gecreëerde **omslag van de Bijdrage**. De beheerder bepaalt dan het vereiste door een samenvatting over de types van activa te uploaden die aan de bijdrageomslag, evenals een reeks basislijnactiva, aan de **GEDEELDE** omslag zouden moeten worden toegevoegd om BP gebruikers te verzekeren hebben de verwijzingsinformatie zij nodig hebben. De beheerder kan actieve gebruikers van Brand Portal toegang tot de bijdrageomslag dan verlenen alvorens de pas gecreëerde **omslag van de Bijdrage** aan Brand Portal te publiceren. Zodra de gebruiker wordt gebeëindigd toevoegend inhoud in de **NIEUWE** omslag, kunnen zij de bijdrageomslag terug naar het de auteurmilieu van de Experience Manager publiceren. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in Experience Manager Assets wordt weerspiegeld.
 
 Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebruikers kunnen middelen weergeven, zoeken en downloaden vanuit de map met bijdragen en vanuit de andere toegestane mappen. En beheerders kunnen de bijdragemap verder delen, eigenschappen wijzigen en elementen toevoegen aan verzamelingen.
 
-![Brand Portal Asset Sourting](assets/asset-sourcing.png)
+![ Middelen van Brand Portal ](assets/asset-sourcing.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Vereisten {#prerequisites}
 
-* as a Cloud Service Experience Manager Assets-instantie, Experience Manager Assets 6.5.2 of hoger.
-* Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [Experience Manager Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 of hoger.
+* Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [ vormen Experience Manager Assets met Brand Portal ](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -51,9 +51,9 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebrui
 
 >[!NOTE]
 >
->Er is een bekend probleem in Experience Manager Assets 6.5.4. Brand Portal-gebruikers kunnen de middelen van de map met bijdragen niet naar Experience Manager Assets publiceren bij de upgrade naar Adobe Developer Console.
+>Experience Manager Assets 6.5.4 kent een probleem. Brand Portal-gebruikers kunnen de middelen van de map met bijdragen niet naar Experience Manager Assets publiceren tijdens de upgrade naar Adobe Developer Console.
 >
->Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw Experience Manager Assets-exemplaar upgraden naar het nieuwste servicepakket en [upgrade uitvoeren van uw configuraties](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) op Adobe Developer Console.
+>Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) op Adobe Developer Console.
 
 <!--
 
@@ -108,21 +108,21 @@ Een bijdragemap kan alleen worden gedeeld met de actieve Brand Portal-gebruikers
 
 >[!NOTE]
 >
->Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [Experience Manager Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [ vormen Experience Manager Assets met Brand Portal ](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
 >De indeling van het CSV-bestand is gelijk aan de indeling die wordt ondersteund in Admin Console voor het importeren van bulkgebruikers. E-mail, voornaam en achternaam zijn verplicht.
 
-De beheerders kunnen nieuwe gebruikers in Admin Console toevoegen, zie [Gebruikers beheren](brand-portal-adding-users.md) voor nadere informatie. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van Brand Portal worden toegevoegd en dan toestemming worden toegewezen om tot de bijdrageomslag toegang te hebben.
+De beheerders kunnen nieuwe gebruikers in Admin Console toevoegen, zie [ Gebruikers ](brand-portal-adding-users.md) voor gedetailleerde informatie leiden. Na het toevoegen van gebruikers in Admin Console, kunnen deze gebruikers aan het dossier van de de gebruikersconfiguratie van Brand Portal worden toegevoegd en dan toestemming worden toegewezen om tot de bijdrageomslag toegang te hebben.
 
-**Brand Portal-gebruikerslijst uploaden:**
+**om de gebruikerslijst van Brand Portal te uploaden:**
 
 1. Meld u aan bij uw Experience Manager Assets-exemplaar.
-1. Van de **Gereedschappen**  deelvenster, navigeren naar **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
+1. Van het **paneel van Hulpmiddelen**, navigeer aan **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
 
 1. Het venster Brand Portal Upload Contributors wordt geopend.
-Bladeren op uw lokale computer en uploaden **configuratiebestand (.csv)** met de actieve gebruikerslijst van Brand Portal.
+Blader van uw lokale machine en upload **configuratiedossier (.csv)** dat de actieve de gebruikerslijst van Brand Portal bevat.
 1. Klik op **[!UICONTROL Save]**.
 
    ![](assets/upload-user-list2.png)
@@ -134,4 +134,4 @@ Beheerders kunnen toegang tot specifieke gebruikers bieden vanuit deze gebruiker
 
 * [Contribute-map voor Brand Portal configureren en publiceren](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Bijdragemap publiceren naar Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Publish Contributiemap naar Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)

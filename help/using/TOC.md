@@ -10,13 +10,13 @@ feature: Brand Portal
 role: User
 source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 26%
+source-wordcount: '254'
+ht-degree: 22%
 
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal Handleiding {#using}
+# Adobe Experience Manager Assets Brand Portal Guide {#using}
 
 + [Handleiding voor Brand Portal](/help/using/home.md)
 + Inleiding {#introduction}
@@ -26,20 +26,20 @@ ht-degree: 26%
    + [Veelgestelde vragen](/help/using/brand-portal-faqs.md)
    + [Ondersteunde bestandsindelingen](/help/using/brand-portal-supported-formats.md)
    + [Toegang voor gasten tot Brand Portal](/help/using/guest-access.md)
-   + [Brand Portal begrijpen met Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [ Begrijpend Brand Portal met Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Bladeren op Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Publiceren van Experience Manager Assets naar Brand Portal {#publish}
++ Publish van Experience Manager Assets naar Brand Portal {#publish}
    + [Experience Manager Assets configureren met Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
    + [Assets publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Problemen met parallelle publicatie naar Brand Portal oplossen](/help/using/troubleshoot-parallel-publishing.md)
-   + [Tags publiceren naar Brand Portal](/help/using/brand-portal-publish-tags.md)
-   + [Voorinstellingen, schema en facetten publiceren naar Brand Portal](/help/using/publish-schema-search-facets-presets.md)
-+ Asset Sourting in Brand Portal {#asset-sourcing-in-brand-portal}
+   + [Publish-tags naar Brand Portal](/help/using/brand-portal-publish-tags.md)
+   + [Publish-voorinstellingen, -schema en -facetten naar Brand Portal](/help/using/publish-schema-search-facets-presets.md)
++ Asset Sourcing in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Overzicht van Asset Souring](/help/using/brand-portal-asset-sourcing.md)
    + [Contribute-map in Experience Manager Assets configureren](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Bijdragemap publiceren naar Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Publish Contributiemap naar Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Elementen delen met gebruikers {#share}
    + [Een verzameling delen](/help/using/brand-portal-share-collection.md)
    + [Mappen delen](/help/using/brand-portal-sharing-folders.md)
@@ -53,10 +53,10 @@ ht-degree: 26%
    + [De lichtbakverzameling beheren](/help/using/brand-portal-light-box.md)
    + [Digitale rechten van middelen beheren](/help/using/manage-digital-rights-of-assets.md)
    + [Handleiding voor het versnellen van downloads van Brand Portal](/help/using/accelerated-download.md)
-+ Beheertools gebruiken {#admin-tools}
++ Gereedschappen voor beheer gebruiken {#admin-tools}
    + [Gebruikerstoegang beheren op Brand Portal](/help/using/access-configurations-brand-portal.md)
    + [Algemene huurdersconfiguraties beheren](/help/using/brand-portal-general-configuration.md)
-   + [Eerste aanmelding](/help/using/brand-portal-onboarding.md)
+   + [Ervaring voor eerste aanmelding](/help/using/brand-portal-onboarding.md)
    + [Gebruikers, groepen en gebruikersrollen beheren](/help/using/brand-portal-adding-users.md)
    + [Achtergrond, koptekst en e-mailbericht aanpassen](/help/using/brand-portal-branding.md)
    + [Het metagegevensschema gebruiken](/help/using/brand-portal-metadata-schemas.md)

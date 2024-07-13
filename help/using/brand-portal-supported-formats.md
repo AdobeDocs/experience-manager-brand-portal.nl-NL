@@ -11,8 +11,8 @@ discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 3%
+source-wordcount: '649'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Elke Experience Manager Assets Brand Portal ondersteunt specifieke bestandsindelingen, zoals aangegeven in de matrix.
 
-| Bestandsindeling | Op Brand Portal gepubliceerde activa | Uitvoeringen gepubliceerd naar Brand Portal | Metagegevens gepubliceerd naar Brand Portal | Miniaturen gepubliceerd naar Brand Portal | Pagina&#39;s met informatie over middelen die zijn gepubliceerd naar Brand Portal | Koppelingen | Miniaturen voor delen koppelen | Voorvertoningen van delen koppelen |
+| Bestandsindeling | Assets gepubliceerd naar Brand Portal | Uitvoeringen gepubliceerd naar Brand Portal | Metagegevens gepubliceerd naar Brand Portal | Miniaturen gepubliceerd naar Brand Portal | Pagina&#39;s met informatie over middelen die zijn gepubliceerd naar Brand Portal | Koppelingsshares | Miniaturen voor delen koppelen | Voorvertoningen van delen koppelen |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -54,12 +54,12 @@ Elke Experience Manager Assets Brand Portal ondersteunt specifieke bestandsindel
 | INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PS | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | QXP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
-| ePub | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | AAC | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MIDI | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MP3 | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
-| Mp4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
+| MP4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
 | Mpg | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | OGA | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
 | OGG | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |

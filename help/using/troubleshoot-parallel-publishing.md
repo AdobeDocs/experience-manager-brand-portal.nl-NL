@@ -12,26 +12,26 @@ role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
 # Problemen met parallelle publicatie naar Brand Portal oplossen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is geconfigureerd met Experience Manager Assets om goedgekeurde merkmiddelen naadloos in te nemen (of te publiceren) vanuit de Experience Manager Assets-auteur-instantie. Eenmaal [geconfigureerd](../using/configure-aem-assets-with-brand-portal.md), gebruikt de auteur van de Experience Manager een replicatieagent om de geselecteerde activa aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
+Brand Portal is geconfigureerd met Experience Manager Assets om goedgekeurde merkmiddelen naadloos in te nemen (of te publiceren) vanuit de Experience Manager Assets-auteur-instantie. Zodra [ gevormd ](../using/configure-aem-assets-with-brand-portal.md), gebruikt de Auteur van de Experience Manager een replicatieagent om de geselecteerde activa(s) aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
 
 >[!NOTE]
 >
 >Adobe raadt aan een upgrade naar Experience Manager 6.4.1.0 uit te voeren om ervoor te zorgen dat Experience Manager Assets Brand Portal correct is geconfigureerd met Experience Manager Assets. Een beperking in Experience Manager 6.4 geeft een fout terwijl het vormen van Experience Manager Assets met Brand Portal en replicatie ontbreekt.
 
-Bij het configureren van cloudservice voor Brand Portal onder **[!UICONTROL /etc/cloudservice]** Alle benodigde gebruikers en token worden automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Het leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen publiceert van Experience Manager naar Brand Portal, worden de elementen in een wachtrij geplaatst en verdeeld onder de replicatieagents via Round Robin.
+Bij het configureren van de cloudservice voor Brand Portal onder **[!UICONTROL /etc/cloudservice]** worden alle benodigde gebruikers en token automatisch gegenereerd en opgeslagen in de opslagplaats. De de dienstconfiguratie van de wolk wordt gecreeerd, worden de de dienstgebruikers die voor replicatie en replicatieagenten worden vereist om inhoud te herhalen ook gecreeerd. Het leidt tot vier replicatieagenten. Dus wanneer u een groot aantal middelen publiceert van Experience Manager naar Brand Portal, worden de elementen in een wachtrij geplaatst en verdeeld onder de replicatieagents via Round Robin.
 
-Publiceren kan echter tijdelijk mislukken als gevolg van grote slingertaken, een groter netwerk en **[!UICONTROL Disk I/O]** op de instantie van de Auteur van de Experience Manager, of vertraagde prestaties van de instantie van de Auteur van de Experience Manager. Het wordt daarom aangeraden de verbinding met de replicatieagent(en) te testen voordat u begint met publiceren.
+Publiceren kan echter soms mislukken als gevolg van grote slingertaken, een verhoogd netwerk en **[!UICONTROL Disk I/O]** op een Experience Manager Author-instantie of trage prestaties van de Experience Manager Author-instantie. Het wordt daarom aangeraden de verbinding met de replicatieagent(en) te testen voordat u begint met publiceren.
 
 ![](assets/test-connection.png)
 
-## Fouten bij eerste publicatie oplossen: valideren, uw publicatieconfiguratie {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## Problemen oplossen bij eerste publicatie: uw publicatieconfiguratie valideren {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 Uw publicatieconfiguraties valideren:
 
@@ -39,19 +39,19 @@ Uw publicatieconfiguraties valideren:
 1. Controleren of de replicatieagent is gemaakt
 1. Verbinding testen
 
-**Logboeken bijhouden tijdens het maken van Cloud Service**
+**Logboeken van het Lusje terwijl het creëren van Cloud Service**
 
 Logboeken van staarten controleren. Controleer of de replicatieagent is gemaakt of niet. Als het maken van de replicatieagent mislukt, bewerkt u de cloudservice door kleine wijzigingen aan te brengen in de cloudservice. Valideer en controleer opnieuw of de replicatieagent wordt gecreeerd of niet. Als dat niet het geval is, bewerkt u de service opnieuw.
 
 Als bij herhaaldelijk het uitgeven van de wolkendienst het niet behoorlijk wordt gevormd, rapporteer een dagzorgkaartje.
 
-**Verbinding met replicatieagents testen**
+**Verbinding van de Test met replicatieagenten**
 
 Logboek van de mening, als de fouten in replicatielogboek worden gevonden:
 
 1. Neem contact op met de Klantenondersteuning.
 
-1. Opnieuw [opruimen](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) en maak opnieuw een publicatieconfiguratie.
+1. Opnieuw [ schoonmaakbeurt ](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) en creeer opnieuw publiceer configuratie.
 
 <!--
 Comment Type: remark
@@ -63,12 +63,11 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ## Bestaande Brand Portal-publicatieconfiguraties opschonen {#clean-up-existing-config}
 
-De meeste keren dat publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en vandaar publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie om behoorlijk te werken, schoonmaak het volgende van de opstelling van de auteur van de Experience Manager:
+De meeste keren dat het publiceren niet werkt, kan de reden zijn dat de gebruiker die publiceert (bijvoorbeeld: `mac-<tenantid>-replication` heeft niet de recentste privé sleutel, en daarom publiceert ontbreekt met &quot;401 onbevoegde&quot;fout en geen andere fout wordt gemeld in de logboeken van de replicatieagent. U zou het oplossen van problemen kunnen willen vermijden en een configuratie in plaats daarvan tot stand brengen. Voor de nieuwe configuratie om behoorlijk te werken, schoonmaak het volgende van de opstelling van de auteur van de Experience Manager:
 
-1. Ga naar `localhost:4502/crx/de/` (als u de auteurinstantie op localhost wilt uitvoeren):4502:\
+1. Ga naar `localhost:4502/crx/de/` (als u de auteurinstantie op localhost uitvoert) :4502:\
    i. delete `/etc/replication/agents.author/mp_replication`
-ii. delete 
-`/etc/cloudservices/mediaportal/<config_name>`
+ii. delete `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Ga naar localhost:4502/useradmin:\
    i. zoeken naar gebruiker `mac-<tenantid>replication`
@@ -83,7 +82,7 @@ Nu wordt het systeem helemaal schoongemaakt. Nu kunt u proberen om een config va
 
 ## Zichtbaarheid ontwikkelaarsleider JWT-toepassing {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Indien ingeschakeld `https://legacy-oauth.cloud.adobe.io/`, worden alle organen (huurders) vermeld waarvoor de huidige gebruikers systeembeheerder houden. Als u hier de naam van de org niet vindt of u kunt geen toepassing voor een vereiste huurder hier tot stand brengen, gelieve te controleren of hebt u voldoende (systeembeheerder) rechten.
+Indien ingeschakeld `https://legacy-oauth.cloud.adobe.io/` , worden alle organen (huurders) vermeld waarvoor de huidige gebruikers de systeembeheerder aanhouden. Als u hier de naam van de org niet vindt of u kunt geen toepassing voor een vereiste huurder hier tot stand brengen, gelieve te controleren of hebt u voldoende (systeembeheerder) rechten.
 
 Er is één bekende kwestie op dit gebruikersinterface die voor om het even welke huurder slechts tien toepassingen zichtbaar zijn. Wanneer u de toepassing maakt, blijft u op die pagina en bladwijzer de URL. U hoeft niet naar de pagina met lijsten van de toepassing te gaan en de toepassing te zoeken die u hebt gemaakt. U kunt rechtstreeks op deze URL met bladwijzer drukken en de toepassing zo nodig bijwerken of verwijderen.
 
@@ -118,7 +117,7 @@ permission
 
 Als een replicatieagent (die aan Brand Portal enkel fijn) publiceerde ophoudt verwerkend publiceert banen, controleer replicatielogboeken. Experience Manager heeft ingebouwde functie voor het automatisch opnieuw proberen van bestanden. Als de publicatie van een bepaald element mislukt, wordt dit automatisch opnieuw geprobeerd. Als er een probleem is dat soms voorkomt, zoals een netwerkfout, kan dit probleem tijdens het opnieuw proberen optreden.
 
-Als er ononderbroken publicatiemislukkingen zijn en de rij wordt geblokkeerd, dan zou u moeten controleren **[!UICONTROL test connection]** en proberen de fouten op te lossen die worden gerapporteerd.
+Als er voortdurend publicatiefouten optreden en de wachtrij wordt geblokkeerd, moet u **[!UICONTROL test connection]** controleren en proberen de fouten op te lossen die worden gerapporteerd.
 
 Op basis van de fouten wordt u aangeraden een ondersteuningsticket te registreren, zodat het technische team van Brand Portal u kan helpen problemen op te lossen.
 
@@ -138,10 +137,10 @@ Doorgaans mislukt de publicatietaak met een time-outfout als er meerdere aanvrag
 Om de replicatieagenten te vormen:
 
 1. Meld u aan bij de AEM Assets-auteur.
-1. Van de **Gereedschappen** deelvenster, navigeren naar **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. Klik op de pagina Replicatie op **[!UICONTROL Agents on author]**. U kunt de vier replicatieagenten van uw huurder van Brand Portal zien.
-1. Klik de replicatieagent URL en klik **[!UICONTROL Edit]**.
-1. Klik in Agent-instellingen op de knop **[!UICONTROL Extended]** tab.
-1. Selecteer **[!UICONTROL Close Connection]** selectievakje.
+1. Van het **paneel van Hulpmiddelen**, navigeer aan **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. Klik op **[!UICONTROL Agents on author]** op de pagina Replicatie. U kunt de vier replicatieagenten van uw huurder van Brand Portal zien.
+1. Klik op de URL van de replicatieagent en klik op **[!UICONTROL Edit]** .
+1. Klik in Agent-instellingen op de tab **[!UICONTROL Extended]** .
+1. Schakel het selectievakje **[!UICONTROL Close Connection]** in.
 1. Herhaal stap 4 door 7 om alle vier replicatieagenten te vormen.
 1. Start de server opnieuw.

@@ -11,7 +11,7 @@ discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,9 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Naam
 * Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
 * Grootte
-* Dimension
+* Dimensionen
 
-U kunt de hiërarchie omlaag navigeren door op kaarten te tikken of erop te klikken (zorg dat u de snelle handelingen niet uitvoert) of weer omhoog met de knop [broodkruimels in de koptekst](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+U kunt onderaan de hiërarchie navigeren door kaarten te tikken/te klikken (die zorgen om de snelle acties te vermijden) of omhoog opnieuw door [ broodkruimels in de kopbal ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html) te gebruiken.
 
 ![](assets/cardquickactions.png)
 
@@ -73,14 +73,14 @@ Informatie over de maphiërarchie is vooral handig om onderscheid te maken tusse
 
 ![](assets/folder-hierarchy1.png)
 
-**Overzicht, optie om de eigenschappen van elementen weer te geven**
+**optie van het Overzicht om de Eigenschappen van Activa te bekijken**
 
 De optie Overzicht is beschikbaar voor gebruikers die geen beheerder zijn (Editors, Viewers, Gastgebruikers) en geeft de eigenschappen van middelen van geselecteerde elementen/mappen weer. De optie Overzicht is zichtbaar:
 
 * in de werkbalk bovenaan bij het selecteren van een middel/map.
 * in de vervolgkeuzelijst betreffende de selectie van de spoorstaafkiezer.
 
-Bij het selecteren van de **[!UICONTROL Overview]** als er een element/map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip van het maken van het element zien. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
+Als u de optie **[!UICONTROL Overview]** selecteert terwijl een element/map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip zien waarop het element is gemaakt. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ Bij het selecteren van de **[!UICONTROL Overview]** als er een element/map is ge
 
 #### Instellingen weergeven in de kaartweergave
 
-**[!UICONTROL View Settings]** dialoogvenster wordt geopend bij het selecteren **[!UICONTROL View Settings]** in de weergavekiezer. Hiermee kunt u de grootte van de elementminiaturen in de kaartweergave wijzigen. Op deze manier kunt u de weergave aanpassen en het aantal weergegeven miniaturen bepalen.
+**[!UICONTROL View Settings]** wordt geopend wanneer u **[!UICONTROL View Settings]** selecteert in de weergavekiezer. Hiermee kunt u de grootte van de elementminiaturen in de kaartweergave wijzigen. Op deze manier kunt u de weergave aanpassen en het aantal weergegeven miniaturen bepalen.
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +109,7 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Mappad met middelenhiërarchie
 * Datum van publicatie van het element op Brand Portal
 
-Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt de hiërarchie omlaag navigeren door op de naam van de bron te tikken of erop te klikken en door een back-up te maken met de [broodkruimels in de koptekst](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt onderaan de hiërarchie navigeren door te tikken/de middelnaam te klikken, en file door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Instellingen weergeven in de lijstweergave
 
-De lijstweergave toont element **[!UICONTROL Name]** als de eerste kolom standaard. Aanvullende informatie, zoals activa **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, wordt de publicatiestatus ook weergegeven. U kunt echter wel de kolommen selecteren die u wilt weergeven **[!UICONTROL View Settings]**.
+In de lijstweergave wordt element **[!UICONTROL Name]** standaard als de eerste kolom weergegeven. Aanvullende informatie, zoals element **[!UICONTROL Title]** , **[!UICONTROL Locale]** , **[!UICONTROL Type]** , **[!UICONTROL Dimensions]** , **[!UICONTROL Size]** en **[!UICONTROL Rating]** , wordt ook weergegeven. U kunt echter wel de kolommen selecteren die u wilt weergeven met **[!UICONTROL View Settings]** .
 
 ![](assets/list-view-setting.png)
 
@@ -140,7 +140,7 @@ Wanneer een element is geselecteerd in de kolomweergave, wordt de visuele weerga
 
 * Titel
 * Naam
-* Dimension
+* Dimensionen
 * Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
 * Grootte
 * Type
@@ -234,7 +234,7 @@ Comment Type: draft
 
 Naast deze weergaven gebruikt u de structuurweergave om de hiërarchie van elementen omlaag te doorlopen terwijl u de gewenste elementen of mappen weergeeft en selecteert.
 
-Als u de structuurweergave wilt openen, tikt u op de railkiezer linksboven en selecteert u de optie **[!UICONTROL Content tree]** in het menu.
+Als u de structuurweergave wilt openen, tikt u op de railkiezer linksboven en selecteert u de **[!UICONTROL Content tree]** in het menu.
 
 ![](assets/contenttree.png)
 
@@ -244,15 +244,15 @@ Navigeer vanuit de inhoudshiërarchie naar het gewenste element.
 
 ## Details van element {#asset-details}
 
-Met de pagina met elementdetails kunt u elementen weergeven, downloaden, de elementkoppeling delen, naar een verzameling verplaatsen of de eigenschappenpagina bekijken. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
+Met de pagina met elementdetails kunt u een element weergeven, downloaden, de koppeling met middelen delen, naar een verzameling verplaatsen of de eigenschappenpagina van het element weergeven. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
 
 ![](assets/asset-detail.png)
 
-Als u de metagegevens van het element wilt weergeven of de verschillende uitvoeringen wilt bekijken, gebruikt u de railkiezer op de pagina met de elementdetails.
+Als u de metagegevens van het element wilt weergeven of de verschillende uitvoeringen wilt bekijken, gebruikt u de railkiezer op de pagina met de details van het element.
 
 ![](assets/asset-overview.png)
 
-U kunt alle beschikbare uitvoeringen van het element weergeven op de pagina met elementdetails en een uitvoering selecteren in het menu **[!UICONTROL Renditions]** voor een voorvertoning.
+U kunt alle beschikbare uitvoeringen van het element weergeven op de pagina met elementdetails en een vertoning selecteren in het deelvenster **[!UICONTROL Renditions]** om een voorvertoning weer te geven.
 
 ![](assets/renditions.png)
 
@@ -266,7 +266,7 @@ U kunt alle beschikbare uitvoeringen van het element weergeven op de pagina met 
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 -->
 
-Als u de pagina met eigenschappen van elementen wilt openen, gebruikt u **[!UICONTROL Properties (p)]** in de bovenste balk.
+Als u de pagina met eigenschappen van elementen wilt openen, gebruikt u de optie **[!UICONTROL Properties (p)]** in de bovenste balk.
 
 ![](assets/asset-properties.png)
 
