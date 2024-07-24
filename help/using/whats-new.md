@@ -1,8 +1,6 @@
 ---
 title: Nieuwe functies in Experience Manager Assets Brand Portal
-seo-title: What's new in Experience Manager Assets Brand Portal
-description: Wat zijn de nieuwe eigenschappen en de verhogingen voor 2024.02.0
-seo-description: What are the new features and enhancements for 2024.02.0
+description: Meer informatie over de nieuwe functies en verbeteringen in Experience Manager Assets Brand Portal versie 2024.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +8,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
+source-git-commit: 0bcd251cd566c03cada5dad1c325845723579be7
 workflow-type: tm+mt
-source-wordcount: '6528'
+source-wordcount: '6462'
 ht-degree: 0%
 
 ---
@@ -23,35 +21,35 @@ Met Adobe Experience Manager Assets Brand Portal kunt u eenvoudig goedgekeurde c
 
 ## Wat veranderde in 2024.02.0 {#what-changed-in-February-2024}
 
-Brand Portal 2024.02.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2024.02.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2023.10.0 {#what-changed-in-October-2023}
 
-Brand Portal 2023.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2023.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2023.08.0 {#what-changed-in-August-2023}
 
-Brand Portal 2023.08.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2023.08.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2023.05.0 {#what-changed-in-May-2023}
 
-Brand Portal 2023.05.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2023.05.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2023.02.0 {#what-changed-in-February-2023}
 
-Brand Portal 2023.02.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2023.02.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2022.10.0 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2022.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2022.08.0 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2022.08.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2022.05.0 {#what-changed-in-May-2022}
 
-Brand Portal voert nu om de twaalf uur automatische taken uit om alle Brand Portal-middelen te verwijderen die naar AEM worden gepubliceerd. U hoeft daarom de middelen in de map Contribution niet handmatig te verwijderen om de mapgrootte onder de drempelwaarde te houden. U kunt de status van de automatisch uitgevoerde verwijdertaken ook controleren met de optie **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** > **[!UICONTROL Deletion Reports]** in Brand Portal. Het rapport voor een baan verstrekt de volgende details:
+Brand Portal voert nu automatisch om de twaalf uur taken uit om alle Brand Portal-middelen te verwijderen die naar AEM worden gepubliceerd. U hoeft daarom de middelen in de map Contribution niet handmatig te verwijderen om de mapgrootte onder de drempelwaarde te houden. U kunt de status van de automatisch uitgevoerde verwijdertaken ook controleren met de optie **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** > **[!UICONTROL Deletion Reports]** in Brand Portal. Het rapport voor een baan verstrekt de volgende details:
 
 * Begintijd taak
 * Eindtijd van taak
@@ -66,22 +64,22 @@ U kunt ook verder naar beneden boren om de details van elk middel te bekijken in
 
 ![ Gedetailleerd Rapport van de Schrapping ](assets/deletion-reports-detailed.png)
 
-Bovendien bevat Brand Portal 2022.05.0 oplossingen voor de kritieke problemen. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Bovendien bevat Brand Portal 2022.05.0 oplossingen voor de kritieke problemen. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 
 ## Wat veranderde in 2022.02.0 {#what-changed-in-Feb-2022}
 
-Brand Portal 2022.02.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2022.02.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2021.10.0 {#what-changed-in-october-2021}
 
-Brand Portal 2021.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2021.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2021.08.0 {#what-changed-in-august-2021}
 
-Brand Portal 2021.08.0 is een interne release waarin bedrijfsprofielen worden geïntroduceerd voor bedrijven en teams die klanten kunnen gebruiken om organisaties betere controle over hun middelen te geven. De gebruikers hebben nu organisatiespecifieke rechten voor de nieuwe en gemigreerde organisaties. Tijdens de migratie worden alle bestaande Adobe ID-accounts overgebracht naar Business ID&#39;s.
+Brand Portal 2021.08.0 is een interne release waarin bedrijfsprofielen worden geïntroduceerd voor bedrijven en teams die klanten kunnen gebruiken om organisaties betere controle over hun middelen te geven. De gebruikers hebben nu organisatiespecifieke rechten in de nieuwe en gemigreerde organisaties. Tijdens de migratie worden alle bestaande Adobe ID-accounts overgebracht naar Business ID&#39;s.
 
-* Zakelijke id&#39;s naar alle nieuwe en bestaande organisaties zodra deze zijn gemigreerd.
+* Zakelijke id&#39;s naar alle nieuwe en bestaande organisaties nadat deze zijn gemigreerd.
 * Voor bedrijfs-id&#39;s is geen specifieke instelling vereist, zoals het opvragen van een domein of het instellen van een SSO.
 * U kunt gebruikers toevoegen met elk e-mailadres, inclusief openbare e-maildomeinen zoals gmail.com of outlook.com.
 
@@ -109,7 +107,7 @@ De migratie heeft geen invloed op uw bestaande gegevensset, elementen, gebruiker
 
 * [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [ Vertrouwen van het Domein ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html#directory-trusting)
+* [ Vertrouwen van het Domein ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -156,12 +154,12 @@ For a new or migrated T2E orgnization, the users will have an organization speci
 
 ## Wat veranderde in 2021.06.0 {#what-changed-in-june-2021}
 
-Brand Portal 2021.06.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2021.06.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 
 ## Wat veranderde in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is een verbeteringsrelease die de activeringsworkflow van Brand Portal op AEM Assets as a Cloud Service instelt, de functie voor het beheer van middelen op AEM Assets as a Cloud Service vereenvoudigt, de functionaliteit voor het downloaden van middelen verbetert en kritieke oplossingen bevat. Het laat ook de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. De Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve Brand Portal-gebruikers.
+Brand Portal 2021.02.0 verbetert AEM Assets as a Cloud Service met de activeringswerkstroom en de functie voor middelenbron. Het verbetert ook de ervaring van de activadownload en omvat kritieke moeilijke moeilijke situaties. Het laat ook de beheerders toe om het standaarddownloadgedrag van omslagen, inzamelingen, en bulkdownload van activa op huurdersniveau te vormen. De Brand Portal **[!UICONTROL Usage Report]** is ook aangepast aan de actieve Brand Portal-gebruikers.
 
 ### Brand Portal activeren op AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
@@ -179,36 +177,36 @@ Brand Portal activeren op je as a Cloud Service AEM Assets-exemplaar:
 
 ![ Status van de Mening ](assets/create-environment5.png)
 
-Zie [ Brand Portal op AEM Assets as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) activeren.
+Zie [ Brand Portal op AEM Assets as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) activeren.
 
 ### Asset Sourting op AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-De functie Asset Sourcing is nu beschikbaar op AEM Assets as a Cloud Service. De functie is standaard ingeschakeld voor alle gebruikers van de cloudservice. De toegestane Brand Portal-gebruikers kunnen een bijdrage leveren aan het aanschaffen van middelen door nieuwe middelen te uploaden naar de mappen voor bijdragen en de map met bijdragen te publiceren van Brand Portal naar AEM Assets as a Cloud Service. De beheerders kunnen de bijdrage van de Brand Portal-gebruikers controleren en goedkeuren om deze verder te verspreiden onder andere Brand Portal-gebruikers.
+De functie Asset Sourcing is nu beschikbaar op AEM Assets as a Cloud Service. De functie is standaard ingeschakeld voor alle gebruikers van de cloudservice. De toegestane Brand Portal-gebruikers kunnen bijdragen aan Asset Sourcing door nieuwe middelen te uploaden naar de mappen voor de bijdrage en de map met bijdragen te publiceren van Brand Portal naar AEM Assets as a Cloud Service. Beheerders kunnen de bijdragen van Brand Portal-gebruikers controleren en goedkeuren voordat ze deze naar andere gebruikers verspreiden.
 
 Eerder was Asset Sourcing alleen beschikbaar op AEM Assets (op locatie en beheerde service).
 
-Zie [ Middelen van Activa in Brand Portal ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html).
+Zie [ Middelen van Activa in Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 
 ### Asset Download {#asset-download-setting}
 
 Naast de bestaande **[!UICONTROL Download Settings]** kunnen de Brand Portal-beheerders nu de instelling **[!UICONTROL Asset Download]** configureren. Met deze instelling kunnen beheerders het standaarddownloadgedrag van mappen, verzamelingen en het bulkdownloaden van elementen (meer dan 20 elementen) op huurdersniveau bepalen.
 
 <!--
-Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog box is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Eerder werden alle elementenuitvoeringen rechtstreeks gedownload in een ZIP-map. Het dialoogvenster **[!UICONTROL Download]** is overgeslagen voor mappen en verzamelingen en er was geen methode om het downloadgedrag van de elementen te bepalen, waardoor het moeilijk was om te zoeken naar een bepaalde uitvoering van vele downloads.
+Eerder werden alle elementenuitvoeringen rechtstreeks gedownload in een ZIP-map. Het dialoogvenster **[!UICONTROL Download]** is overgeslagen voor mappen en verzamelingen. En er was geen methode om het downloadgedrag van de activa te controleren, waardoor het moeilijk werd om naar een bepaalde vertoning van vele downloads te zoeken.
 
 Met de instelling **[!UICONTROL Asset Download]** kunt u nu een aparte map voor elk element maken terwijl u de mappen, verzamelingen of bestanden bulksgewijs downloadt.
 
 Als de instelling **[!UICONTROL Asset Download]** is uitgeschakeld, worden de mappen of verzamelingen gedownload in een ZIP-map met alle elementuitvoeringen in dezelfde map, behalve voor het downloaden van de elementen via de koppeling voor delen.
 
 
-Meld u als beheerder aan bij de Brand Portal-medewerker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** . De beheerders kunnen de instelling **[!UICONTROL Asset Download]** inschakelen om voor elk element een aparte map te maken tijdens het downloaden van mappen, verzamelingen en het bulkdownloaden van elementen.
+Meld u als beheerder aan bij de Brand Portal-medewerker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** . De beheerders kunnen de instelling **[!UICONTROL Asset Download]** inschakelen om een aparte map voor elk element te maken tijdens het downloaden van mappen, verzamelingen en het bulkdownloaden van elementen.
 
 ![](assets/download-settings-new.png)
 
-Zie [ downloadactiva van Brand Portal ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
+Zie [ downloadactiva van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -225,37 +223,37 @@ Eerder, zowel werden de actieve als inactieve gebruikers getoond in het Rapport 
 
 ## Wat veranderde in 2020.10.0 {#what-changed-in-oct-2020}
 
-Brand Portal 2020.10.0 is een verbeteringsrelease die zich richt op het vereenvoudigen van het downloaden van bedrijfsmiddelen en die belangrijke oplossingen bevat. De verbetering omvat nieuwe en verbeterde werkschema voor activa downloaden, extra opties om vertoningen uit te sluiten, direct download van **[!UICONTROL Renditions]** paneel, configuratie om toegang en downloadrechten voor specifieke groep gebruikers toe te staan, en gemakkelijke navigatie aan de dossiers, inzamelingen, en gedeelde verbindingen van alle pagina&#39;s van Brand Portal. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Brand Portal 2020.10.0 is een verbeteringsrelease die zich richt op het vereenvoudigen van het downloaden van bedrijfsmiddelen en die belangrijke oplossingen bevat. De verbetering introduceert een nieuwe en verbeterde workflow voor het downloaden van elementen, met opties om uitvoeringen en directe downloads uit te sluiten van het deelvenster **[!UICONTROL Renditions]** . Het staat ook configuratie van toegang en downloadrechten voor specifieke gebruikersgroepen toe, en verstrekt gemakkelijke navigatie aan dossiers, inzamelingen, en gedeelde verbindingen van alle pagina&#39;s van Brand Portal. Zie de [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 
 ### Vereenvoudigde downloadervaring {#download-dialog}
 
-Eerder werd het dialoogvenster **[!UICONTROL Download]** weergegeven met meerdere opties, zoals het maken van een aparte map voor elk element, het e-mailmiddel, het selecteren van het oorspronkelijke element, aangepaste uitvoeringen, dynamische uitvoeringen, het uitsluiten van systeemuitvoeringen en het inschakelen van downloadversnelling, die ambigu waren voor niet-technische of nieuwe gebruikers, met name wanneer meerdere elementen of mappen waren geselecteerd om te worden gedownload. Bovendien kon de gebruiker niet alle elementuitvoeringen zien of een specifieke aangepaste of dynamische uitvoering uitsluiten.
+Eerder werden in het dialoogvenster **[!UICONTROL Download]** meerdere opties geboden, zoals het maken van aparte mappen voor elk element, het verzenden van e-mailmiddelen, het selecteren van originele elementen en nog veel meer. Deze opties waren verwarrend voor niet-technische of nieuwe gebruikers, vooral wanneer het downloaden van veelvoudige activa of omslagen. Bovendien kon de gebruiker niet alle elementuitvoeringen zien of een specifieke aangepaste of dynamische uitvoering uitsluiten.
 
 Het nieuwe dialoogvenster **[!UICONTROL Download]** generaliseert het proces voor het selecteren en filteren van elementen, waardoor Brand Portal-gebruikers gemakkelijker effectieve beslissingen kunnen nemen tijdens het downloaden van de elementuitvoeringen. Alle geselecteerde elementen en de bijbehorende uitvoeringen worden weergegeven, afhankelijk van de instellingen voor [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration en **[!UICONTROL Download]** .
 
 >[!NOTE]
 >
->Voor alle gebruikers is **[!UICONTROL Fast Download]** nu standaard ingeschakeld en is IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9` ) geïnstalleerd in de extensie van hun browser voordat de bestanden van Brand Portal worden gedownload.
+>Voor alle gebruikers is **[!UICONTROL Fast Download]** nu standaard ingeschakeld en is IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9` ) geïnstalleerd in de extensie van hun browser voordat de middelen van Brand Portal kunnen worden gedownload.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 
 -->
 
 In het dialoogvenster **[!UICONTROL Download]** kunnen gebruikers:
 
 * Alle beschikbare uitvoeringen van elementen in de downloadlijst weergeven.
 * Sluit uitvoeringen van de elementen uit die niet vereist zijn voor downloaden.
-* Pas met één klik dezelfde set vertoningen toe op alle vergelijkbare elementtypen.
-* Verschillende sets uitvoeringen toepassen op verschillende elementtypen.
-* Maak voor elk element een aparte map.
+* Pas met één klik dezelfde set uitvoeringen toe op alle vergelijkbare elementtypen.
+* Pas een andere set uitvoeringen toe voor verschillende elementtypen.
+* Maak een aparte map voor elk element.
 * Geselecteerde elementen en de bijbehorende uitvoeringen downloaden.
 
-De downloadworkflow blijft constant voor zelfstandige elementen, meerdere elementen, mappen met elementen, onder licentie of zonder licentie geplaatste elementen en het downloaden van elementen via de koppeling voor delen. Zie [ stappen om activa van Brand Portal ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) te downloaden.
+De downloadworkflow is consistent voor zelfstandige elementen, meerdere elementen, mappen met elementen, gelicentieerde of niet-gelicentieerde elementen en bij het downloaden van elementen via de koppeling voor delen. Zie [ stappen om activa van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets) te downloaden.
 
-![ download-dialoog ](assets/download-dialog-box.png)
+![ download-dialoog-doos ](assets/download-dialog-box.png)
 
-### Snelle navigatie  {#quick-navigation}
+### Snelle navigatie {#quick-navigation}
 
 Eerder waren de opties voor weergave van **[!UICONTROL Files]** , **[!UICONTROL Collections]** en **[!UICONTROL Shared Links]** verborgen en moesten meerdere klikken telkens wanneer de gebruiker naar een andere weergave wilde overschakelen.
 
@@ -268,17 +266,17 @@ In Brand Portal 2020.10.0 kunnen gebruikers met één klik via de snelkoppelinge
 Eerder konden de gebruikers het oorspronkelijke element en de bijbehorende uitvoeringen alleen weergeven in het deelvenster **[!UICONTROL Renditions]** als een van de **[!UICONTROL Custom Rendition]** of **[!UICONTROL System Rendition]** was ingeschakeld in de **[!UICONTROL Download]** -configuratie. Bovendien moesten de gebruikers alle elementuitvoeringen downloaden omdat er geen filter was om specifieke aangepaste of dynamische uitvoeringen uit te sluiten die niet vereist waren.
 
 <!--
-Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog box appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, kunnen de gebruikers specifieke vertoningen uitsluiten en direct [ de geselecteerde vertoningen van het paneel van Vertoningen ](brand-portal-download-assets.md#download-assets-from-asset-details-page) in de pagina van elementendetails downloaden zonder het moeten **[!UICONTROL Download]** dialoog openen.
+In Brand Portal 2020.10.0, kunnen de gebruikers specifieke vertoningen uitsluiten en direct [ de geselecteerde vertoningen van het paneel van Vertoningen ](brand-portal-download-assets.md#download-assets-from-asset-details-page) in de pagina van elementendetails downloaden zonder het moeten **[!UICONTROL Download]** dialoogdoos openen.
 
 
 <!-- 
 In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
 
-The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog box.
 -->
 
 ![ vertoningen-paneel ](assets/renditions-panel.png)
@@ -286,7 +284,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Downloadinstellingen configureren {#download-permissions}
 
-Naast de bestaande **[!UICONTROL Download]** -configuraties kunnen de Brand Portal-beheerders ook instellingen configureren voor verschillende groepen gebruikers om het oorspronkelijke element en de uitvoeringen ervan te bekijken en (of) te downloaden van de pagina met elementdetails.
+Brand Portal-beheerders kunnen nu instellingen voor gebruikersgroepen configureren om originele elementen en uitvoeringen, of beide, weer te geven of te downloaden vanaf de pagina met elementdetails, naast de bestaande **[!UICONTROL Download]** -configuraties.
 
 Meld u als beheerder aan bij de Brand Portal-medewerker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Users]** .
 
@@ -301,7 +299,7 @@ Met het tabblad **[!UICONTROL Groups]** op de pagina **[!UICONTROL User Roles]**
 * Als alleen de instelling **[!UICONTROL Download Original]** is ingeschakeld, kunnen gebruikers alleen de oorspronkelijke elementen weergeven en downloaden van de pagina met elementdetails.
 * Als alleen de instelling **[!UICONTROL Download Renditions]** is ingeschakeld, kunnen gebruikers het oorspronkelijke element weergeven, maar kunnen ze het niet downloaden. De gebruiker kan de elementuitvoeringen wel weergeven en downloaden.
 
-Zie [ activadownload ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) vormen.
+Zie [ activadownload ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions) vormen.
 
 ![ mening-download-toestemming ](assets/download-permissions.png)
 
@@ -319,7 +317,7 @@ Zie [ activadownload ](https://experienceleague.adobe.com/docs/experience-manage
 
 ## Wat veranderde in 6.4.7 {#what-changed-in-647}
 
-De release van Brand Portal 6.4.7 biedt de documentviewer, verbetert de ervaring voor het downloaden van middelen en bevat belangrijke correcties. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+De release van Brand Portal 6.4.7 biedt de documentviewer, verbetert de ervaring voor het downloaden van middelen en bevat belangrijke correcties. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -331,7 +329,7 @@ De documentviewer verbetert de weergave van PDF. De toepassing biedt een vergeli
 
 Eerder waren er beperkte opties beschikbaar om de PDF-bestanden weer te geven.
 
-Met Documentviewer hebben de Brand Portal-gebruikers nu de opties om pagina&#39;s weer te geven, bladwijzers weer te geven, op pagina&#39;s te zoeken, in te zoomen, uit te zoomen, naar vorige en volgende pagina&#39;s te navigeren, naar pagina te schakelen, aan venster te passen, op scherm te passen en de werkbalk te verbergen of te verbergen.
+Brand Portal-gebruikers kunnen met de documentviewer pagina&#39;s en bladwijzers weergeven, tekst zoeken, in- en uitzoomen en door pagina&#39;s navigeren. Ze kunnen overschakelen naar een specifieke pagina, passen in een venster of scherm en de zichtbaarheid van de werkbalk in- en uitschakelen.
 
 >[!NOTE]
 >
@@ -356,11 +354,11 @@ De Brand Portal-beheerder kan elke combinatie inschakelen om het downloaden van 
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Als zowel **[!UICONTROL Custom Renditions]** als **[!UICONTROL System Renditions]** -configuraties zijn uitgeschakeld, worden de oorspronkelijke uitvoeringen van de elementen gedownload zonder extra dialoogvenster dat het downloaden voor de Brand Portal-gebruikers vereenvoudigt.
+* Als zowel **[!UICONTROL Custom Renditions]** als **[!UICONTROL System Renditions]** -configuraties zijn uitgeschakeld, worden de oorspronkelijke uitvoeringen van de elementen gedownload zonder extra dialoogvenster. Dit vereenvoudigt het downloaden voor Brand Portal-gebruikers.
 
 * Als een van de opties **[!UICONTROL Custom Rendition]** of **[!UICONTROL System Rendition]** is ingeschakeld, wordt het dialoogvenster **[!UICONTROL Download]** weergegeven en worden het oorspronkelijke element en de elementuitvoeringen gedownload. Als u **[!UICONTROL Fast Download]** -configuratie inschakelt, wordt het downloadproces versneld.
 
-Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, omslagen die activa, vergunning of unlicensed activa bevatten, en het downloaden van activa gebruikend aandeelverbinding.
+Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, en omslagen die activa bevatten. Het omvat ook gelicentieerde of niet-gelicentieerde activa, en het downloaden van activa die een aandeelverbinding gebruiken.
 
 
 ## Wat veranderde in 6.4.6 {#what-changed-in-646}
@@ -399,30 +397,30 @@ De stappen voor het configureren van AEM Assets met Brand Portal zijn afhankelij
 
 | **AEM Versie** | **Nieuwe Configuratie** | **Configuratie van de Verbetering** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [ creeer configuratie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 en hierboven)** | [ creeer configuratie ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [ de configuratie van de Verbetering ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [ creeer configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
+| **AEM 6.5 (6.5.4.0 en hierboven)** | [ creeer configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [ de configuratie van de Verbetering ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
->U wordt aangeraden uw AEM-exemplaar bij te werken naar het nieuwste servicepakket.
+>Adobe raadt u aan uw AEM bij te werken om het nieuwste servicepack te gebruiken.
 
-Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+Zie de [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 Zie [ FAQs van Brand Portal ](brand-portal-faqs.md).
 
 ## Wat veranderde in 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 is een release met functies die zich richt op het bieden van Brand Portal-gebruikers (externe agentschappen/teams) de mogelijkheid om inhoud te uploaden naar Brand Portal en deze te publiceren naar AEM Assets, zonder dat toegang nodig is tot de auteursomgeving. Deze eigenschap wordt genoemd **[Middelen van Activa in Brand Portal](brand-portal-asset-sourcing.md)**, en verbetert klantenervaringen door een bidirectioneel mechanisme voor gebruikers te verstrekken om activa met andere globaal verdeelde gebruikers van Brand Portal zowel bij te dragen als te delen.
+Met Brand Portal 6.4.5 kunnen externe bureaus en teams inhoud uploaden naar Brand Portal en deze publiceren naar AEM Assets, zonder dat ze toegang hoeven te hebben tot de auteursomgeving. Deze eigenschap wordt genoemd **[Middelen van Activa in Brand Portal](brand-portal-asset-sourcing.md)**, en verbetert klantenervaringen door een bidirectioneel mechanisme voor gebruikers te verstrekken om activa met andere globaal verdeelde gebruikers van Brand Portal zowel bij te dragen als te delen.
 
 ### Asset Sourting in Brand Portal {#asset-sourcing-in-bp}
 
 De Middelen van activa staat AEM gebruikers (beheerders/niet-admin gebruikers) toe om omslagen met een extra **bezit van de Bijdrage van het Middel te creëren 0}, die de nieuwe omslag verzekeren open aan activa voorlegging door de gebruikers van Brand Portal wordt gecreeerd.** Het brengt automatisch een werkschema in werking dat tot twee extra subomslagen, genoemd NIEUW en GEDEELD, binnen de pas gecreëerde **omslag van de Bijdrage** leidt.
 
-De AEM gebruiker bepaalt dan het vereiste door een kort over de types van activa te uploaden die aan de bijdrageomslag, en het uploaden basislijnactiva, aan de **GEDEELDE** omslag zouden moeten worden toegevoegd om ervoor te zorgen dat de gebruikers van Brand Portal de verwijzingsinformatie hebben zij nodig. De beheerder kan actieve gebruikers van Brand Portal toegang tot de bijdrageomslag dan verlenen alvorens de pas gecreëerde **omslag van de Bijdrage** aan Brand Portal te publiceren.
+De AEM gebruiker uploadt een korte en basislijnactiva aan de **GEDEELDE** omslag. Ze definiëren de typen elementen die nodig zijn in de bijdragemap, zodat Brand Portal-gebruikers over de benodigde referentie-informatie beschikken. De beheerder kan actieve gebruikers van Brand Portal toegang tot de bijdrageomslag dan verlenen alvorens de pas gecreëerde **omslag van de Bijdrage** aan Brand Portal te publiceren.
 
 
-Zodra de gebruiker wordt gebeëindigd toevoegend inhoud in de **NIEUWE** omslag, kunnen zij de bijdrageomslag terug naar het AEM auteursmilieu publiceren. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in AEM Assets wordt weerspiegeld.
+Zodra de gebruiker wordt gebeëindigd toevoegend inhoud in de **NIEUWE** omslag, kunnen zij de bijdrageomslag terug naar het milieu van de AEM Auteur publiceren. Het kan enkele minuten duren voordat de import is voltooid en de nieuw gepubliceerde inhoud in AEM Assets wordt weerspiegeld.
 
 Bovendien blijven alle bestaande functies ongewijzigd. Brand Portal-gebruikers kunnen middelen weergeven, zoeken en downloaden vanuit de map met bijdragen en vanuit de andere toegestane mappen. En beheerders kunnen de bijdragemap verder delen, eigenschappen wijzigen en elementen toevoegen aan verzamelingen.
 
@@ -430,7 +428,7 @@ Bovendien blijven alle bestaande functies ongewijzigd. Brand Portal-gebruikers k
 >
 >Asset Sourcing in Brand Portal wordt ondersteund op AEM 6.5.2.0 en hoger.
 >
->De functie wordt niet ondersteund in de eerdere versies - AEM 6.3 en AEM 6.4.
+>De functie wordt niet ondersteund in de eerdere versies, AEM 6.3 en AEM 6.4.
 
 ### Elementen uploaden naar de bijdragemap {#upload-assets-in-bp}
 
@@ -446,24 +444,24 @@ De gebruikers van Brand Portal kunnen slechts activa aan **NIEUWE** subfolder up
 
 ### Publish Contributiemap naar AEM Assets {#publish-assets-to-aem}
 
-Zodra uploaden aan de **NIEUWE** omslag volledig is, kunnen de gebruikers van Brand Portal de bijdrageomslag terug naar AEM dan publiceren. Het kan enkele minuten duren om de gepubliceerde inhoud/middelen in AEM Assets te importeren en weer te geven. Zie [ bijdragen omslag aan AEM Assets ](brand-portal-publish-contribution-folder-to-aem-assets.md) publiceren.
+Zodra uploaden aan de **NIEUWE** omslag volledig is, kunnen de gebruikers van Brand Portal de bijdrageomslag terug naar AEM dan publiceren. Het kan een paar minuten duren om de gepubliceerde inhoud/middelen in AEM Assets te importeren en weer te geven. Zie [ bijdragen omslag aan AEM Assets ](brand-portal-publish-contribution-folder-to-aem-assets.md) publiceren.
 
 
 ![](assets/upload-asset5.png)
 
 ## Wat veranderde in 6.4.4 {#what-changed-in-644}
 
-De release van Brand Portal 6.4.4 richt zich op verbeteringen in het zoeken naar tekst en op verzoeken van klanten. Zie recentste [ de Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
+De release van Brand Portal 6.4.4 richt zich op verbeteringen in het zoeken naar tekst en op verzoeken van klanten. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ### Verbeteringen voor zoeken
 
-Vanaf Brand Portal 6.4.4 steunt gedeeltelijke tekstonderzoek op bezitspredikaat in het filtreren ruit. Om gedeeltelijk tekstonderzoek toe te staan, moet u **Gedeeltelijk Onderzoek** in Bezit toelaten Predicate in de onderzoeksvorm.
+Vanaf Brand Portal 6.4.4 steunt gedeeltelijk tekstonderzoek in de Predicate van het Bezit in de het filtreren ruit. Om gedeeltelijk tekstonderzoek toe te staan, laat **Gedeeltelijk Onderzoek** in Bezit in de onderzoeksvorm toe.
 
 Lees verder om meer te weten over gedeeltelijk tekstonderzoek en vervangingsonderzoek.
 
 #### Gedeeltelijke woordzoekopdracht {#partial-phrase-search}
 
-U kunt nu naar elementen zoeken door alleen een deel (dat een woord of twee is) van de gezochte woordgroep op te geven in het filtervenster.
+U kunt nu naar elementen zoeken door alleen een deel, dat wil zeggen een woord of twee, van de gezochte uitdrukking op te geven in het filtervenster.
 
 **Geval van het Gebruik**
 Gedeeltelijke woordzoekactie is handig als u niet zeker weet welke combinatie van woorden in de gezochte uitdrukking voorkomt.
@@ -474,11 +472,11 @@ Bijvoorbeeld, als uw onderzoeksvorm in Brand Portal het Predicaat van het Bezit 
 
 #### Zoekopdracht met jokertekens {#wildcard-search}
 
-Brand Portal staat het gebruiken van de asterisk (&#42;) in onderzoeksvraag samen met een deel van het woord in uw gezochte uitdrukking toe.
+Brand Portal staat het gebruiken van de asterisk (&#42;) met een deel van een woord in uw onderzoeksvraag toe.
 
-**Gebruik hoofdletters/kleine letters. Als u niet zeker weet welke woorden precies voorkomen in de gezochte uitdrukking, kunt u een vervangingsonderzoek gebruiken om de hiaten in uw onderzoeksvraag te vullen.
+Als u niet zeker weet welke woorden precies voorkomen in de gezochte uitdrukking, kunt u een vervangingsonderzoek gebruiken om de hiaten in uw onderzoeksvraag te vullen.
 
-Bijvoorbeeld, die **specificeren klimt&#42;** alle activa terugkeren die woorden hebben die met de karakters **klimmen** in hun titeluitdrukking als de onderzoeksvorm in Brand Portal het Predicaat van het Bezit voor gedeeltelijk onderzoek op activa titel beginnen.
+Bijvoorbeeld, die **klimt&#42;** alle activa specificeren die woorden hebben die met de karakters **beginnen klimmen** in hun titeluitdrukking als de onderzoeksvorm in Brand Portal de Predicate van het Bezit voor gedeeltelijk onderzoek op activa titel gebruikt.
 
 ![](assets/wildcard-prop.png)
 
@@ -496,7 +494,7 @@ Op dezelfde manier specificeren:
 
 ## Wat veranderde in 6.4.3 {#what-changed-in}
 
-De release van Brand Portal 6.4.3 richt zich op het bieden van een alternatieve alias aan organisaties naast hun huurder-id in Brand Portal access URL, de nieuwe configuratie van de mappenhiërarchie, videosupportverbeteringen, de geplande publicatie van AEM Author-instantie naar Brand Portal, operationele verbeteringen en het doorgeven van aanvragen aan klanten.
+Brand Portal 6.4.3 introduceert een alternatieve alias voor toegang URLs, een nieuwe omslaghiërarchie, en videosteunverhogingen. Het introduceert ook gepland publiceren van AEM Auteur aan Brand Portal, operationele verbeteringen, en richt klantenverzoeken.
 
 ### Navigatie in maphiërarchie voor niet-beheerders
 
@@ -521,9 +519,9 @@ De standaardminiatuur van de virtuele mappen is de miniatuurafbeelding van de ee
 
 [![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
-### Zoeken in specifieke maphiërarchie of pad
+### Zoeken in een specifieke maphiërarchie of een bepaald pad
 
-**Browser van de Weg** voorspelt wordt geïntroduceerd in de Vorm van het Onderzoek om het zoeken van activa in een specifieke folder toe te staan. Het standaardzoekpad van de zoekvoorspelling voor de padbrowser is `/content/dam/mac/<tenant-id>/` , dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
+**Browser van de Weg** voorspelt wordt geïntroduceerd in onderzoeksvorm om het zoeken van activa in een specifieke folder toe te staan. Het standaardzoekpad van de zoekvoorspelling voor de padbrowser is `/content/dam/mac/<tenant-id>/` , dat kan worden geconfigureerd door het standaardzoekformulier te bewerken.
 
 * Admin-gebruikers kunnen met de Padbrowser naar een willekeurige mapmap op Brand Portal navigeren.
 * Gebruikers die geen beheerder zijn, kunnen de padbrowser gebruiken om alleen naar de mappen (en terug te navigeren naar de bovenliggende mappen) te navigeren die met hen worden gedeeld.
@@ -545,7 +543,7 @@ Als u onder deze mappen zoekt, wordt alleen gezocht naar elementen die met de ge
 
 Gebruikers van wie de AEM Author-instantie zich in de hybride Dynamic Media-modus bevindt, kunnen naast de originele videobestanden ook een voorvertoning van de dynamische media-uitvoeringen weergeven en deze downloaden.
 
-Om voorproef en download van dynamische media vertoningen op specifieke huurdersrekeningen toe te staan, moeten de beheerders **van de Configuratie van 0} Dynamic Media (videodienst URL (DM-Gateway URL) en registratie identiteitskaart specificeren om de dynamische video) in** Video **configuratie van admin hulpmiddelenpaneel te halen.**
+Om voorproef en download van dynamische media vertoningen op specifieke huurdersrekeningen toe te laten, specificeren de beheerders de Configuratie van a **Dynamic Media**. Deze stap omvat de videodienst URL en registratie identiteitskaart in de **Video** configuratie van het admin hulpmiddelenpaneel.
 
 
 Dynamic Media-video&#39;s kunnen worden voorvertoond op:
@@ -577,12 +575,12 @@ Op dezelfde manier kunnen gepubliceerde elementen later uit het portaal worden v
 
 ### Configureerbare alias van huurder in URL
 
-Organisaties kunnen hun portaal-URL aanpassen door een alternatief voorvoegsel in de URL te hebben. Om een alias voor huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties de Steun van de Klant contacteren.
+Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in de URL te plaatsen. Om een alias voor de huurdersnaam in hun bestaande portaal URL te krijgen, moeten de organisaties de Steun van de Klant contacteren.
 
 Alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
-Bijvoorbeeld, kan een organisatie met bestaand domein **geomettrix.brand-portal.adobe.com** **geomettrixinc.brand-portal.adobe.com** krijgen die op verzoek wordt gecreeerd.
+Bijvoorbeeld, kan een organisatie met een bestaand domein **geomettrix.brand-portal.adobe.com** **geomettrixinc.brand-portal.adobe.com** krijgen die op verzoek wordt gecreeerd.
 
-Nochtans, AEM de instantie van de Auteur kan [ worden gevormd ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselend) URL.
+Nochtans, kan de AEM instantie van de Auteur [ worden gevormd ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) slechts met huurderidentiteitskaart URL en niet met huurder alias (afwisselend) URL.
 
 Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van de Adobe te houden.
 
@@ -590,20 +588,20 @@ Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te
 
 ### Verbeteringen in downloadervaring
 
-De release biedt een vereenvoudigde downloadervaring met een beperkt aantal klikken en waarschuwingen, op:
+De release biedt een vereenvoudigde downloadervaring met een beperkt aantal klikken en waarschuwingen op:
 
 * Opdat alleen de uitvoeringen (en niet de oorspronkelijke elementen) worden gedownload.
 * De elementen downloaden wanneer de toegang tot de oorspronkelijke uitvoeringen beperkt is.
 
 ## Wat veranderde in 6.4.2 {#what-changed-in-1}
 
-De release van Brand Portal 6.4.2 biedt een groot aantal mogelijkheden om tegemoet te komen aan de behoeften van organisaties op het gebied van de distributie van bedrijfsmiddelen en hen te helpen bij het bereiken van een groot aantal gebruikers die wereldwijd gedistribueerd zijn via gasttoegang en optimale ervaring met versnelde downloads. Brand Portal verstrekt ook grotere controle aan organisaties door nieuwe configuraties voor beheerders, onlangs toegevoegd rapport, en caters aan klantenverzoeken.
+Brand Portal 6.4.2 introduceert functies die voldoen aan de behoeften van organisaties op het gebied van middelendistributie, waardoor wereldwijd bereik mogelijk is via toegang voor gasten en snellere downloads. Het biedt ook verbeterde controle met nieuwe adminconfiguraties, een toegevoegd rapport, en richt klantenverzoeken aan.
 
 ### Toegang voor gasten
 
 ![](assets/bp-login-screen-1.png)
 
-AEM Brand-portaal biedt gasten toegang tot het portaal. Een gastgebruiker vereist geen geloofsbrieven om het portaal in te gaan en kan tot alle openbare omslagen en inzamelingen toegang hebben en downloaden. Gastgebruikers kunnen elementen toevoegen aan hun lichtbak (privéverzameling) en deze downloaden. Ze kunnen ook zoeken naar slimme tags en voorspelden van zoekopdrachten weergeven die door beheerders zijn ingesteld. De gastzitting staat gebruikers niet toe om inzamelingen tot stand te brengen en bewaarde onderzoeken of hen verder te delen, tot omslag en inzamelingsmontages toegang te hebben, en activa als verbindingen te delen.
+AEM Brand Portal staat gasttoegang tot het portaal toe. Een gast-gebruiker heeft geen referenties nodig om het portaal in te voeren en kan alle openbare mappen en verzamelingen openen en downloaden. Gastgebruikers kunnen elementen toevoegen aan hun lichtbak (privéverzameling) en deze downloaden. Ze kunnen ook zoeken naar slimme tags en voorspelden van zoekopdrachten weergeven die door beheerders zijn ingesteld. De gastzitting staat gebruikers niet toe om inzamelingen tot stand te brengen en bewaarde onderzoeken of hen verder te delen, tot omslag en inzamelingsmontages toegang te hebben, en activa als verbindingen te delen.
 
 In een organisatie zijn meerdere gelijktijdige gastsessies toegestaan, wat beperkt is tot 10% van de totale gebruikersquota per organisatie.
 
@@ -611,23 +609,25 @@ Een gastsessie blijft twee uur actief. Daarom wordt de staat van de lichtbak ook
 
 ### Versnelde downloads
 
-Brand Portal-gebruikers kunnen snelle downloads toepassen op basis van IBM Aspera Connect, zodat ze 25x sneller kunnen downloaden en overal ter wereld probleemloos kunnen downloaden. Om de activa van Brand Portal of de gedeelde verbinding sneller te downloaden, moeten de gebruikers **selecteren laat de optie van de Versnelling van de Download** in downloaddialoog toe, op voorwaarde dat de downloadversnelling op hun organisatie wordt toegelaten.
+Brand Portal-gebruikers kunnen snelle downloads toepassen op basis van IBM® Aspera Connect, zodat ze 25x sneller kunnen downloaden en overal ter wereld probleemloos kunnen downloaden. Om de activa van Brand Portal of de gedeelde verbinding sneller te downloaden, moeten de gebruikers de **toelaten optie van de Versnelling van de Download** in de doos van de downloaddialoog selecteren, op voorwaarde dat de downloadversnelling in hun organisatie wordt toegelaten.
 
 ![](assets/donload-assets-dialog-2.png)
 
-Om op IBM Aspera gebaseerde versnelde download voor de organisatie toe te laten, laten de beheerders **de optie van de Versnelling van de Download** toe (die door gebrek) van [ Algemene Montages ](brand-portal-general-configuration.md#allow-download-acceleration) in het administratieve hulpmiddelenpaneel wordt onbruikbaar gemaakt. Meer over eerste vereisten en het oplossen van problemenstappen voor het sneller downloaden van activadossiers van Brand Portal en gedeelde verbindingen, verwijs [ Gids om downloads van Brand Portal ](../using/accelerated-download.md#main-pars-header) te versnellen.
+Om op IBM® Aspera gebaseerde versnelde download voor de organisatie toe te laten, laten de beheerders **de optie van de Versnelling van de Download** toe (die door gebrek) van [ Algemene Montages ](brand-portal-general-configuration.md#allow-download-acceleration) in het administratieve hulpmiddelenpaneel wordt onbruikbaar gemaakt.
+
+Voor eerste vereisten en het oplossen van problemenstappen om activadossiers van Brand Portal en gedeelde verbindingen sneller te downloaden, zie [ Gids om downloads van Brand Portal ](../using/accelerated-download.md#main-pars-header) te versnellen.
 
 ### Rapport voor gebruikersaanmelding
 
-Er is een nieuw rapport geïntroduceerd om gebruikersaanmeldingen bij te houden. Het **Logins van de Gebruiker** rapport kan in het toelaten van organisaties zijn om een controle op de gedelegeerde beheerders en andere gebruikers van Brand Portal te controleren en te houden.
+Er wordt nu een nieuw rapport voor het bijhouden van gebruikersaanmelding geïntroduceerd. Het **Logins van de Gebruiker** rapport kan in het toelaten van organisaties zijn om een controle op de gedelegeerde beheerders en andere gebruikers van Brand Portal te controleren en te houden.
 
-De rapportlogboeken tonen namen, e-mail IDs, persona&#39;s (admin, kijker, redacteur, gast), groepen, laatste login, activiteitenstatus, en login telling van elke gebruiker van de plaatsing van Brand Portal 6.4.2 tot de tijd van rapportgeneratie. De beheerders kunnen het rapport als .csv uitvoeren. Samen met andere rapporten, laat het rapport van de Logins van de Gebruiker organisaties toe om gebruikersinteractie met de goedgekeurde merkmiddelen beter te controleren, daardoor ervoor zorgend conformiteit aan collectieve nalevingsbureaus.
+De rapportlogboeken tonen namen, e-mail IDs, persona&#39;s (admin, kijker, redacteur, gast), groepen, laatste login, activiteitenstatus, en login telling van elke gebruiker van de plaatsing van Brand Portal 6.4.2 tot de tijd van rapportgeneratie. De beheerders kunnen het rapport als .csv uitvoeren. Samen met andere rapporten, laat het rapport van de Logins van de Gebruiker organisaties gebruikersinteractie met goedgekeurde merkmiddelen nauwlettend controleren, die naleving aan collectieve nalevingsbureaus verzekeren.
 
 ![](assets/user-logins-1.png)
 
 ### Toegang tot oorspronkelijke vertoningen
 
-Beheerders kunnen de gebruikerstoegang tot originele afbeeldingsbestanden (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) en geef toegang tot vertoningen met lage resolutie die zij van Brand Portal of gedeelde verbinding downloaden. Deze toegang kan op het niveau van de gebruikersgroep van het lusje van Groepen van de pagina van Rollen van de Gebruiker in het paneel van Admin hulpmiddelen worden gecontroleerd.
+Beheerders kunnen de toegang tot originele afbeeldingsbestanden beperken en toegang tot uitvoeringen met een lage resolutie bieden om te downloaden van Brand Portal of gedeelde koppelingen. Deze toegang kan op het niveau van de gebruikersgroep van het lusje van Groepen van de pagina van de Rollen van de Gebruiker worden gecontroleerd.
 
 ![](assets/access-original-rend-1.png)
 
@@ -639,26 +639,26 @@ Beheerders kunnen de gebruikerstoegang tot originele afbeeldingsbestanden (.jpeg
 
 ### Pad met maphiërarchie op kaart- en lijstweergaven
 
-In de Kaarten van mappen wordt in de Kaartweergave nu informatie over de maphiërarchie weergegeven voor gebruikers die geen beheerder zijn (Editor, Viewer en gastgebruiker). Deze functionaliteit laat de gebruikers de plaats van de omslagen kennen, die zij, met betrekking tot de ouderhiërarchie toegang hebben.
+In de Kaarten van mappen wordt in de Kaartweergave nu informatie over de maphiërarchie weergegeven voor gebruikers die geen beheerder zijn (Editor, Viewer en gastgebruiker). Deze functionaliteit laat gebruikers de plaats van de omslagen kennen zij met betrekking tot de ouderhiërarchie toegang hebben.
 
-Informatie over de maphiërarchie is vooral handig om onderscheid te maken tussen de mappen waarvan de namen overeenkomen met andere mappen die vanuit een andere maphiërarchie worden gedeeld. Als de gebruikers die geen beheerder zijn niet op de hoogte zijn van de mapstructuur van de elementen die met hen worden gedeeld, lijken elementen/mappen met vergelijkbare namen verwarrend.
+Informatie over de maphiërarchie is vooral handig voor het onderscheiden van de mappen. Dat wil zeggen dat mappen waarvan de namen overeenkomen met die van andere mappen, worden gedeeld vanuit een andere maphiërarchie. Als de gebruikers die geen beheerder zijn niet op de hoogte zijn van de mapstructuur van de elementen die met hen worden gedeeld, lijken elementen/mappen met vergelijkbare namen verwarrend.
 
-* De paden die op de betreffende kaarten worden weergegeven, worden afgekapt om in de kaartgrootten te passen. Gebruikers kunnen het volledige pad echter zien als knopinfo bij het aanwijzen over het afgebroken pad.
+* De paden die op de betreffende kaarten worden weergegeven, worden afgekapt om in de kaartgrootten te passen. Gebruikers kunnen het volledige pad echter zien als knopinfo door de muisaanwijzer boven het ingekorte pad te houden.
 
 ![](assets/folder-hierarchy1-1.png)
 
-In de lijstweergave wordt het mappad van elementen in een kolom weergegeven voor alle gebruikers van Brand Portal.
+In de lijstweergave wordt het pad van de elementen in een kolom weergegeven voor alle gebruikers van Brand Portal.
 
 ![](assets/list-view-1.png)
 
 ### Overzicht, optie om de eigenschappen van elementen weer te geven
 
-Brand Portal biedt een overzichtsoptie voor gebruikers die geen beheerder zijn (Editors, Viewers, Gastgebruikers) om de eigenschappen van middelen van geselecteerde elementen/mappen weer te geven. De optie Overzicht is zichtbaar:
+Brand Portal biedt een overzichtsoptie voor gebruikers die geen beheerder zijn (Editors, Viewers, gastgebruikers) om de eigenschappen van middelen van geselecteerde elementen/mappen weer te geven. De optie Overzicht is zichtbaar:
 
-1. Selecteer bovenaan op de werkbalk een middel/map.
-2. In de vervolgkeuzelijst selecteert u de spoorkiezer.
+1. Kies bovenaan op de werkbalk een middel/map om een bestand/map te selecteren.
+2. Selecteer in de vervolgkeuzelijst de spoorkiezer.
 
-Als u de optie Overzicht selecteert terwijl een middel/map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip van het maken van de elementen zien. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
+Als u de optie Overzicht selecteert en een element/map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip van het maken van de elementen zien. Terwijl de gebruikers op de pagina met elementdetails de optie Overzicht selecteren, metagegevens van het element kunnen bekijken.
 
 ![](assets/overview-option-2.png)
 
@@ -666,7 +666,7 @@ Als u de optie Overzicht selecteert terwijl een middel/map is geselecteerd, kunn
 
 ## Nieuwe configuraties
 
-Er worden zes nieuwe configuraties toegevoegd voor beheerders om de volgende functies in of uit te schakelen voor specifieke huurders:
+Er worden zes nieuwe configuraties toegevoegd voor beheerders om de volgende functies op specifieke huurders in of uit te schakelen:
 
 * Toegang voor gasten toestaan
 * Gebruikers toegang tot Brand Portal aanvragen
@@ -675,58 +675,58 @@ Er worden zes nieuwe configuraties toegevoegd voor beheerders om de volgende fun
 * Maken van openbare slimme verzamelingen toestaan
 * Downloadversnelling toestaan
 
-De bovenstaande configuraties zijn beschikbaar onder Toegang en Algemene instellingen in het deelvenster met beheergereedschappen.
+De bovenstaande configuraties zijn beschikbaar onder de instellingen Toegang en Algemeen in het deelvenster met beheergereedschappen.
 
 ![](assets/access-configs-1.png)
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe I/O UI om de Integraties van de Auth te vormen
+### `Adobe I/O` UI voor het configureren van Auth-integratie
 
-Vanaf Brand Portal 6.4.2 gebruikt de Verouderde interface OAuth (`https://legacy-oauth.cloud.adobe.io/`) om toepassing tot stand te brengen JWT, die het vormen van de Integraties van Auth toelaat om de integratie van AEM Assets met Brand Portal toe te staan. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/` . Meer over het integreren van AEM Assets met Brand Portal voor het publiceren van activa en inzamelingen aan Brand Portal verwijs [ de integratie van AEM Assets met Brand Portal ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) vormen.
+Vanaf Brand Portal 6.4.2 gebruikt de Verouderde interface OAuth (`https://legacy-oauth.cloud.adobe.io/`) om toepassing tot stand te brengen JWT, die het vormen van de Integraties van Auth toelaat om de integratie van AEM Assets met Brand Portal toe te staan. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/` . Meer over het integreren van AEM Assets met Brand Portal voor het publiceren van activa en inzamelingen aan Brand Portal verwijs [ de integratie van AEM Assets met Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) vormen.
 
 ## Verbeteringen zoeken
 
-Beheerders kunnen de eigenschap instellen dat niet-hoofdlettergevoelig wordt voorspeld door de bijgewerkte eigenschap predikaat te gebruiken, die een controle op Hoofdlettergebruik negeren heeft. Deze optie is beschikbaar voor de voorspelling van eigenschappen en eigenschappen met meerdere waarden.\
-Nochtans, is het niet-hoofdlettergevoelige onderzoek relatief langzamer dan standaardonderzoek naar bezitspredikaat. Als het zoekfilter te veel niet-hoofdlettergevoelige voorspellingen bevat, kan de zoekopdracht vertragen. Daarom wordt het aanbevolen de niet-hoofdgevoelige zoekopdracht op oordeelkundige wijze te gebruiken.
+Beheerders kunnen de eigenschap instellen dat niet-hoofdlettergevoelig wordt voorspeld door het bijgewerkte eigenschappenvoorvoegsel te gebruiken, dat een controle op Hoofdlettergebruik negeren bevat. Deze optie is beschikbaar voor Predicate van het Bezit en multi-value Voorkeur van het Bezit.\
+De niet-hoofdlettergevoelige zoekopdracht verloopt echter relatief trager dan de standaardzoekopdracht naar Eigenschapprognose. Als het zoekfilter te veel niet-hoofdlettergevoelige voorspellingen bevat, kan de zoekopdracht vertragen. Adobe raadt u aan de niet-hoofdlettergevoelige zoekopdracht verstandig te gebruiken.
 
 ## Wat veranderde in 6.4.1 {#what-changed-in-2}
 
-Brand Portal 6.4.1 is een upgraderelease voor platformen die verschillende nieuwe functies en essentiële verbeteringen bevat, zoals bladeren, zoeken en prestatieverbeteringen, om een bevredigende klantervaring te bieden.
+Brand Portal 6.4.1 is een platformupgraderelease. Het introduceert verscheidene nieuwe eigenschappen en essentiële verhogingen zoals het doorbladeren, het zoeken, en prestatiesverhogingen.
 
 ### Verbeteringen voor bladeren
 
-* Nieuwe contentstructuurrails om snel door de hiërarchie van elementen te navigeren.
+* Met de nieuwe contentstructuurrails kunnen gebruikers snel door een elementhiërarchie navigeren.
 
 ![](assets/contenttree-2.png)
 
-* Introduceerde nieuwe toetsenbordkortere weg, bijvoorbeeld _(p)_ voor navigatie aan eigenschappenpagina, _(e)_ voor Edit, en _(ctrl+c)_ voor exemplaarverrichtingen.
-* Verbeterde schuifervaring, luie laadervaring in kaart- en lijstweergave voor het bladeren door een groot aantal elementen.
+* Nieuwe toetsenbordkortere weg, bijvoorbeeld _(p)_ voor navigatie aan eigenschappenpagina, _(e)_ voor Edit, en _(ctrl+c)_ voor exemplaarverrichtingen.
+* Verbeterde schuifervaring en een luie laadervaring in Kaart en Lijstweergave voor het bladeren door een groot aantal elementen.
 * Uitgebreide kaartweergave met ondersteuning voor kaarten van verschillende grootte op basis van de instelling van de weergave.
 
 ![](assets/cardviewsettings-1.png)
 
-* In de kaartweergave wordt nu datum-/tijdstempel weergegeven wanneer u de muis boven het datumlabel plaatst.
+* In de kaartweergave wordt nu een datum-/tijdstempel weergegeven wanneer u de muis boven het datumlabel plaatst.
 
-* De verbeterde mening van de Kolom met **Meer Details** onder de activamomentopname, die u aan detailspagina van een activa laat navigeren.
+* De verbeterde mening van de Kolom met **Meer Details** onder de activamomentopname, die u aan de detailspagina van een activa laat navigeren.
 
 ![](assets/columnmoredetail.png)
 
-* In de lijstweergave worden nu standaard de bestandsnamen van elementen in de eerste kolom weergegeven, naast de landinstelling, het type element, de afmetingen, de grootte, de classificatie en de publicatiegegevens. De nieuwe **Montages van de Mening** kunnen worden gebruikt om de hoeveelheid detail te vormen in de mening van de Lijst te tonen.
+* In de lijstweergave worden nu standaard bestandsnamen van elementen in de eerste kolom weergegeven. Ook wordt informatie over de landinstelling, het type element, de afmetingen, de grootte, de classificatie en publicatie weergegeven. De nieuwe **Montages van de Mening** kunnen worden gebruikt om de hoeveelheid detail te vormen in de Mening van de Lijst te tonen.
 
 * Betere ervaring met middelendetails, omdat u met nieuwe navigatieknoppen heen en weer kunt navigeren tussen elementen en elementen kunt weergeven.
 
 ![](assets/navbtn.png)
 
-* Nieuwe mogelijkheid om audiobestanden, geüpload vanaf AEM, voor te vertonen op de detailpagina van het element.
-* Nieuwe Gerelateerde Assets-mogelijkheden die worden geboden in de eigenschappen van bedrijfsmiddelen. Assets die op AEM verwant is met andere bron/afgeleide middelen en die op Brand Portal is gepubliceerd, heeft nu hun relatie in Brand Portal intact, met koppelingen naar de gerelateerde elementen op de eigenschappenpagina.
-* Er is een nieuwe configuratie geïntroduceerd om te voorkomen dat gebruikers zonder beheerdersrechten openbare verzamelingen maken. Organisaties kunnen samenwerken met het team van Klantenondersteuning om deze mogelijkheid te configureren voor specifieke accounts.
+* Nieuwe mogelijkheid om audiobestanden die vanuit AEM zijn geüpload, voor te vertonen op de detailpagina van het element.
+* Nieuwe Gerelateerde Assets-mogelijkheden die worden geboden in Eigenschappen van bedrijfsmiddelen. Verwante activa die vanaf AEM moment op Brand Portal worden gepubliceerd, onderhouden hun relaties met koppelingen naar deze gerelateerde elementen die beschikbaar zijn op de eigenschappenpagina.
+* Er is een nieuwe configuratie geïntroduceerd om gebruikers zonder beheerdersrechten te beletten openbare verzamelingen te maken. Organisaties kunnen samenwerken met het Customer Support-team om deze mogelijkheid te configureren voor specifieke accounts.
 
 ### Verbeteringen voor zoeken
 
 * Mogelijkheid geïntroduceerd om terug te keren naar dezelfde positie in zoekresultaten, na navigatie naar een zoekopdracht, zonder de zoekquery opnieuw uit te voeren.
-* Er is een aantal nieuwe zoekresultaten opgegeven waarmee het aantal zoekresultaten wordt weergegeven.
-* Het verbeterde filter van het Onderzoek van het Type van Dossier met de capaciteit om onderzoeksresultaten te filtreren die op verfijnde types MIME zoals .jpg, .png, en .psd worden gebaseerd in vergelijking met vroegere Beelden, Documenten, Multimedia opties.
+* Er is een aantal nieuwe zoekresultaten beschikbaar waarmee het aantal zoekresultaten wordt weergegeven.
+* Met het verbeterde filter voor het zoeken naar bestandstypen kunt u nu zoekresultaten filteren op specifieke MIME-typen, zoals .jpg, .png en .psd, in plaats van alleen globale categorieën, zoals Afbeeldingen, Documenten en Multimedia.
 * Verbeterde zoekfilters voor verzamelingen, met nauwkeurige tijdstempels in plaats van de vorige tijdschuifregelaar.
 * De nieuwe het type van Toegang filters zijn geïntroduceerd om naar de inzamelingen te zoeken die openbaar of niet-Openbaar zijn.
 
@@ -734,7 +734,7 @@ Brand Portal 6.4.1 is een upgraderelease voor platformen die verschillende nieuw
 
 ### Optimalisaties downloaden
 
-* Eén groot bestand wordt rechtstreeks gedownload, zonder dat er een ZIP-bestand wordt gemaakt. Hierdoor wordt de snelheid en de doorvoer verhoogd.
+* Eén groot bestand wordt rechtstreeks gedownload, zonder dat een ZIP-bestand wordt gemaakt, waardoor de snelheid en doorvoer worden verbeterd.
 * De downloadgrens per dossiergrootte voor de eigenschap van het verbindingsaandeel is **1** GB.
 
 * Gebruikers kunnen nu alleen de aangepaste en originele bestanden downloaden en uitvoeringen buiten de box voorkomen tijdens het downloaden van elementen van Brand Portal of via de functie voor gedeelde koppelingen.
@@ -752,27 +752,27 @@ Brand Portal 6.4.1 is een upgraderelease voor platformen die verschillende nieuw
 ### Verbeterde rapporteringsmogelijkheden
 
 **Introduced het Rapport van het Aandeel van de Verbinding**
-Er is een nieuw rapport geïntroduceerd om informatie te verschaffen over gedeelde koppelingen. Het rapport van het Aandeel van de Verbinding maakt een lijst van alle URLs, aan de activa, die met interne en externe gebruikers over organisatie in het gespecificeerde tijdkader worden gedeeld. Het deelt ook wanneer de verbinding werd gedeeld, door wie, en wanneer het verlopen.
+Er is een nieuw rapport geïntroduceerd om informatie te verschaffen over gedeelde koppelingen. Het rapport van het Aandeel van de Verbinding maakt een lijst van alle URLs aan de activa die met interne en externe gebruikers worden gedeeld. Het rapporteert voor gebruikers over de organisatie in het gespecificeerde tijdkader. Het deelt ook wanneer de verbinding werd gedeeld, door wie, en wanneer het vervalt.
 
 ![](assets/navigatereport.png)
 
-**wijzigde het ingangspunt om tot het rapport van het Gebruik toegang te hebben**
-Het verbruiksrapport wordt nu geconsolideerd met andere rapporten en kan nu worden bekeken vanaf de console voor rapporten van bedrijfsmiddelen. Om de console van de Rapporten van Activa te bereiken, navigeer aan **leidt tot/leidt Rapporten** van het administratieve hulpmiddelenpaneel.
+**wijzigde het ingangspunt om tot het Rapport van het Gebruik toegang te hebben**
+Het verbruiksrapport is nu geconsolideerd met andere rapporten en kan nu worden bekeken vanaf de console voor rapporten van bedrijfsmiddelen. Om de console van de Rapporten van Activa te bereiken, navigeer aan **leidt tot/leidt Rapporten** van het administratieve hulpmiddelenpaneel.
 
 ![](assets/accessassetreport.png)
 
-**Verbeterde gebruikerservaring met het melden van**
+**Een betere gebruikerservaring voor het melden van**
 De rapportinterface over Brand Portal is intuïtiever geworden en geeft organisaties meer controle. Naast het maken van verschillende rapporten kunnen beheerders nu terugkeren naar de gegenereerde rapporten en deze downloaden of verwijderen, omdat deze rapporten in Brand Portal worden opgeslagen.
 
 Elk van de rapporten die kunnen worden gecreeerd worden aangepast door standaardkolommen toe te voegen of te verwijderen. Bovendien kunnen aangepaste kolommen worden toegevoegd aan de rapporten Download, Expiration en Publish om hun mate van granulariteit te bepalen.
 
 ### Verbeterde beheerfuncties
 
-Verbeterde eigenschappenkiezer in de beheerfuncties voor metagegevens, zoeken en rapporten met Type-ahead- en bladermogelijkheden om de beheerervaring te vereenvoudigen.
+De verbeterde kiezer van het Bezit in de hulpmiddelen Admin voor Meta-gegevens, Onderzoek, en Rapporten met Type-vooruit en bladerend vermogen om de admin ervaring te vereenvoudigen.
 
 ### Andere verbeteringen
 
-* Assets dat vanaf AEM 6.3.2.1 en 6.4 naar Brand Portal is gepubliceerd, kan nu openbaar worden gemaakt voor algemene gebruikers van Brand Portal door het selectievakje Openbare map Publish in te schakelen in het dialoogvenster AEM Assets Brand Portal Replication.
+* Assets dat vanaf AEM 6.3.2.1 en 6.4 naar Brand Portal is gepubliceerd, kan nu openbaar worden gemaakt door het vakje Openbare map Publish in het dialoogvenster AEM Assets Brand Portal Replication te selecteren.
 
 ![](assets/public-folder-publish.png)
 
@@ -788,13 +788,13 @@ De gebruikers kunnen toegang tot Brand Portal nu verzoeken gebruikend het nieuwe
 
 ![](assets/bplogin_request_access.png)
 
-Afhankelijk van of gebruikers een Adobe ID hebben of een Adobe ID moeten maken, kunnen gebruikers de juiste workflow volgen om een aanvraag in te dienen. Brand Portal-productbeheerders ontvangen dergelijke verzoeken in hun meldingsgebied en verlenen toegang via Adobe Admin Console.
+Afhankelijk van of gebruikers een Adobe ID hebben of een Adobe ID moeten maken, kunnen gebruikers de juiste workflow volgen om een aanvraag in te dienen. Brand Portal-productbeheerders ontvangen dergelijke verzoeken in hun meldingsgebied en verlenen toegang via de Adobe Admin Console.
 
 Voor meer informatie, zie [ Toegang van het Verzoek tot Brand Portal ](../using/brand-portal.md#requestaccesstobrandportal).
 
 ### Verbetering in het rapport over gedownloade elementen {#enhancement-in-the-assets-downloaded-report}
 
-Het gedownloade rapport voor elementen bevat nu het aantal gedownloade elementen per gebruiker binnen het opgegeven datum- en tijdbereik. Gebruikers kunnen dit rapport downloaden in de .csv-indeling en gegevens compileren, zoals het totale aantal downloads voor een onder licentie geplaatst element.
+Het gedownloade rapport voor elementen bevat nu het aantal gedownloade elementen per gebruiker binnen het opgegeven datum- en tijdbereik. Gebruikers kunnen dit rapport downloaden in .csv-indeling om gegevens zoals het totale aantal downloads voor een onder licentie geplaatst element te compileren.
 
 ![](assets/reports_download_downloaded_by.png)
 
@@ -806,7 +806,7 @@ Brand Portal geeft nu een paar dagen voor een aanstaande onderhoudsactiviteit ee
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Voor meer informatie, zie [ het onderhoudsbericht van Brand Portal ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html).
+Voor meer informatie, zie het [ het onderhoudsbericht van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/introduction/brand-portal).
 
 ### Verbetering voor gelicentieerde elementen die worden gedeeld met de functie voor het delen van koppelingen {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
@@ -820,7 +820,7 @@ Voor meer informatie, zie Stap 12 in [ activa van het Aandeel als verbinding ](.
 
 De prestaties van de kiezer van de gebruiker worden nu verbeterd om tegemoet te komen aan de behoeften van klanten met een grote gebruikersbasis.
 
-### Ervaar wijzigingen in cloud-branding {#experience-cloud-branding-changes}
+### Wijzigingen in branding van Experiencen Cloud {#experience-cloud-branding-changes}
 
 Brand Portal past nu de nieuwe merknaam Adobe Experience Cloud aan.
 
@@ -866,7 +866,7 @@ Als u de Brand Portal-gebruikerservaring wilt uitlijnen op AEM, gaat de Adobe ov
 
 ![](assets/omnisearch_whatsnew.png)
 
-* U kunt ook zoekfilters toevoegen aan de zoekopdracht in Universeel om de zoekopdracht verder te verfijnen en sneller te laten verlopen.
+* U kunt ook zoekfilters toevoegen aan de algemene zoekopdracht, zodat u de zoekopdracht verder kunt beperken en versnellen.
 
 ![](assets/omnisearch_withfilters.png)
 
@@ -887,17 +887,17 @@ Nadat u een geneste map hebt gedownload, kunt u de oorspronkelijke maphiërarchi
 
 Verbeteringen in de mogelijkheden voor bladeren, zoeken en downloaden verbeteren de Brand Portal-prestaties aanzienlijk.
 
-### Nieuw digitaal rechtenbeheer voor middelen {#new-digital-rights-management-for-assets}
+### Nieuw Digital Rights Management voor elementen {#new-digital-rights-management-for-assets}
 
 Beheerders kunnen de vervaldatum en -tijd voor elementen instellen voordat ze deze delen. Nadat een element is verlopen, is het zichtbaar voor viewers en editors, maar kan het niet worden gedownload. Wanneer een element vervalt, ontvangen beheerders een melding.
 
 ### Verbeterde middelensortering {#enhanced-asset-sorting}
 
-Het sorteren van middelen in een omslag in lijstmening is niet meer beperkt tot het aantal activa die op de eerste pagina worden getoond. Alle elementen in een map worden gesorteerd, ongeacht of alle elementen op de eerste pagina worden weergegeven.
+Het sorteren van middelen in een omslag in de Mening van de Lijst is niet meer beperkt tot het aantal activa die op de eerste pagina worden getoond. Alle elementen in een map worden gesorteerd, ongeacht of alle elementen op de eerste pagina worden weergegeven.
 
 ### Verbeterde rapportage {#reporting-capabilities}
 
-Beheerders kunnen drie typen rapporten maken en beheren: gedownloade, verlopen en gepubliceerde elementen. De capaciteit om de kolommen in een rapport te vormen, en de rapporten naar formaat uit te voeren CSV is ook beschikbaar.
+Beheerders kunnen drie typen gedownloade, verlopen en gepubliceerde rapporten-elementen maken en beheren. De capaciteit om de kolommen in een rapport te vormen, en de rapporten naar formaat uit te voeren CSV is ook beschikbaar.
 
 ![](assets/newreport.png)
 
@@ -913,11 +913,11 @@ Brand Portal 6.3.1 introduceert aanvullende metagegevens, die overeenkomen met A
 
 ![](assets/wallpaperpreview.png)
 
-* Nadat een beheerder nieuwe gebruikers heeft toegevoegd, hoeven ze geen uitnodigingen te accepteren om aan Brand Portal te worden toegevoegd, maar worden ze automatisch toegevoegd.
+* Nadat een beheerder nieuwe gebruikers heeft toegevoegd, worden deze automatisch opgenomen in Brand Portal zonder dat ze uitnodigingen hoeven te accepteren.
 
 ### Nieuwe publicatiemogelijkheden in AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}
 
-* AEM beheerders kunnen het schema van meta-gegevens van AEM Assets aan Brand Portal publiceren gebruikend AEM 6.3 SP1-GFP 1 (6.3.1.1), die in Q4 2017 beschikbaar zullen zijn.
+* AEM beheerders kunnen het schema van meta-gegevens van AEM Assets aan Brand Portal publiceren gebruikend AEM 6.3 SP1-GFP 1 (6.3.1.1), beschikbaar in het vierde kwartaal van 2017.
 
 ![](assets/publish_metadataschemaaemassets.png)
 
