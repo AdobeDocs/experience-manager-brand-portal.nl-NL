@@ -1,71 +1,67 @@
 ---
 title: Elementen downloaden
-seo-title: Download assets
-description: Alle gebruikers kunnen tegelijkertijd elementen en mappen downloaden die voor hen toegankelijk zijn. Op deze manier kunnen goedgekeurde merkmiddelen veilig worden gedistribueerd voor offline gebruik.
-seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
-uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
+description: Alle gebruikers kunnen toegankelijke elementen en mappen tegelijk downloaden, zodat goedgekeurde merkelementen veilig worden gedistribueerd voor offline gebruik.
 content-type: reference
 contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
-discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: fe6677df928a4125185051d80ae3055afb479369
+source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1823'
 ht-degree: 0%
 
 ---
 
 # Elementen downloaden {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doordat gebruikers tegelijkertijd elementen en mappen kunnen downloaden die vanuit Brand Portal voor hen toegankelijk zijn. Op deze manier kunnen goedgekeurde merkmiddelen veilig worden gedistribueerd voor offline gebruik. Lees op om te weten hoe te om activa (goedgekeurde activa) van Brand Portal te downloaden, en wat van de [ downloadprestaties ](#expected-download-performance) te verwachten.
+Adobe Experience Manager Assets Brand Portal verbetert de downloadervaring doordat gebruikers tegelijkertijd elementen en mappen kunnen downloaden die vanuit Brand Portal voor hen toegankelijk zijn. Deze methode houdt in dat goedgekeurde merkelementen veilig kunnen worden gedistribueerd voor offline gebruik. Lees op om te weten hoe te om activa (goedgekeurde activa) van Brand Portal te downloaden, en wat van de [ downloadprestaties ](#expected-download-performance) te verwachten.
 
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld. Hierbij wordt gebruikgemaakt van IBM Aspera Connect voor het versnelde downloaden van de middelen. Installeer IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in de browserextensie voordat u de middelen downloadt van Brand Portal. Voor meer details, zie [ gids om downloads van Brand Portal ](../using/accelerated-download.md) te versnellen.
+>In Brand Portal 2020.10.0 (en hoger) is de instelling **[!UICONTROL Fast Download]** standaard ingeschakeld, waardoor IBM® Aspera Connect wordt gebruikt voor het versnellen downloaden van de middelen. Installeer IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in de browserextensie voordat u de middelen downloadt van Brand Portal. Zie de [ gids om downloads van Brand Portal ](../using/accelerated-download.md) te versnellen.
 >
->Als u IBM Aspera Connect niet wilt gebruiken en verder wilt gaan met het normale downloadproces, neemt u contact op met de Brand Portal-beheerder om de instelling voor **[!UICONTROL Fast Download]** uit te schakelen.
+>Als u IBM® Aspera Connect niet wilt gebruiken en verder wilt gaan met het normale downloadproces, neemt u contact op met de Brand Portal-beheerder om de instelling voor **[!UICONTROL Fast Download]** uit te schakelen.
 
 ## Assets-download configureren {#configure-download}
 
-Brand Portal-beheerders kunnen de instellingen voor het downloaden van middelen en gebruikersgroepen configureren voor de Brand Portal-gebruikers, zodat ze via de Brand Portal-interface toegang hebben tot elementen en deze kunnen downloaden.
+Brand Portal-beheerders kunnen de instellingen voor het downloaden van middelen en gebruikersgroepen configureren voor Brand Portal-gebruikers. Hierdoor kunnen gebruikers elementen openen en downloaden via de Brand Portal-interface.
 
 >[!NOTE]
 >
->De downloadinstellingen die in de gebruikersinterface worden toegepast, maken het voor Brand Portal-gebruikers gemakkelijker om op eenvoudige wijze elementuitvoeringen te configureren en te downloaden. Het beperkt het downloaden van elementen op de toepassingslaag niet. Gebruikers kunnen bijvoorbeeld nog steeds elementuitvoeringen openen en downloaden via het volledige URL-pad.
+>De downloadinstellingen in de gebruikersinterface bieden Brand Portal-gebruikers een zelfbedieningservaring, zodat ze elementen eenvoudig kunnen configureren en downloaden. Het beperkt het downloaden van elementen op de toepassingslaag niet. Gebruikers kunnen bijvoorbeeld nog steeds elementuitvoeringen openen en downloaden via het volledige URL-pad.
 
-De toegang tot en het downloaden van de elementuitvoeringen vanuit de Brand Portal-interface worden gedefinieerd door de volgende configuraties:
+De volgende configuraties bepalen hoe u tot de activa toegang hebt en de activa van de interface van Brand Portal downloadt:
 
 * Downloadinstellingen inschakelen
 * Gebruikersgroepinstellingen configureren
 
 ### Downloadinstellingen inschakelen {#enable-download-settings}
 
-De beheerders kunnen het element **[!UICONTROL Download Settings]** inschakelen om de set uitvoeringen te definiëren die voor Brand Portal-gebruikers toegankelijk is om te worden gedownload.
+De beheerders kunnen **[!UICONTROL Download Settings]** toelaten om de reeks vertoningen te bepalen die voor de gebruikers van Brand Portal voor download toegankelijk zijn.
 
 De beschikbare instellingen zijn:
 
 * **[!UICONTROL Fast Download]**
 
-  Hiermee kunt u de middelen sneller downloaden met IBM Aspera Connect. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in de **[!UICONTROL Download Settings]** .
+  Met IBM® Aspera Connect kunt u de middelen sneller downloaden. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in de **[!UICONTROL Download Settings]** .
 
 * **[!UICONTROL Custom Renditions]**
 
   Hiermee kunt u aangepaste en (of) dynamische uitvoeringen van de elementen downloaden.
 
-  Alle andere elementuitvoeringen dan het oorspronkelijke element en door het systeem gegenereerde uitvoeringen worden aangepaste uitvoeringen genoemd. Dit omvat statische en dynamische uitvoeringen die beschikbaar zijn voor het element. Elke gebruiker kan een aangepaste statische uitvoering maken in Experience Manager Assets, terwijl alleen de beheerder aangepaste dynamische uitvoeringen kan maken. Voor details, zie [ hoe te om beeld toe te passen vooraf instelt of dynamische vertoningen ](../using/brand-portal-image-presets.md).
+  Alle andere elementuitvoeringen dan het oorspronkelijke element en door het systeem gegenereerde uitvoeringen worden aangepaste uitvoeringen genoemd. Dit omvat statische en dynamische uitvoeringen die beschikbaar zijn voor het element. Elke gebruiker kan een aangepaste statische uitvoering maken in Experience Manager Assets, terwijl alleen de beheerder aangepaste dynamische uitvoeringen kan maken. Zie [ hoe te om beeld toe te passen vooraf instelt of dynamische vertoningen ](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL System Renditions]**
 
   Hiermee kunt u door het systeem gegenereerde uitvoeringen van de elementen downloaden.
 
-  Dit zijn de miniaturen die automatisch worden gegenereerd in Experience Manager Assets op basis van de workflow voor &quot;DAM-updatebestanden&quot;.
+  Deze elementen zijn miniaturen die automatisch worden gegenereerd in Experience Manager Assets op basis van de workflow voor &quot;DAM-updatebestanden&quot;.
 
 * **[!UICONTROL Asset Download]**
 
-  Hiermee kunt u de uitvoeringen voor elk element in een aparte map downloaden. De instelling is van toepassing op mappen, verzamelingen en het bulkdownloaden van elementen (meer dan 20 elementen).
+  Uitvoeringen worden gedownload in afzonderlijke mappen voor elk element. Deze instelling is van toepassing op mappen, verzamelingen en bulkdownloads van meer dan 20 elementen.
 
 
 Meld u als beheerder aan bij de Brand Portal-medewerker en navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** .
@@ -91,7 +87,7 @@ Meld u als beheerder aan bij de Brand Portal-medewerker en navigeer naar **[!UIC
 >
 >Als een gebruiker wordt toegevoegd aan meerdere groepen en als een van deze groepen beperkingen heeft, gelden de beperkingen voor de gebruiker.
 
-Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, omslagen die activa, vergunning of unlicensed activa bevatten, en het downloaden van activa gebruikend aandeelverbinding.
+Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-alone activa, veelvoudige activa, omslagen die activa, vergunning of unlicensed activa bevatten, en de download van activa gebruikend aandeelverbinding.
 
 De volgende matrijs bepaalt als een gebruiker toegang tot de vertoningen afhankelijk van de [ downloadconfiguraties ](#configure-download) zou hebben:
 
@@ -99,13 +95,13 @@ De volgende matrijs bepaalt als een gebruiker toegang tot de vertoningen afhanke
 |---|---|---|---|---|
 | ON | ON | ON | ON | Alle uitvoeringen weergeven en downloaden |
 | ON | ON | UIT | UIT | Origineel element weergeven |
-| UIT | UIT | ON | ON | Oorspronkelijk middel weergeven en downloaden |
+| UIT | UIT | ON | ON | Origineel element weergeven en downloaden |
 | ON | UIT | ON | ON | Oorspronkelijk middel en aangepaste uitvoeringen weergeven en downloaden |
 | UIT | ON | ON | ON | Oorspronkelijke middel- en systeemuitvoeringen weergeven en downloaden |
 | ON | UIT | UIT | UIT | Origineel element weergeven |
 | UIT | ON | UIT | UIT | Origineel element weergeven |
 | UIT | UIT | UIT | ON | Origineel element weergeven |
-| UIT | UIT | ON | UIT | Oorspronkelijk middel weergeven en downloaden |
+| UIT | UIT | ON | UIT | Origineel element weergeven en downloaden |
 | UIT | UIT | UIT | UIT | Origineel element weergeven |
 
 
@@ -121,7 +117,7 @@ Brand Portal-gebruikers kunnen vanuit de Brand Portal-interface meerdere element
 Als de gebruiker toegang heeft tot uitvoeringen, krijgt de gebruiker het verbeterde dialoogvenster **[!UICONTROL Download]** met de volgende mogelijkheden:
 
 * Alle beschikbare uitvoeringen van elementen in de downloadlijst weergeven.
-* Sluit uitvoeringen van de elementen uit die niet vereist zijn voor downloaden.
+* Sluit uitvoeringen van elementen uit die niet vereist zijn voor downloaden.
 * Pas met één klik dezelfde set uitvoeringen toe op alle vergelijkbare elementtypen.
 * Pas een andere set uitvoeringen toe voor verschillende elementtypen.
 * Maak een aparte map voor elk element.
@@ -153,14 +149,14 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
      >[!NOTE]
      >
-     >Als u de middelen voor het eerst downloadt en IBM Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd om de Aspera-downloadaccelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) te installeren.
+     >Als u de middelen voor het eerst downloadt en IBM® Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd om de Aspera-downloadaccelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) te installeren.
 
 
      >[!NOTE]
      >
-     >Als de elementen die u downloadt ook elementen met licentie bevatten, wordt u doorgestuurd naar de pagina **[!UICONTROL Copyright Management]** . Selecteer op deze pagina de elementen, klik op **[!UICONTROL Agree]** en klik op **[!UICONTROL Download]** . Als u het niet eens bent, worden de gelicentieerde middelen niet gedownload.
+     >Als de gedownloade elementen ook onder licentie gedownloade elementen bevatten, wordt u doorgestuurd naar de pagina **[!UICONTROL Copyright Management]** . Selecteer op deze pagina de elementen, klik op **[!UICONTROL Agree]** en klik op **[!UICONTROL Download]** . Als u het niet eens bent, worden de gelicentieerde middelen niet gedownload.
      > 
-     >De vergunning-beschermde activa hebben [ vergunningsovereenkomst in bijlage ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) aan hen, die door het 2} wordt gedaan meta-gegevensbezit van activa ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) in Experience Manager Assets te plaatsen.[
+     >De vergunning-beschermde activa hebben a [ vergunningsovereenkomst in bijlage ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) aan hen, die door het 2} wordt gedaan meta-gegevensbezit van de activa ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) in Experience Manager Assets te plaatsen.[
 
 
      ![ vergunning gegeven-activa ](assets/licensed-asset-new.png)
@@ -169,7 +165,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
    Klik op een element om de beschikbare uitvoeringen weer te geven en selecteer de selectievakjes die overeenkomen met de uitvoeringen die u wilt downloaden.
 
-   U kunt de vertoningen voor individuele activa manueel selecteren of uitsluiten, of **klikken** pictogram van toepassing is om de zelfde reeks vertoningen te selecteren voor gelijkaardige activa types (alle beelddossiers in dit voorbeeld) te downloaden. Klik in het dialoogvenster **[!UICONTROL Apply All]** op **[!UICONTROL Done]** om de regel toe te passen op alle vergelijkbare elementen.
+   U kunt de vertoningen voor individuele activa manueel selecteren of uitsluiten, of **klikken past** pictogram toe om de zelfde reeks vertoningen te selecteren om voor gelijkaardige activa te downloaden types (alle beelddossiers in dit voorbeeld). Klik in het dialoogvenster **[!UICONTROL Apply All]** op **[!UICONTROL Done]** om de regel toe te passen op alle vergelijkbare elementen.
 
    ![ is van toepassing-allen ](assets/apply.png)
 
@@ -177,17 +173,17 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
    ![ verwijder ](assets/remove.png)
 
-   Schakel het selectievakje **[!UICONTROL Create separate folder for each asset]** in als u de Brand Portal-maphiërarchie wilt behouden terwijl u elementen downloadt.
+   Schakel het selectievakje **[!UICONTROL `Create separate folder for each asset`]** in om de Brand Portal-mapstructuur te behouden wanneer u elementen downloadt.
 
    De downloadknop geeft het aantal geselecteerde items weer. Klik op **[!UICONTROL Download items]** als u klaar bent met het toepassen van de regels.
 
    ![ download-dialoog ](assets/download-dialog-box-new.png)
 
-1. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in **[!UICONTROL Download Settings]** . Daarom wordt een bevestigingsvenster weergegeven waarin versnelde download met IBM Aspera Connect is toegestaan.
+1. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in **[!UICONTROL Download Settings]** . Daarom wordt een bevestigingsvenster weergegeven waarin versnelde download met IBM® Aspera Connect is toegestaan.
 
-   Klik op **[!UICONTROL Allow]** als u **[!UICONTROL Fast Download]** wilt blijven gebruiken. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met IBM Aspera Connect.
+   Klik op **[!UICONTROL Allow]** als u **[!UICONTROL Fast Download]** wilt blijven gebruiken. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met IBM® Aspera Connect.
 
-   Klik op **[!UICONTROL Deny]** als u IBM Aspera Connect niet wilt gebruiken. Als **[!UICONTROL Fast Download]** wordt ontkend of ontbreekt, vult het systeem een Bericht van de Fout. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van elementen.
+   Klik op **[!UICONTROL Deny]** als u IBM® Aspera Connect niet wilt gebruiken. Als **[!UICONTROL Fast Download]** wordt ontkend of ontbreekt, vult het systeem een Bericht van de Fout. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van elementen.
 
 <!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -199,7 +195,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 
 >[!NOTE]
 >
->Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder gebruik te maken van IBM Aspera Connect.
+>Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder gebruik te maken van IBM® Aspera Connect.
 
 >[!NOTE]
 >
@@ -207,19 +203,17 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
 >  
 >Als de elementen worden gedownload van een gedeelde koppeling, worden de elementuitvoeringen gedownload in een aparte map voor elk element in de ZIP-map.
 >
->Als een map, verzameling of meer dan 20 elementen zijn geselecteerd om te worden gedownload, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen en worden alle elementenuitvoeringen die voor de gebruiker toegankelijk zijn, met uitzondering van de dynamische uitvoeringen, gedownload in een ZIP-map.
+>Wanneer u een map, verzameling of meer dan 20 elementen selecteert om te downloaden, wordt het dialoogvenster **[!UICONTROL Download]** overgeslagen. In plaats daarvan worden alle toegankelijke elementuitvoeringen, behalve de dynamische uitvoeringen, gedownload in een ZIP-map.
 
 >[!NOTE]
 >
->Brand Portal ondersteunt het configureren van Dynamic Media in zowel de Hybride als de Scène 7-modus.
+>Brand Portal biedt ondersteuning voor het configureren van Dynamic Media in zowel de Hybride als de Scene7-modus.
 >
 >(*als de auteursinstantie van Experience Manager Assets op **Hybride wijze van Dynamic Media*** loopt)
 >
->Als u dynamische uitvoeringen van een element wilt voorvertonen of downloaden, zorgt u ervoor dat de dynamische media is ingeschakeld en de Pyramid-TIFF-uitvoering van het element bestaat in de Experience Manager Assets-auteur-instantie vanwaar de elementen zijn gepubliceerd. Wanneer een middel van Experience Manager Assets naar Brand Portal wordt gepubliceerd, wordt ook de Pyramid tiff-uitvoering gepubliceerd.
+>Als u dynamische uitvoeringen wilt voorvertonen of downloaden, schakelt u dynamische media in. Zorg ervoor dat de Pyramid tiff-uitvoering van het element bestaat bij de Experience Manager Assets-auteur-instantie waar de elementen zijn gepubliceerd. Wanneer een middel van Experience Manager Assets naar Brand Portal wordt gepubliceerd, wordt ook de Pyramid tiff-uitvoering gepubliceerd.
 
-
-
-Als u niet [ door de beheerder wordt gemachtigd om toegang tot de originele vertoningen ](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) te hebben, worden de originele vertoningen van de geselecteerde activa niet gedownload.
+Als de [ beheerder u niet heeft gemachtigd om tot de originele vertoningen ](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) toegang te hebben, kunt u niet de originele vertoningen van de geselecteerde activa downloaden.
 
 ![ geen-toegang-bericht ](assets/no-access-message.png)
 
@@ -245,14 +239,14 @@ Hier volgen de stappen voor het downloaden van elementuitvoeringen van de pagina
 
 1. Het **[!UICONTROL Renditions]** paneel maakt een lijst van alle toegankelijke activa die vertoningen op de activa [ worden gebaseerd downloadconfiguraties ](#configure-download).
 
-   Selecteer de specifieke vertoningen die u wilt downloaden en klik op **[!UICONTROL Download items]** .
+   Selecteer de specifieke uitvoeringen die u wilt downloaden en klik op **[!UICONTROL Download items]** .
 
    ![ vertoningen-paneel ](assets/renditions-panel.png)
 
 
-1. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in **[!UICONTROL Download Settings]** . Daarom wordt een bevestigingsvenster weergegeven waarin versnelde download met IBM Aspera Connect is toegestaan.
+1. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in **[!UICONTROL Download Settings]** . Daarom wordt een bevestigingsvenster weergegeven waarin versnelde download met IBM® Aspera Connect is toegestaan.
 
-   Klik op **[!UICONTROL Allow]** als u **[!UICONTROL Fast Download]** wilt blijven gebruiken. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met IBM Aspera Connect.
+   Klik op **[!UICONTROL Allow]** als u **[!UICONTROL Fast Download]** wilt blijven gebruiken. Alle geselecteerde vertoningen worden gedownload in een ZIP-map met IBM® Aspera Connect.
 
    Als u het gebruik van **[!UICONTROL Fast Download]** weigert, wordt een foutbericht door het systeem ingevuld. Klik op de knop **[!UICONTROL Normal Download]** om door te gaan met het downloaden van elementen.
 
@@ -268,7 +262,7 @@ Hier volgen de stappen voor het downloaden van elementuitvoeringen van de pagina
 
 >[!NOTE]
 >
->Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder gebruik te maken van IBM Aspera Connect.
+>Als de instelling **[!UICONTROL Fast Download]** door de beheerder is uitgeschakeld, worden de geselecteerde uitvoeringen rechtstreeks gedownload in een ZIP-map zonder gebruik te maken van IBM® Aspera Connect.
 
 
 >[!NOTE]
@@ -417,7 +411,7 @@ Following are the steps to download assets or folders containing assets from Bra
 
 ## Downloadprestaties verwacht {#expected-download-performance}
 
-Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van factoren zoals lokale internetverbinding en serverwachttijd. De verwachte downloadprestaties voor 2-GB dossier dat bij verschillende cliëntplaatsen wordt waargenomen zijn als volgt, met de server van Brand Portal bij Oregon in Verenigde Staten:
+Het downloaden van bestanden kan per clientlocatie verschillen, afhankelijk van factoren zoals lokale internetverbinding en serverwachttijd. De verwachte downloadprestaties voor 2-GB dossier dat bij verschillende cliëntplaatsen wordt waargenomen zijn als volgt, met de server van Brand Portal bij Oregon in de Verenigde Staten:
 
 | Clientlocatie | Latentie tussen client en server | Downloadsnelheid verwacht | Tijd die nodig is om een bestand van 2 GB te downloaden |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
