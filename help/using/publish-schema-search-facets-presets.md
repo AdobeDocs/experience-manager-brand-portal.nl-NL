@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Voorinstellingen voor afbeeldingen publiceren naar Brand Portal:
 
 Publicatie van een voorinstelling voor afbeeldingen ongedaan maken vanuit Brand Portal:
 
-1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram **[!UICONTROL Tools]** en navigeer naar **[!UICONTROL Assets > Image Presets]** .
+1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen, klik op het pictogram **[!UICONTROL Tools]** en navigeer naar **[!UICONTROL Assets > Image Presets]** .
 1. Selecteer een voorinstelling voor de afbeelding en selecteer **[!UICONTROL Remove from Brand Portal]** uit de opties die bovenaan beschikbaar zijn.
 
 ## Publish-metagegevensschema naar Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ Als gebruikers een aangepast schema op AEM instantie Auteur hebben gemaakt, kunn
 
 Een metagegevensschema van AEM instantie Auteur naar Brand Portal publiceren:
 
-1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]** .
+1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen, klik op het pictogram Gereedschappen en navigeer naar **[!UICONTROL Assets > Metadata Schemas]** .
 1. Selecteer een metagegevensschema en selecteer **[!UICONTROL Publish to Brand Portal]** uit de opties die boven beschikbaar zijn.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Een metagegevensschema van AEM instantie Auteur naar Brand Portal publiceren:
 
 Publicatie van een metagegevensschema vanuit Brand Portal ongedaan maken:
 
-1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL Assets > Metadata Schemas]** .
+1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen, klik op het pictogram Gereedschappen en navigeer naar **[!UICONTROL Assets > Metadata Schemas]** .
 1. Selecteer een metagegevensschema en selecteer **[!UICONTROL Remove from Brand Portal]** uit de opties die boven beschikbaar zijn.
 
 ## Publish-zoekfacetten naar Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ Als u een aangepast zoekformulier **[!UICONTROL Assets Admin Search Rail]** wilt
 
 De bewerkte zoekfacet publiceren van AEM instantie Auteur naar Brand Portal:
 
-1. Tik/klik op het AEM en ga naar **[!UICONTROL Tools > General > Search Forms]** .
+1. Klik op het AEM en ga naar **[!UICONTROL Tools > General > Search Forms]** .
 1. Selecteer het bewerkte zoekformulier en selecteer **[!UICONTROL Publish to Brand Portal]** .
 
    >[!NOTE]
@@ -107,7 +107,7 @@ De bewerkte zoekfacet publiceren van AEM instantie Auteur naar Brand Portal:
 
 U kunt als volgt zoekformulieren verwijderen uit Brand Portal:
 
-1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen en tik/klik op het pictogram Extra en navigeer naar **[!UICONTROL General > Search Forms]** .
+1. Tik/klik in AEM instantie Auteur op het AEM logo om de algemene navigatieconsole te openen, klik op het pictogram Gereedschappen en navigeer naar **[!UICONTROL General > Search Forms]** .
 1. Selecteer het zoekformulier en selecteer **[!UICONTROL Remove from Brand Portal]** uit de opties die boven aan het scherm beschikbaar zijn.
 
 >[!NOTE]
