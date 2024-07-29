@@ -1,26 +1,22 @@
 ---
 title: Zoeken naar middelen op Brand Portal
-seo-title: Browse assets on Brand Portal
 description: Blader door elementen, de hiërarchieën van elementen over elkaar heen en zoek elementen met behulp van verschillende weergaveopties en UI-elementen op Brand Portal.
-seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
-uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
 # Zoeken naar middelen op Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal biedt verschillende mogelijkheden en gebruikersinterface-elementen die het bladeren door bronnen, het doorlopen van middelenhiërarchieën en het zoeken naar middelen vereenvoudigen terwijl u verschillende weergaveopties gebruikt.
+Experience Manager Assets Brand Portal biedt verschillende functies en gebruikersinterface-elementen waarmee u eenvoudig door bronnen kunt bladeren, door de hiërarchieën van elementen kunt navigeren en elementen kunt zoeken met behulp van verschillende weergaveopties.
 
-Met het logo van de Experience Manager in de werkbalk boven aan het scherm hebben beheerders toegang tot het deelvenster met beheergereedschappen.
+Het logo van de Experience Manager in de werkbalk boven in het scherm geeft beheerders toegang tot het deelvenster met beheergereedschappen.
 
 ![](assets/aemlogo.png)
 
@@ -28,11 +24,11 @@ Met het logo van de Experience Manager in de werkbalk boven aan het scherm hebbe
 
 ![](assets/bp_subheader.png)
 
-Linksboven in Brand Portal-vervolgkeuzelijst voor spoorwegkiezers om opties beschikbaar te maken waarmee u in de hiërarchieën van middelen kunt navigeren, uw zoekopdracht kunt stroomlijnen en bronnen kunt weergeven.
+De railkiezer linksboven in Brand Portal gaat verder en geeft opties weer om in de hiërarchieën van elementen te navigeren, uw zoekopdracht te stroomlijnen en bronnen weer te geven.
 
 ![](assets/siderail-1.png)
 
-U kunt elementen weergeven, doorbladeren en selecteren met een van de beschikbare weergaven (Kaart, Kolom en Lijst) in de weergavekiezer rechtsboven in Brand Portal.
+U kunt elementen weergeven, navigeren en selecteren met een van de beschikbare weergaven (Kaart, Kolom en Lijst) in de weergavekiezer van Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -56,31 +52,32 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Type
 * Titel
 * Naam
-* Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
+* Datum en tijdstip waarop het activum vanaf AEM aan Brand Portal is gepubliceerd
 * Grootte
 * Dimensionen
 
-U kunt onderaan de hiërarchie navigeren door kaarten te tikken/te klikken (die zorgen om de snelle acties te vermijden) of omhoog opnieuw door [ broodkruimels in de kopbal ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html) te gebruiken.
+U kunt onderaan de hiërarchie navigeren door kaarten te klikken (die zorgen om de snelle acties) of omhoog opnieuw te vermijden door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
 #### Kaartweergave voor gebruikers die geen beheerder zijn
 
-Kaarten van mappen geven in de Kaartweergave hiërarchiegegevens weer aan gebruikers die geen beheerder zijn (Editor, Viewer en gastgebruiker). Deze functionaliteit laat de gebruikers de plaats van de omslagen kennen, die zij, met betrekking tot de ouderhiërarchie toegang hebben.
-Informatie over de maphiërarchie is vooral handig om onderscheid te maken tussen de mappen waarvan de namen overeenkomen met andere mappen die vanuit een andere maphiërarchie worden gedeeld. Als de gebruikers die geen beheerder zijn niet op de hoogte zijn van de mapstructuur van de elementen die met hen worden gedeeld, lijken elementen/mappen met vergelijkbare namen verwarrend.
+Kaarten van mappen geven in de Kaartweergave hiërarchiegegevens weer aan gebruikers die geen beheerder zijn (Editor, Viewer en gastgebruiker). Deze functionaliteit laat de gebruikers de plaats van de omslagen weten die zij, met betrekking tot de ouderhiërarchie toegang hebben.
 
-* De paden die op de betreffende kaarten worden weergegeven, worden afgekapt om in de kaartgrootten te passen. Gebruikers kunnen het volledige pad echter zien als knopinfo bij het aanwijzen over het afgebroken pad.
+Informatie over de maphiërarchie is vooral handig om onderscheid te maken tussen mappen met namen die lijken op andere mappen die vanuit een andere maphiërarchie worden gedeeld. Als de gebruikers die geen beheerder zijn niet op de hoogte zijn van de mapstructuur van de elementen die met hen worden gedeeld, lijken elementen/mappen met vergelijkbare namen verwarrend.
+
+* De paden die op de betreffende kaarten worden weergegeven, worden afgekapt om in de kaartgrootten te passen. Gebruikers kunnen het volledige pad echter zien als knopinfo door de muisaanwijzer boven het ingekorte pad te plaatsen.
 
 ![](assets/folder-hierarchy1.png)
 
 **optie van het Overzicht om de Eigenschappen van Activa te bekijken**
 
-De optie Overzicht is beschikbaar voor gebruikers die geen beheerder zijn (Editors, Viewers, Gastgebruikers) en geeft de eigenschappen van middelen van geselecteerde elementen/mappen weer. De optie Overzicht is zichtbaar:
+De optie Overzicht is beschikbaar voor gebruikers die geen beheerder zijn (Editors, Viewers, Gastgebruikers) en geeft de eigenschappen van de middelen in geselecteerde elementen/mappen weer. De optie Overzicht is zichtbaar:
 
-* in de werkbalk bovenaan bij het selecteren van een middel/map.
-* in de vervolgkeuzelijst betreffende de selectie van de spoorstaafkiezer.
+* Kies bovenaan op de werkbalk een middel/map om een bestand/map te selecteren.
+* In de vervolgkeuzelijst selecteert u de spoorstaafkiezer.
 
-Als u de optie **[!UICONTROL Overview]** selecteert terwijl een element/map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip zien waarop het element is gemaakt. Terwijl de gebruiker met de optie Overzicht op de pagina met elementdetails de metagegevens van het element kan bekijken.
+Wanneer u de optie **[!UICONTROL Overview]** selecteert terwijl een element/map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip zien waarop het element is gemaakt. Terwijl de gebruikers op de pagina met elementdetails de optie Overzicht selecteren, metagegevens van het element kunnen bekijken.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +85,7 @@ Als u de optie **[!UICONTROL Overview]** selecteert terwijl een element/map is g
 
 #### Instellingen weergeven in de kaartweergave
 
-**[!UICONTROL View Settings]** wordt geopend wanneer u **[!UICONTROL View Settings]** selecteert in de weergavekiezer. Hiermee kunt u de grootte van de elementminiaturen in de kaartweergave wijzigen. Op deze manier kunt u de weergave aanpassen en het aantal weergegeven miniaturen bepalen.
+Het dialoogvenster **[!UICONTROL View Settings]** wordt geopend door **[!UICONTROL View Settings]** te selecteren in de weergavekiezer. Hiermee kunt u de grootte van de elementminiaturen in de kaartweergave aanpassen. Op deze manier kunt u de weergave aanpassen en het aantal weergegeven miniaturen bepalen.
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +106,7 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Mappad met middelenhiërarchie
 * Datum van publicatie van het element op Brand Portal
 
-Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt onderaan de hiërarchie navigeren door te tikken/de middelnaam te klikken, en file door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt onderaan de hiërarchie navigeren door de middelnaam, en file te klikken door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Instellingen weergeven in de lijstweergave
 
-In de lijstweergave wordt element **[!UICONTROL Name]** standaard als de eerste kolom weergegeven. Aanvullende informatie, zoals element **[!UICONTROL Title]** , **[!UICONTROL Locale]** , **[!UICONTROL Type]** , **[!UICONTROL Dimensions]** , **[!UICONTROL Size]** en **[!UICONTROL Rating]** , wordt ook weergegeven. U kunt echter wel de kolommen selecteren die u wilt weergeven met **[!UICONTROL View Settings]** .
+In de lijstweergave wordt het element **[!UICONTROL Name]** standaard als de eerste kolom weergegeven. Aanvullende informatie, zoals element **[!UICONTROL Title]** , **[!UICONTROL Locale]** , **[!UICONTROL Type]** , **[!UICONTROL Dimensions]** , **[!UICONTROL Size]** en **[!UICONTROL Rating]** , wordt ook weergegeven. U kunt echter wel de kolommen selecteren die u wilt weergeven met **[!UICONTROL View Settings]** .
 
 ![](assets/list-view-setting.png)
 
@@ -129,22 +126,22 @@ Met de kolomweergave kunt u door een inhoudsstructuur navigeren door een reeks t
 
 Als u een bron selecteert in de eerste (meest linkse) kolom, worden onderliggende bronnen weergegeven in de tweede kolom rechts. Als u een bron in de tweede kolom selecteert, worden onderliggende bronnen in de derde kolom rechts weergegeven, enzovoort.
 
-U kunt omhoog en omlaag navigeren in de boom door op de middelnaam of de chevron rechts van de middelnaam te tikken of te klikken.
+U kunt omhoog en omlaag navigeren in de boom. Klik op de naam van de bron of op de chevron rechts van de naam van de bron.
 
 * De naam en het chevron van de bron worden benadrukt wanneer getikt of geklikt.
 * Als u op de miniatuur tikt of erop klikt, wordt de bron geselecteerd.
 * Als deze optie is geselecteerd, wordt een vinkje boven de miniatuur geplaatst en wordt de naam van de bron gemarkeerd.
 * De details van de geselecteerde bron worden getoond in de definitieve kolom.
 
-Wanneer een element is geselecteerd in de kolomweergave, wordt de visuele weergave van het element weergegeven in de laatste kolom, samen met de volgende details:
+Wanneer een element is geselecteerd in de kolomweergave, wordt in de laatste kolom een visuele weergave van het element weergegeven, samen met de volgende details:
 
 * Titel
 * Naam
 * Dimensionen
-* Datum en tijdstip waarop de activa vanaf AEM aan Brand Portal zijn gepubliceerd
+* Datum en tijdstip waarop het activum vanaf AEM aan Brand Portal is gepubliceerd
 * Grootte
 * Type
-* Meer informatie, optie om op de detailpagina van het element te gaan
+* Meer informatie bij de detailpagina van het element
 
 <!--
 Comment Type: draft
@@ -244,11 +241,11 @@ Navigeer vanuit de inhoudshiërarchie naar het gewenste element.
 
 ## Details van element {#asset-details}
 
-Met de pagina met elementdetails kunt u een element weergeven, downloaden, de koppeling met middelen delen, naar een verzameling verplaatsen of de eigenschappenpagina van het element weergeven. Hiermee kunt u ook door de detailpagina van andere elementen in dezelfde map navigeren.
+Met de pagina met elementdetails kunt u een element weergeven, downloaden, de koppeling van het element delen, naar een verzameling verplaatsen of de eigenschappenpagina van het element weergeven. U kunt ook achtereenvolgens op de detailpagina van andere elementen in dezelfde map navigeren.
 
 ![](assets/asset-detail.png)
 
-Als u de metagegevens van het element wilt weergeven of de verschillende uitvoeringen wilt bekijken, gebruikt u de railkiezer op de pagina met de details van het element.
+Als u de metagegevens van het element wilt weergeven of de verschillende uitvoeringen wilt bekijken, gebruikt u de railkiezer op de pagina met de elementdetails.
 
 ![](assets/asset-overview.png)
 
