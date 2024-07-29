@@ -1,17 +1,16 @@
 ---
-source-git-commit: c33730d076788b874c7c3b4f2e3341b0f3a56d7b
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
-# Documentatie Adobe Experience Manager Brand Portal
+# Adobe Experience Manager Brand Portal-documentatie
 
-Dit is de opslagplaats voor documentatie van Adobe Experience Manager Brand Portal.
+De opslagplaats voor Adobe Experience Manager Brand Portal-documentatie.
 
 Uw bijdragen aan de documentatie zijn welkom. Zie de volgende bronnen:
 
-* [contribute.](contributing.md) mdVoor een overzicht van hoe te om aan de documentatie bij te dragen.
-* [Guidelines.](guidelines.md) mdVoor een overzicht van wat in bijdragen wordt verwacht en hoe te om uw documentatiebijdragen samen te stellen.
-* [gedragscode.](code-of-conduct.md) mdVoor een overzicht van de normen van gedrag wij verwachten aangezien u aan dit documentatieproject bijdraagt.
+* [ contribute.md ](contributing.md) voor een overzicht van hoe te om aan de documentatie bij te dragen.
+* [ guidelines.md ](guidelines.md) voor een overzicht van wat in bijdragen en hoe te om uw documentatiebijdragen samen te stellen wordt verwacht.
+* [ code-van-behavior.md ](code-of-conduct.md) voor een overzicht van de normen van Adobe verwacht gedrag aangezien u aan dit documentatieproject bijdraagt.
