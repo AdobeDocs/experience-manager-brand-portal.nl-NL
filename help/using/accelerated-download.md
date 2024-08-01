@@ -1,18 +1,14 @@
 ---
 title: Brand Portal-downloads versnellen
-seo-title: Speed up the Brand Portal downloads
 description: Verbeter de downloadprestaties van Brand Portal en de gedeelde koppelingen.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '965'
 ht-degree: 2%
 
 ---
@@ -21,11 +17,11 @@ ht-degree: 2%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal maakt het mogelijk de downloadprestaties van grote bestanden met middelen te verbeteren door integratie met IBM® Aspera Connect, een toepassing die op aanvraag wordt geïnstalleerd. De toepassing gebruikt merkgebonden technologie om de overheadkosten van TCP te verwijderen en helpt overdrachtsnelheid van de activadossiers te verbeteren. Deze integratie zorgt voor een verbeterde downloadervaring.
+Adobe Experience Manager Assets Brand Portal maakt het mogelijk de downloadprestaties van grote bestanden met middelen te verbeteren door integratie met IBM® Aspera Connect, een toepassing die op aanvraag wordt geïnstalleerd. De toepassing gebruikt merkgebonden technologie om de overheadkosten van TCP te verwijderen en helpt de overdrachtsnelheid van de activadossiers te verbeteren. Deze integratie zorgt voor een verbeterde downloadervaring.
 
 >[!NOTE]
 >
->Downloadsnelheid verschilt voor gebruikers omdat dit afhankelijk is van factoren zoals netwerkbandbreedte, serverlatentie en geografische locatie van clients.
+>Downloadsnelheid varieert voor gebruikers omdat deze afhankelijk is van factoren zoals netwerkbandbreedte, serverwachttijd en de geografische locatie van clients.
 
 De configuratie van **[!UICONTROL Fast Download]** is standaard ingeschakeld, waardoor het downloaden van de gewenste elementbestanden van Brand Portal aanzienlijk sneller verloopt.
 
@@ -89,15 +85,15 @@ Zo downloadt u elementen sneller van Brand Portal:
 
 1. Het dialoogvenster **[!UICONTROL Download]** met alle geselecteerde elementen wordt geopend.
 
-   Schakel het selectievakje **[!UICONTROL Create separate folder for each asset]** in als u de Brand Portal-maphiërarchie wilt behouden terwijl u elementen downloadt.
+   Schakel het selectievakje **[!UICONTROL `Create separate folder for each asset`]** in als u de Brand Portal-maphiërarchie wilt behouden terwijl u elementen downloadt.
 
-   De downloadknop geeft het aantal geselecteerde items weer. Klik op **[!UICONTROL Download items]** als u klaar bent met het toepassen van de regels. Meer weten over hoe te om regels toe te passen, zie [ downloadactiva ](../using/brand-portal-download-assets.md#download-assets).
+   De downloadknop geeft het aantal geselecteerde items weer. Klik op **[!UICONTROL Download items]** als u klaar bent met het toepassen van de regels. Meer over leren hoe te om de regels toe te passen, zie [ downloadactiva ](../using/brand-portal-download-assets.md#download-assets).
 
    ![ download-dialoog ](assets/download-dialog-box-new.png)
 
 1. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in **[!UICONTROL Download Settings]** . Daarom wordt een bevestigingsvenster weergegeven waarin u middelen kunt downloaden met IBM® Aspera Connect.
 
-   Als u de middelen voor het eerst downloadt en IBM® Aspera Connect niet in uw browser hebt geïnstalleerd of als de bestaande versie verouderd is, wordt u gevraagd om de Aspera-downloadaccelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) te installeren.
+   Als u voor het eerst middelen hebt gedownload en IBM® Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd deze te installeren. Als de bestaande versie verouderd is, wordt u ook ertoe aangezet om de [ de downloadaccelerator van de Ruimtedownload ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) te installeren.
 
    ![](assets/aspera-not-launched.png)
 
@@ -184,16 +180,16 @@ Microsoft® Edge wordt uitgevoerd in de Enhanced Protected Mode (EPM), waardoor 
 
 ![](assets/switchapps-msedge.png)
 
-Als u de functie voor versnelde download wilt gebruiken op Microsoft® Edge, verwijdert u de Brand Portal-site uit de lijst met vertrouwde sites.
+Als u de functie voor versnelde download wilt gebruiken op Microsoft® Edge, verwijdert u de Brand Portal-site uit de lijst Vertrouwde site.
 
 1. Open het Configuratiescherm (**[!UICONTROL Window key + X]** en selecteer vervolgens **[!UICONTROL Control Panel]** ).
 1. Ga naar **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]** . Klik op de tab **[!UICONTROL Security]** .
 1. Klik op **[!UICONTROL Trusted sites zone]** en vervolgens op **[!UICONTROL Sites]** .
-1. Brand Portal-site verwijderen uit de lijst.
+1. Verwijder de Brand Portal-site uit de lijst.
 
 ## Voorkeuren voor Aspera Connect-client {#aspera-connect-client-preferences}
 
-Er zijn een paar handige voorkeuren die u kunt instellen in de voorkeur voor IBM® Aspera Connect Client door met de rechtermuisknop op het pictogram te klikken en **[!UICONTROL Preferences]** te selecteren.
+Er zijn een paar handige voorkeuren die in de voorkeur van de IBM® Aspera Connect-client kunnen worden ingesteld door met de rechtermuisknop op het pictogram te klikken en **[!UICONTROL Preferences]** te selecteren.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ U kunt de standaarddownloadlocatie instellen.
 
 ![](assets/aspera-preferences.png)
 
-Bovendien kan de Aspera Connect-client worden gemarkeerd om automatisch te starten bij het opstarten van het systeem, zodat de Connect-client wordt uitgevoerd en de download sneller kan worden gestart.
+De Aspera Connect-client kan ook worden gemarkeerd zodat deze automatisch wordt gestart bij het opstarten van het systeem. En de Connect-client wordt uitgevoerd en kan sneller worden gedownload.
 
 ![](assets/aspera-automaticallylaunch.png)
 
@@ -213,7 +209,7 @@ Als downloadversnelling niet voor u werkt, probeert u de volgende suggesties:
 
    Als de havens niet O.K. zijn, dan bereik uit aan uw netwerkteam en zorg ervoor dat de Havens 33001 (zowel TCP &amp; UDP) niet in de firewall worden geblokkeerd.
 
-1. Als de havens OK zijn, dan controleer als uw netwerk niet langzaam is, door de beschikbare bandbreedte te meten gebruikend [ https://www.speedtest.net/ ](https://www.speedtest.net/).
+1. Als de havens OK zijn, dan controleer als uw netwerk niet langzaam door de beschikbare bandbreedte te meten gebruikend [ https://www.speedtest.net/ ](https://www.speedtest.net/) is.
 
    Als de bandbreedte weinig (1-10 Mbps) of in Kbps is, dan gebruik de Voorkeur van de RUIMTE en probeer om de bandbreedte te beperken gelijk aan de beschikbare bandbreedte.
 

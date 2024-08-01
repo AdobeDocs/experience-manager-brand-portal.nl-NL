@@ -1,18 +1,14 @@
 ---
 title: Toegang voor gasten tot Brand Portal
-seo-title: Guest Access to Brand Portal
 description: Gasttoegang toestaan en de moeite besparen om aan boord van een groot aantal gebruikers te gaan zonder verificatie.
-seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
-uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -21,8 +17,8 @@ ht-degree: 0%
 
 Experience Manager Assets Brand Portal biedt gasttoegang tot het portaal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt of tenzij de gastgebruiker aan [[!UICONTROL End Session]](#exit-guest-session) verkiest. Een gastgebruikerssessie blijft 15 minuten actief.
 
-De de toegangsfunctionaliteit van de gast laat organisaties toe [ snel goedgekeurde activa ](../using/brand-portal-sharing-folders.md#how-to-share-folders) met het voorgenomen publiek in schaal te delen zonder het moeten hen aan boord hebben. Brand Portal 6.4.2 en hoger is uitgerust om meerdere gelijktijdige gastgebruikers te bedienen, wat 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers met beperkte functionaliteit op Brand Portal te beheren en aan boord te hebben.\
-Organisaties kunnen toegang voor gasten inschakelen (of uitschakelen) in een Brand Portal-account van de organisatie via de optie **[!UICONTROL Allow Guest Access]** in **[!UICONTROL Access]** -instellingen in het deelvenster met beheergereedschappen.
+De de toegangsfunctionaliteit van de gast laat organisaties toe om [ goedgekeurde activa snel ](../using/brand-portal-sharing-folders.md#how-to-share-folders) met het voorgenomen publiek aan schaal te delen zonder het moeten hen aan boord hebben. Brand Portal 6.4.2 en hoger is uitgerust om meerdere gelijktijdige gastgebruikers te bedienen, wat 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers met beperkte functionaliteit op Brand Portal te beheren en aan boord te hebben.\
+Organisaties kunnen toegang voor gasten inschakelen (of uitschakelen) in de Brand Portal-account van de organisatie met de optie **[!UICONTROL Allow Guest Access]** in de instellingen van **[!UICONTROL Access]** in het deelvenster met beheergereedschappen.
 
 <!--
 Comment Type: annotation
@@ -35,20 +31,20 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Beginnen met gastsessie {#begin-guest-session}
 
-Als u Brand Portal anoniem wilt invoeren, selecteert u **[!UICONTROL Click here]** voor **[!UICONTROL Guest Access?]** in het welkomstscherm van Brand Portal. Voer de beveiligingscontrole van Captcha in om toegang te verlenen tot het gebruik van de Brand Portal.
+Als u Brand Portal anoniem wilt invoeren, selecteert u **[!UICONTROL Click here]** voor **[!UICONTROL `Guest Access?`]** in het welkomstscherm van Brand Portal. Voer de beveiligingscontrole van Captcha in om toegang te verlenen tot het gebruik van de Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
 ## Duur gastsessie {#guest-session-duration}
 
 Een gastgebruikerssessie blijft 15 minuten actief.
-Dit betekent dat de status van **[!UICONTROL Lightbox]** 15 minuten vanaf de begintijd van de sessie wordt behouden en nadat de huidige gastsessie opnieuw is gestart zodat de toestand Lichtbak verloren gaat.
+Bij dit proces blijft de status van de **[!UICONTROL Lightbox]** gedurende 15 minuten vanaf de begintijd van de sessie behouden. Daarna, begint de huidige gastzitting opnieuw, veroorzakend de Lichtbakstaat om worden verloren.
 
-Een gastgebruiker meldt zich bijvoorbeeld om 1500 uur aan bij Brand Portal en voegt middelen toe aan **[!UICONTROL Lightbox]** voor download om 15:05 uur. Als de gebruiker de **[!UICONTROL Lightbox]** -verzameling (of de bijbehorende middelen) niet vóór 15:15 uur downloadt (binnen 15 minuten na aanmelding), moet de gebruiker de sessie opnieuw starten. **[!UICONTROL Lightbox]** is leeg, wat betekent dat de geüploade elementen niet meer beschikbaar zijn als de sessie is verloren.
+Een gastgebruiker meldt zich bijvoorbeeld om 1500 uur aan bij Brand Portal en voegt middelen toe aan **[!UICONTROL Lightbox]** voor download om 15:05 uur. Als de gebruiker de **[!UICONTROL Lightbox]** -verzameling (of de bijbehorende elementen) niet vóór 15:15 uur downloadt (binnen 15 minuten na aanmelden), moet de gebruiker de sessie opnieuw starten. **[!UICONTROL Lightbox]** is leeg, wat betekent dat de geüploade elementen niet meer beschikbaar zijn als de sessie is verloren.
 
 ## Gelijktijdige gastsessies toegestaan {#concurrent-guest-sessions-allowed}
 
-Het aantal gelijktijdige gastsessies is beperkt tot 10% van de totale gebruikersquota per organisatie. Het betekent voor een organisatie met gebruikersquota van 200, maximaal 20 gastgebruikers kunnen tezelfdertijd werken. De 21ste gebruiker wordt ontzegd toegang, en kan als gast slechts toegang hebben als de zitting van om het even welke 20 actieve gastgebruikers beëindigt.
+Het aantal gelijktijdige gastsessies is beperkt tot 10% van de totale gebruikersquota per organisatie. Het betekent dat voor een organisatie die een gebruikersquotum van 200 heeft, een maximum van 20 gastgebruikers tezelfdertijd kunnen werken. De 21ste gebruiker wordt ontzegd toegang, en kan als gast slechts toegang hebben als de zitting van om het even welke 20 actieve gastgebruikers beëindigt.
 
 >[!NOTE]
 >
@@ -62,11 +58,12 @@ Bij het ingaan van Brand Portal als gast, kunnen de gebruikers alle [ activa en 
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-Nochtans, zien de gastgebruikers de omslagboom (die van de wortelomslag) begint en de gedeelde omslagen die binnen hun respectieve ouderomslagen bij het programma openen aan Brand Portal worden geschikt, als de beheerders [ ](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) configuratie van de Hiërarchie van de Omslag {hebben toegelaten.
 
-Deze bovenliggende mappen zijn de virtuele mappen en er kunnen geen handelingen op worden uitgevoerd. U kunt deze virtuele mappen herkennen met een vergrendelingspictogram.
+Als de beheerders [ toelaten laat de Hiërarchie van de Omslag ](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) toe, zien de gastgebruikers de omslagboom van de wortel en gedeelde omslagen binnen hun ouderomslagen op het registreren in Brand Portal.
 
-In tegenstelling tot de gedeelde mappen zijn er geen actietaken zichtbaar wanneer u deze in **[!UICONTROL Card View]** aanwijst of selecteert. **[!UICONTROL Overview]** wordt weergegeven bij het selecteren van een virtuele map in **[!UICONTROL Column View]** en **[!UICONTROL List View]** .
+Deze bovenliggende mappen zijn virtuele mappen en er kunnen geen handelingen op worden uitgevoerd. U kunt deze virtuele mappen herkennen met een vergrendelingspictogram.
+
+In tegenstelling tot de gedeelde mappen zijn er geen actietaken zichtbaar wanneer u deze in **[!UICONTROL Card View]** aanwijst of selecteert. De knop **[!UICONTROL Overview]** wordt weergegeven bij het selecteren van een virtuele map in **[!UICONTROL Column View]** en **[!UICONTROL List View]** .
 
 >[!NOTE]
 >
@@ -78,16 +75,16 @@ Met de optie **[!UICONTROL View Settings]** kunnen gastgebruikers de kaartgroott
 
 ![](assets/nav-guest-user.png)
 
-Met de **[!UICONTROL Content tree]** kunt u de hiërarchie van elementen doorlopen.
+Met **[!UICONTROL Content tree]** kunt u door de hiërarchie van elementen navigeren.
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal biedt gastgebruikers de optie **[!UICONTROL Overview]** om **[!UICONTROL Asset Properties]** van geselecteerde elementen/mappen weer te geven. De optie **[!UICONTROL Overview]** is zichtbaar:
+Brand Portal biedt een **[!UICONTROL Overview]** -optie voor gastgebruikers om **[!UICONTROL Asset Properties]** van geselecteerde elementen/mappen weer te geven. De optie **[!UICONTROL Overview]** is zichtbaar:
 
-* Selecteer bovenaan op de werkbalk een middel/map.
+* Kies bovenaan op de werkbalk een element of map.
 * In de vervolgkeuzelijst selecteert u de spoorkiezer.
 
-Als u de optie **[!UICONTROL Overview]** selecteert terwijl een element/map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip zien waarop het element is gemaakt. Terwijl gebruikers met de optie **[!UICONTROL Overview]** metagegevens van het element kunnen bekijken op de pagina met elementdetails.
+Wanneer u de optie **[!UICONTROL Overview]** selecteert terwijl een element of map is geselecteerd, kunnen gebruikers de titel, het pad en het tijdstip zien waarop het element is gemaakt. Terwijl de gebruiker op de pagina met elementdetails de optie **[!UICONTROL Overview]** selecteert, kunnen de metagegevens van het element worden weergegeven.
 
 ![](assets/overview-option-1.png)
 
@@ -95,7 +92,7 @@ Als u de optie **[!UICONTROL Overview]** selecteert terwijl een element/map is g
 
 Met de optie **[!UICONTROL Navigation]** in de linkertrack kunt u van bestanden naar verzamelingen navigeren en terug in de gastsessie, zodat gebruikers door elementen in bestanden of verzamelingen kunnen bladeren.
 
-Met de optie **[!UICONTROL Filter]** kunnen gastgebruikers elementbestanden en mappen filteren met behulp van zoekvoorspelling die door de beheerder is ingesteld.
+Met de optie **[!UICONTROL Filter]** kunnen gastgebruikers elementbestanden en mappen filteren met behulp van zoekvoorspelling die is ingesteld door de beheerder.
 
 ### Mogelijkheden voor gastgebruikers
 
@@ -104,7 +101,7 @@ Gastgebruikers hebben toegang tot openbare middelen op Brand Portal en hebben oo
 **de gebruikers van de Gast kunnen**:
 
 * Open alle openbare mappen en verzamelingen die voor alle Brand Portal-gebruikers zijn bedoeld.
-* Blader door leden, detailpagina en heb de volledige elementweergave van de leden van alle openbare mappen en verzamelingen.
+* Blader door leden, detailpagina en heb een volledige elementweergave van de leden van alle openbare mappen en verzamelingen.
 * Middelen zoeken in openbare mappen en verzamelingen.
 * Elementen toevoegen aan lichtbakverzameling. Deze veranderingen in de inzameling blijven tijdens de zitting bestaan.
 * Download elementen rechtstreeks of via lichtbakverzameling.
@@ -126,7 +123,7 @@ Gebruik het downloadpictogram van:
 
 ![](assets/download-on-guest.png)
 
-Het selecteren **[!UICONTROL Enable download acceleration]** op [!UICONTROL Download] dialoog laat u [ de downloadprestaties ](../using/accelerated-download.md) verbeteren.
+Het selecteren **[!UICONTROL Enable download acceleration]** in het [!UICONTROL Download] dialoogvakje laat u [ de downloadprestaties ](../using/accelerated-download.md) verbeteren.
 
 ## Bezoekerssessie afsluiten {#exit-guest-session}
 
@@ -136,4 +133,4 @@ Als u een gastsessie wilt afsluiten, gebruikt u **[!UICONTROL End Session]** van
 
 ## Bewaking van activiteiten van gastgebruikers {#monitoring-guest-user-activities}
 
-Beheerders kunnen de interactie van gastgebruikers met de Brand Portal controleren. Rapporten die in Brand Portal worden gegenereerd, kunnen belangrijke inzichten bieden in activiteiten van gastgebruikers. Het rapport **[!UICONTROL Download]** kan bijvoorbeeld worden gebruikt om het aantal elementen bij te houden dat door de gastgebruiker is gedownload. Het **[!UICONTROL User Logins]** -rapport kan aangeven wanneer de gastgebruiker zich voor het laatst heeft aangemeld bij het portaal en de frequentie van aanmeldingen in een opgegeven tijdsduur.
+Beheerders kunnen de interactie van gastgebruikers met de Brand Portal controleren. Rapporten die in Brand Portal worden gegenereerd, kunnen belangrijke inzichten bieden in activiteiten van gastgebruikers. Het rapport **[!UICONTROL Download]** kan bijvoorbeeld worden gebruikt om het aantal elementen bij te houden dat door de gastgebruiker is gedownload. Het **[!UICONTROL User Logins]** -rapport kan aangeven wanneer de gastgebruiker zich voor het laatst heeft aangemeld bij het portal en hoe vaak hij zich heeft aangemeld voor een bepaalde duur.
