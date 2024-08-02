@@ -1,16 +1,12 @@
 ---
 title: Achtergrond, koptekst en e-mailbericht aanpassen
-seo-title: Customize wallpaper, header, and email message
-description: Brand Portal-beheerders kunnen beperkte aanpassingen aanbrengen in de interface die voor gebruikers wordt weergegeven. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de Brand Portal-aanmeldingspagina. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
+description: Brand Portal-beheerders kunnen beperkte aanpassingen aanbrengen in de interface die voor gebruikers wordt weergegeven. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de Brand Portal-aanmeldingspagina. U kunt ook een koptekstafbeelding toevoegen en e-mails voor het delen van elementen aanpassen aan het merk van de klant.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -19,7 +15,7 @@ ht-degree: 0%
 
 # Achtergrond, koptekst en e-mailbericht aanpassen {#customize-wallpaper-header-and-email-message}
 
-Brand Portal-beheerders kunnen beperkte aanpassingen aanbrengen in de interface die voor gebruikers wordt weergegeven. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de Brand Portal-aanmeldingspagina. U kunt ook een koptekstafbeelding toevoegen en de e-mails voor het delen van elementen aanpassen aan het merk van de klant.
+Brand Portal-beheerders kunnen beperkte aanpassingen aanbrengen in de interface die voor gebruikers wordt weergegeven. U kunt een specifieke achtergrondafbeelding (achtergrond) kiezen voor de Brand Portal-aanmeldingspagina. U kunt ook een koptekstafbeelding toevoegen en e-mails voor het delen van elementen aanpassen aan het merk van de klant.
 
 ## De achtergrond voor het aanmeldingsscherm aanpassen {#customize-the-login-screen-wallpaper}
 
@@ -30,7 +26,6 @@ Als een achtergrondafbeelding met aangepaste branding ontbreekt, wordt een stand
    ![](assets/aemlogo.png)
 
 1. Klik in het deelvenster met beheergereedschappen op **[!UICONTROL Branding]** .
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ De koptekst wordt weergegeven op verschillende Brand Portal-pagina&#39;s nadat u
 
 1. Als u een koptekstafbeelding wilt uploaden, klikt u op het pictogram **[!UICONTROL Choose Image]** en kiest u **[!UICONTROL Upload]** .
 
-   Als u een bestaande Brand Portal-afbeelding wilt gebruiken, kiest u **[!UICONTROL Select from existing]** .
+   Als u een bestaande Brand Portal-afbeelding wilt gebruiken, kiest u **[!UICONTROL Select existing]** .
 
    ![](assets/choose_wallpaperimage-1.png)
 

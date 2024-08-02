@@ -1,18 +1,14 @@
 ---
 title: Een verzameling delen
-seo-title: Share a collection
-description: Experience Manager Assets Brand Portal-beheerders kunnen een verzameling of een slimme verzameling delen en het delen ervan opheffen met geautoriseerde gebruikers. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Leer hoe Experience Manager Assets Brand Portal-beheerders een verzameling of een slimme verzameling kunnen delen en delen met geautoriseerde gebruikers. Editors kunnen alleen de verzamelingen weergeven en delen die door hen zijn gemaakt, met hen zijn gedeeld en openbare verzamelingen.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -23,13 +19,13 @@ Een verzameling vertegenwoordigt een groep gerelateerde elementen die samen in A
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Verzamelingen worden als koppelingen via een e-mail gedeeld. Iedereen met toegang tot de gedeelde verbinding kan de inzameling openen, terwijl, gedeelde e-mail aan iedereen kan worden doorgestuurd. Bovendien, [ gedeelde verbindingen ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) zijn tijdelijk en toegankelijk voor een beperkte duur slechts. U kunt gebruikers ook uitnodigen als permanente leden voor verzamelingen. Er zijn de volgende typen gebruikers voor de verzamelingen:
+Verzamelingen worden als koppelingen via een e-mail gedeeld. Iedereen met toegang tot de aandeelverbinding kan de inzameling openen. Gedeelde e-mails kunnen echter naar iedereen worden doorgestuurd. Bovendien, [ gedeelde verbindingen ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) zijn tijdelijk en toegankelijk voor een beperkte duur slechts. U kunt gebruikers ook uitnodigen als permanente leden voor verzamelingen. Er zijn de volgende typen gebruikers voor de verzamelingen:
 
 * **de Beheerders** kunnen een inzameling met de gemachtigde gebruikers van Brand Portal delen of unshare. Ze kunnen andere gebruikers uitnodigen voor een specifieke verzameling en hun rol in die verzameling definiëren. Daarnaast kunnen beheerders openbare verzamelingen maken.
 
 * **Editors** worden toegestaan om inzamelingen tot stand te brengen en te delen. Ze kunnen andere gebruikers uitnodigen voor een specifieke verzameling en hun rol in die verzameling definiëren. Bovendien kunnen zij inzamelingen ook delen, als zij aan de inzameling als redacteur of eigenaar zijn uitgenodigd.
 
-* **de Kijkers** kunnen privé inzamelingen tot stand brengen slechts. Ze mogen geen collectie delen, zelfs niet toen ze als eigenaar werden uitgenodigd.
+* **de Kijkers** kunnen privé inzamelingen tot stand brengen slechts. Ze kunnen geen collectie delen, zelfs niet toen ze als eigenaar werden uitgenodigd.
 
 >[!NOTE]
 >
@@ -53,7 +49,7 @@ Hier volgen de stappen voor het delen van een verzameling met geautoriseerde Bra
 
      ![](assets/collection-console.png)
 
-1. Selecteer in het dialoogvenster **[!UICONTROL Collection Settings]** de gebruikers met wie u de verzameling wilt delen en selecteer de rol die de gebruiker aan de algemene rol moet toekennen. Wijs bijvoorbeeld de rol Editor toe aan een algemene editor, de rol Viewer, aan een algemene viewer.
+1. Selecteer in het dialoogvenster **[!UICONTROL Collection Settings]** de gebruikers met wie u de verzameling wilt delen en selecteer de rol die de gebruiker aan de algemene rol moet toekennen. Wijs bijvoorbeeld de rol Editor toe aan een algemene editor, de rol Viewer aan een algemene viewer.
 
    U kunt de verzameling ook beschikbaar maken voor alle gebruikers, ongeacht hun groepslidmaatschap en rol, door het selectievakje **[!UICONTROL Public Collection]** in te schakelen.
 

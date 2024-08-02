@@ -1,33 +1,30 @@
 ---
 title: Ervaring voor eerste aanmelding
-seo-title: First-time login experience
-description: De eerste aanmeldervaring geldt voor alle nieuwe Experience Manager Assets Brand Portal-gebruikers, inclusief beheerders. Nadat een beheerder u aan de Brand Portal-account van uw organisatie heeft toegevoegd, hoeft u geen uitnodigingen te accepteren, wordt u automatisch toegevoegd. U ontvangt een welkomstbericht met een koppeling naar de Brand Portal-account van uw organisatie.
-seo-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
-uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
+description: Alle nieuwe Experience Manager Assets Brand Portal-gebruikers, inclusief beheerders, hebben dezelfde ervaring met aanmelden voor de eerste keer. Nadat een beheerder u aan de Brand Portal-account van uw organisatie heeft toegevoegd, wordt u automatisch opgenomen zonder dat u een uitnodiging hoeft te accepteren. U ontvangt een welkomstbericht met een koppeling om toegang te krijgen tot de Brand Portal-account van uw organisatie.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
 # Ervaring voor eerste aanmelding {#first-time-login-experience}
 
-De eerste aanmeldervaring geldt voor alle nieuwe Experience Manager Assets Brand Portal-gebruikers, inclusief beheerders. Nadat een beheerder u aan de Brand Portal-account van uw organisatie heeft toegevoegd, hoeft u geen uitnodigingen te accepteren, wordt u automatisch toegevoegd. U ontvangt een welkomstbericht met een koppeling naar de Brand Portal-account van uw organisatie.
+Alle nieuwe Experience Manager Assets Brand Portal-gebruikers, inclusief beheerders, hebben dezelfde ervaring met aanmelden voor de eerste keer. Nadat een beheerder u aan de Brand Portal-account van uw organisatie heeft toegevoegd, wordt u automatisch opgenomen zonder dat u een uitnodiging hoeft te accepteren. U ontvangt een welkomstbericht met een koppeling om toegang te krijgen tot de Brand Portal-account van uw organisatie.
 
 Hier volgen de stappen die moeten worden uitgevoerd voor gebruikers die zich voor het eerst aanmelden bij Brand Portal:
 
 1. Open het welkomstbericht en klik op **[!UICONTROL Get Started]** .
 
 1. Geef op de aanmeldingspagina uw gegevens op (inclusief voornaam, achternaam, wachtwoord en land/regio).
+
    >[!NOTE]
    >
-   >Als u een bestaande Adobe Marketing Cloud-gebruiker bent, wordt in plaats van de aanmeldingspagina een aanmeldingspagina weergegeven. Voer uw Adobe ID en wachtwoord in als u zich wilt aanmelden bij Adobe Marketing Cloud.
+   >Als u een bestaande Adobe Experience Cloud-gebruiker bent, wordt in plaats van de aanmeldingspagina een aanmeldingspagina weergegeven. Voer uw Adobe ID en wachtwoord in als u zich wilt aanmelden bij Adobe Experience Cloud.
 
    >[!NOTE]
    >

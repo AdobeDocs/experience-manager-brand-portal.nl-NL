@@ -1,17 +1,13 @@
 ---
 title: Mappen delen
-seo-title: Share folders
-description: Brand Portal biedt geen ondersteuning voor het opnemen van bedrijfsmiddelen, zodat middelen vanuit een vooraf geconfigureerde Experience Manager Assets Author-instantie naar Brand Portal moeten worden gepubliceerd. Gepubliceerde elementen zijn niet toegankelijk voor gebruikers die geen beheerder zijn van Brand Portal, tenzij dit is geconfigureerd tijdens het configureren van replicatie met een Experience Manager-instantie, en moeten met hen worden gedeeld.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal vereist dat elementen worden gepubliceerd vanuit een vooraf geconfigureerde Experience Manager Assets Author-instantie. De gebruikers niet-admin kunnen tot gepubliceerde activa slechts toegang hebben indien gevormd tijdens replicatie opstelling met Experience Manager, en de activa moeten met hen worden gedeeld.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -32,17 +28,17 @@ Hieronder worden de workflow voor het delen van mappen en gebruikerstoegang besc
 
 ### Mappen delen met gebruikersgroepen op Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Toegangsrechten voor elementen van een map zijn afhankelijk van de toegangsrechten voor de bovenliggende map, ongeacht de instellingen van onderliggende mappen. Dit gedrag wordt geregeerd door [ ACLs ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) in AEM, aangezien de kindomslagen ACLs van hun ouderomslagen erven. Bijvoorbeeld, als een omslag A omslag B bevat die omslag C bevat, dan hebben een gebruikersgroep (of gebruikers) die toegangsrechten op omslag A hebben ook de zelfde toegangsrechten op omslag B en omslag C. De omslag B die de kindomslag van A is overerft ACLs, en de omslag C die de kindomslag van B overerft ACLs.
+Toegangsrechten voor elementen van een map zijn afhankelijk van de toegangsrechten voor de bovenliggende map, ongeacht de instellingen van onderliggende mappen. [ ACLs ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) in AEM dit gedrag, met kindomslagen die ACLs van hun ouderomslagen erven. Stel dat map A map B bevat, die map C bevat. Dan heeft een gebruikersgroep (of gebruikers) die toegangsrechten op omslag A hebben ook de zelfde toegangsrechten op omslag B en omslag C. De omslag B die de kindomslag van A zijn ACLs erft, en de omslag C die de kindomslag van B zijn ACLs erft.
 
-Op dezelfde manier hebben gebruikersgroepen (of gebruikers) met toegangsmachtigingen voor alleen map B dezelfde toegangsmachtigingen voor map C, maar niet voor map A. Daarom wordt geadviseerd dat de organisaties hun inhoud zodanig schikken dat de meeste blootgestelde activa in de kindomslag en van kinderen aan de toegang van de wortelomslag kunnen worden beperkt.
+Op dezelfde manier hebben gebruikersgroepen (of gebruikers) die alleen toegang hebben tot map B dezelfde toegangsmachtigingen voor map C, maar niet voor map A. Adobe raadt aan inhoud te ordenen zodat de meest kwetsbare elementen in onderliggende mappen worden geplaatst, zodat de toegang kan worden beperkt van de onderliggende mappen tot de hoofdmap.
 
 ### Openbare map publiceren {#public-folder-publish}
 
-Tenzij de optie **[!UICONTROL Public Folder Publish]** is geselecteerd tijdens het configureren van Brand Portal-replicatie, hebben gebruikers die geen beheerder zijn (zoals Editors en Viewers) geen toegang tot middelen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd.
+Niet-beheergebruikers (zoals Editors en Viewers) hebben alleen toegang tot elementen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd als de optie **[!UICONTROL Public Folder Publish]** is geselecteerd tijdens de Brand Portal-replicatieconfiguratie.
 
 ![](assets/assetbpreplication.png)
 
-Als de optie **[!UICONTROL Public Folder Publish]** is uitgeschakeld, moeten beheerders deze elementen specifiek delen met gebruikers die geen beheerder zijn en gebruikmaken van de mogelijkheid om bestanden te delen.
+Als de optie **[!UICONTROL Public Folder Publish]** is uitgeschakeld, moeten beheerders deze elementen specifiek delen met gebruikers die geen beheerder zijn, met behulp van de deelfunctie.
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Als de optie **[!UICONTROL Public Folder Publish]** is uitgeschakeld, moeten beh
 
 ## Toegang tot gedeelde mappen {#access-to-shared-folders}
 
-In de volgende matrix worden de toegangsrechten en rechten voor het delen/ontdelen van elementen voor verschillende gebruikersrollen besproken:
+In de volgende matrix worden de toegangsrechten en rechten voor het delen of opheffen van elementen voor verschillende gebruikersrollen besproken:
 
-|               | Toegang tot alle mappen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd | Toegang tot gedeelde mappen | Maprechten delen/delen opheffen |
+|               | Toegang tot alle mappen die vanuit AEM Assets naar Brand Portal zijn gepubliceerd | Toegang tot gedeelde mappen | Maprechten delen of niet delen |
 |---------------|-----------|-----------|------------|
 | Beheerder | Ja | Ja | Ja |
 | Editor | Nee* | Ja, alleen indien gedeeld met hen of met de groep waartoe zij behoren | Ja, alleen voor de mappen die met hen worden gedeeld of met de groep waartoe zij behoren |
@@ -69,7 +65,7 @@ Gebruikers die geen beheerder zijn, hebben alleen toegang tot de mappen die met 
 
 **als de configuratie gehandicapt** is
 
-Niet-beheerders zien alle mappen die met hen worden gedeeld op de bestemmingspagina, bij het aanmelden bij de Brand Portal.
+Gebruikers die geen beheerder zijn, kunnen alle mappen zien die met hen worden gedeeld op de bestemmingspagina en zich aanmelden bij de Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,9 +73,9 @@ Niet-beheerders zien alle mappen die met hen worden gedeeld op de bestemmingspag
 
 Gebruikers die geen beheerder zijn, zien de mappenstructuur (te beginnen met de hoofdmap) en de gedeelde mappen die in hun respectieve bovenliggende mappen zijn gerangschikt bij het aanmelden bij de Brand Portal.
 
-Deze bovenliggende mappen zijn de virtuele mappen en er kunnen geen handelingen op worden uitgevoerd. U kunt deze virtuele mappen herkennen met een vergrendelingspictogram.
+Deze bovenliggende mappen zijn virtuele mappen en er kunnen geen handelingen op worden uitgevoerd. U kunt deze virtuele mappen herkennen met een vergrendelingspictogram.
 
-In tegenstelling tot de gedeelde mappen zijn er geen actietaken zichtbaar wanneer u deze in **[!UICONTROL Card View]** aanwijst of selecteert. **[!UICONTROL Overview]** wordt weergegeven bij het selecteren van een virtuele map in **[!UICONTROL Column View]** en **[!UICONTROL List View]** .
+In tegenstelling tot de gedeelde mappen zijn er geen actietaken zichtbaar wanneer u deze in **[!UICONTROL Card View]** aanwijst of selecteert. De knop **[!UICONTROL Overview]** wordt weergegeven bij het selecteren van een virtuele map in **[!UICONTROL Column View]** en **[!UICONTROL List View]** .
 
 >[!NOTE]
 >
@@ -95,7 +91,7 @@ Ga als volgt te werk als u een map wilt delen met gebruikers op Brand Portal:
 
    ![](assets/selectorrail.png)
 
-1. Selecteer **[!UICONTROL Files]** in het zijpaneel links.
+1. Selecteer **[!UICONTROL Files]** in de zijbalk aan de linkerkant.
 
    ![](assets/access_files.png)
 

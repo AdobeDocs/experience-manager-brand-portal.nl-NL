@@ -7,9 +7,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ De veelgestelde vragen over Brand Portal zijn toegespitst op de vragen en proble
 
 **Vraag: Het bestaande eindpunt OAuth van de erfenis (`https://legacy-oauth.cloud.adobe.io/login`) werkt niet. Wat zou de mogelijke reden kunnen zijn?**
 
-**Antwoord:** De oudere configuratie OAuth is verouderd. Voer een upgrade uit van Experience Manager Assets-auteur naar het nieuwste servicepakket en configureer dit via Adobe Developer Console. Zie [ Experience Manager Assets met Brand Portal ](configure-aem-assets-with-brand-portal.md) voor details vormen. Voor oudere OAuth-configuratie werkt u echter totdat u een upgrade uitvoert, het verouderde OAuth-eindpunt wordt bijgewerkt naar `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` .
+**Antwoord:** De oudere configuratie OAuth is verouderd. Voer een upgrade uit van de Experience Manager Assets-auteur naar het nieuwste servicepakket en configureer dit via Adobe Developer Console. Zie [ Experience Manager Assets met Brand Portal ](configure-aem-assets-with-brand-portal.md) voor details vormen. Voor oudere OAuth-configuratie werkt u echter totdat u een upgrade uitvoert, het verouderde OAuth-eindpunt wordt bijgewerkt naar `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` .
 
 **Vraag: Ik kan niet de activa van de bijdrageomslag van Brand Portal aan Experience Manager Assets publiceren na bevordering aan Adobe Developer Console. Mijn auteur-exemplaar staat op Experience Manager Assets 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
 
-**Antwoord:** ja, is er een bekende kwestie terwijl het publiceren van de activa van de bijdrageomslag aan Experience Manager Assets 6.5.4 via Adobe Developer Console.
+**Antwoord:** ja, is er een bekende kwestie terwijl het publiceren van de activa van de bijdrageomslag aan Experience Manager Assets 6.5.4 door middel van Adobe Developer Console.
 
 Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
 

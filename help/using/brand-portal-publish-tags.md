@@ -5,9 +5,9 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ JCR-pad van de tag.
 
 ## Zoeken bevorderen {#search-promote}
 
-Met AEM Assets Brand Portal kunt u specifieke elementen gebruiken als de beste resultaten voor zoekopdrachten op basis van een trefwoordtag.
+Met AEM Assets Brand Portal kunt u specifieke elementen als de beste resultaten laten zien voor zoekopdrachten op basis van een trefwoordtag.
 
 Voer de volgende stappen uit om elementen voor een zoektrefwoord te verhogen:
 

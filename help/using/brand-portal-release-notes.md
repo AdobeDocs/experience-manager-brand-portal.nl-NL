@@ -1,18 +1,14 @@
 ---
 title: Release-opmerkingen
-seo-title: Release Notes
 description: Lees meer over de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2024.02.0-release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
@@ -30,7 +26,7 @@ Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelos
 
 ## Overzicht {#overview}
 
-Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers bestanden in door het bedrijf goedgekeurde indelingen doorbladeren, zoeken, voorvertonen, downloaden en exporteren, altijd en overal.
+Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers op elk gewenst moment in door het bedrijf goedgekeurde indelingen door elementen bladeren, zoeken, voorvertonen, downloaden en exporteren.
 
 ## Nieuwe functies in 2024.02.0 {#whats-new-in-2024.02.0}
 
@@ -40,10 +36,10 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 
 Deze release bevat de volgende opgeloste problemen:
 
-* Kan geen digitale middelen downloaden die met DRM zijn beveiligd in de Turkse landinstelling.
+* Kan door DRM beveiligde digitale middelen niet downloaden naar de Turkse landinstelling.
 * Kan de bestaande rapporten met elementen met een titel van meerdere regels niet openen en downloaden.
 * Wanneer u elementen downloadt met de knop [!UICONTROL Download] op de actiebalk, worden maximaal 1000 elementen gedownload.
-* Onjuiste naam van elementen van het type PSD bij weergave in de inhoudsstructuur.
+* Onjuiste naam van PSD-type-elementen, wanneer u deze weergeeft in de inhoudsstructuur.
 * [!UICONTROL Delete Rendition] op de pagina met elementdetails werkt niet.
 * Verkeerd uitgelijnde titel en grootte van elementen in het pop-upvenster Downloaden.
 * Tijdens het maken van een rapport worden labels niet gelokaliseerd.
@@ -66,7 +62,7 @@ Deze release bevat de volgende opgeloste problemen:
 
 * De [!UICONTROL Date and Time] -indeling is inconsistent wanneer u werkt in een andere landinstelling dan Engels.
 
-* Tijdens het zoeken naar elementen ontbreekt de knop [!UICONTROL Delete] .
+* Bij het uitvoeren van een zoekopdracht naar elementen ontbreekt de knop [!UICONTROL Delete] .
 
 * Als het veld [!UICONTROL Title] multibyte-symbolen bevat in [!UICONTROL Link Share] , kan het rapport niet worden gedownload.
 
@@ -142,7 +138,8 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 >[!IMPORTANT]
 >
->De pulsmeldingen in AEM Assets Brand Portal zullen vanaf 1 december 2022 worden stopgezet. In plaats van Pulse-meldingen, zult u e-mailmeldingen blijven ontvangen voor de volgende gebeurtenissen:
+>De pulsmeldingen in de AEM Assets Brand Portal zullen vanaf 1 december 2022 worden stopgezet. In plaats van Pulse-berichten ontvangt u nog steeds e-mailmeldingen voor de volgende gebeurtenissen:
+>
 >* Elementen delen via koppeling
 >* Toegang aanvragen
 >* Mappen met bijdragen delen
@@ -158,8 +155,8 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 * Als NUI een element niet verwerkt in Experience Manager, geeft Brand Portal een onjuiste status voor het importeren van elementen weer.
 * Wanneer de voorvertoningsactie mislukt, is er geen melding om de fout te melden.
-* Onnauwkeurige waarde voor de eigenschap totalUploadedSize voor elk element is vast.
-* Wanneer u **klikt Download alle punten** en er groot aantal vertoningen beschikbaar voor activa zijn, downloadt Brand Portal een ongeldig .ZIP dossier.
+* De onjuiste waarde voor de eigenschap `totalUploadedSize` voor elk element is vast.
+* Wanneer u **klikt Download alle punten** en er een groot aantal vertoningen beschikbaar voor activa zijn, downloadt Brand Portal een ongeldig .ZIP dossier.
 * De vertaling van sommige tekenreeksen wordt afgebroken in de Brand Portal-gebruikersinterface.
 
 ### Release mei 2022 {#may-2022}
@@ -174,7 +171,7 @@ Deze release bevat oplossingen voor de volgende kritieke problemen:
 
 * Wanneer u een map of een verzameling downloadt die elementen met kleurtags bevat, wordt ook een XML-bestand gedownload.
 * Wanneer u een video downloadt die uitvoeringen bevat, maakt Brand Portal een ongeldig ZIP-bestand.
-* Wanneer u voorinstellingen en elementen maakt op AEM auteur en deze publiceert naar Brand Portal en vervolgens dynamische vertoningen selecteert tijdens het downloaden van de elementen, kunt u het gedownloade ZIP-bestand niet uitpakken.
+* Wanneer u voorinstellingen en elementen maakt op AEM auteur en deze vervolgens publiceert naar Brand Portal, kunt u dynamische uitvoeringen selecteren tijdens het downloaden van de elementen. U kunt het gedownloade .ZIP-bestand echter niet extraheren. Dit probleem voorkomt toegang tot de gedownloade inhoud.
 * Problemen tijdens het downloaden van video-elementen uit bepaalde mappen op Brand Portal.
 * Wanneer u de URL van de map Contribution deelt via een e-mail, kunnen de rollen Viewer en Editor problemen ondervinden bij het openen van de bovenliggende map via de breadcrumb.
 * Het bron gepubliceerde rapport toont een onjuiste tijd van het baanbegin.
@@ -374,12 +371,12 @@ De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 
 ## Gecertificeerde platforms {#certified-platforms}
 
-Om na te gaan welke platforms om met deze versie van Brand Portal worden verklaard in werking te stellen, verwijs naar de **Steun voor aanraking-geoptimaliseerde UI** kolom in de lijst in **Ondersteunde Browsers voor de sectie van het Gebruikersinterface van de Authoring** van [ Technische Vereisten ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Om te zien welke platforms voor deze versie van Brand Portal worden verklaard, controleer de **Steun voor aanraking-geoptimaliseerde UI** kolom in **Ondersteunde Browsers voor Authoring sectie van het Gebruikersinterface** van [ Technische Vereisten ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Koppelingen {#links}
 
 * [ de Pagina van het Product van Adobe Experience Manager op adobe.com ](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [ Documentatie van Assets Brand Portal ](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [ Documentatie van Assets Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 

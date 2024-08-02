@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ De Experience Manager Assets-beheerders kunnen voorinstellingen voor afbeeldinge
 >
 >Als de instantie van de Auteur van Experience Manager Assets op **Hybride wijze van Dynamic Media** loopt, dan worden de vertoningen van de TIFF van de Piramide van beeldactiva gecreeerd en in de bewaarplaats van Experience Manager Assets bewaard.
 >
->Terwijl als de auteursinstantie van Experience Manager Assets op **Scene7 wijze** loopt, dan bestaan de TIFF van de Piramide vertoningen van beeldactiva op de server van Scene7.
+>Nochtans, als een de auteursinstantie van Experience Manager Assets op **wijze van Dynamic Media Scene7** loopt, dan bestaan de TIFF van de Piramide vertoningen van beeldactiva op de server van Scene7.
 >
 >Wanneer dergelijke elementen naar Brand Portal worden gepubliceerd, worden voorinstellingen voor afbeeldingen toegepast en worden dynamische uitvoeringen weergegeven.
 

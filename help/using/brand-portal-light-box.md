@@ -1,18 +1,14 @@
 ---
 title: De lichtbakverzameling beheren
-seo-title: Manage the lightbox collection
 description: Lichtbak is een speciaal type verzameling dat eenvoudig toegang biedt tot elementen. Elke gebruiker heeft een exclusieve lichtbak die automatisch wordt gecreeerd wanneer zij login aan Brand Portal voor het eerst. De lichtbakverzameling kan niet worden verwijderd.
-seo-description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
-uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
-discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -29,7 +25,7 @@ Ga als volgt te werk om elementen toe te voegen aan **[!UICONTROL Lightbox]** :
 
    ![](assets/link_sharing_assetselection.png)
 
-1. Klik op de werkbalk boven in het scherm op het pictogram Toevoegen aan verzameling.
+1. Van de toolbar bij de bovenkant, klik **toevoegen aan het pictogram van de Inzameling**.
 
    ![](assets/add_to_collection.png)
 

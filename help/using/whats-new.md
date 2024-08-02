@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '6462'
+source-wordcount: '6466'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Gebaseerd op de configuratie, blijft het downloadwerkschema constant voor stand-
 
 ## Wat veranderde in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets as a Cloud Service, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hoger werd Brand Portal eerder geconfigureerd in de klassieke gebruikersinterface via Legacy OAuth Gateway, die de JWT-tokenuitwisseling gebruikt om een IMS Access-token voor verificatie te verkrijgen. AEM Assets is nu geconfigureerd met Brand Portal via Adobe Developer Console, dat een IMS-token aanschaft voor toestemming van uw Brand Portal-huurder.
+In Brand Portal 6.4.6 wordt het machtigingskanaal tussen AEM Assets en Brand Portal gewijzigd. Brand Portal wordt nu ondersteund op AEM Assets as a Cloud Service, AEM Assets 6.3 en hoger. In AEM Assets 6.3 en hoger werd Brand Portal aanvankelijk geconfigureerd in de klassieke gebruikersinterface met behulp van de Legacy OAuth Gateway. Deze gateway gebruikt de het symbolenuitwisseling JWT om een token van de Toegang IMS voor vergunning te verkrijgen. AEM Assets is nu geconfigureerd met Brand Portal via Adobe Developer Console, dat een IMS-token aanschaft voor toestemming van uw Brand Portal-huurder.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -593,7 +593,7 @@ De release biedt een vereenvoudigde downloadervaring met een beperkt aantal klik
 
 ## Wat veranderde in 6.4.2 {#what-changed-in-1}
 
-Brand Portal 6.4.2 introduceert functies die voldoen aan de behoeften van organisaties op het gebied van middelendistributie, waardoor wereldwijd bereik mogelijk is via toegang voor gasten en snellere downloads. Het biedt ook verbeterde controle met nieuwe adminconfiguraties, een toegevoegd rapport, en richt klantenverzoeken aan.
+Brand Portal 6.4.2 introduceert functies die voldoen aan de behoeften van organisaties op het gebied van de distributie van bedrijfsmiddelen, waardoor gasttoegang en snellere downloads wereldwijd bereik mogelijk maken. Het biedt ook verbeterde controle met nieuwe adminconfiguraties, een toegevoegd rapport, en richt klantenverzoeken aan.
 
 ### Toegang voor gasten
 

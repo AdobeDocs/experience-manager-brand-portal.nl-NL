@@ -1,25 +1,21 @@
 ---
 title: Elementen uploaden en de map Contribution van Brand Portal naar Experience Manager Assets publiceren
-seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
 description: Bekijk meer inzicht in het uploaden van nieuwe middelen en het publiceren van de map met bijdragen van Brand Portal naar Experience Manager Assets.
-seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
 
 # Publish Contributiemap naar Experience Manager Assets {#using-asset-souring-in-bp}
 
-Brand Portal-gebruikers met de juiste machtigingen kunnen meerdere elementen of mappen met meerdere elementen uploaden naar de map met bijdragen. Nochtans, kunnen de gebruikers van Brand Portal slechts activa aan de **NIEUWE** omslag uploaden. De **GEDEELDE** omslag wordt bedoeld voor de distributie van basislijnactiva (verwijzingsinhoud) die door de gebruikers van Brand Portal kan worden gebruikt terwijl het creëren van nieuwe activa voor bijdrage.
+Brand Portal-gebruikers met de juiste machtigingen kunnen meerdere elementen of mappen met meerdere elementen uploaden naar de map met bijdragen. Nochtans, kunnen de gebruikers van Brand Portal slechts activa aan de **NIEUWE** omslag uploaden. De **GEDEELDE** omslag wordt bedoeld voor de distributie van basislijnactiva (verwijzingsinhoud) die door de gebruikers van Brand Portal terwijl het creëren van nieuwe activa voor bijdrage worden gebruikt.
 
 Brand Portal-gebruikers die toegang hebben tot de map Contribution, kunnen de volgende activiteiten uitvoeren:
 
@@ -29,19 +25,19 @@ Brand Portal-gebruikers die toegang hebben tot de map Contribution, kunnen de vo
 
 ## Elementvereisten downloaden {#download-asset-requirements}
 
-De gebruikers van Brand Portal ontvangen automatisch e-mail/impulsberichten wanneer een bijdrageomslag door de gebruiker van Experience Manager Assets wordt gedeeld, die hen toestaat om het korte (activa vereiste) document te downloaden, evenals de basislijnactiva (verwijzingsinhoud), van de **GEDEELDE** omslag te downloaden om hen te verzekeren zij de activavereisten begrijpen.
+Brand Portal-gebruikers ontvangen automatisch e-mail- en pulsmeldingen wanneer een Experience Manager Assets-gebruiker een bijdragemap deelt. Dit werkschema laat hen het korte (activavereiste) document en basislijnactiva (verwijzingsinhoud) van de **GEDEELDE** omslag downloaden om de activavereisten te begrijpen.
 
 Brand Portal-gebruikers voeren de volgende activiteiten uit om de vereisten voor middelen te downloaden:
 
-* **Download samenvatting**: Download het korte (activa vereiste document) verbonden aan de bijdrageomslag die activa verwante informatie zoals type van activa, doel, gesteunde formaten, maximumactivagrootte, enz. bevat.
-* **de basislijnactiva van de Download**: Download de basislijnactiva die kunnen worden gebruikt om de vereiste types van activa te begrijpen. Brand Portal-gebruikers kunnen deze middelen gebruiken als referentie om nieuwe middelen te maken voor hun bijdrage.
+* **Download samenvatting** - Download het korte (document van de activavereiste) verbonden aan de bijdrageomslag. Het bevat informatie over elementen, zoals het type elementen, het doel, ondersteunde indelingen, de maximale grootte van de elementen en meer.
+* **de basislijnactiva van de Download** - Download de basislijnactiva, die kunnen worden gebruikt om de vereiste types van activa te begrijpen. Brand Portal-gebruikers kunnen deze middelen gebruiken als referentie om nieuwe middelen te maken voor hun bijdrage.
 
-Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand Portal-gebruiker zijn toegestaan, samen met de nieuw gedeelde bijdragemap. In dit voorbeeld heeft de Brand Portal-gebruiker alleen toegang tot de zojuist gemaakte map met bijdragen. Er wordt geen andere bestaande map gedeeld met de gebruiker.
+Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand Portal-gebruiker zijn toegestaan, samen met de nieuw gedeelde bijdragemap. In dit voorbeeld heeft de Brand Portal-gebruiker alleen toegang tot de zojuist gemaakte map met bijdragen. Er wordt geen andere bestaande map met de gebruiker gedeeld.
 
 **om activavereisten te downloaden:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
-1. Selecteer de map met bijdragen in het Brand Portal-dashboard.
+1. Selecteer een bijdragemap op het Brand Portal-dashboard.
 1. Klik op **[!UICONTROL Properties]**. Het venster van het Bezit dat de details van de bijdrageomslag bevat opent.
 
    ![](assets/properties.png)
@@ -53,7 +49,7 @@ Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand P
    ![](assets/download.png)
 
 1. Ga terug naar het Brand Portal-dashboard.
-1. Klik om de map met bijdragen te openen. U ziet twee submappen - **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met bijdragen. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
+1. Klik op de map met bijdragen om deze te openen. U ziet twee submappen: **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met bijdragen. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
 1. U kunt de map **[!UICONTROL SHARED]** met alle basislijnelementen downloaden op uw lokale computer.
 Of, kunt u de **[!UICONTROL SHARED]** omslag openen en het **2} pictogram van de Download {klikken om individuele dossiers/omslagen te downloaden.**
 
@@ -63,22 +59,21 @@ Of, kunt u de **[!UICONTROL SHARED]** omslag openen en het **2} pictogram van de
 
 Doorloop het korte document (document met vereisten voor elementen) en verwijs naar de basiselementen om inzicht te krijgen in de vereisten voor elementen. Nu kunt u nieuwe middelen maken voor de bijdrage en deze uploaden naar de map met bijdragen.
 
-
 ## Elementen uploaden naar de bijdragemap {#upload-new-assets-to-contribution-folder}
 
 Nadat de gebruikers van Brand Portal de elementvereisten hebben doorlopen, kunnen ze nieuwe middelen maken voor hun bijdrage en deze uploaden naar de map NEW in de bijdragemap. Een gebruiker kan meerdere elementen uploaden naar een map voor middelenbijdragen. Er kan echter maar één map tegelijk worden gemaakt.
 
 >[!NOTE]
 >
->De gebruikers van Brand Portal kunnen activa (maximum van **2** GB per dossiergrootte) aan de NIEUWE omslag uploaden.
+>De Brand Portal-gebruikers kunnen elementen (maximaal twee gigabyte per bestandsgrootte) uploaden naar de map NEW.
 >
->De maximum uploadlimiet voor om het even welke huurder van Brand Portal is **10** GB die cumulatief op alle bijdrageomslagen wordt toegepast.
+>De maximale uploadlimiet voor elke Brand Portal-huurder is tien gigabyte, die cumulatief wordt toegepast op alle mappen voor de bijdrage.
 >
 >De naar Brand Portal geüploade elementen worden niet verwerkt voor uitvoeringen en bevatten geen voorvertoningen.
 
 >[!NOTE]
 >
->U wordt aangeraden de uploadruimte vrij te geven nadat u de map met bijdragen naar Experience Manager Assets hebt gepubliceerd, zodat deze beschikbaar is voor de andere Brand Portal-gebruikers voor een bijdrage.
+>Adobe raadt u aan de uploadruimte vrij te geven nadat u de map met bijdragen naar Experience Manager Assets hebt gepubliceerd, zodat deze beschikbaar is voor de andere Brand Portal-gebruikers voor een bijdrage.
 >
 >Als er een behoefte is om de uploadlimiet van uw Brand Portal huurder voorbij **10** GB uit te breiden, contacteer de Steun van de Klant die het vereiste specificeert.
 
@@ -109,13 +104,13 @@ Nadat u alle elementen of mappen naar de map NEW hebt geüpload, publiceert u de
 
 Brand Portal-gebruikers kunnen de map met bijdragen publiceren naar Experience Manager Assets zonder dat ze toegang hoeven te hebben tot het exemplaar van de auteur van de Experience Manager.
 
-Zorg ervoor dat u door de activavereisten bent gegaan en de onlangs gecreeerde activa in **NIEUWE** omslag binnen de bijdrageomslag uploadt.
+Zorg ervoor dat u door de activavereisten bent gegaan en de onlangs gecreeerde activa in de **NIEUWE** omslag binnen de bijdrageomslag uploadt.
 
-**om bijdrageomslag te publiceren:**
+**om een bijdrageomslag te publiceren:**
 
 1. Meld u aan bij uw Brand Portal-exemplaar.
 
-1. Selecteer de map met bijdragen in het Brand Portal-dashboard.
+1. Selecteer een bijdragemap op het Brand Portal-dashboard.
 1. Klik op **[!UICONTROL Publish to AEM]**.
 
    ![](assets/export.png)
@@ -134,7 +129,7 @@ Zodra het doel van het creëren van de bijdrageomslag wordt bereikt, kan de behe
 
 ## Status van taak publiceren {#publishing-job-status}
 
-Er zijn twee rapporten die de beheerders kunnen gebruiken om de status van de omslagen van de activabijdrage te bekijken die van Brand Portal aan Experience Manager Assets worden gepubliceerd.
+Beheerders kunnen twee rapporten gebruiken om de status te bekijken van mappen voor middelenbijdragen die van Brand Portal naar Experience Manager Assets zijn gepubliceerd.
 
 * Navigeer in Brand Portal naar **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** . Dit rapport geeft de status van alle publicatietaken in verschillende stadia van de publicatieworkflow weer.
 
