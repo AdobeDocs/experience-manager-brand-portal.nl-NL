@@ -6,9 +6,9 @@ contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
+source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgeke
 Deze release bevat de volgende opgeloste problemen:
 
 * De e-mailmeldingen voor het aanschaffen van importgebeurtenissen worden niet verzonden.
-* Tijdens het gebruik van het zoekfilter geeft Brand Portal dubbele mappen weer in het venster met zoekfilters.
+* Wanneer u het zoekfilter gebruikt, worden in [!DNL Brand Portal] dubbele mappen weergegeven in het venster Filter.
 * Het downloaden van verzamelingen met elementen zonder licentie met speciale tekens in de naam werkt niet.
 * Wanneer u naar [!UICONTROL Search Form Editor] navigeert, worden labels niet gelokaliseerd.
 * Labels worden niet gelokaliseerd in het venster voor het delen van koppelingen.
