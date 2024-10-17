@@ -1,14 +1,14 @@
 ---
 title: Nieuwe functies in Experience Manager Assets Brand Portal
-description: Meer informatie over de nieuwe functies en verbeteringen in Experience Manager Assets Brand Portal versie 2024.02.0.
+description: Meer informatie over de nieuwe functies en verbeteringen in Experience Manager Assets Brand Portal versie 2024.10.0.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 436ade72b12e66f2b2015874c0115ee3cfd709e6
+source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
 workflow-type: tm+mt
-source-wordcount: '6467'
+source-wordcount: '6494'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Nieuwe functies in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Met Adobe Experience Manager Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktintroductie van activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Adobe werkt aan een verbetering van de algemene Brand Portal-ervaring. Hier is een blik in de nieuwe eigenschappen en verhogingen.
+
+## Wat veranderde in 2024.10.0 {#what-changed-in-October-2024}
+
+Brand Portal 2024.10.0 is een interne release die oplossingen voor de kritieke problemen bevat. Zie de recentste [ Nota&#39;s van de Versie van Brand Portal ](brand-portal-release-notes.md).
 
 ## Wat veranderde in 2024.02.0 {#what-changed-in-February-2024}
 

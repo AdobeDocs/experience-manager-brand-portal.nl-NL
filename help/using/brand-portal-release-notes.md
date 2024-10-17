@@ -1,38 +1,55 @@
 ---
 title: Release-opmerkingen
-description: Lees meer over de functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2024.02.0-release.
+description: Lees meer over de functies, verbeteringen, kritieke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2024.10.0-release.
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 
 ---
 
 # Release-opmerkingen {#release-notes}
 
-Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2024.02.0-release.
+Bekijk de nieuwe functies, verbeteringen, belangrijke problemen die zijn opgelost en bekende problemen in de Adobe Experience Manager Assets Brand Portal 2024.10.0-release.
 
 ## Gegevens vrijgeven {#release-information}
 
 | Product | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versie | 2024,02,0 |
-| Datum | februari 2024 |
+| Versie | 2024 10,0 |
+| Datum | Oktober 2024 |
 
 ## Overzicht {#overview}
 
 Met Adobe Experience Manager (AEM) Assets Brand Portal kunt u eenvoudig goedgekeurde creatieve middelen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Het draagt bij tot een efficiëntere verdeling van activa, versnelt de marktperiode voor activa en vermindert het risico van niet-naleving en ongeoorloofde toegang. Met Brand Portal kunnen gebruikers op elk gewenst moment in door het bedrijf goedgekeurde indelingen door elementen bladeren, zoeken, voorvertonen, downloaden en exporteren.
 
-## Nieuwe functies in 2024.02.0 {#whats-new-in-2024.02.0}
+## Nieuwe functies in 2024.10.0 {#whats-new-in-2024.10.0}
 
 ### Kritieke problemen opgelost {#critical-issues-fixed}
 
 #### Bugfixes {#bug-fixes}
+
+Deze release bevat de volgende opgeloste problemen:
+
+* De e-mailmeldingen voor het aanschaffen van importgebeurtenissen worden niet verzonden.
+* Tijdens het gebruik van het zoekfilter geeft Brand Portal dubbele mappen weer in het venster met zoekfilters.
+* Het downloaden van verzamelingen met elementen zonder licentie met speciale tekens in de naam werkt niet.
+* Wanneer u naar [!UICONTROL Search Form Editor] navigeert, worden labels niet gelokaliseerd.
+* Labels worden niet gelokaliseerd in het venster voor het delen van koppelingen.
+* Kan video met speciale tekens in de naam niet downloaden.
+* Het publiceren en verwijderen van de publicatie van de elementen van [!DNL Adobe Experience Manager Assets] naar Brand Portal werkt niet correct.
+* Kan geen video&#39;s afspelen die zijn gedownload van de Brand Portal.
+
+## Eerdere versies
+
+### Release van februari 2024 {#feb-2024}
+
+**fixes en verhogingen van de insect**
 
 Deze release bevat de volgende opgeloste problemen:
 
@@ -44,8 +61,6 @@ Deze release bevat de volgende opgeloste problemen:
 * Verkeerd uitgelijnde titel en grootte van elementen in het pop-upvenster Downloaden.
 * Tijdens het maken van een rapport worden labels niet gelokaliseerd.
 * Ondersteuningsbeheerders worden in Brand Portal aangeduid als beheerders.
-
-## Eerdere versies
 
 ### Release oktober 2023 {#oct-2023}
 
