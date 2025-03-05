@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De pagina **[!UICONTROL Properties]** voor elk element bevat standaardeigenschap
 
 Ga als volgt te werk om een nieuw schema voor metagegevens te maken:
 
-1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
+1. Klik op de werkbalk boven in het scherm op het Experience Manager-logo voor toegang tot beheergereedschappen.
 
    ![](assets/aemlogo.png)
 
@@ -47,7 +47,7 @@ U kunt nieuwe tabbladen of formulieritems toevoegen aan het metagegevensschema. 
 
 Ga als volgt te werk om een metagegevensschemaformulier te bewerken:
 
-1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
+1. Klik op de werkbalk boven in het scherm op het Experience Manager-logo voor toegang tot beheergereedschappen.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Ga als volgt te werk om een metagegevensschemaformulier te bewerken:
 Het tabblad **[!UICONTROL Build Form]** bevat items die u in het schema kunt gebruiken. Het tabblad **[!UICONTROL Settings]** bevat de kenmerken van elk item dat u selecteert op het tabblad **[!UICONTROL Build Form]** . De volgende tabel bevat een lijst met formulieritems die beschikbaar zijn op het tabblad **[!UICONTROL Build Form]** :
 
 | Componentnaam | Beschrijving |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL Section Header]** | Voeg een sectiekopje toe voor een lijst met gangbare componenten. |
 | **[!UICONTROL Single Line Text]** | Voeg een eigenschap voor één regel tekst toe. De eigenschap wordt opgeslagen als een tekenreeks. |
 | **[!UICONTROL Multi ValueText]** | Voeg een teksteigenschap met meerdere waarden toe. Deze wordt opgeslagen als een tekenreeks-array. |
@@ -87,8 +87,9 @@ Het tabblad **[!UICONTROL Build Form]** bevat items die u in het schema kunt geb
 | **[!UICONTROL Hidden Field]** | Voeg een verborgen veld toe. Deze wordt als een POST-parameter verzonden wanneer het element wordt opgeslagen. |
 | **[!UICONTROL Asset Referenced By]** | Voeg deze component toe om een lijst weer te geven met elementen waarnaar door het element wordt verwezen. |
 | **[!UICONTROL Asset Referencing]** | Toevoegen om een lijst weer te geven met elementen die naar het element verwijzen. |
-| **[!UICONTROL Asset Rating]** | Gemiddelde rating van een actief dat door Experience Manager Assets is toegevoegd voordat het aan Brand Portal wordt bekendgemaakt. |
 | **[!UICONTROL Contextual Metadata]** | Toevoegen om de weergave van andere tabbladen met metagegevens op de pagina Eigenschappen van elementen te bepalen. |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -106,7 +107,7 @@ Hier volgen de geldige waarden voor deze eigenschap:
 
 — `./jcr:content/metadata/dc:title`: slaat de waarde op in het metagegevensknooppunt van het element als de eigenschap `dc:title` .
 
-— `./jcr:created`: geeft de jcr-eigenschap weer op het knooppunt van het element. Als u deze eigenschappen hebt geconfigureerd voor weergave-eigenschappen, raadt Adobe u aan ze te markeren als Bewerken uitschakelen, omdat ze zijn beveiligd. Anders treedt de fout &quot;Assets kan niet worden gewijzigd&quot; op wanneer u de eigenschappen van het element opslaat.
+— `./jcr:created`: geeft de jcr-eigenschap weer op het knooppunt van het element. Als u deze eigenschappen hebt geconfigureerd voor weergave-eigenschappen, raadt Adobe u aan deze te markeren als Bewerken uitschakelen, omdat ze zijn beveiligd. Anders treedt de fout &quot;Assets kan niet worden gewijzigd&quot; op wanneer u de eigenschappen van het element opslaat.
 
 * **[!UICONTROL Placeholder]**: Gebruik deze eigenschap om de gebruiker relevante informatie te geven over de eigenschap metadata.
 * **[!UICONTROL Required]**: Gebruik deze eigenschap om een eigenschap metadata te markeren als verplicht op de pagina Eigenschappen.
@@ -115,7 +116,7 @@ Hier volgen de geldige waarden voor deze eigenschap:
 * **[!UICONTROL Description]**: Gebruik deze eigenschap om een korte beschrijving toe te voegen voor de metagegevenscomponent.
 * **[!UICONTROL Delete icon]**: Klik op dit pictogram om een component uit het schema te verwijderen.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,7 +130,7 @@ Het standaardschema bevat de tabbladen **[!UICONTROL Basic]** en **[!UICONTROL A
 
 * Klik op **[!UICONTROL +]** om een nieuw tabblad toe te voegen aan een schemaformulier. Standaard heeft het nieuwe tabblad de naam &quot;Naamloos-1&quot;. U kunt de naam wijzigen via het tabblad **[!UICONTROL Settings]** .
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
 * Als u een tabblad wilt verwijderen, klikt u op **[!UICONTROL x]** . Klik op **[!UICONTROL Save]** om de wijzigingen op te slaan.
 
@@ -139,7 +140,7 @@ Met Brand Portal kunt u het metagegevensschema aanpassen en beheren, zodat op de
 
 Ga als volgt te werk om een metagegevensschema-formulier toe te passen op een map:
 
-1. Klik in de werkbalk boven in het scherm op het logo van de Experience Manager voor toegang tot de beheergereedschappen.
+1. Klik op de werkbalk boven in het scherm op het Experience Manager-logo voor toegang tot beheergereedschappen.
 
    ![](assets/aemlogo.png)
 
