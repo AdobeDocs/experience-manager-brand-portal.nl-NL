@@ -13,7 +13,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
+source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -122,7 +122,6 @@ Blader van uw lokale machine en upload het dossier van de a **configuratie (.csv
 1. Klik op **[!UICONTROL Save]**.
 
    ![](assets/upload-user-list2.png)
-
 
 Beheerders kunnen toegang tot specifieke gebruikers bieden vanuit deze gebruikerslijst terwijl ze een bijdragemap configureren. Alleen de gebruikers die zijn toegewezen aan een map met bijdragen hebben toegang tot de map met bijdragen en publiceren elementen van Brand Portal naar Experience Manager Assets.
 
