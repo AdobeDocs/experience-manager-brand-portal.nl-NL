@@ -5,7 +5,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Als markator, moet u soms met kanaalpartners en interne bedrijfsgebruikers samen
 
 Maar het ontwikkelen van oplossingen die efficiënte en veilige delen van zaken zoals goedgekeurde merklogo&#39;s, campagneactiva, of productschoten met teams, partners, en resellers steunen is een uitdaging. Het waarborgen van zowel efficiëntie als veiligheid in dit proces vereist zorgvuldige planning en uitvoering.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** concentreert zich op de behoefte van de prijsmeter om effectief met de globaal verdeelde gebruikers van Brand Portal samen te werken door activadistributie en activa bijdragemogelijkheden te verstrekken.
+**Adobe Experience Manager (AEM) Assets Brand Portal** concentreert zich op de behoefte van de marktleider om effectief met de globaal verdeelde gebruikers van Brand Portal samen te werken door activadistributie en activa bijdragemogelijkheden te verstrekken.
 
 Met Asset Distribution kunt u goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Dankzij de bijdrage aan bedrijfsmiddelen kunnen Brand Portal-gebruikers echter elementen uploaden naar Brand Portal en publiceren naar Experience Manager Assets, zonder dat ze toegang hoeven te hebben tot de auteursomgeving. De bijdrageeigenschap wordt geroepen als **Middelen van Assets in Brand Portal**. En samen verbetert het de algemene ervaring van Brand Portal op het gebied van de distributie van activa en de bijdrage van de Brand Portal-gebruikers (externe agentschappen/teams), versnelt het de tijd-aan-markt voor activa, en vermindert het risico van niet-naleving en onbevoegde toegang.
 Zie, [ Middelen van Activa in Brand Portal ](brand-portal-asset-sourcing.md).
@@ -33,9 +33,9 @@ Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u func
 >
 >Het configureren van Experience Manager Assets met Brand Portal wordt ondersteund op Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 en hoger.
 
-Experience Manager Assets as a Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal vanuit de Cloud Manager te activeren. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de Experience Manager Assets as a Cloud Service instantie.
+Experience Manager Assets as a Cloud Service wordt automatisch geconfigureerd met Brand Portal door Brand Portal vanuit de Cloud Manager te activeren. De activeringsworkflow maakt de vereiste configuraties op de achtergrond en activeert Brand Portal op dezelfde IMS org als de Experience Manager Assets as a Cloud Service-instantie.
 
-Nochtans, wordt Experience Manager Assets (op gebouw en beheerde dienst) manueel gevormd met Brand Portal gebruikend Adobe Developer Console, die een teken van Identity Management van de Adobe van de Diensten (IMS) voor vergunning van de huurder van Brand Portal aanschaft.
+Nochtans, wordt Experience Manager Assets (op gebouw en beheerde dienst) manueel gevormd met Brand Portal gebruikend Adobe Developer Console, die een teken van de Diensten van Adobe Identity Management (IMS) voor vergunning van de huurder van Brand Portal aanschaft.
 
 Voor meer informatie, zie [ het vormen Experience Manager Assets met Brand Portal ](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -97,7 +97,7 @@ Brand Portal-gebruiker gedefinieerd in [!DNL Admin Console] die toegang heeft to
 
 ### Editor {#editor}
 
-Een gebruiker met de rol van Editor kan alle taken uitvoeren die een Viewer kan uitvoeren. Bovendien kunnen de Editor en de Editor de bestanden en mappen weergeven die een beheerder deelt. De gebruiker met de rol van een Editor kan ook inhoud (bestanden, mappen, verzamelingen) met anderen delen.
+Een gebruiker met de rol van Editor kan alle taken uitvoeren die een Viewer kan uitvoeren. Bovendien kan een Editor de bestanden en mappen weergeven die een beheerder deelt. De gebruiker met de rol van een Editor kan ook inhoud (bestanden, mappen, verzamelingen) met anderen delen.
 
 Naast de taken die een Viewer kan uitvoeren, kan een Editor de volgende extra taken uitvoeren:
 
@@ -136,7 +136,7 @@ Vanaf Brand Portal 6.4.3 kunnen organisaties één alternatieve (alias) URL hebb
 Als de huurdersnaam meer dan 32 karakters is, dan moet een huurdersalias worden gecreeerd.
 Merk op dat alleen het voorvoegsel van de Brand Portal URL kan worden aangepast en niet de volledige URL. Zo kan een organisatie met een bestaand domein `geomettrix.brand-portal.adobe.com` op verzoek `geomettrixinc.brand-portal.adobe.com` maken.
 
-Nochtans, kan de AEM instantie van de Auteur [ worden gevormd ](../using/configure-aem-assets-with-brand-portal.md) slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselend) URL.
+Nochtans, kan de instantie van de Auteur van AEM [ worden gevormd ](../using/configure-aem-assets-with-brand-portal.md) slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselend) URL.
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ De pagina [!UICONTROL Sign-in] wordt geopend.
 
    1. Geef uw [!UICONTROL Adobe ID] -gegevens op en klik op **[!UICONTROL Sign-in]** .
 
-      ![ teken van de Adobe binnen ](assets/bplogin_request_access_3.png)
+      ![ Adobe teken binnen ](assets/bplogin_request_access_3.png)
 
    U wordt omgeleid naar de pagina [!UICONTROL Request Access] .
 
@@ -197,7 +197,7 @@ Brand Portal-productbeheerders ontvangen toegangsaanvragen in hun Brand Portal-s
 ![ Toegang verzocht bericht ](assets/bplogin_request_access_7.png)
 
 Als u toegang wilt verlenen, moeten productbeheerders op de desbetreffende melding in het Brand Portal-systeemvak klikken en vervolgens op **[!UICONTROL Grant Access]** klikken.
-Productbeheerders kunnen ook de koppeling in de e-mail met het toegangsverzoek volgen om de Adobe [!UICONTROL Admin Console] te bezoeken en de gebruiker aan de desbetreffende productconfiguratie toe te voegen.
+Productbeheerders kunnen ook de koppeling in de e-mail met het toegangsverzoek volgen om de Adobe [!UICONTROL Admin Console] te bezoeken en de gebruiker toe te voegen aan de relevante productconfiguratie.
 
 U wordt opnieuw gericht aan de [ Adobe [!UICONTROL Admin Console] ](https://adminconsole.adobe.com/enterprise/overview) homepage. Met de Adobe [!UICONTROL Admin Console] kunt u gebruikers maken en deze toewijzen aan productprofielen (voorheen productconfiguraties genoemd) die in Brand Portal als groepen worden weergegeven. Voor meer informatie over het toevoegen van gebruikers in [!UICONTROL Admin Console], zie [ een gebruiker ](brand-portal-adding-users.md#add-a-user) toevoegen (stap 4-7 in de procedure volgen om een gebruiker toe te voegen).
 
@@ -235,4 +235,4 @@ Je kunt dit bericht negeren en doorgaan met Brand Portal. Deze melding wordt in 
 * [Adobe Customer Support]()
 -->
 
-* [ AEM Forums ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [ Forums van AEM ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
