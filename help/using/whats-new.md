@@ -97,19 +97,19 @@ De migratie heeft geen invloed op uw bestaande gegevensset, elementen, gebruiker
 
 ### Referentieartikelen {#reference-articles}
 
-* [ Introducerend de Profielen van de Adobe ](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+* [ Introducerend de Profielen van de Adobe ](https://helpx.adobe.com/nl/enterprise/kb/introducing-adobe-profiles.html)
 
-* [ beheer de Profielen van de Adobe ](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
+* [ beheer de Profielen van de Adobe ](https://helpx.adobe.com/nl/enterprise/using/manage-adobe-profiles.html)
 
-* [ Update om in ervaring voor gebruikers en beheerders te ondertekenen ](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [ Update om in ervaring voor gebruikers en beheerders te ondertekenen ](https://helpx.adobe.com/nl/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [ Login beperking tijdens migratie ](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
+* [ Login beperking tijdens migratie ](https://helpx.adobe.com/nl/enterprise/kb/account-temporarily-unavailable.html)
 
-* [ beheert gebruikers in Admin Console ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [ beheert gebruikers in Admin Console ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html)
 
-* [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
+* [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [ Vertrouwen van het Domein ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [ Vertrouwen van het Domein ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -179,7 +179,7 @@ Brand Portal activeren op je as a Cloud Service AEM Assets-exemplaar:
 
 ![ Status van de Mening ](assets/create-environment5.png)
 
-Zie [ Brand Portal op AEM Assets as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) activeren.
+Zie [ Brand Portal op AEM Assets as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) activeren.
 
 ### Asset Sourting op AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -187,7 +187,7 @@ De functie Asset Sourcing is nu beschikbaar op AEM Assets as a Cloud Service. De
 
 Eerder was Asset Sourcing alleen beschikbaar op AEM Assets (op locatie en beheerde service).
 
-Zie [ Middelen van Activa in Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+Zie [ Middelen van Activa in Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 
 ### Asset Download {#asset-download-setting}
 
@@ -208,7 +208,7 @@ Meld u als beheerder aan bij de Brand Portal-medewerker en navigeer naar **[!UIC
 
 ![](assets/download-settings-new.png)
 
-Zie [ downloadactiva van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets).
+Zie [ downloadactiva van Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -251,7 +251,7 @@ In het dialoogvenster **[!UICONTROL Download]** kunnen gebruikers:
 * Maak een aparte map voor elk element.
 * Geselecteerde elementen en de bijbehorende uitvoeringen downloaden.
 
-De downloadworkflow is consistent voor zelfstandige elementen, meerdere elementen, mappen met elementen, gelicentieerde of niet-gelicentieerde elementen en bij het downloaden van elementen via de koppeling voor delen. Zie [ stappen om activa van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets) te downloaden.
+De downloadworkflow is consistent voor zelfstandige elementen, meerdere elementen, mappen met elementen, gelicentieerde of niet-gelicentieerde elementen en bij het downloaden van elementen via de koppeling voor delen. Zie [ stappen om activa van Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets) te downloaden.
 
 ![ download-dialoog-doos ](assets/download-dialog-box.png)
 
@@ -301,7 +301,7 @@ Met het tabblad **[!UICONTROL Groups]** op de pagina **[!UICONTROL User Roles]**
 * Als alleen de instelling **[!UICONTROL Download Original]** is ingeschakeld, kunnen gebruikers alleen de oorspronkelijke elementen weergeven en downloaden van de pagina met elementdetails.
 * Als alleen de instelling **[!UICONTROL Download Renditions]** is ingeschakeld, kunnen gebruikers het oorspronkelijke element weergeven, maar kunnen ze het niet downloaden. De gebruiker kan de elementuitvoeringen wel weergeven en downloaden.
 
-Zie [ activadownload ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions) vormen.
+Zie [ activadownload ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions) vormen.
 
 ![ mening-download-toestemming ](assets/download-permissions.png)
 
@@ -399,8 +399,8 @@ De stappen voor het configureren van AEM Assets met Brand Portal zijn afhankelij
 
 | **AEM Versie** | **Nieuwe Configuratie** | **Configuratie van de Verbetering** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [ creeer configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 (6.5.4.0 en hierboven)** | [ creeer configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [ de configuratie van de Verbetering ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [ creeer configuratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
+| **AEM 6.5 (6.5.4.0 en hierboven)** | [ creeer configuratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [ de configuratie van de Verbetering ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -582,7 +582,7 @@ Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in
 Alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Bijvoorbeeld, kan een organisatie met een bestaand domein **geomettrix.brand-portal.adobe.com** **geomettrixinc.brand-portal.adobe.com** krijgen die op verzoek wordt gecreeerd.
 
-Nochtans, kan de AEM instantie van de Auteur [ worden gevormd ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) slechts met huurderidentiteitskaart URL en niet met huurder alias (afwisselend) URL.
+Nochtans, kan de AEM instantie van de Auteur [ worden gevormd ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) slechts met huurderidentiteitskaart URL en niet met huurder alias (afwisselend) URL.
 
 Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van de Adobe te houden.
 
@@ -685,7 +685,7 @@ De bovenstaande configuraties zijn beschikbaar onder de instellingen Toegang en 
 
 ### `Adobe I/O` UI voor het configureren van Auth-integratie
 
-Vanaf Brand Portal 6.4.2 gebruikt de Verouderde interface OAuth (`https://legacy-oauth.cloud.adobe.io/`) om toepassing tot stand te brengen JWT, die het vormen van de Integraties van Auth toelaat om de integratie van AEM Assets met Brand Portal toe te staan. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/` . Meer over het integreren van AEM Assets met Brand Portal voor het publiceren van activa en inzamelingen aan Brand Portal verwijs [ de integratie van AEM Assets met Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) vormen.
+Vanaf Brand Portal 6.4.2 gebruikt de Verouderde interface OAuth (`https://legacy-oauth.cloud.adobe.io/`) om toepassing tot stand te brengen JWT, die het vormen van de Integraties van Auth toelaat om de integratie van AEM Assets met Brand Portal toe te staan. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/` . Meer over het integreren van AEM Assets met Brand Portal voor het publiceren van activa en inzamelingen aan Brand Portal verwijs [ de integratie van AEM Assets met Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) vormen.
 
 ## Verbeteringen zoeken
 
@@ -808,7 +808,7 @@ Brand Portal geeft nu een paar dagen voor een aanstaande onderhoudsactiviteit ee
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Voor meer informatie, zie het [ het onderhoudsbericht van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/introduction/brand-portal).
+Voor meer informatie, zie het [ het onderhoudsbericht van Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/introduction/brand-portal).
 
 ### Verbetering voor gelicentieerde elementen die worden gedeeld met de functie voor het delen van koppelingen {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 

@@ -81,7 +81,7 @@ Publicatie van een metagegevensschema vanuit Brand Portal ongedaan maken:
 
 ## Publish-zoekfacetten naar Brand Portal {#publish-search-facets-to-brand-portal}
 
-De vormen van het onderzoek verstrekken het vermogen van [ beperkt onderzoek ](../using/brand-portal-search-facets.md) aan gebruikers op Brand Portal. Zoeken in facetten geeft zoekopdrachten op Brand Portal meer granulariteit. Alle [ voorspelden toegevoegd ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets) in de onderzoeksvorm zijn beschikbaar aan gebruikers als onderzoeksfacetten in onderzoeksfilters.
+De vormen van het onderzoek verstrekken het vermogen van [ beperkt onderzoek ](../using/brand-portal-search-facets.md) aan gebruikers op Brand Portal. Zoeken in facetten geeft zoekopdrachten op Brand Portal meer granulariteit. Alle [ voorspelden toegevoegd ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/search-facets) in de onderzoeksvorm zijn beschikbaar aan gebruikers als onderzoeksfacetten in onderzoeksfilters.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

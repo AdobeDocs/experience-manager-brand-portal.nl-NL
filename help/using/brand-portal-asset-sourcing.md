@@ -49,7 +49,7 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebrui
 >
 >Experience Manager Assets 6.5.4 kent een probleem. Brand Portal-gebruikers kunnen de middelen van de bijdragemap niet naar Experience Manager Assets publiceren tijdens de upgrade naar Adobe Developer Console.
 >
->Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
+>Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
 
 <!--
 

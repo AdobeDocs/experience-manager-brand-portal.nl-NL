@@ -29,7 +29,7 @@ De veelgestelde vragen over Brand Portal zijn toegespitst op de vragen en proble
 
 **Antwoord:** ja, is er een bekende kwestie terwijl het publiceren van de activa van de bijdrageomslag aan Experience Manager Assets 6.5.4 door middel van Adobe Developer Console.
 
-Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
+Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
 
 
 **Vraag: Ik zie de inhoud van de bijdrageomslag niet die van Brand Portal in Experience Manager Assets wordt gepubliceerd. Wat zou de mogelijke reden kunnen zijn?**

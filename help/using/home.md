@@ -24,7 +24,7 @@ Het ontbreken van een veilige oplossing voor het delen van bedrijfsmiddelen kan 
 
 Brand Portal zorgt voor naleving van merken door marketers in staat te stellen samen te werken met partners en interne gebruikers om ontwerprichtlijnen, logo&#39;s en campagnemiddelen te maken, te beheren en aan belanghebbenden te leveren.
 
-Brand Portal is een op de cloud gebaseerd SAAS-aanbod. Het is beschikbaar als toevoeging aan het product van Adobe Experience Manager Assets (op gebouw of beheerde dienst). U kunt Brand Portal gebruiken met [!DNL Adobe Experience Manager Assets] als [!DNL Cloud Service] . Zodra [ gevormd ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal), kunt u goedgekeurde activa van [!DNL Adobe Experience Manager Assets] als [!DNL Cloud Service] instantie aan [!DNL Brand Portal] publiceren en hen verspreiden aan de gebruikers van Brand Portal.
+Brand Portal is een op de cloud gebaseerd SAAS-aanbod. Het is beschikbaar als toevoeging aan het product van Adobe Experience Manager Assets (op gebouw of beheerde dienst). U kunt Brand Portal gebruiken met [!DNL Adobe Experience Manager Assets] als [!DNL Cloud Service] . Zodra [ gevormd ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal), kunt u goedgekeurde activa van [!DNL Adobe Experience Manager Assets] als [!DNL Cloud Service] instantie aan [!DNL Brand Portal] publiceren en hen verspreiden aan de gebruikers van Brand Portal.
 
 De workflow voor Brand Portal-oplossingen wordt in de volgende afbeelding geïllustreerd.
 
@@ -45,8 +45,8 @@ In deze gebruikershandleiding vindt u inzichten in Brand Portal-aanbiedingen en 
 | [Ondersteunde bestandsindelingen](brand-portal-supported-formats.md) | Ondersteunde bestandsindelingen in Brand Portal voor voorvertoning en downloaden. |
 | [ Publish Assets aan Brand Portal ](brand-portal-sharing-folders.md) | Mappen, verzamelingen, koppelingen, voorinstellingen, schema, facetten en tags publiceren naar Brand Portal. |
 | [ Middelen van Activa in Brand Portal ](brand-portal-asset-sourcing.md) | Hoe te om Activa te vormen die in AEM Assets, activa in Brand Portal uploaden en de bijdrageomslag terug naar AEM Assets publiceren. |
-| [ de eigenschapvideo&#39;s van Brand Portal ](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Leer hoe u Experience Manager Assets Brand Portal kunt gebruiken met behulp van videozelfstudies. |
+| [ de eigenschapvideo&#39;s van Brand Portal ](https://experienceleague.adobe.com/nl?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Leer hoe u Experience Manager Assets Brand Portal kunt gebruiken met behulp van videozelfstudies. |
 
 ### Nuttige bronnen
 
-* [ Begrijpend Brand Portal met AEM Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [ Begrijpend Brand Portal met AEM Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/home)

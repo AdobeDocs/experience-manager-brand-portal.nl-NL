@@ -386,12 +386,12 @@ De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 
 ## Gecertificeerde platforms {#certified-platforms}
 
-Om te zien welke platforms voor deze versie van Brand Portal worden verklaard, controleer de **Steun voor aanraking-geoptimaliseerde UI** kolom in **Ondersteunde Browsers voor Authoring sectie van het Gebruikersinterface** van [ Technische Vereisten ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
+Om te zien welke platforms voor deze versie van Brand Portal worden verklaard, controleer de **Steun voor aanraking-geoptimaliseerde UI** kolom in **Ondersteunde Browsers voor Authoring sectie van het Gebruikersinterface** van [ Technische Vereisten ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Koppelingen {#links}
 
 * [ de Pagina van het Product van Adobe Experience Manager op adobe.com ](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [ Documentatie van Assets Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [ Documentatie van Assets Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/home)
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 

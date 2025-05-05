@@ -19,7 +19,7 @@ Een verzameling vertegenwoordigt een groep gerelateerde elementen die samen in A
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Verzamelingen worden als koppelingen via een e-mail gedeeld. Iedereen met toegang tot de aandeelverbinding kan de inzameling openen. Gedeelde e-mails kunnen echter naar iedereen worden doorgestuurd. Bovendien, [ gedeelde verbindingen ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) zijn tijdelijk en toegankelijk voor een beperkte duur slechts. U kunt gebruikers ook uitnodigen als permanente leden voor verzamelingen. Er zijn de volgende typen gebruikers voor de verzamelingen:
+Verzamelingen worden als koppelingen via een e-mail gedeeld. Iedereen met toegang tot de aandeelverbinding kan de inzameling openen. Gedeelde e-mails kunnen echter naar iedereen worden doorgestuurd. Bovendien, [ gedeelde verbindingen ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) zijn tijdelijk en toegankelijk voor een beperkte duur slechts. U kunt gebruikers ook uitnodigen als permanente leden voor verzamelingen. Er zijn de volgende typen gebruikers voor de verzamelingen:
 
 * **de Beheerders** kunnen een inzameling met de gemachtigde gebruikers van Brand Portal delen of unshare. Ze kunnen andere gebruikers uitnodigen voor een specifieke verzameling en hun rol in die verzameling definiëren. Daarnaast kunnen beheerders openbare verzamelingen maken.
 

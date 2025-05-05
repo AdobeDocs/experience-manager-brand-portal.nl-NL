@@ -56,7 +56,7 @@ In de kaartweergave worden voor elk item op het huidige niveau informatiekaarten
 * Grootte
 * Dimensionen
 
-U kunt onderaan de hiërarchie navigeren door kaarten te klikken (die zorgen om de snelle acties) of omhoog opnieuw te vermijden door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+U kunt onderaan de hiërarchie navigeren door kaarten te klikken (die zorgen om de snelle acties) of omhoog opnieuw te vermijden door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ De lijstmening toont informatie voor elk middel op het huidige niveau. De lijstw
 * Mappad met middelenhiërarchie
 * Datum van publicatie van het element op Brand Portal
 
-Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt onderaan de hiërarchie navigeren door de middelnaam, en file te klikken door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Met de padkolom kunt u de middelenlocatie in de mappenhiërarchie gemakkelijk herkennen. U kunt onderaan de hiërarchie navigeren door de middelnaam, en file te klikken door [ te gebruiken breadcrumbs in de kopbal ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."

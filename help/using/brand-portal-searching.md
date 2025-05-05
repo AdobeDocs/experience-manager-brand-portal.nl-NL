@@ -46,7 +46,7 @@ Op Brand Portal zoeken naar elementen:
 
    *Onderzoek van Activa gebruikend Onderzoek*
 
-Om meer over onderzoeksgedrag met slimme geëtiketteerde activa te weten, ga [ onderzoeksresultaten en gedrag ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/search-assets) begrijpen.
+Om meer over onderzoeksgedrag met slimme geëtiketteerde activa te weten, ga [ onderzoeksresultaten en gedrag ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/using/search-assets) begrijpen.
 
 ## Zoeken met facetten in het deelvenster Filters {#search-using-facets-in-filters-panel}
 

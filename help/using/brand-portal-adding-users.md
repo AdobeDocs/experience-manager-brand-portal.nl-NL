@@ -170,7 +170,7 @@ Als u gebruikers wilt toevoegen aan een Brand Portal-groep, voegt u deze toe aan
 
 ## Beheerdersrechten aan gebruikers opgeven {#provide-administrator-privileges-to-users}
 
-U kunt een Brand Portal-gebruiker of Systeembeheerder of Productbeheerder privileges geven. Wijs echter geen andere beheerrollen toe die beschikbaar zijn in de [!UICONTROL Admin Console] . Bijvoorbeeld de beheerder van het productprofiel, de beheerder van de gebruikersgroep, en steunbeheerder. Zie [ Administratieve rollen ](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+U kunt een Brand Portal-gebruiker of Systeembeheerder of Productbeheerder privileges geven. Wijs echter geen andere beheerrollen toe die beschikbaar zijn in de [!UICONTROL Admin Console] . Bijvoorbeeld de beheerder van het productprofiel, de beheerder van de gebruikersgroep, en steunbeheerder. Zie [ Administratieve rollen ](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >

@@ -127,8 +127,8 @@ Een beheerder kan alle taken uitvoeren die een Redacteur kan uitvoeren. Hieronde
 Naast de bovenstaande taken kan een auteur in AEM Assets de volgende taken uitvoeren:
 
 * [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alternatieve alias voor Brand Portal URL {#tenant-alias-for-portal-url}
 

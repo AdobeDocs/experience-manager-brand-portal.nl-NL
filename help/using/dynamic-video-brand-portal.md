@@ -57,11 +57,11 @@ Als u met dynamische video&#39;s wilt werken op Brand Portal, moet u:
 
 * **De Auteur van de Experience Manager van het Begin op de wijze van Dynamic Media**
 
-  Begin de instantie van de Auteur van de Experience Manager (waarmee Brand Portal) of in [ Dynamic Media -  [!DNL Scene7]  wordt gevormd wijze ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) of in [ Dynamic Media - Hybride wijze ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic) of
+  Begin de instantie van de Auteur van de Experience Manager (waarmee Brand Portal) of in [ Dynamic Media -  [!DNL Scene7]  wordt gevormd wijze ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) of in [ Dynamic Media - Hybride wijze ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dynamic) of
 
 * **vorm de Cloud Servicen van Dynamic Media op de instantie van de Auteur van de Experience Manager**
 
-  Gebaseerd op de wijze van Dynamic Media (de wijze van Scene7 of de Hybride wijze) die de Auteur van de Experience Manager op loopt, plaats of {de Cloud Servicen van 0} Dynamic Media ([!DNL Scene7] wijze) [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) of [ Cloud Servicen van Dynamic Media (Hybride wijze) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) op de Auteur van de Experience Manager van **Hulpmiddelen** | **Cloud Servicen** | **Dynamic Media**.
+  Gebaseerd op de wijze van Dynamic Media (de wijze van Scene7 of de Hybride wijze) die de Auteur van de Experience Manager op loopt, plaats of {de Cloud Servicen van 0} Dynamic Media ([!DNL Scene7] wijze) [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) of [ Cloud Servicen van Dynamic Media (Hybride wijze) ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) op de Auteur van de Experience Manager van **Hulpmiddelen** | **Cloud Servicen** | **Dynamic Media**.
 
 * **vorm Dynamic Media op Brand Portal**
 
@@ -71,11 +71,11 @@ Als u met dynamische video&#39;s wilt werken op Brand Portal, moet u:
 
 * **de omslagen van Publish met video die coderen op Brand Portal worden toegepast**
 
-  Pas [ videocoderingen ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles) toe en publiceer de omslag die rijke media activa van de instantie van de Auteur van de Experience Manager aan Brand Portal bevat.
+  Pas [ videocoderingen ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/video-profiles) toe en publiceer de omslag die rijke media activa van de instantie van de Auteur van de Experience Manager aan Brand Portal bevat.
 
 * **Lijst van gewenste personen Eind IPs in SPS als veilige voorproef toegelaten**
 
-  Als het gebruiken van Dynamic Media **[!DNL Scene7]** (met [ veilige voorproef toegelaten ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) voor een bedrijf), dan wordt het geadviseerd dat **[!DNL Scene7]** bedrijfbeheerder [ de openbare uitgang IPs ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) voor respectieve gebieden voegt op lijst van gewenste personen gebruikend SPS (**[!UICONTROL Scene7]** het Publiceren Systeem) flits UI.
+  Als het gebruiken van Dynamic Media **[!DNL Scene7]** (met [ veilige voorproef toegelaten ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) voor een bedrijf), dan wordt het geadviseerd dat **[!DNL Scene7]** bedrijfbeheerder [ de openbare uitgang IPs ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) voor respectieve gebieden voegt op lijst van gewenste personen gebruikend SPS (**[!UICONTROL Scene7]** het Publiceren Systeem) flits UI.
 
   De IP&#39;s van de egress zijn als volgt:
 
@@ -85,7 +85,7 @@ Als u met dynamische video&#39;s wilt werken op Brand Portal, moet u:
   | EMEA | 18.34.189.3, 51.132.146.75 |
   | APAC | 63 140 44 54 |
 
-  Om één van beiden van deze uitgang IPs te lijsten van gewenste personen, zie [ uw rekening voor een veilige het testen dienst ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) voorbereiden.
+  Om één van beiden van deze uitgang IPs te lijsten van gewenste personen, zie [ uw rekening voor een veilige het testen dienst ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) voorbereiden.
 
 ## Aanbevolen procedures
 
@@ -112,9 +112,9 @@ Zorg ervoor dat de configuratiedetails in Brand Portal en **[!UICONTROL Experien
 
 ### Lijst van gewenste personen openbare uitgang IPs voor de wijze van Scene7 van Dynamic Media
 
-Als Dynamic Media **[!UICONTROL Scene7]** - het hebben van [ veilige toegelaten voorproef ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) - wordt gebruikt om videoactiva aan Brand Portal te dienen, dan **[!UICONTROL Scene7]** vestigt een specifieke beeldserver voor het opvoeren van milieu&#39;s of interne toepassingen. Om het even welk verzoek aan deze server controleert het oorsprongIP adres. Als het inkomende verzoek niet binnen de goedgekeurde lijst van IP adressen is, is een mislukkingsreactie teruggekeerd.
+Als Dynamic Media **[!UICONTROL Scene7]** - het hebben van [ veilige toegelaten voorproef ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) - wordt gebruikt om videoactiva aan Brand Portal te dienen, dan **[!UICONTROL Scene7]** vestigt een specifieke beeldserver voor het opvoeren van milieu&#39;s of interne toepassingen. Om het even welk verzoek aan deze server controleert het oorsprongIP adres. Als het inkomende verzoek niet binnen de goedgekeurde lijst van IP adressen is, is een mislukkingsreactie teruggekeerd.
 Daarom configureert de **[!UICONTROL Scene7]** bedrijfsbeheerder een goedgekeurde lijst met IP-adressen voor de **[!UICONTROL Secure Testing]** -omgeving van hun bedrijf via de Flash-gebruikersinterface van **[!UICONTROL SPS]** (Scene7 Publishing System). Zorg ervoor dat de IP van de uitgang voor uw respectieve gebied (van het volgende) aan die goedgekeurde lijst wordt toegevoegd.
-Om één van beiden van deze uitgang IPs te lijsten van gewenste personen, zie [ uw rekening voor een veilige het testen dienst ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) voorbereiden.
+Om één van beiden van deze uitgang IPs te lijsten van gewenste personen, zie [ uw rekening voor een veilige het testen dienst ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) voorbereiden.
 De IP&#39;s van de uitgang zijn als volgt:
 
 | **Gebied** | **IP van de Eis** |
@@ -129,7 +129,7 @@ Als de Experience Manager Author-instantie wordt uitgevoerd in de hybride modus 
 
 >[!NOTE]
 >
->De [ video het coderen profielen ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles) worden niet gepubliceerd aan Brand Portal. In plaats daarvan worden ze opgehaald van de **[!UICONTROL Scene7]** -server. Daarom voor video codeert om met succes in Brand Portal worden gespeeld, zorg ervoor dat de configuratiedetails het zelfde als de [ Cloud Servicen van Dynamic Media ([!DNL Scene7] wijze) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) in uw instantie van de Auteur van de Experience Manager zijn.
+>De [ video het coderen profielen ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/video-profiles) worden niet gepubliceerd aan Brand Portal. In plaats daarvan worden ze opgehaald van de **[!UICONTROL Scene7]** -server. Daarom voor video codeert om met succes in Brand Portal worden gespeeld, zorg ervoor dat de configuratiedetails het zelfde als de [ Cloud Servicen van Dynamic Media ([!DNL Scene7] wijze) ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) in uw instantie van de Auteur van de Experience Manager zijn.
 
 Dynamic Media-configuraties instellen op Brand Portal-huurders:
 

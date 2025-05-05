@@ -71,7 +71,7 @@ Voor meer informatie over verbinding het delen, verwijs naar [ activa van het Aa
 
 Voor gelicentieerde activa moet een licentieovereenkomst worden geaccepteerd voordat ze van Brand Portal kunnen worden gedownload. Deze overeenkomst voor gelicentieerde activa komt wanneer u direct het middel van Brand Portal of door middel van een gedeelde verbinding downloadt. Alle gebruikers kunnen met een licentie beveiligde elementen weergeven, ongeacht of deze zijn verlopen of niet. Het downloaden en gebruiken van verlopen gelicentieerde middelen is echter beperkt. Om over het gedrag van verlopen in licentie gegeven activa en toelaatbare activiteiten te weten die op gebruikersrollen worden gebaseerd, verwijs naar [ gebruikstoestemmingen van verlopen activa ](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-De vergunning-beschermde activa hebben a [ vergunningsovereenkomst in bijlage ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) aan hen, die door het de meta-gegevensbezit van activa in [!DNL Experience Manager Assets] te plaatsen wordt gedaan.
+De vergunning-beschermde activa hebben a [ vergunningsovereenkomst in bijlage ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/drm) aan hen, die door het de meta-gegevensbezit van activa in [!DNL Experience Manager Assets] te plaatsen wordt gedaan.
 
 Een element wordt als beveiligd beschouwd als het een van de volgende (of beide) metagegevenseigenschappen bevat:
 
