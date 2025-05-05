@@ -417,7 +417,7 @@ Met Brand Portal 6.4.5 kunnen externe bureaus en teams inhoud uploaden naar Bran
 
 ### Asset Sourting in Brand Portal {#asset-sourcing-in-bp}
 
-De Middelen van activa staat AEM gebruikers (beheerders/niet-admin gebruikers) toe om omslagen met een extra **bezit van de Bijdrage van het Middel te creëren 0}, die de nieuwe omslag verzekeren open aan activa voorlegging door de gebruikers van Brand Portal wordt gecreeerd.** Het brengt automatisch een werkschema in werking dat tot twee extra subomslagen, genoemd NIEUW en GEDEELD, binnen de pas gecreëerde **omslag van de Bijdrage** leidt.
+De Middelen van activa staat AEM gebruikers (beheerders/niet-admin gebruikers) toe om omslagen met een extra **bezit van de Bijdrage van het Middel te creëren 0&rbrace;, die de nieuwe omslag verzekeren open aan activa voorlegging door de gebruikers van Brand Portal wordt gecreeerd.** Het brengt automatisch een werkschema in werking dat tot twee extra subomslagen, genoemd NIEUW en GEDEELD, binnen de pas gecreëerde **omslag van de Bijdrage** leidt.
 
 De AEM gebruiker uploadt een korte en basislijnactiva aan de **GEDEELDE** omslag. Ze definiëren de typen elementen die nodig zijn in de bijdragemap, zodat Brand Portal-gebruikers over de benodigde referentie-informatie beschikken. De beheerder kan actieve gebruikers van Brand Portal toegang tot de bijdrageomslag dan verlenen alvorens de pas gecreëerde **omslag van de Bijdrage** aan Brand Portal te publiceren.
 
@@ -486,7 +486,7 @@ Op dezelfde manier specificeren:
 
 * **&#42;klimt** keert alle activa terug die woorden hebben die met karakters **beëindigen klimt** in hun titeluitdrukking.
 
-* **&#42;klimt&#42;** keert alle activa terug die woorden bevatten die de karakters **** in hun titeluitdrukking klimmen.
+* **&#42;klimt&#42;** keert alle activa terug die woorden bevatten die de karakters **&#x200B;**&#x200B;in hun titeluitdrukking klimmen.
 
 >[!NOTE]
 >

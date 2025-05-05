@@ -51,7 +51,7 @@ Het Brand Portal-dashboard weerspiegelt alle bestaande mappen die aan de Brand P
 1. Ga terug naar het Brand Portal-dashboard.
 1. Klik op de map met bijdragen om deze te openen. U ziet twee submappen: **[!UICONTROL SHARED]** en **[!UICONTROL NEW]** in de map met bijdragen. De map SHARED bevat alle basiselementen (referentie-inhoud) die door de beheerders worden gedeeld.
 1. U kunt de map **[!UICONTROL SHARED]** met alle basislijnelementen downloaden op uw lokale computer.
-Of, kunt u de **[!UICONTROL SHARED]** omslag openen en het **2} pictogram van de Download {klikken om individuele dossiers/omslagen te downloaden.**
+Of, kunt u de **[!UICONTROL SHARED]** omslag openen en het **2&rbrace; pictogram van de Download &lbrace;klikken om individuele dossiers/omslagen te downloaden.**
 
    ![](assets/download.png)
 

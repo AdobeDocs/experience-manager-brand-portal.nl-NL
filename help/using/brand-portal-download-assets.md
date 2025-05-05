@@ -156,7 +156,7 @@ Hier volgen de stappen voor het downloaden van elementen of mappen met elementen
      >
      >Als de gedownloade elementen ook onder licentie gedownloade elementen bevatten, wordt u doorgestuurd naar de pagina **[!UICONTROL Copyright Management]** . Selecteer op deze pagina de elementen, klik op **[!UICONTROL Agree]** en klik op **[!UICONTROL Download]** . Als u het niet eens bent, worden de gelicentieerde middelen niet gedownload.
      > 
-     >De vergunning-beschermde activa hebben a [ vergunningsovereenkomst in bijlage ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) aan hen, die door het 2} wordt gedaan meta-gegevensbezit van de activa ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) in Experience Manager Assets te plaatsen.[
+     >De vergunning-beschermde activa hebben a [ vergunningsovereenkomst in bijlage ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) aan hen, die door het 2&rbrace; wordt gedaan meta-gegevensbezit van de activa [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) in Experience Manager Assets te plaatsen.
 
 
      ![ vergunning gegeven-activa ](assets/licensed-asset-new.png)

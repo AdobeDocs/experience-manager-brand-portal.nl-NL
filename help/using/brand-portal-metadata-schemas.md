@@ -200,7 +200,7 @@ In dit geval maakt u een nieuw knooppunt op [!UICONTROL `/etc/dam/metadataeditor
 
 Brand Portal wijst de volgende MIME-typen en schema-formulieren toe:
 
-| **Vorm van 0} Schema** | **MIME types** |
+| **Vorm van 0&rbrace; Schema** | **MIME types** |
 |---|---|
 | image/jpeg | image/pjpeg |
 | image/tiff | image/x-tiff |

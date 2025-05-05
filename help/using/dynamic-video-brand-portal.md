@@ -61,7 +61,7 @@ Als u met dynamische video&#39;s wilt werken op Brand Portal, moet u:
 
 * **vorm de Cloud Servicen van Dynamic Media op de instantie van de Auteur van de Experience Manager**
 
-  Gebaseerd op de wijze van Dynamic Media (de wijze van Scene7 of de Hybride wijze) die de Auteur van de Experience Manager op loopt, plaats of {de Cloud Servicen van 0} Dynamic Media ([!DNL Scene7] wijze) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) of [ Cloud Servicen van Dynamic Media (Hybride wijze) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) op de Auteur van de Experience Manager van **Hulpmiddelen** | **Cloud Servicen** | **Dynamic Media**.[
+  Gebaseerd op de wijze van Dynamic Media (de wijze van Scene7 of de Hybride wijze) die de Auteur van de Experience Manager op loopt, plaats of {de Cloud Servicen van 0} Dynamic Media ([!DNL Scene7] wijze) [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) of [ Cloud Servicen van Dynamic Media (Hybride wijze) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) op de Auteur van de Experience Manager van **Hulpmiddelen** | **Cloud Servicen** | **Dynamic Media**.
 
 * **vorm Dynamic Media op Brand Portal**
 

@@ -43,10 +43,13 @@ Meld u aan bij een AEM Author-instantie met beheerdersrechten en open de **[!UIC
 1. Geef het volgende op:
 
    * **[!UICONTROL Title]**
+
      *(vereist)* Een vertoningstitel voor de markering.
    * **[!UICONTROL Name]**
+
      *(vereist)* Een naam voor de markering. Als er geen waarde wordt opgegeven, wordt een geldige knooppuntnaam gemaakt op basis van de titel. Zie [ TagID ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Beschrijving**
+
      *(facultatief)* Een beschrijving van de markering.
    * **Weg van de Markering**
 JCR-pad van de tag.

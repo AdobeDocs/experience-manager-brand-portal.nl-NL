@@ -98,7 +98,7 @@ Deze map wordt gedeeld met de actieve Brand Portal-gebruikers voor een bijdrage.
 
 **Vraag: Wat bevat een omslag van de Bijdrage?**
 
-**Antwoord:** **3} omslag van de Bijdrage {bevat twee subfolders** NIEUW **en** GEDEELD **.** In eerste instantie is de map NEW leeg en bevat de map SHARED de referentie-inhoud (herbruikbare elementen) voor de Brand Portal-gebruikers.
+**Antwoord:** **3&rbrace; omslag van de Bijdrage &lbrace;bevat twee subfolders** NIEUW **en** GEDEELD **.** In eerste instantie is de map NEW leeg en bevat de map SHARED de referentie-inhoud (herbruikbare elementen) voor de Brand Portal-gebruikers.
 De gebruikers van Brand Portal hebben toegang tot de **omslag van de Bijdrage** en uploaden inhoud in de **NIEUWE** omslag.
 
 
