@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
 workflow-type: tm+mt
-source-wordcount: '6273'
+source-wordcount: '6289'
 ht-degree: 0%
 
 ---
@@ -97,19 +97,19 @@ De migratie heeft geen invloed op uw bestaande gegevensset, elementen, gebruiker
 
 ### Referentieartikelen {#reference-articles}
 
-* [ Introducerend de Profielen van Adobe ](https://helpx.adobe.com/nl/enterprise/kb/introducing-adobe-profiles.html)
+* [ Introducerend de Profielen van Adobe ](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
-* [ beheer Adobe Profielen ](https://helpx.adobe.com/nl/enterprise/using/manage-adobe-profiles.html)
+* [ beheer Adobe Profielen ](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
 
-* [ Update om in ervaring voor gebruikers en beheerders te ondertekenen ](https://helpx.adobe.com/nl/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [ Update om in ervaring voor gebruikers en beheerders te ondertekenen ](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [ Login beperking tijdens migratie ](https://helpx.adobe.com/nl/enterprise/kb/account-temporarily-unavailable.html)
+* [ Login beperking tijdens migratie ](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
 
-* [ beheert gebruikers in Admin Console ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html)
+* [ beheert gebruikers in Admin Console ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
 
-* [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html#assign-users)
+* [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [ Vertrouwen van het Domein ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [ Vertrouwen van het Domein ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -165,9 +165,9 @@ Brand Portal 2021.02.0 verbetert AEM Assets as a Cloud Service met de activering
 
 >[!IMPORTANT]
 >
-> * Brand Portal is momenteel in onderhoud.
-> * U kunt contact opnemen met uw Adobe-vertegenwoordiger voor meer informatie over uw gebruiksscenario en specifieke vereisten om Brand Portal te activeren met Cloud Manager.
-> * Brand Portal is niet beschikbaar bij Assets Prime of Assets Ultimate. Bestaande Assets Cloud Services-klanten die al toegang hebben tot Brand Portal, kunnen deze echter behouden wanneer ze overstappen op Assets Ultimate.
+> * Brand Portal bevindt zich in de onderhoudsmodus. Alle nieuwe productinnovaties zijn beschikbaar op [ Content Hub ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * Als u Brand Portal nog steeds moet activeren, neemt u contact op met uw Adobe-vertegenwoordiger voor meer informatie over uw gebruiksgeval en andere specifieke vereisten.
+> * Brand Portal is niet beschikbaar met [ Assets Prime ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) of [ Assets Ultimate ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Bestaande Assets as a Cloud Service-klanten, die al toegang hebben tot Brand Portal, kunnen deze echter blijven gebruiken wanneer ze naar Assets Ultimate overstappen.
 
 <!--
 
@@ -187,7 +187,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +195,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Asset Download {#asset-download-setting}
@@ -217,7 +217,7 @@ Meld u als beheerder aan bij de Brand Portal-medewerker en navigeer naar **[!UIC
 
 ![](assets/download-settings-new.png)
 
-Zie [ downloadactiva van Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets).
+Zie [ downloadactiva van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -245,7 +245,7 @@ Het nieuwe dialoogvenster **[!UICONTROL Download]** generaliseert het proces voo
 
 >[!NOTE]
 >
->Alle gebruikers hebben nu **[!UICONTROL Fast Download]** toegelaten door gebrek en vereist IBM® [ Aspera Connect 3.9.9 ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) geïnstalleerd in hun browser uitbreiding alvorens de activa van Brand Portal te downloaden.
+>Alle gebruikers hebben nu **[!UICONTROL Fast Download]** toegelaten door gebrek en vereist IBM® [ Aspera Connect 3.9.9 ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) geïnstalleerd in hun browser uitbreiding alvorens de activa van Brand Portal te downloaden.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 
@@ -260,7 +260,7 @@ In het dialoogvenster **[!UICONTROL Download]** kunnen gebruikers:
 * Maak een aparte map voor elk element.
 * Geselecteerde elementen en de bijbehorende uitvoeringen downloaden.
 
-De downloadworkflow is consistent voor zelfstandige elementen, meerdere elementen, mappen met elementen, gelicentieerde of niet-gelicentieerde elementen en bij het downloaden van elementen via de koppeling voor delen. Zie [ stappen om activa van Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets) te downloaden.
+De downloadworkflow is consistent voor zelfstandige elementen, meerdere elementen, mappen met elementen, gelicentieerde of niet-gelicentieerde elementen en bij het downloaden van elementen via de koppeling voor delen. Zie [ stappen om activa van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets) te downloaden.
 
 ![ download-dialoog-doos ](assets/download-dialog-box.png)
 
@@ -310,7 +310,7 @@ Met het tabblad **[!UICONTROL Groups]** op de pagina **[!UICONTROL User Roles]**
 * Als alleen de instelling **[!UICONTROL Download Original]** is ingeschakeld, kunnen gebruikers alleen de oorspronkelijke elementen weergeven en downloaden van de pagina met elementdetails.
 * Als alleen de instelling **[!UICONTROL Download Renditions]** is ingeschakeld, kunnen gebruikers het oorspronkelijke element weergeven, maar kunnen ze het niet downloaden. De gebruiker kan de elementuitvoeringen wel weergeven en downloaden.
 
-Zie [ activadownload ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions) vormen.
+Zie [ activadownload ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions) vormen.
 
 ![ mening-download-toestemming ](assets/download-permissions.png)
 
@@ -408,8 +408,8 @@ De stappen voor het configureren van AEM Assets met Brand Portal zijn afhankelij
 
 | **Versie van AEM** | **Nieuwe Configuratie** | **Configuratie van de Verbetering** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [ creeer configuratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 (6.5.4.0 en hierboven)** | [ creeer configuratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [ de configuratie van de Verbetering ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [ creeer configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
+| **AEM 6.5 (6.5.4.0 en hierboven)** | [ creeer configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [ de configuratie van de Verbetering ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -495,7 +495,7 @@ Op dezelfde manier specificeren:
 
 * **&#42;klimt** keert alle activa terug die woorden hebben die met karakters **beëindigen klimt** in hun titeluitdrukking.
 
-* **&#42;klimt&#42;** keert alle activa terug die woorden bevatten die de karakters **&#x200B;**&#x200B;in hun titeluitdrukking klimmen.
+* **&#42;klimt&#42;** keert alle activa terug die woorden bevatten die de karakters **** in hun titeluitdrukking klimmen.
 
 >[!NOTE]
 >
@@ -591,7 +591,7 @@ Organisaties kunnen hun portal-URL aanpassen door een alternatief voorvoegsel in
 Alleen het voorvoegsel van de Brand Portal-URL kan worden aangepast en niet de volledige URL.\
 Bijvoorbeeld, kan een organisatie met een bestaand domein **geomettrix.brand-portal.adobe.com** **geomettrixinc.brand-portal.adobe.com** krijgen die op verzoek wordt gecreeerd.
 
-Nochtans, kan de instantie van de Auteur van AEM [ worden gevormd ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) slechts met huurderidentiteitskaart URL en niet met huurder alias (afwisselend) URL.
+Nochtans, kan de instantie van de Auteur van AEM [ worden gevormd ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) slechts met huurderidentiteitskaart URL en niet met huurder alias (afwisselend) URL.
 
 Organisaties kunnen aan hun merkingsbehoeften voldoen door de portaal-URL aan te passen in plaats van zich aan de URL van Adobe te houden.
 
@@ -694,7 +694,7 @@ De bovenstaande configuraties zijn beschikbaar onder de instellingen Toegang en 
 
 ### `Adobe I/O` UI voor het configureren van Auth-integratie
 
-Vanaf Brand Portal 6.4.2 gebruikt de Verouderde interface OAuth (`https://legacy-oauth.cloud.adobe.io/`) om toepassing tot stand te brengen JWT, die het vormen van de Integraties van Auth toelaat om de integratie van AEM Assets met Brand Portal toe te staan. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/` . Meer over het integreren van AEM Assets met Brand Portal voor het publiceren van activa en inzamelingen aan Brand Portal verwijs [ de integratie van AEM Assets met Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) vormen.
+Vanaf Brand Portal 6.4.2 gebruikt de Verouderde interface OAuth (`https://legacy-oauth.cloud.adobe.io/`) om toepassing tot stand te brengen JWT, die het vormen van de Integraties van Auth toelaat om de integratie van AEM Assets met Brand Portal toe te staan. Eerder werd de interface voor het configureren van OAuth-integratie gehost in `https://marketing.adobe.com/developer/` . Meer over het integreren van AEM Assets met Brand Portal voor het publiceren van activa en inzamelingen aan Brand Portal verwijs [ de integratie van AEM Assets met Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) vormen.
 
 ## Verbeteringen zoeken
 
@@ -817,7 +817,7 @@ Brand Portal geeft nu een paar dagen voor een aanstaande onderhoudsactiviteit ee
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Voor meer informatie, zie het [ het onderhoudsbericht van Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/introduction/brand-portal).
+Voor meer informatie, zie het [ het onderhoudsbericht van Brand Portal ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/introduction/brand-portal).
 
 ### Verbetering voor gelicentieerde elementen die worden gedeeld met de functie voor het delen van koppelingen {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 

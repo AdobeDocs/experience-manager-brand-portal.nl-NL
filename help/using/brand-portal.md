@@ -5,9 +5,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u func
 
 >[!IMPORTANT]
 >
-> * Brand Portal is momenteel in onderhoud.
-> * U kunt contact opnemen met uw Adobe-vertegenwoordiger voor meer informatie over uw gebruiksscenario en specifieke vereisten om Brand Portal te activeren met Cloud Manager.
-> * Brand Portal is niet beschikbaar bij Assets Prime of Assets Ultimate. Bestaande Assets Cloud Services-klanten die al toegang hebben tot Brand Portal, kunnen deze echter behouden wanneer ze overstappen op Assets Ultimate.
+> * Brand Portal bevindt zich in de onderhoudsmodus. Alle nieuwe productinnovaties zijn beschikbaar op [ Content Hub ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * Als u Brand Portal nog steeds moet activeren, neemt u contact op met uw Adobe-vertegenwoordiger voor meer informatie over uw gebruiksgeval en andere specifieke vereisten.
+> * Brand Portal is niet beschikbaar met [ Assets Prime ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) of [ Assets Ultimate ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Bestaande Assets as a Cloud Service-klanten, die al toegang hebben tot Brand Portal, kunnen deze echter blijven gebruiken wanneer ze naar Assets Ultimate overstappen.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -133,8 +133,8 @@ Een beheerder kan alle taken uitvoeren die een Redacteur kan uitvoeren. Hieronde
 Naast de bovenstaande taken kan een auteur in AEM Assets de volgende taken uitvoeren:
 
 * [AEM Assets configureren met Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alternatieve alias voor Brand Portal URL {#tenant-alias-for-portal-url}
 
