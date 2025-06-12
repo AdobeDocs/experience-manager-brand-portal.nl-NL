@@ -495,7 +495,7 @@ Op dezelfde manier specificeren:
 
 * **&#42;klimt** keert alle activa terug die woorden hebben die met karakters **beëindigen klimt** in hun titeluitdrukking.
 
-* **&#42;klimt&#42;** keert alle activa terug die woorden bevatten die de karakters **** in hun titeluitdrukking klimmen.
+* **&#42;klimt&#42;** keert alle activa terug die woorden bevatten die de karakters **&#x200B;**&#x200B;in hun titeluitdrukking klimmen.
 
 >[!NOTE]
 >
