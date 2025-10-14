@@ -21,7 +21,7 @@ Met de zoekfunctie van Brand Portal kunt u snel relevante middelen zoeken met be
 >
 >Brand Portal biedt geen ondersteuning voor het zoeken naar verzamelingen met behulp van Omnsearch.
 >
->Nochtans, kunt u [ onderzoeksfilters gebruiken om de lijst van relevante inzamelingen ](#search-collection) te krijgen.
+>Nochtans, kunt u [&#x200B; onderzoeksfilters gebruiken om de lijst van relevante inzamelingen &#x200B;](#search-collection) te krijgen.
 
 ## Middelen zoeken met Omgaan {#search-assets-using-omnisearch}
 
@@ -46,7 +46,7 @@ Op Brand Portal zoeken naar elementen:
 
    *Onderzoek van Activa gebruikend Onderzoek*
 
-Om meer over onderzoeksgedrag met slimme geëtiketteerde activa te weten, ga [ onderzoeksresultaten en gedrag ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/using/search-assets) begrijpen.
+Om meer over onderzoeksgedrag met slimme geëtiketteerde activa te weten, ga [&#x200B; onderzoeksresultaten en gedrag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/using/search-assets) begrijpen.
 
 ## Zoeken met facetten in het deelvenster Filters {#search-using-facets-in-filters-panel}
 
@@ -54,12 +54,12 @@ Met zoekfacetten in het deelvenster Filters kunt u de zoekervaring korter maken 
 
 Als u bijvoorbeeld een afbeelding zoekt, kunt u kiezen of u een bitmap- of een vectorafbeelding wilt. U kunt het zoekbereik verder beperken door het MIME-type van de afbeelding op te geven in de zoekfacet Bestandstype. Op dezelfde manier kunt u bij het zoeken naar documenten de indeling opgeven, bijvoorbeeld de indeling PDF of MS® Word.
 
-![ het paneel van Filters in Brand Portal ](assets/file-type-search.png " het paneel van Filters in Brand Portal ")
+![&#x200B; het paneel van Filters in Brand Portal &#x200B;](assets/file-type-search.png " het paneel van Filters in Brand Portal ")
 
 Het deelvenster **[!UICONTROL Filters]** bevat een aantal standaardfacetten, zoals - **[!UICONTROL Path Browser]** , **[!UICONTROL File Type]** , **[!UICONTROL File Size]** , **[!UICONTROL Status]** en **[!UICONTROL Orientation]** .
-Nochtans, kunt u [ de facetten van het douaneonderzoek ](../using/brand-portal-search-facets.md) toevoegen of specifieke degenen verwijderen uit het **[!UICONTROL Filters]** paneel. Bewerk gewoon de voorspellingen in het onderliggende zoekformulier. Zie de lijst van de beschikbare en bruikbare [ onderzoeksvoorspelling op Brand Portal ](../using/brand-portal-search-facets.md#list-of-search-predicates).
+Nochtans, kunt u [&#x200B; de facetten van het douaneonderzoek &#x200B;](../using/brand-portal-search-facets.md) toevoegen of specifieke degenen verwijderen uit het **[!UICONTROL Filters]** paneel. Bewerk gewoon de voorspellingen in het onderliggende zoekformulier. Zie de lijst van de beschikbare en bruikbare [&#x200B; onderzoeksvoorspelling op Brand Portal &#x200B;](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-Om filters op uw onderzoek toe te passen, gebruikend de beschikbare [ onderzoeksfacetten ](../using/brand-portal-search-facets.md):
+Om filters op uw onderzoek toe te passen, gebruikend de beschikbare [&#x200B; onderzoeksfacetten &#x200B;](../using/brand-portal-search-facets.md):
 
 1. Klik op het bedekkingspictogram en selecteer **[!UICONTROL Filter]** .
 
@@ -83,7 +83,7 @@ Gebruik bijvoorbeeld de volgende standaardfilters:
    * **[!UICONTROL Style]** om te zoeken naar elementen op basis van de stijl (gekleurd, monochroom) van de elementen.
    * **[!UICONTROL Video Format]** om te zoeken naar video-elementen op basis van hun indeling (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
-   U kunt [ facetten van het douaneonderzoek gebruiken ](../using/brand-portal-search-facets.md) in het paneel van Filters door de onderliggende Vorm van het Onderzoek uit te geven.
+   U kunt [&#x200B; facetten van het douaneonderzoek gebruiken &#x200B;](../using/brand-portal-search-facets.md) in het paneel van Filters door de onderliggende Vorm van het Onderzoek uit te geven.
 
    * **[!UICONTROL Property Predicate]** gebruikt in het formulier Zoeken, kunt u zoeken naar elementen die overeenkomen met een metagegevenseigenschap waaraan de voorspelling is toegewezen.\
      Als Eigenschapsvoorspelling bijvoorbeeld wordt toegewezen aan `jcr:content/metadata/dc:title` , kunt u zoeken naar elementen op basis van hun titel.\

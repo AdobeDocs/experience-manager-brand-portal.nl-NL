@@ -26,7 +26,7 @@ ht-degree: 23%
    + [Veelgestelde vragen](/help/using/brand-portal-faqs.md)
    + [Ondersteunde bestandsindelingen](/help/using/brand-portal-supported-formats.md)
    + [Toegang voor gasten tot Brand Portal](/help/using/guest-access.md)
-   + [ Begrijpend Brand Portal met Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/home)
+   + [&#x200B; Begrijpend Brand Portal met Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/home)
    + [Bladeren op Brand Portal](/help/using/browse-assets-brand-portal.md)
 + Publish van Experience Manager Assets naar Brand Portal {#publish}
    + [Experience Manager Assets configureren met Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Problemen met parallelle publicatie naar Brand Portal oplossen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is geconfigureerd met Experience Manager Assets om goedgekeurde merkmiddelen naadloos in te nemen (of te publiceren) vanuit de Experience Manager Assets-auteur-instantie. Zodra [ gevormd ](../using/configure-aem-assets-with-brand-portal.md), gebruikt de Auteur van de Experience Manager een replicatieagent om één of meerdere geselecteerde activa aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
+Brand Portal is geconfigureerd met Experience Manager Assets om goedgekeurde merkmiddelen naadloos in te nemen (of te publiceren) vanuit de Experience Manager Assets-auteur-instantie. Zodra [&#x200B; gevormd &#x200B;](../using/configure-aem-assets-with-brand-portal.md), gebruikt de Auteur van de Experience Manager een replicatieagent om één of meerdere geselecteerde activa aan de wolkendienst van Brand Portal voor goedgekeurd gebruik door de gebruikers van Brand Portal te herhalen. De veelvoudige replicatieagenten worden gebruikt Experience Manager 6.2 SP1-GFP5, Experience Manager GFP 6.3.0.2, en verder om hoge snelheidsparallelle publicatie toe te staan.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Logboek van de mening, als de fouten in het replicatielogboek worden gevonden:
 
 1. Neem contact op met de Klantenondersteuning.
 
-1. Opnieuw [ schoonmaakbeurt ](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) en creeer opnieuw publiceer configuratie.
+1. Opnieuw [&#x200B; schoonmaakbeurt &#x200B;](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) en creeer opnieuw publiceer configuratie.
 
 <!--
 Comment Type: remark

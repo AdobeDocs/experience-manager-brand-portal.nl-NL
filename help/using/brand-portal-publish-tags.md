@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Leer hoe u tags kunt publiceren van Experience Manager Assets naar Brand Portal.
 
-Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Om te weten hoe te om markeringen aan activa in Experience Manager Assets toe te wijzen, verwijs [ gebruiksmarkeringen om activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/organize-assets) te organiseren.
+Tags zijn handig voor het ordenen van elementen en het verbeteren van de doorzoekbaarheid van elementen waaraan ze zijn gekoppeld. Tags kunnen worden beschouwd als trefwoorden of labels (metagegevens) die zijn gekoppeld met elementen en waarmee elementen snel kunnen worden gevonden als resultaat van een zoekopdracht. Om te weten hoe te om markeringen aan activa in Experience Manager Assets toe te wijzen, verwijs [&#x200B; gebruiksmarkeringen om activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/organize-assets) te organiseren.
 
 Tags (gekoppeld aan elementen en verzamelingen in AEM) worden automatisch naar Brand Portal gepubliceerd wanneer de elementen (en verzamelingen) met de bijbehorende tags naar Brand Portal worden gepubliceerd. De gepubliceerde tags zijn handig om zoekopdrachten in staat te stellen de bijbehorende elementen te vinden.
 
@@ -47,7 +47,7 @@ Meld u aan bij een AEM Author-instantie met beheerdersrechten en open de **[!UIC
      *(vereist)* Een vertoningstitel voor de markering.
    * **[!UICONTROL Name]**
 
-     *(vereist)* Een naam voor de markering. Als er geen waarde wordt opgegeven, wordt een geldige knooppuntnaam gemaakt op basis van de titel. Zie [ TagID ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
+     *(vereist)* Een naam voor de markering. Als er geen waarde wordt opgegeven, wordt een geldige knooppuntnaam gemaakt op basis van de titel. Zie [&#x200B; TagID &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Beschrijving**
 
      *(facultatief)* Een beschrijving van de markering.
@@ -64,7 +64,7 @@ JCR-pad van de tag.
 
 1. **maak de markering aan activa (of inzameling)** vast.
 
-   Selecteer een element (of verzameling) en koppel de gewenste tag via de sectie Eigenschappen of de sectie Codes beheren van dat element. Meer over weten hoe te om markeringen aan activa in AEM Assets toe te wijzen, ga [ gebruiksmarkeringen gaan om activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/organize-assets) te organiseren.
+   Selecteer een element (of verzameling) en koppel de gewenste tag via de sectie Eigenschappen of de sectie Codes beheren van dat element. Meer over weten hoe te om markeringen aan activa in AEM Assets toe te wijzen, ga [&#x200B; gebruiksmarkeringen gaan om activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/organize-assets) te organiseren.
 
 1. **de activa van Publish (of inzamelingen) aan Brand Portal**.\
    Als u een element (of verzameling) publiceert naar Brand Portal, is de bijgevoegde tag ook beschikbaar op Brand Portal.

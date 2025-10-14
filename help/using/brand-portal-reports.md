@@ -80,7 +80,7 @@ Het rapport toont ook de toegestane capaciteit voor elk van deze informatiemetri
 
 ## Rapporten genereren {#generate-reports}
 
-Beheerders kunnen de volgende standaardrapporten genereren en beheren. Na generatie, worden de rapporten bewaard voor [ recentere toegang ](../using/brand-portal-reports.md#main-pars-header).
+Beheerders kunnen de volgende standaardrapporten genereren en beheren. Na generatie, worden de rapporten bewaard voor [&#x200B; recentere toegang &#x200B;](../using/brand-portal-reports.md#main-pars-header).
 
 * Aanmeldingsgegevens gebruiker
 * Downloaden

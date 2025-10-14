@@ -23,13 +23,13 @@ De veelgestelde vragen over Brand Portal zijn toegespitst op de vragen en proble
 
 **Vraag: Het bestaande eindpunt OAuth van de erfenis (`https://legacy-oauth.cloud.adobe.io/login`) werkt niet. Wat zou de mogelijke reden kunnen zijn?**
 
-**Antwoord:** De oudere configuratie OAuth is verouderd. Voer een upgrade uit van de Experience Manager Assets-auteur naar het nieuwste servicepakket en configureer dit via Adobe Developer Console. Zie [ Experience Manager Assets met Brand Portal ](configure-aem-assets-with-brand-portal.md) voor details vormen. Voor oudere OAuth-configuratie werkt u echter totdat u een upgrade uitvoert, het verouderde OAuth-eindpunt wordt bijgewerkt naar `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` .
+**Antwoord:** De oudere configuratie OAuth is verouderd. Voer een upgrade uit van de Experience Manager Assets-auteur naar het nieuwste servicepakket en configureer dit via Adobe Developer Console. Zie [&#x200B; Experience Manager Assets met Brand Portal &#x200B;](configure-aem-assets-with-brand-portal.md) voor details vormen. Voor oudere OAuth-configuratie werkt u echter totdat u een upgrade uitvoert, het verouderde OAuth-eindpunt wordt bijgewerkt naar `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` .
 
 **Vraag: Ik kan niet de activa van de bijdrageomslag van Brand Portal aan Experience Manager Assets publiceren na bevordering aan Adobe Developer Console. Mijn auteur-exemplaar staat op Experience Manager Assets 6.5.4. Wat zou de mogelijke reden kunnen zijn?**
 
 **Antwoord:** ja, is er een bekende kwestie terwijl het publiceren van de activa van de bijdrageomslag aan Experience Manager Assets 6.5.4 door middel van Adobe Developer Console.
 
-Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
+Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [&#x200B; bevorderen uw configuraties &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
 
 
 **Vraag: Ik zie de inhoud van de bijdrageomslag niet die van Brand Portal in Experience Manager Assets wordt gepubliceerd. Wat zou de mogelijke reden kunnen zijn?**
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om de replicatieagent te vormen:
 
 **Vraag: Wat is de belangrijkste verandering in Brand Portal 6.4.5 versie?**
 
-**Antwoord:** Experience Manager Assets Brand Portal 6.4.5 laat gebruikers inhoud uploaden en de omslag van de Bijdrage terug naar Experience Manager Assets direct van Brand Portal publiceren, zonder beheerderrechten te vereisen. Voor meer informatie, zie [ Middelen van Activa in Brand Portal ](brand-portal-asset-sourcing.md).
+**Antwoord:** Experience Manager Assets Brand Portal 6.4.5 laat gebruikers inhoud uploaden en de omslag van de Bijdrage terug naar Experience Manager Assets direct van Brand Portal publiceren, zonder beheerderrechten te vereisen. Voor meer informatie, zie [&#x200B; Middelen van Activa in Brand Portal &#x200B;](brand-portal-asset-sourcing.md).
 
 
 
@@ -73,7 +73,7 @@ Voer de volgende stappen uit om de replicatieagent te vormen:
 **Vraag: Wanneer verplaats ik naar de nieuwe versie van Brand Portal?**
 
 **Antwoord:** Brand Portal 6.4.5 werd vrijgegeven aan productie in Oktober 2019. En de volgende Brand Portal-versie wordt verwacht voor maart 2020.
-Voor updates en versieverandering, adviseert de Adobe u de [ Nota&#39;s van de Versie ](brand-portal-release-notes.md) volgen en [ wat in Brand Portal ](whats-new.md) nieuw is.
+Voor updates en versieverandering, adviseert de Adobe u de [&#x200B; Nota&#39;s van de Versie &#x200B;](brand-portal-release-notes.md) volgen en [&#x200B; wat in Brand Portal &#x200B;](whats-new.md) nieuw is.
 
 
 
@@ -85,7 +85,7 @@ Voor updates en versieverandering, adviseert de Adobe u de [ Nota&#39;s van de V
 
 **Vraag: Is er om het even welke actie die op mijn deel als gebruiker van Brand Portal wordt vereist?**
 
-**Antwoord:** versie van Brand Portal 6.4.5 komt met een nieuwe eigenschap genoemd Middel. De beheerder moet de functie Asset Sourcing in Experience Manager Assets configureren om deze functie in te schakelen voor de Brand Portal-gebruikers. Voor meer informatie, verwijs naar [ Enable Activa die ](brand-portal-asset-sourcing.md).
+**Antwoord:** versie van Brand Portal 6.4.5 komt met een nieuwe eigenschap genoemd Middel. De beheerder moet de functie Asset Sourcing in Experience Manager Assets configureren om deze functie in te schakelen voor de Brand Portal-gebruikers. Voor meer informatie, verwijs naar [&#x200B; Enable Activa die &#x200B;](brand-portal-asset-sourcing.md).
 
 
 
@@ -160,7 +160,7 @@ De gebruikers van Brand Portal hebben toegang tot de **omslag van de Bijdrage** 
 
 **Vraag: Hoe te om nieuwe activa in een omslag van de Bijdrage te uploaden?**
 
-**Antwoord:** verwijs naar de gedetailleerde documentatie voor [ Uploading activa aan de omslag van de Bijdrage ](brand-portal-publish-contribution-folder-to-brand-portal.md).
+**Antwoord:** verwijs naar de gedetailleerde documentatie voor [&#x200B; Uploading activa aan de omslag van de Bijdrage &#x200B;](brand-portal-publish-contribution-folder-to-brand-portal.md).
 
 
 

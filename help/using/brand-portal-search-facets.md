@@ -17,13 +17,13 @@ ht-degree: 2%
 
 Beheerders kunnen voorspelden voor zoekopdrachten toevoegen aan het deelvenster [!UICONTROL Filters] om de zoekfunctie aan te passen en veelzijdig te maken.
 
-Brand Portal steunt [ beperkte onderzoek ](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) voor korrelige onderzoeken van goedgekeurde merkactiva, die mogelijk toe te schrijven aan het [**paneel van Filters** ](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) is. Zoekfacetten worden via **[!UICONTROL Search Form]** in de beheerfuncties beschikbaar gesteld in het deelvenster Filters. Een standaardzoekformulier met de naam Asset Admin Search Rail bestaat op de pagina Search Forms in beheerprogramma&#39;s. Beheerders kunnen het deelvenster Standaardfilters echter wel aanpassen. Ze kunnen het standaardzoekformulier (Asset Admin Search Rail) bewerken door zoekvoorspellen toe te voegen, te bewerken of te verwijderen, waardoor de zoekfunctionaliteit veelzijdig wordt.
+Brand Portal steunt [&#x200B; beperkte onderzoek &#x200B;](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) voor korrelige onderzoeken van goedgekeurde merkactiva, die mogelijk toe te schrijven aan het [**paneel van Filters** &#x200B;](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) is. Zoekfacetten worden via **[!UICONTROL Search Form]** in de beheerfuncties beschikbaar gesteld in het deelvenster Filters. Een standaardzoekformulier met de naam Asset Admin Search Rail bestaat op de pagina Search Forms in beheerprogramma&#39;s. Beheerders kunnen het deelvenster Standaardfilters echter wel aanpassen. Ze kunnen het standaardzoekformulier (Asset Admin Search Rail) bewerken door zoekvoorspellen toe te voegen, te bewerken of te verwijderen, waardoor de zoekfunctionaliteit veelzijdig wordt.
 
 U kunt verschillende zoekvoorinstellingen gebruiken om het deelvenster **[!UICONTROL Filters]** aan te passen. Voeg bijvoorbeeld de voorspelling van de eigenschap toe om te zoeken naar elementen die overeenkomen met één eigenschap die u in deze voorspelling opgeeft. Voeg de voorspelling van de opties toe om te zoeken naar elementen die overeenkomen met een of meer waarden die u voor een bepaalde eigenschap opgeeft. Voeg het datumbereik toe om te zoeken naar elementen die binnen een opgegeven datumbereik zijn gemaakt.
 
 >[!NOTE]
 >
->Experience Manager Assets staat organisaties toe om [ de aangepaste onderzoeksvormen van AEM Auteur ](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) aan Brand Portal te publiceren, in plaats van het opnieuw creëren van de zelfde vorm op Brand Portal.
+>Experience Manager Assets staat organisaties toe om [&#x200B; de aangepaste onderzoeksvormen van AEM Auteur &#x200B;](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) aan Brand Portal te publiceren, in plaats van het opnieuw creëren van de zelfde vorm op Brand Portal.
 
 ## Een voorspelling van zoekopdrachten toevoegen aan het deelvenster Filters {#add-a-search-predicate}
 

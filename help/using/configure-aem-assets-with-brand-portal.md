@@ -48,5 +48,5 @@ De stappen voor het configureren van AEM Assets met Brand Portal zijn afhankelij
 
 | **Versie van AEM** | **Nieuwe Configuratie** | **Configuratie van de Verbetering** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [ activeer Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 (6.5.4.0 en hierboven)** | [ creeer configuratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [ de configuratie van de Verbetering ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [&#x200B; activeer Brand Portal &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
+| **AEM 6.5 (6.5.4.0 en hierboven)** | [&#x200B; creeer configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [&#x200B; de configuratie van de Verbetering &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |

@@ -129,7 +129,7 @@ Deze release bevat de volgende verbeteringen:
 * Er is nu een nieuwe, moderne PDF-viewer beschikbaar voor een verbeterde voorvertoning van de PDF-elementen.
 * U kunt er nu voor kiezen om berichten voor het aanschaffen van bedrijfsmiddelen in of uit te schakelen voor beheerders. Navigeer naar [!UICONTROL General Settings] en schakel [!UICONTROL `Notify Administrator of asset contribution`] in of uit.
 
-  ![ breng Beheerder op de hoogte voor activabijdrage ](assets/notify-admin.png)
+  ![&#x200B; breng Beheerder op de hoogte voor activabijdrage &#x200B;](assets/notify-admin.png)
 
 * Een niet-geautoriseerde gebruiker kan geen toegang tot de Brand Portal aanvragen als de toegang tot de aanvraag is uitgeschakeld.
 * De organisaties die alleen provisioned zijn voor Brand Portal, zijn zichtbaar in de lijst met profielkiezers.
@@ -386,12 +386,12 @@ De Brand Portal-gebruikersinterface is beschikbaar in de volgende talen:
 
 ## Gecertificeerde platforms {#certified-platforms}
 
-Om te zien welke platforms voor deze versie van Brand Portal worden verklaard, controleer de **Steun voor aanraking-geoptimaliseerde UI** kolom in **Ondersteunde Browsers voor Authoring sectie van het Gebruikersinterface** van [ Technische Vereisten ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
+Om te zien welke platforms voor deze versie van Brand Portal worden verklaard, controleer de **Steun voor aanraking-geoptimaliseerde UI** kolom in **Ondersteunde Browsers voor Authoring sectie van het Gebruikersinterface** van [&#x200B; Technische Vereisten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Koppelingen {#links}
 
-* [ de Pagina van het Product van Adobe Experience Manager op adobe.com ](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [ Documentatie van Assets Brand Portal ](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/home)
+* [&#x200B; de Pagina van het Product van Adobe Experience Manager op adobe.com &#x200B;](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [&#x200B; Documentatie van Assets Brand Portal &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/home)
 
 ## Toegang tot en ondersteuning voor producten (beperkt aantal sites) {#product-access-and-support-restricted-sites}
 

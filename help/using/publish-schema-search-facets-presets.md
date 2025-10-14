@@ -81,7 +81,7 @@ Publicatie van een metagegevensschema vanuit Brand Portal ongedaan maken:
 
 ## Publish-zoekfacetten naar Brand Portal {#publish-search-facets-to-brand-portal}
 
-De vormen van het onderzoek verstrekken het vermogen van [ beperkt onderzoek ](../using/brand-portal-search-facets.md) aan gebruikers op Brand Portal. Zoeken in facetten geeft zoekopdrachten op Brand Portal meer granulariteit. Alle [ voorspelden toegevoegd ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/search-facets) in de onderzoeksvorm zijn beschikbaar aan gebruikers als onderzoeksfacetten in onderzoeksfilters.
+De vormen van het onderzoek verstrekken het vermogen van [&#x200B; beperkt onderzoek &#x200B;](../using/brand-portal-search-facets.md) aan gebruikers op Brand Portal. Zoeken in facetten geeft zoekopdrachten op Brand Portal meer granulariteit. Alle [&#x200B; voorspelden toegevoegd &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/search-facets) in de onderzoeksvorm zijn beschikbaar aan gebruikers als onderzoeksfacetten in onderzoeksfilters.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
@@ -112,7 +112,7 @@ U kunt als volgt zoekformulieren verwijderen uit Brand Portal:
 
 ### Beperkingen {#limitations}
 
-1. Weinig zoekvoorspellen zijn niet van toepassing op zoekfilters op de Brand Portal. Wanneer deze zoekvoorspelling wordt gepubliceerd als onderdeel van het zoekformulier van AEM instantie Auteur naar Brand Portal, worden ze uitgefilterd. Gebruikers zien daarom minder voorspellingen in de gepubliceerde vorm op de Brand Portal. Zie [ onderzoek voorspelt toepasselijk op filters op Brand Portal ](../using/brand-portal-search-facets.md#list-of-search-predicates).
+1. Weinig zoekvoorspellen zijn niet van toepassing op zoekfilters op de Brand Portal. Wanneer deze zoekvoorspelling wordt gepubliceerd als onderdeel van het zoekformulier van AEM instantie Auteur naar Brand Portal, worden ze uitgefilterd. Gebruikers zien daarom minder voorspellingen in de gepubliceerde vorm op de Brand Portal. Zie [&#x200B; onderzoek voorspelt toepasselijk op filters op Brand Portal &#x200B;](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 1. Als een gebruiker bijvoorbeeld [!UICONTROL Options Predicate] een aangepast pad gebruikt om opties te lezen voor een AEM instantie Auteur, werkt dit niet voor Brand Portal. Deze extra paden en opties worden niet met het zoekformulier naar Brand Portal gepubliceerd. In dit geval kunnen gebruikers de optie **[!UICONTROL Manual]** in **[!UICONTROL Add Options]** within **[!UICONTROL Options Predicate]** selecteren om deze opties handmatig in Brand Portal toe te voegen.
 

@@ -33,7 +33,7 @@ Als u de bestanden sneller wilt downloaden, moet u het volgende doen:
 
 * Navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Download]** en controleer of de **[!UICONTROL Fast Download]** -configuratie is ingeschakeld in **[!UICONTROL Download Settings]** .
 * Zorg ervoor dat poort 33001 (zowel TCP als UDP) is geopend op de firewall.
-* **installeer IBM® Aspera Connect 3.9.9** in de uitbreiding van uw browser gebruikend beheerdervoorrechten ([ IBM® Aspera Connect Downloads ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **installeer IBM® Aspera Connect 3.9.9** in de uitbreiding van uw browser gebruikend beheerdervoorrechten ([&#x200B; IBM® Aspera Connect Downloads &#x200B;](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
 
 >[!NOTE]
 >
@@ -77,23 +77,23 @@ Zo downloadt u elementen sneller van Brand Portal:
 
    * Selecteer de elementen of mappen die u wilt downloaden. Klik op het pictogram **[!UICONTROL Download]** op de werkbalk boven in het scherm.
 
-     ![ selecteren-veelvoud-activa ](assets/select-assets-new.png)
+     ![&#x200B; selecteren-veelvoud-activa &#x200B;](assets/select-assets-new.png)
 
    * Als u bepaalde elementuitvoeringen van een element wilt downloaden, plaatst u de aanwijzer boven het element en klikt u op het pictogram **[!UICONTROL Download]** dat beschikbaar is in de miniaturen van de handeling Snel.
 
-     ![ selecteren-activa ](assets/select-asset.png)
+     ![&#x200B; selecteren-activa &#x200B;](assets/select-asset.png)
 
 1. Het dialoogvenster **[!UICONTROL Download]** met alle geselecteerde elementen wordt geopend.
 
    Schakel het selectievakje **[!UICONTROL `Create separate folder for each asset`]** in als u de Brand Portal-maphiërarchie wilt behouden terwijl u elementen downloadt.
 
-   De downloadknop geeft het aantal geselecteerde items weer. Klik op **[!UICONTROL Download items]** als u klaar bent met het toepassen van de regels. Meer over leren hoe te om de regels toe te passen, zie [ downloadactiva ](../using/brand-portal-download-assets.md#download-assets).
+   De downloadknop geeft het aantal geselecteerde items weer. Klik op **[!UICONTROL Download items]** als u klaar bent met het toepassen van de regels. Meer over leren hoe te om de regels toe te passen, zie [&#x200B; downloadactiva &#x200B;](../using/brand-portal-download-assets.md#download-assets).
 
-   ![ download-dialoog ](assets/download-dialog-box-new.png)
+   ![&#x200B; download-dialoog &#x200B;](assets/download-dialog-box-new.png)
 
 1. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in **[!UICONTROL Download Settings]** . Daarom wordt een bevestigingsvenster weergegeven waarin u middelen kunt downloaden met IBM® Aspera Connect.
 
-   Als u voor het eerst middelen hebt gedownload en IBM® Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd deze te installeren. Als de bestaande versie verouderd is, wordt u ook ertoe aangezet om de [ de downloadaccelerator van de Ruimtedownload ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) te installeren.
+   Als u voor het eerst middelen hebt gedownload en IBM® Aspera Connect niet in uw browser hebt geïnstalleerd, wordt u gevraagd deze te installeren. Als de bestaande versie verouderd is, wordt u ook ertoe aangezet om de [&#x200B; de downloadaccelerator van de Ruimtedownload &#x200B;](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) te installeren.
 
    ![](assets/aspera-not-launched.png)
 
@@ -209,7 +209,7 @@ Als downloadversnelling niet voor u werkt, probeert u de volgende suggesties:
 
    Als de havens niet O.K. zijn, dan bereik uit aan uw netwerkteam en zorg ervoor dat de Havens 33001 (zowel TCP &amp; UDP) niet in de firewall worden geblokkeerd.
 
-1. Als de havens OK zijn, dan controleer als uw netwerk niet langzaam door de beschikbare bandbreedte te meten gebruikend [ https://www.speedtest.net/ ](https://www.speedtest.net/) is.
+1. Als de havens OK zijn, dan controleer als uw netwerk niet langzaam door de beschikbare bandbreedte te meten gebruikend [&#x200B; https://www.speedtest.net/ &#x200B;](https://www.speedtest.net/) is.
 
    Als de bandbreedte weinig (1-10 Mbps) of in Kbps is, dan gebruik de Voorkeur van de RUIMTE en probeer om de bandbreedte te beperken gelijk aan de beschikbare bandbreedte.
 

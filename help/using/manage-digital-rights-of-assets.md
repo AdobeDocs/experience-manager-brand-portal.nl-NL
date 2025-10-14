@@ -65,13 +65,13 @@ Tijdens het delen van elementen via koppelingen kunnen beheerders en editors een
 
 Het zorgt ervoor dat elementen die als koppelingen worden gedeeld, verlopen op de datum en tijd die door Brand Portal-beheerders en -editors zijn ingesteld. En de elementen kunnen na de vervaldatum niet meer worden weergegeven en gedownload. Om uw goedgekeurde middelen tegen externe gebruikers te beschermen, plaatst een vervaldatum op gedeelde verbindingen om ervoor te zorgen zij niet aan onbekende entiteiten na een gespecificeerde tijd worden blootgesteld.
 
-Voor meer informatie over verbinding het delen, verwijs naar [ activa van het Aandeel als verbinding ](../using/brand-portal-link-share.md).
+Voor meer informatie over verbinding het delen, verwijs naar [&#x200B; activa van het Aandeel als verbinding &#x200B;](../using/brand-portal-link-share.md).
 
 ## Gelicentieerde Assets {#licensed-assets}
 
-Voor gelicentieerde activa moet een licentieovereenkomst worden geaccepteerd voordat ze van Brand Portal kunnen worden gedownload. Deze overeenkomst voor gelicentieerde activa komt wanneer u direct het middel van Brand Portal of door middel van een gedeelde verbinding downloadt. Alle gebruikers kunnen met een licentie beveiligde elementen weergeven, ongeacht of deze zijn verlopen of niet. Het downloaden en gebruiken van verlopen gelicentieerde middelen is echter beperkt. Om over het gedrag van verlopen in licentie gegeven activa en toelaatbare activiteiten te weten die op gebruikersrollen worden gebaseerd, verwijs naar [ gebruikstoestemmingen van verlopen activa ](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Voor gelicentieerde activa moet een licentieovereenkomst worden geaccepteerd voordat ze van Brand Portal kunnen worden gedownload. Deze overeenkomst voor gelicentieerde activa komt wanneer u direct het middel van Brand Portal of door middel van een gedeelde verbinding downloadt. Alle gebruikers kunnen met een licentie beveiligde elementen weergeven, ongeacht of deze zijn verlopen of niet. Het downloaden en gebruiken van verlopen gelicentieerde middelen is echter beperkt. Om over het gedrag van verlopen in licentie gegeven activa en toelaatbare activiteiten te weten die op gebruikersrollen worden gebaseerd, verwijs naar [&#x200B; gebruikstoestemmingen van verlopen activa &#x200B;](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-De vergunning-beschermde activa hebben a [ vergunningsovereenkomst in bijlage ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/drm) aan hen, die door het de meta-gegevensbezit van activa in [!DNL Experience Manager Assets] te plaatsen wordt gedaan.
+De vergunning-beschermde activa hebben a [&#x200B; vergunningsovereenkomst in bijlage &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/drm) aan hen, die door het de meta-gegevensbezit van activa in [!DNL Experience Manager Assets] te plaatsen wordt gedaan.
 
 Een element wordt als beveiligd beschouwd als het een van de volgende (of beide) metagegevenseigenschappen bevat:
 
@@ -102,4 +102,4 @@ Beheerders kunnen een rapport genereren en downloaden waarin alle elementen word
 
 ![](assets/assets-expired.png)
 
-Voor meer informatie over de rapporteigenschap, ga naar [ Werk met rapporten ](../using/brand-portal-reports.md#work-with-reports).
+Voor meer informatie over de rapporteigenschap, ga naar [&#x200B; Werk met rapporten &#x200B;](../using/brand-portal-reports.md#work-with-reports).

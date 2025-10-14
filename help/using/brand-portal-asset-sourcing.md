@@ -26,14 +26,14 @@ ht-degree: 0%
 
 Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebruikers kunnen middelen weergeven, zoeken en downloaden vanuit de map met bijdragen en vanuit de andere toegestane mappen. En beheerders kunnen de bijdragemap verder delen, eigenschappen wijzigen en elementen toevoegen aan verzamelingen.
 
-![ Middelen van Brand Portal ](assets/asset-sourcing.png)
+![&#x200B; Middelen van Brand Portal &#x200B;](assets/asset-sourcing.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Vereisten {#prerequisites}
 
 * Experience Manager Assets as a Cloud Service-instantie, Experience Manager Assets 6.5.2 of hoger.
-* Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [ vormen Experience Manager Assets met Brand Portal ](../using/configure-aem-assets-with-brand-portal.md).
+* Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [&#x200B; vormen Experience Manager Assets met Brand Portal &#x200B;](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -49,7 +49,7 @@ Bovendien blijft alle bestaande functionaliteit ongewijzigd. Brand Portal-gebrui
 >
 >Experience Manager Assets 6.5.4 kent een probleem. Brand Portal-gebruikers kunnen de middelen van de bijdragemap niet naar Experience Manager Assets publiceren tijdens de upgrade naar Adobe Developer Console.
 >
->Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [ bevorderen uw configuraties ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
+>Het probleem is opgelost in Experience Manager Assets 6.5.5. U kunt uw instantie van Experience Manager Assets aan het recentste de dienstpak bevorderen en [&#x200B; bevorderen uw configuraties &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) op Adobe Developer Console.
 
 <!--
 
@@ -104,13 +104,13 @@ Een bijdragemap kan alleen worden gedeeld met de actieve Brand Portal-gebruikers
 
 >[!NOTE]
 >
->Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [ vormen Experience Manager Assets met Brand Portal ](../using/configure-aem-assets-with-brand-portal.md).
+>Controleer of uw Experience Manager Assets-exemplaar is geconfigureerd met Brand Portal. Zie, [&#x200B; vormen Experience Manager Assets met Brand Portal &#x200B;](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
 >De indeling van het CSV-bestand is gelijk aan de indeling die wordt ondersteund in de Admin Console voor het importeren van bulkgebruikers. E-mail, voornaam en achternaam zijn verplicht.
 
-De beheerders kunnen nieuwe gebruikers in Admin Console toevoegen. Ga naar [ leiden Gebruikers ](brand-portal-adding-users.md) voor gedetailleerde informatie. Nadat u gebruikers in de Admin Console hebt toegevoegd, kunnen deze gebruikers worden toegevoegd aan het configuratiebestand van de Brand Portal-gebruiker en krijgen ze vervolgens toestemming om toegang te krijgen tot de map met bijdragen.
+De beheerders kunnen nieuwe gebruikers in Admin Console toevoegen. Ga naar [&#x200B; leiden Gebruikers &#x200B;](brand-portal-adding-users.md) voor gedetailleerde informatie. Nadat u gebruikers in de Admin Console hebt toegevoegd, kunnen deze gebruikers worden toegevoegd aan het configuratiebestand van de Brand Portal-gebruiker en krijgen ze vervolgens toestemming om toegang te krijgen tot de map met bijdragen.
 
 **om de de gebruikerslijst van Brand Portal te uploaden:**
 

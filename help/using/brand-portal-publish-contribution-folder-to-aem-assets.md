@@ -155,7 +155,7 @@ Beheerders kunnen twee rapporten gebruiken om de status te bekijken van mappen v
 
 ## Automatische verwijdering van naar Experience Manager Assets gepubliceerde middelen uit de map Contribution {#automatically-delete-published-assets-from-contribution-folder}
 
-Brand Portal voert nu om de twaalf uur automatische taken uit om alle bijdragemappen te scannen en alle middelen te verwijderen die naar AEM zijn gepubliceerd. Dientengevolge, te hoeven u niet de activa in de omslag van de Bijdrage manueel te schrappen om de omslaggrootte onder de [ drempelgrens ](#upload-new-assets-to-contribution-folder) te houden. U kunt ook de status controleren van de verwijdertaken die de afgelopen zeven dagen automatisch zijn uitgevoerd. Het rapport voor een baan verstrekt de volgende details:
+Brand Portal voert nu om de twaalf uur automatische taken uit om alle bijdragemappen te scannen en alle middelen te verwijderen die naar AEM zijn gepubliceerd. Dientengevolge, te hoeven u niet de activa in de omslag van de Bijdrage manueel te schrappen om de omslaggrootte onder de [&#x200B; drempelgrens &#x200B;](#upload-new-assets-to-contribution-folder) te houden. U kunt ook de status controleren van de verwijdertaken die de afgelopen zeven dagen automatisch zijn uitgevoerd. Het rapport voor een baan verstrekt de volgende details:
 
 * Begintijd taak
 * Eindtijd van taak
@@ -164,11 +164,11 @@ Brand Portal voert nu om de twaalf uur automatische taken uit om alle bijdragema
 * Totaal aantal elementen is verwijderd in een taak
 * Totale opslag beschikbaar gesteld als gevolg van de uitvoering van de taak
 
-  ![ Rapport van de Schrapping ](assets/deletion-reports.png)
+  ![&#x200B; Rapport van de Schrapping &#x200B;](assets/deletion-reports.png)
 
 U kunt ook verder naar beneden boren om de details van elk middel te bekijken inbegrepen in een schrappingsbaan. De details zoals activa titel, grootte, auteur, schrappingsstatus, en schrappingstijd zijn inbegrepen in het rapport.
 
-![ Gedetailleerd Rapport van de Schrapping ](assets/deletion-reports-detailed.png)
+![&#x200B; Gedetailleerd Rapport van de Schrapping &#x200B;](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >

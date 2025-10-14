@@ -21,7 +21,7 @@ Maar het ontwikkelen van oplossingen die efficiënte en veilige delen van zaken 
 **Adobe Experience Manager (AEM) Assets Brand Portal** concentreert zich op de behoefte van de marktleider om effectief met de globaal verdeelde gebruikers van Brand Portal samen te werken door activadistributie en activa bijdragemogelijkheden te verstrekken.
 
 Met Asset Distribution kunt u goedgekeurde creatieve elementen aanschaffen, beheren en veilig distribueren aan externe partijen en interne zakelijke gebruikers op verschillende apparaten. Dankzij de bijdrage aan bedrijfsmiddelen kunnen Brand Portal-gebruikers echter elementen uploaden naar Brand Portal en publiceren naar Experience Manager Assets, zonder dat ze toegang hoeven te hebben tot de auteursomgeving. De bijdrageeigenschap wordt geroepen als **Middelen van Assets in Brand Portal**. En samen verbetert het de algemene ervaring van Brand Portal op het gebied van de distributie van activa en de bijdrage van de Brand Portal-gebruikers (externe agentschappen/teams), versnelt het de tijd-aan-markt voor activa, en vermindert het risico van niet-naleving en onbevoegde toegang.
-Zie, [ Middelen van Activa in Brand Portal ](brand-portal-asset-sourcing.md).
+Zie, [&#x200B; Middelen van Activa in Brand Portal &#x200B;](brand-portal-asset-sourcing.md).
 
 Met de browsergebaseerde portalomgeving kunt u elementen eenvoudig uploaden, doorbladeren, zoeken, voorvertonen en exporteren in goedgekeurde indelingen.
 
@@ -35,15 +35,15 @@ Als u Adobe Experience Manager Assets configureert met Brand Portal, kunt u func
 
 >[!IMPORTANT]
 >
-> * Brand Portal bevindt zich in de onderhoudsmodus. Alle nieuwe productinnovaties zijn beschikbaar op [ Content Hub ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * Brand Portal bevindt zich in de onderhoudsmodus. Alle nieuwe productinnovaties zijn beschikbaar op [&#x200B; Content Hub &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Als u Brand Portal nog steeds moet activeren, neemt u contact op met uw Adobe-vertegenwoordiger voor meer informatie over uw gebruiksgeval en andere specifieke vereisten.
-> * Brand Portal is niet beschikbaar met [ Assets Prime ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/assets-prime) of [ Assets Ultimate ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Bestaande Assets as a Cloud Service-klanten, die al toegang hebben tot Brand Portal, kunnen deze echter blijven gebruiken wanneer ze naar Assets Ultimate overstappen.
+> * Brand Portal is niet beschikbaar met [&#x200B; Assets Prime &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/assets-prime) of [&#x200B; Assets Ultimate &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Bestaande Assets as a Cloud Service-klanten, die al toegang hebben tot Brand Portal, kunnen deze echter blijven gebruiken wanneer ze naar Assets Ultimate overstappen.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
 Nochtans, wordt Experience Manager Assets (op gebouw en beheerde dienst) manueel gevormd met Brand Portal gebruikend Adobe Developer Console, die een teken van de Diensten van Adobe Identity Management (IMS) voor vergunning van de huurder van Brand Portal aanschaft.
 
-Voor meer informatie, zie [ het vormen Experience Manager Assets met Brand Portal ](../using/configure-aem-assets-with-brand-portal.md).
+Voor meer informatie, zie [&#x200B; het vormen Experience Manager Assets met Brand Portal &#x200B;](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Personen van gebruikers in Brand Portal {#Personas}
 
@@ -77,7 +77,7 @@ De volgende lijst maakt een lijst van de taken die de gebruikers in deze rollen 
 
 ### Gastgebruiker {#guest-user}
 
-Experience Manager Assets Brand Portal staat [ gasttoegang ](#request-access-to-brand-portal) aan Brand Portal toe. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare omslagen en de inzamelingen. Als gastgebruiker, kunt u door activa details doorbladeren en een volledige activamening van leden van openbare omslagen en inzamelingen hebben. U kunt openbare middelen zoeken, downloaden en toevoegen aan de [!UICONTROL Lightbox] -verzameling.
+Experience Manager Assets Brand Portal staat [&#x200B; gasttoegang &#x200B;](#request-access-to-brand-portal) aan Brand Portal toe. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare omslagen en de inzamelingen. Als gastgebruiker, kunt u door activa details doorbladeren en een volledige activamening van leden van openbare omslagen en inzamelingen hebben. U kunt openbare middelen zoeken, downloaden en toevoegen aan de [!UICONTROL Lightbox] -verzameling.
 
 Nochtans, beperkt de gastzitting u van het creëren van inzamelingen en bewaarde onderzoeken, en deelt hen verder. Gebruikers in een gastsessie hebben geen toegang tot de instellingen voor mappen en verzamelingen en kunnen hun middelen niet als koppeling delen. Hier is een lijst van taken die een gastgebruiker kan uitvoeren:
 
@@ -89,7 +89,7 @@ Nochtans, beperkt de gastzitting u van het creëren van inzamelingen en bewaarde
 
 * [Elementen toevoegen aan [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-Voor meer informatie, ga naar [ Gast Toegang tot Brand Portal ](../using/guest-access.md).
+Voor meer informatie, ga naar [&#x200B; Gast Toegang tot Brand Portal &#x200B;](../using/guest-access.md).
 
 ### Viewer {#viewer}
 
@@ -142,7 +142,7 @@ Vanaf Brand Portal 6.4.3 kunnen organisaties één alternatieve (alias) URL hebb
 Als de huurdersnaam meer dan 32 karakters is, dan moet een huurdersalias worden gecreeerd.
 Merk op dat alleen het voorvoegsel van de Brand Portal URL kan worden aangepast en niet de volledige URL. Zo kan een organisatie met een bestaand domein `geomettrix.brand-portal.adobe.com` op verzoek `geomettrixinc.brand-portal.adobe.com` maken.
 
-Nochtans, kan de instantie van de Auteur van AEM [ worden gevormd ](../using/configure-aem-assets-with-brand-portal.md) slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselend) URL.
+Nochtans, kan de instantie van de Auteur van AEM [&#x200B; worden gevormd &#x200B;](../using/configure-aem-assets-with-brand-portal.md) slechts met huurder identiteitskaart URL en niet met huurder alias (afwisselend) URL.
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ Ga als volgt te werk om toegang aan te vragen:
 
 1. Selecteer op de Brand Portal-aanmeldingspagina de optie **[!UICONTROL Click here]** voor **[!UICONTROL Need Access?]** . Als u echter de gastsessie wilt betreden, selecteert u de **[!UICONTROL Click here]** betreffende sessie van **[!UICONTROL Guest Access?]** .
 
-   ![ Brand Portal login scherm ](assets/bp-login-requestaccess.png)
+   ![&#x200B; Brand Portal login scherm &#x200B;](assets/bp-login-requestaccess.png)
 
    De pagina [!UICONTROL Request Access] wordt geopend.
 
@@ -175,7 +175,7 @@ De pagina [!UICONTROL Sign-in] wordt geopend.
 
    1. Geef uw [!UICONTROL Adobe ID] -gegevens op en klik op **[!UICONTROL Sign-in]** .
 
-      ![ Adobe teken binnen ](assets/bplogin_request_access_3.png)
+      ![&#x200B; Adobe teken binnen &#x200B;](assets/bplogin_request_access_3.png)
 
    U wordt omgeleid naar de pagina [!UICONTROL Request Access] .
 
@@ -200,24 +200,24 @@ De pagina [!UICONTROL Sign-up] wordt geopend.
 
 Brand Portal-productbeheerders ontvangen toegangsaanvragen in hun Brand Portal-systeemvak en via e-mails in hun Postvak IN.
 
-![ Toegang verzocht bericht ](assets/bplogin_request_access_7.png)
+![&#x200B; Toegang verzocht bericht &#x200B;](assets/bplogin_request_access_7.png)
 
 Als u toegang wilt verlenen, moeten productbeheerders op de desbetreffende melding in het Brand Portal-systeemvak klikken en vervolgens op **[!UICONTROL Grant Access]** klikken.
 Productbeheerders kunnen ook de koppeling in de e-mail met het toegangsverzoek volgen om de Adobe [!UICONTROL Admin Console] te bezoeken en de gebruiker toe te voegen aan de relevante productconfiguratie.
 
-U wordt opnieuw gericht aan de [ Adobe [!UICONTROL Admin Console] ](https://adminconsole.adobe.com/enterprise/overview) homepage. Met de Adobe [!UICONTROL Admin Console] kunt u gebruikers maken en deze toewijzen aan productprofielen (voorheen productconfiguraties genoemd) die in Brand Portal als groepen worden weergegeven. Voor meer informatie over het toevoegen van gebruikers in [!UICONTROL Admin Console], zie [ een gebruiker ](brand-portal-adding-users.md#add-a-user) toevoegen (stap 4-7 in de procedure volgen om een gebruiker toe te voegen).
+U wordt opnieuw gericht aan de [&#x200B; Adobe [!UICONTROL Admin Console] &#x200B;](https://adminconsole.adobe.com/enterprise/overview) homepage. Met de Adobe [!UICONTROL Admin Console] kunt u gebruikers maken en deze toewijzen aan productprofielen (voorheen productconfiguraties genoemd) die in Brand Portal als groepen worden weergegeven. Voor meer informatie over het toevoegen van gebruikers in [!UICONTROL Admin Console], zie [&#x200B; een gebruiker &#x200B;](brand-portal-adding-users.md#add-a-user) toevoegen (stap 4-7 in de procedure volgen om een gebruiker toe te voegen).
 
 ## Brand Portal talen {#brand-portal-language}
 
 U kunt de Brand Portal-taal wijzigen vanuit Adobe [!UICONTROL Experience Cloud Settings] .
 
-![ Toegang verzocht bericht ](assets/BPLang.png)
+![&#x200B; Toegang verzocht bericht &#x200B;](assets/BPLang.png)
 
 De taal wijzigen:
 
 1. Selecteer [!UICONTROL User] > [!UICONTROL Edit Profile] in het bovenste menu.
 
-   ![ geef Profiel ](assets/EditBPProfile.png) uit
+   ![&#x200B; geef Profiel &#x200B;](assets/EditBPProfile.png) uit
 
 1. Selecteer op de pagina [!UICONTROL Experience Cloud Settings] een taal in de vervolgkeuzelijst [!UICONTROL Language] .
 
@@ -241,4 +241,4 @@ Je kunt dit bericht negeren en doorgaan met Brand Portal. Deze melding wordt in 
 * [Adobe Customer Support]()
 -->
 
-* [ Forums van AEM ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [&#x200B; Forums van AEM &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

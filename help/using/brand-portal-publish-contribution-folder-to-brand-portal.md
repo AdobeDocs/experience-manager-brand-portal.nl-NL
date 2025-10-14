@@ -152,4 +152,4 @@ Als de map met bijdragen is geconfigureerd, kan Experience Manager Assets-gebrui
 
    U ontvangt een succesbericht nadat de map met bijdragen naar Brand Portal is gepubliceerd.
 
-Er wordt een e-mail-/pulsmelding verzonden naar de Brand Portal-gebruikers die zijn toegewezen aan de bijdragemap. De Brand Portal-gebruikers hebben toegang tot de map met bijdragen en kunnen een bijdrage starten. Zie, [ activa aan de bijdrageomslag uploaden en aan Experience Manager Assets ](brand-portal-publish-contribution-folder-to-aem-assets.md) publiceren.
+Er wordt een e-mail-/pulsmelding verzonden naar de Brand Portal-gebruikers die zijn toegewezen aan de bijdragemap. De Brand Portal-gebruikers hebben toegang tot de map met bijdragen en kunnen een bijdrage starten. Zie, [&#x200B; activa aan de bijdrageomslag uploaden en aan Experience Manager Assets &#x200B;](brand-portal-publish-contribution-folder-to-aem-assets.md) publiceren.

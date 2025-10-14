@@ -23,10 +23,10 @@ Een voorinstelling voor afbeeldingen wordt gebruikt om dynamische uitvoeringen t
 
 >[!NOTE]
 >
->Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt, kunt u geen voorinstellingen kiezen. In plaats daarvan kunt u de eigenschappen van een aangepaste voorinstelling voor afbeeldingen opgeven. Voor meer informatie, zie [ beeld toepassen vooraf instelt wanneer het downloaden van beelden ](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
+>Wanneer u afbeeldingen en de bijbehorende uitvoeringen downloadt, kunt u geen voorinstellingen kiezen. In plaats daarvan kunt u de eigenschappen van een aangepaste voorinstelling voor afbeeldingen opgeven. Voor meer informatie, zie [&#x200B; beeld toepassen vooraf instelt wanneer het downloaden van beelden &#x200B;](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
-Voor meer informatie over de parameters die worden vereist terwijl het creëren van beeld stelt vooraf in, zie [ het Leiden Beeld vooraf instelt ](../using/brand-portal-image-presets.md).
+Voor meer informatie over de parameters die worden vereist terwijl het creëren van beeld stelt vooraf in, zie [&#x200B; het Leiden Beeld vooraf instelt &#x200B;](../using/brand-portal-image-presets.md).
 
 ## Een voorinstelling voor afbeeldingen maken {#create-an-image-preset}
 

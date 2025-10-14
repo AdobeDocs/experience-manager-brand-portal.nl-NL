@@ -28,12 +28,12 @@ Hier volgen de stappen die moeten worden uitgevoerd voor gebruikers die zich voo
 
    >[!NOTE]
    >
-   >Als uw organisatie bedrijfs-id&#39;s gebruikt in plaats van deze aanmeldingspagina weer te geven, wordt u doorgestuurd naar de aanmeldingspagina voor het bedrijf. Voor meer informatie, zie [ Enterprise ID, login, en rekeningshulp ](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Als uw organisatie bedrijfs-id&#39;s gebruikt in plaats van deze aanmeldingspagina weer te geven, wordt u doorgestuurd naar de aanmeldingspagina voor het bedrijf. Voor meer informatie, zie [&#x200B; Enterprise ID, login, en rekeningshulp &#x200B;](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
 1. Klik op **[!UICONTROL Continue]** om door te gaan naar de Brand Portal-pagina van uw organisatie.
 1. Klik op de aanmeldingspagina van Brand Portal op **[!UICONTROL Sign In]** om u aan te melden bij Brand Portal.
 
-   ![ het Teken van Brand Portal binnen pagina ](assets/signin-onboarding.png)
+   ![&#x200B; het Teken van Brand Portal binnen pagina &#x200B;](assets/signin-onboarding.png)
 
    >[!NOTE]
    >

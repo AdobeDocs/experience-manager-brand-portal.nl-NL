@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Experience Manager Assets Brand Portal biedt gasttoegang tot het portaal. Een gastgebruiker heeft geen geloofsbrieven nodig om het portaal in te gaan en heeft toegang tot de openbare activa (en inzamelingen) van het portaal. De gebruikers in de gastzitting kunnen activa aan lichtbak (privé inzameling) toevoegen en het zelfde downloaden tot hun zitting duurt of tenzij de gastgebruiker aan [[!UICONTROL End Session]](#exit-guest-session) verkiest. Een gastgebruikerssessie blijft 15 minuten actief.
 
-De de toegangsfunctionaliteit van de gast laat organisaties toe om [ goedgekeurde activa snel ](../using/brand-portal-sharing-folders.md#how-to-share-folders) met het voorgenomen publiek aan schaal te delen zonder het moeten hen aan boord hebben. Brand Portal 6.4.2 en hoger is uitgerust om meerdere gelijktijdige gastgebruikers te bedienen, wat 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers met beperkte functionaliteit op Brand Portal te beheren en aan boord te hebben.\
+De de toegangsfunctionaliteit van de gast laat organisaties toe om [&#x200B; goedgekeurde activa snel &#x200B;](../using/brand-portal-sharing-folders.md#how-to-share-folders) met het voorgenomen publiek aan schaal te delen zonder het moeten hen aan boord hebben. Brand Portal 6.4.2 en hoger is uitgerust om meerdere gelijktijdige gastgebruikers te bedienen, wat 10% van de totale gebruikersquota per organisatie is. Door gasttoegang toe te staan, bespaart u tijd om scores van gebruikers met beperkte functionaliteit op Brand Portal te beheren en aan boord te hebben.\
 Organisaties kunnen toegang voor gasten inschakelen (of uitschakelen) in de Brand Portal-account van de organisatie met de optie **[!UICONTROL Allow Guest Access]** in de instellingen van **[!UICONTROL Access]** in het deelvenster met beheergereedschappen.
 
 <!--
@@ -54,12 +54,12 @@ Het aantal gelijktijdige gastsessies is beperkt tot 10% van de totale gebruikers
 
 ### Navigatie gastinterface
 
-Bij het ingaan van Brand Portal als gast, kunnen de gebruikers alle [ activa en omslagen zien die ](../using/brand-portal-sharing-folders.md#sharefolders) openbaar of met gastgebruikers exclusief worden gedeeld. Deze weergave is de weergave alleen voor inhoud. In deze weergave worden elementen in de kaart-, lijst- of kolomindeling weergegeven.
+Bij het ingaan van Brand Portal als gast, kunnen de gebruikers alle [&#x200B; activa en omslagen zien die &#x200B;](../using/brand-portal-sharing-folders.md#sharefolders) openbaar of met gastgebruikers exclusief worden gedeeld. Deze weergave is de weergave alleen voor inhoud. In deze weergave worden elementen in de kaart-, lijst- of kolomindeling weergegeven.
 
 ![](assets/disabled-folder-hierarchy1.png)
 
 
-Als de beheerders [ toelaten laat de Hiërarchie van de Omslag ](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) toe, zien de gastgebruikers de omslagboom van de wortel en gedeelde omslagen binnen hun ouderomslagen op het registreren in Brand Portal.
+Als de beheerders [&#x200B; toelaten laat de Hiërarchie van de Omslag &#x200B;](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) toe, zien de gastgebruikers de omslagboom van de wortel en gedeelde omslagen binnen hun ouderomslagen op het registreren in Brand Portal.
 
 Deze bovenliggende mappen zijn virtuele mappen en er kunnen geen handelingen op worden uitgevoerd. U kunt deze virtuele mappen herkennen met een vergrendelingspictogram.
 
@@ -123,7 +123,7 @@ Gebruik het downloadpictogram van:
 
 ![](assets/download-on-guest.png)
 
-Het selecteren **[!UICONTROL Enable download acceleration]** in het [!UICONTROL Download] dialoogvakje laat u [ de downloadprestaties ](../using/accelerated-download.md) verbeteren.
+Het selecteren **[!UICONTROL Enable download acceleration]** in het [!UICONTROL Download] dialoogvakje laat u [&#x200B; de downloadprestaties &#x200B;](../using/accelerated-download.md) verbeteren.
 
 ## Bezoekerssessie afsluiten {#exit-guest-session}
 

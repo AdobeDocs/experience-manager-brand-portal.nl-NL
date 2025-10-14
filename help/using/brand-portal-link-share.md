@@ -23,7 +23,7 @@ Het delen van elementen via een koppeling is een handige manier om deze beschikb
 <!-- Link sharing access is restricted to editors and administrators. 
 -->
 
-Voor meer informatie, zie [ het Leiden gebruikers, groepen, en gebruikersrollen ](../using/brand-portal-adding-users.md#manage-user-roles).
+Voor meer informatie, zie [&#x200B; het Leiden gebruikers, groepen, en gebruikersrollen &#x200B;](../using/brand-portal-adding-users.md#manage-user-roles).
 
 
 Hier volgen de stappen om elementen als een koppeling te delen:
@@ -32,7 +32,7 @@ Hier volgen de stappen om elementen als een koppeling te delen:
 
 1. Selecteer de elementen of mappen die u wilt delen, of navigeer naar de **[!UICONTROL Collections]** -weergave om de gemaakte verzamelingen te delen.
 
-   ![ selecteren-veelvoud-activa ](assets/select-assets-new.png)
+   ![&#x200B; selecteren-veelvoud-activa &#x200B;](assets/select-assets-new.png)
 
 1. Klik op het pictogram **[!UICONTROL Share Link]** op de werkbalk boven in het scherm.
 
@@ -49,7 +49,7 @@ Hier volgen de stappen om elementen als een koppeling te delen:
    * Gebruik in het veld **[!UICONTROL Expiration]** de datumkiezer om een vervaldatum en -tijd voor de koppeling op te geven. De vervaldatum is standaard ingesteld op 7 dagen vanaf de datum waarop u de koppeling deelt.
    * Schakel het selectievakje **[!UICONTROL Allow download of the original file]** in zodat de ontvangers de oorspronkelijke vertoning kunnen downloaden.
 
-   De elementen die via de koppeling worden gedeeld, verlopen na het overschrijden van de datum en tijd die in het veld **[!UICONTROL Expiration]** zijn opgegeven. Voor details op verlopen activa en op rol-gebaseerde activiteitenveranderingen in Brand Portal, zie [ digitale rechten van activa beheren ](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   De elementen die via de koppeling worden gedeeld, verlopen na het overschrijden van de datum en tijd die in het veld **[!UICONTROL Expiration]** zijn opgegeven. Voor details op verlopen activa en op rol-gebaseerde activiteitenveranderingen in Brand Portal, zie [&#x200B; digitale rechten van activa beheren &#x200B;](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Hier volgen de stappen om elementen als een koppeling te delen:
 
    >[!NOTE]
    >
-   >De beheerders kunnen het e-mailoverseinen aanpassen, dat het aanpassen van embleem, beschrijving, en footer met [ Brandend ](../using/brand-portal-branding.md) eigenschap omvat.
+   >De beheerders kunnen het e-mailoverseinen aanpassen, dat het aanpassen van embleem, beschrijving, en footer met [&#x200B; Brandend &#x200B;](../using/brand-portal-branding.md) eigenschap omvat.
 
 ## Elementen downloaden van gedeelde koppelingen {#download-assets-from-shared-links}
 
@@ -75,11 +75,11 @@ De gedeelde elementen downloaden:
 
    >[!NOTE]
    >
-   >Op dit moment kunt u, afhankelijk van de bestandsindeling, alleen voor bepaalde elementen een voorvertoning en miniatuur genereren. Voor meer informatie over de gesteunde dossierformaten, zie [ Voorproef en duimnagelsteun voor activa formaten ](#preview-thumbnail-support).
+   >Op dit moment kunt u, afhankelijk van de bestandsindeling, alleen voor bepaalde elementen een voorvertoning en miniatuur genereren. Voor meer informatie over de gesteunde dossierformaten, zie [&#x200B; Voorproef en duimnagelsteun voor activa formaten &#x200B;](#preview-thumbnail-support).
 
 1. Het dialoogvenster **[!UICONTROL Download]** wordt weergegeven.
 
-   ![ download-dialoog ](assets/download-dialog-box-new.png)
+   ![&#x200B; download-dialoog &#x200B;](assets/download-dialog-box-new.png)
 
 1. De instelling **[!UICONTROL Fast Download]** wordt standaard ingeschakeld in **[!UICONTROL Download Settings]** . Daarom wordt een bevestigingsvenster weergegeven waarin het downloaden met IBM® Aspera Connect wordt voortgezet.
 
@@ -95,7 +95,7 @@ De gedeelde elementen downloaden:
 
    >[!NOTE]
    >
-   >Als de beheerder de gebruiker die de elementen heeft gedeeld niet heeft geautoriseerd, downloadt de gedeelde koppeling de oorspronkelijke vertoningen niet. Zie ook [ die door de beheerder wordt gemachtigd om toegang tot de originele vertoningen ](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges) te hebben.
+   >Als de beheerder de gebruiker die de elementen heeft gedeeld niet heeft geautoriseerd, downloadt de gedeelde koppeling de oorspronkelijke vertoningen niet. Zie ook [&#x200B; die door de beheerder wordt gemachtigd om toegang tot de originele vertoningen &#x200B;](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges) te hebben.
 
 
 >[!NOTE]
