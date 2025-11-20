@@ -26,20 +26,20 @@ ht-degree: 23%
    + [Veelgestelde vragen](/help/using/brand-portal-faqs.md)
    + [Ondersteunde bestandsindelingen](/help/using/brand-portal-supported-formats.md)
    + [Toegang voor gasten tot Brand Portal](/help/using/guest-access.md)
-   + [&#x200B; Begrijpend Brand Portal met Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-brand-portal/using/home)
+   + [ Begrijpend Brand Portal met Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [Bladeren op Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Publish van Experience Manager Assets naar Brand Portal {#publish}
++ Publiceren van Experience Manager Assets naar Brand Portal {#publish}
    + [Experience Manager Assets configureren met Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
-   + [Assets publiceren naar Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
-   + [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-   + [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+   + [Assets publiceren naar Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
+   + [Mappen publiceren naar Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [Verzamelingen publiceren naar Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [Problemen met parallelle publicatie naar Brand Portal oplossen](/help/using/troubleshoot-parallel-publishing.md)
-   + [Publish-tags naar Brand Portal](/help/using/brand-portal-publish-tags.md)
-   + [Publish-voorinstellingen, -schema en -facetten naar Brand Portal](/help/using/publish-schema-search-facets-presets.md)
-+ Asset Sourcing in Brand Portal {#asset-sourcing-in-brand-portal}
+   + [Codes publiceren naar Brand Portal](/help/using/brand-portal-publish-tags.md)
+   + [Voorinstellingen, schema en facetten publiceren naar Brand Portal](/help/using/publish-schema-search-facets-presets.md)
++ Asset Sourting in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Overzicht van Asset Souring](/help/using/brand-portal-asset-sourcing.md)
    + [Contribute-map in Experience Manager Assets configureren](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Publish Contributiemap naar Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Bijdragemap publiceren naar Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Elementen delen met gebruikers {#share}
    + [Een verzameling delen](/help/using/brand-portal-share-collection.md)
    + [Mappen delen](/help/using/brand-portal-sharing-folders.md)
@@ -53,7 +53,7 @@ ht-degree: 23%
    + [De lichtbakverzameling beheren](/help/using/brand-portal-light-box.md)
    + [Digitale rechten van middelen beheren](/help/using/manage-digital-rights-of-assets.md)
    + [Handleiding voor het versnellen van downloads van Brand Portal](/help/using/accelerated-download.md)
-+ Gereedschappen voor beheer gebruiken {#admin-tools}
++ Beheertools gebruiken {#admin-tools}
    + [Gebruikerstoegang beheren op Brand Portal](/help/using/access-configurations-brand-portal.md)
    + [Algemene huurdersconfiguraties beheren](/help/using/brand-portal-general-configuration.md)
    + [Ervaring voor eerste aanmelding](/help/using/brand-portal-onboarding.md)
